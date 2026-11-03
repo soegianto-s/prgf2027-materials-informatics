@@ -847,5 +847,263 @@
       "delta_e": -3.20510963072191,
       "stability": 0.0
     }
+  ],
+  "Ca16O56P16": [
+    {
+      "name": "Ca2P2O7",
+      "entry_id": 36466,
+      "calculation_id": 2260275,
+      "icsd_id": 14313,
+      "composition": "Ca2 O7 P2",
+      "composition_generic": "A2B2C7",
+      "prototype": "Ca2P2O7(beta)",
+      "spacegroup": "P41",
+      "volume": 1056.85,
+      "ntypes": 3,
+      "natoms": 88,
+      "unit_cell": [
+        [
+          6.635731,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.635731,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          24.001352
+        ]
+      ],
+      "delta_e": -3.08558297014283,
+      "stability": 0.003412136818184308
+    },
+    {
+      "name": "Ca2P2O7",
+      "entry_id": 1345414,
+      "calculation_id": 3386344,
+      "icsd_id": null,
+      "composition": "Ca2 O7 P2",
+      "composition_generic": "A2B2C7",
+      "prototype": null,
+      "spacegroup": "C2/m",
+      "volume": 141.322,
+      "ntypes": 3,
+      "natoms": 11,
+      "unit_cell": [
+        [
+          3.426935,
+          -4.512311,
+          0.0
+        ],
+        [
+          3.426935,
+          4.512311,
+          0.0
+        ],
+        [
+          -0.865247,
+          0.0,
+          4.569581
+        ]
+      ],
+      "delta_e": -3.08055070173374,
+      "stability": 0.008444405227274299
+    },
+    {
+      "name": "Ca2P2O7",
+      "entry_id": 1345283,
+      "calculation_id": 3386061,
+      "icsd_id": null,
+      "composition": "Ca2 O7 P2",
+      "composition_generic": "A2B2C7",
+      "prototype": null,
+      "spacegroup": "Pna21",
+      "volume": 557.946,
+      "ntypes": 3,
+      "natoms": 44,
+      "unit_cell": [
+        [
+          5.219193,
+          0.0,
+          0.0
+        ],
+        [
+          -9e-06,
+          8.544554,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          12.511208
+        ]
+      ],
+      "delta_e": -3.07860816491556,
+      "stability": 0.01038694204545454
+    },
+    {
+      "name": "Ca2P2O7",
+      "entry_id": 1344641,
+      "calculation_id": 3384635,
+      "icsd_id": null,
+      "composition": "Ca2 O7 P2",
+      "composition_generic": "A2B2C7",
+      "prototype": null,
+      "spacegroup": "Pnma",
+      "volume": 560.449,
+      "ntypes": 3,
+      "natoms": 44,
+      "unit_cell": [
+        [
+          8.540652,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.236326,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          12.531949
+        ]
+      ],
+      "delta_e": -3.07978756173374,
+      "stability": 0.009207545227274405
+    },
+    {
+      "name": "Ca2P2O7",
+      "entry_id": 1387334,
+      "calculation_id": 3519095,
+      "icsd_id": null,
+      "composition": "Ca2 O7 P2",
+      "composition_generic": "A2B2C7",
+      "prototype": null,
+      "spacegroup": "P1",
+      "volume": 139.322,
+      "ntypes": 3,
+      "natoms": 11,
+      "unit_cell": [
+        [
+          4.62083135,
+          0.0,
+          0.0
+        ],
+        [
+          -0.633424329,
+          5.593712031,
+          0.0
+        ],
+        [
+          -0.634751799,
+          -1.58564937,
+          5.390121113
+        ]
+      ],
+      "delta_e": -3.07408526355192,
+      "stability": 0.014909843409094403
+    },
+    {
+      "name": "Ca2P2O7",
+      "entry_id": 1870134,
+      "calculation_id": 4882072,
+      "icsd_id": null,
+      "composition": "Ca2 O7 P2",
+      "composition_generic": "A2B2C7",
+      "prototype": null,
+      "spacegroup": "Cm",
+      "volume": 142.014,
+      "ntypes": 3,
+      "natoms": 11,
+      "unit_cell": [
+        [
+          3.439743271,
+          -4.500673787,
+          0.0
+        ],
+        [
+          3.439743271,
+          4.500673787,
+          0.0
+        ],
+        [
+          -0.85566353,
+          0.0,
+          4.586666136
+        ]
+      ],
+      "delta_e": -3.0810692053701043,
+      "stability": 0.007925901590910112
+    },
+    {
+      "name": "Ca2P2O7",
+      "entry_id": 4133,
+      "calculation_id": 5221565,
+      "icsd_id": 22225,
+      "composition": "Ca2 O7 P2",
+      "composition_generic": "A2B2C7",
+      "prototype": "Pr2Si2O7",
+      "spacegroup": "P21/c",
+      "volume": 560.695,
+      "ntypes": 3,
+      "natoms": 44,
+      "unit_cell": [
+        [
+          5.271823058,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          8.46015043,
+          0.0
+        ],
+        [
+          -5.204115593,
+          0.0,
+          12.571524461
+        ]
+      ],
+      "delta_e": -3.0889951069610144,
+      "stability": 0.0
+    },
+    {
+      "name": "Ca2P2O7",
+      "entry_id": 2171018,
+      "calculation_id": 5700725,
+      "icsd_id": null,
+      "composition": "Ca2 O7 P2",
+      "composition_generic": "A2B2C7",
+      "prototype": null,
+      "spacegroup": "C2/m",
+      "volume": 142.15,
+      "ntypes": 3,
+      "natoms": 11,
+      "unit_cell": [
+        [
+          3.438487081,
+          -4.54376322,
+          0.0
+        ],
+        [
+          3.438487081,
+          4.54376322,
+          0.0
+        ],
+        [
+          -0.872542515,
+          0.0,
+          4.549175004
+        ]
+      ],
+      "delta_e": -3.0824950826428323,
+      "stability": 0.006500024318182085
+    }
   ]
 }

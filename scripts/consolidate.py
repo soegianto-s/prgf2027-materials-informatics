@@ -113,6 +113,33 @@ def main():
             "doi": r.get("doi"), "tahun": pd.to_numeric(r.get("year"), errors="coerce"),
         })
 
+    # --- OQMD (bila akuisisi sudah menghasilkan data) ---
+    oq_path = RAW / "oqmd" / "formationenergy.json"
+    if oq_path.exists():
+        try:
+            oq = json.loads(oq_path.read_text(encoding="utf-8"))
+            for comp, entri in oq.items():
+                for e in entri:
+                    el = parse_formula(e.get("composition", comp))
+                    rows.append({
+                        "sumber": "OQMD", "id": f"oqmd-{e.get('entry_id', comp)}",
+                        "formula": (e.get("composition") or comp).replace(" ", ""),
+                        "chemsys": None,
+                        "Ca": el.get("Ca"), "P": el.get("P"), "O": el.get("O"),
+                        "H": el.get("H"), "F": el.get("F"), "ca_p_ratio": ca_p(el),
+                        "nsites": e.get("natoms"), "volume_A3": e.get("volume"), "Z": None,
+                        "densitas_gcm3": None, "bandgap_eV": None,
+                        "Eform_eV_atom": e.get("delta_e"),
+                        "E_hull_eV_atom": None, "stabil": None,
+                        "kristal_sistem": None, "spacegroup": e.get("spacegroup"),
+                        "bulk_K_GPa": None, "shear_G_GPa": None, "young_E_GPa": None,
+                        "poisson": None, "prototipe": e.get("prototype"),
+                        "icsd": e.get("icsd_id"),
+                        "doi": None, "tahun": None,
+                    })
+        except Exception as ex:
+            print("  OQMD: skip integrasi:", ex)
+
     # --- PubChem (metadata kimia) ---
     pc_path = RAW / "pubchem" / "pubchem_cap.csv"
     if pc_path.exists():
