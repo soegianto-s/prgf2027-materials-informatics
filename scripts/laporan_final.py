@@ -74,6 +74,13 @@ yang menempati peringkat teratas adalah bahan graft tulang yang dikenal di klini
 - Densitas didorong oleh volume sel, EN rata-rata, dan berat molekul; Ca/P berkorelasi positif (0.57) dengan densitas prediksi.
 - Fitur redundan EN_diff & VEC disisihkan (r > 0.85 dengan EN_avg, VIF > 10).
 
+## 5b. Validasi Komputasional (MACE-MP-0, pra-DFT)
+
+- Kelima kandidat top stabil di bawah relaksasi MLFF: dV <= 0,41% (karbonat apatit +0,36%, FAp +0,27%, OCP -0,16%, apatit +0,41%; TTCP +3,03% -> prioritas verifikasi DFT).
+- Konstanta elastik kristal tunggal: E = 206-220 GPa, K = 127-139 GPa, nu ~ 0,23 (khas keramik apatit; MLFF dikenal overestimate -> DFT definitif menyusul).
+- Gibson-Ashby: porositas 70-78% diperlukan agar scaffold mencapai modulus tulang kortikal 10-20 GPa -> spesifikasi desain fabrikasi.
+- Detail: `data/reports/laporan_validasi_komputasional.md`; struktur terelaksasi: `data/validasi_mlff/*_relaxed.cif`.
+
 ## 6. Risiko, Keputusan, Keterbatasan
 
 - **Bias sumber:** fraksi tetangga sesumber (k=5) = 0.94 -> klaster sebagian dibentuk oleh sumber data (COD eksperimental vs MP/AFLOW komputasional). Mitigasi: pemodelan hanya pada subset komputasional; split berbasis kelompok komposisi.
@@ -84,10 +91,10 @@ yang menempati peringkat teratas adalah bahan graft tulang yang dikenal di klini
 
 ## 7. Langkah Selanjutnya
 
-1. Integrasikan OQMD bila akuisisi selesai (verifikasi stabilitas fase via icsd_id).
-2. Validasi DFT/MD untuk Top 5 kandidat (stabilitas & modulus).
-3. Analisis sensitivitas bobot yang lebih luas + pembobotan entropi.
-4. Penyusunan artikel (target: Computational Materials Science, Elsevier Gold OA — sesuai RAB).
+1. [SELESAI] Integrasi OQMD (280 entri; uji eksternal R2=0,951).
+2. [SEBAGIAN] Validasi komputasional: pra-validasi MLFF selesai (stabil, E 206-220 GPa, porositas 70-78%); DFT definitif di klaster dengan input QE siap.
+3. [SELESAI] Analisis sensitivitas bobot: 3 skenario manual + entropi (Spearman 0,974).
+4. Penyusunan artikel — draft manuskrip IMRaD + PDF siap (data/reports/manuscript/).
 5. Platform AI-Assisted Biomaterial Discovery (roadmap AMREC).
 """
     (REPORTS / "LAPORAN_FINAL.md").write_text(laporan, encoding="utf-8")

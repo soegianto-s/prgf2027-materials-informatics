@@ -10,3 +10,6 @@ tabulate==0.10.0
 # opsional (eksplorasi lanjutan)
 # umap-learn
 # hdbscan
+# validasi komputasional MLFF (disetujui pengguna 2026-11-04)
+ase
+mace-torch

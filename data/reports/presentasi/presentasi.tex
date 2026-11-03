@@ -1,0 +1,213 @@
+\documentclass[10pt,aspectratio=169]{beamer}
+\usetheme{Madrid}
+\usecolortheme{default}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\graphicspath{{../figures/}}
+\setbeamertemplate{navigation symbols}{}
+\setbeamerfont{caption}{size=\scriptsize}
+
+\definecolor{unairblue}{RGB}{42,120,214}
+
+\title{An AI-Based Materials Informatics Framework for the Discovery of Calcium Phosphate Scaffold Candidates}
+\author[Soelistiono et al.]{Soegianto Soelistiono, Herri Trilaksana, Yhosep G. Y. Yhuwana, Bernardi Pranggono}
+\institute[AMREC -- Universitas Airlangga]{Advanced Materials and Renewable Energy Conversion (AMREC)\\ Universitas Airlangga -- Anglia Ruskin University}
+\date{November 2026}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}{Motivation}
+\begin{itemize}
+\item Bone defects from trauma, degenerative disease, congenital abnormalities remain a major clinical challenge.
+\item Calcium phosphates (CaP) are biocompatible, bioactive, osteoconductive --- the scaffold materials of choice.
+\item Conventional trial-and-error discovery is slow and costly.
+\item \textbf{Goal:} an end-to-end, replicable Materials Informatics framework that accelerates CaP scaffold discovery with AI.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Framework workflow}
+\centering
+Data Mining $\rightarrow$ Preprocessing $\rightarrow$ Descriptors $\rightarrow$ EDA/Clustering $\rightarrow$ ML $\rightarrow$ MCDM $\rightarrow$ XAI\\[2mm]
+\begin{tabular}{lll}
+\toprule
+Stage & Tools & Output \\
+\midrule
+Acquisition & 5 open databases & 2{,}885 entries / 950 compositions \\
+Preprocessing & QC, IQR/z-score & audited dataset \\
+Descriptors & Ca/P, EN, VEC, cell volume, density & 10 descriptors \\
+EDA & PCA, t-SNE, UMAP, K-Means, HDBSCAN & design-space map \\
+ML & SVR, RF, XGBoost (GroupKFold) & $R^2$ up to 0.91 \\
+MCDM & TOPSIS + VIKOR $\times$ 3 weights & Top-15 candidates \\
+XAI & SHAP & descriptor roles \\
+\bottomrule
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Dataset: 5 open sources}
+\begin{table}
+\centering
+\begin{tabular}{llcl}
+\toprule
+Source & Access & License & Entries \\
+\midrule
+Materials Project & API key & CC-BY 4.0 & 57 \\
+AFLOW (AFLUX) & REST & cite Curtarolo et al. & 234 \\
+COD & HTTP & CC0 & 2{,}304 \\
+PubChem & PUG REST & public domain & 13 \\
+OQMD & oqmdapi & cite Kirklin et al. & 280 \\
+\midrule
+\textbf{Total} & & & \textbf{2{,}885} \\
+\bottomrule
+\end{tabular}
+\caption{950 unique compositions (target $\geq$500 met); cell volume \& space group 99.5\% complete.}
+\end{table}
+\end{frame}
+
+\begin{frame}{Design space: PCA \& clustering}
+\begin{columns}
+\column{0.55\textwidth}
+\includegraphics[width=\textwidth]{fig_pca_kelompok.png}
+\column{0.45\textwidth}
+\begin{itemize}\small
+\item PCA: 61.1\% variance (2 PCs)
+\item K-Means $k=5$ (silhouette 0.552)
+\item Ward hierarchical: ARI 0.907 vs K-Means $\Rightarrow$ stable
+\item HDBSCAN: 17 dense clusters
+\item Source-bias check: 94\% same-source nearest neighbors $\Rightarrow$ modeling on computed subset
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Predictive models (GroupKFold by composition)}
+\begin{table}
+\centering
+\begin{tabular}{llccc}
+\toprule
+Target & Model & $R^2$ & RMSE & MAE \\
+\midrule
+Formation energy (eV/at) & \textbf{SVR tuned} & \textbf{0.869} & 0.395 & 0.221 \\
+External test (OQMD, $n$=280) & SVR & \textbf{0.951} & 0.248 & -- \\
+Density (g/cm$^3$) & \textbf{Random forest} & \textbf{0.909} & 0.096 & 0.027 \\
+Suitability classification & Random forest & Acc 0.975 & F1 0.90 & \\
+\bottomrule
+\end{tabular}
+\caption{Leakage-free: polymorphs always in the same fold. Band gap not predictable from composition (documented).}
+\end{table}
+\end{frame}
+
+\begin{frame}{Multi-objective ranking (TOPSIS + VIKOR)}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{itemize}\small
+\item 6 criteria: stability, density $\to$ 2.0, Ca/P $\to$ 1.67, modulus $\to$ 15 GPa, band gap, ML suitability
+\item 3 weight scenarios + Shannon entropy
+\item Spearman 0.974: ranking robust
+\item Stability z-scored per source
+\end{itemize}
+\column{0.5\textwidth}
+\begin{table}
+\centering
+\begin{tabular}{llc}
+\toprule
+Rank & Candidate & Family \\
+\midrule
+1 & Ca$_{10}$P$_6$CO$_{27}$ & carbonated apatite \\
+2 & Ca$_5$P$_3$O$_{12}$F & fluorapatite \\
+3 & Ca$_{10}$F$_2$O$_{24}$P$_6$ & fluorapatite \\
+4 & Ca$_{10}$P$_6$O$_{25}$ & apatite \\
+5 & Ca$_8$P$_6$H$_{12}$O$_{29}$ & OCP \\
+6 & Ca$_{16}$O$_{36}$P$_8$ & TTCP \\
+7 & Ca$_4$P$_2$O$_9$ & TTCP \\
+8 & Ca$_5$P$_3$HO$_{13}$ & hydroxyapatite \\
+\bottomrule
+\end{tabular}
+\end{table}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Top candidates match clinical bone-graft materials}
+\centering
+\begin{itemize}
+\item Carbonated apatite -- biomimetic bone mineral
+\item Fluorapatite -- highly stable apatite
+\item Octacalcium phosphate -- bone-growth precursor
+\item Tetracalcium phosphate -- bone-cement component
+\item Hydroxyapatite -- gold-standard scaffold
+\end{itemize}
+\vspace{2mm}
+The framework \textbf{rediscovered} the clinically established hierarchy from database descriptors alone.
+\end{frame}
+
+\begin{frame}{Validation against experiment}
+\begin{table}
+\centering
+\begin{tabular}{llccc}
+\toprule
+Phase & Property & This work & Literature & Deviation \\
+\midrule
+Hydroxyapatite & $\rho$ (g/cm$^3$) & 3.178 & 3.16 & $+0.6$\% \\
+Fluorapatite & $\rho$ (g/cm$^3$) & 3.104 & 3.19 & $-2.7$\% \\
+$\beta$-TCP (R3c) & $a, c$ (\AA) & 10.449, 37.448 & 10.44, 37.38 & $+0.1/0.2$\% \\
+$\alpha$-TCP (P21/a) & $a, b, c$ (\AA) & 12.887, 27.28, 15.219 & 12.89, 27.28, 15.22 & $\leq 0.03$\% \\
+Carbonated apatite & $\rho$ (g/cm$^3$) & 3.053 & 3.0 & $+1.8$\% \\
+\bottomrule
+\end{tabular}
+\caption{Formation energies: HAp $-3.22$ vs $-3.15$ eV/atom (standard enthalpy); FAp $-3.42$ vs $-3.39$.}
+\end{table}
+\end{frame}
+
+\begin{frame}{Interpretability: SHAP}
+\begin{columns}
+\column{0.5\textwidth}
+\includegraphics[width=\textwidth]{fig_shap_bar_eform.png}
+\column{0.5\textwidth}
+\begin{itemize}\small
+\item Formation energy driven by O fraction and density
+\item Density driven by cell volume and average electronegativity
+\item Ca/P--density SHAP correlation $+0.57$
+\item Redundant descriptors removed ($|r|>0.85$, VIF $>$ 10)
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Computational validation: MACE-MP-0 (pre-DFT)}
+\begin{itemize}
+\item All Top-5 relaxed with universal MLFF (MACE-MP-0, medium, float64): \textbf{stable} --- volume change $\leq 0.4\%$ (TTCP $+3.0\%$)
+\item Single-crystal stiffness: E = 206--220 GPa, $\nu \approx 0.23$ --- apatite-like, narrow band
+\item Gibson--Ashby: \textbf{70--78\% porosity} $\Rightarrow$ cortical-bone modulus (10--20 GPa) --- design target for 3D printing
+\item Definitive DFT (Quantum ESPRESSO inputs ready) to follow on cluster
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Limitations \& outlook}
+\begin{itemize}
+\item Elastic moduli scarce in databases ($n=9$) $\Rightarrow$ MLFF/DFT validation mandatory
+\item Band gap not predictable from composition descriptors
+\item Source-dependent formation-energy scales $\Rightarrow$ external OQMD test as mitigation
+\item Replicable by design: pinned dependencies, orchestrator, versioned dataset with SHA-256 checksums
+\item Next: AI-assisted biomaterial discovery platform (AMREC roadmap)
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Summary}
+\begin{itemize}
+\item End-to-end Materials Informatics framework: 5 databases $\rightarrow$ AI $\rightarrow$ ranked candidates
+\item 2{,}885 entries, 950 unique CaP compositions
+\item $R^2 = 0.87$ (formation energy; external test 0.95), $R^2 = 0.91$ (density)
+\item Top candidates = carbonated apatite, fluorapatite, OCP, TTCP, HAp
+\item Validated against experiment within 3\%; $\alpha$-TCP lattice reproduced to 0.03\%
+\item Fully replicable, publication-ready framework
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\centering
+\Large Terima kasih --- Thank you\\[4mm]
+\normalsize soegianto@fst.unair.ac.id\\ AMREC, Universitas Airlangga
+\end{frame}
+
+\end{document}
