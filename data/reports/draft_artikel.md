@@ -106,7 +106,11 @@ Sensitivitas: korelasi Spearman peringkat entropi vs manual = 0.974. [Table 3]
 SHAP: fraksi O dan densitas dominan untuk Eform; volume sel + EN_avg untuk densitas;
 korelasi SHAP Ca/P–densitas +0.57. Validasi eksperimen: selisih densitas ≤ 2,9%
 (HAp +0,6%; FAp −2,7%; karbonat apatit +1,8%; TTCP −2,4%…+1,0%); Eform HAp −3,22 vs
-−3,15 eV/atom (entalpi standar); FAp −3,42 vs −3,39. [Fig. 5–7]
+−3,15 eV/atom (entalpi standar); FAp −3,42 vs −3,39. Validasi kisi α/β-TCP (COD):
+β-TCP a = 10,449 Å (+0,1%), c = 37,448 Å (+0,2%), ρ = 3,04 (−1,1%); α-TCP (Mathew
+1977) a = 12,887 Å (−0,03%), b = 27,28 Å (0,0%), c = 15,219 Å (−0,01%), ρ = 2,86
+(+0,1%). Catatan: AFLOW melaporkan TCP sebagai R-3m (ρ +10,9% — overbinding GGA).
+[Fig. 5–7]
 
 ## 4. Discussion
 
