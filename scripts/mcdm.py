@@ -53,7 +53,9 @@ def main():
         k["bulk_K_GPa"].notna() & k["shear_G_GPa"].notna(),
         9 * k["bulk_K_GPa"] * k["shear_G_GPa"] / (3 * k["bulk_K_GPa"] + k["shear_G_GPa"]),
         np.nan)
-    k["C_stabilitas"] = -k["Eform_eV_atom"]
+    # skala Eform antar sumber berbeda -> standarisasi z-score PER SUMBER (keputusan tercatat)
+    k["C_stabilitas"] = -k.groupby("sumber")["Eform_eV_atom"].transform(
+        lambda s: (s - s.mean()) / (s.std() + 1e-12))
     k["C_densitas"] = -np.abs(k["densitas_final_gcm3"] - 2.0)
     k["C_cap"] = -np.abs(k["ca_p_ratio"] - 1.67)
     k["C_modulus"] = -np.abs(k["young_E_deriv_GPa"] - 15)

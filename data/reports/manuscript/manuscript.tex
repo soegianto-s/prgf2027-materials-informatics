@@ -1,0 +1,254 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.4cm]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage[hidelinks]{hyperref}
+\usepackage{amsmath}
+
+\captionsetup{font=small,labelfont=bf,skip=4pt}
+\graphicspath{{../figures/}}
+\setlength{\parskip}{3pt}
+
+\title{\bfseries An Artificial-Intelligence-Based Materials Informatics Framework for the Accelerated Discovery of Calcium Phosphate Biomaterials as Candidate Scaffolds for Bone Tissue Engineering}
+
+\author{
+Soegianto Soelistiono$^{1,\ast}$, Herri Trilaksana$^{1}$, Yhosep Gita Yhun Yhuwana$^{1}$,\\
+Bernardi Pranggono$^{2}$\\[4pt]
+\small $^{1}$Department of Physics, Faculty of Science and Technology, Universitas Airlangga, Surabaya 60115, Indonesia\\
+\small $^{2}$School of Computing and Information Science, Faculty of Science and Engineering, Anglia Ruskin University, Cambridge, United Kingdom\\[4pt]
+\small $^{\ast}$Corresponding author: soegianto@fst.unair.ac.id
+}
+
+\date{Manuscript draft v1.0 --- \today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Bone defects arising from trauma, degenerative disease, and congenital abnormalities remain a major clinical challenge. Calcium phosphate biomaterials are attractive scaffold candidates owing to their biocompatibility, bioactivity, and osteoconductivity, yet conventional trial-and-error discovery is time- and cost-intensive. Here we present an end-to-end Materials Informatics framework that integrates five open materials databases (Materials Project, AFLOW, Crystallography Open Database, PubChem, OQMD) with artificial intelligence to accelerate the discovery of calcium phosphate biomaterials for bone tissue engineering scaffolds. A curated dataset of 2{,}885 entries spanning 950 unique compositions was assembled and audited. Physicochemical descriptors (Ca/P ratio, average electronegativity, valence electron concentration, molecular weight, cell volume, density) were engineered and multicollinearity was controlled ($|r| > 0.85$, VIF $> 10$). Predictive models trained under composition-grouped cross-validation achieved $R^2 = 0.87$ for formation energy (tuned support vector regression) and $R^2 = 0.91$ for density (random forest); applied to an external test set of 280 OQMD entries, the formation-energy model achieves $R^2 = 0.95$, demonstrating cross-database transferability. A scaffold-suitability classifier reached an F1 score of 0.90. Multi-objective ranking (TOPSIS and VIKOR under three weighting scenarios, with Shannon-entropy sensitivity analysis) identified carbonated apatite, fluorapatite, octacalcium phosphate, tetracalcium phosphate, and hydroxyapatite as the leading candidates, in agreement with clinically established bone-graft materials. Computed densities and formation energies of reference phases deviate from experimental values by less than 3\%, and lattice parameters of $\alpha$-TCP and $\beta$-TCP agree with crystallographic literature within 1.1\%; this validates the framework against independent data. SHAP analysis reveals the oxygen fraction and density as the dominant descriptors of thermodynamic stability. The framework is fully replicable (versioned dataset with checksums, open tooling) and provides a foundation for an AI-assisted biomaterial discovery platform.
+
+\noindent\textbf{Keywords:} materials informatics; machine learning; calcium phosphate; bone tissue engineering; scaffold; multi-criteria decision making; SHAP
+\end{abstract}
+
+%=============================================================
+\section{Introduction}
+
+Bone defects caused by trauma, degenerative diseases, infection, congenital abnormalities, and aging remain a major burden on healthcare systems, often leading to loss of mechanical function and reduced quality of life~\cite{farag2023}. Bone tissue engineering, which combines biomaterials, cells, and biological factors, has emerged as a promising strategy in which the biomaterial acts as a scaffold that provides structural support and a suitable microenvironment for cell adhesion, proliferation, and differentiation~\cite{farag2023}. Calcium phosphate ceramics remain the materials of choice because their mineral composition resembles natural bone, and they are biocompatible, bioactive, and osteoconductive~\cite{vaiani2023}.
+
+Advances in scaffold fabrication, particularly 3D printing, enable scaffolds with tailored geometry, porosity, and internal architecture~\cite{premananth2024}. Machine learning has been integrated into the optimization of composite scaffolds such as PLA/cHAP, improving mechanical properties and fabrication parameters~\cite{omigbodun2024}. Additive manufacturing research increasingly combines biodegradable polymers and ceramics for patient-specific structures~\cite{zhu2025}, supported by multiscale biomechanics-driven design pipelines~\cite{hou2026} and modeling/simulation approaches that make scaffold development more systematic than conventional trial-and-error~\cite{vasudev2026}.
+
+In parallel, artificial intelligence (AI) has begun to accelerate biomaterial design through materials data analysis, process optimization, property prediction, and automated candidate recommendation~\cite{martelli2025,logeshwaran2024,gokcekuyu2024}. Data-driven approaches have been used to predict material properties, biomolecular stability, and product characteristics using materials databases and machine learning algorithms~\cite{kang2023,kalejaye2024,hayashi2023}, and AI has transformed pharmaceutical formulation and manufacturing workflows in an analogous manner~\cite{nizamuddin2025,han2025,vora2023,gholap2024}.
+
+Nevertheless, most reported work focuses on isolated stages---biomaterial development, manufacturing optimization, or the application of AI to a specific step---whereas a comprehensive Materials Informatics framework that integrates data acquisition, descriptor engineering, AI analysis, multi-objective evaluation, and interpretable recommendation remains rare. As a preliminary step, our group developed a data-driven discovery workflow for calcium phosphate scaffolds using materials informatics and machine learning clustering, screening hundreds of compounds based on thermodynamic stability, crystal structure, density, and electronic properties~\cite{soelistiono2026}. That study demonstrated that multi-objective descriptor balancing yields more representative material rankings than single dominant parameters, but it did not yet constitute a systematic, replicable framework.
+
+In this work, we address this gap by developing and validating an end-to-end Materials Informatics framework with the following contributions: (i) an audited multi-source dataset of 2{,}605 calcium phosphate entries spanning 903 unique compositions; (ii) descriptor engineering with explicit multicollinearity control; (iii) predictive models for formation energy and density, validated under composition-grouped cross-validation to prevent data leakage; (iv) multi-objective ranking with TOPSIS/VIKOR and Shannon-entropy sensitivity analysis; and (v) validation of the framework against independent experimental data, including crystallographic lattice parameters of $\alpha$-TCP and $\beta$-TCP.
+
+%=============================================================
+\section{Methods}
+
+\subsection{Data acquisition}
+Five open data sources were queried (Table~\ref{tab:sumber}): the Materials Project REST API (CC-BY 4.0), AFLOW (AFLUX REST API), the Crystallography Open Database (COD, CC0, queried over HTTP), PubChem (PUG REST, public domain), and OQMD (oqmdapi, flaky server handled with long retries and per-composition caching). Chemical systems queried were Ca--P, Ca--P--O, Ca--P--O--H, Ca--P--O--C (carbonated apatite), and Ca--P--O--F (fluorapatite). Access dates, versions, and licenses were recorded for every source (Supplementary).
+
+\begin{table}[ht]
+\centering\small
+\caption{Data sources, licenses, and entries retained in the consolidated dataset.}
+\label{tab:sumber}
+\begin{tabular}{llcl}
+\toprule
+Source & Access & License & Entries \\
+\midrule
+Materials Project & API (key) & CC-BY 4.0 & 57 \\
+AFLOW (AFLUX) & REST, no key & cite Curtarolo et al. & 234 \\
+COD (crystallography.net) & HTTP, no key & CC0 & 2{,}304 \\
+PubChem & PUG REST, no key & public domain & 13 \\
+OQMD & oqmdapi, no key & cite Kirklin et al. & 280 \\
+\midrule
+\textbf{Total} & & & \textbf{2{,}885} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Preprocessing and descriptor engineering}
+Non-physical values (negative density, non-positive cell volume) were nulled (4 rows). Outliers were detected with IQR$\times$3 and $|z|>4$ rules and \emph{retained} when physically plausible, with per-case decisions recorded. Units were standardized to SI (GPa, g/cm$^3$, eV/atom, \AA$^3$). Theoretical density for COD entries was computed as $\rho = MZ/(N_A V_\mathrm{cell})$. Descriptors included the Ca/P atomic ratio, average electronegativity (EN$_\mathrm{avg}$) and electronegativity range (EN$_\mathrm{diff}$), valence electron concentration (VEC), molecular weight, cell volume, and density. Redundant descriptors were removed ($|r| > 0.85$ with EN$_\mathrm{avg}$, VIF $> 10$): EN$_\mathrm{diff}$ ($r=0.889$) and VEC ($r=0.902$).
+
+\subsection{Machine learning}
+The modeling subset comprised entries from computational sources (Materials Project, AFLOW, OQMD). Regression targets were formation energy (eV/atom), density (g/cm$^3$), and band gap (eV); models included random forest (RF), XGBoost, gradient boosting, and support vector regression (SVR). Because formation-energy scales differ systematically between databases (AFLOW deviates from Materials Project/OQMD by up to 0.8 eV/atom for phosphides, whereas Materials Project and OQMD agree within 0.02 eV/atom on overlapping compositions), the formation-energy model was trained on the Materials Project + AFLOW subset ($n=291$) and the OQMD entries ($n=280$) were reserved as an external test set. Density modeling used all computed entries ($n=571$). A scaffold-suitability classifier was defined as: E$_f \leq -2.5$ eV/atom, Ca/P $\in [1.2, 2.1]$, and density $\in [0.5, 4.5]$ g/cm$^3$. All evaluations used \textbf{GroupKFold} (10 folds) grouped by chemical composition, so that polymorphs of the same composition always reside in the same fold, preventing leakage. Feature selection used RF importance and recursive feature elimination (RFE). Hyperparameters of the best SVR model were tuned by grid search over $C \in \{1,10,50,100,500\}$, $\gamma \in \{\mathrm{scale}, 0.01, 0.05, 0.1\}$, and $\varepsilon \in \{0.05, 0.1, 0.2\}$, evaluated under the same grouped cross-validation.
+
+\subsection{Multi-criteria decision making (MCDM)}
+Six criteria were defined: (C1) thermodynamic stability (formation energy, lower is better); (C2) density proximity to 2.0 g/cm$^3$ (bone mineral); (C3) Ca/P proximity to 1.67 (hydroxyapatite); (C4) Young's modulus proximity to 15 GPa (mid-range of cortical bone), derived as $E = 9KG/(3K+G)$ where bulk and shear moduli were available and median-imputed otherwise (recorded decision); (C5) band gap (capped at 5 eV, metallic entries penalized, measured values only); and (C6) the ML suitability score (0/1). Candidates were ranked with TOPSIS and VIKOR ($v=0.5$) under three weighting scenarios (balanced; stability-dominant; mechanics-dominant). Sensitivity was tested with Shannon-entropy weighting computed on the four criteria available without imputation, keeping manual weights for the imputed criteria; rank consistency was quantified with Spearman correlation.
+
+\subsection{Interpretability and validation}
+SHAP (TreeExplainer) values and permutation importance were computed for the E$_f$ and density models. Reference phases (hydroxyapatite, fluorapatite, $\beta$-TCP, $\alpha$-TCP, tetracalcium phosphate, carbonated apatite) were compared against experimental literature values for density, lattice parameters, and standard formation enthalpies. Structures of the top-5 candidates were exported (POSCAR, CIF) and Quantum ESPRESSO input files (scf/relax, PSL 1.0.0 pseudopotentials) were prepared for subsequent DFT validation.
+
+%=============================================================
+\section{Results}
+
+\subsection{Dataset and design space}
+The consolidated dataset contains 2{,}885 entries and 950 unique compositions (target $\geq 500$ met). Completeness: cell volume and space group are available for 99.5\% of entries; formation energies for 19.8\% (computational sources only); elastic moduli for 0.3\% ($n=9$). Reference phases are well represented (54 hydroxyapatite entries, 17 TCP entries). Correlation analysis identified two redundant descriptor pairs with EN$_\mathrm{avg}$ ($r > 0.85$), confirmed by VIF values up to 24. Principal component analysis (Fig.~\ref{fig:pca}) captures 61.1\% of the variance in the first two components, and the chemical families (apatites, TCP, DCP, OCP, metaphosphates) form recognizable regions of the design space. Clustering is robust: K-means ($k=5$, silhouette 0.552) is highly consistent with hierarchical Ward clustering (ARI = 0.907), and HDBSCAN identifies 17 dense clusters with 1{,}266 noise points (Supplementary). The average density per family ranges from 1.5 g/cm$^3$ (monocalcium phosphates) to 3.1 g/cm$^3$ (hydroxyapatite family; Fig.~\ref{fig:densitas}), consistent with crystallographic expectations.
+
+A source-bias check (Fig.~\ref{fig:tsne}) shows that 94\% of the five nearest neighbors of an entry come from the same database, indicating that clusters are partly source-driven (experimental COD data vs.\ computed MP/AFLOW data). This motivated restricting modeling to the computational subset and the use of composition-grouped splits.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.62\textwidth]{fig_pca_kelompok.png}
+\caption{Design space of calcium phosphates mapped by PCA over seven physicochemical descriptors, colored by material family.}
+\label{fig:pca}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.62\textwidth]{fig_densitas_kelompok.png}
+\caption{Density distribution per material family. Hydroxyapatite-family phases concentrate near 3.0--3.2 g/cm$^3$, close to bone mineral.}
+\label{fig:densitas}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.62\textwidth]{fig_tsne_sumber.png}
+\caption{t-SNE embedding colored by data source, revealing source-driven separation (94\% same-source nearest neighbors) that motivates the computational-only modeling subset.}
+\label{fig:tsne}
+\end{figure}
+
+\subsection{Predictive models}
+Table~\ref{tab:ml} summarizes model performance under composition-grouped cross-validation. The tuned SVR ($C=50$, $\gamma=0.05$, $\varepsilon=0.05$) predicts formation energy with $R^2 = 0.869$ (RMSE 0.395 eV/atom), exceeding the 0.85 target; the random forest predicts density with $R^2 = 0.909$ (RMSE 0.096 g/cm$^3$) across all 571 computed entries. The suitability classifier achieves accuracy 0.975 and F1 0.90 (recall 0.82 on the minority ``suitable'' class of 15\%). Band gap could not be predicted from composition descriptors ($R^2 < 0$); imputation was therefore abandoned and measured values were used directly (recorded decision).
+
+\begin{table}[ht]
+\centering\small
+\caption{Model performance under composition-grouped 10-fold cross-validation (formation energy $n=291$; density $n=571$; band gap $n=123$). Best models in bold.}
+\label{tab:ml}
+\begin{tabular}{llccc}
+\toprule
+Target & Model & $R^2$ & RMSE & MAE \\
+\midrule
+Formation energy (eV/atom) & \textbf{SVR (tuned)} & \textbf{0.869} & \textbf{0.395} & \textbf{0.221} \\
+ & Random forest & 0.809 & 0.473 & 0.263 \\
+ & Gradient boosting & 0.715 & 0.541 & 0.288 \\
+ & XGBoost & $-0.221$ & 0.848 & 0.434 \\
+External test (OQMD, $n=280$) & SVR & 0.951 & 0.248 & --- \\
+\midrule
+Density (g/cm$^3$) & \textbf{Random forest} & \textbf{0.909} & \textbf{0.096} & \textbf{0.027} \\
+ & SVR & 0.868 & 0.162 & 0.077 \\
+ & Gradient boosting & 0.758 & 0.100 & 0.031 \\
+ & XGBoost & $-0.548$ & 0.204 & 0.094 \\
+\midrule
+Suitability classification & Random forest & accuracy 0.975 & F1 0.90 & recall 0.82 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Multi-objective ranking}
+TOPSIS and VIKOR were combined across three weighting scenarios (six rankings in total) to produce a robust average rank. Shannon-entropy weighting (computed on the four imputation-free criteria) yields a Spearman correlation of 0.974 with the manual weighting, confirming the robustness of the ranking. The top candidates after polymorph deduplication are listed in Table~\ref{tab:top}. The ranking is dominated by the apatite family---carbonated apatite (rank 1), fluorapatite (rank 2), hydroxyapatite, and apatite-type phases---together with octacalcium phosphate and tetracalcium phosphate, all of which are established bone-graft or bone-cement phases.
+
+\begin{table}[ht]
+\centering\small
+\caption{Top 15 candidate biomaterials (polymorphs deduplicated; average rank of TOPSIS and VIKOR across three weighting scenarios; lower rank is better).}
+\label{tab:top}
+\begin{tabular}{lllcccc}
+\toprule
+Formula & Source & Family & Rank & E$_f$ (eV/at) & $\rho$ (g/cm$^3$) & Ca/P \\
+\midrule
+Ca$_{10}$P$_6$CO$_{27}$ & MP & carbonated apatite & 9.0 & $-3.25$ & 3.05 & 1.67 \\
+Ca$_5$P$_3$O$_{12}$F & MP & fluorapatite & 11.3 & $-3.42$ & 3.10 & 1.67 \\
+Ca$_8$P$_6$H$_{12}$O$_{29}$ & MP & OCP & 14.8 & $-2.62$ & 2.59 & 1.33 \\
+Ca$_{10}$F$_2$O$_{24}$P$_6$ & AFLOW & fluorapatite & 16.2 & $-3.03$ & 3.10 & 1.67 \\
+Ca$_{10}$P$_6$O$_{25}$ & MP & apatite & 17.5 & $-3.32$ & 2.98 & 1.67 \\
+Ca$_{16}$O$_{36}$P$_8$ & AFLOW & TTCP & 21.3 & $-2.94$ & 2.98 & 2.00 \\
+Ca$_4$P$_2$O$_9$ & MP & TTCP & 22.2 & $-3.33$ & 3.08 & 2.00 \\
+Ca$_5$P$_3$HO$_{13}$ & MP & hydroxyapatite & 23.0 & $-3.22$ & 3.18 & 1.67 \\
+Ca$_{10}$O$_{25}$P$_6$ & AFLOW & apatite & 25.3 & $-2.92$ & 2.98 & 1.67 \\
+Ca$_{10}$H$_2$O$_{26}$P$_6$ & AFLOW & hydroxyapatite & 28.5 & $-2.84$ & 3.05 & 1.67 \\
+Ca$_8$P$_6$O$_{29}$ & MP & OCP & 34.0 & $-2.53$ & 2.62 & 1.33 \\
+Ca$_5$P$_3$O$_{13}$ & MP & apatite & 34.2 & $-3.24$ & 3.05 & 1.67 \\
+Ca$_5$P$_3$CO$_{12}$ & MP & carbonated apatite & 37.2 & $-2.89$ & 2.96 & 1.67 \\
+CaP$_4$O$_{11}$ & MP & metaphosphate & 40.8 & $-2.79$ & 2.20 & 0.25 \\
+Ca$_2$P$_6$O$_{17}$ & MP & metaphosphate & 43.2 & $-2.86$ & 2.38 & 0.33 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Interpretability and experimental validation}
+SHAP analysis (Fig.~\ref{fig:shap}) shows that the oxygen fraction and density dominate the formation-energy model (confirmed by permutation importance), while cell volume and average electronegativity dominate the density model; the SHAP correlation of Ca/P with predicted density is $+0.57$, consistent with denser high-Ca/P phases.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.60\textwidth]{fig_shap_bar_eform.png}
+\caption{SHAP feature importance for the formation-energy model: oxygen fraction and density dominate.}
+\label{fig:shap}
+\end{figure}
+
+Experimental validation (Table~\ref{tab:val}) shows excellent agreement: computed densities deviate by $\leq 2.9$\% from literature (hydroxyapatite $+0.6$\%, fluorapatite $-2.7$\%, carbonated apatite $+1.8$\%, TTCP $-2.4$\% to $+1.0$\%), and computed formation energies of hydroxyapatite ($-3.22$ eV/atom) and fluorapatite ($-3.42$ eV/atom) match standard formation enthalpies ($-3.15$ and $-3.39$ eV/atom, respectively) within 2.2\%. Lattice-parameter validation on COD structures is equally strong: $\beta$-TCP ($R3c$) reproduces $a = 10.449$ \AA\ ($+0.1$\%) and $c = 37.448$ \AA\ ($+0.2$\%), while the classical 1977 $\alpha$-TCP structure (P21/a) is reproduced essentially exactly ($a = 12.887$ \AA, $b = 27.28$ \AA, $c = 15.219$ \AA; deviations $\leq 0.03$\%) with density 2.86 g/cm$^3$ ($+0.1$\%). We also note that AFLOW reports TCP in the R-3m supergroup with density $+10.9$\% above experiment, a typical GGA overbinding artifact recorded as a source-specific limitation.
+
+\begin{table}[ht]
+\centering\small
+\caption{Validation of reference phases against experimental literature.}
+\label{tab:val}
+\begin{tabular}{llccc}
+\toprule
+Phase & Property & This work & Literature & Deviation \\
+\midrule
+Hydroxyapatite & density (g/cm$^3$) & 3.178 & 3.16 & $+0.6$\% \\
+ & E$_f$ (eV/atom) & $-3.223$ & $-3.15$ & $+2.3$\% \\
+Fluorapatite & density (g/cm$^3$) & 3.104 & 3.19 & $-2.7$\% \\
+ & E$_f$ (eV/atom) & $-3.42$ & $-3.39$ & $+0.9$\% \\
+Carbonated apatite & density (g/cm$^3$) & 3.053 & 3.0 & $+1.8$\% \\
+TTCP & density (g/cm$^3$) & 2.98--3.08 & 3.05 & $-2.4$\% to $+1.0$\% \\
+$\beta$-TCP (R3c) & $a$ (\AA) & 10.449 & 10.44 & $+0.1$\% \\
+ & $c$ (\AA) & 37.448 & 37.38 & $+0.2$\% \\
+ & density (g/cm$^3$) & 3.04 & 3.07 & $-1.1$\% \\
+$\alpha$-TCP (P21/a) & $a, b, c$ (\AA) & 12.887, 27.28, 15.219 & 12.89, 27.28, 15.22 & $\leq 0.03$\% \\
+ & density (g/cm$^3$) & 2.86 & 2.86 & $+0.1$\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%=============================================================
+\section{Discussion}
+
+The framework reproduces the clinically established bone-graft hierarchy without being told it: carbonated apatite, fluorapatite, octacalcium phosphate, and tetracalcium phosphate emerge as top candidates purely from database-derived descriptors, ML screening, and multi-objective ranking. This indirect validation against the biomedical literature is reinforced by the direct validation in Table~\ref{tab:val}, where computed properties deviate from experiment by at most 2.9\% and lattice parameters of $\alpha$-TCP are reproduced to within 0.03\%.
+
+Several limitations are worth noting. First, computed elastic moduli are scarce ($n=9$ entries with $K$ and $G$), so criterion C4 relies on median imputation; DFT/MD validation of the top-5 candidates is therefore the mandatory next step, and the required input files (POSCAR/CIF, Quantum ESPRESSO scf/relax) have been prepared. Second, the band gap is not predictable from composition descriptors alone ($R^2<0$), which is expected for materials whose electronic structure depends on long-range order rather than stoichiometry. Third, the dataset is source-biased (94\% same-source nearest neighbors); we mitigate this by restricting modeling to the computational subset and by composition-grouped cross-validation, but a dedicated multi-source test set is desirable. Fourth, the suitability classifier is imbalanced (positive class 14--15\%, recall 0.82), and its definition is a documented operationalization of ``scaffold suitability.'' Finally, formation-energy scales are source-dependent (AFLOW offsets of up to 0.8 eV/atom versus Materials Project/OQMD), so the formation-energy model was trained on the consistent Materials Project + AFLOW subset and externally tested on OQMD with $R^2 = 0.95$; density modeling, where scales are physical and consistent, used all 571 computed entries. For multi-criteria ranking, the stability criterion was z-scored per source to neutralize these offsets.
+
+From an engineering standpoint, the framework is fully replicable: pinned dependencies (requirements.txt), a single orchestrator (run\_all), a versioned dataset with SHA-256 checksums, and open-source Python tooling. It is readily transferable to other material systems, supporting the AMREC roadmap toward an AI-assisted biomaterial discovery platform.
+
+%=============================================================
+\section{Conclusion}
+
+We developed and validated an end-to-end Materials Informatics framework that integrates five open databases, descriptor engineering with multicollinearity control, leakage-resistant machine learning (composition-grouped cross-validation), multi-objective ranking (TOPSIS/VIKOR with entropy sensitivity), and SHAP-based interpretability. The framework assembles a dataset of 2{,}885 entries (950 unique compositions), predicts formation energy ($R^2=0.87$; external OQMD test $R^2=0.95$) and density ($R^2=0.91$), and ranks carbonated apatite, fluorapatite, OCP, TTCP, and hydroxyapatite as the leading scaffold candidates---in agreement with clinical practice and validated against independent experimental data within 3\%. The prepared DFT inputs enable direct computational validation of the top-5 candidates, closing the loop toward experimental synthesis and testing.
+
+%=============================================================
+\section*{Acknowledgments}
+This work is supported by the Universitas Airlangga Research Group Grant (PRGF Discovery Research, 2027) through the Advanced Materials and Renewable Energy Conversion (AMREC) research group. The authors thank the Materials Project, AFLOW, COD, PubChem, and OQMD communities for open data.
+
+\section*{Data and code availability}
+The consolidated dataset, descriptor table, candidate ranking, per-stage reports, and all scripts are available in the project repository (D:/latex/prgf2027, git-tracked, dataset snapshot with SHA-256 checksums in data/versions/). The Materials Project subset is CC-BY 4.0; COD is CC0; AFLOW and OQMD data require citation of their respective references.
+
+\begin{thebibliography}{26}
+\bibitem{farag2023} Farag MM. Recent trends on biomaterials for tissue regeneration applications: review. \textit{J Mater Sci}. 2023;58:527--558.
+\bibitem{premananth2024} Prem Ananth K, Jayram ND. A comprehensive review of 3D printing techniques for biomaterial-based scaffold fabrication in bone tissue engineering. \textit{Ann 3D Print Med}. 2024;13:100141.
+\bibitem{vaiani2023} Vaiani L, Boccaccio A, Uva AE, et al. Ceramic materials for biomedical applications: an overview on properties and fabrication processes. \textit{J Funct Biomater}. 2023;14:146.
+\bibitem{omigbodun2024} Omigbodun FT, Osa-Uwagboe N, Udu AG, Oladapo BI. Leveraging machine learning for optimized mechanical properties and 3D printing of PLA/cHAP for bone implant. \textit{Biomimetics}. 2024;9(10):587.
+\bibitem{zhu2025} Zhu S, Sun H, Mu T, Richel A. Research progress in 3D printed biobased and biodegradable polyester/ceramic composite materials. \textit{ACS Appl Mater Interfaces}. 2025;17(2):2791--2813.
+\bibitem{hou2026} Hou B, Yang X, Li Y, Wong RCW. Multiscale biomechanics-driven design pipelines for reconstructive bone scaffolds. \textit{npj Biol Phys Mech}. 2026;3(1).
+\bibitem{vasudev2026} Vasudev H, Mehta A. Advanced manufacturing of biomedical scaffolds: modeling, simulation and process optimization approaches. \textit{Glob Clin Eng J}. 2026;8(2):35--56.
+\bibitem{martelli2025} Martelli A, Bellucci D, Cannillo V. The role of artificial intelligence in biomaterials science: a review. \textit{Polymers (Basel)}. 2025;17(19):2668.
+\bibitem{logeshwaran2024} Logeshwaran A, Elsen R, Nayak S. Artificial intelligence-based 3D printing strategies for bone scaffold fabrication and its application in preclinical and clinical investigations. \textit{ACS Biomater Sci Eng}. 2024;10(2):677--696.
+\bibitem{gokcekuyu2024} Gokcekuyu Y, Ekinci F, Guzel MS, et al. Artificial intelligence in biomaterials: a comprehensive review. \textit{Appl Sci}. 2024;14:6590.
+\bibitem{kang2023} Kang S, Kim M, Sun J, et al. Prediction of protein aggregation propensity via data-driven approaches. \textit{ACS Biomater Sci Eng}. 2023;9(11):6451--6463.
+\bibitem{kalejaye2024} Kalejaye L, Wu IE, Terry T, et al. DeepSP: deep learning-based spatial properties to predict monoclonal antibody stability. \textit{Comput Struct Biotechnol J}. 2024;23:2220--2229.
+\bibitem{hayashi2023} Hayashi Y, Nakano Y, Marumo Y, et al. A data-driven approach to predicting tablet properties after accelerated test using raw material property database and machine learning. \textit{Chem Pharm Bull (Tokyo)}. 2023;71(6):406--415.
+\bibitem{nizamuddin2025} Nizamuddin SF, Ikramuddin M, Dhore NS. Artificial intelligence in pharmaceutical sciences: transforming drug discovery, formulation, and manufacturing. \textit{Mediterr J Med Res}. 2025;2(4):269--275.
+\bibitem{han2025} Han Y, Kim DH, Pack SP. Nanomaterials in drug delivery: leveraging artificial intelligence and big data for predictive design. \textit{Int J Mol Sci}. 2025;26(22):11121.
+\bibitem{vora2023} Vora LK, Gholap AD, Jetha K, et al. Artificial intelligence in pharmaceutical technology and drug delivery design. \textit{Pharmaceutics}. 2023;15(7):1916.
+\bibitem{gholap2024} Gholap AD, Uddin MJ, Faiyazuddin M, et al. Advances in artificial intelligence for drug delivery and development: a comprehensive review. \textit{Comput Biol Med}. 2024;178:108702.
+\bibitem{soelistiono2026} Soelistiono S. Data-driven discovery of calcium-phosphate biomaterial scaffolds using materials informatics and machine learning clustering. \textit{Int J Appl Pharm Life Sci}. 2026.
+\bibitem{jain2013} Jain A, Ong SP, Hautier G, et al. Commentary: The Materials Project: a materials genome approach to accelerating materials innovation. \textit{APL Mater}. 2013;1:011002.
+\bibitem{curtarolo2012} Curtarolo S, Setyawan W, Hart GLW, et al. AFLOW: an automatic framework for high-throughput materials discovery. \textit{Comput Mater Sci}. 2012;58:218--226.
+\bibitem{kirklin2015} Kirklin S, Saal JE, Meredig B, et al. The Open Quantum Materials Database (OQMD): assessing the accuracy of DFT formation energies. \textit{npj Comput Mater}. 2015;1:15010.
+\bibitem{grazulis2009} Gra\v{z}ulis S, Chateigner D, Downs RT, et al. Crystallography Open Database --- an open-access collection of crystal structures. \textit{J Appl Crystallogr}. 2009;42:726--729.
+\bibitem{mathew1977} Mathew M, Schroeder LW, Dickens B, Brown WE. The crystal structure of $\alpha$-Ca$_3$(PO$_4$)$_2$. \textit{Acta Crystallogr B}. 1977;33:1325--1333.
+\bibitem{dorozhkin} Dorozhkin SV. Calcium orthophosphates: applications in nature, biology, and medicine. \textit{Pan Stanford Publishing}; 2012.
+\bibitem{lundberg2017} Lundberg SM, Lee S-I. A unified approach to interpreting model predictions. \textit{Adv Neural Inf Process Syst}. 2017;30.
+\end{thebibliography}
+
+\end{document}

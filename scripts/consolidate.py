@@ -121,13 +121,17 @@ def main():
             for comp, entri in oq.items():
                 for e in entri:
                     el = parse_formula(e.get("composition", comp))
+                    n_atom_fu = sum(el.values())
+                    natoms = e.get("natoms")
+                    # Z = jumlah atom sel / jumlah atom per formula unit (volume OQMD = volume sel penuh)
+                    z = natoms / n_atom_fu if (natoms and n_atom_fu) else None
                     rows.append({
                         "sumber": "OQMD", "id": f"oqmd-{e.get('entry_id', comp)}",
                         "formula": (e.get("composition") or comp).replace(" ", ""),
                         "chemsys": None,
                         "Ca": el.get("Ca"), "P": el.get("P"), "O": el.get("O"),
                         "H": el.get("H"), "F": el.get("F"), "ca_p_ratio": ca_p(el),
-                        "nsites": e.get("natoms"), "volume_A3": e.get("volume"), "Z": None,
+                        "nsites": natoms, "volume_A3": e.get("volume"), "Z": z,
                         "densitas_gcm3": None, "bandgap_eV": None,
                         "Eform_eV_atom": e.get("delta_e"),
                         "E_hull_eV_atom": None, "stabil": None,

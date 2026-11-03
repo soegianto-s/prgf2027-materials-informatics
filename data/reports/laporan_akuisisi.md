@@ -1,10 +1,10 @@
 # Laporan Audit Akuisisi Dataset Biomaterial Kalsium Fosfat
-**Tanggal audit:** 2026-11-04 04:51:59
+**Tanggal audit:** 2026-11-04 05:49:25
 **Tahapan:** Bagian 2–3 panduan utama (akuisisi + audit dataset)
 
 ## Ringkasan
-- **Total baris/entri:** 2605
-- **Komposisi kimia unik:** 903
+- **Total baris/entri:** 2885
+- **Komposisi kimia unik:** 904
 - **Indikator target:** >= 500 senyawa tervalidasi → TERPENUHI
 - **Sumber & lisensi:**
   - Materials Project (API, CC-BY 4.0) — diakses 2026-11-04
@@ -19,22 +19,23 @@
 | AFLOW            |      234 |               65 |          234 |            234 |          234 |             4 |            66 |
 | COD              |     2304 |              820 |            0 |              0 |         2302 |             0 |             0 |
 | MaterialsProject |       57 |               40 |           57 |             57 |           57 |             5 |            57 |
+| OQMD             |      280 |               34 |          280 |              0 |          280 |             0 |             0 |
 | PubChem          |       10 |               10 |            0 |              0 |            0 |             0 |             0 |
 
 ## Kelengkapan Kolom Utama (%)
 |               |     0 |
 |:--------------|------:|
 | formula       | 100   |
-| densitas_gcm3 |  11.2 |
-| Eform_eV_atom |  11.2 |
-| bandgap_eV    |   4.7 |
+| densitas_gcm3 |  10.1 |
+| Eform_eV_atom |  19.8 |
+| bandgap_eV    |   4.3 |
 | bulk_K_GPa    |   0.3 |
-| volume_A3     |  99.5 |
+| volume_A3     |  99.6 |
 | spacegroup    |  99.5 |
 
 ## Pemeriksaan Material Rujukan (kontrol positif)
-- **Hidroksiapatit (Ca5P3O13H):** 54 entri dari {'COD': 51, 'MaterialsProject': 2, 'PubChem': 1}
-- **Trikalsium fosfat (Ca3P2O8):** 17 entri dari {'AFLOW': 6, 'COD': 10, 'PubChem': 1}
+- **Hidroksiapatit (Ca5P3O13H):** 63 entri dari {'COD': 51, 'MaterialsProject': 2, 'OQMD': 9, 'PubChem': 1}
+- **Trikalsium fosfat (Ca3P2O8):** 29 entri dari {'AFLOW': 6, 'COD': 10, 'OQMD': 12, 'PubChem': 1}
 
 ## Catatan Kualitas
 - Data COD: eksperimental (parameter kisi + spacegroup), tanpa energi/sifat mekanik.

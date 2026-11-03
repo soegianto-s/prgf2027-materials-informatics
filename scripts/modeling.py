@@ -27,7 +27,7 @@ FEATURES = ["ca_p_ratio", "EN_avg", "berat_molekul", "volume_A3", "densitas_fina
 
 def siapkan_data():
     df = pd.read_csv(PROC / "dataset_deskriptor.csv")
-    sub = df[df["sumber"].isin(["MaterialsProject", "AFLOW"])].copy()
+    sub = df[df["sumber"].isin(["MaterialsProject", "AFLOW", "OQMD"])].copy()
     tot = sub[["Ca", "P", "O", "H", "F"]].fillna(0).sum(axis=1)
     for el in ["Ca", "P", "O", "H", "F"]:
         sub[f"frac_{el}"] = sub[el].fillna(0) / tot
@@ -78,10 +78,27 @@ def main():
     datasets = {}
 
     for target in ["Eform_eV_atom", "densitas_final_gcm3", "bandgap_eV"]:
-        tdf, d, hasil = cv_evaluasi(sub, target, target)
+        # Eform: skala label antar sumber TIDAK konsisten (AFLOW offset sistematis vs MP/OQMD)
+        # -> latih pada MP+AFLOW (sesuai keputusan awal), OQMD dipakai sebagai UJI EKSTERNAL.
+        sub_target = sub[sub["sumber"].isin(["MaterialsProject", "AFLOW"])] if target == "Eform_eV_atom" else sub
+        tdf, d, hasil = cv_evaluasi(sub_target, target, target)
         tabel.append(tdf)
         datasets[target] = d
         laporan.append(f"## Regresi: {target} (n={len(d)}, GroupKFold berbasis komposisi)\n{tdf.round(3).to_markdown(index=False)}")
+
+    # ===== uji eksternal: model Eform (MP+AFLOW) diprediksi pada OQMD =====
+    dtr = datasets["Eform_eV_atom"]
+    oq = sub[sub["sumber"] == "OQMD"].dropna(subset=FEATURES + ["Eform_eV_atom"])
+    if len(oq) > 10:
+        sc = StandardScaler().fit(dtr[FEATURES])
+        mdl = SVR(C=50, gamma=0.05, epsilon=0.05).fit(sc.transform(dtr[FEATURES]), dtr["Eform_eV_atom"])
+        pred = mdl.predict(sc.transform(oq[FEATURES]))
+        r2x = r2_score(oq["Eform_eV_atom"], pred)
+        rmsex = float(np.sqrt(mean_squared_error(oq["Eform_eV_atom"], pred)))
+        laporan.append(f"## Uji Eksternal: model Eform (MP+AFLOW) diprediksi pada OQMD (n={len(oq)})")
+        laporan.append(f"- R2 = {r2x:.3f}, RMSE = {rmsex:.3f} eV/atom -> transfer lintas basis data { 'KUAT' if r2x > 0.85 else 'sedang' }")
+        laporan.append("- Catatan: skala Eform AFLOW berbeda sistematis dari MP/OQMD (hingga 0.8 eV untuk fosfida); "
+                       "MP~OQMD (selisih < 0.02 eV pada komposisi tumpang tindih) -> OQMD valid sebagai uji eksternal.")
 
     gabung = pd.concat(tabel, ignore_index=True)
     gabung.to_csv(PROC / "hasil_cv_regresi.csv", index=False)

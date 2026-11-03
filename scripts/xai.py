@@ -29,7 +29,7 @@ FEATURES = ["ca_p_ratio", "EN_avg", "berat_molekul", "volume_A3", "densitas_fina
 
 def muat_subset():
     df = pd.read_csv(PROC / "dataset_deskriptor.csv")
-    sub = df[df["sumber"].isin(["MaterialsProject", "AFLOW"])].copy()
+    sub = df[df["sumber"].isin(["MaterialsProject", "AFLOW", "OQMD"])].copy()
     tot = sub[["Ca", "P", "O", "H", "F"]].fillna(0).sum(axis=1)
     for el in ["Ca", "P", "O", "H", "F"]:
         sub[f"frac_{el}"] = sub[el].fillna(0) / tot
@@ -67,7 +67,9 @@ def main():
                f"**Tahapan:** Bagian 9 panduan utama\n"]
     for target in ["Eform_eV_atom", "densitas_final_gcm3"]:
         nama = "eform" if "Eform" in target else "densitas"
-        d, rf, imp, top2, perm, fitur = shap_untuk(sub, target, nama)
+        # Eform: subset pelatihan MP+AFLOW (konsisten dengan model); densitas: semua sumber
+        subs = sub[sub["sumber"].isin(["MaterialsProject", "AFLOW"])] if nama == "eform" else sub
+        d, rf, imp, top2, perm, fitur = shap_untuk(subs, target, nama)
         laporan.append(f"## SHAP: {target} (RandomForest, n={len(d)})")
         laporan.append(f"- Dua fitur paling berpengaruh (|SHAP| rata-rata): {top2[0]}, {top2[1]}")
         pi = pd.Series(perm.importances_mean, index=fitur).sort_values(ascending=False)

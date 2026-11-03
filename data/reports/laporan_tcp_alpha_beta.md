@@ -1,5 +1,5 @@
 # Laporan Pemisahan alpha/beta-TCP vs Literatur
-**Tanggal:** 2026-11-04 05:26:07
+**Tanggal:** 2026-11-04 05:45:16
 
 - Materials Project: entri kelompok TCP = 1 (['Ca3P2']) -> TIDAK ADA fase TCP murni di MP API saat ini
 ## Ringkasan per Fasa

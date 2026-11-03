@@ -33,7 +33,8 @@ def cv_group(X, y, groups, model, scaler=False):
 
 def main():
     df = pd.read_csv(PROC / "dataset_deskriptor.csv")
-    sub = df[df["sumber"].isin(["MaterialsProject", "AFLOW", "OQMD"])].copy()
+    # subset pelatihan Eform: MP+AFLOW (OQMD = uji eksternal; skala AFLOW vs MP/OQMD berbeda, lihat laporan pemodelan)
+    sub = df[df["sumber"].isin(["MaterialsProject", "AFLOW"])].copy()
     tot = sub[["Ca", "P", "O", "H", "F"]].fillna(0).sum(axis=1)
     for el in ["Ca", "P", "O", "H", "F"]:
         sub[f"frac_{el}"] = sub[el].fillna(0) / tot

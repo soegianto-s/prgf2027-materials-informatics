@@ -1,5 +1,5 @@
 # Laporan Analisis Multiobjektif (MCDM)
-**Tanggal:** 2026-11-04 04:59:08
+**Tanggal:** 2026-11-04 05:53:56
 **Tahapan:** Bagian 8 panduan utama
 
 ## Kriteria & Arah
@@ -9,35 +9,35 @@
 ## Posisi Material Rujukan (peringkat rerata dari 6 skenario)
 - HAp: | formula     |   peringkat_rerata |
 |:------------|-------------------:|
-| Ca5P3HO13   |            23      |
-| Ca5P3HO13   |            24.8333 |
-| Ca10H2O26P6 |            28.5    |
+| Ca10H2O26P6 |            15.3333 |
+| Ca10H2O26P6 |            16.3333 |
+| Ca10H2O26P6 |            32.1667 |
 - TCP: | formula   |   peringkat_rerata |
 |:----------|-------------------:|
-| Ca3O8P2   |            59.3333 |
-| Ca3O8P2   |            59.3333 |
-| Ca3O8P2   |            61.3333 |
+| Ca3O8P2   |            31.8333 |
+| Ca3O8P2   |            31.8333 |
+| Ca3O8P2   |            38.6667 |
 - Fluorapatit: | formula     |   peringkat_rerata |
 |:------------|-------------------:|
-| Ca5P3O12F   |            11.3333 |
-| Ca10F2O24P6 |            16.1667 |
-| Ca10F2O24P6 |            17.1667 |
+| Ca10F2O24P6 |            4.66667 |
+| Ca10F2O24P6 |            5.66667 |
+| Ca10F2O24P6 |            6.66667 |
 ## Top 15 Kandidat (peringkat rerata TOPSIS+VIKOR x 3 bobot)
 
-| formula     | sumber           | kelompok            |   peringkat_rerata |   kali_top10 |   Eform_eV_atom |   densitas_final_gcm3 |   ca_p_ratio |   young_E_deriv_GPa |   bandgap_eV |   layak |
-|:------------|:-----------------|:--------------------|-------------------:|-------------:|----------------:|----------------------:|-------------:|--------------------:|-------------:|--------:|
-| Ca10P6CO27  | MaterialsProject | apatit_hidroksi     |              9     |            5 |          -3.253 |                 3.053 |        1.667 |                 nan |        5.137 |       1 |
-| Ca5P3O12F   | MaterialsProject | apatit_hidroksi     |             11.333 |            5 |          -3.42  |                 3.104 |        1.667 |                 nan |        5.512 |       1 |
-| Ca8P6H12O29 | MaterialsProject | oktakalsium_fosfat  |             14.833 |            3 |          -2.621 |                 2.591 |        1.333 |                 nan |        4.909 |       1 |
-| Ca10F2O24P6 | AFLOW            | apatit_hidroksi     |             16.167 |            3 |          -3.032 |                 3.096 |        1.667 |                 nan |        5.518 |       1 |
-| Ca10F2O24P6 | AFLOW            | apatit_hidroksi     |             17.167 |            3 |          -3.032 |                 3.097 |        1.667 |                 nan |        5.518 |       1 |
-| Ca10P6O25   | MaterialsProject | apatit_hidroksi     |             17.5   |            2 |          -3.319 |                 2.978 |        1.667 |                 nan |        3.148 |       1 |
-| Ca10F2O24P6 | AFLOW            | apatit_hidroksi     |             18.167 |            3 |          -3.032 |                 3.097 |        1.667 |                 nan |        5.518 |       1 |
-| Ca10P6O25   | MaterialsProject | apatit_hidroksi     |             18.667 |            2 |          -3.318 |                 2.98  |        1.667 |                 nan |        3.078 |       1 |
-| Ca10F2O24P6 | AFLOW            | apatit_hidroksi     |             19.167 |            3 |          -3.032 |                 3.097 |        1.667 |                 nan |        5.519 |       1 |
-| Ca10F2O24P6 | AFLOW            | apatit_hidroksi     |             20.333 |            2 |          -3.032 |                 3.099 |        1.667 |                 nan |        5.514 |       1 |
-| Ca10F2O24P6 | AFLOW            | apatit_hidroksi     |             21.333 |            0 |          -3.032 |                 3.1   |        1.667 |                 nan |        5.519 |       1 |
-| Ca16O36P8   | AFLOW            | tetrakalsium_fosfat |             21.333 |            1 |          -2.937 |                 2.976 |        2     |                 nan |        4.48  |       1 |
-| Ca16O36P8   | AFLOW            | tetrakalsium_fosfat |             21.333 |            1 |          -2.937 |                 2.976 |        2     |                 nan |        4.48  |       1 |
-| Ca4P2O9     | MaterialsProject | tetrakalsium_fosfat |             22.167 |            2 |          -3.326 |                 3.08  |        2     |                 nan |        4.484 |       1 |
-| Ca10F2O24P6 | AFLOW            | apatit_hidroksi     |             22.333 |            0 |          -3.032 |                 3.1   |        1.667 |                 nan |        5.521 |       1 |
+| formula     | sumber   | kelompok            |   peringkat_rerata |   kali_top10 |   Eform_eV_atom |   densitas_final_gcm3 |   ca_p_ratio |   young_E_deriv_GPa |   bandgap_eV |   layak |
+|:------------|:---------|:--------------------|-------------------:|-------------:|----------------:|----------------------:|-------------:|--------------------:|-------------:|--------:|
+| Ca10F2O24P6 | AFLOW    | apatit_hidroksi     |              4.667 |            5 |          -3.032 |                 3.096 |        1.667 |                 nan |        5.518 |       1 |
+| Ca10F2O24P6 | AFLOW    | apatit_hidroksi     |              5.667 |            5 |          -3.032 |                 3.097 |        1.667 |                 nan |        5.518 |       1 |
+| Ca10F2O24P6 | AFLOW    | apatit_hidroksi     |              6.667 |            5 |          -3.032 |                 3.097 |        1.667 |                 nan |        5.518 |       1 |
+| Ca10F2O24P6 | AFLOW    | apatit_hidroksi     |              7.667 |            5 |          -3.032 |                 3.097 |        1.667 |                 nan |        5.519 |       1 |
+| Ca10F2O24P6 | AFLOW    | apatit_hidroksi     |              8.667 |            4 |          -3.032 |                 3.099 |        1.667 |                 nan |        5.514 |       1 |
+| Ca10F2O24P6 | AFLOW    | apatit_hidroksi     |              9.667 |            4 |          -3.032 |                 3.1   |        1.667 |                 nan |        5.519 |       1 |
+| Ca10F2O24P6 | AFLOW    | apatit_hidroksi     |             10.667 |            3 |          -3.032 |                 3.1   |        1.667 |                 nan |        5.521 |       1 |
+| Ca16O36P8   | AFLOW    | tetrakalsium_fosfat |             11.333 |            3 |          -2.937 |                 2.976 |        2     |                 nan |        4.48  |       1 |
+| Ca16O36P8   | AFLOW    | tetrakalsium_fosfat |             11.333 |            3 |          -2.937 |                 2.976 |        2     |                 nan |        4.48  |       1 |
+| Ca10F2O24P6 | AFLOW    | apatit_hidroksi     |             11.667 |            3 |          -3.032 |                 3.101 |        1.667 |                 nan |        5.518 |       1 |
+| Ca10F2O24P6 | AFLOW    | apatit_hidroksi     |             12.667 |            2 |          -3.032 |                 3.101 |        1.667 |                 nan |        5.52  |       1 |
+| Ca10F2O24P6 | AFLOW    | apatit_hidroksi     |             13.667 |            2 |          -3.032 |                 3.101 |        1.667 |                 nan |        5.518 |       1 |
+| Ca10F2O24P6 | AFLOW    | apatit_hidroksi     |             14.667 |            0 |          -3.032 |                 3.102 |        1.667 |                 nan |        5.518 |       1 |
+| Ca10H2O26P6 | AFLOW    | apatit_hidroksi     |             15.333 |            2 |          -2.84  |                 3.051 |        1.667 |                 nan |        5.204 |       1 |
+| Ca10F2O24P6 | AFLOW    | apatit_hidroksi     |             15.667 |            0 |          -3.032 |                 3.103 |        1.667 |                 nan |        5.522 |       1 |

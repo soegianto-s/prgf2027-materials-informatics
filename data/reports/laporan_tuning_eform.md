@@ -1,5 +1,5 @@
 # Laporan Tuning Eform (gap #2: target R2 >= 0.85)
-**Tanggal:** 2026-11-04 05:28:31 | n = 291 | GroupKFold(10) berbasis komposisi
+**Tanggal:** 2026-11-04 05:54:37 | n = 291 | GroupKFold(10) berbasis komposisi
 
 ## Terbaik
 - SVR {'C': 50, 'epsilon': 0.05, 'gamma': 0.05}: **R2 = 0.869** (RMSE 0.395, MAE 0.221)
