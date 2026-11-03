@@ -1,0 +1,20 @@
+{
+  "nama": "dataset_v1.0_20261104",
+  "tanggal": "2026-11-04 05:03:50",
+  "sumber": "data/processed + data/reports",
+  "file": {
+    "inventory_dataset.csv": "45c618ee27d2c4fe5d366da9dd2da5a8391a6bcee3c22b061d27bbf5a0c4056f",
+    "dataset_deskriptor.csv": "0186bc59aaced08b8432220ac2a9d23d878239e489fac36475a9f32652b5e4a7",
+    "kandidat_ranking.csv": "dbb52270a4bd1ba91c1011b1f86dabfeb134ac352d23163a0f719127413a4c19",
+    "kandidat_top15_dedup.csv": "65d4056ea5b3ef418d5befc822e7c9d1b60e2ed6547faca44cd77c4dee6bc222",
+    "hasil_cv_regresi.csv": "5ead4a9d308e4d7f8f1a7cd805c4fc4d0ab7024369d884798cfbf01c84acd81b",
+    "reports/LAPORAN_FINAL.md": "7df4828f2fae33e825ea1f37dee7d1a02cda9b53af36ea153c911ce580c05c0d",
+    "reports/laporan_akuisisi.md": "cced5860e04ac76f0660f517c3c4cf6fef1bf134a7658700659a41ee5127877d",
+    "reports/laporan_prapemrosesan.md": "20c891bcb730438f68677daf38a519b37ca80f053006e03088544982ce475f7b",
+    "reports/laporan_eda.md": "e3abfb78982ce8ee8f9385f10de5d82a2136f6fd2b6a7dcdcbb755120795abac",
+    "reports/laporan_pemodelan.md": "6bb55991346bf492dbb13ee47446865d4e6384d85f238ca666923743079eaaa1",
+    "reports/laporan_mcdm.md": "656a01db135345c45df984e485a80364d779232d79ba8e9aaf63edd3096b7965",
+    "reports/laporan_xai.md": "ea761d3652aff525ffd42d02c3e4e1aa1256a7c2b8757ab4d9063fb635a93305",
+    "reports/figures/": "disalin utuh"
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "HAp": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 14781,
+          "MolecularFormula": "Ca5HO13P3",
+          "MolecularWeight": "502.3",
+          "SMILES": "[OH-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[Ca+2].[Ca+2].[Ca+2].[Ca+2].[Ca+2]",
+          "ConnectivitySMILES": "[OH-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[Ca+2].[Ca+2].[Ca+2].[Ca+2].[Ca+2]",
+          "IUPACName": "pentacalcium;hydroxide;triphosphate",
+          "ExactMass": "501.675955",
+          "Complexity": 36,
+          "Charge": 0,
+          "HBondDonorCount": 1,
+          "HBondAcceptorCount": 13,
+          "_query": "name:Hydroxyapatite",
+          "_tag": "HAp"
+        }
+      ]
+    }
+  },
+  "TCP": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 24456,
+          "MolecularFormula": "Ca3O8P2",
+          "MolecularWeight": "310.18",
+          "SMILES": "[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[Ca+2].[Ca+2].[Ca+2]",
+          "ConnectivitySMILES": "[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[Ca+2].[Ca+2].[Ca+2]",
+          "IUPACName": "tricalcium diphosphate",
+          "ExactMass": "309.7946135",
+          "Complexity": 36,
+          "Charge": 0,
+          "HBondDonorCount": 0,
+          "HBondAcceptorCount": 8,
+          "_query": "name:Calcium phosphate",
+          "_tag": "TCP"
+        }
+      ]
+    }
+  },
+  "b-TCP": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 24456,
+          "MolecularFormula": "Ca3O8P2",
+          "MolecularWeight": "310.18",
+          "SMILES": "[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[Ca+2].[Ca+2].[Ca+2]",
+          "ConnectivitySMILES": "[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[Ca+2].[Ca+2].[Ca+2]",
+          "IUPACName": "tricalcium diphosphate",
+          "ExactMass": "309.7946135",
+          "Complexity": 36,
+          "Charge": 0,
+          "HBondDonorCount": 0,
+          "HBondAcceptorCount": 8,
+          "_query": "name:beta-Tricalcium phosphate",
+          "_tag": "b-TCP"
+        }
+      ]
+    }
+  },
+  "a-TCP": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 24456,
+          "MolecularFormula": "Ca3O8P2",
+          "MolecularWeight": "310.18",
+          "SMILES": "[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[Ca+2].[Ca+2].[Ca+2]",
+          "ConnectivitySMILES": "[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[Ca+2].[Ca+2].[Ca+2]",
+          "IUPACName": "tricalcium diphosphate",
+          "ExactMass": "309.7946135",
+          "Complexity": 36,
+          "Charge": 0,
+          "HBondDonorCount": 0,
+          "HBondAcceptorCount": 8,
+          "_query": "name:alpha-Tricalcium phosphate",
+          "_tag": "a-TCP"
+        }
+      ]
+    }
+  },
+  "DCPD": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 104805,
+          "MolecularFormula": "CaH5O6P",
+          "MolecularWeight": "172.09",
+          "SMILES": "O.O.OP(=O)([O-])[O-].[Ca+2]",
+          "ConnectivitySMILES": "O.O.OP(=O)([O-])[O-].[Ca+2]",
+          "IUPACName": "calcium;hydrogen phosphate;dihydrate",
+          "ExactMass": "171.9449657",
+          "Complexity": 46,
+          "Charge": 0,
+          "HBondDonorCount": 3,
+          "HBondAcceptorCount": 6,
+          "_query": "name:Calcium hydrogen phosphate dihydrate",
+          "_tag": "DCPD"
+        }
+      ]
+    }
+  },
+  "DCPA-monetit": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 24441,
+          "MolecularFormula": "CaHO4P",
+          "MolecularWeight": "136.06",
+          "SMILES": "OP(=O)([O-])[O-].[Ca+2]",
+          "ConnectivitySMILES": "OP(=O)([O-])[O-].[Ca+2]",
+          "IUPACName": "calcium hydrogen phosphate",
+          "ExactMass": "135.9238364",
+          "Complexity": 46,
+          "Charge": 0,
+          "HBondDonorCount": 1,
+          "HBondAcceptorCount": 4,
+          "_query": "name:Calcium hydrogen phosphate",
+          "_tag": "DCPA-monetit"
+        }
+      ]
+    }
+  },
+  "OCP": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 123896,
+          "MolecularFormula": "Ca4HO12P3",
+          "MolecularWeight": "446.23",
+          "SMILES": "OP(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[Ca+2].[Ca+2].[Ca+2].[Ca+2]",
+          "ConnectivitySMILES": "OP(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[Ca+2].[Ca+2].[Ca+2].[Ca+2]",
+          "IUPACName": "tetracalcium;hydrogen phosphate;diphosphate",
+          "ExactMass": "445.7184499",
+          "Complexity": 83,
+          "Charge": 0,
+          "HBondDonorCount": 1,
+          "HBondAcceptorCount": 12,
+          "_query": "name:Octacalcium phosphate",
+          "_tag": "OCP"
+        }
+      ]
+    }
+  },
+  "TTCP": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 18676510,
+          "MolecularFormula": "Ca4O4P+5",
+          "MolecularWeight": "255.28",
+          "SMILES": "[O-]P(=O)([O-])[O-].[Ca+2].[Ca+2].[Ca+2].[Ca+2]",
+          "ConnectivitySMILES": "[O-]P(=O)([O-])[O-].[Ca+2].[Ca+2].[Ca+2].[Ca+2]",
+          "IUPACName": "tetracalcium;phosphate",
+          "ExactMass": "254.8037839",
+          "Complexity": 36,
+          "Charge": 5,
+          "HBondDonorCount": 0,
+          "HBondAcceptorCount": 4,
+          "_query": "name:Tetracalcium phosphate",
+          "_tag": "TTCP"
+        }
+      ]
+    }
+  },
+  "MCPM": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 24454,
+          "MolecularFormula": "CaH4O8P2",
+          "MolecularWeight": "234.05",
+          "SMILES": "OP(=O)(O)[O-].OP(=O)(O)[O-].[Ca+2]",
+          "ConnectivitySMILES": "OP(=O)(O)[O-].OP(=O)(O)[O-].[Ca+2]",
+          "IUPACName": "calcium bis(dihydrogen phosphate)",
+          "ExactMass": "233.9007319",
+          "Complexity": 49,
+          "Charge": 0,
+          "HBondDonorCount": 4,
+          "HBondAcceptorCount": 8,
+          "_query": "name:Monocalcium phosphate",
+          "_tag": "MCPM"
+        }
+      ]
+    }
+  },
+  "FAp": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 10207414,
+          "MolecularFormula": "Ca5FO12P3",
+          "MolecularWeight": "504.3",
+          "SMILES": "[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[F-].[Ca+2].[Ca+2].[Ca+2].[Ca+2].[Ca+2]",
+          "ConnectivitySMILES": "[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[F-].[Ca+2].[Ca+2].[Ca+2].[Ca+2].[Ca+2]",
+          "IUPACName": "pentacalcium;fluoride;triphosphate",
+          "ExactMass": "503.671619",
+          "Complexity": 36,
+          "Charge": 0,
+          "HBondDonorCount": 0,
+          "HBondAcceptorCount": 13,
+          "_query": "name:Fluorapatite",
+          "_tag": "FAp"
+        }
+      ]
+    }
+  },
+  "CPP": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 24632,
+          "MolecularFormula": "Ca2O7P2",
+          "MolecularWeight": "254.10",
+          "SMILES": "[O-]P(=O)([O-])OP(=O)([O-])[O-].[Ca+2].[Ca+2]",
+          "ConnectivitySMILES": "[O-]P(=O)([O-])OP(=O)([O-])[O-].[Ca+2].[Ca+2]",
+          "IUPACName": "dicalcium;phosphonato phosphate",
+          "ExactMass": "253.8371080",
+          "Complexity": 124,
+          "Charge": 0,
+          "HBondDonorCount": 0,
+          "HBondAcceptorCount": 7,
+          "_query": "name:Calcium pyrophosphate",
+          "_tag": "CPP"
+        }
+      ]
+    }
+  },
+  "WH": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 56841624,
+          "MolecularFormula": "Ca9FeH2MgO32P8",
+          "MolecularWeight": "1202.6",
+          "SMILES": "OP(=O)([O-])[O-].OP(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[Mg+2].[Ca+2].[Ca+2].[Ca+2].[Ca+2].[Ca+2].[Ca+2].[Ca+2].[Ca+2].[Ca+2].[Fe+2]",
+          "ConnectivitySMILES": "OP(=O)([O-])[O-].OP(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[Mg+2].[Ca+2].[Ca+2].[Ca+2].[Ca+2].[Ca+2].[Ca+2].[Ca+2].[Ca+2].[Ca+2].[Fe+2]",
+          "IUPACName": "nonacalcium;magnesium;hydrogen phosphate;iron(2+);hexaphosphate",
+          "ExactMass": "1201.226309",
+          "Complexity": 83,
+          "Charge": 0,
+          "HBondDonorCount": 2,
+          "HBondAcceptorCount": 32,
+          "_query": "name:Whitlockite",
+          "_tag": "WH"
+        }
+      ]
+    }
+  },
+  "search_calcium_phosphate": {
+    "cid": [
+      24456
+    ]
+  }
+}

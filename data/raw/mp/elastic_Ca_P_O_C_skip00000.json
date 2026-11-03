@@ -1,0 +1,14 @@
+{
+  "data": [],
+  "meta": {
+    "api_version": "0.88.1",
+    "time_stamp": "2026-11-03T21:24:00.463161+00:00",
+    "total_doc": 0,
+    "facet": null,
+    "max_limit": 1000,
+    "default_fields": [
+      "material_id",
+      "formula_pretty"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "sumber": "AFLOW (AFLUX REST API)",
+  "tanggal_akses": "2026-11-04 04:48:56",
+  "lisensi": "bebas untuk riset akademik; wajib sitasi AFLOW (Curtarolo et al.)",
+  "jumlah": {
+    "cap_biner": 172,
+    "capo_terner": 14,
+    "capoh_kuaterner": 15,
+    "capof_kuaterner": 17,
+    "cap_biner_icsd": 4,
+    "capo_terner_icsd": 12
+  }
+}

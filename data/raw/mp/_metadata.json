@@ -1,0 +1,15 @@
+{
+  "sumber": "Materials Project",
+  "tanggal_akses": "2026-11-04 04:21:06",
+  "lisensi": "CC-BY 4.0",
+  "api": "https://api.materialsproject.org",
+  "jumlah_entries": 57,
+  "jumlah_elastic": 5,
+  "per_sistem": {
+    "Ca-O-P": 28,
+    "Ca-H-O-P": 21,
+    "Ca-P": 4,
+    "C-Ca-O-P": 2,
+    "Ca-F-O-P": 2
+  }
+}

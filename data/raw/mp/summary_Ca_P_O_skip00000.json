@@ -1,0 +1,798 @@
+{
+  "data": [
+    {
+      "band_gap": 5.496813577891913,
+      "formation_energy_per_atom": -2.971411012281744,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 72,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca(PO3)2",
+      "chemsys": "Ca-O-P",
+      "volume": 915.6996235397814,
+      "density": 2.872759868862579,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaaikm"
+    },
+    {
+      "band_gap": 5.5318000000000005,
+      "formation_energy_per_atom": -2.960611952281746,
+      "energy_above_hull": 0.010799059999997418,
+      "is_stable": false,
+      "nsites": 72,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca(PO3)2",
+      "chemsys": "Ca-O-P",
+      "volume": 913.4516022845647,
+      "density": 2.8798297839299836,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "Cc",
+        "hall": "C -2yc",
+        "number": 9,
+        "point_group": "m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabfxxg"
+    },
+    {
+      "band_gap": 0.5072000000000001,
+      "formation_energy_per_atom": -2.054403778344155,
+      "energy_above_hull": 0.3767506862499861,
+      "is_stable": false,
+      "nsites": 44,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca(PO4)2",
+      "chemsys": "Ca-O-P",
+      "volume": 685.9473500032556,
+      "density": 2.2273336218090285,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqfta"
+    },
+    {
+      "band_gap": 3.1485,
+      "formation_energy_per_atom": -3.318827082264809,
+      "energy_above_hull": 0.006978725203252267,
+      "is_stable": false,
+      "nsites": 41,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca10P6O25",
+      "chemsys": "Ca-O-P",
+      "volume": 550.1865559258899,
+      "density": 2.9777180146491626,
+      "symmetry": {
+        "crystal_system": "Hexagonal",
+        "symbol": "P-6",
+        "hall": "P -6",
+        "number": 174,
+        "point_group": "-6",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaabsaq"
+    },
+    {
+      "band_gap": 3.0781000000000005,
+      "formation_energy_per_atom": -3.3175063066550528,
+      "energy_above_hull": 0.008299500813008898,
+      "is_stable": false,
+      "nsites": 41,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca10P6O25",
+      "chemsys": "Ca-O-P",
+      "volume": 549.7889745096032,
+      "density": 2.9798713596605326,
+      "symmetry": {
+        "crystal_system": "Trigonal",
+        "symbol": "P3",
+        "hall": "P 3",
+        "number": 143,
+        "point_group": "3",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacrvyz"
+    },
+    {
+      "band_gap": 0.9798,
+      "formation_energy_per_atom": -2.040972345452381,
+      "energy_above_hull": 0.3155178876666609,
+      "is_stable": false,
+      "nsites": 60,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca2P2O11",
+      "chemsys": "Ca-O-P",
+      "volume": 936.6797177728075,
+      "density": 2.255679758973469,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqiip"
+    },
+    {
+      "band_gap": 5.4165,
+      "formation_energy_per_atom": -3.2097002695941543,
+      "energy_above_hull": 0.0036955028409098034,
+      "is_stable": false,
+      "nsites": 88,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca2P2O7",
+      "chemsys": "Ca-O-P",
+      "volume": 1071.0214031320004,
+      "density": 3.1516969028202184,
+      "symmetry": {
+        "crystal_system": "Tetragonal",
+        "symbol": "P4_1",
+        "hall": "P 4w",
+        "number": 76,
+        "point_group": "4",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaaffv"
+    },
+    {
+      "band_gap": 5.5138,
+      "formation_energy_per_atom": -3.213395772435064,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 44,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca2P2O7",
+      "chemsys": "Ca-O-P",
+      "volume": 572.0478500557318,
+      "density": 2.950395529654056,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaabani"
+    },
+    {
+      "band_gap": 5.3661,
+      "formation_energy_per_atom": -2.855925476314286,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 50,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca2P6O17",
+      "chemsys": "Ca-O-P",
+      "volume": 750.3150998469162,
+      "density": 2.3812681112586787,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1",
+        "hall": "P 2yb",
+        "number": 4,
+        "point_group": "2",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabrduv"
+    },
+    {
+      "band_gap": 5.4644,
+      "formation_energy_per_atom": -3.2843226514835164,
+      "energy_above_hull": 0.041334645320512564,
+      "is_stable": false,
+      "nsites": 13,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca3(PO4)2",
+      "chemsys": "Ca-O-P",
+      "volume": 146.735985138635,
+      "density": 3.5101176305525232,
+      "symmetry": {
+        "crystal_system": "Trigonal",
+        "symbol": "R-3m",
+        "hall": "-R 3 2\"",
+        "number": 166,
+        "point_group": "-3m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaafed"
+    },
+    {
+      "band_gap": 4.9795,
+      "formation_energy_per_atom": -3.3223266832417577,
+      "energy_above_hull": 0.0033306135622712674,
+      "is_stable": false,
+      "nsites": 91,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca3(PO4)2",
+      "chemsys": "Ca-O-P",
+      "volume": 1210.4179557641316,
+      "density": 2.9786603562281275,
+      "symmetry": {
+        "crystal_system": "Trigonal",
+        "symbol": "R3",
+        "hall": "R 3",
+        "number": 146,
+        "point_group": "3",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabefse"
+    },
+    {
+      "band_gap": 2.773,
+      "formation_energy_per_atom": -2.7656345125824173,
+      "energy_above_hull": 0.5600227842216121,
+      "is_stable": false,
+      "nsites": 91,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca3(PO4)2",
+      "chemsys": "Ca-O-P",
+      "volume": 1282.7262850611562,
+      "density": 2.8107508369405676,
+      "symmetry": {
+        "crystal_system": "Trigonal",
+        "symbol": "R3",
+        "hall": "R 3",
+        "number": 146,
+        "point_group": "3",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabnavf"
+    },
+    {
+      "band_gap": 4.5074,
+      "formation_energy_per_atom": -3.249528727637362,
+      "energy_above_hull": 0.07612856916666733,
+      "is_stable": false,
+      "nsites": 13,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca3(PO4)2",
+      "chemsys": "Ca-O-P",
+      "volume": 181.3665650590264,
+      "density": 2.839887099940319,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "C2",
+        "hall": "C 2y",
+        "number": 5,
+        "point_group": "2",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabqwyx"
+    },
+    {
+      "band_gap": 4.9116,
+      "formation_energy_per_atom": -3.325657296804029,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 312,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca3(PO4)2",
+      "chemsys": "Ca-O-P",
+      "volume": 4444.990960605254,
+      "density": 2.7809851027538586,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqdgz"
+    },
+    {
+      "band_gap": 1.2708,
+      "formation_energy_per_atom": -1.7705577220408142,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 7,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca4P2O",
+      "chemsys": "Ca-O-P",
+      "volume": 152.2721037833324,
+      "density": 2.5982319938509133,
+      "symmetry": {
+        "crystal_system": "Tetragonal",
+        "symbol": "I4/mmm",
+        "hall": "-I 4 2",
+        "number": 139,
+        "point_group": "4/mmm",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaahyy"
+    },
+    {
+      "band_gap": 4.4843,
+      "formation_energy_per_atom": -3.326063225952382,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 60,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca4P2O9",
+      "chemsys": "Ca-O-P",
+      "volume": 789.9362642991969,
+      "density": 3.0796372291864578,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1",
+        "hall": "P 2yb",
+        "number": 4,
+        "point_group": "2",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaahul"
+    },
+    {
+      "band_gap": 5.361800000000001,
+      "formation_energy_per_atom": -3.0677112240640385,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 58,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca4P6O19",
+      "chemsys": "Ca-O-P",
+      "volume": 745.0555791788025,
+      "density": 2.898006988116224,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabfvsr"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -3.2524268636964293,
+      "energy_above_hull": 0.041922949957487354,
+      "is_stable": false,
+      "nsites": 40,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca5(PO4)3",
+      "chemsys": "Ca-O-P",
+      "volume": 543.8426997042105,
+      "density": 2.963601039594031,
+      "symmetry": {
+        "crystal_system": "Hexagonal",
+        "symbol": "P6_3/m",
+        "hall": "-P 6c",
+        "number": 176,
+        "point_group": "6/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacpgpo"
+    },
+    {
+      "band_gap": 0.48850729419545913,
+      "formation_energy_per_atom": -3.243580392806124,
+      "energy_above_hull": 0.0030395621031740205,
+      "is_stable": false,
+      "nsites": 42,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca5P3O13",
+      "chemsys": "Ca-O-P",
+      "volume": 545.1169627492773,
+      "density": 3.054148304945199,
+      "symmetry": {
+        "crystal_system": "Hexagonal",
+        "symbol": "P6_3/m",
+        "hall": "-P 6c",
+        "number": 176,
+        "point_group": "6/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqaxb"
+    },
+    {
+      "band_gap": 0.5317000000000001,
+      "formation_energy_per_atom": -3.2429881672108847,
+      "energy_above_hull": 0.0036317876984135467,
+      "is_stable": false,
+      "nsites": 84,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca5P3O13",
+      "chemsys": "Ca-O-P",
+      "volume": 1090.3476587591442,
+      "density": 3.0538297292668313,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqlau"
+    },
+    {
+      "band_gap": 0.5046999999999999,
+      "formation_energy_per_atom": -3.243528816615647,
+      "energy_above_hull": 0.003091138293650708,
+      "is_stable": false,
+      "nsites": 42,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca5P3O13",
+      "chemsys": "Ca-O-P",
+      "volume": 544.7310072950329,
+      "density": 3.056312244909289,
+      "symmetry": {
+        "crystal_system": "Hexagonal",
+        "symbol": "P6_3",
+        "hall": "P 6c",
+        "number": 173,
+        "point_group": "6",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacrvln"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -2.530917987275747,
+      "energy_above_hull": 0.3019760409496248,
+      "is_stable": false,
+      "nsites": 86,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Ca8P6O29",
+      "chemsys": "Ca-O-P",
+      "volume": 1229.4318571759025,
+      "density": 2.6214852903010493,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqoar"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -1.6073250961904755,
+      "energy_above_hull": 0.6212331630208316,
+      "is_stable": false,
+      "nsites": 24,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "CaP2O9",
+      "chemsys": "Ca-O-P",
+      "volume": 424.9614610937353,
+      "density": 1.9226497696572666,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacptnz"
+    },
+    {
+      "band_gap": 5.3423,
+      "formation_energy_per_atom": -2.786428141941964,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 64,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "CaP4O11",
+      "chemsys": "Ca-O-P",
+      "volume": 1017.7094327117202,
+      "density": 2.2188162981716983,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaabtvr"
+    },
+    {
+      "band_gap": 5.3424,
+      "formation_energy_per_atom": -2.786016361473214,
+      "energy_above_hull": 0.00041178046874978946,
+      "is_stable": false,
+      "nsites": 64,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "CaP4O11",
+      "chemsys": "Ca-O-P",
+      "volume": 1026.450878323187,
+      "density": 2.1999204480127617,
+      "symmetry": {
+        "crystal_system": "Orthorhombic",
+        "symbol": "Cmce",
+        "hall": "-C 2ac 2",
+        "number": 64,
+        "point_group": "mmm",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabfwjx"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -2.849100536190475,
+      "energy_above_hull": 0.09651225520832973,
+      "is_stable": false,
+      "nsites": 24,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "CaPO4",
+      "chemsys": "Ca-O-P",
+      "volume": 321.8516555560924,
+      "density": 2.7870571794481487,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabpiyn"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -2.8379636711904754,
+      "energy_above_hull": 0.10764912020832895,
+      "is_stable": false,
+      "nsites": 24,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "CaPO4",
+      "chemsys": "Ca-O-P",
+      "volume": 302.03678275523725,
+      "density": 2.9698997557585582,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacrbvx"
+    },
+    {
+      "band_gap": 0.687,
+      "formation_energy_per_atom": -1.849638853080358,
+      "energy_above_hull": 0.35957074046874915,
+      "is_stable": false,
+      "nsites": 16,
+      "elements": [
+        "Ca",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "CaPO6",
+      "chemsys": "Ca-O-P",
+      "volume": 251.48524142123682,
+      "density": 2.206014140827056,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "C2/c",
+        "hall": "-C 2yc",
+        "number": 15,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacrccd"
+    }
+  ],
+  "meta": {
+    "api_version": "0.88.1",
+    "time_stamp": "2026-11-03T21:23:55.664379+00:00",
+    "total_doc": 28,
+    "facet": null,
+    "max_limit": 1000,
+    "default_fields": [
+      "material_id"
+    ]
+  }
+}

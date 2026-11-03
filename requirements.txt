@@ -1,0 +1,12 @@
+# Dependensi pipeline Materials Informatics AMREC (Python 3.10, teruji 2026-11-04)
+pandas==2.3.3
+numpy==2.2.6
+requests==2.33.1
+scikit-learn==1.7.2
+xgboost==3.2.0
+matplotlib==3.10.7
+shap==0.49.1
+tabulate==0.10.0
+# opsional (eksplorasi lanjutan)
+# umap-learn
+# hdbscan
