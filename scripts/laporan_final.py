@@ -54,7 +54,7 @@ konsisten dengan literatur biomaterial tulang.
 
 | Target | Model terbaik | R2 | RMSE |
 |---|---|---|---|
-| Energi pembentukan (eV/atom) | SVR | 0.843 | 0.435 |
+| Energi pembentukan (eV/atom) | SVR (tuned: C=50, gamma=0.05) | 0.869 | 0.395 |
 | Densitas (g/cm3) | Random Forest | 0.916 | 0.132 |
 | Bandgap | — GAGAL (R2<0) — keputusan: tanpa imputasi, dipakai nilai terukur saja | | |
 | Klasifikasi kelayakan scaffold | Random Forest | Akurasi 0.975, F1 0.90 | |

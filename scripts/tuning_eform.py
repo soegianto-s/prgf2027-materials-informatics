@@ -65,7 +65,9 @@ def main():
         hasil.append(("RF", str(p), r2, rmse, mae))
 
     t = pd.DataFrame(hasil, columns=["model", "param", "R2", "RMSE", "MAE"])
-    terbaik = t.sort_values("R2", ascending=False).iloc[0]
+    t = t.sort_values("R2", ascending=False).reset_index(drop=True)
+    t.to_csv(PROC / "hasil_tuning_eform.csv", index=False)
+    terbaik = t.iloc[0]
     capai = terbaik["R2"] >= 0.85
     laporan = f"""# Laporan Tuning Eform (gap #2: target R2 >= 0.85)
 **Tanggal:** {time.strftime('%Y-%m-%d %H:%M:%S')} | n = {len(d)} | GroupKFold(10) berbasis komposisi

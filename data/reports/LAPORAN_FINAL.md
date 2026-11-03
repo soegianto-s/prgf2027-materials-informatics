@@ -1,7 +1,7 @@
 # LAPORAN FINAL
 # Pengembangan Kerangka Materials Informatics Berbasis AI untuk Penemuan Biomaterial Kalsium Fosfat sebagai Kandidat Scaffold Rekayasa Jaringan Tulang
 
-**Tanggal:** 2026-11-04 04:59:09
+**Tanggal:** 2026-11-04 05:27:07
 **Research Group:** AMREC, Universitas Airlangga | Skema PRGF Discovery Research 2027
 
 ---
@@ -35,7 +35,7 @@ konsisten dengan literatur biomaterial tulang.
 
 | Target | Model terbaik | R2 | RMSE |
 |---|---|---|---|
-| Energi pembentukan (eV/atom) | SVR | 0.843 | 0.435 |
+| Energi pembentukan (eV/atom) | SVR (tuned: C=50, gamma=0.05) | 0.869 | 0.395 |
 | Densitas (g/cm3) | Random Forest | 0.916 | 0.132 |
 | Bandgap | — GAGAL (R2<0) — keputusan: tanpa imputasi, dipakai nilai terukur saja | | |
 | Klasifikasi kelayakan scaffold | Random Forest | Akurasi 0.975, F1 0.90 | |

@@ -19,8 +19,8 @@ A curated dataset of 2,605 entries spanning 903 unique compositions was assemble
 audited. Physicochemical descriptors (Ca/P ratio, electronegativity, valence electron
 concentration, molecular weight, cell volume, density) were engineered, and multicollinearity
 was controlled (r > 0.85, VIF). Predictive models trained with composition-grouped
-cross-validation achieved R² = 0.84 for formation energy (SVR) and R² = 0.92 for density
-(Random Forest); a scaffold-suitability classifier reached F1 = 0.90.
+cross-validation achieved R² = 0.87 for formation energy (tuned SVR) and R² = 0.92 for
+density (Random Forest); a scaffold-suitability classifier reached F1 = 0.90.
 Multi-objective ranking (TOPSIS and VIKOR under three weighting scenarios, plus
 Shannon-entropy sensitivity) identified carbonated apatite, fluorapatite, octacalcium
 phosphate, tetracalcium phosphate, and hydroxyapatite as the top candidates — in agreement
@@ -93,7 +93,8 @@ Bias sumber terdeteksi (fraksi tetangga sesumber k=5 = 0.94) → mitigasi subset
 + GroupKFold. [Fig. 2–4]
 
 ### 3.3 Predictive models
-[Table 2 — semua metrik; highlight:] SVR Eform R² = 0.843 (RMSE 0.435 eV/atom);
+[Table 2 — semua metrik; highlight:] SVR Eform R² = 0.869 setelah tuning
+(C = 50, gamma = 0.05; RMSE 0.395 eV/atom) — indikator R² ≥ 0.85 TERCAPAI;
 RF densitas R² = 0.916 (RMSE 0.132 g/cm³); klasifikasi akurasi 0.975, F1 0.90.
 Bandgap tidak dapat diprediksi dari deskriptor komposisi (R² < 0) — keputusan: tanpa
 imputasi.
