@@ -59,11 +59,14 @@ atau per skrip (urutan wajib):
 | 6 | `consolidate.py` | 2 — Konsolidasi + laporan audit akuisisi |
 | 7 | `preprocess_descriptors.py` | 2–3 — QC, pencilan, deskriptor fisikokimia |
 | 8 | `eda.py` | 4 — Korelasi, VIF, PCA, t-SNE, K-Means, bias sumber |
-| 9 | `modeling.py` | 5 — Regresi/klasifikasi ML, GroupKFold, RFE |
-| 10 | `mcdm.py` | 6 — TOPSIS + VIKOR, 3 set bobot, pemeringkatan |
-| 11 | `xai.py` | 7 — SHAP + permutation importance |
-| 12 | `laporan_final.py` | 7–8 — Laporan final + Top 15 dedup |
-| 13 | `versi_dataset.py` | — Snapshot dataset final + checksum |
+| 9 | `eda_lanjutan.py` | 4 — UMAP, HDBSCAN, hierarkis, validasi literatur |
+| 10 | `modeling.py` | 5 — Regresi/klasifikasi ML, GroupKFold, RFE |
+| 11 | `mcdm.py` | 6 — TOPSIS + VIKOR, 3 set bobot, pemeringkatan |
+| 12 | `mcdm_entropi.py` | 6 — Sensitivitas: pembobotan entropi Shannon |
+| 13 | `siapkan_dft.py` | 7 — Input DFT/QE (POSCAR+CIF+scf/relax) Top 5 |
+| 14 | `xai.py` | 7 — SHAP + permutation importance |
+| 15 | `laporan_final.py` | 7–8 — Laporan final + Top 15 dedup |
+| 16 | `versi_dataset.py` | — Snapshot dataset final + checksum |
 
 ## Sumber Data & Lisensi
 
