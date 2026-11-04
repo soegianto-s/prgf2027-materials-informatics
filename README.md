@@ -7,11 +7,11 @@ Periode: Agustus 2026 – Juli 2027 · Versi paket: 1.0 (2026-11-04)
 
 Pipeline end-to-end untuk penemuan biomaterial kalsium fosfat:
 
-`Akuisisi data (5 basis data) → Prapemrosesan → Deskriptor fisikokimia → EDA/Klaster → Pemodelan ML → MCDM (TOPSIS+VIKOR) → Interpretasi SHAP`
+`Akuisisi data (5 basis data) → Prapemrosesan → Deskriptor fisikokimia → EDA/Klaster → Pemodelan ML (anti-leakage) → MCDM (TOPSIS+VIKOR) → Interpretasi SHAP`
 
-- Dataset terpadu: **2.605 entri / 903 komposisi unik** (target proposal: ≥500)
-- Model: SVR energi pembentukan R² = 0,84 · Random Forest densitas R² = 0,92 · klasifikasi kelayakan F1 = 0,90 (GroupKFold anti-kebocoran)
-- **Top kandidat:** karbonat apatit, fluorapatit, oktakalsium fosfat, tetrakalsium fosfat, hidroksiapatit — konsisten dengan material graft tulang klinis
+- Dataset terpadu: **2.885 entri / 950 komposisi unik** (target proposal: ≥500)
+- Model (protokol anti-kebocoran v2: grouping formula tereduksi + nested CV + fitur komposisi murni): SVR Eform R² = 0,48 discovery / 0,58 dalam-fosfat (benchmark eksperimen MAE 0,254 eV/atom); densitas komposisi-murni R² = 0,17 (benchmark MAE 0,177 g/cm³); transfer antar basis data sesama-komposisi R² = 0,88
+- **Top kandidat:** fluorapatit, karbonat apatit, β-TCP, hidroksiapatit, TTCP (+monetit, OCP) — kriteria eksplisit dari kebutuhan desain; klaim 'penemuan ulang' tidak dipakai
 
 ## Struktur Folder
 
@@ -80,7 +80,7 @@ atau per skrip (urutan wajib):
 
 ## Keputusan Metodologis Penting (log)
 
-1. **Anti-kebocoran:** pemodelan hanya pada subset komputasional (MP+AFLOW); validasi silang GroupKFold berbasis kelompok komposisi (polimorf satu fold).
+1. **Anti-kebocoran (v2):** grouping formula TEREDUKSI (gcd) — polimorf & kelipatan formula satu fold; nested CV untuk SVR; fitur komposisi MURNI untuk skenario discovery (volume/densitas hanya varian screening berlabel); classifier suitability ditarik (semi-deterministik) & tidak dipakai di MCDM.
 2. **Bandgap:** tidak dapat diprediksi dari deskriptor komposisi (R²<0) — imputasi dibatalkan, nilai terukur dipakai.
 3. **Modulus elastik:** hanya 9 entri punya K&G — kriteria MCDM memakai imputasi median; validasi DFT/MD top kandidat adalah langkah wajib berikutnya.
 4. **Pencilan:** dipertahankan bila fisika-valid, keputusan tercatat per kasus.

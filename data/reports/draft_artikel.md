@@ -1,3 +1,5 @@
+> **STATUS: SUPERSEDED (2026-11-04)** — angka di draft ini SUDAH KADALUARSA. Naskah resmi & terbaru: `manuscript/manuscript_elsarticle.pdf` (format jurnal) dan `manuscript/manuscript.pdf`. Draft ini dipertahankan hanya sebagai arsip awal.
+
 # DRAFT ARTIKEL (IMRaD)
 **Target jurnal:** Computational Materials Science (Elsevier, Gold Open Access — sesuai RAB)
 **Status:** draft v1.0 — 4 November 2026

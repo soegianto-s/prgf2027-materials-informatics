@@ -1,10 +1,10 @@
 # Laporan Audit Akuisisi Dataset Biomaterial Kalsium Fosfat
-**Tanggal audit:** 2026-11-04 05:49:25
+**Tanggal audit:** 2026-11-04 07:15:45
 **Tahapan:** Bagian 2–3 panduan utama (akuisisi + audit dataset)
 
 ## Ringkasan
 - **Total baris/entri:** 2885
-- **Komposisi kimia unik:** 904
+- **Komposisi kimia unik:** 900
 - **Indikator target:** >= 500 senyawa tervalidasi → TERPENUHI
 - **Sumber & lisensi:**
   - Materials Project (API, CC-BY 4.0) — diakses 2026-11-04
@@ -35,7 +35,7 @@
 
 ## Pemeriksaan Material Rujukan (kontrol positif)
 - **Hidroksiapatit (Ca5P3O13H):** 63 entri dari {'COD': 51, 'MaterialsProject': 2, 'OQMD': 9, 'PubChem': 1}
-- **Trikalsium fosfat (Ca3P2O8):** 29 entri dari {'AFLOW': 6, 'COD': 10, 'OQMD': 12, 'PubChem': 1}
+- **Trikalsium fosfat (Ca3P2O8):** 34 entri dari {'AFLOW': 6, 'COD': 10, 'MaterialsProject': 5, 'OQMD': 12, 'PubChem': 1}
 
 ## Catatan Kualitas
 - Data COD: eksperimental (parameter kisi + spacegroup), tanpa energi/sifat mekanik.

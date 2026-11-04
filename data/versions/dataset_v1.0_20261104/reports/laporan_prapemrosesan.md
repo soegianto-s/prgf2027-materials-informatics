@@ -1,5 +1,5 @@
 # Laporan Prapemrosesan & Ekstraksi Deskriptor
-**Tanggal:** 2026-11-04 05:49:26
+**Tanggal:** 2026-11-04 07:15:46
 **Tahapan:** Bagian 3–4 panduan utama
 
 ## Keputusan Prapemrosesan
@@ -28,11 +28,11 @@
 ## Distribusi Kelompok Material
 | kelompok            |   count |
 |:--------------------|--------:|
-| fosfat_lain         |    1261 |
-| monokalsium_fosfat  |     547 |
-| dikalsium_fosfat    |     488 |
-| apatit_hidroksi     |     322 |
+| fosfat_lain         |    1255 |
+| monokalsium_fosfat  |     550 |
+| dikalsium_fosfat    |     485 |
+| apatit_hidroksi     |     323 |
 | tetrakalsium_fosfat |      92 |
 | oktakalsium_fosfat  |      86 |
-| trikalsium_fosfat   |      78 |
+| trikalsium_fosfat   |      83 |
 | apatit_fluor        |      11 |

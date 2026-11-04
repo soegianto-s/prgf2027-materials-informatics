@@ -1,3 +1,5 @@
+> **SUPERSEDED (2026-11-04):** estimasi ini memakai CV datar non-nested & fitur struktur. Angka resmi: nested CV di `laporan_pemodelan.md` (R² 0,48 discovery / 0,58 dalam-fosfat).
+
 # Laporan Tuning Eform (gap #2: target R2 >= 0.85)
 **Tanggal:** 2026-11-04 05:54:37 | n = 291 | GroupKFold(10) berbasis komposisi
 

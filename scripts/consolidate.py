@@ -13,14 +13,37 @@ PAIRS = re.compile(r"([A-Z][a-z]?)(\d*\.?\d*)")
 
 
 def parse_formula(f):
-    """Kembalikan dict elemen->jumlah dari string formula."""
+    """Kembalikan dict elemen->jumlah dari string formula (mendukung tanda kurung, mis. Ca3(PO4)2)."""
     if not isinstance(f, str):
         return {}
+    s = f.replace(" ", "")
     counts = {}
-    for el, n in PAIRS.findall(f.replace(" ", "")):
-        if not el:
-            continue
-        counts[el] = counts.get(el, 0) + (float(n) if n else 1.0)
+    stack = [counts]
+    i = 0
+    while i < len(s):
+        c = s[i]
+        if c == "(":
+            stack.append({})
+            i += 1
+        elif c == ")":
+            j = i + 1
+            num = ""
+            while j < len(s) and (s[j].isdigit() or s[j] == "."):
+                num += s[j]
+                j += 1
+            m = float(num) if num else 1.0
+            child = stack.pop()
+            for el, n in child.items():
+                stack[-1][el] = stack[-1].get(el, 0) + n * m
+            i = j
+        else:
+            mm = PAIRS.match(s[i:])
+            if mm:
+                el, n = mm.group(1), mm.group(2)
+                stack[-1][el] = stack[-1].get(el, 0) + (float(n) if n else 1.0)
+                i += mm.end()
+            else:
+                i += 1
     return counts
 
 

@@ -1,7 +1,7 @@
 # LAPORAN FINAL
 # Pengembangan Kerangka Materials Informatics Berbasis AI untuk Penemuan Biomaterial Kalsium Fosfat sebagai Kandidat Scaffold Rekayasa Jaringan Tulang
 
-**Tanggal:** 2026-11-04 07:12:34
+**Tanggal:** 2026-11-04 07:17:04
 **Research Group:** AMREC, Universitas Airlangga | Skema PRGF Discovery Research 2027
 
 ---
@@ -49,20 +49,20 @@ konsisten dengan literatur biomaterial tulang.
 | formula     | sumber           | kelompok            |   peringkat_rerata |   Eform_eV_atom |   densitas_final_gcm3 |   ca_p_ratio |   bandgap_eV |
 |:------------|:-----------------|:--------------------|-------------------:|----------------:|----------------------:|-------------:|-------------:|
 | Ca5P3O12F   | MaterialsProject | apatit_hidroksi     |              1.333 |          -3.42  |                 3.104 |        1.667 |        5.512 |
-| Ca10P6CO27  | MaterialsProject | apatit_hidroksi     |              3.333 |          -3.253 |                 3.053 |        1.667 |        5.137 |
-| Ca5P3HO13   | MaterialsProject | apatit_hidroksi     |              4.333 |          -3.223 |                 3.178 |        1.667 |        5.198 |
-| Ca10F2O24P6 | AFLOW            | apatit_hidroksi     |              7.167 |          -3.032 |                 3.096 |        1.667 |        5.518 |
-| Ca4P2O9     | MaterialsProject | tetrakalsium_fosfat |             15.833 |          -3.326 |                 3.08  |        2     |        4.484 |
-| Ca2P2O7     | MaterialsProject | dikalsium_fosfat    |             25.5   |          -3.213 |                 2.95  |        1     |        5.514 |
-| Ca10H2O26P6 | AFLOW            | apatit_hidroksi     |             27.333 |          -2.84  |                 3.051 |        1.667 |        5.204 |
-| Ca(PO3)2    | MaterialsProject | dikalsium_fosfat    |             30.833 |          -2.971 |                 2.873 |        1     |        5.497 |
-| Ca16O36P8   | AFLOW            | tetrakalsium_fosfat |             34.333 |          -2.937 |                 2.976 |        2     |        4.48  |
-| Ca10P6O25   | MaterialsProject | apatit_hidroksi     |             35.667 |          -3.319 |                 2.978 |        1.667 |        3.148 |
-| Ca4P6O19    | MaterialsProject | fosfat_lain         |             38.167 |          -3.068 |                 2.898 |        0.667 |        5.362 |
-| Ca3(PO4)2   | MaterialsProject | fosfat_lain         |             38.833 |          -3.322 |                 2.979 |        3     |        4.98  |
-| CaPHO4      | MaterialsProject | dikalsium_fosfat    |             39.833 |          -2.8   |                 2.947 |        1     |        5.439 |
-| Ca3O8P2     | AFLOW            | trikalsium_fosfat   |             40.167 |          -2.887 |                 3.364 |        1.5   |        5.469 |
-| Ca16O56P16  | AFLOW            | dikalsium_fosfat    |             41.333 |          -2.8   |                 3.01  |        1     |        5.423 |
+| Ca10P6CO27  | MaterialsProject | apatit_hidroksi     |              4.333 |          -3.253 |                 3.053 |        1.667 |        5.137 |
+| Ca3(PO4)2   | MaterialsProject | trikalsium_fosfat   |              4.833 |          -3.322 |                 2.979 |        1.5   |        4.98  |
+| Ca5P3HO13   | MaterialsProject | apatit_hidroksi     |              5.5   |          -3.223 |                 3.178 |        1.667 |        5.198 |
+| Ca10F2O24P6 | AFLOW            | apatit_hidroksi     |              9.667 |          -3.032 |                 3.096 |        1.667 |        5.518 |
+| Ca4P2O9     | MaterialsProject | tetrakalsium_fosfat |             19     |          -3.326 |                 3.08  |        2     |        4.484 |
+| Ca2P2O7     | MaterialsProject | dikalsium_fosfat    |             28.5   |          -3.213 |                 2.95  |        1     |        5.514 |
+| Ca10H2O26P6 | AFLOW            | apatit_hidroksi     |             29.833 |          -2.84  |                 3.051 |        1.667 |        5.204 |
+| Ca16O36P8   | AFLOW            | tetrakalsium_fosfat |             36.167 |          -2.937 |                 2.976 |        2     |        4.48  |
+| Ca10P6O25   | MaterialsProject | apatit_hidroksi     |             36.833 |          -3.319 |                 2.978 |        1.667 |        3.148 |
+| Ca4P6O19    | MaterialsProject | fosfat_lain         |             39     |          -3.068 |                 2.898 |        0.667 |        5.362 |
+| CaPHO4      | MaterialsProject | dikalsium_fosfat    |             40.333 |          -2.8   |                 2.947 |        1     |        5.439 |
+| Ca3O8P2     | AFLOW            | trikalsium_fosfat   |             41.667 |          -2.887 |                 3.364 |        1.5   |        5.469 |
+| Ca16O56P16  | AFLOW            | dikalsium_fosfat    |             41.833 |          -2.8   |                 3.01  |        1     |        5.423 |
+| Ca8P6H12O29 | MaterialsProject | oktakalsium_fosfat  |             44.5   |          -2.621 |                 2.591 |        1.333 |        4.909 |
 
 **Klaim jujur (koreksi 2026-11-04, dua putaran reviewer):**
 - QC sumber data (nilai DATABASE vs literatur): selisih densitas <= 2.9% — menguji basis data, bukan model;

@@ -97,10 +97,10 @@ OQMD & oqmdapi & cite Kirklin et al. & 280 \\
 \begin{columns}
 \column{0.5\textwidth}
 \begin{itemize}\small
-\item 6 criteria: stability, density $\to$ 2.0, Ca/P $\to$ 1.67, modulus $\to$ 15 GPa, band gap, ML suitability
+\item 5 criteria: stability, density band [1.0--3.2], Ca/P $\to$ 1.67, modulus $\to$ 15 GPa, band gap (suitability score excluded: double counting)
 \item 3 weight scenarios + Shannon entropy
 \item Spearman 0.974: ranking robust
-\item Stability z-scored per source
+\item Grouping: reduced formula (anti-leakage)
 \end{itemize}
 \column{0.5\textwidth}
 \begin{table}
@@ -109,14 +109,14 @@ OQMD & oqmdapi & cite Kirklin et al. & 280 \\
 \toprule
 Rank & Candidate & Family \\
 \midrule
-1 & Ca$_{10}$P$_6$CO$_{27}$ & carbonated apatite \\
-2 & Ca$_5$P$_3$O$_{12}$F & fluorapatite \\
-3 & Ca$_{10}$F$_2$O$_{24}$P$_6$ & fluorapatite \\
-4 & Ca$_{10}$P$_6$O$_{25}$ & apatite \\
-5 & Ca$_8$P$_6$H$_{12}$O$_{29}$ & OCP \\
-6 & Ca$_{16}$O$_{36}$P$_8$ & TTCP \\
-7 & Ca$_4$P$_2$O$_9$ & TTCP \\
-8 & Ca$_5$P$_3$HO$_{13}$ & hydroxyapatite \\
+1 & Ca$_5$P$_3$O$_{12}$F & fluorapatite \\
+2 & Ca$_{10}$P$_6$CO$_{27}$ & carbonated apatite \\
+3 & Ca$_3$(PO$_4$)$_2$ & $\beta$-TCP \\
+4 & Ca$_5$P$_3$HO$_{13}$ & hydroxyapatite \\
+5 & Ca$_{10}$F$_2$O$_{24}$P$_6$ & fluorapatite \\
+6 & Ca$_4$P$_2$O$_9$ & TTCP \\
+12 & CaPHO$_4$ & monetite (DCPA) \\
+15 & Ca$_8$P$_6$H$_{12}$O$_{29}$ & OCP \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -126,8 +126,8 @@ Rank & Candidate & Family \\
 \begin{frame}{Reading the ranking honestly}
 \begin{itemize}
 \item Criteria encode bone-tissue design requirements $\Rightarrow$ top ranks are apatitic \emph{by construction} -- no ``rediscovery'' claim
-\item Top ranks: fluorapatite, carbonated apatite, HAp, TTCP (+ cement co-components monetite, OCP in shortlist)
-\item $\beta$-TCP (the standard \emph{resorbable} graft) ranks outside top-15: its clinical virtue, resorbability, is \emph{not} among our criteria -- clearest limitation \& next criterion to add
+\item Top ranks: fluorapatite, carbonated apatite, $\beta$-TCP (3), HAp, TTCP; monetite (12) + OCP (15) in shortlist
+\item $\beta$-TCP ranks on thermodynamic/compositional grounds; its clinical virtue, resorbability, is still \emph{not} represented -- a resorption criterion is the clearest next addition
 \item BCP = HAp + $\beta$-TCP composite; both constituents in the pool
 \end{itemize}
 \end{frame}
