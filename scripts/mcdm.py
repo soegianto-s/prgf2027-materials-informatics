@@ -93,7 +93,7 @@ def main():
     laporan = [f"# Laporan Analisis Multiobjektif (MCDM)\n**Tanggal:** {time.strftime('%Y-%m-%d %H:%M:%S')}\n"
                f"**Tahapan:** Bagian 8 panduan utama\n",
                f"## Kriteria & Arah\n- C1 stabilitas (max), C2 densitas->2.0 (max), C3 Ca/P->1.67 (max), "
-               f"C4 modulus->15 GPa (max), C5 bandgap (max), C6 kelayakan ML (max)",
+               f"C4 modulus->15 GPa (max), C5 bandgap (max) — C6 (skor kelayakan ML) DITARIK: double counting dengan C1-C3",
                f"- Imputasi median untuk C4/C5 yang hilang (keputusan tercatat).",
                f"- Bobot: {WEIGHTS}",
                f"## Posisi Material Rujukan (peringkat rerata dari 6 skenario)\n- HAp: {cek('Ca5P3HO13|Ca10H2O26P6')}",

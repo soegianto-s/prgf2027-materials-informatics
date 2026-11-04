@@ -8,6 +8,8 @@ import shutil
 import time
 from pathlib import Path
 
+import pandas as pd
+
 from common import PROC, ROOT
 
 FILE_KUNCI = [
@@ -63,10 +65,13 @@ def main():
         manifest["file"]["reports/figures/"] = "disalin utuh"
     (dst / "manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False),
                                       encoding="utf-8")
-    # VERSION.md ringkas
+    # VERSION.md ringkas (jumlah dihitung dari dataset final, bukan hardcode)
+    df = pd.read_csv(PROC / "dataset_deskriptor.csv")
+    n_entri = len(df)
+    n_komposisi = df["formula"].nunique() if "formula" in df.columns else "-"
     (ROOT / "VERSION.md").write_text(
         f"# Versi Dataset\n\n- **{nama}** — {manifest['tanggal']}\n"
-        f"- Entri: 2.605 / komposisi unik: 903 (lihat `data/reports/laporan_akuisisi.md`)\n"
+        f"- Entri: {n_entri} / komposisi unik: {n_komposisi} (lihat `data/reports/laporan_akuisisi.md`)\n"
         f"- Checksum: `data/versions/{nama}/manifest.json`\n",
         encoding="utf-8")
     print(f"Versi tersimpan: {dst}")

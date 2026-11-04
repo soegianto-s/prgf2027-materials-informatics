@@ -1,9 +1,9 @@
 # Laporan Analisis Multiobjektif (MCDM)
-**Tanggal:** 2026-11-04 07:16:30
+**Tanggal:** 2026-11-04 07:46:35
 **Tahapan:** Bagian 8 panduan utama
 
 ## Kriteria & Arah
-- C1 stabilitas (max), C2 densitas->2.0 (max), C3 Ca/P->1.67 (max), C4 modulus->15 GPa (max), C5 bandgap (max), C6 kelayakan ML (max)
+- C1 stabilitas (max), C2 densitas->2.0 (max), C3 Ca/P->1.67 (max), C4 modulus->15 GPa (max), C5 bandgap (max) — C6 (skor kelayakan ML) DITARIK: double counting dengan C1-C3
 - Imputasi median untuk C4/C5 yang hilang (keputusan tercatat).
 - Bobot: {'W1_berimbang': array([0.35, 0.25, 0.15, 0.15, 0.1 ]), 'W2_stabilitas': array([0.5 , 0.15, 0.15, 0.1 , 0.1 ]), 'W3_mekanik': array([0.25, 0.2 , 0.1 , 0.35, 0.1 ])}
 ## Posisi Material Rujukan (peringkat rerata dari 6 skenario)

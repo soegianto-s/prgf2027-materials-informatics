@@ -10,21 +10,23 @@ Pipeline end-to-end untuk penemuan biomaterial kalsium fosfat:
 `Akuisisi data (5 basis data) → Prapemrosesan → Deskriptor fisikokimia → EDA/Klaster → Pemodelan ML (anti-leakage) → MCDM (TOPSIS+VIKOR) → Interpretasi SHAP`
 
 - Dataset terpadu: **2.885 entri / 950 komposisi unik** (target proposal: ≥500)
-- Model (protokol anti-kebocoran v2: grouping formula tereduksi + nested CV + fitur komposisi murni): SVR Eform R² = 0,48 discovery / 0,58 dalam-fosfat (benchmark eksperimen MAE 0,254 eV/atom); densitas komposisi-murni R² = 0,17 (benchmark MAE 0,177 g/cm³); transfer antar basis data sesama-komposisi R² = 0,88
+- Model (protokol anti-kebocoran v2: grouping formula tereduksi + nested CV + 4 DOF komposisi murni — Ca/P, fraksi P, H, F): SVR Eform R² = 0,11 discovery (n=337 MP+OQMD) / −0,52 dalam-fosfat / 0,40 varian screening (benchmark eksperimen MAE 0,094 eV/atom); densitas komposisi-murni R² = 0,02 (benchmark MAE 0,114 g/cm³); transfer antar basis data sesama-komposisi R² = 0,83
 - **Top kandidat:** fluorapatit, karbonat apatit, β-TCP, hidroksiapatit, TTCP (+monetit, OCP) — kriteria eksplisit dari kebutuhan desain; klaim 'penemuan ulang' tidak dipakai
 
 ## Struktur Folder
 
 ```
 prgf2027/
-├── scripts/            # 13 skrip pipeline (urutan di bawah)
+├── scripts/            # skrip pipeline (urutan wajib di bawah) + skrip penunjang
 ├── data/
 │   ├── raw/            # data mentah per sumber (JSON/CSV + _metadata.json)
 │   ├── processed/      # dataset terpadu, deskriptor, ranking, kandidat
-│   ├── reports/        # 7 laporan markdown + 13 figure PNG
-│   └── versions/       # snapshot dataset final + checksum (manifest)
+│   ├── reports/        # laporan markdown + figure PNG + manuskrip (IMRaD + elsarticle)
+│   ├── versions/       # snapshot dataset final + checksum (manifest)
+│   └── validasi_mlff/  # struktur terelaksasi MACE-MP-0
+├── template_jurnal/    # template Elsevier elsarticle (sumber manuskrip resmi)
 ├── requirements.txt    # dependensi Python
-├── run_all.py          # orkestrator pipeline (bisa dijalankan ulang)
+├── scripts/run_all.py  # orkestrator pipeline (bisa dijalankan ulang)
 ├── run_all.bat         # wrapper Windows
 └── panduan_utama_...md # rujukan metodologi utama
 ```
@@ -64,9 +66,14 @@ atau per skrip (urutan wajib):
 | 11 | `mcdm.py` | 6 — TOPSIS + VIKOR, 3 set bobot, pemeringkatan |
 | 12 | `mcdm_entropi.py` | 6 — Sensitivitas: pembobotan entropi Shannon |
 | 13 | `siapkan_dft.py` | 7 — Input DFT/QE (POSCAR+CIF+scf/relax) Top 5 |
-| 14 | `xai.py` | 7 — SHAP + permutation importance |
-| 15 | `laporan_final.py` | 7–8 — Laporan final + Top 15 dedup |
+| 14 | `xai.py` | 7 — SHAP + permutation importance (4 DOF komposisi) |
+| 15 | `laporan_final.py` | 7–8 — Laporan final + Top 15 dedup (rank ordinal) |
 | 16 | `versi_dataset.py` | — Snapshot dataset final + checksum |
+
+Skrip penunjang (tidak berurutan): `tcp_alpha_beta.py` (validasi pemisahan α/β-TCP),
+`tuning_eform.py` (tuning SVR Eform), `validasi_independen.py` (benchmark eksperimen),
+`validasi_mlff.py` (pra-validasi MACE-MP-0 Top 5), `konversi_elsarticle.py` (konversi ke
+format jurnal), `patch_manuskrip_ronde3*.py` (patch angka hasil review ronde 3).
 
 ## Sumber Data & Lisensi
 
@@ -80,7 +87,7 @@ atau per skrip (urutan wajib):
 
 ## Keputusan Metodologis Penting (log)
 
-1. **Anti-kebocoran (v2):** grouping formula TEREDUKSI (gcd) — polimorf & kelipatan formula satu fold; nested CV untuk SVR; fitur komposisi MURNI untuk skenario discovery (volume/densitas hanya varian screening berlabel); classifier suitability ditarik (semi-deterministik) & tidak dipakai di MCDM.
+1. **Anti-kebocoran (v2):** grouping formula TEREDUKSI (gcd) — polimorf & kelipatan formula satu fold; nested CV untuk SVR; fitur komposisi MURNI = 4 DOF (Ca/P, fraksi P, H, F — EN_avg & berat molekul adalah fungsi linear eksak fraksi unsur, VIF tak hingga, dibuang); volume/densitas hanya varian screening berlabel; classifier suitability ditarik (semi-deterministik) & tidak dipakai di MCDM. Temuan ronde 3: komposisi murni TIDAK punya daya prediksi dalam-keluarga fosfat (R² < 0) — argumen kuat untuk surrogate sadar-struktur; Eform dilatih pada MP+OQMD saja (n=337, AFLOW dikecualikan karena beda skala energi).
 2. **Bandgap:** tidak dapat diprediksi dari deskriptor komposisi (R²<0) — imputasi dibatalkan, nilai terukur dipakai.
 3. **Modulus elastik:** hanya 9 entri punya K&G — kriteria MCDM memakai imputasi median; validasi DFT/MD top kandidat adalah langkah wajib berikutnya.
 4. **Pencilan:** dipertahankan bila fisika-valid, keputusan tercatat per kasus.

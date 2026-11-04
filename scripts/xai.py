@@ -23,9 +23,8 @@ plt.rcParams.update({
     "axes.spines.top": False, "axes.spines.right": False,
 })
 
-# KOREKSI (2026-11-04): fitur komposisi murni (konsisten dengan model discovery yang jujur)
-FEATURES = ["ca_p_ratio", "EN_avg", "berat_molekul",
-            "frac_Ca", "frac_P", "frac_O", "frac_H", "frac_F"]
+# KOREKSI (2026-11-04 ronde 3): hanya 4 DOF komposisi independen (sistem 5 unsur)
+FEATURES = ["ca_p_ratio", "frac_P", "frac_H", "frac_F"]
 
 
 def muat_subset():
@@ -68,8 +67,8 @@ def main():
                f"**Tahapan:** Bagian 9 panduan utama\n"]
     for target in ["Eform_eV_atom", "densitas_final_gcm3"]:
         nama = "eform" if "Eform" in target else "densitas"
-        # Eform: subset pelatihan MP+AFLOW (konsisten dengan model); densitas: semua sumber
-        subs = sub[sub["sumber"].isin(["MaterialsProject", "AFLOW"])] if nama == "eform" else sub
+        # Eform: subset pelatihan MP+OQMD (skala konsisten; AFLOW dikecualikan); densitas: semua sumber
+        subs = sub[sub["sumber"].isin(["MaterialsProject", "OQMD"])] if nama == "eform" else sub
         d, rf, imp, top2, perm, fitur = shap_untuk(subs, target, nama)
         laporan.append(f"## SHAP: {target} (RandomForest, n={len(d)})")
         laporan.append(f"- Dua fitur paling berpengaruh (|SHAP| rata-rata): {top2[0]}, {top2[1]}")

@@ -18,6 +18,7 @@ import pandas as pd
 from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor
 from sklearn.metrics import (accuracy_score, f1_score, mean_absolute_error,
                              mean_squared_error, r2_score)
+from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import GroupKFold, ParameterGrid
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVR
@@ -25,11 +26,11 @@ from xgboost import XGBRegressor
 
 from common import PROC, REPORTS
 
-FS_KOMPOSISI = ["ca_p_ratio", "EN_avg", "berat_molekul", "frac_Ca", "frac_P",
-                "frac_O", "frac_H", "frac_F"]
+# Sistem 5 unsur = 4 DOF komposisi independen. frac_Ca/frac_O/EN_avg/berat_molekul adalah
+# fungsi LINEAR EKSAK dari [ca_p_ratio, frac_P, frac_H, frac_F] (VIF = inf) -> dibuang semua.
+FS_KOMPOSISI = ["ca_p_ratio", "frac_P", "frac_H", "frac_F"]
 FS_IDENTITAS_DENSITAS = ["berat_molekul", "volume_A3"]  # rho = MZ/(NA V) -> hampir identitas
-FS_FULL = ["ca_p_ratio", "EN_avg", "berat_molekul", "volume_A3",
-           "densitas_final_gcm3", "frac_Ca", "frac_P", "frac_O", "frac_H", "frac_F"]
+FS_FULL = ["ca_p_ratio", "frac_P", "frac_H", "frac_F", "volume_A3", "densitas_final_gcm3"]
 
 GRID_SVR = {"C": [1, 10, 50], "gamma": [0.01, 0.05, 0.1], "epsilon": [0.05, 0.1]}
 
@@ -108,10 +109,15 @@ def main():
                f"**SVR:** nested CV (inner 5-fold pilih hiperparameter)\n"]
 
     # ===== Eform: fitur komposisi murni (skenario discovery) =====
-    d = sub.dropna(subset=FS_KOMPOSISI + ["Eform_eV_atom"]).reset_index(drop=True)
+    # KONSISTENSI SKALA (reviewer ronde 3): AFLOW menyimpang hingga 0.8 eV/atom dari MP/OQMD,
+    # sehingga melatih Eform dengan mencampur sumber = label inkonsisten. Keputusan:
+    # headline Eform dilatih pada MP+OQMD (skala konsisten, n~337); AFLOW dikecualikan.
+    d = sub[sub["sumber"].isin(["MaterialsProject", "OQMD"])].dropna(
+        subset=FS_KOMPOSISI + ["Eform_eV_atom"]).reset_index(drop=True)
     X, y = d[FS_KOMPOSISI].values, d["Eform_eV_atom"].values
     g = d["komposisi_reduksi"].values
-    laporan.append(f"## Eform (eV/atom) — fitur KOMPOSISI MURNI, semua sumber n={len(d)}")
+    laporan.append(f"## Eform (eV/atom) — fitur KOMPOSISI MURNI, MP+OQMD (skala konsisten) n={len(d)}")
+    laporan.append("- AFLOW DIKECUALIKAN dari pelatihan Eform (offset skala hingga 0.8 eV/atom, terdokumentasi).")
     tabel = []
     for nm, mdl in [("RF", RandomForestRegressor(n_estimators=400, random_state=0, n_jobs=-1)),
                     ("GBR", GradientBoostingRegressor(random_state=0)),
@@ -123,6 +129,15 @@ def main():
     tabel.append({"model": "SVR-nested", "R2": round(r2, 3), "RMSE": round(rmse, 3), "MAE": round(mae, 3)})
     t = pd.DataFrame(tabel)
     t.to_csv(PROC / "hasil_cv_eform_komposisi.csv", index=False)
+    # VIF fitur komposisi (frac_Ca sudah dibuang; fraksi tersisa tidak berjumlah 1)
+    vif_v = d[FS_KOMPOSISI].values
+    vifs = {}
+    for k, c in enumerate(FS_KOMPOSISI):
+        yy = vif_v[:, k]
+        xx = np.delete(vif_v, k, axis=1)
+        r2x = LinearRegression().fit(xx, yy).score(xx, yy)
+        vifs[c] = float("inf") if r2x > 0.999 else round(1 / (1 - r2x), 1)
+    laporan.append("- VIF fitur komposisi (setelah frac_Ca dibuang): " + str(vifs))
     laporan.append(t.to_markdown(index=False))
     laporan.append(f"- Hiperparameter terpilih (outer): {terpilih[:3]} ...")
 
@@ -158,23 +173,19 @@ def main():
     laporan.append(f"## Densitas — fitur KOMPOSISI MURNI (prediksi nyata, n={len(dc)})")
     laporan.append(f"- R2 = {r2c:.3f}, RMSE = {rmsec:.3f}, MAE = {maec:.3f}")
 
-    # ===== Uji eksternal OQMD bebas-tumpang-tindih =====
-    tr = d[d["sumber"] != "OQMD"]
-    te = d[d["sumber"] == "OQMD"]
-    kunci_latih = set(tr["komposisi_reduksi"])
-    te_bebas = te[~te["komposisi_reduksi"].isin(kunci_latih)]
+    # ===== Uji antar basis data: latih MP SAJA (skala murni, n kecil) -> uji OQMD =====
+    tr = sub[sub["sumber"] == "MaterialsProject"].dropna(
+        subset=FS_KOMPOSISI + ["Eform_eV_atom"]).reset_index(drop=True)
+    te = sub[sub["sumber"] == "OQMD"].dropna(
+        subset=FS_KOMPOSISI + ["Eform_eV_atom"]).reset_index(drop=True)
     sc = StandardScaler().fit(tr[FS_KOMPOSISI])
     mdl = SVR(C=50, gamma=0.05, epsilon=0.05).fit(sc.transform(tr[FS_KOMPOSISI]), tr["Eform_eV_atom"])
-    for nama, txx in [("OQMD PENUH (komposisi bisa tumpang tindih dgn latih)", te),
-                      ("OQMD BEBAS TUMPANG TINDIH (strict)", te_bebas)]:
-        if len(txx) == 0:
-            laporan.append(f"- {nama}: kosong")
-            continue
-        pred = mdl.predict(sc.transform(txx[FS_KOMPOSISI]))
-        laporan.append(f"## Uji eksternal — {nama} (n={len(txx)})")
-        laporan.append(f"- R2 = {r2_score(txx['Eform_eV_atom'], pred):.3f}, "
-                       f"RMSE = {np.sqrt(mean_squared_error(txx['Eform_eV_atom'], pred)):.3f}, "
-                       f"MAE = {mean_absolute_error(txx['Eform_eV_atom'], pred):.3f}")
+    pred = mdl.predict(sc.transform(te[FS_KOMPOSISI]))
+    laporan.append(f"## Uji antar basis data — latih MP SAJA (n={len(tr)}) -> uji OQMD (n={len(te)})")
+    laporan.append(f"- R2 = {r2_score(te['Eform_eV_atom'], pred):.3f}, "
+                   f"RMSE = {np.sqrt(mean_squared_error(te['Eform_eV_atom'], pred)):.3f}, "
+                   f"MAE = {mean_absolute_error(te['Eform_eV_atom'], pred):.3f}")
+    laporan.append("- Catatan: uji ini pada komposisi SAMA (transfer sesama-komposisi, bukan ekstrapolasi).")
 
     # ===== Classifier = cek konsistensi label (bukan klaim) =====
     sub["layak"] = ((sub["Eform_eV_atom"] <= -2.5) &

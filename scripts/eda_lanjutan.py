@@ -45,7 +45,7 @@ LITERATUR = {
 
 def main():
     df = pd.read_csv(PROC / "dataset_deskriptor.csv")
-    feat = ["densitas_final_gcm3", "volume_A3", "EN_avg", "EN_diff", "VEC", "berat_molekul", "ca_p_ratio"]
+    feat = ["densitas_final_gcm3", "volume_A3", "EN_avg", "berat_molekul", "ca_p_ratio"]
     dfp = df.dropna(subset=feat).copy()
     X = StandardScaler().fit_transform(dfp[feat])
 

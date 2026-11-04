@@ -55,7 +55,7 @@ def main():
     # ===== 1. korelasi (subset pemodelan MP+AFLOW) =====
     sub = df[df["sumber"].isin(["MaterialsProject", "AFLOW"])].copy()
     cols = ["Eform_eV_atom", "densitas_final_gcm3", "bandgap_eV", "volume_A3",
-            "EN_avg", "EN_diff", "VEC", "berat_molekul", "ca_p_ratio"]
+            "EN_avg", "berat_molekul", "ca_p_ratio"]
     corr = sub[cols].corr()
     fig, ax = plt.subplots(figsize=(7, 6))
     im = ax.imshow(corr.values, cmap=DIV_CMAP, vmin=-1, vmax=1)
@@ -84,7 +84,7 @@ def main():
 
     # ===== 2. VIF =====
     vif_cols = ["Eform_eV_atom", "densitas_final_gcm3", "volume_A3",
-                "EN_avg", "EN_diff", "VEC", "berat_molekul", "ca_p_ratio"]
+                "EN_avg", "berat_molekul", "ca_p_ratio"]
     vif_df = sub[vif_cols].dropna()
     Xv = vif_df.values
     vifs = {}
@@ -98,7 +98,7 @@ def main():
     temuan.append("\n".join(f"- {c}: {v:.1f}" for c, v in vifs.items()))
 
     # ===== 3. PCA (seluruh dataset, deskriptor komposisi+sel) =====
-    feat = ["densitas_final_gcm3", "volume_A3", "EN_avg", "EN_diff", "VEC", "berat_molekul", "ca_p_ratio"]
+    feat = ["densitas_final_gcm3", "volume_A3", "EN_avg", "berat_molekul", "ca_p_ratio"]
     dfp = df.dropna(subset=feat).copy()
     Xp = StandardScaler().fit_transform(dfp[feat])
     pca = PCA(n_components=2, random_state=0).fit(Xp)

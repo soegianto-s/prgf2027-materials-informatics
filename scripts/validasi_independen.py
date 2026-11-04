@@ -22,7 +22,7 @@ from common import PROC, REPORTS
 # Versi lama memakai volume+densitas sebagai fitur (untuk model densitas, target masuk fitur =
 # kebocoran total -> MAE 0.007 yang lama TIDAK VALID).
 FEATURES = ["ca_p_ratio", "EN_avg", "berat_molekul",
-            "frac_Ca", "frac_P", "frac_O", "frac_H", "frac_F"]
+            "frac_P", "frac_O", "frac_H", "frac_F"]
 
 ELEM = {"H": (2.20, 1.008, 1), "O": (3.44, 15.999, 6), "F": (3.98, 18.998, 7),
         "P": (2.19, 30.974, 5), "Ca": (1.00, 40.078, 2)}
@@ -52,7 +52,8 @@ def deskriptor_bench(ca, p, o, h, dens, vol):
 
 def main():
     df = pd.read_csv(PROC / "dataset_deskriptor.csv")
-    tr = df[df["sumber"].isin(["MaterialsProject", "AFLOW"])].copy()
+    # konsisten dengan modeling.py: latih pada MP+OQMD (skala konsisten; AFLOW dikecualikan)
+    tr = df[df["sumber"].isin(["MaterialsProject", "OQMD"])].copy()
     tot = tr[["Ca", "P", "O", "H", "F"]].fillna(0).sum(axis=1)
     for el in ["Ca", "P", "O", "H", "F"]:
         tr[f"frac_{el}"] = tr[el].fillna(0) / tot

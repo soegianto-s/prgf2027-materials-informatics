@@ -1,5 +1,5 @@
 # Laporan Sensitivitas MCDM — Pembobotan Entropi
-**Tanggal:** 2026-11-04 07:16:31
+**Tanggal:** 2026-11-04 07:25:28
 
 ## Bobot Entropi (data-driven, 4 kriteria lengkap)
 {'C_stabilitas': 0.513, 'C_densitas': 0.112, 'C_cap': 0.375}
