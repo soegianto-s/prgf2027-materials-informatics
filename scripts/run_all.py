@@ -32,6 +32,15 @@ TAHAPAN = {
     "xai": ("xai.py", "Interpretasi SHAP"),
     "laporan": ("laporan_final.py", "Laporan final + Top 15"),
     "versi": ("versi_dataset.py", "Snapshot versi dataset"),
+    # --- ronde 7 / Q1 (urutan wajib) ---
+    "cod_cif": ("acquire_cod_cif.py", "Unduh CIF COD unik (resumable, QC koordinat)"),
+    "mace_cod": ("screening_mace_cod.py", "Screening MACE-MP-0 single-point struktur COD"),
+    "kalibrasi_hull": ("kalibrasi_hull_mace.py", "Kalibrasi offset MACE->MP GGA + E_hull COD"),
+    "fitur_struktur": ("ekstrak_fitur_struktur.py", "Fitur struktural: Q^n, CN Ca, SOAP"),
+    "model_struktur": ("modeling_struktur.py", "Model structure-informed (screening, bukan discovery)"),
+    "substitusi": ("perluasan_kandidat_mp.py", "Perluasan kandidat substitusi Sr/Mg/Zn/Si (MP)"),
+    "kelarutan": ("konversi_ksp.py", "Konversi pKsp -> kelarutan stoikiometrik S"),
+    "mcdm_q1": ("mcdm_q1.py", "MCDM Q1: C1 = -E_hull (phase-level)"),
 }
 
 # bukti bahwa tahap sudah pernah dijalankan
@@ -55,6 +64,14 @@ BUKTI = {
     "xai": ROOT / "data" / "reports" / "laporan_xai.md",
     "laporan": ROOT / "data" / "reports" / "LAPORAN_FINAL.md",
     "versi": ROOT / "data" / "versions",
+    "cod_cif": ROOT / "data" / "raw" / "cod" / "_manifest_unduhan.json",
+    "mace_cod": ROOT / "data" / "processed" / "mace_screening_cod_ringkasan.json",
+    "kalibrasi_hull": ROOT / "data" / "processed" / "kalibrasi_mace_ringkasan.json",
+    "fitur_struktur": ROOT / "data" / "processed" / "fitur_struktur_ringkasan.json",
+    "model_struktur": ROOT / "data" / "processed" / "model_struktur_ringkasan.json",
+    "substitusi": ROOT / "data" / "raw" / "mp" / "substitusi" / "substitusi_ringkasan.json",
+    "kelarutan": ROOT / "data" / "processed" / "kelarutan_ksp.csv",
+    "mcdm_q1": ROOT / "data" / "processed" / "mcdm_q1_ringkasan.json",
 }
 
 
@@ -91,7 +108,8 @@ def main():
         if r.returncode != 0:
             print(f"[GAGAL] {label} (exit {r.returncode})")
             gagal.append(nama)
-            if nama in ("konsolidasi", "prapemrosesan", "eda", "pemodelan", "mcdm", "xai", "laporan"):
+            if nama in ("konsolidasi", "prapemrosesan", "eda", "pemodelan", "mcdm", "xai", "laporan",
+                        "mace_cod", "kalibrasi_hull", "fitur_struktur", "mcdm_q1"):
                 print("  -> berhenti karena tahap hilir bergantung pada tahap ini")
                 break
         else:
