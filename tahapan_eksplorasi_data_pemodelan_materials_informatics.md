@@ -78,7 +78,7 @@ Memetakan dan memahami distribusi material dalam *materials design space*.
 Membangun model kecerdasan artifisial untuk memprediksi sifat-sifat material target yang sulit diukur secara eksperimen.
 
 ### 5.1 Algoritma ML Terpilih
-* **Regression Models:** *Random Forest Regressor*, *XGBoost*, *Gradient Boosting*, dan *Support Vector Regression (SVR)* untuk memprediksi Modulus Young, stabilitas termodinamika, dan densitas.
+* **Regression Models:** *Random Forest Regressor*, *XGBoost*, *Gradient Boosting*, dan *Support Vector Regression (SVR)* untuk memprediksi stabilitas termodinamika (energi pembentukan) dan densitas. *(Catatan ronde 3–4: Modulus Young TIDAK dimodelkan — hanya 9 entri punya K&G; kriteria modulus juga ditarik dari MCDM, lihat 6.1.)*
 * **Classification Models:** *Logistic Regression* / *Random Forest Classifier* untuk mengklasifikasikan kandidat material (misal: "Stabil/Tinggi Kesesuaian" vs "Tidak Stabil/Rendah Kesesuaian").
 
 ### 5.2 Evaluasi Performa Model
@@ -95,9 +95,13 @@ Membangun model kecerdasan artifisial untuk memprediksi sifat-sifat material tar
 Menggabungkan berbagai kriteria sifat material yang saling bertolak belakang (*conflicting properties*) untuk menemukan kandidat scaffold ideal.
 
 ### 6.1 Formulasi Kriteria Target Scaffold Tulang
-* Modulus Elastisitas ($E$): Mendekati tulang kortikal (10–20 GPa) atau tulang trabekular (0.1–2 GPa).
-* Stabilitas Termodinamika: $E_{\text{hull}} \to 0\text{ eV/atom}$ (menandakan fase stabil).
-* Rasio $\text{Ca/P}$: Berada pada rentang ideal biokompatibilitas ($1.5 - 2.0$).
+*(FINAL, revisi ronde 4 — 2026-11-04; sinkron dengan Bagian 8.1 panduan utama)*
+* C1 Stabilitas Termodinamika: $E_f$ makin negatif makin baik (skala absolut; offset AFLOW dicatat sebagai artefak sumber).
+* C2 Densitas pita klinis $[1.0, 3.2]$ g/cm$^3$: nol penalti di dalam pita (scaffold meraih modulus tulang via POROSITAS — Gibson-Ashby — bukan dengan menyamakan densitas tulang).
+* C3 Rasio $\text{Ca/P}$ mendekati 1.67 (mineral tulang).
+* DITARIK (tercatat): Modulus Young (n=9 -> imputasi = noise; sifat scaffold bukan material), Bandgap (tanpa fungsi elektronik), skor kelayakan classifier (double counting).
+* Filter stoikiometri: muatan formal ≠ 0 dibuang; fosfida di luar kelas kalsium fosfat -> kolam 165 entri netral.
+* Resorbabilitas: overlay post-hoc pKsp literatur (bukan kriteria — data hanya ada utk fase dikenal).
 
 ### 6.2 Metode Decision Making
 * **TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution):** Menghitung jarak relatif kandidat material terhadap solusi ideal positif dan ideal negatif.

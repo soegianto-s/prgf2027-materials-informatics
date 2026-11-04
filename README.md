@@ -7,11 +7,11 @@ Periode: Agustus 2026 – Juli 2027 · Versi paket: 1.0 (2026-11-04)
 
 Pipeline end-to-end untuk penemuan biomaterial kalsium fosfat:
 
-`Akuisisi data (5 basis data) → Prapemrosesan → Deskriptor fisikokimia → EDA/Klaster → Pemodelan ML (anti-leakage) → MCDM (TOPSIS+VIKOR) → Interpretasi SHAP`
+`Akuisisi data (5 basis data) → Prapemrosesan → Deskriptor fisikokimia → EDA/Klaster → Pemodelan ML (anti-leakage) → MCDM (TOPSIS+VIKOR + entropi + Monte Carlo) → Interpretasi SHAP`
 
 - Dataset terpadu: **2.885 entri / 950 komposisi unik** (target proposal: ≥500)
 - Model (protokol anti-kebocoran v2: grouping formula tereduksi + nested CV + 4 DOF komposisi murni — Ca/P, fraksi P, H, F): SVR Eform R² = 0,11 discovery (n=337 MP+OQMD) / −0,52 dalam-fosfat / 0,40 varian screening (benchmark eksperimen MAE 0,094 eV/atom); densitas komposisi-murni R² = 0,02 (benchmark MAE 0,114 g/cm³); transfer antar basis data sesama-komposisi R² = 0,83
-- **Top kandidat:** fluorapatit, karbonat apatit, β-TCP, hidroksiapatit, TTCP (+monetit, OCP) — kriteria eksplisit dari kebutuhan desain; klaim 'penemuan ulang' tidak dipakai
+- **Top kandidat (MCDM ronde 4):** fluorapatit, oksiapatit, karbonat apatit, hidroksiapatit, β-TCP, TTCP, pirofosfat, OCP, monetit — 3 kriteria level material (stabilitas, pita densitas [1.0, 3.2], Ca/P→1.67) + filter kenetralan muatan (165 entri netral) + Monte Carlo 3.000 run (top-4 stabil, top-5 56–86%); overlay resorbabilitas pKsp literatur; klaim 'accelerated discovery' dicabut dari judul
 
 ## Struktur Folder
 
@@ -65,15 +65,17 @@ atau per skrip (urutan wajib):
 | 10 | `modeling.py` | 5 — Regresi/klasifikasi ML, GroupKFold, RFE |
 | 11 | `mcdm.py` | 6 — TOPSIS + VIKOR, 3 set bobot, pemeringkatan |
 | 12 | `mcdm_entropi.py` | 6 — Sensitivitas: pembobotan entropi Shannon |
-| 13 | `siapkan_dft.py` | 7 — Input DFT/QE (POSCAR+CIF+scf/relax) Top 5 |
-| 14 | `xai.py` | 7 — SHAP + permutation importance (4 DOF komposisi) |
-| 15 | `laporan_final.py` | 7–8 — Laporan final + Top 15 dedup (rank ordinal) |
-| 16 | `versi_dataset.py` | — Snapshot dataset final + checksum |
+| 13 | `mcdm_montecarlo.py` | 6 — Monte Carlo: ketidakpastian bobot + prediksi ML |
+| 14 | `siapkan_dft.py` | 7 — Input DFT/QE (POSCAR+CIF+scf/relax) Top 5 |
+| 15 | `xai.py` | 7 — SHAP + permutation importance (4 DOF komposisi) |
+| 16 | `laporan_final.py` | 7–8 — Laporan final + Top 15 dedup (rank ordinal) |
+| 17 | `versi_dataset.py` | — Snapshot dataset final + checksum |
 
 Skrip penunjang (tidak berurutan): `tcp_alpha_beta.py` (validasi pemisahan α/β-TCP),
 `tuning_eform.py` (tuning SVR Eform), `validasi_independen.py` (benchmark eksperimen),
 `validasi_mlff.py` (pra-validasi MACE-MP-0 Top 5), `konversi_elsarticle.py` (konversi ke
-format jurnal), `patch_manuskrip_ronde3*.py` (patch angka hasil review ronde 3).
+format jurnal), `patch_manuskrip_ronde3*.py` & `patch_manuskrip_ronde4.py` (patch angka
+hasil review, ber-assertion — tidak ada kegagalan diam-diam).
 
 ## Sumber Data & Lisensi
 
@@ -88,8 +90,9 @@ format jurnal), `patch_manuskrip_ronde3*.py` (patch angka hasil review ronde 3).
 ## Keputusan Metodologis Penting (log)
 
 1. **Anti-kebocoran (v2):** grouping formula TEREDUKSI (gcd) — polimorf & kelipatan formula satu fold; nested CV untuk SVR; fitur komposisi MURNI = 4 DOF (Ca/P, fraksi P, H, F — EN_avg & berat molekul adalah fungsi linear eksak fraksi unsur, VIF tak hingga, dibuang); volume/densitas hanya varian screening berlabel; classifier suitability ditarik (semi-deterministik) & tidak dipakai di MCDM. Temuan ronde 3: komposisi murni TIDAK punya daya prediksi dalam-keluarga fosfat (R² < 0) — argumen kuat untuk surrogate sadar-struktur; Eform dilatih pada MP+OQMD saja (n=337, AFLOW dikecualikan karena beda skala energi).
-2. **Bandgap:** tidak dapat diprediksi dari deskriptor komposisi (R²<0) — imputasi dibatalkan, nilai terukur dipakai.
-3. **Modulus elastik:** hanya 9 entri punya K&G — kriteria MCDM memakai imputasi median; validasi DFT/MD top kandidat adalah langkah wajib berikutnya.
+2. **Bandgap:** tidak dapat diprediksi dari deskriptor komposisi (R²<0) — imputasi dibatalkan; sebagai KRITERIA MCDM ditarik total (ronde 4): tanpa fungsi elektronik pada scaffold tulang.
+3. **Modulus elastik:** hanya 9 entri punya K&G — kriteria C4 DITARIK dari MCDM (ronde 4): imputasi median = praktis konstanta + modulus 10–20 GPa adalah sifat SCAFFOLD (arsitektur+porositas), bukan material; ditangani hilir via Gibson-Ashby (porositas 70–78% dari MLFF). Validasi DFT definitif top kandidat adalah langkah wajib berikutnya.
+4. **MCDM (ronde 4):** 3 kriteria + filter kenetralan muatan (398 muatan≠0 + 356 fosfida dibuang → 165 entri) + Monte Carlo 3.000 run (top-4 stabil 56–86%, slot ke-5 diperebutkan); resorbabilitas = overlay pKsp literatur, bukan kriteria; judul tanpa "accelerated discovery".
 4. **Pencilan:** dipertahankan bila fisika-valid, keputusan tercatat per kasus.
 
 ## Kontak

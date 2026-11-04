@@ -318,7 +318,7 @@ Menjelaskan alasan di balik rekomendasi model AI (*Explainable AI*) serta melaku
 ### 9.1 Interpretabilitas Model (XAI)
 
 * **SHAP (SHapley Additive exPlanations):** Menganalisis kontribusi positif/negatif masing-masing deskriptor terhadap skor kelayakan material.
-* **Feature Dependence Plots:** Memahami interaksi antar-deskriptor kritis (misal: pengaruh rasio $\text{Ca/P}$ terhadap Modulus Young teoritis).
+* **Feature Dependence Plots:** Memahami interaksi antar-deskriptor kritis (misal: pengaruh rasio $\text{Ca/P}$ terhadap densitas prediksi; SHAP density model menunjukkan korelasi −0,43).
 
 ### 9.2 Validasi Komputasional
 
