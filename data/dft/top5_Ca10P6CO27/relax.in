@@ -1,5 +1,7 @@
 &CONTROL
   calculation = 'vc-relax'
+  etot_conv_thr = 1.0d-4
+  forc_conv_thr = 1.0d-3
   prefix = 'top5_Ca10P6CO27'
   pseudo_dir = './pseudo/'
   outdir = './out/'
@@ -14,10 +16,10 @@
   occupations = 'smearing'
   smearing = 'gaussian'
   degauss = 0.01
-  press = 0.0
-  cell_dofree = 'all'
 /
 &CELL
+  press = 0.0
+  cell_dofree = 'all'
 /
 &ELECTRONS
   conv_thr = 1.0d-6

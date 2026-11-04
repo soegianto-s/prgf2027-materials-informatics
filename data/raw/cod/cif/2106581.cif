@@ -1,0 +1,93 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/10/65/2106581.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2106581
+loop_
+_publ_author_name
+'Piret, P.'
+'Declercq, J.P.'
+_publ_section_title
+;
+ Phurcalite
+;
+_journal_name_full               'Acta Crystallographica B (24,1968-38,1982)'
+_journal_page_first              1677
+_journal_page_last               1679
+_journal_volume                  34
+_journal_year                    1978
+_chemical_formula_sum            'Ca2 H12 O22 P2 U3'
+_chemical_name_systematic        'Ca2 (U O2)3 (P O4)2 (O H)4 (H2 O)4'
+_space_group_IT_number           61
+_symmetry_space_group_name_Hall  '-P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P b c a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   17.426
+_cell_length_b                   16.062
+_cell_length_c                   13.592
+_cell_volume                     3804.352
+_citation_journal_id_ASTM        ACBCAR
+_cod_data_source_file            Piret_ACBCAR_1978_331.cif
+_cod_data_source_block           H12Ca2O22P2U3
+_cod_original_formula_sum        'H12 Ca2 O22 P2 U3'
+_cod_database_code               2106581
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x+1/2,-y,z+1/2
+x+1/2,-y+1/2,-z
+-x,y+1/2,-z+1/2
+-x,-y,-z
+x-1/2,y,-z-1/2
+-x-1/2,y-1/2,z
+x,-y-1/2,z-1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+U3 U+6 0.2376 0.2343 0.8656 1 0.0
+U1 U+6 0.343 0.2139 0.6128 1 0.0
+O22 O-2 0.15 0.46 0.211 1 0.0
+O6 O-2 0.238 0.344 0.827 1 0.0
+Ca2 Ca+2 0.0906 0.1103 0.2895 1 0.0
+O1 O-2 0.338 0.391 0.097 1 0.0
+P2 P+5 0.0304 0.1945 0.8806 1 0.0
+U2 U+6 0.4514 0.2175 0.8688 1 0.0
+O9 O-2 0.212 0.272 0.028 1 0.0
+O8 O-2 0.198 0.205 0.703 1 0.0
+O14 O-2 0.083 0.202 0.622 1 0.0
+O10 O-2 0.344 0.261 0.954 1 0.0
+O5 O-2 0.236 0.373 0.376 1 0.0
+O11 O-2 0.475 0.242 0.54 1 0.0
+Ca1 Ca+2 0.1469 0.0461 0.0312 1 0.0
+O19 O-2 0.368 0.051 0.388 1 0.0
+O7 O-2 0.346 0.302 0.272 1 0.0
+O12 O-2 0.483 0.171 0.702 1 0.0
+O16 O-2 0.064 0.11 0.945 1 0.0
+O18 O-2 0.035 0.481 0.654 1 0.0
+O2 O-2 0.346 0.18 0.141 1 0.0
+O21 O-2 0.331 0.014 0.776 1 0.0
+O15 O-2 0.143 0.16 0.149 1 0.0
+O3 O-2 0.435 0.117 0.923 1 0.0
+O17 O-2 0.474 0.07 0.145 1 0.0
+P1 P+5 0.1577 0.2473 0.6239 1 0.0
+O20 O-2 0.276 0.477 0.554 1 0.0
+O4 O-2 0.473 0.318 0.829 1 0.0
+O13 O-2 0.097 0.249 0.36 1 0.0

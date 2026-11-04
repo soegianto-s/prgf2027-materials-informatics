@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "band_gap": 4.6954,
+      "formation_energy_per_atom": -2.456841777593985,
+      "energy_above_hull": 0.01315560815789496,
+      "is_stable": false,
+      "nsites": 19,
+      "elements": [
+        "Ca",
+        "H",
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 5,
+      "formula_pretty": "Ca2ZnP2(H2O5)2",
+      "chemsys": "Ca-H-O-P-Zn",
+      "volume": 192.8546626948419,
+      "density": 3.199061031558847,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacrcbw"
+    },
+    {
+      "band_gap": 0.19390000000000007,
+      "formation_energy_per_atom": -1.8529956723844538,
+      "energy_above_hull": 0.21801895205882893,
+      "is_stable": false,
+      "nsites": 68,
+      "elements": [
+        "Ca",
+        "H",
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 5,
+      "formula_pretty": "CaZnP2H5O8",
+      "chemsys": "Ca-H-O-P-Zn",
+      "volume": 846.7943271758261,
+      "density": 2.3568472369526856,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabpcpu"
+    }
+  ],
+  "meta": {
+    "api_version": "0.88.1",
+    "time_stamp": "2026-11-04T04:44:58.588910+00:00",
+    "total_doc": 2,
+    "facet": null,
+    "max_limit": 1000,
+    "default_fields": [
+      "material_id"
+    ]
+  }
+}

@@ -165,7 +165,10 @@ K_POINTS automatic
 """
     relax = scf.replace("calculation = 'scf'", "calculation = 'vc-relax'").replace(
         "conv_thr = 1.0d-8", "conv_thr = 1.0d-6")
-    relax = relax.replace("/\n&ELECTRONS", "  press = 0.0\n  cell_dofree = 'all'\n/\n&CELL\n/\n&ELECTRONS", 1)
+    # press & cell_dofree milik namelist &CELL (bukan &SYSTEM) — bug ronde 6 diperbaiki
+    relax = relax.replace("/\n&ELECTRONS", "/\n&CELL\n  press = 0.0\n  cell_dofree = 'all'\n/\n&ELECTRONS", 1)
+    relax = relax.replace("calculation = 'vc-relax'",
+                          "calculation = 'vc-relax'\n  etot_conv_thr = 1.0d-4\n  forc_conv_thr = 1.0d-3", 1)
     (d / "scf.in").write_text(scf, encoding="utf-8")
     (d / "relax.in").write_text(relax, encoding="utf-8")
 

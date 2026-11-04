@@ -1,0 +1,90 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/52/10/1521034.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1521034
+loop_
+_publ_author_name
+'Fleet, M.E.'
+'Liu, X.-Y.'
+'Pan, Y.-M.'
+_publ_section_title
+;
+ Rare-earth elements in chlorapatite (Ca10 (P O4)6 Cl2): uptake, site
+ preference, and degradation of monoclinic structure
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1437
+_journal_page_last               1446
+_journal_volume                  85
+_journal_year                    2000
+_chemical_formula_sum            'Ca9.576 Dy0.212 H2 Na0.212 O26 P6'
+_chemical_name_systematic        '(Ca9.576 Na0.212 Dy0.212) (P O4)6 (O H)2'
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2bc'
+_symmetry_space_group_name_H-M   'P 1 1 21/b'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   9.4179
+_cell_length_b                   18.8357
+_cell_length_c                   6.8793
+_cell_volume                     1056.844
+_citation_journal_id_ASTM        AMMIAY
+_cod_data_source_file            Fleet_AMMIAY_2000_948.cif
+_cod_data_source_block           H2Ca9.576Dy0.212Na0.212O26P6
+_cod_original_sg_symbol_Hall     '-P 2ybc (-x,z,y)'
+_cod_original_formula_sum        'H2 Ca9.576 Dy0.212 Na0.212 O26 P6'
+_cod_database_code               1521034
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y+1/2,z+1/2
+-x,-y,-z
+x,y-1/2,-z-1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Ca4 Ca+2 0.99184 0.6231 0.7512 0.973 0.0
+P3 P+5 0.02934 0.44923 0.7498 1 0.0
+O1 O-2 0.3309 0.49239 0.2592 1 0.0
+O12 O-2 0.073 0.4097 0.9139 1 0.0
+Dy5 Dy+3 0.25488 0.37524 0.7468 0.0272 0.0
+O4 O-2 0.5853 0.48025 0.2618 1 0.0
+P2 P+5 0.62922 0.26243 0.2432 1 0.0
+Na2 Na+1 0.3251 0.58132 0.4996 0.053 0.0
+Ca2 Ca+2 0.3251 0.58132 0.4996 0.934 0.0
+Dy4 Dy+3 0.99184 0.6231 0.7512 0.0272 0.0
+Ca5 Ca+2 0.25488 0.37524 0.7468 0.973 0.0
+O3 O-2 0.1579 0.5871 0.2571 1 0.0
+Dy3 Dy+3 0.2442 0.24583 0.2506 0.0272 0.0
+Ca1 Ca+2 0.3417 0.58739 0.0022 0.934 0.0
+O7 O-2 0.3604 0.3811 0.0684 1 0.0
+O11 O-2 0.7509 0.287 0.4277 1 0.0
+Dy1 Dy+3 0.3417 0.58739 0.0022 0.0122 0.0
+O6 O-2 0.1186 0.54413 0.7704 1 0.0
+O13 O-2 0.9997 0.2452 0.1963 1 0.0
+P1 P+5 0.40018 0.43273 0.2463 1 0.0
+O5 O-2 0.535 0.31067 0.2621 1 0.0
+Ca3 Ca+2 0.2442 0.24583 0.2506 0.973 0.0
+O8 O-2 0.7376 0.2933 0.064 1 0.0
+Na1 Na+1 0.3417 0.58739 0.0022 0.053 0.0
+O10 O-2 0.3359 0.3742 0.4199 1 0.0
+Dy2 Dy+3 0.3251 0.58132 0.4996 0.0122 0.0
+H1 H+1 0.004 0.251 0.074 1 0.0
+O9 O-2 0.0922 0.4338 0.5503 1 0.0
+O2 O-2 0.4836 0.32969 0.7449 1 0.0

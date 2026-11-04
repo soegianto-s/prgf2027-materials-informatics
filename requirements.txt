@@ -13,3 +13,7 @@ tabulate==0.10.0
 # validasi komputasional MLFF (disetujui pengguna 2026-11-04)
 ase
 mace-torch
+# penguatan Q1 ronde 7 (disetujui pengguna 2026-11-04)
+pymatgen==2025.10.7
+mp-api==0.45.13
+dscribe==2.1.2

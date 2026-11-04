@@ -1,0 +1,132 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-10-01 03:01:02 +0300 (Tue, 01 Oct 2019) $
+#$Revision: 218943 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/55/23/1552363.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1552363
+loop_
+_publ_author_name
+'Tobase, T.'
+'Yoshiasa, A.'
+'Jinnouchi, S.'
+'Kitahara, G.'
+'Hongu, H.'
+'Tokuda, M.'
+'Okube, M.'
+'Sugiyama, K.'
+_publ_section_title
+;
+ Crystal structure, large distortion of the Zn tetrahedron, and
+ statistical displacement of water molecules in skorpionite : Cc model
+;
+_journal_name_full
+'Journal of Mineralogical and Petrological Sciences'
+_journal_page_first              178
+_journal_page_last               188
+_journal_paper_doi               10.2465/jmps.180801
+_journal_volume                  114
+_journal_year                    2019
+_chemical_formula_sum            'C H4 Ca3 O14 P2 Zn2'
+_chemical_name_common            Ca3Zn2(PO4)2CO3(OH)2H2O
+_chemical_name_mineral           skorpionite
+_space_group_IT_number           9
+_space_group_name_Hall           'C -2yc'
+_space_group_name_H-M_alt        'C 1 c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 92.752(2)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   19.0570(14)
+_cell_length_b                   9.3346(5)
+_cell_length_c                   6.5322(4)
+_cell_volume                     1160.67(13)
+_diffrn_ambient_pressure         100
+_diffrn_ambient_temperature      298
+_cod_data_source_file            skorpionite-Cc.cif
+_cod_data_source_block           skorpionite_Cc
+_cod_original_sg_symbol_H-M      'C c'
+_cod_original_formula_sum        'Ca3 Zn2 P2 C O14 H4'
+_cod_database_code               1552363
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 x,-y,z+1/2
+3 x+1/2,y+1/2,z
+4 x+1/2,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+Zn1 1.0 0.65281(4) 0.04378(13) 0.90165(10) Uiso 0.0132(3) Zn
+Zn2 1.0 0.81139(4) 0.45576(13) 0.07878(10) Uiso 0.0126(3) Zn
+Ca1 1.0 0.48221(16) 0.59768(7) 0.7398(4) Uiso 0.00972(17) Ca
+Ca2 1.0 0.64640(10) 0.3352(2) 0.6117(3) Uiso 0.0086(3) Ca
+Ca3 1.0 0.81788(10) 0.8353(2) 0.8683(3) Uiso 0.0103(4) Ca
+P1 1.0 0.66004(14) 0.6667(3) 0.6405(3) Uiso 0.0079(5) P
+P2 1.0 0.80408(14) 0.1664(3) 0.8390(3) Uiso 0.0079(5) P
+C1 1.0 0.4796(8) 0.7185(4) 0.2433(18) Uiso 0.0105(9) C
+O1 1.0 0.6175(4) 0.9259(7) 0.1139(9) Uiso 0.0079(12) O
+O2 1.0 0.7536(4) 0.0498(7) 0.9233(13) Uiso 0.0128(14) O
+O3 1.0 0.6290(4) 0.2518(8) 0.9520(9) Uiso 0.0114(13) O
+O4 1.0 0.7094(4) 0.5503(8) 0.5610(12) Uiso 0.0130(14) O
+O5 1.0 0.8479(4) 0.4268(7) 0.3634(11) Uiso 0.0124(14) O
+O6 1.0 0.8384(4) 0.2477(8) 0.0219(10) Uiso 0.0126(13) O
+O7 1.0 0.6992(4) 0.7679(8) 0.7931(11) Uiso 0.0132(14) O
+O8 1.0 0.6047(3) 0.5836(7) 0.7506(11) Uiso 0.0098(13) O
+O9 1.0 0.7669(5) 0.2654(8) 0.6878(10) Uiso 0.0125(14) O
+O10 1.0 0.8619(4) 0.0839(8) 0.7247(12) Uiso 0.0148(15) O
+O11 1.0 0.4516(4) 0.6454(8) 0.3846(10) Uiso 0.0159(15) O
+O12 1.0 0.5109(4) 0.6448(8) 0.0986(10) Uiso 0.0117(13) O
+O13 1.0 0.4834(7) 0.8540(3) 0.242(2) Uiso 0.0212(7) O
+O14 1.0 0.4820(12) 0.8488(4) 0.743(4) Uiso 0.073(2) O
+H11 1.0 0.5672 0.9133 0.1293 Uiso 0.012 H
+H51 1.0 0.8988 0.4117 0.3619 Uiso 0.019 H
+H141 1.0 0.4836 0.9479 0.7361 Uiso 0.110 H
+H142 1.0 0.4739 0.8467 0.9272 Uiso 0.110 H
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Zn1 0.0114(6) 0.0165(6) 0.0116(6) -0.0024(5) 0.0001(4) 0.0055(4)
+Zn2 0.0116(6) 0.0152(6) 0.0109(5) -0.0020(5) -0.0003(4) 0.0040(4)
+Ca1 0.0081(3) 0.0112(3) 0.0097(3) -0.0004(9) -0.0008(3) -0.0011(9)
+Ca2 0.0067(8) 0.0111(8) 0.0081(7) -0.0005(6) 0.0013(7) 0.0020(7)
+Ca3 0.0128(9) 0.0075(7) 0.0106(7) -0.0004(6) 0.0013(7) -0.0015(7)
+P1 0.0059(10) 0.0090(10) 0.0086(10) -0.0006(8) -0.0010(9) -0.0007(8)
+P2 0.0099(11) 0.0090(10) 0.0047(9) 0.0009(8) 0.0006(8) -0.0008(8)
+C1 0.008(2) 0.0135(14) 0.0097(15) 0.000(3) 0.0021(15) -0.010(3)
+O1 0.005(3) 0.015(3) 0.004(3) -0.004(2) -0.001(2) 0.004(2)
+O2 0.011(3) 0.008(3) 0.020(3) -0.003(2) 0.004(3) 0.004(2)
+O3 0.017(4) 0.011(2) 0.006(2) 0.000(3) -0.006(3) -0.006(2)
+O4 0.010(3) 0.014(3) 0.015(3) -0.003(2) 0.002(3) 0.002(2)
+O5 0.013(4) 0.010(3) 0.014(3) -0.001(2) 0.004(3) 0.000(2)
+O6 0.013(3) 0.013(2) 0.011(3) 0.001(2) 0.001(3) 0.004(2)
+O7 0.013(4) 0.015(3) 0.011(3) -0.005(2) -0.006(3) -0.003(2)
+O8 0.004(3) 0.016(3) 0.009(3) 0.000(2) 0.002(2) 0.002(2)
+O9 0.011(4) 0.019(3) 0.008(3) 0.004(3) 0.006(3) 0.002(2)
+O10 0.015(4) 0.014(3) 0.014(3) 0.003(3) 0.001(3) -0.003(2)
+O11 0.021(4) 0.016(3) 0.011(3) -0.005(3) 0.005(3) 0.002(3)
+O12 0.008(3) 0.017(3) 0.010(3) 0.001(2) 0.000(2) -0.002(2)
+O13 0.0168(16) 0.0110(11) 0.0369(17) 0.001(4) 0.0118(14) 0.001(4)
+O14 0.075(4) 0.0138(17) 0.127(6) -0.001(7) -0.033(4) 0.008(8)
+H11 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+H51 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+H141 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+H142 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000

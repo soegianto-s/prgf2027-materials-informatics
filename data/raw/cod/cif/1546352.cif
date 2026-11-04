@@ -1,0 +1,137 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-06-20 11:05:16 +0300 (Tue, 20 Jun 2017) $
+#$Revision: 197967 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/54/63/1546352.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1546352
+loop_
+_publ_author_name
+'Corbin, David R.'
+'Abrams, Lloyd'
+'Jones, Glover A.'
+'Harlow, Richard L.'
+'Dunn, Pete J.'
+_publ_section_title
+;
+ Flexibility of the zeolite RHO framework : effect of dehydration on the
+ crystal structure of the beryllophosphate mineral, pahasapaite
+;
+_journal_name_full               Zeolites
+_journal_page_first              364
+_journal_page_last               367
+_journal_paper_doi               10.1016/0144-2449(91)80302-G
+_journal_volume                  11
+_journal_year                    1991
+_chemical_formula_sum            'Be24 Ca5.5 Li8 O96 P24'
+_chemical_formula_weight         2771.56
+_space_group_IT_number           197
+_symmetry_cell_setting           cubic
+_symmetry_Int_Tables_number      197
+_symmetry_space_group_name_Hall  'I 2 2 3'
+_symmetry_space_group_name_H-M   'I 2 3'
+_cell_angle_alpha                90.
+_cell_angle_beta                 90.
+_cell_angle_gamma                90.
+_cell_formula_units_Z            1
+_cell_length_a                   13.100(3)
+_cell_length_b                   13.100(3)
+_cell_length_c                   13.100(3)
+_cell_volume                     2248.1(9)
+_diffrn_ambient_temperature      296
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_exptl_absorpt_coefficient_mu    0.880
+_exptl_crystal_density_diffrn    2.092
+_exptl_crystal_density_method    'Not Measured'
+_exptl_crystal_F_000             1383
+_refine_ls_number_reflns         555
+_refine_ls_R_factor_gt           0.042
+_refine_ls_wR_factor_gt          0.037
+_cod_data_source_file            Zeolites-1991-11-364-367.cif
+_cod_data_source_block           Pahasapaite-dehydrated
+_cod_original_cell_volume        2248.1(15)
+_cod_database_code               1546352
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,z
+3 x,-y,-z
+4 -x,y,-z
+5 z,x,y
+6 -z,-x,y
+7 z,-x,-y
+8 -z,x,-y
+9 y,z,x
+10 y,-z,-x
+11 -y,z,-x
+12 -y,-z,x
+13 1/2+x,1/2+y,1/2+z
+14 1/2-x,1/2-y,1/2+z
+15 1/2+x,1/2-y,1/2-z
+16 1/2-x,1/2+y,1/2-z
+17 1/2+z,1/2+x,1/2+y
+18 1/2-z,1/2-x,1/2+y
+19 1/2+z,1/2-x,1/2-y
+20 1/2-z,1/2+x,1/2-y
+21 1/2+y,1/2+z,1/2+x
+22 1/2+y,1/2-z,1/2-x
+23 1/2-y,1/2+z,1/2-x
+24 1/2-y,1/2-z,1/2+x
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+P P Uiso 0.28798(9) 0.13226(9) 0.43907(9) 1.000 0.0177(13) . . . .
+O1 O Uiso 0.2491(2) 0.2405(2) 0.4136(2) 1.000 0.0190(13) . . . .
+O2 O Uiso 0.3972(2) 0.1203(2) 0.3970(2) 1.000 0.0241(13) . . . .
+O3 O Uiso 0.2973(2) 0.1168(3) 0.5532(2) 1.000 0.0266(13) . . . .
+O4 O Uiso 0.2141(3) 0.0564(2) 0.3906(3) 1.000 0.0266(13) . . . .
+Ca Ca Uiso 0.50000 0.00000 0.50000 0.864(4) 0.0785(13) . . . .
+Be Be Uiso 0.2201(4) -0.0622(4) 0.3684(4) 1.000 0.0165(13) . . . .
+Li1 Li Uiso 0.3204(10) 0.3204(10) 0.3204(10) 0.75(3) 0.022(8) . . . .
+M Li Uiso 0.1908(7) 0.1908(7) 0.1908(7) 1.26(3) 0.044(5) . . . .
+Li2 Li Uiso 0.361(3) 0.361(3) 0.361(3) 0.300 0.04(2) . . . .
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 P O2 108.81(16) . . . yes
+O1 P O3 111.29(19) . . . yes
+O1 P O4 107.41(17) . . . yes
+O2 P O3 105.35(16) . . . yes
+O2 P O4 111.96(19) . . . yes
+O3 P O4 112.0(2) . . . yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+P O1 1.543(3) . . yes
+P O2 1.541(3) . . yes
+P O3 1.514(3) . . yes
+P O4 1.526(4) . . yes

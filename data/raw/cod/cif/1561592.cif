@@ -1,0 +1,447 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-04-09 10:42:59 +0300 (Fri, 09 Apr 2021) $
+#$Revision: 264003 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/56/15/1561592.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1561592
+loop_
+_publ_author_name
+'Orlova, Maria'
+'Perfler, Lukas'
+'Tribus, Martina'
+'Salnikov, Petr'
+'Glorieux, Benoit'
+'Orlova, Albina'
+_publ_section_title
+;
+ Temperature induced phase transition of CaMn0.5Zr1.5(PO4)3 phosphate
+;
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              36
+_journal_page_last               42
+_journal_paper_doi               10.1016/j.jssc.2015.12.014
+_journal_volume                  235
+_journal_year                    2016
+_chemical_formula_sum            'Ca Mn0.5 O12 P3 Zr1.5'
+_chemical_formula_weight         489.297
+_space_group_IT_number           155
+_space_group_name_Hall           'R 3 2"'
+_space_group_name_H-M_alt        'R 3 2 :H'
+_symmetry_cell_setting           rhombohedral
+_symmetry_space_group_name_Hall  'R 3 2"'
+_symmetry_space_group_name_H-M   'R 3 2 :H'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                120.00000
+_cell_formula_units_Z            6
+_cell_length_a                   8.7850(2)
+_cell_length_b                   8.7850(2)
+_cell_length_c                   22.6496(3)
+_cell_measurement_temperature    298
+_cell_volume                     1513.82(5)
+_computing_structure_refinement  FULLPROF.2002
+_diffrn_ambient_temperature      293
+_diffrn_detector                 Mythen1k
+_diffrn_detector_type            'microstrip solid-state detector'
+_diffrn_measurement_device_type  'STOE STADI MP '
+_diffrn_radiation_monochromator  'Ge 111''
+_diffrn_radiation_type           X-ray
+_diffrn_source                   'X-ray tube'
+_diffrn_source_target            Cu
+_pd_char_colour                  white
+_pd_char_particle_morphology     powder
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.009001
+_pd_meas_2theta_range_max        109.85000
+_pd_meas_2theta_range_min        5.05400
+_pd_meas_number_of_points        11645
+_pd_prep_cool_rate               quenching
+_pd_proc_2theta_range_inc        0.009001
+_pd_proc_2theta_range_max        109.8643
+_pd_proc_2theta_range_min        5.0683
+_pd_proc_ls_pref_orient_corr     ' ?'
+_pd_proc_ls_prof_R_factor        4.1084
+_pd_proc_ls_prof_wR_expected     4.8230
+_pd_proc_ls_prof_wR_factor       5.2501
+_pd_proc_wavelength              1.540560
+_pd_spec_mounting                ' ?'
+_refine_ls_number_parameters     46
+_refine_ls_number_reflns         353
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            3.3264
+_cod_data_source_file            JSSC-2016-235-36.cif
+_cod_data_source_block           1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_symmetry_cell_setting' value 'Rhombohedral' was changed
+to 'rhombohedral' in accordance with the built-in table derived from
+the CIF Core dictionary named 'cif_core.dic' version 2.4.5 last
+updated on 2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 8369 2020-08-20 11:38:08Z andrius 
+;
+_cod_original_cell_volume        1513.8(2)
+_cod_original_sg_symbol_Hall     'R 3 2'
+_cod_original_sg_symbol_H-M      'R 3 2'
+_cod_original_formula_sum        'Ca1 Mn0.5 Zr1.5 P3 O12'
+_cod_database_code               1561592
+_pd_proc_ls_prof_cr_factor       14.0879
+_pd_proc_ls_prof_cwr_factor      12.6474
+_pd_proc_ls_prof_cwr_expected    11.6186
+_pd_proc_ls_prof_chi2            1.1849
+_pd_proc_ls_prof_echi2           1.1849
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+-x+y,-x,z
+y,x,-z
+x-y,-y,-z
+-x,-x+y,-z
+x+2/3,y+1/3,z+1/3
+-y+2/3,x-y+1/3,z+1/3
+-x+y+2/3,-x+1/3,z+1/3
+y+2/3,x+1/3,-z+1/3
+x-y+2/3,-y+1/3,-z+1/3
+-x+2/3,-x+y+1/3,-z+1/3
+x+1/3,y+2/3,z+2/3
+-y+1/3,x-y+2/3,z+2/3
+-x+y+1/3,-x+2/3,z+2/3
+y+1/3,x+2/3,-z+2/3
+x-y+1/3,-y+2/3,-z+2/3
+-x+1/3,-x+y+2/3,-z+2/3
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+_atom_site_type_symbol
+Ca 0.00000 0.00000 0.2468(4) 3.3(2) 0.232(3) CA
+Zr1 0.00000 0.00000 0.8929(1) 1.2(2) 0.196(3) ZR
+Mn1 0.00000 0.00000 0.8929(1) 1.2(2) 0.182(3) MN
+Zr2 0.00000 0.00000 0.4011(1) 2.4(2) 0.304(3) ZR
+P1 0.2901(3) 0.00000 0.00000 1.9(3) 0.5 P
+P2 0.7054(4) 0.00000 0.50000 4.2(3) 0.5 P
+O1 0.1634(5) -0.0298(7) -0.0508(1) 1.5(3) 1.0 O
+O2 0.2895(8) -0.1725(7) 0.0118(2) 2.5(3) 1.0 O
+O3 0.7921(6) 0.0137(7) 0.5622(2) 2.3(3) 1.0 O
+O4 0.5273(6) -0.1540(6) 0.4974(1) 1.2(3) 1.0 O
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+ca 8.62660 10.44210 7.38730 0.65990 1.58990 85.74840 1.02110 178.43700 1.37510
+0.34100 1.28600
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+zr 17.87650 1.27618 10.94800 11.91600 5.41732 0.11762 3.65721 87.66270 2.06929
+-0.31400 2.24500
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+mn 11.28190 5.34090 7.35730 0.34320 3.01930 17.86740 2.24410 83.75430 1.08960
+-0.56800 2.80800
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+p 6.43450 1.90670 4.17910 27.15700 1.78000 0.52600 1.49080 68.16450 1.11490
+0.28300 0.43400
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+o 3.04850 13.27710 2.28680 5.70110 1.54630 0.32390 0.86700 32.90890 0.25080
+0.04700 0.03200
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O2 Ca O2 62.0(3) . 2_545
+O2 Ca O2 62.0(4) . 3_655
+O2 Ca O4 115.7(4) . 4_556
+O2 Ca O4 171.7(4) . 5_456
+O2 Ca O4 109.7(4) . 6_566
+O2 Ca O2 62.0(3) 2_545 3_655
+O2 Ca O4 171.7(4) 2_545 4_556
+O2 Ca O4 109.7(4) 2_545 5_456
+O2 Ca O4 115.7(4) 2_545 6_566
+O2 Ca O4 109.7(4) 3_655 4_556
+O2 Ca O4 115.7(4) 3_655 5_456
+O2 Ca O4 171.7(4) 3_655 6_566
+O4 Ca O4 72.5(3) 4_556 5_456
+O4 Ca O4 72.5(3) 4_556 6_566
+O4 Ca O4 72.5(4) 5_456 6_566
+O1 Zr1 O1 84.9(4) 1_556 2_556
+O1 Zr1 O1 84.9(3) 1_556 3_556
+O1 Zr1 O4 98.7(3) 1_556 4_555
+O1 Zr1 O4 176.2(4) 1_556 5_545
+O1 Zr1 O4 94.2(3) 1_556 6_655
+O1 Zr1 O1 84.9(3) 2_556 3_556
+O1 Zr1 O4 94.2(3) 2_556 4_555
+O1 Zr1 O4 98.7(3) 2_556 5_545
+O1 Zr1 O4 176.2(5) 2_556 6_655
+O1 Zr1 O4 176.2(3) 3_556 4_555
+O1 Zr1 O4 94.2(3) 3_556 5_545
+O1 Zr1 O4 98.7(3) 3_556 6_655
+O4 Zr1 O4 82.3(3) 4_555 5_545
+O4 Zr1 O4 82.3(3) 4_555 6_655
+O4 Zr1 O4 82.3(4) 5_545 6_655
+O1 Mn1 O1 84.9(4) 1_556 2_556
+O1 Mn1 O1 84.9(3) 1_556 3_556
+O1 Mn1 O4 98.7(3) 1_556 4_555
+O1 Mn1 O4 176.2(4) 1_556 5_545
+O1 Mn1 O4 94.2(3) 1_556 6_655
+O1 Mn1 O1 84.9(3) 2_556 3_556
+O1 Mn1 O4 94.2(3) 2_556 4_555
+O1 Mn1 O4 98.7(3) 2_556 5_545
+O1 Mn1 O4 176.2(5) 2_556 6_655
+O1 Mn1 O4 176.2(3) 3_556 4_555
+O1 Mn1 O4 94.2(3) 3_556 5_545
+O1 Mn1 O4 98.7(3) 3_556 6_655
+O4 Mn1 O4 82.3(3) 4_555 5_545
+O4 Mn1 O4 82.3(3) 4_555 6_655
+O4 Mn1 O4 82.3(4) 5_545 6_655
+O2 Zr2 O2 86.1(4) . 2_545
+O2 Zr2 O2 86.1(5) . 3_655
+O2 Zr2 O3 164.0(6) . 4_546
+O2 Zr2 O3 78.3(3) . 5_456
+O2 Zr2 O3 89.1(4) . 6_666
+O2 Zr2 O2 86.1(4) 2_545 3_655
+O2 Zr2 O3 78.3(4) 2_545 4_546
+O2 Zr2 O3 89.1(4) 2_545 5_456
+O2 Zr2 O3 164.0(4) 2_545 6_666
+O2 Zr2 O3 89.1(4) 3_655 4_546
+O2 Zr2 O3 164.0(5) 3_655 5_456
+O2 Zr2 O3 78.3(3) 3_655 6_666
+O3 Zr2 O3 104.9(5) 4_546 5_456
+O3 Zr2 O3 104.9(4) 4_546 6_666
+O3 Zr2 O3 104.9(3) 5_456 6_666
+O1 P1 O1 100.2(4) . 2_555
+O1 P1 O2 108.3(6) . 3_555
+O1 P1 O2 108.4(5) . 4_555
+O1 P1 O2 108.4(7) 2_555 3_555
+O1 P1 O2 108.3(5) 2_555 4_555
+O2 P1 O2 121.3(6) 3_555 4_555
+O3 P2 O3 127.2(5) . 2_556
+O3 P2 O4 110.9(4) . 3_555
+O3 P2 O4 100.4(6) . 4_556
+O3 P2 O4 100.4(4) 2_556 3_555
+O3 P2 O4 110.9(6) 2_556 4_556
+O4 P2 O4 105.7(5) 3_555 4_556
+Zr1 O1 P1 161.8(3) 1_554 3_555
+Zr1 O1 O1 47.6(3) 1_554 4_555
+Zr1 O1 O1 47.6(2) 1_554 5_555
+Zr1 O1 O1 126.4(3) 1_554 6_555
+Zr1 O1 O2 160.5(4) 1_554 7_555
+Zr1 O1 O2 134.0(4) 1_554 8_555
+Mn1 O1 P1 161.8(3) 2_554 3_555
+Mn1 O1 O1 47.6(3) 2_554 4_555
+Mn1 O1 O1 47.6(2) 2_554 5_555
+Mn1 O1 O1 126.4(3) 2_554 6_555
+Mn1 O1 O2 160.5(4) 2_554 7_555
+Mn1 O1 O2 134.0(4) 2_554 8_555
+P1 O1 O1 114.4(4) 3_555 4_555
+P1 O1 O1 130.6(3) 3_555 5_555
+P1 O1 O1 39.9(3) 3_555 6_555
+P1 O1 O2 35.9(3) 3_555 7_555
+P1 O1 O2 35.8(3) 3_555 8_555
+O1 O1 O1 60.0(3) 4_555 5_555
+O1 O1 O1 83.1(3) 4_555 6_555
+O1 O1 O2 145.0(5) 4_555 7_555
+O1 O1 O2 99.5(4) 4_555 8_555
+O1 O1 O1 94.1(3) 5_555 6_555
+O1 O1 O2 119.1(4) 5_555 7_555
+O1 O1 O2 151.4(4) 5_555 8_555
+O1 O1 O2 61.9(3) 6_555 7_555
+O1 O1 O2 61.8(3) 6_555 8_555
+O2 O1 O2 65.1(3) 7_555 8_555
+Ca O2 Zr2 91.5(4) . 2_555
+Ca O2 P1 116.1(4) . 3_555
+Ca O2 O1 90.9(4) . 4_555
+Ca O2 O1 147.2(5) . 5_555
+Ca O2 O2 59.0(3) . 6_545
+Ca O2 O2 59.0(4) . 7_655
+Ca O2 O2 106.4(3) . 8_555
+Ca O2 O3 122.9(4) . 9_456
+Ca O2 O3 112.9(4) . 10_666
+Zr2 O2 P1 149.7(3) 2_555 3_555
+Zr2 O2 O1 166.5(4) 2_555 4_555
+Zr2 O2 O1 120.6(4) 2_555 5_555
+Zr2 O2 O2 47.0(3) 2_555 6_545
+Zr2 O2 O2 47.0(3) 2_555 7_655
+Zr2 O2 O2 134.0(4) 2_555 8_555
+Zr2 O2 O3 50.6(3) 2_555 9_456
+Zr2 O2 O3 45.2(3) 2_555 10_666
+P1 O2 O1 35.8(4) 3_555 4_555
+P1 O2 O1 35.7(4) 3_555 5_555
+P1 O2 O2 159.6(5) 3_555 6_545
+P1 O2 O2 137.2(6) 3_555 7_655
+P1 O2 O2 29.4(3) 3_555 8_555
+P1 O2 O3 114.8(4) 3_555 9_456
+P1 O2 O3 108.2(4) 3_555 10_666
+O1 O2 O1 56.4(3) 4_555 5_555
+O1 O2 O2 124.8(5) 4_555 6_545
+O1 O2 O2 143.1(5) 4_555 7_655
+O1 O2 O2 57.5(3) 4_555 8_555
+O1 O2 O3 117.8(4) 4_555 9_456
+O1 O2 O3 144.0(4) 4_555 10_666
+O1 O2 O2 138.4(5) 5_555 6_545
+O1 O2 O2 148.9(5) 5_555 7_655
+O1 O2 O2 57.4(3) 5_555 8_555
+O1 O2 O3 79.1(4) 5_555 9_456
+O1 O2 O3 96.1(4) 5_555 10_666
+O2 O2 O2 60.0(3) 6_545 7_655
+O2 O2 O2 163.9(4) 6_545 8_555
+O2 O2 O3 64.2(3) 6_545 9_456
+O2 O2 O3 91.1(3) 6_545 10_666
+O2 O2 O2 107.9(5) 7_655 8_555
+O2 O2 O3 97.4(4) 7_655 9_456
+O2 O2 O3 54.2(3) 7_655 10_666
+O2 O2 O3 130.7(3) 8_555 9_456
+O2 O2 O3 89.0(3) 8_555 10_666
+O3 O2 O3 72.5(3) 9_456 10_666
+Zr2 O3 P2 139.7(3) 1_656 2_555
+Zr2 O3 O2 51.1(3) 1_656 3_556
+Zr2 O3 O2 45.7(2) 1_656 4_666
+Zr2 O3 O3 113.4(3) 1_656 5_556
+Zr2 O3 O4 142.0(3) 1_656 6_555
+Zr2 O3 O4 151.0(4) 1_656 7_556
+P2 O3 O2 145.3(4) 2_555 3_556
+P2 O3 O2 153.1(4) 2_555 4_666
+P2 O3 O3 26.4(2) 2_555 5_556
+P2 O3 O4 33.2(2) 2_555 6_555
+P2 O3 O4 38.1(3) 2_555 7_556
+O2 O3 O2 61.6(3) 3_556 4_666
+O2 O3 O3 140.1(3) 3_556 5_556
+O2 O3 O4 113.9(4) 3_556 6_555
+O2 O3 O4 154.4(5) 3_556 7_556
+O2 O3 O3 139.5(3) 4_666 5_556
+O2 O3 O4 167.7(3) 4_666 6_555
+O2 O3 O4 120.7(4) 4_666 7_556
+O3 O3 O4 51.7(2) 5_556 6_555
+O3 O3 O4 57.2(3) 5_556 7_556
+O4 O3 O4 57.7(3) 6_555 7_556
+Ca O4 Zr1 87.5(4) 1_556 2_555
+Ca O4 Mn1 87.5(4) 1_556 3_555
+Ca O4 P2 135.2(4) 1_556 4_555
+Ca O4 O3 162.9(4) 1_556 5_555
+Ca O4 O3 95.5(3) 1_556 6_556
+Ca O4 O4 53.7(3) 1_556 7_545
+Ca O4 O4 53.7(3) 1_556 8_655
+Ca O4 O4 127.0(3) 1_556 9_556
+Zr1 O4 P2 137.1(2) 2_555 4_555
+Zr1 O4 O3 102.0(2) 2_555 5_555
+Zr1 O4 O3 161.7(3) 2_555 6_556
+Zr1 O4 O4 48.9(2) 2_555 7_545
+Zr1 O4 O4 48.87(20) 2_555 8_655
+Zr1 O4 O4 126.7(3) 2_555 9_556
+Mn1 O4 P2 137.1(2) 3_555 4_555
+Mn1 O4 O3 102.0(2) 3_555 5_555
+Mn1 O4 O3 161.7(3) 3_555 6_556
+Mn1 O4 O4 48.9(2) 3_555 7_545
+Mn1 O4 O4 48.87(20) 3_555 8_655
+Mn1 O4 O4 126.7(3) 3_555 9_556
+P2 O4 O3 35.9(2) 4_555 5_555
+P2 O4 O3 41.4(3) 4_555 6_556
+P2 O4 O4 153.2(4) 4_555 7_545
+P2 O4 O4 146.7(3) 4_555 8_655
+P2 O4 O4 37.1(3) 4_555 9_556
+O3 O4 O3 71.1(3) 5_555 6_556
+O3 O4 O4 142.4(3) 5_555 7_545
+O3 O4 O4 123.4(3) 5_555 8_655
+O3 O4 O4 57.6(3) 5_555 9_556
+O3 O4 O4 144.1(3) 6_556 7_545
+O3 O4 O4 120.0(3) 6_556 8_655
+O3 O4 O4 64.8(3) 6_556 9_556
+O4 O4 O4 60.0(3) 7_545 8_655
+O4 O4 O4 116.1(3) 7_545 9_556
+O4 O4 O4 175.2(3) 8_655 9_556
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ca O2 2.757(9) 7_455
+Ca O2 2.757(9) 8_445
+Ca O2 2.757(9) 9_555
+Ca O4 2.406(8) 16_545
+Ca O4 2.406(8) 17_445
+Ca O4 2.406(8) 18_555
+Zr1 O1 2.026(5) 1_556
+Zr1 O1 2.026(6) 2_556
+Zr1 O1 2.026(4) 3_556
+Zr1 O4 2.169(4) 7_455
+Zr1 O4 2.169(5) 8_445
+Zr1 O4 2.169(5) 9_555
+Mn1 O1 2.026(5) 1_556
+Mn1 O1 2.026(6) 2_556
+Mn1 O1 2.026(4) 3_556
+Mn1 O4 2.169(4) 7_455
+Mn1 O4 2.169(5) 8_445
+Mn1 O4 2.169(5) 9_555
+Zr2 O2 2.076(7) 7_455
+Zr2 O2 2.076(5) 8_445
+Zr2 O2 2.076(7) 9_555
+Zr2 O3 2.068(7) 4_546
+Zr2 O3 2.068(6) 5_456
+Zr2 O3 2.068(4) 6_666
+P1 O1 1.531(5) .
+P1 O1 1.531(5) 5_555
+P1 O2 1.534(7) .
+P1 O2 1.534(5) 5_555
+P2 O3 1.567(5) .
+P2 O3 1.567(5) 5_556
+P2 O4 1.472(4) .
+P2 O4 1.472(6) 5_556
+O1 Zr1 2.031(5) 1_554
+O1 Mn1 2.031(5) 1_554
+O1 P1 1.531(5) .
+O1 O1 2.742(9) 2_555
+O1 O1 2.742(6) 3_555
+O1 O1 2.348(6) 5_555
+O1 O2 2.484(9) .
+O1 O2 2.486(6) 5_555
+O2 Ca 2.757(9) 13_544
+O2 Zr2 2.081(7) 13_544
+O2 P1 1.534(7) .
+O2 O1 2.484(9) .
+O2 O1 2.486(10) 5_555
+O2 O2 2.840(9) 2_545
+O2 O2 2.840(11) 3_655
+O2 O2 2.674(7) 5_555
+O2 O3 2.617(6) 17_445
+O2 O3 2.907(8) 18_655
+O3 Zr2 2.064(6) 4_656
+O3 P2 1.577(5) .
+O3 O2 2.617(8) 17_545
+O3 O2 2.907(6) 18_655
+O3 O3 2.826(6) 5_556
+O3 O4 2.511(6) .
+O3 O4 2.344(9) 5_556
+O4 Ca 2.406(8) 16_545
+O4 Zr1 2.164(4) 13_544
+O4 Mn1 2.164(4) 13_544
+O4 P2 1.472(4) .
+O4 O3 2.511(6) .
+O4 O3 2.344(6) 5_556
+O4 O4 2.847(7) 2_545
+O4 O4 2.847(6) 3_655
+O4 O4 2.346(6) 5_556

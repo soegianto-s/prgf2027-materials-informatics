@@ -1,0 +1,397 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/01/85/2018578.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2018578
+loop_
+_publ_author_name
+'Guesmi, Abderrahmen'
+'Driss, Ahmed'
+_publ_section_title
+;
+ KCo(H~2~O)~2~BP~2~O~8~&#x00B7;0.48H~2~O and
+ K~0.17~Ca~0.42~Co(H~2~O)~2~BP~2~O~8~&#x00B7;H~2~O: two cobalt
+ borophosphates with helical ribbons and disordered (K,Ca)/H~2~O schemes
+;
+_journal_coeditor_code           LG3086
+_journal_issue                   8
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              i55
+_journal_page_last               i59
+_journal_paper_doi               10.1107/S0108270112030284
+_journal_volume                  68
+_journal_year                    2012
+_chemical_formula_iupac          'K0.17 Ca0.42 Co (H2 O)2 B P2 O8 , H2 O'
+_chemical_formula_moiety         'B Ca0.42 Co H4 K0.17 O10 P2, H2 O'
+_chemical_formula_sum            'B Ca0.42 Co H6 K0.17 O11 P2'
+_chemical_formula_weight         336.94
+_chemical_name_systematic
+;
+Potassium calcium diaquacobalt(II) <i>catena</i>-borodiphosphate monohydrate
+;
+_space_group_IT_number           179
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P 65 2 (0 0 1)'
+_symmetry_space_group_name_H-M   'P 65 2 2'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            6
+_cell_length_a                   9.4720(15)
+_cell_length_b                   9.4720(15)
+_cell_length_c                   15.872(6)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      14.53
+_cell_measurement_theta_min      11.17
+_cell_volume                     1233.2(5)
+_computing_cell_refinement       'CAD-4 EXPRESS (Enraf--Nonius, 1995)'
+_computing_data_collection       'CAD-4 EXPRESS (Enraf--Nonius, 1995)'
+_computing_data_reduction        'XCAD4 (Harms & Wocadlo, 1995)'
+_computing_molecular_graphics    'DIAMOND (Brandenburg, 2001)'
+_computing_publication_material
+;
+WinGX (Farrugia, 1999) and publCIF (Westrip, 2010)
+;
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 2008)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'Enraf--Nonius CAD-4'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0941
+_diffrn_reflns_av_sigmaI/netI    0.0529
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -1
+_diffrn_reflns_limit_l_max       20
+_diffrn_reflns_limit_l_min       -1
+_diffrn_reflns_number            3480
+_diffrn_reflns_theta_full        26.97
+_diffrn_reflns_theta_max         26.97
+_diffrn_reflns_theta_min         2.48
+_diffrn_standards_decay_%        3
+_diffrn_standards_interval_count 120
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    2.876
+_exptl_absorpt_correction_T_max  0.7062
+_exptl_absorpt_correction_T_min  0.6406
+_exptl_absorpt_correction_type   psi-scan
+_exptl_absorpt_process_details   '(North <i>et al.</i>, 1968)'
+_exptl_crystal_colour            pink
+_exptl_crystal_density_diffrn    2.722
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             1005
+_exptl_crystal_size_max          0.17
+_exptl_crystal_size_mid          0.17
+_exptl_crystal_size_min          0.13
+_refine_diff_density_max         0.612
+_refine_diff_density_min         -0.597
+_refine_ls_abs_structure_details 'Flack (1983), with 311 Friedel pairs'
+_refine_ls_abs_structure_Flack   0.01(3)
+_refine_ls_extinction_coef       0.0046(5)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 2008)'
+_refine_ls_goodness_of_fit_ref   0.984
+_refine_ls_hydrogen_treatment    refxyz
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     92
+_refine_ls_number_reflns         902
+_refine_ls_number_restraints     3
+_refine_ls_restrained_S_all      0.983
+_refine_ls_R_factor_all          0.0290
+_refine_ls_R_factor_gt           0.0261
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w = 1/[\s^2^(Fo^2^)+(0.0254P)^2^+1.9694P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0684
+_refine_ls_wR_factor_ref         0.0705
+_reflns_number_gt                854
+_reflns_number_total             902
+_reflns_threshold_expression     I>2\s(I)
+_iucr_refine_instructions_details
+;
+TITL  gues30 in P 65 2 2
+REM  transformed to space group : P6522
+CELL   0.71073  9.4720  9.4720 15.8720   90.000   90.000  120.000
+ZERR   6        0.0015  0.0015  0.0060    0.000    0.000    0.000
+LATT   -1
+SYMM   -X,-Y,1/2+Z
+SYMM   -Y,-X,1/6-Z
+SYMM   +Y,+X,2/3-Z
+SYMM   +X-Y,-Y,-Z
+SYMM   -X+Y,+Y,1/2-Z
+SYMM   +X,+X-Y,5/6-Z
+SYMM   -X,-X+Y,1/3-Z
+SYMM   -Y,+X-Y,2/3+Z
+SYMM   +Y,-X+Y,1/6+Z
+SYMM   +X-Y,+X,5/6+Z
+SYMM   -X+Y,-X,1/3+Z
+SFAC   B   CA     CO   H    K     O      P
+UNIT   6   2.5    6    36   1.0   66     12
+ACTA
+merg 2
+L.S. 10
+SIZE 0.17 0.17 0.13
+BOND
+HTAB
+BOND $H
+FMAP 2
+PLAN 20
+sump 0.5 0.001 1. 2 1. 3
+DFIX O5 H51 0.85 0.03
+DFIX O5 H52 0.85 0.03
+EQIV $1 x-y,-y+1,-z
+EQIV $2 y,-x+y+1,z+1/6
+HTAB O5 O4_$1
+HTAB O5 O2_$2
+WGHT    0.025400    1.969400
+EXTI    0.004581
+FVAR       0.33077   0.21425   0.28583
+CO    3    0.447561    0.552439    0.083333    10.50000    0.00874    0.00874 =
+         0.00876   -0.00176   -0.00176    0.00452
+P     7    0.219863    0.388676   -0.081328    11.00000    0.00745    0.00687 =
+         0.00554   -0.00097   -0.00116    0.00412
+B     1    0.304464    0.152232   -0.083333    10.50000    0.00861    0.00695 =
+         0.00564   -0.00024    0.00000    0.00430
+O1    6    0.378978    0.517165   -0.043311    11.00000    0.01160    0.01151 =
+         0.00857   -0.00145   -0.00374    0.00338
+O2    6    0.683619    0.614171    0.047009    11.00000    0.00964    0.01532 =
+         0.01010   -0.00146   -0.00127    0.00647
+O3    6    0.193833    0.214232   -0.066379    11.00000    0.00947    0.00925 =
+         0.01221    0.00251    0.00329    0.00602
+O4    6    0.418395    0.182571   -0.012422    11.00000    0.00832    0.01319 =
+         0.00631    0.00088   -0.00109    0.00543
+REM ------------------ COORDINATE WATER MOLECULES ----------------------------
+O5    6    0.511454    0.803902    0.055288    11.00000    0.02028    0.01739 =
+         0.01771   -0.00303   -0.00754    0.01224
+H51   4    0.544136    0.858778    0.100033    11.00000   -1.50000
+H52   4    0.433213    0.808702    0.034979    11.00000   -1.50000
+REM --------------------- Ca AND K CATIONS -----------------------------------
+CA    2    0.799001    0.200999    0.083333     0.20882    0.04188
+K     5    0.838583    0.161417    0.083333     0.08585    0.03112
+REM ------------------- HYDRATE WATER MOLECULES ------------------------------
+eadp O61 O62
+O61   6    0.975401    0.109843    0.142582    21.00000    0.03922    0.06420 =
+         0.03660    0.00156    0.00506    0.03064
+O62   6    0.915474    0.062327    0.063544    31.00000    0.03922    0.06420 =
+         0.03660    0.00156    0.00506    0.03064
+HKLF 4
+REM   gues30 in P 65 2 2
+REM R1 =  0.0261 for    854 Fo > 4sig(Fo)  and  0.0290 for all    902 data
+REM     92 parameters refined using      3 restraints
+END
+WGHT      0.0000      1.9701
+REM Highest difference peak  0.613,  deepest hole -0.597,  1-sigma level  0.096
+Q1    1   0.8754  0.1246  0.0833  10.50000  0.05    0.42
+Q2    1   0.5768  0.8470  0.0273  11.00000  0.05    0.32
+Q3    1   0.8806 -0.0005  0.1543  11.00000  0.05    0.26
+Q4    1   0.1040  0.2406 -0.1112  11.00000  0.05    0.26
+Q5    1   0.2155  0.2789 -0.0912  11.00000  0.05    0.26
+Q6    1   0.3502  0.5559  0.0593  11.00000  0.05    0.25
+Q7    1   0.7156  0.6590  0.0212  11.00000  0.05    0.24
+Q8    1   0.5146  0.4541  0.0303  11.00000  0.05    0.24
+Q9    1   0.3447  0.4326 -0.0115  11.00000  0.05    0.23
+Q10   1   0.4988  0.7392  0.0493  11.00000  0.05    0.23
+Q11   1   0.5555  0.6446  0.0507  11.00000  0.05    0.21
+Q12   1   0.3676  0.4793  0.0530  11.00000  0.05    0.20
+Q13   1   1.0121 -0.0184  0.0633  11.00000  0.05    0.20
+Q14   1   0.6465  0.5167  0.0109  11.00000  0.05    0.19
+Q15   1   0.5572  0.5588  0.0593  11.00000  0.05    0.18
+Q16   1   0.7687  0.7548  0.1180  11.00000  0.05    0.17
+Q17   1   0.3342  0.5182 -0.0046  11.00000  0.05    0.17
+Q18   1   0.7069  0.7323  0.0197  11.00000  0.05    0.17
+Q19   1   0.5082  0.3089 -0.0497  11.00000  0.05    0.17
+Q20   1   0.9336 -0.0377  0.0816  11.00000  0.05    0.17
+;
+_cod_data_source_file            lg3086.cif
+_cod_data_source_block           II
+_cod_original_sg_symbol_Hall     'P 65 2 ( 0 0 1)'
+_cod_database_code               2018578
+_cod_database_fobs_code          2018578
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z+1/2'
+'-y, -x, -z+1/6'
+'y, x, -z+2/3'
+'x-y, -y, -z'
+'-x+y, y, -z+1/2'
+'x, x-y, -z+5/6'
+'-x, -x+y, -z+1/3'
+'-y, x-y, z+2/3'
+'y, -x+y, z+1/6'
+'x-y, x, z+5/6'
+'-x+y, -x, z+1/3'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+Co Co 0.44756(3) 0.55244(3) 0.0833 0.00868(17) Uani d S 1 2
+P P 0.21986(9) 0.38868(9) -0.08133(5) 0.00638(19) Uani d . 1 1
+B B 0.3045(5) 0.1522(3) -0.0833 0.0069(8) Uani d S 1 2
+O O1 0.3790(3) 0.5172(3) -0.04331(13) 0.0116(5) Uani d . 1 1
+O O2 0.6836(3) 0.6142(3) 0.04701(13) 0.0116(4) Uani d . 1 1
+O O3 0.1938(3) 0.2142(3) -0.06638(14) 0.0097(5) Uani d . 1 1
+O O4 0.4184(3) 0.1826(2) -0.01242(12) 0.0093(4) Uani d . 1 1
+O O5 0.5114(3) 0.8039(3) 0.05529(15) 0.0172(5) Uani d D 1 1
+H H51 0.544(6) 0.859(5) 0.100(2) 0.026 Uiso d D 1 1
+H H52 0.433(4) 0.809(6) 0.035(3) 0.026 Uiso d D 1 1
+Ca Ca 0.7990(3) 0.2010(3) 0.0833 0.0419(15) Uiso d SP 0.418(10) 2
+K K 0.8386(7) 0.1614(7) 0.0833 0.031(3) Uiso d SP 0.172(10) 2
+O O61 0.975(3) 0.110(3) 0.143(2) 0.045(16) Uani d P 0.214(9) 1
+O O62 0.915(2) 0.062(3) 0.0635(9) 0.045(16) Uani d P 0.286(9) 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Co 0.0087(2) 0.0087(2) 0.0088(3) 0.0045(2) -0.00176(19) -0.00176(19)
+P 0.0074(3) 0.0069(3) 0.0055(3) 0.0041(3) -0.0012(3) -0.0010(3)
+B 0.0086(19) 0.0070(15) 0.006(2) 0.0043(10) 0.000 -0.0003(15)
+O1 0.0116(10) 0.0115(11) 0.0086(9) 0.0033(9) -0.0037(9) -0.0014(9)
+O2 0.0097(11) 0.0153(11) 0.0101(9) 0.0065(9) -0.0013(9) -0.0015(9)
+O3 0.0095(10) 0.0092(11) 0.0122(10) 0.0060(8) 0.0033(8) 0.0025(8)
+O4 0.0083(10) 0.0132(10) 0.0063(9) 0.0054(8) -0.0011(8) 0.0009(8)
+O5 0.0203(12) 0.0173(13) 0.0177(11) 0.0122(10) -0.0075(10) -0.0030(10)
+O61 0.039(11) 0.064(13) 0.04(5) 0.031(10) 0.005(15) 0.002(14)
+O62 0.039(11) 0.064(13) 0.04(5) 0.031(10) 0.005(15) 0.002(14)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+B B 0.0013 0.0007 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ca Ca 0.2262 0.3064 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Co Co 0.3494 0.9721 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+K K 0.2009 0.2494 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+P P 0.1023 0.0942 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O1 Co O1 . 3_665 164.95(13)
+O1 Co O2 . . 89.02(8)
+O1 Co O2 3_665 . 101.32(9)
+O1 Co O2 . 3_665 101.32(9)
+O1 Co O2 3_665 3_665 89.02(8)
+O2 Co O2 . 3_665 93.63(13)
+O1 Co O5 . . 82.70(9)
+O1 Co O5 3_665 . 86.74(9)
+O2 Co O5 . . 87.97(10)
+O2 Co O5 3_665 . 175.69(9)
+O1 Co O5 . 3_665 86.74(9)
+O1 Co O5 3_665 3_665 82.70(9)
+O2 Co O5 . 3_665 175.69(9)
+O2 Co O5 3_665 3_665 87.97(10)
+O5 Co O5 . 3_665 90.72(14)
+O1 P O2 . 5_565 114.95(13)
+O1 P O3 . . 110.96(13)
+O2 P O3 5_565 . 106.10(13)
+O1 P O4 . 11_554 106.40(12)
+O2 P O4 5_565 11_554 111.36(12)
+O3 P O4 . 11_554 106.85(12)
+O3 B O3 . 7_554 103.1(3)
+O3 B O4 . . 112.39(12)
+O3 B O4 7_554 . 113.70(12)
+O3 B O4 . 7_554 113.70(12)
+O3 B O4 7_554 7_554 112.39(12)
+O4 B O4 . 7_554 102.0(3)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Co O1 . 2.087(2)
+Co O1 3_665 2.087(2)
+Co O2 . 2.090(2)
+Co O2 3_665 2.090(2)
+Co O5 . 2.190(3)
+Co O5 3_665 2.190(3)
+P O1 . 1.511(2)
+P O2 5_565 1.513(2)
+P O3 . 1.562(2)
+P O4 11_554 1.571(2)
+B O3 . 1.460(3)
+B O3 7_554 1.460(3)
+B O4 . 1.484(3)
+B O4 7_554 1.484(3)
+Ca K . 0.649(9)
+Ca O62 . 2.119(16)
+Ca O62 3_665 2.119(16)
+Ca O5 5_665 2.357(3)
+Ca O5 10 2.357(3)
+Ca O61 3_665 2.42(2)
+Ca O61 . 2.42(2)
+Ca O1 5_665 2.509(4)
+Ca O1 10 2.509(4)
+Ca O61 11_544 3.04(3)
+Ca O61 8_765 3.04(3)
+Ca O2 5_665 3.070(3)
+K O62 . 1.481(19)
+K O62 3_665 1.481(19)
+K O61 3_665 1.85(2)
+K O61 . 1.85(2)
+K O61 11_544 2.55(3)
+K O61 8_765 2.55(3)
+K O5 5_665 2.626(7)
+K O5 10 2.626(7)
+K O2 5_665 2.989(2)
+K O2 10 2.989(2)
+K O1 5_665 3.009(10)
+O61 O62 3_665 0.70(2)
+O61 O61 8_765 0.86(6)
+O61 O62 . 1.36(5)
+O61 O62 10_665 1.56(5)
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+O5 H52 O4 5_565 0.83(3) 1.95(3) 2.762(3) 168(4)
+O5 H51 O2 10_565 0.84(3) 1.92(3) 2.746(3) 164(5)

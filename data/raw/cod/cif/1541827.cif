@@ -1,0 +1,83 @@
+#------------------------------------------------------------------------------
+#$Date: 2025-08-18 18:33:07 +0300 (Mon, 18 Aug 2025) $
+#$Revision: 301779 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/54/18/1541827.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1541827
+loop_
+_publ_author_name
+'Cheng, P.T.'
+'Nyburg, S.C.'
+'Adams, M.E.'
+'Pritzker, K.P.H.'
+_publ_section_title
+;
+ beta-Calcium disodium pyrophosphate tetrahydrate, Ca Na2 P2 O7 * 4 H2 O
+;
+_journal_name_full               'Crystal Structure Communications'
+_journal_page_first              313
+_journal_page_last               317
+_journal_volume                  8
+_journal_year                    1979
+_chemical_formula_sum            'Ca H8 Na2 O11 P2'
+_chemical_name_systematic        'Ca Na2 (P2 O7) (H2 O)4'
+_space_group_IT_number           9
+_symmetry_space_group_name_Hall  'C -2yc'
+_symmetry_space_group_name_H-M   'C 1 c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 104.4
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.38
+_cell_length_b                   16.98
+_cell_length_c                   5.75
+_cell_volume                     981.612
+_citation_journal_id_ASTM        CSCMCS
+_cod_data_source_file            Cheng_CSCMCS_1979_1373.cif
+_cod_data_source_block           H8Ca1Na2O11P2
+_cod_original_cell_volume        981.6118
+_cod_original_formula_sum        'H8 Ca1 Na2 O11 P2'
+_cod_database_code               1541827
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,z+1/2
+x+1/2,y+1/2,z
+x+1/2,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_attached_hydrogens
+Ca1 Ca+2 0.25 0.2416 0 1 0.0 0
+Na1 Na+1 0.3074 0.4395 -0.1942 1 0.0 0
+Na2 Na+1 0.2507 0.0579 0.2349 1 0.0 0
+P1 P+5 0.4371 0.2103 0.5794 1 0.0 0
+P2 P+5 0.4508 0.3699 0.3888 1 0.0 0
+O1 O-2 0.5843 0.2002 0.6688 1 0.0 0
+O2 O-2 0.4022 0.304 0.5516 1 0.0 0
+O3 O-2 0.3621 0.1804 0.75 1 0.0 0
+O4 O-2 0.3855 0.177 0.3263 1 0.0 0
+O5 O-2 0.5987 0.3629 0.431 1 0.0 0
+O6 O-2 0.4086 0.4466 0.4793 1 0.0 0
+O7 O-2 0.3753 0.3518 0.134 1 0.0 0
+O8 O-2 0.6359 0.1708 0.1657 1 0.0 2
+O9 O-2 -0.1086 0.4652 0.4446 1 0.0 2
+O10 O-2 0.1457 0.4651 0.0641 1 0.0 2
+O11 O-2 0.6268 0.4429 0.0077 1 0.0 2
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 PubChem 139047819

@@ -1,0 +1,94 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/52/43/1524339.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1524339
+loop_
+_publ_author_name
+'Fanfani, L.'
+'Zanazzi, P.F.'
+'Zanzari, A.R.'
+_publ_section_title
+;
+ The crystal structure of a triclinic roscherite
+;
+_journal_name_full
+;
+Tschermaks Mineralogische und Petrographische Mitteilungen (-1978)
+;
+_journal_page_first              169
+_journal_page_last               178
+_journal_volume                  24
+_journal_year                    1977
+_chemical_formula_sum            'Al0.13 Be4 Ca2 Fe0.42 H16 Mn4.12 O34 P6'
+_chemical_name_systematic
+;
+Fe.42 Mn.12 Al.13 Ca2 Mn4 Be4 (P O4)6 (O H)4 (H2 O)6
+;
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1 (1/2*x+1/2*y,1/2*x-1/2*y,-z)'
+_symmetry_space_group_name_H-M   'C -1'
+_cell_angle_alpha                91.07
+_cell_angle_beta                 94.35
+_cell_angle_gamma                89.99
+_cell_formula_units_Z            2
+_cell_length_a                   15.921
+_cell_length_b                   11.965
+_cell_length_c                   6.741
+_cell_volume                     1280.202
+_citation_journal_id_ASTM        MPMTAG
+_cod_data_source_file            Fanfani_MPMTAG_1977_327.cif
+_cod_data_source_block           H16Al0.13Be4Ca2Fe0.42Mn4.12O34P6
+_cod_original_sg_symbol_H-M      'P -1 (a+b,a-b,-c)'
+_cod_original_formula_sum        'H16 Al0.13 Be4 Ca2 Fe0.42 Mn4.12 O34 P6'
+_cod_database_code               1524339
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+x+1/2,y+1/2,z
+-x+1/2,-y+1/2,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+O7 O-2 0.1833 0.1922 0.6713 1 0.0
+O16 O-2 0.0944 0.4209 0.2354 1 0.0
+Mn1 Mn+2 0.1704 0.162 -0.0078 1 0.0
+O13 O-2 0.3011 0.1587 0.0647 1 0.0
+Be1 Be+2 0.3305 0.1727 0.2965 1 0.0
+O4 O-2 0.2798 -0.1012 -0.0476 1 0.0
+O5 O-2 0.141 0.1859 0.3046 1 0.0
+P1 P+5 0.1852 0.1205 0.4752 1 0.0
+O14 O-2 0.302 -0.1619 -0.4307 1 0.0
+O10 O-2 0.0332 -0.1982 0.4286 1 0.0
+O11 O-2 0.0685 0.352 0.6609 1 0.0
+Mn2 Mn+2 0.1706 -0.1586 0.4986 1 0.0
+O8 O-2 0.1795 -0.1887 0.1754 1 0.0
+O15 O-2 0.0003 0.0446 0.2157 1 0.0
+O2 O-2 0.1412 -0.0073 0.01 1 0.0
+O3 O-2 0.2782 0.096 0.4382 1 0.0
+P3 P+5 0.0022 0.2761 0.7477 1 0.0
+P2 P+5 0.1861 -0.1207 -0.0182 1 0.0
+Fe1 Fe+3 0 0 0.5 0.42 0.0
+O17 O-2 0.0944 -0.4194 -0.2768 1 0.0
+Be2 Be+2 0.3332 -0.1762 -0.2009 1 0.0
+Ca1 Ca+2 0.001 0.2611 0.2459 1 0.0
+O9 O-2 0.0406 0.2093 0.9195 1 0.0
+O12 O-2 0.067 -0.3517 0.1728 1 0.0
+Mn3 Mn+3 0 0 0.5 0.12 0.0
+O1 O-2 0.1378 0.0106 0.5043 1 0.0
+Al1 Al+3 0 0 0.5 0.13 0.0
+O6 O-2 0.1417 -0.1871 -0.1942 1 0.0

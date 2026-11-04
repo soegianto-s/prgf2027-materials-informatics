@@ -1,0 +1,490 @@
+{
+  "data": [
+    {
+      "band_gap": 5.5284,
+      "formation_energy_per_atom": -2.847031572420635,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 36,
+      "elements": [
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Mg(PO3)2",
+      "chemsys": "Mg-O-P",
+      "volume": 420.34644020686284,
+      "density": 2.879828918467342,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "C2/c",
+        "hall": "-C 2yc",
+        "number": 15,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaabboe"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -0.30855624244505503,
+      "energy_above_hull": 1.6624656153845976,
+      "is_stable": false,
+      "nsites": 52,
+      "elements": [
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Mg(PO5)2",
+      "chemsys": "Mg-O-P",
+      "volume": 1028.3248657336533,
+      "density": 1.5905556203623152,
+      "symmetry": {
+        "crystal_system": "Tetragonal",
+        "symbol": "I4_1/acd",
+        "hall": "I 4bw 2aw -1bw",
+        "number": 142,
+        "point_group": "4/mmm",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqnop"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -0.2995296045604394,
+      "energy_above_hull": 1.6714922532692134,
+      "is_stable": false,
+      "nsites": 52,
+      "elements": [
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Mg(PO5)2",
+      "chemsys": "Mg-O-P",
+      "volume": 1098.356627886155,
+      "density": 1.4891410068684146,
+      "symmetry": {
+        "crystal_system": "Tetragonal",
+        "symbol": "I4_1/acd",
+        "hall": "I 4bw 2aw -1bw",
+        "number": 142,
+        "point_group": "4/mmm",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqosc"
+    },
+    {
+      "band_gap": 2.7546999999999997,
+      "formation_energy_per_atom": -1.4675192314835166,
+      "energy_above_hull": 0.503502626346136,
+      "is_stable": false,
+      "nsites": 26,
+      "elements": [
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Mg(PO5)2",
+      "chemsys": "Mg-O-P",
+      "volume": 341.01821401512336,
+      "density": 2.3981239528139247,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqxmw"
+    },
+    {
+      "band_gap": 0.026699999999999946,
+      "formation_energy_per_atom": -0.4917600626373624,
+      "energy_above_hull": 1.47926179519229,
+      "is_stable": false,
+      "nsites": 13,
+      "elements": [
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Mg(PO5)2",
+      "chemsys": "Mg-O-P",
+      "volume": 500.52361956419224,
+      "density": 0.8169484070377714,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "Cm",
+        "hall": "C -2y",
+        "number": 8,
+        "point_group": "m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacrrrv"
+    },
+    {
+      "band_gap": 5.3203,
+      "formation_energy_per_atom": -2.977209820616883,
+      "energy_above_hull": 0.0026836325000001438,
+      "is_stable": false,
+      "nsites": 11,
+      "elements": [
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Mg2P2O7",
+      "chemsys": "Mg-O-P",
+      "volume": 116.55789889497309,
+      "density": 3.1706001302666693,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "C2/m",
+        "hall": "-C 2y",
+        "number": 12,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaaiat"
+    },
+    {
+      "band_gap": 6.181299999999999,
+      "formation_energy_per_atom": -2.979893453116883,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 44,
+      "elements": [
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Mg2P2O7",
+      "chemsys": "Mg-O-P",
+      "volume": 475.5252551687941,
+      "density": 3.1086339613136316,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqazi"
+    },
+    {
+      "band_gap": 0.028299999999999992,
+      "formation_energy_per_atom": -1.5055844997402594,
+      "energy_above_hull": 0.5777324659090901,
+      "is_stable": false,
+      "nsites": 44,
+      "elements": [
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Mg2PO8",
+      "chemsys": "Mg-O-P",
+      "volume": 555.0882989754444,
+      "density": 2.48387852471816,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqlxm"
+    },
+    {
+      "band_gap": 5.106400000000001,
+      "formation_energy_per_atom": -3.0581811464835167,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 26,
+      "elements": [
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Mg3(PO4)2",
+      "chemsys": "Mg-O-P",
+      "volume": 315.06368877474125,
+      "density": 2.770776422804223,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaavhs"
+    },
+    {
+      "band_gap": 4.9856,
+      "formation_energy_per_atom": -3.0290295937912086,
+      "energy_above_hull": 0.029151552692307625,
+      "is_stable": false,
+      "nsites": 52,
+      "elements": [
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Mg3(PO4)2",
+      "chemsys": "Mg-O-P",
+      "volume": 584.733092064326,
+      "density": 2.9858786936681385,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabfnuh"
+    },
+    {
+      "band_gap": 5.1758999999999995,
+      "formation_energy_per_atom": -3.055636439175825,
+      "energy_above_hull": 0.0025447073076918514,
+      "is_stable": false,
+      "nsites": 26,
+      "elements": [
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Mg3(PO4)2",
+      "chemsys": "Mg-O-P",
+      "volume": 283.739100568695,
+      "density": 3.0766681038640598,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabfxil"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -0.2322811622527473,
+      "energy_above_hull": 2.8258999842307686,
+      "is_stable": false,
+      "nsites": 52,
+      "elements": [
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Mg3(PO4)2",
+      "chemsys": "Mg-O-P",
+      "volume": 584.7330460964862,
+      "density": 2.985878928398148,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabmxmm"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -1.8476132223109243,
+      "energy_above_hull": 0.49099588970588215,
+      "is_stable": false,
+      "nsites": 68,
+      "elements": [
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Mg3(PO6)2",
+      "chemsys": "Mg-O-P",
+      "volume": 996.4889517037038,
+      "density": 2.1786735696709982,
+      "symmetry": {
+        "crystal_system": "Orthorhombic",
+        "symbol": "Cmc2_1",
+        "hall": "C 2c -2",
+        "number": 36,
+        "point_group": "mm2",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabxjzx"
+    },
+    {
+      "band_gap": 5.1105,
+      "formation_energy_per_atom": -2.697408374598214,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 64,
+      "elements": [
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "MgP4O11",
+      "chemsys": "Mg-O-P",
+      "volume": 825.5907647043941,
+      "density": 2.6082456796116773,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaawvt"
+    },
+    {
+      "band_gap": 1.089,
+      "formation_energy_per_atom": -2.562894440982143,
+      "energy_above_hull": 0.16867455770832862,
+      "is_stable": false,
+      "nsites": 48,
+      "elements": [
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "MgPO4",
+      "chemsys": "Mg-O-P",
+      "volume": 643.3552367186829,
+      "density": 2.462876467561898,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "C2/c",
+        "hall": "-C 2yc",
+        "number": 15,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabpjru"
+    },
+    {
+      "band_gap": 0.06690000000000007,
+      "formation_energy_per_atom": -1.194005374543651,
+      "energy_above_hull": 0.62704062458333,
+      "is_stable": false,
+      "nsites": 72,
+      "elements": [
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "MgPO7",
+      "chemsys": "Mg-O-P",
+      "volume": 1105.5451763661495,
+      "density": 2.0099835004516287,
+      "symmetry": {
+        "crystal_system": "Orthorhombic",
+        "symbol": "Pbca",
+        "hall": "-P 2ac 2ab",
+        "number": 61,
+        "point_group": "mmm",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabpqpx"
+    },
+    {
+      "band_gap": 0.1190000000000001,
+      "formation_energy_per_atom": -1.204807077876984,
+      "energy_above_hull": 0.6162389212499972,
+      "is_stable": false,
+      "nsites": 72,
+      "elements": [
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 3,
+      "formula_pretty": "MgPO7",
+      "chemsys": "Mg-O-P",
+      "volume": 1135.9485400333422,
+      "density": 1.9561868211341886,
+      "symmetry": {
+        "crystal_system": "Orthorhombic",
+        "symbol": "Pbca",
+        "hall": "-P 2ac 2ab",
+        "number": 61,
+        "point_group": "mmm",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqdjg"
+    }
+  ],
+  "meta": {
+    "api_version": "0.88.1",
+    "time_stamp": "2026-11-04T04:45:06.113305+00:00",
+    "total_doc": 17,
+    "facet": null,
+    "max_limit": 1000,
+    "default_fields": [
+      "material_id"
+    ]
+  }
+}

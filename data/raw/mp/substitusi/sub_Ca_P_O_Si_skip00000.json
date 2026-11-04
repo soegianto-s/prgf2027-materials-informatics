@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "band_gap": 4.7968,
+      "formation_energy_per_atom": -3.386853927339286,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 80,
+      "elements": [
+        "Ca",
+        "O",
+        "P",
+        "Si"
+      ],
+      "nelements": 4,
+      "formula_pretty": "Ca5Si(PO6)2",
+      "chemsys": "Ca-O-P-Si",
+      "volume": 1078.066187108121,
+      "density": 2.972249135708747,
+      "symmetry": {
+        "crystal_system": "Orthorhombic",
+        "symbol": "P2_12_12_1",
+        "hall": "P 2ac 2ab",
+        "number": 19,
+        "point_group": "222",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacrvrs"
+    }
+  ],
+  "meta": {
+    "api_version": "0.88.1",
+    "time_stamp": "2026-11-04T04:44:53.257841+00:00",
+    "total_doc": 1,
+    "facet": null,
+    "max_limit": 1000,
+    "default_fields": [
+      "material_id"
+    ]
+  }
+}

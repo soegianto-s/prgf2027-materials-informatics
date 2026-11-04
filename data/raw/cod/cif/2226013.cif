@@ -1,0 +1,318 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/22/60/2226013.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2226013
+loop_
+_publ_author_name
+'Zatovsky, Igor V.'
+'Ogorodnyk, Ivan V.'
+'Strutynska, Nataliya Yu.'
+'Slobodyanik, Nikolay S.'
+'Sharkina, Nataliya O.'
+_publ_section_title
+;
+ Rietveld refinement of whitlockite-related
+ K~0.8~Ca~9.8~Fe~0.2~(PO~4~)~7~
+;
+_journal_coeditor_code           WM2324
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i41
+_journal_page_last               i42
+_journal_paper_doi               10.1107/S1600536810014327
+_journal_volume                  66
+_journal_year                    2010
+_chemical_formula_iupac          'K0.8 Ca9.8 Fe0.2 (P O4)7'
+_chemical_formula_moiety         'Fe0.20 O24 P6, O4 P,  9.8(Ca),  0.8(K)'
+_chemical_formula_structural     'K0.80 Ca9.80 Fe0.20 (P O4)7'
+_chemical_formula_sum            'Ca9.8 Fe0.2 K0.8 O28 P7'
+_chemical_formula_weight         1100.02
+_chemical_name_systematic
+;
+potassium decacalcium iron heptaphosphate
+;
+_space_group_IT_number           161
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   10.442820(10)
+_cell_length_b                   10.442820(10)
+_cell_length_c                   37.29443(3)
+_cell_measurement_temperature    293(2)
+_cell_volume                     3522.169(6)
+_computing_cell_refinement       'DICVOL 2004 (Boultif & Lou\"er, 2004)'
+_computing_data_collection       'PCXRD (Shimadzu, 2006)'
+_computing_data_reduction        'FULLPROF (Rodriguez-Carvajal, 2006)'
+_computing_molecular_graphics    'DIAMOND (Brandenburg, 1999)'
+_computing_publication_material
+;
+PLATON (Spek, 2009) and enCIFer (Allen <i>et al.</i>,  2004)
+;
+_computing_structure_refinement  'FULLPROF (Rodriguez-Carvajal, 2006)'
+_computing_structure_solution    'FULLPROF (Rodriguez-Carvajal, 2006)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device_type  'Shimadzu LabX XRD-6000'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.541874
+_exptl_absorpt_coefficient_mu    27.176
+_exptl_crystal_density_diffrn    3.112
+_exptl_crystal_density_method    'not measured'
+_pd_char_colour                  'light pink'
+_pd_char_particle_morphology     isometric
+_pd_instr_location
+;
+?
+;
+_pd_meas_2theta_range_inc        0.020000
+_pd_meas_2theta_range_max        100.00000
+_pd_meas_2theta_range_min        9.00000
+_pd_meas_number_of_points        4551
+_pd_meas_scan_method             step
+_pd_prep_pressure                101.3
+_pd_prep_temperature             293(2)
+_pd_proc_2theta_range_inc        0.020000
+_pd_proc_2theta_range_max        99.9150
+_pd_proc_2theta_range_min        8.9150
+_pd_proc_info_excluded_regions   undef
+_pd_proc_ls_background_function
+;
+Linear Interpolation between a set background points with refinable heights
+;
+_pd_proc_ls_pref_orient_corr
+;
+Modified March's Function
+;
+_pd_proc_ls_profile_function
+;
+Thompson--Cox--Hastings pseudo-Voigt * Axial divergence asymmetry
+;
+_pd_proc_ls_prof_R_factor        8.7114
+_pd_proc_ls_prof_wR_expected     4.9188
+_pd_proc_ls_prof_wR_factor       11.2433
+_pd_proc_wavelength              1.540598
+_pd_spec_mounting                'glass container'
+_pd_spec_mount_mode              reflection
+_pd_spec_shape                   flat_sheet
+_pd_spec_size_axial              25
+_pd_spec_size_equat              25
+_pd_spec_size_thick              1
+_refine_ls_extinction_coef       0
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   2.317
+_refine_ls_hydrogen_treatment    undef
+_refine_ls_number_constraints    4
+_refine_ls_number_parameters     131
+_refine_ls_number_restraints     4
+_refine_ls_restrained_S_all      2.317
+_refine_ls_R_factor_all          2.48
+_refine_ls_shift/su_max          0.001
+_refine_ls_weighting_details     'Standard least squares refinement'
+_refine_ls_weighting_scheme      calc
+_cod_data_source_file            wm2324.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Trigonal' changed to 'trigonal' according
+to '/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_original_formula_sum        'Ca9.80 Fe0.20 K0.80 O28 P7'
+_cod_database_code               2226013
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y,x-y,z
+3 -x+y,-x,z
+4 -y,-x,z+1/2
+5 -x+y,y,z+1/2
+6 x,x-y,z+1/2
+7 x+2/3,y+1/3,z+1/3
+8 -y+2/3,x-y+1/3,z+1/3
+9 -x+y+2/3,-x+1/3,z+1/3
+10 -y+2/3,-x+1/3,z+5/6
+11 -x+y+2/3,y+1/3,z+5/6
+12 x+2/3,x-y+1/3,z+5/6
+13 x+1/3,y+2/3,z+2/3
+14 -y+1/3,x-y+2/3,z+2/3
+15 -x+y+1/3,-x+2/3,z+2/3
+16 -y+1/3,-x+2/3,z+1/6
+17 -x+y+1/3,y+2/3,z+1/6
+18 x+1/3,x-y+2/3,z+1/6
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Ca Ca1 0.3986(5) 0.1868(7) 0.0212(4) 0.0022(18) Uiso 1.00000
+Ca Ca2 0.3922(6) 0.1887(10) 0.1265(4) 0.0022(16) Uiso 1.00000
+Ca Ca3 0.1776(11) 0.3817(6) 0.0949(5) 0.003(2) Uiso 1.00000
+Ca Ca4 0.33333 0.66667 0.0288(5) 0.002(2) Uiso 0.80000
+Fe Fe4 0.33333 0.66667 0.0288(5) 0.002(2) Uiso 0.20000
+K K1 0.00000 0.00000 0.0447(5) 0.004(4) Uiso 0.80000
+P P1 0.00000 0.00000 0.1293(5) 0.0031(11) Uiso 1.00000
+P P2 0.1351(9) 0.3124(6) -0.0032(4) 0.0031(11) Uiso 1.00000
+P P3 0.4897(11) 0.4749(11) 0.0609(5) 0.0031(11) Uiso 1.00000
+O O11 0.00000 0.00000 0.1699(8) 0.0025(11) Uiso 1.00000
+O O12 0.0071(19) 0.1449(14) 0.1115(7) 0.0025(11) Uiso 1.00000
+O O21 0.0912(15) 0.2697(15) 0.0349(4) 0.0025(11) Uiso 1.00000
+O O22 0.222(2) 0.233(2) -0.0145(6) 0.0025(11) Uiso 1.00000
+O O23 -0.0066(16) 0.265(2) -0.0248(5) 0.0025(11) Uiso 1.00000
+O O24 0.229(3) 0.4728(17) -0.0110(6) 0.0025(11) Uiso 1.00000
+O O31 0.408(3) 0.567(3) 0.0709(7) 0.0025(11) Uiso 1.00000
+O O32 0.5039(17) 0.4689(16) 0.0203(5) 0.0025(11) Uiso 1.00000
+O O33 0.6427(19) 0.5475(19) 0.0808(6) 0.0025(11) Uiso 1.00000
+O O34 0.3720(19) 0.3100(19) 0.0752(7) 0.0025(11) Uiso 1.00000
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+? ? ? ? ? ? ? ?
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+P P 0.1023 0.0942 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+K K 0.2009 0.2494 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ca Ca 0.2262 0.3064 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Fe Fe 0.3463 0.8444 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O24 Fe4 O24 . . 3_565 82.8(11) no
+O24 Fe4 O31 . . 3_565 101.7(10) no
+O24 Fe4 O31 2_665 . . 101.6(10) no
+O31 Fe4 O31 . . 2_665 75.9(12) no
+O24 Fe4 O31 3_565 . . 175.2(13) no
+O31 Fe4 O31 . . 3_565 75.9(14) no
+O24 Fe4 O31 2_665 . 2_665 99.6(11) no
+O24 Fe4 O24 2_665 . 3_565 82.8(11) no
+O24 Fe4 O31 2_665 . 3_565 175.2(12) no
+O24 Fe4 O31 3_565 . 2_665 101.7(11) no
+O31 Fe4 O31 2_665 . 3_565 75.9(13) no
+O24 Fe4 O31 3_565 . 3_565 99.6(13) no
+O24 Fe4 O31 . . . 99.6(9) no
+O24 Fe4 O24 . . 2_665 82.8(11) no
+O24 Fe4 O31 . . 2_665 175.2(12) no
+O21 P2 O22 . . . 105.8(12) no
+O21 P2 O23 . . . 107.5(11) no
+O21 P2 O24 . . . 117.0(13) no
+O22 P2 O23 . . . 114.2(13) no
+O22 P2 O24 . . . 108.3(15) no
+O23 P2 O24 . . . 104.3(15) no
+O31 P3 O32 . . . 110.2(15) no
+O31 P3 O33 . . . 108.4(15) no
+O31 P3 O34 . . . 102.1(15) no
+O32 P3 O33 . . . 113.1(14) no
+O32 P3 O34 . . . 108.6(13) no
+O33 P3 O34 . . . 113.8(14) no
+O12 P1 O12 2_555 . 3_555 104.3(12) no
+O11 P1 O12 . . 3_555 114.2(11) no
+O11 P1 O12 . . . 114.2(11) no
+O11 P1 O12 . . 2_555 114.2(11) no
+O12 P1 O12 . . 2_555 104.4(12) no
+O12 P1 O12 . . 3_555 104.4(13) no
+Fe4 O24 P2 . . . 128.4(15) no
+Fe4 O31 P3 . . . 121.8(16) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ca1 O11 . 11_554 2.519(10) yes
+Ca1 O21 . 3_555 2.702(13) yes
+Ca1 O22 . . 2.51(3) yes
+Ca1 O23 . 3_555 2.40(2) yes
+Ca1 O32 . . 2.579(17) yes
+Ca1 O32 . 2_655 2.57(2) yes
+Ca1 O33 . 2_655 2.59(3) yes
+Ca1 O34 . . 2.48(3) yes
+Ca2 O12 . 3_555 2.474(16) yes
+Ca2 O23 . 18_555 2.63(3) yes
+Ca2 O24 . 18_555 2.444(19) yes
+Ca2 O24 . 17_545 2.48(3) yes
+Ca2 O32 . 17_545 2.41(2) yes
+Ca2 O33 . 2_655 2.21(3) yes
+Ca2 O34 . . 2.36(3) yes
+Ca3 O12 . . 2.295(15) yes
+Ca3 O21 . . 2.48(2) yes
+Ca3 O22 . 16_555 2.49(3) yes
+Ca3 O23 . 18_555 2.30(3) yes
+Ca3 O31 . . 2.38(3) yes
+Ca3 O31 . 3_565 2.47(4) yes
+Ca3 O33 . 3_565 2.78(3) yes
+Ca3 O34 . . 2.60(3) yes
+Ca4 O24 . 2_665 2.30(3) no
+Ca4 O24 . . 2.30(3) yes
+Ca4 O24 . 3_565 2.30(3) no
+Ca4 O31 . . 2.23(4) yes
+Ca4 O31 . 3_565 2.23(4) no
+Ca4 O31 . 2_665 2.23(4) no
+Fe4 O24 . 2_665 2.30(3) no
+Fe4 O24 . . 2.30(3) yes
+Fe4 O24 . 3_565 2.30(3) no
+Fe4 O31 . . 2.23(4) yes
+Fe4 O31 . 3_565 2.23(4) no
+Fe4 O31 . 2_665 2.23(4) no
+K1 O12 . . 2.90(3) yes
+K1 O12 . 3_555 2.90(3) no
+K1 O12 . 2_555 2.90(3) no
+K1 O21 . . 2.508(19) yes
+K1 O21 . 3_555 2.508(19) no
+K1 O21 . 2_555 2.508(19) no
+K1 O22 . . 3.25(3) yes
+K1 O22 . 3_555 3.25(3) no
+K1 O22 . 2_555 3.25(3) no
+P1 O11 . . 1.51(4) yes
+P1 O12 . . 1.62(2) yes
+P1 O12 . 2_555 1.62(2) no
+P1 O12 . 3_555 1.62(2) no
+P2 O21 . . 1.49(2) yes
+P2 O22 . . 1.56(2) yes
+P2 O23 . . 1.53(2) yes
+P2 O24 . . 1.486(17) yes
+P3 O31 . . 1.62(3) yes
+P3 O32 . . 1.53(3) yes
+P3 O33 . . 1.57(3) yes
+P3 O34 . . 1.63(2) yes

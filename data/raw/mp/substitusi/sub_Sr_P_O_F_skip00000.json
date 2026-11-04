@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "band_gap": 5.2118,
+      "formation_energy_per_atom": -3.429221667568026,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 42,
+      "elements": [
+        "F",
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 4,
+      "formula_pretty": "Sr5P3O12F",
+      "chemsys": "F-O-P-Sr",
+      "volume": 618.327171228248,
+      "density": 3.9854005622804802,
+      "symmetry": {
+        "crystal_system": "Hexagonal",
+        "symbol": "P6_3/m",
+        "hall": "-P 6c",
+        "number": 176,
+        "point_group": "6/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaajwn"
+    }
+  ],
+  "meta": {
+    "api_version": "0.88.1",
+    "time_stamp": "2026-11-04T04:45:05.021585+00:00",
+    "total_doc": 1,
+    "facet": null,
+    "max_limit": 1000,
+    "default_fields": [
+      "material_id"
+    ]
+  }
+}

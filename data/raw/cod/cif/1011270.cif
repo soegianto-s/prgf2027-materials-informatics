@@ -1,0 +1,62 @@
+#------------------------------------------------------------------------------
+#$Date: 2022-09-25 22:10:12 +0300 (Sun, 25 Sep 2022) $
+#$Revision: 278158 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/01/12/1011270.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1011270
+loop_
+_publ_author_name
+'Strunz, H'
+_publ_section_title              'Datolith und Herderit'
+_journal_coden_ASTM              ZEKGAX
+_journal_name_full
+;
+Zeitschrift fuer Kristallographie, Kristallgeometrie, Kristallphysik,
+Kristallchemie (-144,1977)
+;
+_journal_page_first              146
+_journal_page_last               150
+_journal_volume                  93
+_journal_year                    1936
+_chemical_compound_source        'from Obernham, Maine, USA'
+_chemical_formula_structural     'Be Ca F2 (O H) P O4'
+_chemical_formula_sum            'Be Ca F2 H O5 P'
+_chemical_name_mineral           Herderite
+_chemical_name_systematic
+;
+Calcium beryllium hydroxide phosphate difluoride
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90.1
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   4.8
+_cell_length_b                   7.68
+_cell_length_c                   9.8
+_cell_volume                     361.3
+_cod_original_formula_sum        'H Be Ca F2 O5 P'
+_cod_database_code               1011270
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,1/2+y,1/2-z
+-x,-y,-z
+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+? ? ? ?

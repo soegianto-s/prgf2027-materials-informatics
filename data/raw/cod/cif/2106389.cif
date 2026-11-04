@@ -1,0 +1,84 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/10/63/2106389.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2106389
+loop_
+_publ_author_name
+'Mathew, M.'
+'Schroeder, L.W.'
+_publ_section_title
+;
+ The crystal structure of calcium ammonium hydrogenpyrophosphate Ca N H4 H
+ P2 O7
+;
+_journal_name_full               'Acta Crystallographica B (24,1968-38,1982)'
+_journal_page_first              3025
+_journal_page_last               3028
+_journal_volume                  33
+_journal_year                    1977
+_chemical_formula_sum            'Ca H5 N O7 P2'
+_chemical_name_systematic        'Ca N H4 H P2 O7'
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90.47
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   10.523
+_cell_length_b                   17.672
+_cell_length_c                   7.266
+_cell_volume                     1351.158
+_citation_journal_id_ASTM        ACBCAR
+_cod_data_source_file            Mathew_ACBCAR_1977_662.cif
+_cod_data_source_block           H5Ca1N1O7P2
+_cod_original_sg_symbol_Hall     '-P 2ybc (x-z,y,z)'
+_cod_original_formula_sum        'H5 Ca1 N1 O7 P2'
+_cod_database_code               2106389
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x+1/2,y+1/2,-z+1/2
+-x,-y,-z
+x-1/2,-y-1/2,z-1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+O4 O-2 0.0736 0.3529 0.5474 1 0.0
+O13 O-2 0.3605 0.4693 0.6517 1 0.0
+P3 P+5 0.6986 0.4197 0.716 1 0.0
+O7 O-2 -0.064 0.3114 0.2758 1 0.0
+O3 O-2 -0.0682 0.2517 0.6818 1 0.0
+P2 P+5 0.0675 0.3376 0.3272 1 0.0
+Ca1 Ca+2 0.3442 0.2205 0.4811 1 0.0
+Ca2 Ca+2 0.2644 0.2517 0.9819 1 0.0
+O6 O-2 0.0853 0.4206 0.2525 1 0.0
+O9 O-2 0.7126 0.5046 0.6665 1 0.0
+O11 O-2 0.5557 0.414 0.79 1 0.0
+P1 P+5 0.0604 0.2889 0.7037 1 0.0
+P4 P+5 0.4168 0.3916 0.7134 1 0.0
+O14 O-2 0.4243 0.3386 0.5532 1 0.0
+O10 O-2 0.712 0.3701 0.5522 1 0.0
+O8 O-2 0.7798 0.4015 0.8814 1 0.0
+N2 N-3 0.1329 0.4869 0.8608 1 0.0
+O2 O-2 0.0678 0.3276 0.8883 1 0.0
+N1 N-3 0.5139 0.4005 0.2095 1 0.0
+O5 O-2 0.1779 0.2878 0.2795 1 0.0
+O1 O-2 0.1712 0.234 0.6798 1 0.0
+O12 O-2 0.3489 0.3652 0.8815 1 0.0

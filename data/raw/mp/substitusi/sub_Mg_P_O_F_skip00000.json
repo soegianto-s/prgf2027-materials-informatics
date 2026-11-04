@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "band_gap": 5.439,
+      "formation_energy_per_atom": -3.213192297611607,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 128,
+      "elements": [
+        "F",
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 4,
+      "formula_pretty": "Mg2PO4F",
+      "chemsys": "F-Mg-O-P",
+      "volume": 1430.4697398051885,
+      "density": 3.019652014082664,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaajal"
+    }
+  ],
+  "meta": {
+    "api_version": "0.88.1",
+    "time_stamp": "2026-11-04T04:45:08.243332+00:00",
+    "total_doc": 1,
+    "facet": null,
+    "max_limit": 1000,
+    "default_fields": [
+      "material_id"
+    ]
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "data": [
+    {
+      "band_gap": 5.46445680068479,
+      "formation_energy_per_atom": -2.993214043253968,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 72,
+      "elements": [
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Sr(PO3)2",
+      "chemsys": "O-P-Sr",
+      "volume": 995.1346815435775,
+      "density": 3.2780969031190987,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaafov"
+    },
+    {
+      "band_gap": 5.6094,
+      "formation_energy_per_atom": -2.9853335672817454,
+      "energy_above_hull": 0.007880475972222634,
+      "is_stable": false,
+      "nsites": 72,
+      "elements": [
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Sr(PO3)2",
+      "chemsys": "O-P-Sr",
+      "volume": 1061.9205950144365,
+      "density": 3.0719320569444877,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1",
+        "hall": "P 2yb",
+        "number": 4,
+        "point_group": "2",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabfpnc"
+    },
+    {
+      "band_gap": 5.4197999999999995,
+      "formation_energy_per_atom": -2.9841218956150772,
+      "energy_above_hull": 0.009092147638891213,
+      "is_stable": false,
+      "nsites": 36,
+      "elements": [
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Sr(PO3)2",
+      "chemsys": "O-P-Sr",
+      "volume": 510.2243397306111,
+      "density": 3.1967780285401166,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabfrqm"
+    },
+    {
+      "band_gap": 3.6559,
+      "formation_energy_per_atom": -2.7055853971428565,
+      "energy_above_hull": 0.28762864611111194,
+      "is_stable": false,
+      "nsites": 18,
+      "elements": [
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Sr(PO3)2",
+      "chemsys": "O-P-Sr",
+      "volume": 309.9391153176726,
+      "density": 2.6312812392289278,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaackykl"
+    },
+    {
+      "band_gap": 3.2805999999999997,
+      "formation_energy_per_atom": -3.3173687600696873,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 41,
+      "elements": [
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Sr10P6O25",
+      "chemsys": "O-P-Sr",
+      "volume": 594.5196228758557,
+      "density": 4.083555545905333,
+      "symmetry": {
+        "crystal_system": "Trigonal",
+        "symbol": "P3",
+        "hall": "P 3",
+        "number": 143,
+        "point_group": "3",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacrjco"
+    },
+    {
+      "band_gap": 5.1125,
+      "formation_energy_per_atom": -3.2361366556168822,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 44,
+      "elements": [
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Sr2P2O7",
+      "chemsys": "O-P-Sr",
+      "volume": 634.0860360582282,
+      "density": 3.657753167515611,
+      "symmetry": {
+        "crystal_system": "Orthorhombic",
+        "symbol": "Pnma",
+        "hall": "-P 2ac 2n",
+        "number": 62,
+        "point_group": "mmm",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaaiia"
+    },
+    {
+      "band_gap": 5.326,
+      "formation_energy_per_atom": -2.8504518415142717,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 50,
+      "elements": [
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Sr2P6O17",
+      "chemsys": "O-P-Sr",
+      "volume": 659.1754704495883,
+      "density": 3.189564704047195,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1",
+        "hall": "P 2yb",
+        "number": 4,
+        "point_group": "2",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaboux"
+    },
+    {
+      "band_gap": 5.4024,
+      "formation_energy_per_atom": -3.319221122252747,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 13,
+      "elements": [
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Sr3(PO4)2",
+      "chemsys": "O-P-Sr",
+      "volume": 166.14299071954298,
+      "density": 4.525599367502873,
+      "symmetry": {
+        "crystal_system": "Trigonal",
+        "symbol": "R-3m",
+        "hall": "-R 3 2\"",
+        "number": 166,
+        "point_group": "-3m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaagwe"
+    },
+    {
+      "band_gap": 5.2118,
+      "formation_energy_per_atom": -3.1215728484285714,
+      "energy_above_hull": 0.005248631624986011,
+      "is_stable": false,
+      "nsites": 40,
+      "elements": [
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Sr3P4O13",
+      "chemsys": "O-P-Sr",
+      "volume": 539.4834333688389,
+      "density": 3.6612840371001347,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaabubf"
+    },
+    {
+      "band_gap": 1.2132,
+      "formation_energy_per_atom": -1.6337939291836727,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 7,
+      "elements": [
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Sr4P2O",
+      "chemsys": "O-P-Sr",
+      "volume": 185.36289596519038,
+      "density": 3.8379830104338577,
+      "symmetry": {
+        "crystal_system": "Tetragonal",
+        "symbol": "I4/mmm",
+        "hall": "-I 4 2",
+        "number": 139,
+        "point_group": "4/mmm",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaamhe"
+    },
+    {
+      "band_gap": 1.3763,
+      "formation_energy_per_atom": -3.245583698044218,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 42,
+      "elements": [
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Sr5P3O13",
+      "chemsys": "O-P-Sr",
+      "volume": 604.7809293314407,
+      "density": 4.058199279922191,
+      "symmetry": {
+        "crystal_system": "Hexagonal",
+        "symbol": "P6_3/m",
+        "hall": "-P 6c",
+        "number": 176,
+        "point_group": "6/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqtxa"
+    },
+    {
+      "band_gap": 0.12470376897554392,
+      "formation_energy_per_atom": -2.8399962674512977,
+      "energy_above_hull": 0.25806089886363637,
+      "is_stable": false,
+      "nsites": 44,
+      "elements": [
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Sr5P3O14",
+      "chemsys": "O-P-Sr",
+      "volume": 621.8049813657651,
+      "density": 4.032545355256842,
+      "symmetry": {
+        "crystal_system": "Hexagonal",
+        "symbol": "P6_3/m",
+        "hall": "-P 6c",
+        "number": 176,
+        "point_group": "6/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqubk"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -2.8610603953571427,
+      "energy_above_hull": 0.10539820562499447,
+      "is_stable": false,
+      "nsites": 24,
+      "elements": [
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 3,
+      "formula_pretty": "SrPO4",
+      "chemsys": "O-P-Sr",
+      "volume": 356.70803940880353,
+      "density": 3.3999804518095944,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabprbw"
+    }
+  ],
+  "meta": {
+    "api_version": "0.88.1",
+    "time_stamp": "2026-11-04T04:45:02.885020+00:00",
+    "total_doc": 13,
+    "facet": null,
+    "max_limit": 1000,
+    "default_fields": [
+      "material_id"
+    ]
+  }
+}

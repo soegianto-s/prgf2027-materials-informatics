@@ -1,0 +1,127 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-10-13 10:32:12 +0300 (Fri, 13 Oct 2023) $
+#$Revision: 286959 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/57/01/1570107.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1570107
+loop_
+_publ_author_name
+'Nishio-Hamane, D.'
+'Yajima, T.'
+'Ikari, I.'
+'Ohki, Y.'
+'Hori, H.'
+'Ohara, Y.'
+_publ_section_title
+;
+ Kiryuite and gunmaite, two new minerals from Tsukubara, Kiryu City, Gunma
+ Prefecture, Japan
+;
+_journal_name_full
+'Journal of Mineralogical and Petrological Sciences'
+_journal_page_first              1
+_journal_page_last               12
+_journal_paper_doi               10.2465/jmps.230605
+_journal_volume                  118:019
+_journal_year                    2023
+_chemical_formula_sum
+'Al9.82 Ba0.68 Ca0.01 F16.21 H9.79 Mg0.74 Na1.72 O25.79 P3.99 Sr2.02'
+_chemical_name_common
+(Na1.72Sr0.70Mg0.56Ca0.01)(Sr1.32Ba0.68)(Al9.82Mg0.18)P3.99O16F16.21(OH)9.79
+_chemical_name_mineral           gunmaite
+_space_group_IT_number           166
+_space_group_name_Hall           '-R 3 2"'
+_space_group_name_H-M_alt        'R -3 m :H'
+_cell_angle_alpha                90.000000
+_cell_angle_beta                 90.000000
+_cell_angle_gamma                120.000000
+_cell_formula_units_Z            3
+_cell_length_a                   6.9972(2)
+_cell_length_b                   6.9972(2)
+_cell_length_c                   50.270(2)
+_cell_volume                     2131.51(12)
+_diffrn_ambient_pressure         100
+_diffrn_ambient_temperature      298
+_cod_data_source_file            gunmaite.cif
+_cod_data_source_block           gunmaite
+_cod_original_cell_volume        2131.51
+_cod_original_sg_symbol_H-M      'R -3 m'
+_cod_original_formula_sum
+'Na1.72 Sr2.02 Mg0.74 Ca0.01 Ba0.68 Al9.82 P3.99 O25.79 F16.21 H9.79'
+_cod_database_code               1570107
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,-y,-z
+3 -y,x-y,z
+4 y,-x+y,-z
+5 -x+y,-x,z
+6 x-y,x,-z
+7 y,x,-z
+8 -y,-x,z
+9 x-y,-y,-z
+10 -x+y,y,z
+11 -x,-x+y,-z
+12 x,x-y,z
+13 x+2/3,y+1/3,z+1/3
+14 -x+2/3,-y+1/3,-z+1/3
+15 -y+2/3,x-y+1/3,z+1/3
+16 y+2/3,-x+y+1/3,-z+1/3
+17 -x+y+2/3,-x+1/3,z+1/3
+18 x-y+2/3,x+1/3,-z+1/3
+19 y+2/3,x+1/3,-z+1/3
+20 -y+2/3,-x+1/3,z+1/3
+21 x-y+2/3,-y+1/3,-z+1/3
+22 -x+y+2/3,y+1/3,z+1/3
+23 -x+2/3,-x+y+1/3,-z+1/3
+24 x+2/3,x-y+1/3,z+1/3
+25 x+1/3,y+2/3,z+2/3
+26 -x+1/3,-y+2/3,-z+2/3
+27 -y+1/3,x-y+2/3,z+2/3
+28 y+1/3,-x+y+2/3,-z+2/3
+29 -x+y+1/3,-x+2/3,z+2/3
+30 x-y+1/3,x+2/3,-z+2/3
+31 y+1/3,x+2/3,-z+2/3
+32 -y+1/3,-x+2/3,z+2/3
+33 x-y+1/3,-y+2/3,-z+2/3
+34 -x+y+1/3,y+2/3,z+2/3
+35 -x+1/3,-x+y+2/3,-z+2/3
+36 x+1/3,x-y+2/3,z+2/3
+loop_
+_atom_site_label
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+Na1Na 0.55 0.500000 0.000000 0.000000 Uiso 0.0468(14) Na
+Na1Sr 0.23 0.500000 0.000000 0.000000 Uiso 0.0468(14) Sr
+Na1Mg 0.19 0.500000 0.000000 0.000000 Uiso 0.0468(14) Mg
+Sr1Sr 0.66 0.666667 0.333333 0.22197(3) Uiso 0.0166(6) Sr
+Sr1Ba 0.34 0.666667 0.333333 0.22197(3) Uiso 0.0166(6) Ba
+Al1 1.0 0.333333 0.166667 0.166667 Uiso 0.0105(10) Al
+Al2 1.0 0.666667 0.333333 0.333333 Uiso 0.0162(18) Al
+Al3 1.0 0.4986(3) 0.5014(3) 0.27617(6) Uiso 0.0140(8) Al
+P1 1.0 0.000000 0.000000 0.21147(10) Uiso 0.0120(10) P
+P2 1.0 0.333333 0.666667 0.22925(11) Uiso 0.0182(12) P
+O1 1.0 0.333333 0.666667 0.1997(2) Uiso 0.0083(7) O
+O2 1.0 0.2425(11) 0.1213(6) 0.20168(14) Uiso 0.0083(7) O
+O3 1.0 0.4525(6) 0.5475(6) 0.24048(14) Uiso 0.0083(7) O
+O4 1.0 0.000000 0.000000 0.2430(2) Uiso 0.0083(7) O
+O5 1.0 0.5430(7) 0.0860(13) 0.17695(15) Uiso 0.0083(7) O
+O6 1.0 0.3910(12) 0.1955(6) 0.26750(14) Uiso 0.0083(7) O
+F1 1.0 0.5362(5) 0.4638(5) 0.31174(11) Uiso 0.0083(7) F
+F2 1.0 0.5708(9) 0.7854(5) 0.28398(12) Uiso 0.0083(7) F
+F3 1.0 0.666667 0.333333 0.01752(19) Uiso 0.0083(7) F
+H1o5 1.0 0.496486 -0.007028 0.188795 Uiso 0.99 H
+H1o6 1.0 0.278524 0.139262 0.258439 Uiso 0.99 H

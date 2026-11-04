@@ -1,0 +1,770 @@
+{
+  "data": [
+    {
+      "band_gap": 2.5759,
+      "formation_energy_per_atom": -1.854076859183673,
+      "energy_above_hull": 0.3261642383928578,
+      "is_stable": false,
+      "nsites": 14,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn(PO2)2",
+      "chemsys": "O-P-Zn",
+      "volume": 282.534598521983,
+      "density": 2.2492891176033374,
+      "symmetry": {
+        "crystal_system": "Orthorhombic",
+        "symbol": "Pmma",
+        "hall": "-P 2a 2a",
+        "number": 51,
+        "point_group": "mmm",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabpict"
+    },
+    {
+      "band_gap": 4.6690000000000005,
+      "formation_energy_per_atom": -2.502442132420636,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 18,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn(PO3)2",
+      "chemsys": "O-P-Zn",
+      "volume": 203.43666854127073,
+      "density": 3.6462085141182756,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "C2/c",
+        "hall": "-C 2yc",
+        "number": 15,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaameo"
+    },
+    {
+      "band_gap": 4.7158999999999995,
+      "formation_energy_per_atom": -2.488085540476191,
+      "energy_above_hull": 0.01435659194444483,
+      "is_stable": false,
+      "nsites": 36,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn(PO3)2",
+      "chemsys": "O-P-Zn",
+      "volume": 475.33424559792905,
+      "density": 3.1210564767365065,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "Cc",
+        "hall": "C -2yc",
+        "number": 9,
+        "point_group": "m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabfuvi"
+    },
+    {
+      "band_gap": 0.9577823840226982,
+      "formation_energy_per_atom": -1.2328418737912088,
+      "energy_above_hull": 0.49961806403844555,
+      "is_stable": false,
+      "nsites": 26,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn(PO5)2",
+      "chemsys": "O-P-Zn",
+      "volume": 383.938646738437,
+      "density": 2.4855886513644094,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqsis"
+    },
+    {
+      "band_gap": 3.6266000000000003,
+      "formation_energy_per_atom": -2.4099464899350638,
+      "energy_above_hull": 0.02285923238638965,
+      "is_stable": false,
+      "nsites": 66,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn2P2O7",
+      "chemsys": "O-P-Zn",
+      "volume": 722.8773353745282,
+      "density": 4.200447797430987,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "C2/c",
+        "hall": "-C 2yc",
+        "number": 15,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabewgx"
+    },
+    {
+      "band_gap": 3.6466000000000003,
+      "formation_energy_per_atom": -2.3992087076623365,
+      "energy_above_hull": 0.03359701465911691,
+      "is_stable": false,
+      "nsites": 11,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn2P2O7",
+      "chemsys": "O-P-Zn",
+      "volume": 123.00536435055037,
+      "density": 4.1141952456281,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "C2/m",
+        "hall": "-C 2y",
+        "number": 12,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabfkev"
+    },
+    {
+      "band_gap": 3.6862,
+      "formation_energy_per_atom": -2.4328057223214405,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 88,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn2P2O7",
+      "chemsys": "O-P-Zn",
+      "volume": 1082.2499480125834,
+      "density": 3.7408592063385515,
+      "symmetry": {
+        "crystal_system": "Orthorhombic",
+        "symbol": "Pbcm",
+        "hall": "-P 2c 2b",
+        "number": 57,
+        "point_group": "mmm",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabfvkh"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -1.3177035528061218,
+      "energy_above_hull": 0.3919350502678691,
+      "is_stable": false,
+      "nsites": 42,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn2P3O16",
+      "chemsys": "O-P-Zn",
+      "volume": 855.1661663951203,
+      "density": 1.8630528601985377,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacpbtt"
+    },
+    {
+      "band_gap": 0.006199999999999983,
+      "formation_energy_per_atom": -2.022087633080358,
+      "energy_above_hull": 0.12994554593749896,
+      "is_stable": false,
+      "nsites": 16,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn2PO5",
+      "chemsys": "O-P-Zn",
+      "volume": 201.07877548688765,
+      "density": 3.9934566416034416,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacprsr"
+    },
+    {
+      "band_gap": 3.5387000000000004,
+      "formation_energy_per_atom": -2.368701328791208,
+      "energy_above_hull": 0.004431951153846647,
+      "is_stable": false,
+      "nsites": 26,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn3(PO4)2",
+      "chemsys": "O-P-Zn",
+      "volume": 318.640868953535,
+      "density": 4.024906886815966,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaabtwn"
+    },
+    {
+      "band_gap": 3.3332,
+      "formation_energy_per_atom": -2.3470101487912087,
+      "energy_above_hull": 0.026123131153846124,
+      "is_stable": false,
+      "nsites": 52,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn3(PO4)2",
+      "chemsys": "O-P-Zn",
+      "volume": 636.6920732079457,
+      "density": 4.0286345058775,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabfnmc"
+    },
+    {
+      "band_gap": 3.4214,
+      "formation_energy_per_atom": -2.3731332799450544,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 26,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn3(PO4)2",
+      "chemsys": "O-P-Zn",
+      "volume": 334.0353150523495,
+      "density": 3.839413888531861,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "C2/c",
+        "hall": "-C 2yc",
+        "number": 15,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabftim"
+    },
+    {
+      "band_gap": 2.9952000000000005,
+      "formation_energy_per_atom": -2.3335193772527463,
+      "energy_above_hull": 0.03961390269230858,
+      "is_stable": false,
+      "nsites": 26,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn3(PO4)2",
+      "chemsys": "O-P-Zn",
+      "volume": 302.26276373061995,
+      "density": 4.242996431459501,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacdinn"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -1.3421888152521007,
+      "energy_above_hull": 0.4725601635294119,
+      "is_stable": false,
+      "nsites": 68,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn3(PO6)2",
+      "chemsys": "O-P-Zn",
+      "volume": 876.6995600087372,
+      "density": 3.410611630947861,
+      "symmetry": {
+        "crystal_system": "Orthorhombic",
+        "symbol": "Pnma",
+        "hall": "-P 2ac 2n",
+        "number": 62,
+        "point_group": "mmm",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabxjzp"
+    },
+    {
+      "band_gap": 0.10899999999999999,
+      "formation_energy_per_atom": -1.2208261987815126,
+      "energy_above_hull": 0.5939227799999998,
+      "is_stable": false,
+      "nsites": 68,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn3(PO6)2",
+      "chemsys": "O-P-Zn",
+      "volume": 953.870869518282,
+      "density": 3.134681864981057,
+      "symmetry": {
+        "crystal_system": "Orthorhombic",
+        "symbol": "Pnma",
+        "hall": "-P 2ac 2n",
+        "number": 62,
+        "point_group": "mmm",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacpbqm"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -1.2552450390756302,
+      "energy_above_hull": 0.5595039397058823,
+      "is_stable": false,
+      "nsites": 68,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn3(PO6)2",
+      "chemsys": "O-P-Zn",
+      "volume": 1114.1801897179694,
+      "density": 2.683660815195023,
+      "symmetry": {
+        "crystal_system": "Orthorhombic",
+        "symbol": "Pnma",
+        "hall": "-P 2ac 2n",
+        "number": 62,
+        "point_group": "mmm",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacpcdi"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -1.3781502358403364,
+      "energy_above_hull": 0.4365987429411762,
+      "is_stable": false,
+      "nsites": 17,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn3(PO6)2",
+      "chemsys": "O-P-Zn",
+      "volume": 238.13750676693894,
+      "density": 3.1390285352435185,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacpquf"
+    },
+    {
+      "band_gap": 0.5874999999999999,
+      "formation_energy_per_atom": -1.4898450999579835,
+      "energy_above_hull": 0.32490387882352856,
+      "is_stable": false,
+      "nsites": 17,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn3(PO6)2",
+      "chemsys": "O-P-Zn",
+      "volume": 233.00404452052263,
+      "density": 3.208186495609639,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacpref"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -1.3860245548109247,
+      "energy_above_hull": 0.4287244239705874,
+      "is_stable": false,
+      "nsites": 68,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn3(PO6)2",
+      "chemsys": "O-P-Zn",
+      "volume": 1004.5937818652384,
+      "density": 2.9764087437023146,
+      "symmetry": {
+        "crystal_system": "Orthorhombic",
+        "symbol": "Pnma",
+        "hall": "-P 2ac 2n",
+        "number": 62,
+        "point_group": "mmm",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqfyl"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -1.2254533448109242,
+      "energy_above_hull": 0.5892956339705879,
+      "is_stable": false,
+      "nsites": 68,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn3(PO6)2",
+      "chemsys": "O-P-Zn",
+      "volume": 1023.6197170671271,
+      "density": 2.92108648002585,
+      "symmetry": {
+        "crystal_system": "Orthorhombic",
+        "symbol": "Pnma",
+        "hall": "-P 2ac 2n",
+        "number": 62,
+        "point_group": "mmm",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqhhj"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -1.3771158539285713,
+      "energy_above_hull": 0.43763312485294126,
+      "is_stable": false,
+      "nsites": 68,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn3(PO6)2",
+      "chemsys": "O-P-Zn",
+      "volume": 922.3013391973363,
+      "density": 3.2419791548984302,
+      "symmetry": {
+        "crystal_system": "Orthorhombic",
+        "symbol": "Pnma",
+        "hall": "-P 2ac 2n",
+        "number": 62,
+        "point_group": "mmm",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqjjs"
+    },
+    {
+      "band_gap": 0.1451,
+      "formation_energy_per_atom": -1.3949520628991599,
+      "energy_above_hull": 0.419796915882352,
+      "is_stable": false,
+      "nsites": 17,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn3(PO6)2",
+      "chemsys": "O-P-Zn",
+      "volume": 225.8827915773815,
+      "density": 3.30932880647124,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacslgb"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -1.2324852081203008,
+      "energy_above_hull": 0.579753258421051,
+      "is_stable": false,
+      "nsites": 38,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn4P2O13",
+      "chemsys": "O-P-Zn",
+      "volume": 541.2834662459269,
+      "density": 3.2615156857216383,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2/c",
+        "hall": "-P 2yc",
+        "number": 13,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacpbro"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -2.0709971934464284,
+      "energy_above_hull": 0.14056101215625905,
+      "is_stable": false,
+      "nsites": 40,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Zn4P3O13",
+      "chemsys": "O-P-Zn",
+      "volume": 607.3864517231531,
+      "density": 3.0759178017676416,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P1",
+        "hall": "P 1",
+        "number": 1,
+        "point_group": "1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacrfgj"
+    },
+    {
+      "band_gap": 0.11180328807469464,
+      "formation_energy_per_atom": -1.3832902358482144,
+      "energy_above_hull": 0.9781889438281253,
+      "is_stable": false,
+      "nsites": 32,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "ZnP2O5",
+      "chemsys": "O-P-Zn",
+      "volume": 596.0934808870509,
+      "density": 2.310500877599653,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacqeoi"
+    },
+    {
+      "band_gap": 4.755800000000001,
+      "formation_energy_per_atom": -2.4791718994419645,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 64,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "ZnP4O11",
+      "chemsys": "O-P-Zn",
+      "volume": 823.3097190915663,
+      "density": 2.947083801464555,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaawvu"
+    },
+    {
+      "band_gap": 4.627,
+      "formation_energy_per_atom": -2.4727650756919646,
+      "energy_above_hull": 0.0064068237499999015,
+      "is_stable": false,
+      "nsites": 64,
+      "elements": [
+        "O",
+        "P",
+        "Zn"
+      ],
+      "nelements": 3,
+      "formula_pretty": "ZnP4O11",
+      "chemsys": "O-P-Zn",
+      "volume": 783.8888670825116,
+      "density": 3.0952891903587787,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabscgq"
+    }
+  ],
+  "meta": {
+    "api_version": "0.88.1",
+    "time_stamp": "2026-11-04T04:45:09.317032+00:00",
+    "total_doc": 27,
+    "facet": null,
+    "max_limit": 1000,
+    "default_fields": [
+      "material_id"
+    ]
+  }
+}

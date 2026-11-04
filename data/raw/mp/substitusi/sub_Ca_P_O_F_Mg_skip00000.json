@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "band_gap": 0.8282,
+      "formation_energy_per_atom": -3.2499404505803575,
+      "energy_above_hull": 0.03348569310937588,
+      "is_stable": false,
+      "nsites": 32,
+      "elements": [
+        "Ca",
+        "F",
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 5,
+      "formula_pretty": "Ca4Mg4P4O17F3",
+      "chemsys": "Ca-F-Mg-O-P",
+      "volume": 382.31570827766114,
+      "density": 3.085583331093209,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "C2",
+        "hall": "C 2y",
+        "number": 5,
+        "point_group": "2",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacrwah"
+    },
+    {
+      "band_gap": 0.8222,
+      "formation_energy_per_atom": -3.2717136252053565,
+      "energy_above_hull": 0.02851013075000619,
+      "is_stable": false,
+      "nsites": 160,
+      "elements": [
+        "Ca",
+        "F",
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 5,
+      "formula_pretty": "Ca5Mg5P5O21F4",
+      "chemsys": "Ca-F-Mg-O-P",
+      "volume": 1898.5898430406728,
+      "density": 3.109315509615405,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "C2",
+        "hall": "C 2y",
+        "number": 5,
+        "point_group": "2",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabnbli"
+    },
+    {
+      "band_gap": 5.560700000000001,
+      "formation_energy_per_atom": -3.3655327080803574,
+      "energy_above_hull": 0.0018814969375018364,
+      "is_stable": false,
+      "nsites": 16,
+      "elements": [
+        "Ca",
+        "F",
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 5,
+      "formula_pretty": "CaMgPO4F",
+      "chemsys": "Ca-F-Mg-O-P",
+      "volume": 189.55687825141055,
+      "density": 3.1247796165087087,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "C2/c",
+        "hall": "-C 2yc",
+        "number": 15,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacrbvc"
+    }
+  ],
+  "meta": {
+    "api_version": "0.88.1",
+    "time_stamp": "2026-11-04T04:44:57.522195+00:00",
+    "total_doc": 3,
+    "facet": null,
+    "max_limit": 1000,
+    "default_fields": [
+      "material_id"
+    ]
+  }
+}

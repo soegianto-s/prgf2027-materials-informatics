@@ -1,0 +1,188 @@
+{
+  "data": [
+    {
+      "band_gap": 6.4799,
+      "formation_energy_per_atom": -2.0975121634065936,
+      "energy_above_hull": 0.005043413791215201,
+      "is_stable": false,
+      "nsites": 26,
+      "elements": [
+        "H",
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 4,
+      "formula_pretty": "SrP2(H2O3)2",
+      "chemsys": "H-O-P-Sr",
+      "volume": 318.30205876511235,
+      "density": 2.6042142883006565,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabrock"
+    },
+    {
+      "band_gap": 5.3453,
+      "formation_energy_per_atom": -2.1189420881547627,
+      "energy_above_hull": 0.025004758194447696,
+      "is_stable": false,
+      "nsites": 36,
+      "elements": [
+        "H",
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 4,
+      "formula_pretty": "SrP2(H2O3)3",
+      "chemsys": "H-O-P-Sr",
+      "volume": 388.8979018066324,
+      "density": 2.5585826832219545,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabpctx"
+    },
+    {
+      "band_gap": 5.421799999999999,
+      "formation_energy_per_atom": -1.7533263162987007,
+      "energy_above_hull": 0.039287874237019516,
+      "is_stable": false,
+      "nsites": 22,
+      "elements": [
+        "H",
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 4,
+      "formula_pretty": "SrP2(HO)4",
+      "chemsys": "H-O-P-Sr",
+      "volume": 289.2697462118302,
+      "density": 2.4982088994032243,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "C2/c",
+        "hall": "-C 2yc",
+        "number": 15,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaabjyn"
+    },
+    {
+      "band_gap": 0.0,
+      "formation_energy_per_atom": -2.267423657445055,
+      "energy_above_hull": 0.10696059685897819,
+      "is_stable": false,
+      "nsites": 26,
+      "elements": [
+        "H",
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 4,
+      "formula_pretty": "SrP2(HO4)2",
+      "chemsys": "H-O-P-Sr",
+      "volume": 347.33369335482394,
+      "density": 2.673228676964837,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacpwff"
+    },
+    {
+      "band_gap": 5.772200000000001,
+      "formation_energy_per_atom": -2.178045197321428,
+      "energy_above_hull": 0.012927702222230053,
+      "is_stable": false,
+      "nsites": 36,
+      "elements": [
+        "H",
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 4,
+      "formula_pretty": "SrPH3O4",
+      "chemsys": "H-O-P-Sr",
+      "volume": 430.1191218779708,
+      "density": 2.8663804589756587,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaabjtr"
+    },
+    {
+      "band_gap": 5.2019,
+      "formation_energy_per_atom": -2.8163297435204084,
+      "energy_above_hull": 0.0006354130357157928,
+      "is_stable": false,
+      "nsites": 112,
+      "elements": [
+        "H",
+        "O",
+        "P",
+        "Sr"
+      ],
+      "nelements": 4,
+      "formula_pretty": "SrPHO4",
+      "chemsys": "H-O-P-Sr",
+      "volume": 1411.9204870860942,
+      "density": 3.454855332559266,
+      "symmetry": {
+        "crystal_system": "Orthorhombic",
+        "symbol": "Pbca",
+        "hall": "-P 2ac 2ab",
+        "number": 61,
+        "point_group": "mmm",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabpvic"
+    }
+  ],
+  "meta": {
+    "api_version": "0.88.1",
+    "time_stamp": "2026-11-04T04:45:03.944375+00:00",
+    "total_doc": 6,
+    "facet": null,
+    "max_limit": 1000,
+    "default_fields": [
+      "material_id"
+    ]
+  }
+}

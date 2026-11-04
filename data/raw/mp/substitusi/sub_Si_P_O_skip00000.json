@@ -1,0 +1,182 @@
+{
+  "data": [
+    {
+      "band_gap": 5.6022,
+      "formation_energy_per_atom": -2.871782707579366,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 36,
+      "elements": [
+        "O",
+        "P",
+        "Si"
+      ],
+      "nelements": 3,
+      "formula_pretty": "Si5P6O25",
+      "chemsys": "O-P-Si",
+      "volume": 430.8632268123046,
+      "density": 2.798973887791686,
+      "symmetry": {
+        "crystal_system": "Trigonal",
+        "symbol": "R-3",
+        "hall": "-R 3",
+        "number": 148,
+        "point_group": "-3",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaaevx"
+    },
+    {
+      "band_gap": 5.8048,
+      "formation_energy_per_atom": -2.780858875428571,
+      "energy_above_hull": 0.0009684245000007863,
+      "is_stable": false,
+      "nsites": 40,
+      "elements": [
+        "O",
+        "P",
+        "Si"
+      ],
+      "nelements": 3,
+      "formula_pretty": "SiP2O7",
+      "chemsys": "O-P-Si",
+      "volume": 442.2600349774216,
+      "density": 3.034203669948059,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaaahbl"
+    },
+    {
+      "band_gap": 5.788,
+      "formation_energy_per_atom": -2.781827299928571,
+      "energy_above_hull": 0.0,
+      "is_stable": true,
+      "nsites": 40,
+      "elements": [
+        "O",
+        "P",
+        "Si"
+      ],
+      "nelements": 3,
+      "formula_pretty": "SiP2O7",
+      "chemsys": "O-P-Si",
+      "volume": 433.7080558149669,
+      "density": 3.0940329634373875,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaabawj"
+    },
+    {
+      "band_gap": 5.4559999999999995,
+      "formation_energy_per_atom": -2.7500452544285707,
+      "energy_above_hull": 0.031782045500000855,
+      "is_stable": false,
+      "nsites": 40,
+      "elements": [
+        "O",
+        "P",
+        "Si"
+      ],
+      "nelements": 3,
+      "formula_pretty": "SiP2O7",
+      "chemsys": "O-P-Si",
+      "volume": 462.54757053556557,
+      "density": 2.901122190839979,
+      "symmetry": {
+        "crystal_system": "Cubic",
+        "symbol": "Pa-3",
+        "hall": "-P 2ac 2ab 3",
+        "number": 205,
+        "point_group": "m-3",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaabbbp"
+    },
+    {
+      "band_gap": 5.7504,
+      "formation_energy_per_atom": -2.7767051129285703,
+      "energy_above_hull": 0.0051221870000013325,
+      "is_stable": false,
+      "nsites": 20,
+      "elements": [
+        "O",
+        "P",
+        "Si"
+      ],
+      "nelements": 3,
+      "formula_pretty": "SiP2O7",
+      "chemsys": "O-P-Si",
+      "volume": 230.8104479091215,
+      "density": 2.9069460099315076,
+      "symmetry": {
+        "crystal_system": "Hexagonal",
+        "symbol": "P6_3/m",
+        "hall": "-P 6c",
+        "number": 176,
+        "point_group": "6/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaabfoqw"
+    },
+    {
+      "band_gap": 4.940999999999999,
+      "formation_energy_per_atom": -2.6946744254285706,
+      "energy_above_hull": 0.08715287450000098,
+      "is_stable": false,
+      "nsites": 20,
+      "elements": [
+        "O",
+        "P",
+        "Si"
+      ],
+      "nelements": 3,
+      "formula_pretty": "SiP2O7",
+      "chemsys": "O-P-Si",
+      "volume": 194.13649768437745,
+      "density": 3.456091557244147,
+      "symmetry": {
+        "crystal_system": "Monoclinic",
+        "symbol": "P2_1/c",
+        "hall": "-P 2ybc",
+        "number": 14,
+        "point_group": "2/m",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaacgbue"
+    }
+  ],
+  "meta": {
+    "api_version": "0.88.1",
+    "time_stamp": "2026-11-04T04:45:11.477325+00:00",
+    "total_doc": 6,
+    "facet": null,
+    "max_limit": 1000,
+    "default_fields": [
+      "material_id"
+    ]
+  }
+}

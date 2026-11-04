@@ -1,0 +1,171 @@
+{
+  "n_mentah": 134,
+  "n_filter": 20,
+  "n_top15": 15,
+  "n_partial": 6,
+  "n_endpoint": 14,
+  "sistem": [
+    "Ca-P-O-Sr",
+    "Ca-P-O-Mg",
+    "Ca-P-O-Zn",
+    "Ca-P-O-Si",
+    "Ca-P-O-H-Sr",
+    "Ca-P-O-F-Sr",
+    "Ca-P-O-H-Mg",
+    "Ca-P-O-F-Mg",
+    "Ca-P-O-H-Zn",
+    "Ca-P-O-F-Zn",
+    "Ca-P-O-H-Si",
+    "Ca-P-O-F-Si",
+    "Sr-P-O",
+    "Sr-P-O-H",
+    "Sr-P-O-F",
+    "Mg-P-O",
+    "Mg-P-O-H",
+    "Mg-P-O-F",
+    "Zn-P-O",
+    "Zn-P-O-H",
+    "Si-P-O"
+  ],
+  "teratas": [
+    {
+      "formula": "Ca5Si(PO6)2",
+      "tier": "partial",
+      "X": "Si",
+      "frac_X": 0.05,
+      "rasio": 1.667,
+      "E_hull": 0.0,
+      "densitas": 2.972
+    },
+    {
+      "formula": "Ca19Mg2(PO4)14",
+      "tier": "partial",
+      "X": "Mg",
+      "frac_X": 0.022,
+      "rasio": 1.5,
+      "E_hull": 0.0,
+      "densitas": 3.114
+    },
+    {
+      "formula": "Mg3(PO4)2",
+      "tier": "endpoint",
+      "X": "Mg",
+      "frac_X": 0.2308,
+      "rasio": 1.5,
+      "E_hull": 0.0,
+      "densitas": 2.771
+    },
+    {
+      "formula": "Ca2MgP2(H2O5)2",
+      "tier": "partial",
+      "X": "Mg",
+      "frac_X": 0.0526,
+      "rasio": 1.5,
+      "E_hull": 0.0015,
+      "densitas": 2.861
+    },
+    {
+      "formula": "Mg3(PO4)2",
+      "tier": "endpoint",
+      "X": "Mg",
+      "frac_X": 0.2308,
+      "rasio": 1.5,
+      "E_hull": 0.0025,
+      "densitas": 3.077
+    },
+    {
+      "formula": "Ca3Mg3(PO4)4",
+      "tier": "partial",
+      "X": "Mg",
+      "frac_X": 0.1154,
+      "rasio": 1.5,
+      "E_hull": 0.0073,
+      "densitas": 2.854
+    },
+    {
+      "formula": "Ca2ZnP2(H2O5)2",
+      "tier": "partial",
+      "X": "Zn",
+      "frac_X": 0.0526,
+      "rasio": 1.5,
+      "E_hull": 0.0132,
+      "densitas": 3.199
+    },
+    {
+      "formula": "Mg3P2(HO)16",
+      "tier": "endpoint",
+      "X": "Mg",
+      "frac_X": 0.0811,
+      "rasio": 1.5,
+      "E_hull": 0.0134,
+      "densitas": 2.113
+    },
+    {
+      "formula": "Mg3P2(H22O15)2",
+      "tier": "endpoint",
+      "X": "Mg",
+      "frac_X": 0.038,
+      "rasio": 1.5,
+      "E_hull": 0.0138,
+      "densitas": 1.617
+    },
+    {
+      "formula": "Mg2PHO5",
+      "tier": "endpoint",
+      "X": "Mg",
+      "frac_X": 0.2222,
+      "rasio": 2.0,
+      "E_hull": 0.0,
+      "densitas": 2.868
+    },
+    {
+      "formula": "Mg2PO4F",
+      "tier": "endpoint",
+      "X": "Mg",
+      "frac_X": 0.25,
+      "rasio": 2.0,
+      "E_hull": 0.0,
+      "densitas": 3.02
+    },
+    {
+      "formula": "Mg3P2(H22O15)2",
+      "tier": "endpoint",
+      "X": "Mg",
+      "frac_X": 0.038,
+      "rasio": 1.5,
+      "E_hull": 0.0149,
+      "densitas": 1.623
+    },
+    {
+      "formula": "CaMgPO4F",
+      "tier": "partial",
+      "X": "Mg",
+      "frac_X": 0.125,
+      "rasio": 2.0,
+      "E_hull": 0.0019,
+      "densitas": 3.125
+    },
+    {
+      "formula": "Mg3P2(HO)16",
+      "tier": "endpoint",
+      "X": "Mg",
+      "frac_X": 0.0811,
+      "rasio": 1.5,
+      "E_hull": 0.0179,
+      "densitas": 2.187
+    },
+    {
+      "formula": "Zn6P4H14O23",
+      "tier": "endpoint",
+      "X": "Zn",
+      "frac_X": 0.1277,
+      "rasio": 1.5,
+      "E_hull": 0.0181,
+      "densitas": 3.177
+    }
+  ],
+  "rentang_E_hull": [
+    0.0,
+    0.035
+  ]
+}

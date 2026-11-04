@@ -1,0 +1,116 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-09-13 15:04:05 +0300 (Tue, 13 Sep 2016) $
+#$Revision: 186542 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/00/71/1007178.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1007178
+loop_
+_publ_author_name
+'Averbuch-Pouchot, M T'
+'Durif, A'
+_publ_section_title
+;
+Crystal structures of two new types of cyclo-tetraphosphates:
+tetracalcium tetrapotassium tris(cyclo-tetraphosphate) octahydrate and
+calcium disodium cyclo-tetraphosphate 5.5-hydrate
+;
+_journal_coden_ASTM              ACSCEE
+_journal_name_full               'Acta Crystallographica C (39,1983-)'
+_journal_page_first              212
+_journal_page_last               216
+_journal_volume                  44
+_journal_year                    1988
+_chemical_formula_structural     'Ca4 K4 (P4 O12)3 (H2 O)8'
+_chemical_formula_sum            'Ca4 H16 K4 O44 P12'
+_chemical_name_systematic
+;
+Tetracalcium tetrapotassium tris(cyclo-tetraphosphate) octahydrate
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      14
+_symmetry_space_group_name_Hall  '-P 2yab'
+_symmetry_space_group_name_H-M   'P 1 21/a 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 89.31(5)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   20.38(1)
+_cell_length_b                   12.683(5)
+_cell_length_c                   7.830(2)
+_cell_volume                     2023.7
+_refine_ls_R_factor_all          0.031
+_cod_original_formula_sum        'H16 Ca4 K4 O44 P12'
+_cod_database_code               1007178
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2-x,1/2+y,-z
+-x,-y,-z
+1/2+x,1/2-y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Ca1 Ca2+ 4 e 0.12316(4) 0.25512(6) 0.4940(1) 1. 0 d
+Ca2 Ca2+ 4 e 0.08625(4) 0.80389(6) -0.0005(1) 1. 0 d
+K1 K1+ 4 e 0.16263(5) 0.23065(9) 0.0115(1) 1. 0 d
+K2 K1+ 4 e 0.33452(5) 0.05043(9) 0.2650(2) 1. 0 d
+P1 P5+ 4 e 0.28343(5) 0.32829(8) 0.3149(1) 1. 0 d
+P2 P5+ 4 e 0.38260(5) 0.49243(8) 0.3322(1) 1. 0 d
+P3 P5+ 4 e 0.13871(5) 0.00394(8) 0.2994(1) 1. 0 d
+P4 P5+ 4 e 0.28189(5) 0.31449(8) 0.6836(1) 1. 0 d
+P5 P5+ 4 e 0.52083(5) 0.11376(8) 0.1677(1) 1. 0 d
+P6 P5+ 4 e 0.51679(5) 0.11080(8) -0.2094(1) 1. 0 d
+O1 O2- 4 e 0.3185(1) 0.2670(2) 0.1815(4) 1. 0 d
+O2 O2- 4 e 0.2105(1) 0.3335(2) 0.3141(4) 1. 0 d
+O3 O2- 4 e 0.3085(1) 0.4487(2) 0.3134(4) 1. 0 d
+O4 O2- 4 e 0.0715(1) 0.9252(2) 0.7691(4) 1. 0 d
+O5 O2- 4 e 0.1206(2) 0.1076(2) 0.7002(4) 1. 0 d
+O6 O2- 4 e 0.1021(1) 0.9678(2) 0.4721(4) 1. 0 d
+O7 O2- 4 e 0.0995(2) -0.0351(2) 0.1545(4) 1. 0 d
+O8 O2- 4 e 0.1562(2) 0.1170(2) 0.3102(4) 1. 0 d
+O9 O2- 4 e 0.2927(1) 0.4402(2) 0.6908(4) 1. 0 d
+O10 O2- 4 e 0.3255(1) 0.2619(2) 0.8076(4) 1. 0 d
+O11 O2- 4 e 0.2904(1) 0.7983(3) 0.3058(4) 1. 0 d
+O12 O2- 4 e 0.1911(1) 0.7856(2) 0.5038(4) 1. 0 d
+O13 O2- 4 e 0.4528(1) 0.1563(2) 0.1619(4) 1. 0 d
+O14 O2- 4 e 0.4258(1) 0.8306(3) 0.7459(4) 1. 0 d
+O15 O2- 4 e 0.4790(2) 0.0029(2) 0.7562(4) 1. 0 d
+O16 O2- 4 e 0.4667(2) 0.1960(2) 0.7904(4) 1. 0 d
+O17 O2- 4 e 0.4257(1) 0.8810(3) 0.3269(4) 1. 0 d
+O18 O2- 4 e 0.4526(1) 0.9079(2) 0.0242(4) 1. 0 d
+O19 O2- 4 e 0.2311(2) 0.5768(3) 0.0405(6) 1. 0 d
+O20 O2- 4 e 0.4880(2) 0.6839(3) 0.5074(5) 1. 0 d
+O21 O2- 4 e 0.0291(1) 0.1365(3) -0.0131(4) 1. 0 d
+O22 O2- 4 e 0.1572(2) 0.5517(4) 0.3928(7) 1. 0 d
+H1 H1+ 4 e 0.297(4) 0.124(7) 0.91(1) 1. 0 d
+H2 H1+ 4 e 0.241(4) 0.545(6) 0.12(1) 1. 0 d
+H3 H1+ 4 e 0.500(4) 0.304(6) 0.57(1) 1. 0 d
+H4 H1+ 4 e 0.513(4) 0.664(7) 0.60(1) 1. 0 d
+H5 H1+ 4 e 0.464(3) 0.582(6) 0.97(1) 1. 0 d
+H6 H1+ 4 e 0.048(4) 0.128(6) 0.90(1) 1. 0 d
+H7 H1+ 4 e 0.360(4) 0.104(7) 0.64(1) 1. 0 d
+H8 H1+ 4 e 0.140(4) 0.493(7) 0.38(1) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ca2+ 2.000
+K1+ 1.000
+P5+ 5.000
+O2- -2.000
+H1+ 1.000

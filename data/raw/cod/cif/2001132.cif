@@ -1,0 +1,240 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/00/11/2001132.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2001132
+loop_
+_publ_author_name
+'Boudin, S.'
+'Grandin, A.'
+'Borel, M. M.'
+'Leclaire, A.'
+'Raveau, B.'
+_publ_section_title
+;
+ Redetermination of the \b-Ca~2~P~2~O~7~ structure
+;
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2062
+_journal_page_last               2064
+_journal_paper_doi               10.1107/S0108270193005608
+_journal_volume                  49
+_journal_year                    1993
+_chemical_formula_moiety         'Ca2 O7 P2'
+_chemical_formula_sum            'Ca2 O7 P2'
+_chemical_formula_weight         254.1
+_space_group_IT_number           76
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  'P 4w'
+_symmetry_space_group_name_H-M   'P 41'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.
+_cell_angle_beta                 90.
+_cell_angle_gamma                90.
+_cell_formula_units_Z            8
+_cell_length_a                   6.6858(8)
+_cell_length_b                   6.6858(8)
+_cell_length_c                   24.147(3)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    294
+_cell_measurement_theta_max      22
+_cell_measurement_theta_min      18
+_cell_volume                     1079.4(4)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       bisect
+_diffrn_radiation_type           MoK\=\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       48
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            5017
+_diffrn_reflns_theta_max         45
+_diffrn_standards_decay_%        0.4
+_diffrn_standards_interval_time  50
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    2.63
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    3.127
+_exptl_crystal_description       rectangular
+_exptl_crystal_size_max          0.1285
+_exptl_crystal_size_mid          0.1028
+_exptl_crystal_size_min          0.0514
+_refine_diff_density_max         0.7
+_refine_diff_density_min         -0.7
+_refine_ls_extinction_coef       4.62E-8
+_refine_ls_extinction_method     Zachariasen
+_refine_ls_goodness_of_fit_obs   1.001
+_refine_ls_number_parameters     198
+_refine_ls_number_reflns         1791
+_refine_ls_R_factor_obs          0.031
+_refine_ls_shift/esd_max         0.004
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      F(sin\s/\l)
+_refine_ls_wR_factor_obs         0.034
+_reflns_number_observed          1791
+_reflns_number_total             5017
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            du1046.cif
+_cod_data_source_block           du1046_structure_1_of_1
+_cod_original_sg_symbol_Hall     'P 41'
+_cod_database_code               2001132
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,1/2+z
+-y,x,1/4+z
+y,-x,3/4+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ca(1) .1374(2) .2313(2) .000
+Ca(2) .1591(2) .5447(2) .24262(5)
+Ca(3) .7895(2) .7337(2) .13802(4)
+Ca(4) .3627(2) .1054(2) .13548(4)
+P(1) .6213(2) .3078(2) .02345(6)
+P(2) .8673(2) .2534(2) .12431(5)
+P(3) .0463(2) .7148(2) .01863(6)
+P(4) .2873(2) .6462(2) .12074(5)
+O(1) .4607(6) .1584(6) .0426(2)
+O(2) .7727(6) .1984(6) -.0133(2)
+O(3) .5303(7) .4921(6) -.0001(2)
+O(4) .7395(6) .3776(6) .0789(2)
+O(5) .7364(6) .0873(6) .1469(2)
+O(6) 1.0519(6) .1769(6) .0953(2)
+O(7) .8994(6) .4088(6) .1695(2)
+O(8) -.1463(6) .7907(6) .0433(2)
+O(9) .1855(6) .8795(6) -.0011(2)
+O(10) .0229(6) .5542(6) -.0249(2)
+O(11) .1582(6) .5873(6) .0666(2)
+O(12) .3450(7) .4526(6) .1474(2)
+O(13) .4622(6) .7756(6) .1015(2)
+O(14) .1474(6) .7722(6) .1572(2)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O(1) P(1) O(2) 109.0(3) yes
+O(1) P(1) O(3) 111.6(3) yes
+O(1) P(1) O(4) 106.2(2) yes
+O(2) P(1) O(3) 116.4(3) yes
+O(2) P(1) O(4) 107.1(2) yes
+O(3) P(1) O(4) 106.0(2) yes
+O(4) P(2) O(5) 108.3(2) yes
+O(4) P(2) O(6) 107.0(2) yes
+O(4) P(2) O(7) 102.1(2) yes
+O(5) P(2) O(6) 113.0(3) yes
+O(5) P(2) O(7) 108.9(2) yes
+O(6) P(2) O(7) 116.7(2) yes
+O(8) P(3) O(9) 113.8(3) yes
+O(8) P(3) O(10) 115.2(3) yes
+O(8) P(3) O(11) 106.8(2) yes
+O(9) P(3) O(10) 111.1(3) yes
+O(9) P(3) O(11) 108.8(2) yes
+O(10) P(3) O(11) 99.9(2) yes
+O(11) P(4) O(12) 106.0(2) yes
+O(11) P(4) O(13) 107.6(2) yes
+O(11) P(4) O(14) 105.8(2) yes
+O(12) P(4) O(13) 115.1(3) yes
+O(12) P(4) O(14) 112.6(2) yes
+O(13) P(4) O(14) 109.2(2) yes
+P(1) O(4) P(2) 131.9(3) yes
+P(3) O(11) P(4) 134.2(3) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+P(1) O(1) . . 1.537(5) yes
+P(1) O(2) . . 1.533(5) yes
+P(1) O(3) . . 1.487(5) yes
+P(1) O(4) . . 1.625(4) yes
+O(1) O(2) . . 2.499(6) yes
+O(1) O(3) . . 2.501(6) yes
+O(2) O(3) . . 2.566(6) yes
+O(1) O(4) . . 2.529(6) yes
+O(2) O(4) . . 2.540(6) yes
+O(3) O(4) . . 2.487(6) yes
+P(2) O(4) . . 1.619(4) yes
+P(2) O(5) . . 1.516(4) yes
+P(2) O(6) . . 1.508(4) yes
+P(2) O(7) . . 1.522(4) yes
+O(4) O(5) . . 2.541(6) yes
+O(4) O(6) . . 2.514(6) yes
+O(5) O(6) . . 2.521(6) yes
+O(4) O(7) . . 2.443(6) yes
+O(5) O(7) . . 2.471(6) yes
+O(6) O(7) . . 2.579(6) yes
+P(3) O(8) . . 1.507(4) yes
+P(3) O(9) . . 1.518(5) yes
+P(3) O(10) . . 1.511(4) yes
+P(3) O(1) . . 1.621(4) yes
+O(8) O(9) . . 2.534(6) yes
+O(8) O(10) . . 2.548(6) yes
+O(9) O(10) . . 2.498(6) yes
+O(8) O(11) . . 2.512(6) yes
+O(9) O(11) . . 2.554(16) yes
+O(10) O(11) . . 2.398(6) yes
+P(4) O(11) . . 1.615(4) yes
+P(4) O(12) . . 1.497(5) yes
+P(4) O(13) . . 1.527(4) yes
+P(4) O(14) . . 1.536(4) yes
+O(11) O(12) . . 2.486(6) yes
+O(11) O(13) . . 2.535(6) yes
+O(12) O(13) . . 2.551(6) yes
+O(11) O(14) . . 2.514(6) yes
+O(12) O(14) . . 2.524(6) yes
+O(13) O(14) . . 2.498(6) yes
+Ca(1) O(1) . . 2.443(5) yes
+Ca(1) O(2) . 1_455 2.469(5) yes
+Ca(1) O(5) . 4_564 2.522(4) yes
+Ca(1) O(6) . 1_455 2.400(4) yes
+Ca(1) O(7) . 4_564 2.799(4) yes
+Ca(1) O(9) . 1_545 2.374(5) yes
+Ca(1) O(10) . . 2.368(5) yes
+Ca(1) O(11) . . 2.876(5) yes
+Ca(2) O(1) . 3_555 2.505(4) yes
+Ca(2) O(2) . 3_555 2.839(5) yes
+Ca(2) O(3) . 3_655 2.340(5) yes
+Ca(2) O(7) . 1_455 2.638(4) yes
+Ca(2) O(8) . 3_565 2.424(4) yes
+Ca(2) O(9) . 3_655 2.421(5) yes
+Ca(2) O(12) . . 2.684(5) yes
+Ca(2) O(13) . 3_655 2.722(5) yes
+Ca(2) O(14) . . 2.564(4) yes
+Ca(3) O(2) . 3_655 2.397(5) yes
+Ca(3) O(4) . . 2.796(4) yes
+Ca(3) O(5) . 1_565 2.400(5) yes
+Ca(3) O(7) . . 2.416(4) yes
+Ca(3) O(8) . 1_655 2.358(4) yes
+Ca(3) O(13) . . 2.376(5) yes
+Ca(3) O(14) . 1_655 2.451(4) yes
+Ca(4) O(1) . . 2.364(4) yes
+Ca(4) O(5) . . 2.516(4) yes
+Ca(4) O(6) . 1_455 2.343(5) yes
+Ca(4) O(10) . 3_655 2.301(4) yes
+Ca(4) O(12) . . 2.342(5) yes
+Ca(4) O(13) . 1_545 2.445(5) yes
+Ca(4) O(14) . 1_545 2.704(4) yes
+P(1) P(2) . . 2.961(2) yes
+P(3) P(4) . . 2.981(2) yes

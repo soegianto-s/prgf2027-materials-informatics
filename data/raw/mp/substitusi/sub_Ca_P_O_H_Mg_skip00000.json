@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "band_gap": 5.3863,
+      "formation_energy_per_atom": -2.6210998515413526,
+      "energy_above_hull": 0.0015217524237867153,
+      "is_stable": false,
+      "nsites": 19,
+      "elements": [
+        "Ca",
+        "H",
+        "Mg",
+        "O",
+        "P"
+      ],
+      "nelements": 5,
+      "formula_pretty": "Ca2MgP2(H2O5)2",
+      "chemsys": "Ca-H-Mg-O-P",
+      "volume": 191.78955060586063,
+      "density": 2.8609433441982306,
+      "symmetry": {
+        "crystal_system": "Triclinic",
+        "symbol": "P-1",
+        "hall": "-P 1",
+        "number": 2,
+        "point_group": "-1",
+        "symprec": 0.1,
+        "angle_tolerance": 5.0,
+        "version": "2.7.0"
+      },
+      "material_id": "mp-aaaabjcf"
+    }
+  ],
+  "meta": {
+    "api_version": "0.88.1",
+    "time_stamp": "2026-11-04T04:44:56.441837+00:00",
+    "total_doc": 1,
+    "facet": null,
+    "max_limit": 1000,
+    "default_fields": [
+      "material_id"
+    ]
+  }
+}
