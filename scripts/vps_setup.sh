@@ -11,11 +11,12 @@ if [ ! -x /root/miniconda3/bin/pw.x ]; then
   log "memasang miniconda..."
   [ -f /root/miniconda.sh ] || curl -sL https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o /root/miniconda.sh
   [ -d /root/miniconda3 ] || bash /root/miniconda.sh -b -p /root/miniconda3 >> "$LOG" 2>&1
-  log "memasang QE via conda-forge..."
-  /root/miniconda3/bin/conda install -y -q -c conda-forge qe >> "$LOG" 2>&1
+  log "memasang QE via conda-forge (override-channels: lewati ToS anaconda.com)..."
+  /root/miniconda3/bin/conda install -y -q -c conda-forge --override-channels qe >> "$LOG" 2>&1
 fi
 QE=/root/miniconda3/bin/pw.x
 PY=/root/miniconda3/bin/python3
+[ -x "$QE" ] || { log "QE GAGAL TERPASANG — periksa $LOG"; exit 1; }
 log "QE: $($QE --version 2>&1 | head -1)"
 
 buat_strain() {

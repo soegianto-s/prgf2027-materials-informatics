@@ -1,0 +1,56 @@
+&CONTROL
+  calculation = 'scf'
+  etot_conv_thr = 1.0d-4
+  forc_conv_thr = 1.0d-3
+  tstress = .true.
+  prefix = 'top26_Ca3(PO4)2'
+  pseudo_dir = './pseudo/'
+  outdir = './out/'
+  verbosity = 'high'
+/
+&SYSTEM
+  ibrav = 0
+  nat = 13
+  ntyp = 3
+  ecutwfc = 60.0
+  ecutrho = 480.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.01
+/
+&ELECTRONS
+  conv_thr = 1.0d-8
+  mixing_beta = 0.7
+/
+&IONS
+  ion_dynamics = 'bfgs'
+/
+&CELL
+  cell_dynamics = 'bfgs'
+  press = 0.0
+/
+ATOMIC_SPECIES
+ Ca  40.078  Ca.pbe-spn-kjpaw_psl.1.0.0.UPF
+ O  15.999  O.pbe-n-rrkjus_psl.1.0.0.UPF
+ P  30.974  P.pbe-n-rrkjus_psl.1.0.0.UPF
+CELL_PARAMETERS angstrom
+  4.4480620550  2.8184206470  0.0035112914
+  -4.4480620550  2.8184206470  0.0035112914
+  0.0000000000  0.0770992170  7.1374251831
+ATOMIC_POSITIONS crystal
+Ca            0.3109349467        0.6890650533        0.0000000000
+Ca            0.9900199652        0.0075238646        0.2725665452
+Ca            0.9924761354        0.0099800348        0.7274334548
+P             0.3505328589        0.6494671411        0.5000000000
+P             0.6512715077        0.3487284923        0.0000000000
+O             0.6775270689        0.7756629190        0.5036942364
+O             0.2243370810        0.3224729311        0.4963057636
+O             0.2624489047        0.7557771746        0.3184603093
+O             0.2442228254        0.7375510953        0.6815396907
+O             0.7324732695        0.2328646579        0.8270376431
+O             0.7671353421        0.2675267305        0.1729613569
+O             0.7674744194        0.6828013249        0.9916831374
+O             0.3171986751        0.2325255806        0.0083168626
+End final coordinates
+K_POINTS automatic
+2 2 2 0 0 0
