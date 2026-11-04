@@ -136,6 +136,8 @@ def parse_stress(tag, nama_in, np_proc):
         mnt = f"'/mnt/d/latex/prgf2026/data/dft/{tag}'"
         nat = f"'/root/dft/{tag}'"
         rc, log = wsl(
+            f"mkdir -p {nat}/out {nat}/pseudo && "
+            f"cp {mnt}/{nama_in} {mnt}/relax.in {nat}/ && cp {mnt}/pseudo/* {nat}/pseudo/ && "
             f"cd {nat} && OMP_NUM_THREADS=12 pw.x -in {nama_in} > {nama_in}.out 2>&1; "
             f"cp {nama_in}.out {mnt}/{nama_in}.out",
             timeout=3600)
@@ -143,9 +145,8 @@ def parse_stress(tag, nama_in, np_proc):
     if "total   stress" not in t:
         return None
     blok = t.split("total   stress")[1].splitlines()[1:4]
-    s = np.array([[float(x) * 0.0001 for x in g.split()[:3]] for g in blok])  # kbar -> GPa? (1 kbar=0.1 GPa)
-    # QE mencetak stress dalam kbar; konversi: 1 kbar = 0.1 GPa
-    s = s * 0.1
+    # 3 kolom pertama = Ry/bohr^3; konversi ke GPa: 1 Ry/bohr^3 = 14710.5 GPa
+    s = np.array([[float(x) for x in g.split()[:3]] for g in blok]) * 14710.5
     return np.array([s[0, 0], s[1, 1], s[2, 2], s[1, 2], s[0, 2], s[0, 1]])
 
 
@@ -166,7 +167,8 @@ def elastik(tag, np_proc):
             else:
                 sm = s
         if sp is not None and sm is not None:
-            c[:, i] = (sp - sm) / (2 * AMP)
+            # konvensi QE: tegangan positif = kompresi -> C = (sigma(-eps) - sigma(+eps)) / 2eps
+            c[:, i] = (sm - sp) / (2 * AMP)
     c = (c + c.T) / 2
     k, g, e, nu = vrh(c)
     rec = {"tag": tag, "C_ij": np.round(c, 2).tolist(), "K_GPa": round(k, 1),
