@@ -1,5 +1,5 @@
 # Laporan Interpretasi Model (XAI)
-**Tanggal:** 2026-11-04 07:39:08
+**Tanggal:** 2026-11-04 08:27:53
 **Tahapan:** Bagian 9 panduan utama
 
 ## SHAP: Eform_eV_atom (RandomForest, n=337)

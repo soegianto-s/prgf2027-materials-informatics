@@ -40,6 +40,15 @@ KELOMPOK_UTAMA = ["apatit_hidroksi", "apatit_fluor", "trikalsium_fosfat", "tetra
                   "dikalsium_fosfat", "oktakalsium_fosfat", "pirofosfat", "monokalsium_fosfat"]
 SUMBER_URUT = ["MaterialsProject", "AFLOW", "COD", "PubChem", "OQMD"]
 
+# label gambar dalam bahasa Inggris (reviewer ronde 5)
+KELOMPOK_EN = {"apatit_hidroksi": "Hydroxyapatite family", "apatit_fluor": "Fluorapatite",
+               "trikalsium_fosfat": "TCP", "tetrakalsium_fosfat": "TTCP",
+               "dikalsium_fosfat": "DCP", "oktakalsium_fosfat": "OCP",
+               "pirofosfat": "Pyrophosphate", "monokalsium_fosfat": "MCP"}
+FITUR_EN = {"Eform_eV_atom": "E_form (eV/at)", "densitas_final_gcm3": "Density (g/cm3)",
+            "bandgap_eV": "Band gap (eV)", "volume_A3": "Cell volume (A3)",
+            "EN_avg": "EN_avg", "berat_molekul": "Molecular weight", "ca_p_ratio": "Ca/P"}
+
 
 def warna_kelompok(df):
     cmap = dict(zip(KELOMPOK_UTAMA, CAT8[:len(KELOMPOK_UTAMA)]))
@@ -57,17 +66,18 @@ def main():
     cols = ["Eform_eV_atom", "densitas_final_gcm3", "bandgap_eV", "volume_A3",
             "EN_avg", "berat_molekul", "ca_p_ratio"]
     corr = sub[cols].corr()
+    lab_en = [FITUR_EN.get(c, c) for c in cols]
     fig, ax = plt.subplots(figsize=(7, 6))
     im = ax.imshow(corr.values, cmap=DIV_CMAP, vmin=-1, vmax=1)
-    ax.set_xticks(range(len(cols))); ax.set_xticklabels(cols, rotation=45, ha="right", fontsize=8)
-    ax.set_yticks(range(len(cols))); ax.set_yticklabels(cols, fontsize=8)
+    ax.set_xticks(range(len(cols))); ax.set_xticklabels(lab_en, rotation=45, ha="right", fontsize=8)
+    ax.set_yticks(range(len(cols))); ax.set_yticklabels(lab_en, fontsize=8)
     for i in range(len(cols)):
         for j in range(len(cols)):
             v = corr.values[i, j]
             if i != j:
                 ax.text(j, i, f"{v:.2f}", ha="center", va="center", fontsize=7, color=INK)
     fig.colorbar(im, ax=ax, shrink=0.8)
-    ax.set_title("Korelasi Pearson antar deskriptor (subset MP+AFLOW)", fontsize=10)
+    ax.set_title("Pearson correlation among descriptors (MP+AFLOW subset)", fontsize=10)
     fig.tight_layout()
     fig.savefig(FIGDIR / "fig_korelasi.png", dpi=150)
     plt.close(fig)
@@ -110,11 +120,11 @@ def main():
         d = dfp[m]
         if len(d):
             c = dict(zip(KELOMPOK_UTAMA, CAT8[:len(KELOMPOK_UTAMA)])).get(k, "#898781")
-            lab = k if k != "lain" else "lainnya"
+            lab = KELOMPOK_EN.get(k, k) if k != "lain" else "other"
             ax.scatter(d["PC1"], d["PC2"], s=10, alpha=0.65, c=c, label=f"{lab} ({len(d)})")
     ax.set_xlabel(f"PC1 ({ev[0] * 100:.1f}%)")
     ax.set_ylabel(f"PC2 ({ev[1] * 100:.1f}%)")
-    ax.set_title("Ruang desain material: PCA (7 deskriptor)")
+    ax.set_title("Design space: PCA (5 non-collinear descriptors)")
     ax.legend(fontsize=7, frameon=False, ncol=2)
     fig.tight_layout()
     fig.savefig(FIGDIR / "fig_pca_kelompok.png", dpi=150)
@@ -132,7 +142,7 @@ def main():
         if len(d):
             ax.scatter(d["t1"], d["t2"], s=12, alpha=0.7, c=CAT8[i % 8], label=f"{s} ({len(d)})")
     ax.set_xlabel("t-SNE 1"); ax.set_ylabel("t-SNE 2")
-    ax.set_title("Cek bias sumber: t-SNE diwarnai basis data")
+    ax.set_title("Source-bias check: t-SNE colored by database")
     ax.legend(fontsize=8, frameon=False)
     fig.tight_layout()
     fig.savefig(FIGDIR / "fig_tsne_sumber.png", dpi=150)
@@ -164,8 +174,8 @@ def main():
     temuan.append(prof.round(2).to_markdown())
     fig, ax = plt.subplots(figsize=(6, 4))
     ax.plot(list(ks), [sils[k] for k in ks], marker="o", lw=1.5, c="#2a78d6", markersize=6)
-    ax.set_xlabel("jumlah klaster k"); ax.set_ylabel("silhouette")
-    ax.set_title("Pemilihan jumlah klaster")
+    ax.set_xlabel("cluster count k"); ax.set_ylabel("silhouette")
+    ax.set_title("K-means silhouette by cluster count")
     fig.tight_layout()
     fig.savefig(FIGDIR / "fig_silhouette.png", dpi=150)
     plt.close(fig)
@@ -175,15 +185,17 @@ def main():
     grp = grp.reindex(KELOMPOK_UTAMA + sorted(set(dfp["kelompok"]) - set(KELOMPOK_UTAMA)))
     temuan.append("## Densitas per Kelompok Material (g/cm3)")
     temuan.append(grp.to_markdown())
+    # hanya kelompok yang ada datanya (buang kategori kosong, mis. pirofosfat)
+    kl_isi = [k for k in KELOMPOK_UTAMA if dfp["kelompok"].eq(k).any()]
     fig, ax = plt.subplots(figsize=(8, 5))
-    boxes = [dfp[dfp["kelompok"] == k]["densitas_final_gcm3"].dropna() for k in KELOMPOK_UTAMA]
-    bp = ax.boxplot(boxes, labels=KELOMPOK_UTAMA, patch_artist=True, widths=0.6)
-    for patch, c in zip(bp["boxes"], CAT8[:len(KELOMPOK_UTAMA)]):
+    boxes = [dfp[dfp["kelompok"] == k]["densitas_final_gcm3"].dropna() for k in kl_isi]
+    bp = ax.boxplot(boxes, labels=[KELOMPOK_EN.get(k, k) for k in kl_isi], patch_artist=True, widths=0.6)
+    for patch, c in zip(bp["boxes"], CAT8[:len(kl_isi)]):
         patch.set_facecolor(c); patch.set_alpha(0.75)
     for med in bp["medians"]:
         med.set_color(INK)
-    ax.set_ylabel("densitas (g/cm3)")
-    ax.set_title("Sebaran densitas per kelompok material")
+    ax.set_ylabel("density (g/cm3)")
+    ax.set_title("Density distribution by material family")
     ax.tick_params(axis="x", rotation=45)
     fig.tight_layout()
     fig.savefig(FIGDIR / "fig_densitas_kelompok.png", dpi=150)

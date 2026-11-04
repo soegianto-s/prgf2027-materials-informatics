@@ -36,6 +36,9 @@ def muat_subset():
     return sub
 
 
+FITUR_EN = {"ca_p_ratio": "Ca/P", "frac_P": "P fraction", "frac_H": "H fraction", "frac_F": "F fraction"}
+
+
 def shap_untuk(sub, target, nama_file):
     fitur = [f for f in FEATURES if f != target]  # jangan pakai target sebagai fitur
     d = sub.dropna(subset=fitur + [target])
@@ -43,18 +46,19 @@ def shap_untuk(sub, target, nama_file):
     rf = RandomForestRegressor(n_estimators=400, random_state=0, n_jobs=-1).fit(X, y)
     explainer = shap.TreeExplainer(rf)
     sv = explainer.shap_values(X)
-    fig, axes = plt.subplots(1, 2, figsize=(11, 4.5))
-    shap.summary_plot(sv, X, plot_type="bar", show=False, max_display=10)
+    # panel tunggal (sebelumnya subplots(1,2) menyisakan panel kiri kosong — reviewer ronde 5)
+    Xd = X.rename(columns=FITUR_EN)
+    shap.summary_plot(sv, Xd, plot_type="bar", show=False, max_display=10)
     plt.gcf().savefig(FIGDIR / f"fig_shap_bar_{nama_file}.png", dpi=150, bbox_inches="tight")
     plt.close("all")
-    shap.summary_plot(sv, X, show=False, max_display=10)
+    shap.summary_plot(sv, Xd, show=False, max_display=10)
     plt.gcf().savefig(FIGDIR / f"fig_shap_beeswarm_{nama_file}.png", dpi=150, bbox_inches="tight")
     plt.close("all")
     # dependence plot utk fitur teratas
     imp = np.abs(sv).mean(0)
     top2 = [fitur[i] for i in np.argsort(imp)[-2:][::-1]]
     for f in top2:
-        shap.dependence_plot(f, sv, X, show=False)
+        shap.dependence_plot(FITUR_EN.get(f, f), sv, Xd, show=False)
         plt.gcf().savefig(FIGDIR / f"fig_shap_dep_{nama_file}_{f}.png", dpi=150, bbox_inches="tight")
         plt.close("all")
     perm = permutation_importance(rf, X, y, n_repeats=10, random_state=0)

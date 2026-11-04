@@ -17,7 +17,8 @@ FILE_KUNCI = [
     "dataset_deskriptor.csv",
     "kandidat_ranking.csv",
     "kandidat_top15_dedup.csv",
-    "hasil_cv_regresi.csv",
+    "hasil_cv_eform_komposisi.csv",
+    "benchmark_eksperimen.csv",
 ]
 
 LAPORAN_KUNCI = [

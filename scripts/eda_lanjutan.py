@@ -59,7 +59,7 @@ def main():
         if len(d):
             ax.scatter(d["u1"], d["u2"], s=8, alpha=0.6, c=cmap[k], label=f"{k} ({len(d)})")
     ax.set_xlabel("UMAP 1"); ax.set_ylabel("UMAP 2")
-    ax.set_title("UMAP: ruang desain material (7 deskriptor)")
+    ax.set_title("UMAP: material design space (5 non-collinear descriptors)")
     ax.legend(fontsize=7, frameon=False)
     fig.tight_layout()
     fig.savefig(FIGDIR / "fig_umap_kelompok.png", dpi=150)
