@@ -1,19 +1,19 @@
 {
   "nama": "dataset_v1.0_20261104",
-  "tanggal": "2026-11-04 06:22:24",
+  "tanggal": "2026-11-04 07:02:40",
   "sumber": "data/processed + data/reports",
   "file": {
     "inventory_dataset.csv": "8951c1b963e177b27e0654e8c804ee867f2fafe7c6b2b510b6039451246e548b",
     "dataset_deskriptor.csv": "a0b6077379cfcfd3003d5eafabd0b7185ef79078ba4826c63bfe022695925381",
-    "kandidat_ranking.csv": "f164a0d79a7a5d6389cd2d97acca2cf1e2f6bb72a3116586b8ebb6b23d495f08",
-    "kandidat_top15_dedup.csv": "a3580e3d9deeef314ae72ca7cf563a22a44db84614b7d8130eea9d98546397a4",
-    "hasil_cv_regresi.csv": "2235ec121d44e2dc35fcbcdd9dc210c5f93452ba244a6342582ffe175de1e862",
-    "reports/LAPORAN_FINAL.md": "caec15a03c9410db07d92cb123e0c3d44f412a793d41d38adf913d8e0075d8ba",
+    "kandidat_ranking.csv": "f18275ef204ef9c868f77d3abf370eb4d1cc63831946b8cb5fb74af985e553b9",
+    "kandidat_top15_dedup.csv": "02e9ee82cd1b07dc04f385ecd69fe06c852f29295b5bd393457273d29745fa99",
+    "hasil_cv_regresi.csv": "8b98f4b91ec194c9f73665d04533181e2983cf59fff75181255b51b23b0b21e8",
+    "reports/LAPORAN_FINAL.md": "4500affbb39699659ab7bc0e0c0c96d2a3be598ce6bdbb7cdc4acfa59fd42c56",
     "reports/laporan_akuisisi.md": "16e29df3f0bfc7fa88bdc2a39476e74455bbed40564daec00b3dece78705f026",
     "reports/laporan_prapemrosesan.md": "834e687b15d2fd795a7246a94c1102b86dd7c5576119463326dac5aa68a00a3f",
     "reports/laporan_eda.md": "e3abfb78982ce8ee8f9385f10de5d82a2136f6fd2b6a7dcdcbb755120795abac",
-    "reports/laporan_pemodelan.md": "4adccb24b1679785e859107b0320d483817fab20a9f1cc41da1c787e52e348b5",
-    "reports/laporan_mcdm.md": "15c25b2777fbf80fb888fbf313051773aaf11316489d4b8abfd7fda239990b99",
+    "reports/laporan_pemodelan.md": "b0a03efbfa131fbda92f44ab112d5a891ca807c1e69d65d966c0bece98e284ad",
+    "reports/laporan_mcdm.md": "c7ef91118a3b472d55d828e6062be8406170fa69831c02236f0c845b6b5e99b9",
     "reports/laporan_xai.md": "fa2d0ae9a02e91e5f5ece1d6da41a95e4a56a14f2c12f145c73b0a23a3ea6c0f",
     "reports/figures/": "disalin utuh"
   }

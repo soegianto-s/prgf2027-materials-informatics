@@ -53,10 +53,15 @@ def main():
         k["bulk_K_GPa"].notna() & k["shear_G_GPa"].notna(),
         9 * k["bulk_K_GPa"] * k["shear_G_GPa"] / (3 * k["bulk_K_GPa"] + k["shear_G_GPa"]),
         np.nan)
-    # skala Eform antar sumber berbeda -> standarisasi z-score PER SUMBER (keputusan tercatat)
-    k["C_stabilitas"] = -k.groupby("sumber")["Eform_eV_atom"].transform(
-        lambda s: (s - s.mean()) / (s.std() + 1e-12))
-    k["C_densitas"] = -np.abs(k["densitas_final_gcm3"] - 2.0)
+    # C_stabilitas: Eform ABSOLUT (makna fisika). Catatan: skala AFLOW offset vs MP/OQMD
+    # (hingga 0.8 eV) -> entri AFLOW sedikit dirugikan; dicatat sebagai keterbatasan.
+    k["C_stabilitas"] = -k["Eform_eV_atom"]
+    # koreksi sirkularitas (2026-11-04): densitas jadi kriteria PITA [1.0, 3.2] g/cm3.
+    # Justifikasi: scaffold padat meraih modulus tulang via POROSITAS (Gibson-Ashby),
+    # bukan dengan menyamakan densitas tulang; pita mencakup semua keramik CaP klinis.
+    rho = k["densitas_final_gcm3"]
+    k["C_densitas"] = np.where(rho.between(1.0, 3.2), 0.0,
+                               -np.minimum((rho - 3.2).abs(), (rho - 1.0).abs()))
     k["C_cap"] = -np.abs(k["ca_p_ratio"] - 1.67)
     k["C_modulus"] = -np.abs(k["young_E_deriv_GPa"] - 15)
     k["C_bandgap"] = np.clip(k["bandgap_eV"].fillna(-1), 0, 5) / 5.0

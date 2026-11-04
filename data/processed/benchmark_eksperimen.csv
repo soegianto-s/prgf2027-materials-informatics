@@ -1,0 +1,7 @@
+fase,Eform_exp_eV_atom,Eform_pred_eV_atom,selisih_eV_atom,densitas_exp,densitas_pred,selisih_densitas
+Hidroksiapatit Ca10(PO4)6(OH)2,-3.159,-2.823,0.335,3.16,3.168,0.008
+b-TCP Ca3(PO4)2,-3.285,-2.519,0.767,3.07,3.061,-0.009
+a-TCP Ca3(PO4)2,-3.289,-2.876,0.413,2.86,2.856,-0.004
+TTCP Ca4(PO4)2O,-3.297,-3.344,-0.048,3.05,3.062,0.012
+DCPA (monetit) CaHPO4,-2.686,-2.749,-0.063,2.92,2.917,-0.003
+DCPD (brushit) CaHPO4.2H2O,-1.717,-2.211,-0.494,2.31,2.304,-0.006

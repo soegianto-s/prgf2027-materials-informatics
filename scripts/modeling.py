@@ -125,8 +125,10 @@ def main():
         PROC / "prediksi_bandgap.csv", index=False)
 
     # ===== klasifikasi kelayakan scaffold =====
+    # keputusan (2026-11-04, koreksi sirkularitas): pita Ca/P [1.0, 2.1] mencakup
+    # komponen semen kalsium fosfat klinis (TTCP 2.0 + DCPA 1.0)
     sub["layak"] = ((sub["Eform_eV_atom"] <= -2.5) &
-                    (sub["ca_p_ratio"].between(1.2, 2.1)) &
+                    (sub["ca_p_ratio"].between(1.0, 2.1)) &
                     (sub["densitas_final_gcm3"].between(0.5, 4.5))).astype(int)
     dk = sub.dropna(subset=FEATURES + ["layak"])
     Xk, yk = dk[FEATURES].values, dk["layak"].values

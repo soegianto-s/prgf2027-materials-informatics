@@ -1,7 +1,7 @@
 # LAPORAN FINAL
 # Pengembangan Kerangka Materials Informatics Berbasis AI untuk Penemuan Biomaterial Kalsium Fosfat sebagai Kandidat Scaffold Rekayasa Jaringan Tulang
 
-**Tanggal:** 2026-11-04 06:22:04
+**Tanggal:** 2026-11-04 07:02:36
 **Research Group:** AMREC, Universitas Airlangga | Skema PRGF Discovery Research 2027
 
 ---
@@ -44,26 +44,30 @@ konsisten dengan literatur biomaterial tulang.
 
 | formula     | sumber           | kelompok            |   peringkat_rerata |   Eform_eV_atom |   densitas_final_gcm3 |   ca_p_ratio |   bandgap_eV |
 |:------------|:-----------------|:--------------------|-------------------:|----------------:|----------------------:|-------------:|-------------:|
-| Ca10F2O24P6 | AFLOW            | apatit_hidroksi     |              4.667 |          -3.032 |                 3.096 |        1.667 |        5.518 |
-| Ca16O36P8   | AFLOW            | tetrakalsium_fosfat |             11.333 |          -2.937 |                 2.976 |        2     |        4.48  |
-| Ca10H2O26P6 | AFLOW            | apatit_hidroksi     |             15.333 |          -2.84  |                 3.051 |        1.667 |        5.204 |
-| Ca10O25P6   | AFLOW            | apatit_hidroksi     |             16.333 |          -2.924 |                 2.977 |        1.667 |        3.177 |
-| Ca3O8P2     | OQMD             | trikalsium_fosfat   |             31.833 |          -3.204 |                 2.952 |        1.5   |      nan     |
-| Ca5P3O12F   | MaterialsProject | apatit_hidroksi     |             37     |          -3.42  |                 3.104 |        1.667 |        5.512 |
-| Ca10P6O25   | MaterialsProject | apatit_hidroksi     |             45.167 |          -3.319 |                 2.978 |        1.667 |        3.148 |
-| Ca10P6CO27  | MaterialsProject | apatit_hidroksi     |             47.667 |          -3.253 |                 3.053 |        1.667 |        5.137 |
-| Ca4P2O9     | MaterialsProject | tetrakalsium_fosfat |             49.667 |          -3.326 |                 3.08  |        2     |        4.484 |
-| C1Ca10O27P6 | OQMD             | apatit_hidroksi     |             56     |          -3.129 |                 3.166 |        1.667 |      nan     |
-| Ca5F1O12P3  | OQMD             | apatit_hidroksi     |             57.167 |          -3.308 |                 3.263 |        1.667 |      nan     |
-| Ca5H1O13P3  | OQMD             | apatit_hidroksi     |             60.167 |          -3.107 |                 3.184 |        1.667 |      nan     |
-| Ca4O9P2     | OQMD             | tetrakalsium_fosfat |             60.5   |          -3.205 |                 3.137 |        2     |      nan     |
-| Ca5P3HO13   | MaterialsProject | apatit_hidroksi     |             65.5   |          -3.223 |                 3.178 |        1.667 |        5.198 |
-| Ca4O44P16   | AFLOW            | fosfat_lain         |             68.5   |          -2.347 |                 2.215 |        0.25  |        5.3   |
+| Ca5P3O12F   | MaterialsProject | apatit_hidroksi     |              1.333 |          -3.42  |                 3.104 |        1.667 |        5.512 |
+| Ca10P6CO27  | MaterialsProject | apatit_hidroksi     |              3.333 |          -3.253 |                 3.053 |        1.667 |        5.137 |
+| Ca5P3HO13   | MaterialsProject | apatit_hidroksi     |              4.333 |          -3.223 |                 3.178 |        1.667 |        5.198 |
+| Ca10F2O24P6 | AFLOW            | apatit_hidroksi     |              7.167 |          -3.032 |                 3.096 |        1.667 |        5.518 |
+| Ca4P2O9     | MaterialsProject | tetrakalsium_fosfat |             15.667 |          -3.326 |                 3.08  |        2     |        4.484 |
+| Ca10P6O25   | MaterialsProject | apatit_hidroksi     |             26.5   |          -3.319 |                 2.978 |        1.667 |        3.148 |
+| Ca2P2O7     | MaterialsProject | dikalsium_fosfat    |             28     |          -3.213 |                 2.95  |        1     |        5.514 |
+| Ca10H2O26P6 | AFLOW            | apatit_hidroksi     |             29.333 |          -2.84  |                 3.051 |        1.667 |        5.204 |
+| Ca16O36P8   | AFLOW            | tetrakalsium_fosfat |             31.667 |          -2.937 |                 2.976 |        2     |        4.48  |
+| Ca(PO3)2    | MaterialsProject | dikalsium_fosfat    |             37.167 |          -2.971 |                 2.873 |        1     |        5.497 |
+| Ca10O25P6   | AFLOW            | apatit_hidroksi     |             39.333 |          -2.924 |                 2.977 |        1.667 |        3.177 |
+| Ca5P3O13    | MaterialsProject | apatit_hidroksi     |             44     |          -3.243 |                 3.054 |        1.667 |        0.532 |
+| CaPHO4      | MaterialsProject | dikalsium_fosfat    |             47.167 |          -2.8   |                 2.947 |        1     |        5.439 |
+| Ca8P6H12O29 | MaterialsProject | oktakalsium_fosfat  |             48.167 |          -2.621 |                 2.591 |        1.333 |        4.909 |
+| Ca16O56P16  | AFLOW            | dikalsium_fosfat    |             48.667 |          -2.8   |                 3.01  |        1     |        5.423 |
 
-**Validasi material rujukan:** HAp MP rho = 3.18 g/cm3 (literatur 3.16, selisih <1%);
-fluorapatit 3.10-3.21 (lit. 3.19); COD HAp rata-rata 3.07. Karbonat apatit, FAp, dan OCP
-yang menempati peringkat teratas adalah bahan graft tulang yang dikenal di klinik
--> hasil kerangka konsisten dengan pengetahuan material.
+**Klaim jujur (koreksi sirkularitas 2026-11-04):**
+- QC sumber data (nilai DATABASE vs literatur): selisih densitas <= 2.9% — ini menguji basis data, bukan model.
+- Validasi INDEPENDEN prediksi MODEL vs eksperimen (Wagman/NBS + densitas kristalografi, 6 fase):
+  densitas MAE 0.007 g/cm3; Eform MAE 0.353 eV/atom (terbaik TTCP -0.05, monetit -0.06;
+  terburuk brushit +0.49 — fase terhidrasi di luar distribusi pelatihan). Lihat laporan_validasi_independen.md.
+- Kriteria MCDM dirancang dari kebutuhan jaringan tulang -> peringkat atas apatitik ADALAH konstruksi,
+  bukan 'penemuan ulang'. b-TCP (graft resorbabel standar) di luar 15 besar karena kriteria belum
+  memuat resorbabilitas -> arah pengembangan kriteria berikutnya.
 
 ## 5. Interpretasi (SHAP)
 

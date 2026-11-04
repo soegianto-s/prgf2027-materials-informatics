@@ -50,7 +50,9 @@ def main():
         k["bulk_K_GPa"].notna() & k["shear_G_GPa"].notna(),
         9 * k["bulk_K_GPa"] * k["shear_G_GPa"] / (3 * k["bulk_K_GPa"] + k["shear_G_GPa"]), np.nan)
     k["C_stabilitas"] = -k["Eform_eV_atom"]
-    k["C_densitas"] = -np.abs(k["densitas_final_gcm3"] - 2.0)
+    rho = k["densitas_final_gcm3"]
+    k["C_densitas"] = np.where(rho.between(1.0, 3.2), 0.0,
+                               -np.minimum((rho - 3.2).abs(), (rho - 1.0).abs()))
     k["C_cap"] = -np.abs(k["ca_p_ratio"] - 1.67)
     k["C_modulus"] = -np.abs(k["young_E_deriv_GPa"] - 15)
     k["C_bandgap"] = np.clip(k["bandgap_eV"].fillna(-1), 0, 5) / 5.0

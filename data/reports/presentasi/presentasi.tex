@@ -129,20 +129,16 @@ Rank & Candidate & Family \\
 \end{columns}
 \end{frame}
 
-\begin{frame}{Top candidates match clinical bone-graft materials}
-\centering
+\begin{frame}{Reading the ranking honestly}
 \begin{itemize}
-\item Carbonated apatite -- biomimetic bone mineral
-\item Fluorapatite -- highly stable apatite
-\item Octacalcium phosphate -- bone-growth precursor
-\item Tetracalcium phosphate -- bone-cement component
-\item Hydroxyapatite -- gold-standard scaffold
+\item Criteria encode bone-tissue design requirements $\Rightarrow$ top ranks are apatitic \emph{by construction} -- no ``rediscovery'' claim
+\item Top ranks: fluorapatite, carbonated apatite, HAp, TTCP (+ cement co-components monetite, OCP in shortlist)
+\item $\beta$-TCP (the standard \emph{resorbable} graft) ranks outside top-15: its clinical virtue, resorbability, is \emph{not} among our criteria -- clearest limitation \& next criterion to add
+\item BCP = HAp + $\beta$-TCP composite; both constituents in the pool
 \end{itemize}
-\vspace{2mm}
-The framework \textbf{rediscovered} the clinically established hierarchy from database descriptors alone.
 \end{frame}
 
-\begin{frame}{Validation against experiment}
+\begin{frame}{Dataset quality control (sources, not models)}
 \begin{table}
 \centering
 \begin{tabular}{llccc}
@@ -156,8 +152,17 @@ $\alpha$-TCP (P21/a) & $a, b, c$ (\AA) & 12.887, 27.28, 15.219 & 12.89, 27.28, 1
 Carbonated apatite & $\rho$ (g/cm$^3$) & 3.053 & 3.0 & $+1.8$\% \\
 \bottomrule
 \end{tabular}
-\caption{Formation energies: HAp $-3.22$ vs $-3.15$ eV/atom (standard enthalpy); FAp $-3.42$ vs $-3.39$.}
+\caption{Formation energies: HAp $-3.22$ vs $-3.15$ eV/atom (standard enthalpy); FAp $-3.42$ vs $-3.39$. Note: lattice check is circular (COD stores the same literature structures).}
 \end{table}
+\end{frame}
+
+\begin{frame}{Independent validation: ML predictions vs experiment}
+\begin{itemize}\small
+\item Models trained ONLY on database entries; tested on experimental thermochemistry (Wagman/NBS) \& crystallographic densities of 6 CaP phases
+\item \textbf{Density: MAE = 0.007 g/cm$^3$} -- excellent
+\item \textbf{Formation energy: MAE = 0.353 eV/atom} -- comparable to the DFT databases themselves; best: TTCP $-0.05$, monetite $-0.06$ eV/atom; worst: brushite $+0.49$ (hydrated phase, outside training distribution)
+\item Cross-database: trained MP+AFLOW, tested on 280 OQMD entries $\Rightarrow R^2 = 0.951$
+\end{itemize}
 \end{frame}
 
 \begin{frame}{Interpretability: SHAP}

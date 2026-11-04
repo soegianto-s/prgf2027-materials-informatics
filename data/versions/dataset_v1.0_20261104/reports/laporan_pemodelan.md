@@ -1,5 +1,5 @@
 # Laporan Pemodelan Machine Learning
-**Tanggal:** 2026-11-04 05:52:46
+**Tanggal:** 2026-11-04 06:58:16
 **Tahapan:** Bagian 7 panduan utama | Subset pemodelan: MP+AFLOW (komputasional)
 
 ## Regresi: Eform_eV_atom (n=291, GroupKFold berbasis komposisi)
@@ -40,20 +40,20 @@
 | frac_H              | 0.001 |
 | frac_F              | 0     |
 - Fitur terpilih RFE (8): ['ca_p_ratio', 'EN_avg', 'berat_molekul', 'volume_A3', 'densitas_final_gcm3', 'frac_Ca', 'frac_P', 'frac_O']
-## Klasifikasi Kelayakan Scaffold (n=571, kelas 1 = 79)
+## Klasifikasi Kelayakan Scaffold (n=571, kelas 1 = 116)
 - Definisi layak: Eform <= -2.5 eV/atom & Ca/P 1.2-2.1 & densitas 0.5-4.5 g/cm3
-- Akurasi: 0.941 +/- 0.114 | F1: 0.596 +/- 0.487
+- Akurasi: 0.961 +/- 0.047 | F1: 0.777 +/- 0.389
 - Confusion matrix (prediksi vs aktual):
 ```
-[[492   0]
- [ 20  59]]
+[[449   6]
+ [ 12 104]]
 ```
 - Classification report:
               precision    recall  f1-score   support
 
-           0       0.96      1.00      0.98       492
-           1       1.00      0.75      0.86        79
+           0       0.97      0.99      0.98       455
+           1       0.95      0.90      0.92       116
 
-    accuracy                           0.96       571
-   macro avg       0.98      0.87      0.92       571
-weighted avg       0.97      0.96      0.96       571
+    accuracy                           0.97       571
+   macro avg       0.96      0.94      0.95       571
+weighted avg       0.97      0.97      0.97       571

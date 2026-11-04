@@ -63,10 +63,14 @@ konsisten dengan literatur biomaterial tulang.
 
 {top15[['formula','sumber','kelompok','peringkat_rerata','Eform_eV_atom','densitas_final_gcm3','ca_p_ratio','bandgap_eV']].round(3).to_markdown(index=False)}
 
-**Validasi material rujukan:** HAp MP rho = 3.18 g/cm3 (literatur 3.16, selisih <1%);
-fluorapatit 3.10-3.21 (lit. 3.19); COD HAp rata-rata 3.07. Karbonat apatit, FAp, dan OCP
-yang menempati peringkat teratas adalah bahan graft tulang yang dikenal di klinik
--> hasil kerangka konsisten dengan pengetahuan material.
+**Klaim jujur (koreksi sirkularitas 2026-11-04):**
+- QC sumber data (nilai DATABASE vs literatur): selisih densitas <= 2.9% — ini menguji basis data, bukan model.
+- Validasi INDEPENDEN prediksi MODEL vs eksperimen (Wagman/NBS + densitas kristalografi, 6 fase):
+  densitas MAE 0.007 g/cm3; Eform MAE 0.353 eV/atom (terbaik TTCP -0.05, monetit -0.06;
+  terburuk brushit +0.49 — fase terhidrasi di luar distribusi pelatihan). Lihat laporan_validasi_independen.md.
+- Kriteria MCDM dirancang dari kebutuhan jaringan tulang -> peringkat atas apatitik ADALAH konstruksi,
+  bukan 'penemuan ulang'. b-TCP (graft resorbabel standar) di luar 15 besar karena kriteria belum
+  memuat resorbabilitas -> arah pengembangan kriteria berikutnya.
 
 ## 5. Interpretasi (SHAP)
 
