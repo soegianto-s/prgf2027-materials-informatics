@@ -74,14 +74,28 @@ def vc_relax(tag, np_proc):
     # quote wajib: tag memuat tanda kurung, mis. top26_Ca3(PO4)2
     mnt = f"'/mnt/d/latex/prgf2026/data/dft/{tag}'"
     nat = f"'/root/dft/{tag}'"
+    # JANGAN hapus dir native: out/<tag>.save dipertahankan agar QE bisa RESTART
+    # setelah listrik mati/reboot (rugi turun dari 1 fase ke beberapa langkah ionik).
     rc, log = wsl(
-        f"rm -rf {nat} && mkdir -p {nat}/out {nat}/pseudo && "
-        f"cp {mnt}/relax.in {mnt}/POSCAR {nat}/ && cp {mnt}/pseudo/* {nat}/pseudo/ && "
+        f"mkdir -p {nat}/out {nat}/pseudo && "
+        f"cp {mnt}/relax.in {nat}/ && cp {mnt}/pseudo/* {nat}/pseudo/ && "
         f"cd {nat} && "
+        f"if [ -d 'out/{tag}.save' ]; then "
+        f"  sed -i \"/calculation = 'vc-relax'/a\\  restart_mode = 'restart'\" relax.in; "
+        f"fi; "
         f"OMP_NUM_THREADS=12 pw.x -in relax.in > relax.out 2>&1; "
         f"cp relax.out {mnt}/relax.out",
         timeout=8 * 3600)
     print(f"{tag}: rc={rc} waktu={time.time()-t0:.0f}s", flush=True)
+    if rc != 0 and "restart_mode" in (d / "relax.in").read_text(encoding="utf-8"):
+        # .save korup (mati mendadak) -> bersihkan dan mulai fase dari awal
+        print(f"{tag}: restart gagal, bersihkan save & ulangi dari awal...", flush=True)
+        rc, log = wsl(
+            f"cd {nat} && rm -rf out && mkdir -p out && "
+            f"cp {mnt}/relax.in . && "
+            f"OMP_NUM_THREADS=12 pw.x -in relax.in > relax.out 2>&1; "
+            f"cp relax.out {mnt}/relax.out",
+            timeout=8 * 3600)
     if rc != 0:
         print(log[-500:])
     return sudah_selesai(out)
