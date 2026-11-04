@@ -25,7 +25,8 @@ from validasi_mlff import vrh
 DFT = ROOT / "data" / "dft"
 PSEUDO_DIR = DFT / "pseudo"
 URUT = ["top26_Ca3(PO4)2", "top1_Ca5P3O12F", "top2_Ca10P6O25", "top5_Ca10P6CO27", "top6_Ca5P3HO13"]
-STRAIN_POLA = [(1, 0, 0), (0, 1, 0), (0, 0, 1), (0, 0, 0.5), (0, 0.5, 0), (0.5, 0, 0)]  # indeks Voigt
+STRAIN_POLA = [(1, 0, 0, 0, 0, 0), (0, 1, 0, 0, 0, 0), (0, 0, 1, 0, 0, 0),
+               (0, 0, 0, 1, 0, 0), (0, 0, 0, 0, 1, 0), (0, 0, 0, 0, 0, 1)]  # komponen Voigt
 AMP = 0.01
 HASIL = ROOT / "data" / "validasi_dft"
 HASIL.mkdir(exist_ok=True, parents=True)
@@ -86,17 +87,32 @@ def vc_relax(tag, np_proc):
     return sudah_selesai(out)
 
 
-def strain_input(tag, pola, tanda):
-    """Buat scf_elastik_<i><s>.in dengan regangan Voigt pola*AMP*tanda pada sel awal relax.in."""
+def sel_terelaksasi(tag):
+    """Ambil sel + posisi FINAL dari relax.out -> perbarui relax.in (dasar regangan elastik)."""
+    d = DFT / tag
+    t = (d / "relax.out").read_text(encoding="utf-8", errors="replace")
+    if "CELL_PARAMETERS (angstrom)" not in t or "ATOMIC_POSITIONS (crystal)" not in t:
+        return False
+    # blok final = kemunculan terakhir masing-masing
+    sel = t.split("CELL_PARAMETERS (angstrom)")[-1].split("\n", 1)[1].split("\n\n")[0]
+    pos = t.split("ATOMIC_POSITIONS (crystal)")[-1].split("\n", 1)[1].split("\n\n")[0]
+    rel = (d / "relax.in").read_text(encoding="utf-8")
+    kepala = rel.split("CELL_PARAMETERS angstrom")[0]
+    kp = "K_POINTS" + rel.split("K_POINTS")[1]
+    (d / "relax.in").write_text(
+        kepala + "CELL_PARAMETERS angstrom\n" + sel + "\n"
+        "ATOMIC_POSITIONS crystal\n" + pos + "\n" + kp)
+    return True
+
+
+def strain_input(tag, pola, tanda, nama):
+    """Buat <nama>.in dengan regangan Voigt pola*AMP*tanda pada sel TERELAKSASI relax.in."""
     d = DFT / tag
     rel = (d / "relax.in").read_text(encoding="utf-8")
-    # ambil CELL_PARAMETERS
     sel = rel.split("CELL_PARAMETERS angstrom")[1].split("ATOMIC_POSITIONS")[0]
     garis = [g.split() for g in sel.strip().splitlines() if g.split()]
     lat = np.array([[float(x) for x in g] for g in garis[:3]])
-    eps = np.zeros(6)
-    eps[0], eps[1], eps[2], eps[3], eps[4], eps[5] = pola
-    eps = eps * AMP * tanda
+    eps = np.array(pola) * AMP * tanda
     F = np.array([[1 + eps[0], eps[5] / 2, eps[4] / 2],
                   [eps[5] / 2, 1 + eps[1], eps[3] / 2],
                   [eps[4] / 2, eps[3] / 2, 1 + eps[2]]])
@@ -108,9 +124,7 @@ def strain_input(tag, pola, tanda):
         + "ATOMIC_POSITIONS" + rel.split("ATOMIC_POSITIONS")[1]
     teks = teks.replace("calculation = 'vc-relax'", "calculation = 'scf'")
     teks = teks.replace("conv_thr = 1.0d-6", "conv_thr = 1.0d-8")
-    teks = teks.replace("tstress", "")  # stress wajib: pastikan ada
     teks = teks.replace("  prefix =", "  tstress = .true.\n  prefix =")
-    nama = f"scf_elastik_{''.join(str(p) for p in pola)}{'+' if tanda > 0 else '-'}.in"
     (d / nama).write_text(teks, encoding="utf-8")
     return nama
 
@@ -137,11 +151,12 @@ def parse_stress(tag, nama_in, np_proc):
 
 def elastik(tag, np_proc):
     d = DFT / tag
+    sel_terelaksasi(tag)
     c = np.zeros((6, 6))
     for i, pola in enumerate(STRAIN_POLA):
         sp, sm = None, None
         for tanda in [+1, -1]:
-            nama = strain_input(tag, pola, tanda)
+            nama = strain_input(tag, pola, tanda, f"scf_elastik_{i + 1}{'+' if tanda > 0 else '-'}.in")
             s = parse_stress(tag, nama, np_proc)
             if s is None:
                 print(f"{tag}: stress gagal {nama}, lewati regangan ini")
