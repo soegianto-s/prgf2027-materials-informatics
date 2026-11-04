@@ -1,0 +1,162 @@
+#------------------------------------------------------------------------------
+#$Date: 2025-11-01 14:29:51 +0200 (Sat, 01 Nov 2025) $
+#$Revision: 303136 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/47/9014798.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9014798
+loop_
+_publ_author_name
+'Tait, K. T.'
+'Barkley, M. C.'
+'Thompson, R. M.'
+'Origlieri, M. J.'
+'Evans, S. H.'
+'Prewitt, C. T.'
+'Yang, H.'
+_publ_section_title
+;
+ Bobdownsite, a new mineral species from Big Fish River, Yukon, Canada,
+ and its structural relationship with whitlockite-type compounds
+ Sample number R070654
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              1065
+_journal_page_last               1078
+_journal_paper_doi               10.3749/canmin.49.4.1065
+_journal_volume                  49
+_journal_year                    2011
+_chemical_compound_source        'Tip Top mine, South Dakota, USA'
+_chemical_formula_sum            'Al0.04 Ca9 F0.84 H0.16 Mg0.96 O27.16 P6.97'
+_chemical_name_mineral           Bobdownsite
+_space_group_IT_number           161
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   10.3394
+_cell_length_b                   10.3394
+_cell_length_c                   37.0836
+_cell_volume                     3433.232
+_database_code_amcsd             0018922
+_exptl_crystal_density_diffrn    3.052
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_original_formula_sum        'Ca9 (Mg.96 Al.04) P6.97 O27.16 (F.84 H.16)'
+_cod_database_code               9014798
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,1/2+z
+2/3+x,1/3+x-y,5/6+z
+1/3+x,2/3+x-y,1/6+z
+-y,-x,1/2+z
+2/3-y,1/3-x,5/6+z
+1/3-y,2/3-x,1/6+z
+-x+y,y,1/2+z
+2/3-x+y,1/3+y,5/6+z
+1/3-x+y,2/3+y,1/6+z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca1 0.03703 0.01956 0.01715 0.02116 -0.01176 -0.00842
+Ca2 0.01097 0.01029 0.01016 0.00593 -0.00061 -0.00140
+Ca3 0.01209 0.00913 0.01070 0.00510 -0.00259 -0.00070
+Mg 0.01252 0.01252 0.01243 0.00626 0.00000 0.00000
+Al 0.01252 0.01252 0.01243 0.00626 0.00000 0.00000
+P1A 0.00840 0.00840 0.01621 0.00420 0.00000 0.00000
+P1B 0.01074 0.01074 0.00667 0.00537 0.00000 0.00000
+P2 0.00915 0.00936 0.00915 0.00521 0.00044 0.00073
+P3 0.00874 0.00979 0.00828 0.00439 0.00021 0.00074
+O1 0.02380 0.02091 0.01092 0.01135 -0.00044 -0.00017
+O2 0.01753 0.01909 0.01519 0.01403 0.00250 0.00070
+O3 0.01122 0.00976 0.01197 0.00331 0.00188 0.00224
+O4 0.00818 0.00880 0.01811 0.00310 0.00257 0.00179
+O5 0.02488 0.01931 0.00850 0.01316 -0.00182 -0.00105
+O6 0.01460 0.01805 0.01320 0.01109 -0.00099 -0.00180
+O7 0.01513 0.01249 0.01589 0.00367 0.00007 0.00322
+O8 0.00827 0.01062 0.01572 0.00412 0.00081 0.00022
+F9 0.04343 0.04343 0.04937 0.02171 0.00000 0.00000
+O-H9 0.04343 0.04343 0.04937 0.02171 0.00000 0.00000
+O10 0.01766 0.01132 0.02970 0.00825 0.00700 0.00498
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.29139 0.15560 0.67238 1.00000 0.02147 Ca 0
+Ca2 0.28027 0.14660 0.56521 1.00000 0.01020 Ca 0
+Ca3 0.38790 0.18026 0.76766 1.00000 0.01073 Ca 0
+Mg 0.00000 0.00000 -0.00029 0.96000 0.01249 Mg 0
+Al 0.00000 0.00000 -0.00029 0.04000 0.01249 Al 0
+P1A 0.00000 0.00000 0.75328 0.81000 0.01100 P 0
+P1B 0.00000 0.00000 0.73141 0.16000 0.00938 P 0
+P2 0.31797 0.14350 0.86408 1.00000 0.00896 P 0
+P3 0.35050 0.15790 0.96726 1.00000 0.00905 P 0
+O1 0.27505 0.09304 0.82489 1.00000 0.01846 O 0
+O2 0.24781 0.23355 0.87747 1.00000 0.01510 O 0
+O3 0.27316 0.00185 0.88617 1.00000 0.01185 O 0
+O4 0.48916 0.24185 0.86830 1.00000 0.01220 O 0
+O5 0.40357 0.19701 0.00671 1.00000 0.01662 O 0
+O6 0.39911 0.04845 0.95381 1.00000 0.01399 O 0
+O7 0.41528 0.30367 0.94631 1.00000 0.01594 O 0
+O8 0.17901 0.07881 0.96363 1.00000 0.01181 O 0
+F9 0.00000 0.00000 0.79715 0.84000 0.04541 F 0
+O-H9 0.00000 0.00000 0.79715 0.16000 0.04541 O 1
+O10 -0.02014 0.12977 0.74149 1.00000 0.01912 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:55:31+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0018922
+2 ROD 1000119
+3 ROD 1000179
+4 ROD 1000295
+5 ROD 1000324
+6 ROD 1000431
+7 ROD 1000472
+8 ROD 1000477
+9 ROD 1000609
+10 ROD 1000618
+11 ROD 1000641

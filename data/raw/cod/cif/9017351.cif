@@ -1,0 +1,145 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/73/9017351.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017351
+loop_
+_publ_author_name
+'Lafuente, B.'
+'Downs, R. T.'
+'Yang H and Jenkins, R. A.'
+_publ_section_title
+;
+ Calcioferrite with composition (Ca3.94Sr0.06)Mg1.01(Fe2.93Al1.07)(PO4)6(OH)4*12H2O
+;
+_journal_name_full               'Acta Crystallographica, Section E'
+_journal_page_first              116
+_journal_page_last               117
+_journal_volume                  70
+_journal_year                    2014
+_chemical_compound_source        'Moculta quarry, Angaston, Australia'
+_chemical_formula_sum
+'Al0.534 Ca1.97 Fe1.465 H14 Mg0.5 O20 P3 Sr0.03'
+_chemical_name_mineral           Calcioferrite
+_space_group_IT_number           15
+_space_group_name_Hall           '-C 2yc'
+_space_group_name_H-M_alt        'C 1 2/c 1'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 91.161
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.1936
+_cell_length_b                   24.1959
+_cell_length_c                   6.3218
+_cell_volume                     1558.910
+_database_code_amcsd             0020012
+_exptl_crystal_density_diffrn    2.629
+_cod_data_source_file            inputs/fixed/downloads/12/12210.cif
+_cod_data_source_block           12210
+_cod_original_formula_sum        'Ca1.97 Sr.03 Mg.5 Fe1.465 Al.534 P3 O20 H14'
+_cod_database_code               9017351
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+-x,y,1/2-z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca1 0.01771 0.01033 0.01325 0.00000 -0.00077 0.00000
+Sr1 0.01771 0.01033 0.01325 0.00000 -0.00077 0.00000
+Ca2 0.01492 0.01555 0.01596 0.00000 0.00100 0.00000
+Mg 0.01147 0.00838 0.01918 0.00000 0.00001 0.00000
+Fe1 0.00809 0.00429 0.01035 -0.00082 0.00064 -0.00026
+Al1 0.00809 0.00429 0.01035 -0.00082 0.00064 -0.00026
+Fe2 0.00876 0.00546 0.00867 0.00000 0.00106 0.00000
+Al2 0.00876 0.00546 0.00867 0.00000 0.00106 0.00000
+P1 0.01288 0.01022 0.01132 0.00000 0.00190 0.00000
+P2 0.01602 0.00925 0.01639 0.00181 0.00494 0.00281
+O1 0.02226 0.01756 0.01976 0.00620 0.00828 0.00305
+O2 0.02197 0.01472 0.01265 0.00195 0.00223 0.00008
+O3 0.02039 0.01290 0.02329 0.00274 -0.00308 -0.00330
+O4 0.01962 0.01523 0.02581 0.00556 0.00685 0.00190
+O5 0.01600 0.01318 0.02824 0.00308 -0.00339 -0.00359
+O6 0.03240 0.02732 0.02607 0.00482 0.01376 0.01184
+O-h 0.01971 0.01154 0.02063 -0.00401 -0.00338 0.00478
+OW1 0.02986 0.04148 0.02262 -0.00337 -0.00551 0.00396
+OW2 0.02208 0.01941 0.02711 -0.00273 -0.00220 -0.00482
+Wat3A 0.03967 0.01842 0.02587 0.00872 -0.00617 -0.00463
+Wat3B 0.01844 0.01498 0.02595 0.00500 -0.00793 -0.00001
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.00000 0.06262 0.25000 0.97000 0.01378 Ca 0
+Sr1 0.00000 0.06262 0.25000 0.03000 0.01378 Sr 0
+Ca2 0.00000 0.33191 0.25000 1.00000 0.01546 Ca 0
+Mg 0.00000 0.47193 0.25000 0.50000 0.01301 Mg 0
+Fe1 0.25000 0.25000 0.00000 0.65100 0.00757 Fe 0
+Al1 0.25000 0.25000 0.00000 0.34900 0.00757 Al 0
+Fe2 0.00000 0.16865 -0.25000 0.81400 0.00762 Fe 0
+Al2 0.00000 0.16865 -0.25000 0.18500 0.00762 Al 0
+P1 0.50000 0.30208 -0.25000 1.00000 0.01145 P 0
+P2 0.26354 0.11351 0.96145 1.00000 0.01383 P 0
+O1 0.61355 0.26286 0.70741 1.00000 0.01975 O 0
+O2 0.47000 0.34019 0.56247 1.00000 0.01642 O 0
+O3 0.31304 0.17285 0.00510 1.00000 0.01891 O 0
+O4 0.37823 0.08573 0.85462 1.00000 0.02014 O 0
+O5 0.14385 0.11435 0.80555 1.00000 0.01919 O 0
+O6 0.22342 0.08585 0.16495 1.00000 0.02842 O 0
+O-h 0.36753 0.27149 0.23426 1.00000 0.01734 O 0
+OW1 0.15977 0.32890 0.52251 1.00000 0.03140 O 0
+OW2 0.11195 0.02555 0.57697 1.00000 0.02290 O 0
+Wat3A 0.11636 0.46651 0.60754 0.50000 0.02808 O 2
+Wat3B 0.11928 0.47925 0.53196 0.50000 0.01990 O 2
+H11 0.17798 0.34235 0.62021 1.00000 0.03000 H 0
+H12 0.21305 0.31142 0.48304 1.00000 0.03000 H 0
+H21 0.12256 0.05814 0.67317 1.00000 0.03000 H 0
+H22 0.19146 0.01559 0.55282 1.00000 0.03000 H 0
+H1 0.37163 0.24959 0.30337 1.00000 0.03000 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:58:08+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0020012

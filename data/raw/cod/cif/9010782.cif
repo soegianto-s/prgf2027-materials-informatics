@@ -1,0 +1,118 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/07/9010782.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9010782
+loop_
+_publ_author_name
+'Giester, G.'
+'Kolitsch, U.'
+'Leverett, P.'
+'Turner, P.'
+'Williams, P. A.'
+_publ_section_title
+;The crystal structures of lavendulan, sampleite, and a new polymorph of
+ sampleite Locality: Northparkes mine, Goonumbla, New South Wales, Australia
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              75
+_journal_page_last               93
+_journal_paper_doi               10.1127/0935-1221/2007/0019-0075
+_journal_volume                  19
+_journal_year                    2007
+_chemical_compound_source
+'Northparkes mine, Goonumbla, New South Wales, Australia'
+_chemical_formula_sum            'Ca Cl Cu5 H10 Na O21 P4'
+_chemical_name_mineral           Sampleite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90.07
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   9.676
+_cell_length_b                   19.284
+_cell_length_c                   9.766
+_cell_volume                     1822.256
+_database_code_amcsd             0007196
+_exptl_crystal_density_diffrn    3.230
+_cod_original_formula_sum        'Na Ca Cu5 P4 O21 Cl H10'
+_cod_database_code               9010782
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.28650 0.10320 0.63980 0.01120 Na 0
+Ca 0.76999 0.09306 0.14427 0.00430 Ca 0
+Cu1 0.04881 0.21185 0.14075 0.00320 Cu 0
+Cu2 0.51567 0.22076 0.14043 0.00330 Cu 0
+Cu3 0.28372 0.21763 0.36863 0.00290 Cu 0
+Cu4 0.28443 0.21228 -0.08722 0.00350 Cu 0
+Cu5 0.78575 0.09295 0.64142 0.00330 Cu 0
+P1 -0.01090 0.15821 0.43260 0.00290 P 0
+P2 -0.00860 0.15469 0.85030 0.00250 P 0
+P3 0.57860 0.16499 0.43280 0.00260 P 0
+P4 0.57860 0.16071 0.84730 0.00230 P 0
+O1 -0.06880 0.09280 0.50090 0.00400 O 0
+O2 -0.04880 0.15780 0.27680 0.00360 O 0
+O3 0.14570 0.16010 0.45920 0.01050 O 0
+O4 -0.07530 0.22550 0.49610 0.00590 O 0
+O5 -0.06910 0.08900 0.78270 0.00570 O 0
+O6 0.14660 0.15600 0.82220 0.00560 O 0
+O7 -0.04600 0.15470 1.00410 0.00410 O 0
+O8 -0.07510 0.22200 0.78290 0.00280 O 0
+O9 0.64770 0.10180 0.49680 0.00770 O 0
+O10 0.42170 0.16380 0.46200 0.00680 O 0
+O11 0.61330 0.16730 0.27660 0.00500 O 0
+O12 0.63650 0.23320 0.49740 0.00310 O 0
+O13 0.64730 0.09670 0.78550 0.00640 O 0
+O14 0.42330 0.15850 0.81930 0.00610 O 0
+O15 0.63720 0.22930 0.78010 0.00490 O 0
+O16 0.61370 0.16480 1.00370 0.00370 O 0
+Cl 0.29110 0.13745 0.14250 0.00530 Cl 0
+Wat1 0.85090 0.00090 0.29840 0.00770 O 2
+Wat2 0.23940 0.02360 0.38250 0.01750 O 2
+Wat3 0.45790 0.01690 0.61210 0.03400 O 2
+Wat4 0.83900 0.00430 -0.00630 0.01130 O 2
+Wat5 0.55760 0.02420 0.13370 0.03540 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:52:44+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0007196

@@ -1,0 +1,120 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/74/9017459.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017459
+loop_
+_publ_author_name
+'Rastsvetaeva, R. K.'
+'Barinova, A. V.'
+'Chukanov, N. V.'
+'Pietraszko, A.'
+_publ_section_title
+;
+ Crystal structure of a magnesium-rich triclinic analogue of greifensteinite
+;
+_journal_name_full               'Doklady Chemistry'
+_journal_page_first              191
+_journal_page_last               195
+_journal_volume                  398
+_journal_year                    2004
+_chemical_compound_source        'Galileia, Minas Gerais, Brazil'
+_chemical_formula_sum            'Al0.1 Be4 Ca2 Fe2.5 H16 Mg2.2 Mn0.2 O34 P6'
+_chemical_name_mineral           Atencioite
+_space_group_IT_number           2
+_space_group_name_Hall           '-P 1'
+_space_group_name_H-M_alt        'P -1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                73.53
+_cell_angle_beta                 85.60
+_cell_angle_gamma                86.93
+_cell_formula_units_Z            1
+_cell_length_a                   6.668
+_cell_length_b                   9.879
+_cell_length_c                   9.883
+_cell_volume                     622.127
+_database_code_amcsd             0019973
+_exptl_crystal_density_diffrn    2.853
+_cod_data_source_file            inputs/fixed/downloads/15/15036.cif
+_cod_data_source_block           15036
+_cod_original_formula_sum        'Ca2 Fe2.5 Mn.2 Al.1 Mg2.2 P6 Be4 O34 H16'
+_cod_database_code               9017459
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.74570 0.26050 0.73820 1.00000 0.01494 Ca 0
+Fe2+M1 0.00000 0.00000 0.00000 0.50000 0.01760 Fe 0
+Mn2+M1 0.00000 0.00000 0.00000 0.20000 0.01760 Mn 0
+AlM1 0.00000 0.00000 0.00000 0.10000 0.01760 Al 0
+MgM2 0.50000 0.00000 0.00000 0.20000 0.02026 Mg 0
+MgM3 0.49250 0.99340 0.66360 0.55000 0.01393 Mg 0
+Fe3+M3 0.49250 0.99340 0.66360 0.25000 0.01393 Fe 0
+Fe2+M3 0.49250 0.99340 0.66360 0.20000 0.01393 Fe 0
+Fe2+M4 -0.00210 0.66740 0.99040 0.55000 0.01684 Fe 0
+MgM4 -0.00210 0.66740 0.99040 0.45000 0.01684 Mg 0
+P1 0.24690 0.27030 0.72520 1.00000 0.01153 P 0
+P2 0.48000 0.69620 0.93040 1.00000 0.01115 P 0
+P3 -0.02450 0.93220 0.69730 1.00000 0.01001 P 0
+Be1 0.69800 0.51300 0.15300 1.00000 0.01773 Be 0
+Be2 0.80800 0.84360 0.49400 1.00000 0.01013 Be 0
+O1 0.20120 0.96020 0.32640 1.00000 0.01140 O 0
+O2 0.70000 0.32670 0.95910 1.00000 0.01393 O 0
+O3 0.44870 0.61990 0.81730 1.00000 0.01520 O 0
+O4 0.32590 0.36570 0.99370 1.00000 0.01520 O 0
+O5 0.66710 0.58730 0.28100 1.00000 0.01773 O 0
+O6 0.42140 0.16220 0.75390 1.00000 0.01520 O 0
+O7 0.06970 0.23000 0.84090 1.00000 0.01646 O 0
+O8 0.50590 0.85410 0.85960 1.00000 0.01267 O 0
+O9 0.17370 0.00370 0.63090 1.00000 0.01393 O 0
+O10 0.15730 0.28140 0.58480 1.00000 0.01646 O 0
+O11 0.93830 0.81730 0.62630 1.00000 0.01520 O 0
+O12 -0.00040 0.13570 0.14180 1.00000 0.01520 O 0
+O-H1 0.56130 0.86300 0.53790 1.00000 0.01140 O 1
+O-H2 0.93490 0.46360 0.13700 1.00000 0.01520 O 1
+Wat3 0.72040 0.04080 0.95710 1.00000 0.02913 O 2
+OW1 0.21890 0.48870 0.32680 1.00000 0.01900 O 0
+OW2 0.27400 0.67140 0.51530 1.00000 0.02660 O 0
+H1 -0.19400 0.57300 -0.41500 1.00000 0.03800 H 0
+H2 -0.31500 0.54600 -0.27600 1.00000 0.03800 H 0
+H3 0.79900 0.28900 0.45400 1.00000 0.03800 H 0
+H4 0.76700 0.40000 0.51000 1.00000 0.03800 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:58:14+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0019973

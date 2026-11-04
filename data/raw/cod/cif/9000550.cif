@@ -1,0 +1,173 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-08-07 20:09:39 +0300 (Wed, 07 Aug 2024) $
+#$Revision: 294031 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/05/9000550.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000550
+loop_
+_publ_author_name
+'Moore, P. B.'
+'Araki, T.'
+_publ_section_title
+;
+ Samuelsonite: its crystal structure and relation to apatite and octacalcium
+ phosphate
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              229
+_journal_page_last               245
+_journal_volume                  62
+_journal_year                    1977
+_chemical_formula_sum
+'Al2 Ba0.42 Ca8.92 Fe0.82 H2 Mn1.8 Na1.02 O42 P10'
+_chemical_name_mineral           Samuelsonite
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 112.75
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   18.495
+_cell_length_b                   6.805
+_cell_length_c                   14.000
+_cell_volume                     1624.935
+_database_code_amcsd             0000561
+_exptl_crystal_density_diffrn    3.313
+_cod_original_formula_sum
+'Ba.42 Ca8.92 Fe.82 Na1.02 Mn1.8 P10 Al2 O42 H2'
+_cod_database_code               9000550
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,z
+1/2+x,1/2-y,z
+-x,y,-z
+1/2-x,1/2+y,-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ba1 0.04156 0.01574 0.09390 0.00000 0.02889 0.00000
+Ca2_1 0.02461 0.01710 0.02238 0.00000 0.00792 0.00000
+Fe1 0.01827 0.01361 0.01250 0.00000 0.00681 0.00000
+Na1 0.01827 0.01361 0.01250 0.00000 0.00681 0.00000
+Mn2 0.01489 0.04054 0.01697 0.00000 0.00971 0.00000
+Na2 0.01489 0.04054 0.01697 0.00000 0.00971 0.00000
+Ca1 0.01556 0.01375 0.01562 0.00000 0.00792 0.00000
+Ca2_2 0.01695 0.01222 0.01562 0.00000 0.00725 0.00000
+Ca3 0.02564 0.01229 0.01723 0.00112 0.01183 0.00058
+P1 0.01326 0.01072 0.01174 0.00000 0.00770 0.00000
+P2 0.01430 0.01652 0.01300 0.00000 0.00747 0.00000
+P3 0.01739 0.01166 0.01056 0.00000 0.00826 0.00000
+P4 0.01444 0.01297 0.01182 0.00000 0.00714 0.00000
+P5 0.01533 0.01028 0.01224 0.00000 0.00736 0.00000
+Al 0.01371 0.01138 0.01072 -0.00135 0.00759 -0.00067
+O1 0.01385 0.01835 0.01748 0.00000 0.00725 0.00000
+O2 0.02063 0.02104 0.01208 0.00000 0.01160 0.00000
+O3 0.01547 0.01138 0.01790 -0.00353 0.01138 0.00125
+O4 0.01356 0.01290 0.01393 0.00000 0.00614 0.00000
+O5 0.01533 0.03162 0.01284 0.00000 0.00681 0.00000
+O6 0.02594 0.02635 0.01900 -0.03116 0.01305 -0.00739
+O7 0.01857 0.02262 0.01486 0.00000 0.00792 0.00000
+O8 0.03655 0.01731 0.00828 0.00000 0.01104 0.00000
+O9 0.02579 0.02001 0.01216 0.00894 0.00591 -0.00036
+O10 0.01783 0.02928 0.01351 0.00000 0.01004 0.00000
+O11 0.02137 0.01748 0.01562 0.00000 0.00904 0.00000
+O12 0.01945 0.01743 0.01951 -0.00071 0.00971 0.00107
+O13 0.02962 0.00997 0.01604 0.00000 0.01562 0.00000
+O14 0.02049 0.02491 0.01664 0.00000 -0.00056 0.00000
+O15 0.01562 0.01330 0.01174 0.00100 0.00636 0.00000
+O-H 0.01326 0.00608 0.01680 0.00000 0.01071 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ba1 0.50000 0.50000 0.50000 0.42000 Ba 0
+Ca2_1 0.41840 0.50000 0.41330 0.46000 Ca 0
+Fe1 0.00000 0.23760 0.00000 0.41000 Fe 0
+Na1 0.00000 0.23760 0.00000 0.41000 Na 0
+Mn2 0.06070 0.00000 0.24660 0.90000 Mn 0
+Na2 0.06070 0.00000 0.24660 0.10000 Na 0
+Ca1 0.41030 0.00000 0.15750 1.00000 Ca 0
+Ca2_2 0.11630 0.50000 0.42460 1.00000 Ca 0
+Ca3 0.25840 0.25280 0.30580 1.00000 Ca 0
+P1 0.16220 0.00000 0.10460 1.00000 P 0
+P2 0.41260 0.00000 0.37140 1.00000 P 0
+P3 0.18680 0.00000 0.44610 1.00000 P 0
+P4 0.07720 0.50000 0.15790 1.00000 P 0
+P5 0.36650 0.50000 0.18310 1.00000 P 0
+Al 0.25000 0.25000 0.00000 1.00000 Al 0
+O1 0.07510 0.00000 0.02840 1.00000 O 0
+O2 0.16340 0.00000 0.21560 1.00000 O 0
+O3 0.20540 0.18380 0.09470 1.00000 O 0
+O4 0.33860 0.00000 0.27160 1.00000 O 0
+O5 0.48160 0.00000 0.33880 1.00000 O 0
+O6 0.40870 0.18100 0.43520 1.00000 O 0
+O7 0.26420 0.00000 0.43040 1.00000 O 0
+O8 0.20370 0.00000 0.56010 1.00000 O 0
+O9 0.14030 0.18030 0.39010 1.00000 O 0
+O10 0.08340 0.50000 0.05160 1.00000 O 0
+O11 0.15450 0.50000 0.24920 1.00000 O 0
+O12 0.02780 0.31720 0.15940 1.00000 O 0
+O13 0.31920 0.50000 0.25090 1.00000 O 0
+O14 0.45390 0.50000 0.25400 1.00000 O 0
+O15 0.34670 0.31470 0.11310 1.00000 O 0
+O-H 0.20810 0.50000 -0.00310 1.00000 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:46:24+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+2
+;cod-tools version 3.10.1
+Id: cif_fix_AMCSD_aniso_labels 10200 2024-08-01 14:09:44Z saulius
+;
+2024-08-02T12:19:45+03:00
+;Changed the following '_atom_site_aniso_label' values:
+'OH' -> 'O-H'
+;
+3
+;cod-tools version 3.10.1
+Id: cif_fix_AMCSD_atom_labels 10224 2024-08-07 11:09:31Z saulius
+;
+2024-08-07T19:38:04+03:00
+;Changed the following '_atom_site_label' values:
+the first duplicated label 'Ca2'  converted to 'Ca2_1'
+duplicated label 'Ca2' at index 7 converted to 'Ca2_2'
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000561

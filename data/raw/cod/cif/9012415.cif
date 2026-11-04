@@ -1,0 +1,147 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-08-03 13:19:43 +0300 (Sat, 03 Aug 2024) $
+#$Revision: 293658 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/24/9012415.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012415
+loop_
+_publ_author_name
+'Gopal, R.'
+'Calvo, C.'
+'Ito, J.'
+'Sabine, W. K.'
+_publ_section_title
+;
+ Crystal structure of synthetic Mg-whitlockite, Ca18Mg2H2(PO4)14
+;
+_journal_name_full               'Canadian Journal of Chemistry'
+_journal_page_first              1155
+_journal_page_last               1164
+_journal_paper_doi               10.1139/v74-181
+_journal_volume                  52
+_journal_year                    1974
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'Ca9 H Mg O28 P7'
+_chemical_name_mineral           Whitlockite
+_space_group_IT_number           161
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   10.350
+_cell_length_b                   10.350
+_cell_length_c                   37.085
+_cell_volume                     3440.405
+_database_code_amcsd             0012160
+_exptl_crystal_density_diffrn    3.043
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_original_formula_sum        'Ca9 Mg P7 (O28 H)'
+_cod_database_code               9012415
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,1/2+z
+2/3+x,1/3+x-y,5/6+z
+1/3+x,2/3+x-y,1/6+z
+-y,-x,1/2+z
+2/3-y,1/3-x,5/6+z
+1/3-y,2/3-x,1/6+z
+-x+y,y,1/2+z
+2/3-x+y,1/3+y,5/6+z
+1/3-x+y,2/3+y,1/6+z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+CaIB 0.02510 0.01470 0.01410 0.01450 -0.00980 -0.00700
+CaIIB1 0.00890 0.00840 0.00780 0.00440 -0.00100 -0.00130
+CaIIB2 0.00910 0.00790 0.00810 0.00400 -0.00180 0.00020
+Mg 0.00680 0.00680 0.00800 0.00340 0.00000 0.00000
+PA 0.00790 0.00790 0.01130 0.00395 0.00000 0.00000
+PB1 0.00700 0.00620 0.00610 0.00320 0.00030 0.00000
+PB2 0.00560 0.00550 0.00550 0.00190 0.00060 0.00110
+O-HIA 0.03100 0.03100 0.00800 0.01550 0.00000 0.00000
+OIIA 0.01700 0.00900 0.01800 0.00900 0.00700 0.00500
+OIB1 0.01700 0.01600 0.00600 0.00900 0.00100 -0.00100
+OIIB1 0.01200 0.01100 0.01100 0.00900 0.00000 -0.00100
+OIIB3 0.01100 0.00800 0.00800 0.00400 0.00000 0.00100
+OIIB5 0.00500 0.01000 0.01400 0.00500 0.00400 0.00200
+OIB2 0.01200 0.01100 0.00600 0.00500 -0.00200 -0.00100
+OIIB2 0.00700 0.01400 0.00900 0.00700 0.00000 0.00000
+OIIB4 0.01300 0.01000 0.01100 0.00300 0.00000 0.00200
+OIIB6 0.01000 0.01200 0.00800 0.00800 0.00000 -0.00100
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+CaIB 0.29510 0.15800 0.67200 Ca 0
+CaIIB1 0.28100 0.14680 0.56480 Ca 0
+CaIIB2 0.38800 0.18000 0.76760 Ca 0
+Mg 0.00000 0.00000 0.00000 Mg 0
+PA 0.00000 0.00000 0.75310 P 0
+PB1 0.31800 0.14330 0.86410 P 0
+PB2 0.35110 0.15780 0.96740 P 0
+O-HIA 0.00000 0.00000 0.79570 O 0
+OIIA -0.02190 0.12900 0.74070 O 0
+OIB1 0.27580 0.09100 0.82500 O 0
+OIIB1 0.24770 0.23340 0.87730 O 0
+OIIB3 0.27360 0.00250 0.88660 O 0
+OIIB5 0.48920 0.24210 0.86850 O 0
+OIB2 0.40630 0.19800 0.00650 O 0
+OIIB2 0.39940 0.04770 0.95390 O 0
+OIIB4 0.41510 0.30370 0.94600 O 0
+OIIB6 0.17810 0.07820 0.96430 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:21:07+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+2
+;cod-tools version 3.10.1
+Id: cif_fix_AMCSD_aniso_labels 10200 2024-08-01 14:09:44Z saulius
+;
+2024-08-02T12:21:47+03:00
+;Changed the following '_atom_site_aniso_label' values:
+'OHIA' -> 'O-HIA'
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012160

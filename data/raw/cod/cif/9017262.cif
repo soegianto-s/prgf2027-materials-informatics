@@ -1,0 +1,145 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 10:14:51 +0300 (Thu, 18 May 2023) $
+#$Revision: 283850 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/72/9017262.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017262
+loop_
+_publ_author_name
+'Grey, I. E.'
+'Kampf, A. R.'
+'Smith, J. B.'
+'MacRae, C. M.'
+'Keck, E.'
+_publ_section_title
+;
+ Fanfaniite, Ca4Mn2+Al4(PO4)6(OH,F)4*12H2O, a new mineral with a montgomeryite-type structure
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              647
+_journal_page_last               652
+_journal_volume                  31
+_journal_year                    2019
+_chemical_compound_source        'Foote spodumene mine, North Carolina, USA'
+_chemical_formula_sum            'Al1.96 Ca2 Fe0.1 H10 Mg0.06 Mn0.38 O20 P3'
+_chemical_name_mineral           Fanfaniite
+_space_group_IT_number           15
+_space_group_name_Hall           '-C 2yc'
+_space_group_name_H-M_alt        'C 1 2/c 1'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 91.54
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.021
+_cell_length_b                   24.137
+_cell_length_c                   6.226
+_cell_volume                     1505.382
+_database_code_amcsd             0020880
+_exptl_crystal_density_diffrn    2.577
+_cod_data_source_file            inputs/fixed/downloads/08/08631.cif
+_cod_data_source_block           08631
+_cod_original_cell_volume        1505.381
+_cod_original_formula_sum        'Ca2 Al1.96 Fe.1 Mn.38 Mg.06 P3 O20 H10'
+_cod_database_code               9017262
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+-x,y,1/2-z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca1 0.02110 0.01360 0.01740 0.00000 0.00370 0.00000
+Ca2 0.01650 0.01190 0.01640 0.00000 0.00340 0.00000
+Al1 0.01580 0.00770 0.01430 -0.00040 0.00280 0.00000
+Al2 0.01640 0.00740 0.01640 0.00000 0.00370 0.00000
+Fe2 0.01640 0.00740 0.01640 0.00000 0.00370 0.00000
+Mn 0.02130 0.01510 0.02550 0.00000 0.00380 0.00000
+Mg 0.02130 0.01510 0.02550 0.00000 0.00380 0.00000
+Fe 0.02130 0.01510 0.02550 0.00000 0.00380 0.00000
+P1 0.01560 0.00890 0.01510 0.00000 0.00300 0.00000
+P2 0.01710 0.00960 0.01880 0.00025 0.00500 0.00165
+O1 0.01760 0.01240 0.01950 0.00210 0.00420 0.00180
+O2 0.02270 0.00940 0.01770 0.00160 0.00240 0.00100
+O3 0.01900 0.01080 0.02040 -0.00020 -0.00020 -0.00140
+O4 0.02060 0.01290 0.02160 0.00360 0.00450 0.00090
+O5 0.01980 0.01050 0.02610 -0.00090 -0.00020 -0.00170
+O6 0.02530 0.02260 0.02900 0.00370 0.01160 0.01390
+O-h1 0.01800 0.01140 0.01650 -0.00180 0.00290 0.00070
+Ow1 0.02240 0.02980 0.02340 -0.00600 -0.00140 0.00630
+Ow2 0.02380 0.01220 0.02150 -0.00010 0.00160 -0.00160
+Ow3 0.02690 0.06240 0.06800 0.00720 -0.00480 -0.03950
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.00000 0.06077 0.25000 1.00000 0.01730 Ca 0
+Ca2 0.00000 0.33045 0.25000 1.00000 0.01490 Ca 0
+Al1 0.25000 0.25000 0.00000 1.00000 0.01260 Al 0
+Al2 0.00000 0.17112 0.75000 0.96000 0.01330 Al 0
+Fe2 0.00000 0.17112 0.75000 0.04000 0.01330 Fe 0
+Mn 0.00000 0.47293 0.25000 0.38000 0.02060 Mn 0
+Mg 0.00000 0.47293 0.25000 0.06000 0.02060 Mg 0
+Fe 0.00000 0.47293 0.25000 0.06000 0.02060 Fe 0
+P1 0.50000 0.30003 0.75000 1.00000 0.01310 P 0
+P2 0.25905 0.11577 0.96033 1.00000 0.01508 P 0
+O1 0.61727 0.26095 0.70730 1.00000 0.01640 O 0
+O2 0.47034 0.33741 0.55570 1.00000 0.01660 O 0
+O3 0.31035 0.17504 0.01110 1.00000 0.01680 O 0
+O4 0.37609 0.08755 0.85170 1.00000 0.01830 O 0
+O5 0.13740 0.11758 0.79980 1.00000 0.01880 O 0
+O6 0.21942 0.08679 0.16600 1.00000 0.02540 O 0
+O-h1 0.37037 0.27164 0.22030 1.00000 0.01530 O 0
+Ow1 0.16450 0.32854 0.52520 1.00000 0.02530 O 0
+Ow2 0.11258 0.02580 0.58170 1.00000 0.01910 O 0
+Ow3 0.12260 0.47368 0.56830 1.00000 0.05240 O 0
+H12 0.23700 0.31900 0.45400 1.00000 0.07000 H 0
+H22 0.19000 0.01600 0.54400 1.00000 0.07000 H 0
+H11 0.18700 0.35100 0.62500 1.00000 0.07000 H 0
+H21 0.11900 0.05350 0.67400 1.00000 0.07000 H 0
+H1 0.34700 0.26200 0.34000 1.00000 0.07000 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T08:46:39+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0020880

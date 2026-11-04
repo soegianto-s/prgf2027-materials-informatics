@@ -1,0 +1,175 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-01-23 14:43:58 +0200 (Tue, 23 Jan 2018) $
+#$Revision: 205493 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/4/34/11/4341176.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4341176
+loop_
+_publ_author_name
+'Ji, Haipeng'
+'Huang, Zhaohui'
+'Xia, Zhiguo'
+'Molokeev, Maxim S.'
+'Atuchin, Victor V.'
+'Huang, Saifang'
+_publ_section_title
+;
+ Cation Substitution Dependent Bimodal Photoluminescence in Whitlockite
+ Structural Ca3-xSrx(PO4)2:Eu(2+) (0 &#x2264; x &#x2264; 2) Solid Solution
+ Phosphors.
+;
+_journal_issue                   20
+_journal_name_full               'Inorganic chemistry'
+_journal_page_first              11119
+_journal_page_last               11124
+_journal_paper_doi               10.1021/ic501679f
+_journal_volume                  53
+_journal_year                    2014
+_chemical_formula_moiety
+'O72 P18 Sr1.98, 24(O4 P), 4.29(Sr), 62.13(Ca)'
+_chemical_formula_sum            'Ca62.13 O168 P42 Sr6.27'
+_chemical_formula_weight         7028.29
+_space_group_IT_number           161
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   10.47574(41)
+_cell_length_b                   10.47574(41)
+_cell_length_c                   37.4923(15)
+_cell_measurement_temperature    300
+_cell_volume                     3563.2(2)
+_diffrn_ambient_temperature      300
+_diffrn_measurement_device_type
+;
+D8 ADVANCE Bruker
+;
+_diffrn_radiation_monochromator  none
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type
+;
+ Cu K\a~1~~2~
+;
+_exptl_absorpt_coefficient_mu    28.613
+_exptl_crystal_density_diffrn    3.275809
+_pd_char_colour
+;
+colourless
+;
+_pd_meas_2theta_range_inc        0.02
+_pd_meas_2theta_range_max        110
+_pd_meas_2theta_range_min        5
+_pd_meas_scan_method             step
+_pd_proc_ls_pref_orient_corr
+;
+Anisotropic model of PO. Spherical harmonics 4 ordrer.
+ Jarvinen (1993). Application of symmetrized harmonics expansion to correction
+of the preferred orientation effect. - J. Appl. Cryst. 26 p525-531.
+;
+_pd_proc_ls_profile_function     PearsonVII
+_pd_proc_ls_prof_R_factor        8.989
+_pd_proc_ls_prof_wR_expected     6.659
+_pd_proc_ls_prof_wR_factor       12.183
+_pd_proc_number_of_points        5250
+_pd_spec_mount_mode              reflection
+_refine_ls_goodness_of_fit_all   1.830
+_refine_ls_R_I_factor            4.08
+_refine_ls_shift/su_max          0.01000
+_cod_data_source_file            ic501679f_si_003.cif
+_cod_data_source_block           a
+_cod_depositor_comments
+'Adding full bibliography for 4341174--4341176.cif.'
+_cod_original_cell_volume        3563.21(31)
+_cod_original_sg_symbol_Hall
+;
+R 3 -2"c
+;
+_cod_original_sg_symbol_H-M      R3c
+_cod_original_formula_sum
+;
+Ca62.13 O168 P42 Sr6.27
+;
+_cod_database_code               4341176
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+y, -x, z'
+'-x+y, y, z+1/2'
+'-x+y+1/3, -x-1/3, z-1/3'
+'-x+y+1/3, y-1/3, z+1/6'
+'-x+y-1/3, -x+1/3, z+1/3'
+'-x+y-1/3, y+1/3, z-1/6'
+'-y, -x, z+1/2'
+'-y, x-y, z'
+'-y+1/3, -x-1/3, z+1/6'
+'-y+1/3, x-y-1/3, z-1/3'
+'-y-1/3, -x+1/3, z-1/6'
+'-y-1/3, x-y+1/3, z+1/3'
+'x, x-y, z+1/2'
+'x+1/3, y-1/3, z-1/3'
+'x+1/3, x-y-1/3, z+1/6'
+'x-1/3, y+1/3, z+1/3'
+'x-1/3, x-y+1/3, z-1/6'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Ca1 Ca 0.73059(62) 0.85328(86) 0.16517(36) 0.9896 1.30(21)
+Sr1 Sr 0.73059(62) 0.85328(86) 0.16517(36) 0.1104 1.30(21)
+Ca2 Ca 0.61516(58) 0.81276(84) -0.03348(35) 0.9896 1.00(19)
+Sr2 Sr 0.61516(58) 0.81276(84) -0.03348(35) 0.1104 1.00(19)
+Ca3 Ca 0.72183(50) 0.84555(66) 0.06052(35) 0.9896 1.00(18)
+Sr3 Sr 0.72183(50) 0.84555(66) 0.06052(35) 0.1104 1.00(18)
+Ca4 Ca 0 0 -0.08313(56) 0.4448(5) 0.50(41)
+Sr4 Sr 0 0 -0.08313(56) 0.0552(5) 0.50(41)
+Ca5 Ca 0 0 0.73314(44) 1 0.5
+P1 P 0 0 0 1 0.75(18)
+P2 P 0.68053(72) 0.8541(14) 0.86622(40) 1 0.75(18)
+P3 P 0.6535(13) 0.8449(12) 0.76577(41) 1 0.75(18)
+O1 O 0.7201(20) -0.0913(19) -0.09404(64) 1 0.50(18)
+O2 O 0.7704(22) 0.7889(22) 0.85731(64) 1 0.50(18)
+O3 O 0.7365(24) 0.0082(25) 0.84999(58) 1 0.50(18)
+O4 O 0.5111(18) 0.7554(27) 0.86022(57) 1 0.50(18)
+O5 O 0.6092(22) -0.0501(28) 0.77871(71) 1 0.50(18)
+O6 O 0.5789(20) 0.7004(21) 0.79003(60) 1 0.50(18)
+O7 O 0.0857(24) 0.8996(22) 0.78131(60) 1 0.50(18)
+O8 O 0.6408(15) 0.8301(19) 0.72658(53) 1 0.50(18)
+O9 O 0.0057(18) 0.8810(16) -0.00628(59) 1 0.50(18)
+O10 O 0 0 0.04706(80) 1 0.50(18)
+loop_
+_diffrn_radiation_wavelength
+_diffrn_radiation_wavelength_wt
+1.5406 1.0000
+1.5443 0.5000
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O2 P2 O1 105.9(14) 1_555 1_566
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ca1 O6 2.13(3) 6_664
+Ca1 O4 2.33(3) 6_664
+Ca1 O8 2.44(2) 14_564
+Ca1 O9 2.59(2) 10_665
+Ca1 O5 2.52(3) 13_654

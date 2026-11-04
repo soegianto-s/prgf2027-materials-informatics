@@ -1,0 +1,185 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-21 10:14:28 +0300 (Sun, 21 May 2023) $
+#$Revision: 283907 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/27/9002794.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9002794
+loop_
+_publ_author_name
+'Ballirano, P.'
+'Callegari, A.'
+'Caucia, F.'
+'Maras, A.'
+'Mazzi, F.'
+'Ungaretti, L.'
+_publ_section_title
+;
+ The crystal structure of vicanite - (Ce), a borosilicate showing an unusual
+ (Si3B3O18) polyanion
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1139
+_journal_page_last               1143
+_journal_volume                  87
+_journal_year                    2002
+_chemical_formula_sum
+;Al0.177 As1.19 B4 Ca8.01 Ce2.328 F8.749 Fe0.823 H La2.214 Na0.583 O38.461
+ P0.227 Si6 Th2.448
+;
+_chemical_name_mineral           Vicanite-(Ce)
+_space_group_IT_number           160
+_symmetry_space_group_name_Hall  'R 3 -2"'
+_symmetry_space_group_name_H-M   'R 3 m :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   10.8112
+_cell_length_b                   10.8112
+_cell_length_c                   27.3296
+_cell_volume                     2766.379
+_database_code_amcsd             0002883
+_exptl_crystal_density_diffrn    4.821
+_cod_original_sg_symbol_H-M      'R 3 m'
+_cod_original_formula_sum
+;Ce2.328 Ca8.01 La2.214 Th2.448 (Fe.823 Al.177) Si6 B4 As1.19 P.227 Na.583
+ O38.461 F8.749 H
+;
+_cod_database_code               9002794
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,z
+2/3+x,1/3+x-y,1/3+z
+1/3+x,2/3+x-y,2/3+z
+-y,-x,z
+2/3-y,1/3-x,1/3+z
+1/3-y,2/3-x,2/3+z
+-x+y,y,z
+2/3-x+y,1/3+y,1/3+z
+1/3-x+y,2/3+y,2/3+z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+CeM1 0.00920 0.00920 0.00870 0.00330 0.00070 -0.00070
+CaM1 0.00920 0.00920 0.00870 0.00330 0.00070 -0.00070
+LaM2 0.01350 0.01350 0.00970 0.00690 -0.00080 0.00080
+CaM2 0.01350 0.01350 0.00970 0.00690 -0.00080 0.00080
+CaM3 0.01580 0.01580 0.01560 0.00970 0.00180 -0.00180
+CeM3 0.01580 0.01580 0.01560 0.00970 0.00180 -0.00180
+CaM4 0.01320 0.01320 0.01110 0.00080 0.00200 -0.00200
+CeM4 0.01320 0.01320 0.01110 0.00080 0.00200 -0.00200
+ThM5 0.00820 0.00820 0.00880 0.00330 -0.00020 0.00020
+CaM5 0.00820 0.00820 0.00880 0.00330 -0.00020 0.00020
+Fe 0.00700 0.00700 0.00510 0.00350 0.00000 0.00000
+Al 0.00700 0.00700 0.00510 0.00350 0.00000 0.00000
+Si1 0.00910 0.00910 0.00910 0.00550 -0.00010 0.00010
+Si2 0.00830 0.00830 0.00890 0.00430 0.00010 -0.00010
+B1 0.01110 0.01110 0.00760 0.00580 -0.00060 0.00060
+B2 0.01430 0.01430 0.01820 0.00720 0.00000 0.00000
+As1 0.00920 0.00920 0.00780 0.00460 0.00000 0.00000
+P1 0.00920 0.00920 0.00780 0.00460 0.00000 0.00000
+As2 0.00780 0.00780 0.00670 0.00390 0.00000 0.00000
+Na 0.03110 0.03110 0.00910 0.01560 0.00000 0.00000
+O1 0.01160 0.01160 0.01350 0.00820 0.00020 -0.00020
+O2 0.01640 0.01640 0.00890 0.01240 0.00130 -0.00130
+O3 0.01220 0.01370 0.01320 0.00600 -0.00330 -0.00170
+O4 0.01100 0.01100 0.01570 0.00690 -0.00010 0.00010
+O5 0.01440 0.01440 0.00950 0.00800 -0.00030 0.00030
+O6 0.01080 0.01450 0.01420 0.00200 -0.00330 -0.00100
+O7 0.00810 0.00810 0.01140 0.00490 -0.00030 0.00030
+O8 0.01220 0.01220 0.00780 0.00870 -0.00090 0.00090
+O9 0.01520 0.01520 0.01330 0.00990 -0.00050 0.00050
+O10 0.01530 0.01530 0.01750 0.00770 0.00000 0.00000
+O11 0.01250 0.02890 0.01470 0.00940 -0.00060 -0.00080
+O12 0.01560 0.01560 0.02390 0.00740 0.00010 -0.00010
+F12 0.01560 0.01560 0.02390 0.00740 0.00010 -0.00010
+F13 0.01740 0.01740 0.04250 0.00870 0.00000 0.00000
+F14 0.01650 0.01970 0.02350 0.00880 -0.00720 -0.00170
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+CeM1 -0.13188 0.13188 -0.31881 0.75100 0.00960 Ce 0
+CaM1 -0.13188 0.13188 -0.31881 0.24900 0.00960 Ca 0
+LaM2 -0.13794 0.13794 0.09655 0.73800 0.01210 La 0
+CaM2 -0.13794 0.13794 0.09655 0.26200 0.01210 Ca 0
+CaM3 0.11490 -0.11490 -0.09790 0.99200 0.01490 Ca 0
+CeM3 0.11490 -0.11490 -0.09790 0.00800 0.01490 Ce 0
+CaM4 0.13025 -0.13025 0.46683 0.98300 0.01510 Ca 0
+CeM4 0.13025 -0.13025 0.46683 0.01700 0.01510 Ce 0
+ThM5 0.14125 -0.14125 0.21736 0.81600 0.00880 Th 0
+CaM5 0.14125 -0.14125 0.21736 0.18400 0.00880 Ca 0
+Fe 0.00000 0.00000 0.00000 0.82300 0.00640 Fe 0
+Al 0.00000 0.00000 0.00000 0.17700 0.00640 Al 0
+Si1 0.16920 -0.16920 0.04310 1.00000 0.00870 Si 0
+Si2 -0.17010 0.17010 -0.04040 1.00000 0.00840 Si 0
+B1 -0.07800 0.07800 0.29260 1.00000 0.00980 B 0
+B2 0.00000 0.00000 0.14670 1.00000 0.01560 B 0
+As1 0.00000 0.00000 -0.21070 0.77300 0.00880 As 0
+P1 0.00000 0.00000 -0.21070 0.22700 0.00880 P 0
+As2 0.00000 0.00000 -0.45760 0.41700 0.00740 As 0
+Na 0.00000 0.00000 -0.42640 0.58300 0.02380 Na 0
+O1 0.08210 -0.08210 0.04520 1.00000 0.01110 O 0
+O2 0.18670 -0.18670 -0.01490 1.00000 0.01200 O 0
+O3 0.32330 -0.06800 0.06940 1.00000 0.01320 O 0
+O4 -0.08370 0.08370 -0.04900 1.00000 0.01200 O 0
+O5 -0.19260 0.19260 0.01700 1.00000 0.01240 O 0
+O6 -0.32770 0.07830 -0.06430 1.00000 0.01510 O 0
+O7 0.07610 -0.07610 0.30450 1.00000 0.00890 O 0
+O8 -0.09510 0.09510 0.23890 1.00000 0.00960 O 0
+O9 0.07280 -0.07280 0.14430 1.00000 0.01350 O 0
+O10 0.00000 0.00000 -0.14910 1.00000 0.01610 O 0
+O11 0.16050 0.04600 -0.23320 0.50000 0.01910 O 0
+O12 -0.08120 0.08120 -0.49220 0.41700 0.01850 O 0
+F12 -0.08120 0.08120 -0.49220 0.58300 0.01850 F 0
+F13 0.00000 0.00000 -0.33660 1.00000 0.02580 F 0
+F14 0.02120 0.30580 -0.16120 1.00000 0.02000 F 0
+Wat 0.00000 0.00000 0.43500 0.21000 0.02000 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-21T08:52:00+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0002883

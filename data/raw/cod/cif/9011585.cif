@@ -1,0 +1,118 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 11:35:25 +0300 (Tue, 23 May 2023) $
+#$Revision: 283960 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/15/9011585.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011585
+loop_
+_publ_author_name
+'Gopal, R.'
+'Calvo, C.'
+_publ_section_title
+;
+ Structural relationship of whitlockite and beta-Ca3(PO4)2
+ Sample: Heated
+;
+_journal_name_full               'Nature Physical Science'
+_journal_page_first              30
+_journal_page_last               32
+_journal_paper_doi               10.1038/physci237030a0
+_journal_volume                  237
+_journal_year                    1972
+_chemical_compound_source        'Palermo Quarry'
+_chemical_formula_sum            'Ca9.267 Fe0.2 Mg0.8 O28 P7'
+_chemical_name_mineral           Whitlockite
+_space_group_IT_number           161
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   10.324
+_cell_length_b                   10.324
+_cell_length_c                   37.103
+_cell_volume                     3424.803
+_database_code_amcsd             0014685
+_exptl_crystal_density_diffrn    3.104
+_cod_original_cell_volume        3424.804
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_original_formula_sum        'Ca9.267 (Fe.2 Mg.8) P7 O28'
+_cod_database_code               9011585
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,1/2+z
+2/3+x,1/3+x-y,5/6+z
+1/3+x,2/3+x-y,1/6+z
+-y,-x,1/2+z
+2/3-y,1/3-x,5/6+z
+1/3-y,2/3-x,1/6+z
+-x+y,y,1/2+z
+2/3-x+y,1/3+y,5/6+z
+1/3-x+y,2/3+y,1/6+z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+CaIB 0.27510 0.14770 0.67461 1.00000 0.01270 Ca 0
+CaIIB1 0.27520 0.14370 0.56771 1.00000 0.00610 Ca 0
+CaIIB2 0.38040 0.17570 0.76879 1.00000 0.00750 Ca 0
+CaIIA 0.00000 0.00000 0.81190 0.26700 0.01300 Ca 0
+Fe 0.00000 0.00000 0.00000 0.20000 0.02400 Fe 0
+Mg 0.00000 0.00000 0.00000 0.80000 0.02400 Mg 0
+PA 0.00000 0.00000 0.73280 1.00000 0.00900 P 0
+PB1 0.31420 0.14000 0.86505 1.00000 0.00640 P 0
+PB2 0.34320 0.15260 0.96910 1.00000 0.00580 P 0
+OIB1 0.26650 0.08600 0.82650 1.00000 0.01300 O 0
+OIIB1 0.24790 0.23250 0.87960 1.00000 0.01300 O 0
+OIIB3 0.27730 0.01160 0.88800 1.00000 0.00600 O 0
+OIIB5 0.48770 0.24120 0.86780 1.00000 0.01000 O 0
+OIB2 0.37820 0.18320 0.00910 1.00000 0.01000 O 0
+OIIB2 0.39620 0.04440 0.95640 1.00000 0.00900 O 0
+OIIB4 0.41800 0.30180 0.94880 1.00000 0.01400 O 0
+OIIB6 0.17260 0.07620 0.96250 1.00000 0.00900 O 0
+OIA 0.00000 0.00000 0.69120 1.00000 0.01000 O 0
+OIIA -0.00820 0.13670 0.74630 1.00000 0.01700 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:25:12+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014685

@@ -1,0 +1,149 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/50/9015086.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9015086
+loop_
+_publ_author_name
+'Kampf, A. R.'
+'Nash, B. P.'
+'Loomis, T. A.'
+_publ_section_title
+;
+ Phosphovanadylite-Ca, Ca[V44+P2O8(OH)8]*12H2O, the Ca analogue of phosphovanadylite-Ba
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              439
+_journal_page_last               443
+_journal_paper_doi               10.2138/am.2013.4322
+_journal_volume                  98
+_journal_year                    2013
+_chemical_compound_source
+'South Rasmussen phosphate mine, Soda Springs, Caribou County, Idaho, USA'
+_chemical_formula_sum            'Al0.78 Ca1.5 H54.64 O45.32 P3 V5.22'
+_chemical_name_mineral           Phosphovanadylite-Ca
+_space_group_IT_number           217
+_symmetry_space_group_name_Hall  'I -4 2 3'
+_symmetry_space_group_name_H-M   'I -4 3 m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   15.441
+_cell_length_b                   15.441
+_cell_length_c                   15.441
+_cell_volume                     3681.512
+_database_code_amcsd             0019780
+_exptl_crystal_density_diffrn    2.201
+_cod_original_formula_sum        '(V5.22 Al.78) P3 O45.32 Ca1.5 H54.64'
+_cod_database_code               9015086
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,1/2+z
+-z,x,-y
+1/2-z,1/2+x,1/2-y
+-y,z,-x
+1/2-y,1/2+z,1/2-x
+-x,y,-z
+1/2-x,1/2+y,1/2-z
+x,-z,-y
+1/2+x,1/2-z,1/2-y
+z,-y,-x
+1/2+z,1/2-y,1/2-x
+y,-x,-z
+1/2+y,1/2-x,1/2-z
+x,z,y
+1/2+x,1/2+z,1/2+y
+z,y,x
+1/2+z,1/2+y,1/2+x
+y,x,z
+1/2+y,1/2+x,1/2+z
+-z,-x,y
+1/2-z,1/2-x,1/2+y
+-y,-z,x
+1/2-y,1/2-z,1/2+x
+-x,-y,z
+1/2-x,1/2-y,1/2+z
+z,-x,-y
+1/2+z,1/2-x,1/2-y
+y,-z,-x
+1/2+y,1/2-z,1/2-x
+x,-y,-z
+1/2+x,1/2-y,1/2-z
+-x,z,-y
+1/2-x,1/2+z,1/2-y
+-z,y,-x
+1/2-z,1/2+y,1/2-x
+-y,x,-z
+1/2-y,1/2+x,1/2-z
+-x,-z,y
+1/2-x,1/2-z,1/2+y
+-z,-y,x
+1/2-z,1/2-y,1/2+x
+-y,-x,z
+1/2-y,1/2-x,1/2+z
+z,x,y
+1/2+z,1/2+x,1/2+y
+y,z,x
+1/2+y,1/2+z,1/2+x
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+V 0.04100 0.04100 0.04600 0.00700 -0.00050 -0.00050
+Al 0.04100 0.04100 0.04600 0.00700 -0.00050 -0.00050
+P 0.05100 0.04800 0.04800 0.00000 0.00000 0.00000
+O1 0.03500 0.03800 0.05300 -0.00100 0.01600 -0.00300
+O-H2 0.04600 0.04600 0.05900 -0.00700 -0.00800 -0.00800
+O-H3 0.04400 0.04400 0.04100 0.00500 0.00500 -0.00500
+Ca 0.25500 0.25500 0.31000 0.01000 -0.12800 0.12800
+Wat1 0.25500 0.25500 0.31000 0.01000 -0.12800 0.12800
+Wat2 0.19400 0.19400 0.19400 0.05000 0.05000 0.05000
+Wat3 0.11000 0.19000 0.11000 -0.02000 0.06000 -0.02000
+Wat4 0.13400 0.40000 0.13400 0.00900 0.00100 0.00900
+Wat5 0.15000 0.56000 0.56000 -0.11000 0.11000 0.13000
+Wat6 0.44000 0.44000 0.44000 0.21000 -0.21000 0.21000
+loop_
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+V 0 V 0.42846 0.42846 0.08140 0.87000 0.04260
+Al 0 Al 0.42846 0.42846 0.08140 0.13000 0.04260
+P 0 P 0.25000 0.50000 0.00000 1.00000 0.04900
+O 0 O1 0.43570 0.30590 0.05150 1.00000 0.04200
+O 1 O-H2 0.42140 0.42140 0.18660 1.00000 0.05000
+O 1 O-H3 0.55610 -0.55610 0.06640 1.00000 0.04300
+Ca 0 Ca 0.65900 -0.65900 0.16050 0.25000 0.27200
+O 2 Wat1 0.65900 -0.65900 0.16050 0.61000 0.27200
+O 2 Wat2 0.29380 0.29380 0.29380 1.00000 0.19400
+O 2 Wat3 0.33610 0.45200 0.33610 0.56000 0.13000
+O 2 Wat4 0.24510 0.49000 0.24510 1.00000 0.22100
+O 2 Wat5 0.34500 0.54200 -0.54200 0.67000 0.43000
+O 2 Wat6 0.30900 0.69100 -0.69100 0.54000 0.44000
+O 2 Wat7 0.29500 0.59600 -0.59600 0.20000 0.15000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0019780

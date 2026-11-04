@@ -1,0 +1,108 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-05-23 12:45:01 +0300 (Thu, 23 May 2024) $
+#$Revision: 292002 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/39/9013986.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9013986
+loop_
+_publ_author_name
+'Orlova, A. I.'
+'Khainakov, S. A.'
+'Loginova, E. E.'
+'Oleneva, T. A.'
+'Garcia Granda, S.'
+'Kurazhkovskaya, V. S.'
+_publ_section_title
+;
+ Calcium thorium phosphate (whitlockite-type mineral).
+ Synthesis and structure refinement
+;
+_journal_name_full               'Crystallography Reports'
+_journal_page_first              591
+_journal_page_last               597
+_journal_paper_doi               10.1134/S1063774509040087
+_journal_volume                  54
+_journal_year                    2009
+_chemical_compound_source        synthesized
+_chemical_formula_sum            'Ca10.381 O28 P7 Th0.119'
+_chemical_name_mineral           'Calcium Thorium Phosphate'
+_space_group_IT_number           161
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_length_a                   10.4372
+_cell_length_b                   10.4372
+_cell_length_c                   37.4876
+_cell_formula_units_Z            6
+_cell_volume                     3536.603
+_database_code_amcsd             0012417
+_exptl_crystal_density_diffrn    3.123
+_cod_original_cell_volume        3536.602
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_original_formula_sum        'Ca10.381 Th.119 P7 O28'
+_cod_database_code               9013986
+_amcsd_formula_title             'Calcium Thorium Phosphate'
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,1/2+z
+2/3+x,1/3+x-y,5/6+z
+1/3+x,2/3+x-y,1/6+z
+-y,-x,1/2+z
+2/3-y,1/3-x,5/6+z
+1/3-y,2/3-x,1/6+z
+-x+y,y,1/2+z
+2/3-x+y,1/3+y,5/6+z
+1/3-x+y,2/3+y,1/6+z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Ca1 0.71820 0.84500 0.16700 1.00000 0.00220
+Ca2 0.62700 0.82330 0.96760 1.00000 0.01080
+Ca3 0.71740 0.85950 0.06220 0.97000 0.01030
+Th3 0.71740 0.85950 0.06220 0.03000 0.01030
+Ca4 0.00000 0.00000 0.91530 0.47100 0.05600
+Th4 0.00000 0.00000 0.91530 0.02900 0.05600
+Ca5 0.00000 0.00000 0.73120 1.00000 0.00940
+P1 0.00000 0.00000 -0.00220 1.00000 0.02500
+P2 0.68120 0.84640 0.86580 1.00000 0.02500
+P3 0.65210 0.84670 0.76480 1.00000 0.02500
+O1 -0.01110 0.84590 0.97240 1.00000 0.02500
+O2 0.00000 0.00000 0.03530 1.00000 0.02500
+O3 0.71600 0.89170 0.90700 1.00000 0.02500
+O4 0.76180 0.77610 0.85440 1.00000 0.02500
+O5 0.74600 1.00960 0.85460 1.00000 0.02500
+O6 0.51750 0.76760 0.85950 1.00000 0.02500
+O7 0.59920 0.94200 0.78600 1.00000 0.02500
+O8 0.58020 0.68270 0.78110 1.00000 0.02500
+O9 0.81920 0.91280 0.77920 1.00000 0.02500
+O10 0.61940 0.81170 0.72880 1.00000 0.02500
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012417

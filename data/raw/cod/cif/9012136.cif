@@ -1,0 +1,132 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-05-16 09:36:09 +0300 (Thu, 16 May 2024) $
+#$Revision: 291877 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/21/9012136.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012136
+loop_
+_publ_author_name
+'Schroeder, L. W.'
+'Dickens, B.'
+'Brown, W. E.'
+_publ_section_title
+;
+ Crystallographic studies of the role of Mg as a stabilizing impurity in
+ beta-Ca3(PO4)2. II. Refinement of Mg-containing beta-Ca3(PO4)2
+ Sample: x = 0.11 Mg
+ Note: changed sign of O3(y) to match bond distances
+;
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              253
+_journal_page_last               262
+_journal_paper_doi               10.1016/0022-4596(77)90002-0
+_journal_volume                  22
+_journal_year                    1977
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'Ca10.115 Mg0.385 O28 P7'
+_chemical_name_mineral           Whitlockite
+_space_group_IT_number           161
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_length_a                   10.401
+_cell_length_b                   10.401
+_cell_length_c                   37.316
+_cell_formula_units_Z            6
+_cell_volume                     3496.036
+_database_code_amcsd             0013351
+_exptl_crystal_density_diffrn    3.077
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_original_formula_sum        'Ca10.115 Mg.385 P7 O28'
+_cod_database_code               9012136
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,1/2+z
+2/3+x,1/3+x-y,5/6+z
+1/3+x,2/3+x-y,1/6+z
+-y,-x,1/2+z
+2/3-y,1/3-x,5/6+z
+1/3-y,2/3-x,1/6+z
+-x+y,y,1/2+z
+2/3-x+y,1/3+y,5/6+z
+1/3-x+y,2/3+y,1/6+z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca1 0.00840 0.00840 0.00930 -0.00120 -0.00010 0.00460
+Ca2 0.00940 0.00760 0.00860 -0.00020 -0.00160 0.00370
+Ca3 0.04070 0.01710 0.01340 -0.00760 -0.00980 0.02100
+CaM4 0.01170 0.01170 0.01860 0.00000 0.00000 0.00590
+MgM4 0.01170 0.01170 0.01860 0.00000 0.00000 0.00590
+CaM5 0.01680 0.01680 0.01010 0.00000 0.00000 0.00840
+MgM5 0.01680 0.01680 0.01010 0.00000 0.00000 0.00840
+P1 0.00690 0.00690 0.01990 0.00000 0.00000 0.00350
+P2 0.01040 0.01130 0.00880 0.00120 0.00150 0.00740
+P3 0.00630 0.00700 0.00670 0.00030 -0.00040 0.00300
+O1 0.04810 0.03780 0.00810 0.00110 0.00140 0.03190
+O2 0.03680 0.03620 0.01500 0.00640 0.00800 0.03240
+O3 0.01070 0.00940 0.00850 0.00080 0.00100 0.00300
+O4 0.01380 0.00750 0.04150 0.00140 0.00190 0.00380
+O5 0.01390 0.01840 0.01020 -0.00300 -0.00220 0.01200
+O6 0.02070 0.01060 0.01370 0.00510 0.00320 0.00290
+O7 0.00700 0.00970 0.02420 -0.00300 -0.00390 0.00420
+O8 0.02550 0.02010 0.00690 -0.00090 -0.00060 0.01550
+O9 0.01790 0.01040 0.05120 0.00000 0.01490 0.00830
+O10 0.02860 0.02860 0.02000 0.00000 0.00000 0.01430
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ca1 -0.27490 -0.14230 0.16660 1.00000
+Ca2 -0.38330 -0.17720 -0.03390 1.00000
+Ca3 -0.27370 -0.14830 0.06040 1.00000
+CaM4 0.00000 0.00000 -0.08040 0.30500
+MgM4 0.00000 0.00000 -0.08040 0.19500
+CaM5 0.00000 0.00000 -0.26530 0.81000
+MgM5 0.00000 0.00000 -0.26530 0.19000
+P1 0.00000 0.00000 0.00000 1.00000
+P2 -0.31240 -0.13790 -0.13120 1.00000
+P3 -0.34570 -0.15290 -0.23340 1.00000
+O1 -0.26730 -0.08630 -0.09220 1.00000
+O2 -0.23830 -0.22400 -0.14450 1.00000
+O3 -0.27450 0.00380 -0.15250 1.00000
+O4 -0.48170 -0.23940 -0.13560 1.00000
+O5 -0.39970 -0.04680 -0.22110 1.00000
+O6 -0.42270 -0.30380 -0.21460 1.00000
+O7 -0.17870 -0.07860 -0.22510 1.00000
+O8 -0.37480 -0.17850 -0.27360 1.00000
+O9 0.00610 -0.13630 -0.01280 1.00000
+O10 0.00000 0.00000 0.04070 1.00000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0013351

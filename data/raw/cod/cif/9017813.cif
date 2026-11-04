@@ -1,0 +1,171 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 10:14:51 +0300 (Thu, 18 May 2023) $
+#$Revision: 283850 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/78/9017813.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017813
+loop_
+_publ_author_name
+'Krivovichev, S. V.'
+'Chernyatieva, A. P.'
+'Britvin, S. N.'
+'Yakovenchuk, V. N.'
+_publ_section_title
+;
+ The crystal structure of girvasite, NaCa2Mg3(PO4)3(CO3)(H2O)6, a complex
+ phosphate-carbonate hydrate based upon electroneutral heteropolyhedral layers
+ Note: T = 173 K
+;
+_journal_name_full               'Russian Geology and Geophysics'
+_journal_page_first              155
+_journal_page_last               163
+_journal_volume                  56
+_journal_year                    2015
+_chemical_compound_source
+'Zhelezny mine, Kovdor massif, Kola Peninsula, Russia'
+_chemical_formula_sum            'C H12 Ca2 Mg3 Na O21 P3'
+_chemical_name_mineral           Girvasite
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2ybc'
+_space_group_name_H-M_alt        'P 1 21/c 1'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 89.624
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.4784
+_cell_length_b                   12.2313
+_cell_length_c                   21.3494
+_cell_volume                     1691.674
+_database_code_amcsd             0020967
+_diffrn_ambient_temperature      173
+_exptl_crystal_density_diffrn    2.470
+_cod_data_source_file            inputs/fixed/downloads/19/19876.cif
+_cod_data_source_block           19876
+_cod_original_formula_sum        'Na Ca2 Mg3 P3 C O21 H12'
+_cod_database_code               9017813
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Na 0.01010 0.00950 0.00950 -0.00030 0.00040 -0.00020
+Ca1 0.00456 0.00468 0.00571 -0.00038 -0.00021 0.00018
+Ca2 0.00591 0.00536 0.00578 0.00050 0.00005 -0.00011
+Mg1 0.00400 0.00420 0.00540 0.00011 0.00015 -0.00011
+Mg2 0.00660 0.00640 0.00520 0.00064 -0.00069 -0.00027
+Mg3 0.00430 0.00450 0.00460 0.00038 -0.00028 -0.00036
+P1 0.00461 0.00477 0.00571 -0.00019 -0.00014 0.00005
+P2 0.00452 0.00458 0.00486 0.00004 -0.00021 -0.00020
+P3 0.00491 0.00592 0.00522 -0.00003 -0.00008 -0.00029
+C 0.00710 0.00730 0.00660 0.00110 0.00050 -0.00010
+O1 0.00580 0.00520 0.00740 -0.00130 -0.00020 -0.00110
+O2 0.00620 0.00960 0.00630 -0.00070 0.00120 0.00060
+O3 0.00490 0.00590 0.00860 0.00070 -0.00110 0.00060
+O4 0.00690 0.00650 0.00860 0.00060 -0.00060 -0.00180
+O5 0.00730 0.00670 0.00760 0.00080 0.00060 0.00130
+O6 0.00780 0.00660 0.00670 0.00010 -0.00190 -0.00110
+O7 0.00740 0.00490 0.00810 -0.00050 0.00100 0.00150
+O8 0.00740 0.00630 0.00560 0.00080 0.00040 0.00000
+O9 0.00590 0.00600 0.00730 0.00050 -0.00060 0.00050
+O10 0.00510 0.00790 0.00700 -0.00030 -0.00050 -0.00160
+O11 0.00680 0.00740 0.00780 0.00070 -0.00040 -0.00210
+O12 0.00670 0.00850 0.00660 0.00070 -0.00120 0.00150
+Ow13 0.00700 0.00730 0.00870 -0.00050 0.00070 0.00130
+O14 0.01050 0.00520 0.00710 -0.00120 -0.00110 0.00160
+Ow15 0.01240 0.00740 0.00800 0.00030 0.00030 -0.00120
+O16 0.00770 0.00690 0.00680 -0.00020 -0.00170 0.00030
+Ow17 0.00890 0.00870 0.00700 0.00060 -0.00050 -0.00050
+Ow18 0.00660 0.00940 0.00650 0.00090 0.00000 -0.00030
+O19 0.00800 0.00920 0.00920 -0.00190 -0.00200 -0.00100
+Ow20 0.00700 0.01110 0.00670 -0.00080 -0.00090 0.00030
+Ow21 0.01050 0.00810 0.01490 0.00070 0.00430 -0.00010
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.14773 0.20757 0.10527 0.00967 Na 0
+Ca1 0.43801 0.02010 0.24993 0.00498 Ca 0
+Ca2 0.67971 0.25007 0.34862 0.00569 Ca 0
+Mg1 0.94562 0.15856 0.71836 0.00452 Mg 0
+Mg2 0.62007 0.07221 0.11156 0.00610 Mg 0
+Mg3 0.25003 0.02842 0.63224 0.00447 Mg 0
+P1 0.43834 0.23332 0.71983 0.00503 P 0
+P2 0.90536 0.07165 0.23088 0.00465 P 0
+P3 0.75175 0.03410 0.59453 0.00535 P 0
+C 0.70530 0.03834 0.91051 0.00700 C 0
+O1 0.27129 0.14992 0.69957 0.00614 O 0
+O2 0.56724 0.00685 0.63779 0.00730 O 0
+O3 0.91068 0.00191 0.75458 0.00650 O 0
+O4 0.47074 0.18180 0.16814 0.00730 O 0
+O5 0.37361 0.20668 0.28045 0.00720 O 0
+O6 0.76394 0.00945 0.18514 0.00700 O 0
+O7 0.97151 0.17966 0.20125 0.00680 O 0
+O8 0.77604 0.08853 0.29220 0.00640 O 0
+O9 0.63732 0.17091 0.73697 0.00642 O 0
+O10 0.93679 0.08097 0.63212 0.00660 O 0
+O11 0.17690 0.07033 0.43966 0.00740 O 0
+O12 0.68505 0.12025 0.54579 0.00730 O 0
+Ow13 0.02777 0.19752 0.81492 0.00770 O 0
+O14 0.33790 0.05346 0.06098 0.00760 O 0
+Ow15 0.79611 0.17783 0.05795 0.00920 O 0
+O16 0.60557 0.05677 0.85916 0.00710 O 0
+Ow17 0.23630 0.05055 0.94354 0.00820 O 0
+Ow18 0.79694 0.11022 0.42313 0.00750 O 0
+O19 0.82946 0.10907 0.93232 0.00880 O 0
+Ow20 0.28478 0.13485 0.55629 0.00830 O 0
+Ow21 0.42020 0.24607 0.42432 0.01120 O 0
+H131 0.13100 0.23600 0.80910 0.02400 H 0
+H132 0.07900 0.14100 0.82490 0.02800 H 0
+H151 0.75200 0.24900 0.05750 0.04300 H 0
+H152 0.79700 0.15700 0.01930 0.04300 H 0
+H171 0.26300 0.05400 0.98290 0.03700 H 0
+H172 0.11300 0.06200 0.93930 0.02100 H 0
+H181 0.92100 0.10500 0.43030 0.04500 H 0
+H182 0.74000 0.11600 0.45630 0.05300 H 0
+H201 0.40300 0.13500 0.54960 0.02000 H 0
+H202 0.23300 0.10900 0.52220 0.02700 H 0
+H211 0.35700 0.30000 0.42890 0.01800 H 0
+H212 0.32800 0.18700 0.42720 0.02100 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T08:47:13+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0020967

@@ -1,0 +1,137 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-08-03 13:19:43 +0300 (Sat, 03 Aug 2024) $
+#$Revision: 293658 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/95/9009585.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009585
+loop_
+_publ_author_name
+'Fanfani, L.'
+'Nunzi, A.'
+'Zananni, P. F.'
+'Zanzari, A. R.'
+_publ_section_title
+;
+ The crystal structure of roscherite
+;
+_journal_name_full
+'Tschermaks Mineralogische und Petrographische Mitteilungen'
+_journal_page_first              266
+_journal_page_last               277
+_journal_volume                  22
+_journal_year                    1975
+_chemical_compound_source
+'Lavra da Ilha, Taquaral, Minas Gerais, Brazil'
+_chemical_formula_sum            'Al0.67 Be2 Ca Fe0.6 H7 Mg1.4 O17 P3'
+_chemical_name_mineral           Zanazziite
+_space_group_IT_number           15
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 95.43
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   15.874
+_cell_length_b                   11.854
+_cell_length_c                   6.605
+_cell_volume                     1237.288
+_database_code_amcsd             0015658
+_exptl_crystal_density_diffrn    2.768
+_cod_original_formula_sum        'Ca (Mg1.4 Fe.6) Al.67 Be2 P3 O17 H7'
+_cod_database_code               9009585
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+-x,y,1/2-z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca 0.00873 0.02755 0.02271 0.00000 0.00763 0.00000
+Mg 0.00683 0.02214 0.01757 -0.00123 0.00395 -0.00138
+Fe 0.00683 0.02214 0.01757 -0.00123 0.00395 -0.00138
+Al 0.00810 0.03168 0.03152 0.01898 0.00679 -0.01587
+Be 0.00772 0.02477 0.01890 -0.00123 0.00669 -0.00166
+P1 0.00544 0.01936 0.01520 -0.00104 0.00437 -0.00075
+P2 0.00569 0.02278 0.01531 0.00000 0.00268 0.00000
+O1 0.01809 0.02335 0.02151 -0.00607 0.00416 0.00008
+O2 0.00810 0.02734 0.02263 0.00152 0.00748 0.02369
+O3 0.00860 0.02484 0.01932 -0.00104 0.00200 0.00134
+O4 0.01189 0.02385 0.01881 0.00152 0.00458 -0.00261
+O5 0.01569 0.03068 0.01779 0.00683 0.00274 0.00166
+O6 0.00746 0.02798 0.03060 0.00057 0.00779 0.00095
+O-H7 0.00936 0.02435 0.01708 0.00009 0.00416 -0.00245
+O-H8 0.00898 0.03097 0.10032 0.00000 -0.00016 0.00000
+Wat9 0.01543 0.02655 0.02725 0.00076 0.00469 0.00024
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.00000 0.25990 0.25000 1.00000 Ca 0
+Mg 0.17140 0.16300 -0.00430 0.70000 Mg 0
+Fe 0.17140 0.16300 -0.00430 0.30000 Fe 0
+Al 0.00000 0.00000 0.00000 0.67000 Al 0
+Be 0.33220 0.17720 0.30240 1.00000 Be 0
+P1 0.18740 0.11660 0.47770 1.00000 P 0
+P2 0.00000 0.27270 0.75000 1.00000 P 0
+O1 0.14310 0.00230 0.50120 1.00000 O 0
+O2 0.28160 0.09890 0.45080 1.00000 O 0
+O3 0.14420 0.18240 0.29730 1.00000 O 0
+O4 0.18050 0.18490 0.67540 1.00000 O 0
+O5 0.04100 0.20060 0.92330 1.00000 O 0
+O6 0.06610 0.34960 0.66000 1.00000 O 0
+O-H7 0.29990 0.16360 0.06440 1.00000 O 1
+O-H8 0.00000 0.04280 0.75000 1.00000 O 1
+Wat9 0.09350 0.42050 0.22000 1.00000 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:58+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+2
+;cod-tools version 3.10.1
+Id: cif_fix_AMCSD_aniso_labels 10200 2024-08-01 14:09:44Z saulius
+;
+2024-08-02T12:21:21+03:00
+;Changed the following '_atom_site_aniso_label' values:
+'OH7' -> 'O-H7'
+'OH8' -> 'O-H8'
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0015658

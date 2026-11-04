@@ -1,0 +1,96 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/12/9001263.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_9001263
+loop_
+_publ_author_name
+'Hughes J M'
+'Cameron M'
+'Crowley K D'
+_publ_section_title
+;
+ Crystal structures of natural ternary apatites: Solid solution in the
+ Ca5(PO4)3X (X = F,OH,Cl) system
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              295
+_journal_page_last               304
+_journal_volume                  75
+_journal_year                    1990
+_chemical_formula_sum            'Ca5 Cl0.47 F0.29 H O12.24 P3'
+_chemical_name_mineral           Chlorapatite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2bc'
+_symmetry_space_group_name_H-M   'P 1 1 21/b'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                119.9739
+_cell_formula_units_Z            4
+_cell_length_a                   9.4877
+_cell_length_b                   18.9628
+_cell_length_c                   6.8224
+_cell_volume                     1063.274
+_cod_original_formula_sum        'Ca5 P3 O12.24 Cl.47 F.29 H'
+_cod_database_code               9001263
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,1/2+y,1/2-z
+-x,1/2-y,1/2+z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca11 0.33130 0.58243 0.00200 1.00000 0.01444 Ca 0
+Ca12 0.33560 0.58434 0.49800 1.00000 0.01912 Ca 0
+Ca21 0.25110 0.24809 0.24980 1.00000 0.01874 Ca 0
+Ca22 -0.00380 0.62258 0.74920 1.00000 0.01874 Ca 0
+Ca23 0.25500 0.37554 0.75030 1.00000 0.01887 Ca 0
+P1 0.40180 0.43534 0.25050 1.00000 0.01279 P 0
+P2 0.62920 0.26557 0.25080 1.00000 0.01292 P 0
+P3 0.03120 0.45093 0.75020 1.00000 0.01292 P 0
+O11 0.33460 0.49390 0.25100 1.00000 0.01786 O 0
+O12 0.48800 0.32680 0.75110 1.00000 0.01786 O 0
+O13 0.15340 0.58290 0.24920 1.00000 0.01786 O 0
+O21 0.58940 0.48250 0.24650 1.00000 0.02064 O 0
+O22 0.53460 0.31210 0.24900 1.00000 0.02052 O 0
+O23 0.12420 0.54470 0.74760 1.00000 0.02026 O 0
+O31 0.34410 0.38000 0.07090 1.00000 0.02533 O 0
+O32 0.73990 0.29260 0.07100 1.00000 0.02394 O 0
+O33 0.08460 0.42170 0.57100 1.00000 0.02444 O 0
+O34 0.35080 0.38170 0.43310 1.00000 0.02533 O 0
+O35 0.73650 0.29320 0.43290 1.00000 0.02660 O 0
+O36 0.08650 0.42580 0.93380 1.00000 0.02596 O 0
+ClB 0.00000 0.25070 0.13000 0.23500 0.01760 Cl 0
+ClA 0.00000 0.24940 0.43450 0.23500 0.01545 Cl 0
+F 0.00000 0.25020 0.23700 0.29000 0.01773 F 0
+O-H 0.00060 0.24980 0.34000 0.24000 0.00177 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:36:37+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;

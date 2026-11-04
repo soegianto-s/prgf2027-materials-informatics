@@ -1,0 +1,157 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-08-07 20:09:39 +0300 (Wed, 07 Aug 2024) $
+#$Revision: 294031 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/72/9017254.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017254
+loop_
+_publ_author_name
+'Elliott, P.'
+_publ_section_title
+;
+ Jahnsite-(CaFeMg), a new mineral from Tom's quarry, South Australia:
+ description and crystal structure
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              991
+_journal_page_last               996
+_journal_volume                  28
+_journal_year                    2016
+_chemical_compound_source        'Tom's quarry, South Australia, Australia'
+_chemical_formula_sum
+'Al0.01 Ca0.7 Fe3.23 H18 Mg1.33 Mn0.59 Na0.17 O26 P4'
+_chemical_name_mineral           Jahnsite-(CaFeMg)
+_space_group_IT_number           13
+_space_group_name_Hall           '-P 2ya'
+_space_group_name_H-M_alt        'P 1 2/a 1'
+_symmetry_space_group_name_H-M   'P 1 2/a 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 110.65
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   14.975
+_cell_length_b                   7.1645
+_cell_length_c                   9.928
+_cell_volume                     996.725
+_database_code_amcsd             0020893
+_exptl_crystal_density_diffrn    2.783
+_cod_data_source_file            inputs/fixed/downloads/08/08623.cif
+_cod_data_source_block           08623
+_cod_original_formula_sum
+'Ca.7 Na.17 Mn.59 Fe3.23 Mg1.33 Al.01 P4 O26 H18'
+_cod_database_code               9017254
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2-x,y,-z
+1/2+x,-y,z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+CaX 0.02020 0.00840 0.02700 0.00000 0.00000 0.00000
+NaX 0.02020 0.00840 0.02700 0.00000 0.00000 0.00000
+Mn2+X 0.02020 0.00840 0.02700 0.00000 0.00000 0.00000
+Fe2+M1 0.01080 0.01170 0.01770 0.00000 0.00840 0.00000
+MgM2_1 0.02140 0.00720 0.01580 -0.00710 -0.00520 0.00120
+Mn2+M2 0.02140 0.00720 0.01580 -0.00710 -0.00520 0.00120
+Fe3+M2 0.02140 0.00720 0.01580 -0.00710 -0.00520 0.00120
+MgM2_2 0.00670 0.00910 0.00600 0.00000 0.00200 0.00000
+Fe3+M3_1 0.00830 0.00170 0.01690 0.00010 0.00550 0.00000
+AlM3 0.00830 0.00170 0.01690 0.00010 0.00550 0.00000
+Fe3+M3_2 0.00620 0.00440 0.01270 0.00320 0.00370 -0.00060
+P1 0.00310 0.00600 0.01160 -0.00410 0.00030 0.00260
+P2 0.00580 0.00680 0.01100 -0.00090 0.00280 0.00250
+O1 0.01900 0.04100 0.03600 -0.00500 0.01400 0.00900
+O2 0.03100 0.02800 0.02600 0.00000 0.01200 0.00000
+O3 0.02200 0.00900 0.04700 -0.01000 -0.01000 0.00200
+O4 0.01400 0.01900 0.03600 0.00200 0.00900 0.00700
+O5 0.01200 0.04700 0.03000 0.00200 0.00300 0.00500
+O6 0.03400 0.01900 0.02900 0.00800 0.01500 0.00100
+O7 0.02800 0.01500 0.02900 -0.00800 0.01700 0.00200
+O8 0.02900 0.02200 0.04200 -0.00400 0.02200 0.00300
+O-H 0.01000 0.01200 0.02600 -0.00100 0.00450 0.00000
+Wat1 0.05100 0.02800 0.04100 -0.00500 0.01500 0.00900
+Wat2 0.05400 0.02200 0.02300 0.01100 -0.00800 -0.00700
+Wat3 0.02400 0.04300 0.05500 -0.01100 0.01700 -0.01000
+Wat4 0.03000 0.03200 0.04500 0.01000 0.01800 0.00200
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+CaX 0.25000 0.97840 0.00000 0.70000 0.02060 Ca 0
+NaX 0.25000 0.97840 0.00000 0.17000 0.02060 Na 0
+Mn2+X 0.25000 0.97840 0.00000 0.16000 0.02060 Mn 0
+Fe2+M1 0.25000 0.47860 0.00000 1.00000 0.01250 Fe 0
+MgM2_1 0.50000 0.00000 0.50000 0.33000 0.01800 Mg 0
+Mn2+M2 0.50000 0.00000 0.50000 0.43000 0.01800 Mn 0
+Fe3+M2 0.50000 0.00000 0.50000 0.24000 0.01800 Fe 0
+MgM2_2 0.25000 0.50360 0.50000 1.00000 0.00730 Mg 0
+Fe3+M3_1 0.00000 0.00000 0.00000 0.99000 0.00870 Fe 0
+AlM3 0.00000 0.00000 0.00000 0.01000 0.00870 Al 0
+Fe3+M3_2 0.00000 0.50000 0.00000 1.00000 0.00770 Fe 0
+P1 0.18729 0.26550 0.18890 1.00000 0.00750 P 0
+P2 0.08120 0.74700 0.79670 1.00000 0.00790 P 0
+O1 0.28060 0.24370 0.15230 1.00000 0.03070 O 0
+O2 0.20810 0.30190 0.34510 1.00000 0.02770 O 0
+O3 0.12750 0.08870 0.14040 1.00000 0.03150 O 0
+O4 0.14080 0.43390 0.08840 1.00000 0.02310 O 0
+O5 0.18710 0.68870 0.85780 1.00000 0.03080 O 0
+O6 0.05130 0.78320 0.63640 1.00000 0.02610 O 0
+O7 0.07460 0.92690 0.87760 1.00000 0.02220 O 0
+O8 0.01960 0.59140 0.82210 1.00000 0.02840 O 0
+O-H 0.02680 0.74930 0.09620 1.00000 0.01660 O 1
+Wat1 0.22310 0.72270 0.34670 1.00000 0.04020 O 2
+Wat2 0.45420 0.20860 0.34750 1.00000 0.03920 O 2
+Wat3 0.63010 0.99210 0.46540 1.00000 0.04000 O 2
+Wat4 0.39360 0.51240 0.51700 1.00000 0.03450 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:58:01+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+2
+;cod-tools version 3.10.1
+Id: cif_fix_AMCSD_atom_labels 10224 2024-08-07 11:09:31Z saulius
+;
+2024-08-07T19:40:22+03:00
+;Changed the following '_atom_site_label' values:
+the first duplicated label 'MgM2'  converted to 'MgM2_1'
+duplicated label 'MgM2' at index 7 converted to 'MgM2_2'
+the first duplicated label 'Fe3+M3'  converted to 'Fe3+M3_1'
+duplicated label 'Fe3+M3' at index 10 converted to 'Fe3+M3_2'
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0020893

@@ -1,0 +1,115 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-05-29 17:00:33 +0300 (Wed, 29 May 2024) $
+#$Revision: 292100 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/77/9017712.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017712
+loop_
+_publ_author_name
+'Pieczka, A.'
+'Hawthorne, F. C.'
+'Ball, N.'
+'Abdu, Y.'
+'Golebiowska, B.'
+'Wlodek, A.'
+'Zukrowski, J.'
+_publ_section_title
+;
+ Graftonite-(Mn), ideally M1MnM2,M3Fe2(PO4)2, and graftonite-(Ca),
+ ideally M1CaM2,M3Fe2(PO4)2, two new minerals of the graftonite group from Poland
+;
+_journal_name_full               'Mineralogical Magazine'
+_journal_page_first              1307
+_journal_page_last               1322
+_journal_volume                  82
+_journal_year                    2018
+_chemical_compound_source
+'type sample from phosphate pegmatites from Michalkowa, Poland'
+_chemical_formula_sum            'Ca0.98 Fe1.39 Mg0.05 Mn0.58 O8 P2'
+_chemical_name_mineral           Graftonite-(Ca)
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2ybc'
+_space_group_name_H-M_alt        'P 1 21/c 1'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 99.35
+_cell_angle_gamma                90
+_cell_length_a                   8.792
+_cell_length_b                   11.743
+_cell_length_c                   6.169
+_cell_formula_units_Z            4
+_cell_volume                     628.453
+_database_code_amcsd             0020875
+_exptl_crystal_density_diffrn    3.593
+_cod_data_source_file            inputs/fixed/downloads/18/18619.cif
+_cod_data_source_block           18619
+_cod_original_formula_sum        'Ca.98 Mn.58 Fe1.39 Mg.05 P2 O8'
+_cod_database_code               9017712
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+CaM1 0.01412 0.01124 0.01052 -0.00024 0.00090 -0.00061
+Mn2+M1 0.01412 0.01124 0.01052 -0.00024 0.00090 -0.00061
+Fe2+M2 0.01432 0.01943 0.00583 0.00428 0.00135 0.00027
+Fe2+M3 0.01407 0.01357 0.00900 0.00247 0.00107 0.00021
+Mn2+M3 0.01407 0.01357 0.00900 0.00247 0.00107 0.00021
+MgM3 0.01407 0.01357 0.00900 0.00247 0.00107 0.00021
+P1 0.00918 0.00907 0.00734 -0.00047 0.00160 0.00003
+P2 0.00871 0.01132 0.00563 0.00045 0.00144 -0.00008
+O1 0.01840 0.01200 0.00840 0.00130 0.00190 -0.00210
+O2 0.01210 0.01660 0.01060 0.00510 0.00330 0.00130
+O3 0.01180 0.01410 0.01250 0.00290 0.00390 0.00090
+O4 0.01330 0.01590 0.00690 -0.00140 0.00320 -0.00010
+O5 0.01670 0.01610 0.01080 -0.00770 0.00350 -0.00080
+O6 0.01080 0.01920 0.00570 -0.00010 0.00040 0.00030
+O7 0.01490 0.01270 0.00980 0.00140 0.00070 0.00260
+O8 0.01200 0.01180 0.01200 -0.00190 0.00150 -0.00070
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+CaM1 0.95075 0.12407 0.82659 0.98000 0.01208
+Mn2+M1 0.95075 0.12407 0.82659 0.02000 0.01208
+Fe2+M2 0.71201 0.08002 0.32618 1.00000 0.01323
+Fe2+M3 0.35994 0.19058 0.13322 0.39000 0.01230
+Mn2+M3 0.35994 0.19058 0.13322 0.56000 0.01230
+MgM3 0.35994 0.19058 0.13322 0.05000 0.01230
+P1 0.09429 0.13313 0.39783 1.00000 0.00850
+P2 0.59969 0.08932 0.80729 1.00000 0.00852
+O1 0.08319 0.07107 0.17821 1.00000 0.01300
+O2 0.47048 0.17453 0.83106 1.00000 0.01290
+O3 0.93834 0.18602 0.42934 1.00000 0.01260
+O4 0.68469 0.12779 0.62166 1.00000 0.01190
+O5 0.20933 0.23233 0.38521 1.00000 0.01440
+O6 0.72450 0.09199 0.01348 1.00000 0.01200
+O7 0.14641 0.05815 0.59776 1.00000 0.01260
+O8 0.53474 -0.03324 0.76596 1.00000 0.01200
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0020875

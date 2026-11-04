@@ -1,0 +1,88 @@
+#------------------------------------------------------------------------------
+#$Date: 2022-11-24 11:24:44 +0200 (Thu, 24 Nov 2022) $
+#$Revision: 279539 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/6/00/00/6000077.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_6000077
+loop_
+_publ_author_name
+'Trommer, J.'
+'Schneider, M.'
+'Worzala, H.'
+'Fitch, A. N.'
+_publ_section_title
+;
+ Structure determination of CaH~2~P~2~O~7~ from in situ powder diffraction data
+;
+_journal_paper_doi               10.4028/www.scientific.net/MSF.321-324.374
+_journal_name_full               'Materials Science Forum'
+_journal_page_first              374
+_journal_page_last               379
+_journal_volume                  321-324
+_journal_year                    2000
+_chemical_formula_sum            'Ca H2 O7 P2'
+_cell_formula_units_Z            4
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_space_group_name_H-M_alt        'C 1 2/c 1'
+_cell_angle_alpha                90.000
+_cell_angle_beta                 101.2392(7)
+_cell_angle_gamma                90.000
+_cell_length_a                   7.3276(1)
+_cell_length_b                   8.1282(1)
+_cell_length_c                   9.7632(1)
+_cell_volume                     570.35
+_exptl_absorpt_coefficient_mu    0.69
+_pd_proc_ls_prof_wR_factor 	 0.090 # Rwp
+_pd_proc_ls_prof_wR_expected 	 0.061 # Rexp
+_refine_ls_R_I_factor 	         0.065 # RI
+_cod_database_code               6000077
+_cod_struct_determination_method 'powder diffraction'
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,y,-z+1/2
+3 -x,-y,-z
+4 x,-y,z+1/2
+5 x+1/2,y+1/2,z
+6 -x+1/2,y+1/2,-z+1/2
+7 -x+1/2,-y+1/2,-z
+8 x+1/2,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+Ca    0         0         0         0.36(6)
+P     0.1643(4) 0.3836(3) 0.1899(3) 0.75(6)
+O(1) -0.2444(7) 0.0177(8) 0.1221(5) 0.9(1)
+O(2)  0.3062(8) 0.3261(6) 0.3248(6) 0.8(2)
+O(3)  0.0900(8) 0.2385(7) 0.1027(5) 1.0(1)
+O(4)  0         0.4750(9) 0.25      0.8(2)
+H     0.284(9)  0.226(9)  0.355(8)  1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1 'Saulius Gra\<zulis' 2022-11-24
+;Adding coordinates and cell parameter e.s.u. from the original
+publication.
+
+Adding symmetry operators, Hall symbol and the ITC spacegroup number
+by intepreting the originaly reported space group 'C2/c' as having the
+standard setting.
+
+Adding Rwp, Rexp (background excluded), RI and mu values from the paper.
+;

@@ -1,0 +1,113 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 10:14:51 +0300 (Thu, 18 May 2023) $
+#$Revision: 283850 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/74/9017420.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017420
+loop_
+_publ_author_name
+'Barinova, A. V.'
+'Rastsvetaeva, R. K.'
+'Chukanov, N. V.'
+'Pietraszko, A.'
+_publ_section_title
+;
+ Refinement of the crystal structure of Zn-containing greifensteinite
+;
+_journal_name_full               'Crystallography Reports'
+_journal_page_first              942
+_journal_page_last               945
+_journal_volume                  49
+_journal_year                    2004
+_chemical_compound_source        'Pirineus mine, Minas Gerais, Brazil'
+_chemical_formula_sum
+'Al0.14 Be2 Ca Fe1.176 H8 Mg0.096 Mn0.57 O17 P3 Zn0.36'
+_chemical_name_mineral           Greifensteinite
+_space_group_IT_number           15
+_space_group_name_Hall           '-C 2yc'
+_space_group_name_H-M_alt        'C 1 2/c 1'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 95.09
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   15.941
+_cell_length_b                   11.877
+_cell_length_c                   6.625
+_cell_volume                     1249.373
+_database_code_amcsd             0019974
+_exptl_crystal_density_diffrn    2.965
+_cod_data_source_file            inputs/fixed/downloads/14/14850.cif
+_cod_data_source_block           14850
+_cod_original_formula_sum
+'Ca Mn.57 Fe1.176 Zn.36 Mg.096 Al.14 P3 Be2 O17 H8'
+_cod_database_code               9017420
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+-x,y,1/2-z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.00000 0.25710 0.25000 1.00000 0.02660 Ca 0
+MnM1 0.00000 0.00000 0.00000 0.34000 0.02584 Mn 0
+FeM2 0.17130 0.16160 0.99600 0.58800 0.02862 Fe 0
+ZnM2 0.17130 0.16160 0.99600 0.18000 0.02862 Zn 0
+MnM2 0.17130 0.16160 0.99600 0.11500 0.02862 Mn 0
+MgM2 0.17130 0.16160 0.99600 0.04800 0.02862 Mg 0
+AlM2 0.17130 0.16160 0.99600 0.07000 0.02862 Al 0
+P1 0.18800 0.11730 0.47790 1.00000 0.02406 P 0
+P2 0.00000 0.27400 0.75000 1.00000 0.02026 P 0
+Be 0.33300 0.17800 0.29900 1.00000 0.03293 Be 0
+O1 0.35590 0.49730 0.49800 1.00000 0.03040 O 0
+O2 0.28240 0.09990 0.45000 1.00000 0.02660 O 0
+O3 0.14540 0.18230 0.29900 1.00000 0.02406 O 0
+O4 0.31880 0.31360 0.32800 1.00000 0.02026 O 0
+O5 0.45830 0.29700 0.07400 1.00000 0.02406 O 0
+O6 0.43380 0.15050 0.34200 1.00000 0.02660 O 0
+O-H 0.30000 0.16400 0.06200 1.00000 0.02406 O 1
+Ow1 0.09280 0.41940 0.21900 1.00000 0.03166 O 0
+Wat2 0.00000 0.04100 0.25000 1.00000 0.04179 O 2
+H1 0.08200 0.48800 0.17900 1.00000 0.03800 H 0
+H2 0.15000 0.41700 0.18000 1.00000 0.03800 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T08:46:48+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0019974

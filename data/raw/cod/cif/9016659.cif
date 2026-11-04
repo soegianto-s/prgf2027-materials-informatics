@@ -1,0 +1,141 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-05-29 17:00:33 +0300 (Wed, 29 May 2024) $
+#$Revision: 292100 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/66/9016659.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9016659
+loop_
+_publ_author_name
+'Tait, K. T.'
+'Barkley, M. C.'
+'Thompson, R. M.'
+'Origlieri, M. J.'
+'Evans, S. H.'
+'Prewitt, C. T.'
+'Yang, H.'
+_publ_section_title
+;
+ Bobdownsite, a new mineral species from Big Fish River, Yukon, Canada,
+ and its structural relationship with whitlockite-type compounds
+ Sample number R050109
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              1065
+_journal_page_last               1078
+_journal_paper_doi               10.3749/canmin.49.4.1065
+_journal_volume                  49
+_journal_year                    2011
+_chemical_compound_source        'Big Fish River, Yukon Territory, Canada'
+_chemical_formula_sum            'Al0.11 Ca8.76 F Fe0.17 Mg0.72 Na0.24 O27 P7'
+_chemical_name_mineral           Bobdownsite
+_space_group_IT_number           161
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_length_a                   10.3224
+_cell_length_b                   10.3224
+_cell_length_c                   37.0700
+_cell_formula_units_Z            6
+_cell_volume                     3420.697
+_database_code_amcsd             0018921
+_exptl_crystal_density_diffrn    3.071
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_original_formula_sum        'Ca8.76 Na.24 Mg.72 Fe.17 Al.11 P7 O27 F'
+_cod_database_code               9016659
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,1/2+z
+2/3+x,1/3+x-y,5/6+z
+1/3+x,2/3+x-y,1/6+z
+-y,-x,1/2+z
+2/3-y,1/3-x,5/6+z
+1/3-y,2/3-x,1/6+z
+-x+y,y,1/2+z
+2/3-x+y,1/3+y,5/6+z
+1/3-x+y,2/3+y,1/6+z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca1 0.03511 0.01763 0.01520 0.01971 -0.01113 -0.00810
+Na1 0.03511 0.01763 0.01520 0.01971 -0.01113 -0.00810
+Ca2 0.01052 0.00967 0.00938 0.00568 -0.00060 -0.00144
+Ca3 0.01158 0.00933 0.00965 0.00513 -0.00211 -0.00056
+Mg 0.00932 0.00932 0.00915 0.00466 0.00000 0.00000
+Fe3+ 0.00932 0.00932 0.00915 0.00466 0.00000 0.00000
+Al 0.00932 0.00932 0.00915 0.00466 0.00000 0.00000
+Fe2+ 0.00932 0.00932 0.00915 0.00466 0.00000 0.00000
+P1A 0.00859 0.00859 0.01519 0.00429 0.00000 0.00000
+P1B 0.00424 0.00424 0.00082 0.00212 0.00000 0.00000
+P2 0.00923 0.00889 0.00802 0.00528 -0.00002 0.00048
+P3 0.00866 0.00858 0.00717 0.00444 -0.00007 0.00039
+O1 0.02334 0.02027 0.00918 0.01258 0.00063 -0.00010
+O2 0.01738 0.01953 0.01381 0.01442 0.00189 0.00041
+O3 0.01110 0.00819 0.00999 0.00262 0.00214 0.00158
+O4 0.00775 0.00834 0.01814 0.00219 0.00216 0.00141
+O5 0.02395 0.01651 0.00755 0.01240 -0.00328 -0.00191
+O6 0.01311 0.01586 0.01183 0.00968 -0.00188 -0.00272
+O7 0.01650 0.01236 0.01213 0.00494 0.00229 0.00501
+O8 0.00861 0.01090 0.01411 0.00380 -0.00017 0.00024
+O9 0.01781 0.01342 0.02749 0.00999 0.00844 0.00417
+F1A 0.03719 0.03719 0.04838 0.01860 0.00000 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Ca1 0.29204 0.15618 0.67232 0.92000 0.01975
+Na1 0.29204 0.15618 0.67232 0.08000 0.01975
+Ca2 0.28036 0.14639 0.56518 1.00000 0.00958
+Ca3 0.38693 0.17961 0.76766 1.00000 0.01023
+Mg 0.00000 0.00000 -0.00027 0.72000 0.00926
+Fe3+ 0.00000 0.00000 -0.00027 0.13000 0.00926
+Al 0.00000 0.00000 -0.00027 0.11000 0.00926
+Fe2+ 0.00000 0.00000 -0.00027 0.04000 0.00926
+P1A 0.00000 0.00000 0.75327 0.85000 0.01079
+P1B 0.00000 0.00000 0.73224 0.15000 0.00310
+P2 0.31741 0.14328 0.86398 1.00000 0.00838
+P3 0.35016 0.15739 0.96736 1.00000 0.00808
+O1 0.27457 0.09214 0.82483 1.00000 0.01685
+O2 0.24800 0.23372 0.87773 1.00000 0.01460
+O3 0.27343 0.00192 0.88653 1.00000 0.01074
+O4 0.48946 0.24182 0.86809 1.00000 0.01222
+O5 0.40343 0.19661 0.00672 1.00000 0.01499
+O6 0.39835 0.04735 0.95383 1.00000 0.01252
+O7 0.41548 0.30324 0.94638 1.00000 0.01468
+O8 0.17792 0.07889 0.96373 1.00000 0.01169
+O9 -0.01911 0.12994 0.74208 1.00000 0.01860
+F1A 0.00000 0.00000 0.79710 0.85000 0.04092
+F1B 0.00000 0.00000 0.68929 0.15000 0.01688
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0018921

@@ -1,0 +1,379 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/4/03/07/4030720.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4030720
+loop_
+_publ_author_name
+'Kwang-Hwa Lii'
+'Chih-Yuan Huang'
+_publ_section_title
+;
+ CaFe3(PO4)3(H2O): A mixed-valence iron phosphate containing zigzag chains
+ of FeO6 octahedra
+;
+_journal_name_full
+'European Journal of Solid State and Inorganic Chemistry'
+_journal_page_first              225
+_journal_page_last               235
+_journal_volume                  32
+_journal_year                    1995
+_chemical_formula_sum            'Ca Fe3 H2 O13 P3'
+_chemical_formula_weight         510.56
+_space_group_IT_number           61
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      61
+_symmetry_space_group_name_Hall  '-P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P b c a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   12.538(2)
+_cell_length_b                   11.670(2)
+_cell_length_c                   12.699(1)
+_cell_volume                     1858.1(5)
+_diffrn_ambient_temperature      293
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.70930
+_exptl_absorpt_coefficient_mu    5.775
+_exptl_crystal_density_diffrn    3.650
+_exptl_crystal_F_000             1992
+_refine_ls_number_parameters     188
+_refine_ls_number_reflns         1338
+_refine_ls_R_factor_gt           0.0287
+_refine_ls_wR_factor_gt          0.0292
+_cod_data_source_file            EJSSIC-1995-32-225-235.cif
+_cod_data_source_block           CaFe3
+_cod_original_formula_sum        'H2 Ca Fe3 O13 P3'
+_cod_database_code               4030720
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,-y,1/2+z
+3 1/2+x,1/2-y,-z
+4 -x,1/2+y,1/2-z
+5 -x,-y,-z
+6 1/2+x,y,1/2-z
+7 1/2-x,1/2+y,z
+8 x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Fe1 Fe Uiso 0.32922(6) 0.22913(6) 0.54080(7) 1.000 0.0076(3)
+Fe2 Fe Uiso 0.35285(6) -0.23758(6) 0.20930(7) 1.000 0.0106(3)
+Fe3 Fe Uiso 0.50644(7) 0.03310(6) 0.20988(8) 1.000 0.0194(3)
+P1 P Uiso 0.61210(10) -0.23240(10) 0.20150(10) 1.000 0.0077(5)
+P2 P Uiso 0.59510(10) 0.23740(10) 0.05620(10) 1.000 0.0066(5)
+P3 P Uiso 0.26300(10) 0.02170(10) 0.12400(10) 1.000 0.0084(4)
+O1 O Uiso 0.3294(3) 0.1986(3) 0.3842(3) 1.000 0.0101(13)
+OW O Uiso 0.4721(3) 0.0069(4) 0.3775(4) 1.000 0.0253(13)
+O2 O Uiso 0.3180(3) 0.3966(3) 0.5458(3) 1.000 0.0139(13)
+O3 O Uiso 0.3166(3) 0.2287(3) 0.6990(3) 1.000 0.0114(13)
+O4 O Uiso 0.4837(3) 0.2136(3) 0.5332(3) 1.000 0.0139(13)
+O5 O Uiso 0.3007(3) 0.0597(3) 0.5519(3) 1.000 0.0089(13)
+O6 O Uiso 0.1626(3) 0.2424(3) 0.5456(3) 1.000 0.0089(13)
+O7 O Uiso 0.3128(3) -0.4212(3) 0.2037(3) 1.000 0.0127(13)
+O8 O Uiso 0.3536(3) -0.1828(3) 0.3623(3) 1.000 0.0127(13)
+O9 O Uiso 0.5084(3) -0.2950(3) 0.2293(3) 1.000 0.0114(13)
+O10 O Uiso 0.3502(3) -0.0387(3) 0.1891(3) 1.000 0.0139(13)
+O11 O Uiso 0.5930(3) 0.1137(3) 0.0940(3) 1.000 0.0114(13)
+O12 O Uiso 0.5927(3) -0.1110(3) 0.1646(3) 1.000 0.0139(13)
+Ca Ca Uiso 0.25684(9) -0.00120(9) 0.37590(10) 1.000 0.0119(4)
+H1 H Uiso 0.496(6) -0.070(7) 0.417(6) 1.000 0.0633
+H2 H Uiso 0.503(6) 0.070(7) 0.424(7) 1.000 0.0633
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ca Ca 0.2262 0.3064 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Fe Fe 0.3463 0.8444 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+P P 0.1023 0.0942 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Fe1 O2 101.99(15) . . yes
+O1 Fe1 O3 168.79(15) . . yes
+O1 Fe1 O4 86.20(16) . . yes
+O1 Fe1 O5 84.03(15) . . yes
+O1 Fe1 O6 92.45(15) . . yes
+O2 Fe1 O3 87.97(15) . . yes
+O2 Fe1 O4 99.54(15) . . yes
+O2 Fe1 O5 164.49(16) . . yes
+O2 Fe1 O6 81.60(15) . . yes
+O3 Fe1 O4 97.31(16) . . yes
+O3 Fe1 O5 85.06(15) . . yes
+O3 Fe1 O6 83.85(15) . . yes
+O4 Fe1 O5 95.09(15) . . yes
+O4 Fe1 O6 178.39(15) . . yes
+O5 Fe1 O6 83.89(15) . . yes
+O7 Fe2 O8 109.63(14) . . yes
+O7 Fe2 O9 84.50(14) . . yes
+O7 Fe2 O10 163.81(14) . . yes
+O3 Fe2 O7 79.51(14) 2_554 . yes
+O6 Fe2 O7 85.44(14) 2_554 . yes
+O8 Fe2 O9 88.88(15) . . yes
+O8 Fe2 O10 78.10(14) . . yes
+O3 Fe2 O8 92.73(15) 2_554 . yes
+O6 Fe2 O8 162.61(14) 2_554 . yes
+O9 Fe2 O10 110.32(14) . . yes
+O3 Fe2 O9 163.53(14) 2_554 . yes
+O6 Fe2 O9 101.54(15) 2_554 . yes
+O3 Fe2 O10 86.03(13) 2_554 . yes
+O6 Fe2 O10 85.19(14) 2_554 . yes
+O3 Fe2 O6 81.24(15) 2_554 2_554 yes
+OW Fe3 O10 83.44(15) . . yes
+OW Fe3 O11 149.54(16) . . yes
+OW Fe3 O12 104.93(16) . . yes
+OW Fe3 O9 76.42(16) . 4_655 yes
+O10 Fe3 O11 124.90(15) . . yes
+O10 Fe3 O12 97.18(14) . . yes
+O9 Fe3 O10 109.16(14) 4_655 . yes
+O11 Fe3 O12 84.12(15) . . yes
+O9 Fe3 O11 82.90(14) 4_655 . yes
+O9 Fe3 O12 153.55(15) 4_655 . yes
+O9 P1 O12 112.4(2) . . yes
+O1 P1 O9 108.5(2) 4_645 . yes
+O3 P1 O9 108.4(2) 5_656 . yes
+O1 P1 O12 110.3(2) 4_645 . yes
+O3 P1 O12 108.6(2) 5_656 . yes
+O1 P1 O3 108.4(2) 4_645 5_656 yes
+O8 P2 O11 111.7(2) 4_655 . yes
+O6 P2 O11 108.0(2) 6_555 . yes
+O4 P2 O11 113.4(2) 8_554 . yes
+O6 P2 O8 108.2(2) 6_555 4_655 yes
+O4 P2 O8 106.5(2) 8_554 4_655 yes
+O4 P2 O6 108.9(2) 8_554 6_555 yes
+O5 P3 O10 113.8(2) 2_554 . yes
+O7 P3 O10 106.5(2) 7_555 . yes
+O2 P3 O10 108.2(2) 8_554 . yes
+O5 P3 O7 109.7(2) 2_554 7_555 yes
+O2 P3 O5 103.3(2) 8_554 2_554 yes
+O2 P3 O7 115.6(2) 8_554 7_555 yes
+Fe1 O1 P1 127.2(2) . 4_655 yes
+Fe1 O2 P3 132.1(2) . 8_555 yes
+Fe1 O3 Fe2 98.01(16) . 2_555 yes
+Fe1 O3 P1 140.2(2) . 5_656 yes
+Fe2 O3 P1 121.6(2) 2_555 5_656 yes
+Fe1 O4 P2 149.3(2) . 8_555 yes
+Fe1 O5 P3 137.6(2) . 2_555 yes
+Fe1 O6 Fe2 96.86(16) . 2_555 yes
+Fe1 O6 P2 121.2(2) . 6_455 yes
+Fe2 O6 P2 141.3(2) 2_555 6_455 yes
+Fe2 O7 P3 125.7(2) . 7_545 yes
+Fe2 O8 P2 117.0(2) . 4_645 yes
+Fe2 O9 P1 127.9(2) . . yes
+Fe2 O9 Fe3 105.23(16) . 4_645 yes
+Fe3 O9 P1 126.8(2) 4_645 . yes
+Fe2 O10 Fe3 111.19(16) . . yes
+Fe2 O10 P3 121.6(2) . . yes
+Fe3 O10 P3 122.3(2) . . yes
+Fe3 O11 P2 132.0(2) . . yes
+Fe3 O12 P1 139.1(2) . . yes
+Fe3 OW H1 121(4) . . no
+Fe3 OW H2 113(5) . . no
+H1 OW H2 103(6) . . no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Fe1 O1 2.020(4) . yes
+Fe1 O2 1.961(4) . yes
+Fe1 O3 2.015(4) . yes
+Fe1 O4 1.948(4) . yes
+Fe1 O5 2.014(4) . yes
+Fe1 O6 2.096(4) . yes
+Fe2 O7 2.202(4) . yes
+Fe2 O8 2.045(4) . yes
+Fe2 O9 2.078(4) . yes
+Fe2 O10 2.335(4) . yes
+Fe2 O3 2.131(4) 2_554 yes
+Fe2 O6 2.089(4) 2_554 yes
+Fe3 OW 2.193(5) . yes
+Fe3 O10 2.147(4) . yes
+Fe3 O11 2.056(4) . yes
+Fe3 O12 2.081(4) . yes
+Fe3 O9 2.158(4) 4_655 yes
+P1 O9 1.533(4) . yes
+P1 O12 1.512(4) . yes
+P1 O1 1.540(4) 4_645 yes
+P1 O3 1.548(4) 5_656 yes
+P2 O11 1.522(4) . yes
+P2 O8 1.534(4) 4_655 yes
+P2 O6 1.546(4) 6_555 yes
+P2 O4 1.537(4) 8_554 yes
+P3 O10 1.541(4) . yes
+P3 O5 1.542(4) 2_554 yes
+P3 O7 1.540(4) 7_555 yes
+P3 O2 1.540(4) 8_554 yes
+OW H1 1.07(8) . no
+OW H2 1.02(9) . no
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_site_symmetry_A
+_geom_hbond_publ_flag
+OW H1 O4 1.07(8) 1.81(8) 2.866(6) 168(7) 5_656 yes
+OW H1 O5 1.07(8) 2.58(8) 3.086(5) 108(5) 5_656 yes
+OW H2 O4 1.02(9) 2.19(8) 3.122(6) 151(6) . yes
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion_publ_flag
+O2 Fe1 O1 P1 40.8(3) . . 4_655 no
+O4 Fe1 O1 P1 -58.1(3) . . 4_655 no
+O5 Fe1 O1 P1 -153.6(3) . . 4_655 no
+O6 Fe1 O1 P1 122.8(3) . . 4_655 no
+O1 Fe1 O2 P3 146.5(3) . . 8_555 no
+O3 Fe1 O2 P3 -28.3(3) . . 8_555 no
+O4 Fe1 O2 P3 -125.4(3) . . 8_555 no
+O6 Fe1 O2 P3 55.8(3) . . 8_555 no
+O2 Fe1 O3 Fe2 83.21(16) . . 2_555 no
+O2 Fe1 O3 P1 -91.3(3) . . 5_656 no
+O4 Fe1 O3 Fe2 -177.43(14) . . 2_555 no
+O4 Fe1 O3 P1 8.1(4) . . 5_656 no
+O5 Fe1 O3 Fe2 -82.92(16) . . 2_555 no
+O5 Fe1 O3 P1 102.6(3) . . 5_656 no
+O6 Fe1 O3 Fe2 1.44(14) . . 2_555 no
+O6 Fe1 O3 P1 -173.1(4) . . 5_656 no
+O1 Fe1 O4 P2 127.2(5) . . 8_555 no
+O2 Fe1 O4 P2 25.7(5) . . 8_555 no
+O3 Fe1 O4 P2 -63.5(5) . . 8_555 no
+O5 Fe1 O4 P2 -149.1(5) . . 8_555 no
+O1 Fe1 O5 P3 -145.5(4) . . 2_555 no
+O3 Fe1 O5 P3 31.9(3) . . 2_555 no
+O4 Fe1 O5 P3 128.9(3) . . 2_555 no
+O6 Fe1 O5 P3 -52.4(3) . . 2_555 no
+O1 Fe1 O6 Fe2 167.92(15) . . 2_555 no
+O1 Fe1 O6 P2 -4.9(2) . . 6_455 no
+O2 Fe1 O6 Fe2 -90.32(16) . . 2_555 no
+O2 Fe1 O6 P2 96.9(2) . . 6_455 no
+O3 Fe1 O6 Fe2 -1.47(14) . . 2_555 no
+O3 Fe1 O6 P2 -174.3(2) . . 6_455 no
+O5 Fe1 O6 Fe2 84.20(16) . . 2_555 no
+O5 Fe1 O6 P2 -88.6(2) . . 6_455 no
+O8 Fe2 O7 P3 137.8(3) . . 7_545 no
+O9 Fe2 O7 P3 -135.4(3) . . 7_545 no
+O3 Fe2 O7 P3 48.6(3) 2_554 . 7_545 no
+O6 Fe2 O7 P3 -33.3(3) 2_554 . 7_545 no
+O7 Fe2 O8 P2 41.8(3) . . 4_645 no
+O9 Fe2 O8 P2 -41.9(2) . . 4_645 no
+O10 Fe2 O8 P2 -153.0(3) . . 4_645 no
+O3 Fe2 O8 P2 121.7(2) 2_554 . 4_645 no
+O7 Fe2 O9 P1 154.5(3) . . . no
+O7 Fe2 O9 Fe3 -22.45(16) . . 4_645 no
+O8 Fe2 O9 P1 -95.7(3) . . . no
+O8 Fe2 O9 Fe3 87.39(17) . . 4_645 no
+O10 Fe2 O9 P1 -18.8(3) . . . no
+O10 Fe2 O9 Fe3 164.26(14) . . 4_645 no
+O6 Fe2 O9 P1 70.3(3) 2_554 . . no
+O6 Fe2 O9 Fe3 -106.64(17) 2_554 . 4_645 no
+O8 Fe2 O10 Fe3 79.36(18) . . . no
+O8 Fe2 O10 P3 -125.0(3) . . . no
+O9 Fe2 O10 Fe3 -4.9(2) . . . no
+O9 Fe2 O10 P3 150.7(2) . . . no
+O3 Fe2 O10 Fe3 173.00(19) 2_554 . . no
+O3 Fe2 O10 P3 -31.3(2) 2_554 . . no
+O6 Fe2 O10 Fe3 -105.47(18) 2_554 . . no
+O6 Fe2 O10 P3 50.2(2) 2_554 . . no
+O7 Fe2 O3 Fe1 -88.40(16) . 2_554 2_554 no
+O7 Fe2 O3 P1 87.5(2) . 2_554 6_455 no
+O8 Fe2 O3 Fe1 162.14(15) . 2_554 2_554 no
+O8 Fe2 O3 P1 -22.0(2) . 2_554 6_455 no
+O10 Fe2 O3 Fe1 84.28(15) . 2_554 2_554 no
+O10 Fe2 O3 P1 -99.9(2) . 2_554 6_455 no
+O7 Fe2 O6 Fe1 81.47(15) . 2_554 2_554 no
+O9 Fe2 O6 Fe1 164.90(14) . 2_554 2_554 no
+O10 Fe2 O6 Fe1 -85.32(14) . 2_554 2_554 no
+OW Fe3 O10 Fe2 -77.46(18) . . . no
+OW Fe3 O10 P3 127.1(3) . . . no
+O11 Fe3 O10 Fe2 114.65(18) . . . no
+O11 Fe3 O10 P3 -40.8(3) . . . no
+O12 Fe3 O10 Fe2 26.83(19) . . . no
+O12 Fe3 O10 P3 -128.6(2) . . . no
+O9 Fe3 O10 Fe2 -150.60(16) 4_655 . . no
+O9 Fe3 O10 P3 53.9(3) 4_655 . . no
+OW Fe3 O11 P2 -69.1(5) . . . no
+O10 Fe3 O11 P2 86.7(3) . . . no
+O12 Fe3 O11 P2 -178.7(3) . . . no
+O9 Fe3 O11 P2 -21.8(3) 4_655 . . no
+OW Fe3 O12 P1 20.1(4) . . . no
+O10 Fe3 O12 P1 -65.0(4) . . . no
+O11 Fe3 O12 P1 170.5(4) . . . no
+O9 Fe3 O12 P1 109.6(4) 4_655 . . no
+OW Fe3 O9 Fe2 100.58(18) . 4_655 4_655 no
+OW Fe3 O9 P1 -76.4(3) . 4_655 4_655 no
+O10 Fe3 O9 Fe2 178.56(15) . 4_655 4_655 no
+O10 Fe3 O9 P1 1.6(3) . 4_655 4_655 no
+O11 Fe3 O9 Fe2 -56.89(17) . 4_655 4_655 no
+O11 Fe3 O9 P1 126.1(3) . 4_655 4_655 no
+O12 Fe3 O9 Fe2 4.3(4) . 4_655 4_655 no
+O12 Fe3 O9 P1 -172.7(3) . 4_655 4_655 no
+O12 P1 O9 Fe2 5.8(4) . . . no
+O12 P1 O9 Fe3 -177.9(2) . . 4_645 no
+O1 P1 O9 Fe2 -116.5(3) 4_645 . . no
+O1 P1 O9 Fe3 59.8(3) 4_645 . 4_645 no
+O3 P1 O9 Fe2 125.9(3) 5_656 . . no
+O3 P1 O9 Fe3 -57.8(3) 5_656 . 4_645 no
+O9 P1 O12 Fe3 47.7(4) . . . no
+O1 P1 O12 Fe3 169.0(3) 4_645 . . no
+O3 P1 O12 Fe3 -72.2(4) 5_656 . . no
+O9 P1 O1 Fe1 99.1(3) . 4_645 4_645 no
+O12 P1 O1 Fe1 -24.5(3) . 4_645 4_645 no
+O9 P1 O3 Fe1 -27.4(4) . 5_656 5_656 no
+O9 P1 O3 Fe2 146.2(2) . 5_656 6_555 no
+O12 P1 O3 Fe1 95.0(4) . 5_656 5_656 no
+O12 P1 O3 Fe2 -91.4(3) . 5_656 6_555 no
+O8 P2 O11 Fe3 70.4(3) 4_655 . . no
+O6 P2 O11 Fe3 -170.8(3) 6_555 . . no
+O4 P2 O11 Fe3 -49.9(4) 8_554 . . no
+O11 P2 O8 Fe2 -22.7(3) . 4_655 4_655 no
+O11 P2 O6 Fe1 -74.1(3) . 6_555 6_555 no
+O11 P2 O4 Fe1 9.7(6) . 8_554 8_554 no
+O5 P3 O10 Fe2 -15.5(3) 2_554 . . no
+O5 P3 O10 Fe3 137.5(2) 2_554 . . no
+O7 P3 O10 Fe2 105.5(2) 7_555 . . no
+O7 P3 O10 Fe3 -101.5(3) 7_555 . . no
+O2 P3 O10 Fe2 -129.7(2) 8_554 . . no
+O2 P3 O10 Fe3 23.3(3) 8_554 . . no
+O10 P3 O5 Fe1 19.0(4) . 2_554 2_554 no
+O10 P3 O7 Fe2 123.0(3) . 7_555 7_555 no
+O10 P3 O2 Fe1 -107.6(3) . 8_554 8_554 no

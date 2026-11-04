@@ -1,0 +1,72 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-11-19 19:36:21 +0200 (Sun, 19 Nov 2017) $
+#$Revision: 203334 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/6/00/00/6000037.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_6000037
+loop_
+_publ_author_name
+'Kim, J. Y.'
+'Fenton, R. R.'
+'Hunter, B. A.'
+'Kennedy, B. J.'
+_publ_section_title
+;
+ Powder diffraction studies of synthetic calcium and lead apatites
+;
+_journal_name_full               'Australian Journal of Chemistry'
+_journal_page_first              679
+_journal_page_last               686
+_journal_paper_doi               10.1071/CH00060
+_journal_volume                  53
+_journal_year                    2000
+_chemical_formula_sum            'Ca10 F2 O24 P6'
+_space_group_crystal_system      hexagonal
+_space_group_IT_number           176
+_space_group_name_Hall           '-P 6c'
+_space_group_name_H-M_alt        'P 63/m'
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_length_a                   9.3475(3)
+_cell_length_b                   9.3475(3)
+_cell_length_c                   6.8646(1)
+_cell_volume                     519.50
+_cod_depositor_comments
+;
+ Correcting the _cell_length_a data item value by changing it from '9.3485' to
+ '9.3475(3)'. Updating space group information and adding the symmetry operation
+ list.
+
+ Antanas Vaitkus,
+ 2017-11-19
+;
+_cod_database_code               6000037
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 x-y,x,z+1/2
+3 -y,x-y,z
+4 -x,-y,z+1/2
+5 -x+y,-x,z
+6 y,-x+y,z+1/2
+7 -x,-y,-z
+8 -x+y,-x,-z+1/2
+9 y,-x+y,-z
+10 x,y,-z+1/2
+11 x-y,x,-z
+12 -y,x-y,-z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+? ? ? ?

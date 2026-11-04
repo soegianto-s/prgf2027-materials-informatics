@@ -1,0 +1,177 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:48:00 +0300 (Thu, 18 May 2023) $
+#$Revision: 283865 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/78/9017874.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017874
+loop_
+_publ_author_name
+'Hatert, F.'
+'Dal Bo, F.'
+'Bruni, Y.'
+'Meisser, N.'
+'Vignola, P.'
+'Risplendente, A.'
+'Chatenet, F. X.'
+'Lebocey, J.'
+_publ_section_title
+;
+ Limousinite, BaCa[Be4P4O16]*6H2O, a new beryllophosphate mineral with a phillipsite-type framework
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              815
+_journal_page_last               827
+_journal_volume                  58
+_journal_year                    2020
+_chemical_compound_source
+'Vilatte-Haute pegmatite, Limousin, Haute-Vienne, France'
+_chemical_formula_sum            'Ba0.946 Be4 Ca0.954 H11.684 O21.559 P4'
+_chemical_name_mineral           Limousinite
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2ybc'
+_space_group_name_H-M_alt        'P 1 21/c 1'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90.398
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   9.4958
+_cell_length_b                   13.6758
+_cell_length_c                   13.4696
+_cell_volume                     1749.156
+_database_code_amcsd             0020955
+_exptl_crystal_density_diffrn    2.600
+_cod_data_source_file            inputs/fixed/split/07442.cif
+_cod_data_source_block           07442
+_cod_original_formula_sum        'Ba.946 Ca.954 P4 Be4 O21.559 H11.684'
+_cod_database_code               9017874
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ba1 0.02060 0.02120 0.01380 0.00040 -0.00237 -0.00082
+Ca1 0.00830 0.02260 0.02450 -0.00380 -0.00350 0.00790
+Ca2 0.07400 0.07900 0.03800 0.01500 0.00200 -0.01300
+P1 0.01640 0.01120 0.01230 0.00010 0.00180 -0.00050
+P2 0.01450 0.01150 0.01430 -0.00080 0.00140 0.00090
+P3 0.01870 0.01820 0.01040 -0.00440 0.00060 -0.00020
+P4 0.01650 0.01490 0.01010 0.00250 0.00090 0.00020
+Be1 0.00600 0.01300 0.00900 -0.00200 -0.00200 0.00000
+Be2 0.01500 0.00400 0.00700 0.00100 0.00100 0.00100
+Be3 0.01800 0.01000 0.00900 0.00000 0.00000 -0.00200
+Be4 0.01400 0.01700 0.01200 -0.00300 0.00200 -0.00100
+O1 0.01900 0.02000 0.02500 0.00590 0.00330 -0.00390
+O2 0.02600 0.02000 0.02200 0.00740 -0.00290 0.00260
+O3 0.02500 0.02200 0.02400 0.00420 0.00570 0.01140
+O4 0.02300 0.01400 0.02100 -0.00220 0.00110 0.00220
+O5 0.01510 0.02700 0.01590 -0.00040 0.00320 -0.00290
+O6 0.01690 0.01300 0.02900 0.00130 0.00240 -0.00090
+O7 0.02300 0.02600 0.03000 -0.00840 -0.00390 -0.00750
+O8 0.01700 0.02000 0.02100 -0.00310 0.00230 -0.00170
+O9 0.02600 0.02500 0.01900 -0.00370 0.00430 -0.00820
+O10 0.03400 0.02200 0.01900 -0.00140 -0.00710 0.00790
+O11 0.01800 0.02800 0.03200 -0.00380 0.00320 0.01060
+O12 0.05100 0.02200 0.02600 0.00100 -0.00800 -0.00670
+O13 0.03400 0.03100 0.01040 -0.00250 0.00210 -0.00130
+O14 0.01700 0.02700 0.02200 0.00140 -0.00200 -0.00370
+O15 0.01800 0.03300 0.02900 -0.00470 -0.00140 0.00510
+O16 0.03300 0.04100 0.01100 0.00400 0.00180 -0.00030
+O-HW1A 0.02400 0.03800 0.04900 -0.01400 0.02200 -0.01200
+O-HW1B 0.04700 0.03700 0.13000 0.00900 0.00500 0.00800
+OW2 0.07500 0.02200 0.03900 0.00700 0.01600 0.01000
+OW3 0.07100 0.02800 0.02600 0.00200 0.00700 0.00000
+O-HW4 0.03000 0.12300 0.12900 -0.00400 -0.00400 -0.04800
+O-HW5 0.02800 0.03000 0.09100 -0.00200 -0.00300 0.00300
+O-HW6 0.05800 0.04200 0.07600 0.01300 0.00300 0.00200
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ba 0.78550 0.09330 0.25120 0.13700 0.02270 Ba 0
+Ba1 0.73530 0.09312 0.25000 0.80900 0.01850 Ba 0
+Ca 0.15550 0.24480 0.12680 0.07700 0.00300 Ca 0
+Ca1 0.11910 0.28450 0.13907 0.54500 0.01850 Ca 0
+Ca2 0.37860 0.28170 0.36220 0.33200 0.06400 Ca 0
+P1 0.91470 0.14375 0.01714 1.00000 0.01330 P 0
+P2 0.58680 0.14477 0.48613 1.00000 0.01340 P 0
+P3 0.41003 0.01095 0.13990 1.00000 0.01580 P 0
+P4 0.08646 0.01036 0.35971 1.00000 0.01390 P 0
+Be1 0.59860 0.13810 0.01410 1.00000 0.00960 Be 0
+Be2 0.90250 0.14040 0.48370 1.00000 0.00890 Be 0
+Be3 0.10360 0.01570 0.13530 1.00000 0.01230 Be 0
+Be4 0.39500 0.01530 0.36500 1.00000 0.01430 Be 0
+O1 0.97880 0.08920 0.38600 1.00000 0.02140 O 0
+O2 0.00350 0.10920 0.10570 1.00000 0.02300 O 0
+O3 0.56350 0.08800 0.58270 1.00000 0.02370 O 0
+O4 0.96130 0.24930 -0.00330 1.00000 0.01950 O 0
+O5 0.73960 0.13910 0.45240 1.00000 0.01930 O 0
+O6 0.54060 0.24980 0.50370 1.00000 0.01970 O 0
+O7 0.49730 0.10330 0.40190 1.00000 0.02660 O 0
+O8 0.76120 0.13960 0.04950 1.00000 0.01950 O 0
+O9 0.94230 0.08330 -0.07550 1.00000 0.02320 O 0
+O10 0.05120 -0.08520 0.41420 1.00000 0.02520 O 0
+O11 0.51890 0.08460 0.10500 1.00000 0.02600 O 0
+O12 0.43290 -0.08880 0.09170 1.00000 0.03300 O 0
+O13 0.07300 -0.01160 0.24970 1.00000 0.02500 O 0
+O14 0.23360 0.04660 0.38800 1.00000 0.02210 O 0
+O15 0.26300 0.04970 0.11450 1.00000 0.02650 O 0
+O16 0.43360 -0.00170 0.25100 1.00000 0.02830 O 0
+O-HW1A 0.80500 -0.09400 0.18100 0.40000 0.03700 O 1
+O-HW1B 0.76600 -0.07720 0.12700 0.61000 0.07100 O 1
+OW2 0.57760 0.26940 0.24700 0.94300 0.04500 O 0
+OW3 0.94100 0.26820 0.26100 0.93200 0.04160 O 0
+O-HW4 0.26080 0.22930 0.00570 0.89000 0.09400 O 1
+O-HW5 0.72700 -0.07910 0.38630 0.90800 0.05000 O 1
+O-HW6 0.28150 0.22510 0.25620 0.87600 0.05900 O 1
+HW1 0.82100 -0.09700 0.11000 1.00000 0.04000 H 0
+HW2A 0.48900 0.26300 0.23600 1.00000 0.06000 H 0
+HW2B 0.60400 0.31400 0.20700 1.00000 0.01000 H 0
+H1A 0.69200 -0.09600 0.31800 1.00000 0.01000 H 0
+H1B 0.86300 0.28800 0.23600 1.00000 0.01000 H 0
+H1C 0.92300 0.25000 0.32000 1.00000 0.02000 H 0
+H1D 0.23000 0.28900 -0.01600 1.00000 0.01000 H 0
+H1E 0.17700 0.23200 0.23900 1.00000 0.01000 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:43:26+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0020955

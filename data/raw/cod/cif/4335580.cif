@@ -1,0 +1,298 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 21:51:50 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179458 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/4/33/55/4335580.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4335580
+loop_
+_publ_author_name
+'Rosario M. P. Colodrero'
+'Giasemi K. Angeli'
+'Montse Bazaga-Garcia'
+'Pascual Olivera-Pastor'
+'Didier Villemin'
+'Enrique R. Losilla'
+'Estefania Q. Martos'
+'Gary B. Hix'
+'Miguel A. G. Aranda'
+'Konstantinos D. Demadis'
+'Aurelio Cabeza'
+_publ_contact_author_address
+;Dpto Qu\'imica Inorg\'anica, Cristalograf\'ia y Mineralog\'ia
+Facultad de Ciencias, Campus de Teatinos s/n
+29071 M\'alaga
+Spain
+;
+_publ_contact_author_email       aurelio@uma.es
+_publ_contact_author_fax         +34952131870
+_publ_contact_author_name        'A. Cabeza'
+_publ_contact_author_phone       +34952131874
+_publ_section_title
+;
+ Structural Variability in Multifunctional Metal
+ Xylenediaminetetraphosphonate Hybrids
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              8770
+_journal_page_last               8783
+_journal_paper_doi               10.1021/ic400951s
+_journal_volume                  52
+_journal_year                    2013
+_chemical_formula_sum            'C12 Ca N2 O13 P4'
+_chemical_formula_weight         544.11
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      62
+_symmetry_space_group_name_Hall  '-P 2bc 2a'
+_symmetry_space_group_name_H-M   'P m n b'
+_audit_author_name               Ca-(m-H6L)
+_audit_creation_date             2013-04-02T17:13
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2013-04-02T17:13  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   22.2105(11)
+_cell_length_b                   10.8441(4)
+_cell_length_c                   8.61180(28)
+_cell_measurement_temperature    293
+_cell_volume                     2074.18(14)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      293
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.2998
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_pd_calc_method                  'Rietveld Refinement'
+_pd_meas_2theta_range_inc        0.003
+_pd_meas_2theta_range_max        33.0
+_pd_meas_2theta_range_min        0.003
+_pd_phase_name                   Ca-(m-H6L)
+_pd_proc_2theta_range_inc        0.003
+_pd_proc_2theta_range_max        32.996143
+_pd_proc_2theta_range_min        -0.000855
+_pd_proc_info_datetime           2013-04-02T17:13:07
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with  8 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    447.669     2:   -166.914     3:  -2.608890E-02 4:    42.3143    
+      5:    3.22403     6:   -30.7523     7:    18.9184     8:    2.91152    
+;
+_pd_proc_ls_peak_cutoff          0.00300
+_pd_proc_ls_pref_orient_corr
+;   March-Dollase
+ AXIS  1 Ratio=   0.96458  h= 0.000  k= 0.000  l= 1.000
+ Prefered orientation correction range: Min=   0.94735, Max=   1.11424
+;
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 4 with  18 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ Microstrain broadening by P.W. Stephens,  (1999). J. Appl. Cryst.,32,281-289.
+ Peak tails are ignored  where the intensity is below 0.0030 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0580
+_pd_proc_ls_prof_wR_expected     0.0374
+_pd_proc_ls_prof_wR_factor       0.0743
+_refine_ls_goodness_of_fit_all   2.07
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     68
+_refine_ls_number_restraints     37
+_refine_ls_R_Fsqd_factor         0.07106
+_refine_ls_shift/su_max          0.04
+_refine_ls_shift/su_mean         0.01
+_reflns_d_resolution_high        1.378
+_reflns_d_resolution_low         11.105
+_reflns_limit_h_max              16
+_reflns_limit_h_min              0
+_reflns_limit_k_max              7
+_reflns_limit_k_min              0
+_reflns_limit_l_max              6
+_reflns_limit_l_min              0
+_reflns_number_total             431
+_cod_data_source_file            ic400951s_si_002_5.cif
+_cod_data_source_block           Ca-(m-H6L)_publ
+_cod_original_cell_volume        2074.18(18)
+_cod_database_code               4335580
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y,+z
+3 +x+1/2,-y+1/2,+z+1/2
+4 -x,-y+1/2,+z+1/2
+-1 -x,-y,-z
+-2 +x+1/2,-y,-z
+-3 -x+1/2,+y+1/2,-z+1/2
+-4 +x,+y+1/2,-z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Ca Ca 0.5 0.5 0.0 1.0 Uiso 0.015 4
+P P1 0.47284(25) 0.2992(5) 0.3343(7) 1.0 Uiso 0.015 8
+P P2 0.64524(23) 0.3979(5) 0.1584(7) 1.0 Uiso 0.015 8
+O O1 0.4660(6) 0.3465(11) 0.1678(8) 1.0 Uiso 0.015 8
+O O2 0.4842(5) 0.1604(6) 0.3345(14) 1.0 Uiso 0.015 8
+O O3 0.4164(4) 0.3338(11) 0.4303(12) 1.0 Uiso 0.015 8
+C C1 0.53664(35) 0.3749(8) 0.4257(15) 1.0 Uiso 0.015 8
+O O4 0.6964(4) 0.4756(9) 0.2298(12) 1.0 Uiso 0.015 8
+O O5 0.6664(5) 0.3289(9) 0.0107(10) 1.0 Uiso 0.015 8
+O O6 0.5919(4) 0.4837(10) 0.1248(12) 1.0 Uiso 0.015 8
+C C2 0.6221(6) 0.2784(7) 0.2919(11) 1.0 Uiso 0.015 8
+N N1 0.59445(32) 0.3071(9) 0.4444(9) 1.0 Uiso 0.015 8
+C C3 0.6382(4) 0.3668(12) 0.5519(17) 1.0 Uiso 0.015 8
+C C4 0.69573(9) 0.2930(10) 0.5564(20) 1.0 Uiso 0.015 8
+C C5 0.75 0.3560(12) 0.5457(31) 1.0 Uiso 0.015 4
+C C6 0.69593(9) 0.1724(12) 0.6127(23) 1.0 Uiso 0.015 8
+C C7 0.75 0.1128(16) 0.649(4) 1.0 Uiso 0.015 4
+O Ow1 0.75 0.1782(21) 0.0446(20) 1.0 Uiso 0.015 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+Ca 4.0 0.021 0.054 8.62660 10.4421 7.38730 0.65990 1.58990 85.7484 1.02110
+178.437 1.37510 International_Tables_Vol_C
+P 16.0 0.001 0.016 6.43450 1.90670 4.17910 27.1570 1.78000 0.52600 1.49080
+68.1645 1.11490 International_Tables_Vol_C
+O 52.0 -0.004 0.001 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700
+32.9089 0.25080 International_Tables_Vol_C
+C 48.0 -0.002 0.000 2.31000 20.8439 1.02000 10.2075 1.58860 0.56870 0.86500
+51.6512 0.21560 International_Tables_Vol_C
+N 8.0 -0.003 0.000 12.2126 0.00570 3.13220 9.89330 2.01250 28.9975 1.16630
+0.58260 -11.529 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Ca O1 180.0 1_555 -1_665 n
+O1 Ca O2 83.8(4) 1_555 4_654 n
+O1 Ca O2 96.2(4) 1_555 -4_566 n
+O1 Ca O6 86.7(4) 1_555 1_555 n
+O1 Ca O6 93.3(4) 1_555 -1_665 n
+O1 Ca O2 96.2(4) -1_665 4_654 n
+O1 Ca O2 83.8(4) -1_665 -4_566 n
+O1 Ca O6 93.3(4) -1_665 1_555 n
+O1 Ca O6 86.7(4) -1_665 -1_665 n
+O2 Ca O2 180.0 4_654 -4_566 n
+O2 Ca O6 95.5(4) 4_654 1_555 n
+O2 Ca O6 84.5(4) 4_654 -1_665 n
+O2 Ca O6 84.5(4) -4_566 1_555 n
+O2 Ca O6 95.5(4) -4_566 -1_665 n
+O6 Ca O6 180.0 1_555 -1_665 n
+O1 P1 O2 110.4(5) 1_555 1_555 n
+O1 P1 O3 109.8(5) 1_555 1_555 n
+O1 P1 C1 109.3(5) 1_555 1_555 n
+O2 P1 O3 111.9(5) 1_555 1_555 n
+O2 P1 C1 108.5(4) 1_555 1_555 n
+O3 P1 C1 106.9(5) 1_555 1_555 n
+O4 P2 O5 111.6(5) 1_555 1_555 n
+O4 P2 O6 108.2(5) 1_555 1_555 n
+O4 P2 C2 110.4(5) 1_555 1_555 n
+O5 P2 O6 111.9(5) 1_555 1_555 n
+O5 P2 C2 105.2(4) 1_555 1_555 n
+O6 P2 C2 109.6(5) 1_555 1_555 n
+Ca O1 P1 142.1(7) 1_555 1_555 n
+Ca O2 P1 141.2(7) 4_655 1_555 n
+P1 C1 N1 119.8(5) 1_555 1_555 n
+Ca O6 P2 144.7(7) 1_555 1_555 n
+P2 C2 N1 122.1(5) 1_555 1_555 n
+C1 N1 C2 111.4(6) 1_555 1_555 n
+C1 N1 C3 114.5(6) 1_555 1_555 n
+C2 N1 C3 111.8(6) 1_555 1_555 n
+N1 C3 C4 109.8(6) 1_555 1_555 n
+C3 C4 C5 118.2(8) 1_555 1_555 n
+C3 C4 C6 120.6(9) 1_555 1_555 n
+C5 C4 C6 118.8(5) 1_555 1_555 n
+C4 C5 C4 120.5(6) 1_555 2_655 n
+C4 C6 C7 120.9(4) 1_555 1_555 n
+C6 C7 C6 118.2(6) 1_555 2_655 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ca P1 3.595(6) 4_654 n
+Ca P1 3.595(6) -4_555 n
+Ca O1 2.330(10) 1_555 n
+Ca O1 2.330(10) -1_665 n
+Ca O2 2.276(9) 4_654 n
+Ca O2 2.276(9) -4_555 n
+Ca O6 2.314(8) 1_555 n
+Ca O6 2.314(8) -1_665 n
+P1 Ca 3.595(6) 4_655 n
+P1 O1 1.531(4) 1_555 n
+P1 O2 1.526(4) 1_555 n
+P1 O3 1.548(4) 1_555 n
+P1 C1 1.817(4) 1_555 n
+P2 O4 1.542(4) 1_555 n
+P2 O5 1.549(4) 1_555 n
+P2 O6 1.533(4) 1_555 n
+P2 C2 1.807(4) 1_555 n
+O1 Ca 2.330(10) 1_555 n
+O1 P1 1.531(4) 1_555 n
+O2 Ca 2.276(9) 4_655 n
+O2 P1 1.526(4) 1_555 n
+O3 P1 1.548(4) 1_555 n
+C1 P1 1.817(4) 1_555 n
+C1 N1 1.489(4) 1_555 n
+O4 P2 1.542(4) 1_555 n
+O5 P2 1.549(4) 1_555 n
+O6 Ca 2.314(8) 1_555 n
+O6 P2 1.533(4) 1_555 n
+C2 P2 1.807(4) 1_555 n
+C2 N1 1.483(4) 1_555 n
+N1 C1 1.489(4) 1_555 n
+N1 C2 1.483(4) 1_555 n
+N1 C3 1.490(4) 1_555 n
+C3 N1 1.490(4) 1_555 n
+C3 C4 1.509(4) 1_555 n
+C4 C3 1.509(4) 1_555 n
+C4 C5 1.389(4) 1_555 n
+C4 C6 1.395(4) 1_555 n
+C5 C4 1.389(4) 1_555 n
+C5 C4 1.389(4) 2_655 n
+C6 C4 1.395(4) 1_555 n
+C6 C7 1.399(4) 1_555 n
+C7 C6 1.399(4) 1_555 n
+C7 C6 1.399(4) 2_655 n

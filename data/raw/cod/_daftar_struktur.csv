@@ -1,0 +1,939 @@
+file,formula,calcformula,flags,sg,year,status
+1000140,- Ca H2 Na2 O8 P2 -,- Ca H2 Na2 O8 P2 -,has coordinates,P 1 21 1,1997,sukses
+1000440,- Ba2 Ca H6 O16 P4 -,- Ba2 Ca H3 O16 P4 -,has coordinates,P 1 21/a 1,1997,sukses
+1001374,- Ca Co O7 P2 -,- Ca Co O7 P2 -,has coordinates,P -1,1988,sukses
+1001428,- Ca Cu O7 P2 -,- Ca Cu O7 P2 -,has coordinates,P 1 21/n 1,1990,sukses
+1001556,- Ca2 O7 P2 -,- Ca2 O7 P2 -,has coordinates,P 41,1993,sukses
+1001656,- Ca O9 P2 V2 -,- Ca O9 P2 V2 -,has coordinates,P n m a,1995,sukses
+1001859,- Ca0.504 Cs2 Nb6 O24 P3 -,- Ca0.504 Cs1.998 Nb6 O24 P3 -,has coordinates,R 3 2 :H,1991,sukses
+1007032,- Ca H4 N O9 P3 -,- Ca H4 N O9 P3 -,has coordinates,P 1 21/n 1,1975,sukses
+1007057,- Ca H K3 O8 P2 -,- Ca H0.5 K3 O8 P2 -,has coordinates,C 1 2/m 1,1969,sukses
+1007109,- Ca O12 P2 Pb3 S -,,,I -4 3 d,1957,sukses
+1007178,- Ca4 H16 K4 O44 P12 -,- Ca4 H16 K4 O44 P12 -,has coordinates,P 1 21/a 1,1988,sukses
+1007179,- Ca H11 Na2 O17.5 P4 -,- Ca H11 Na2 O17.5 P4 -,has coordinates,P m a 2,1988,sukses
+1007192,- Ca2 H16 Li2 O26 P6 -,- Ca2 H16 Li2 O26 P6 -,has coordinates,P -1,1990,sukses
+1007219,- Ca4 H16 K4 O44 P12 -,- Ca4 H16 K4 O44 P12 -,has coordinates,P 1 21/a 1,1988,sukses
+1007233,- Ca4 H32 K2 O46 P10 -,- Ca4 H32 K2 O46 P10 -,has coordinates,P n a 21,1996,sukses
+1008337,- Ca Nb2 O21 P6 -,- Ca Nb2 O21 P6 -,has coordinates,C 1 2/m 1,1987,sukses
+1008454,- Ca2 H20 N2 O24 P6 -,- Ca2 H20 N2 O24 P6 -,has coordinates,P 21 21 2,1990,sukses
+1008729,- Ca Na2 O12 P4 -,- Ca Na2 O12 P4 -,has coordinates,P 4/n b m :2,1996,sukses
+1008730,- Ca H2 O12 P4 -,- Ca H2 O12 P4 -,has coordinates,P 1 21/c 1,1995,sukses
+1008827,- Ca9 F1.5 Nd O24.25 P5 Si -,- Ca9 F1.54 Nd O24.28 P4.9998 Si1.0002 -,has coordinates,P 63/m,1998,sukses
+1010647,- Ca5 F O12 P3 -,- Ca5 F O12 P3 -,has coordinates,P 63/m,1940,sukses
+1010717,- Ca9 Cd F2 O24 P6 -,,,,1940,gagal
+1010774,- Ca10 F2 O24 P2 S2 Si2 -,,,,1939,gagal
+1010916,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,has coordinates,P 63/m,1932,sukses
+1010996,- Ca5 F O12 P3 -,- Ca5 F O12 P3 -,has coordinates,P 63/m,1932,sukses
+1011044,- Ca5 F O12 P3 -,- Ca5 F O12 P3 -,has coordinates,P 63/m,1930,sukses
+1011242,- Ca5 H O13 P3 -,- Ca5 H O13 P3 -,has coordinates,P 63/m,1932,sukses
+1011270,- Be Ca F2 H O5 P -,,,P 1 21/c 1,1936,sukses
+1510061,- Au Ca P -,- Au Ca P -,has coordinates,P 63/m m c,1987,sukses
+1511335,- B0.83 Ca9.93 O25.79 P5.84 -,- B0.83 Ca9.926 O25.794 P5.838 -,has coordinates,P -3,1988,sukses
+1511466,- B Ca O5 P -,- B Ca O5 P -,has coordinates,P 31 2 1,1994,sukses
+1514414,- C64 H86 Ca N2 P2 Si4 -,- C64 H86 Ca N2 P2 Si4 -,has coordinates,C 1 2/c 1,2013,sukses
+1514583,- C7 H18 Ca N O8 P -,- C7 H18 Ca N O8 P -,has coordinates,P 21 21 21,2013,sukses
+1517238,- Ca3 O8 P2 -,- Ca2.98 O8 P2 -,has coordinates,R 3 c :H,2003,sukses
+1519005,- Ba Ca H2 O8 P2 -,- Ba Ca H2 O8 P2 -,has coordinates,P 1 21/a 1,1999,sukses
+1519021,- Ca Na2 O7 P2 -,- Ca Na2 O7 P2 -,has coordinates,P -1,1999,sukses
+1519936,- Ba4.2 Ca3.31 H1.73 Na0.48 Nb5.76 O38.83 P0.52 Si2 Sr0 Ti4.24 -,- Ba4.22 Ca3.3 H1.72 Na0.48 Nb5.76 O38.82 P0.52 Si2 Ti4.24 -,has coordinates,F m m m,2012,sukses
+1520814,- Ca9 Co Li O28 P7 -,- Ca9 Co Li O28 P7 -,has coordinates,R 3 c :H,1999,sukses
+1520816,- Ca9 Co Na O28 P7 -,- Ca9 Co Na O28 P7 -,has coordinates,R 3 c :H,1999,sukses
+1520817,- Ca9 Co K O28 P7 -,- Ca9 Co K O28 P7 -,has coordinates,R 3 c :H,1999,sukses
+1521029,- Ca9.8 Cl2 La0.1 Na0.1 O24 P6 -,- Ca9.798 Cl2 La0.1038 Na0.1 O24 P6 -,has coordinates,P 63/m,2000,sukses
+1521031,- Ca9.64 Cl2 Na0.18 Nd0.18 O24 P6 -,- Ca9.644 Cl2 Na0.174 Nd0.1834 O24 P6 -,has coordinates,P 63/m,2000,sukses
+1521032,- Ca9.66 Cl2 Na0.17 O24 P6 Sm0.17 -,- Ca9.666 Cl2 Na0.164 O24 P6 Sm0.1702 -,has coordinates,P 63/m,2000,sukses
+1521033,- Ca9.72 Cl2 Dy0.14 Na0.14 O24 P6 -,- Ca9.714 Cl2 Dy0.138 Na0.144 O24 P6 -,has coordinates,P 63/m,2000,sukses
+1521034,- Ca9.576 Dy0.212 H2 Na0.212 O26 P6 -,- Ca9.574 Dy0.212 H2 Na0.212 O26 P6 -,has coordinates,P 1 1 21/b,2000,sukses
+1521036,- Ca9.674 H2 La0.286 Na0.045 O26 P5.784 Si0.216 -,- Ca9.674 H2 La0.286 Na0.04 O26 P5.784 Si0.216 -,has coordinates,P 63/m,2000,sukses
+1521037,- Ca9.616 H2 Na0.064 Nd0.317 O26 P5.712 Si0.288 -,- Ca9.616 H2 Na0.064 Nd0.3168 O26 P5.712 Si0.288 -,has coordinates,P 63/m,2000,sukses
+1521038,- Ca9.692 H2 Na0.04 O26 P5.778 Si0.222 Sm0.271 -,- Ca9.692 H2 Na0.04 O26 P5.778 Si0.222 Sm0.2708 -,has coordinates,P 63/m,2000,sukses
+1521049,- Ca3 Cu2 P4 Zn2 -,- Ca3 Cu2 P4 Zn2 -,has coordinates,P -3 m 1,1999,sukses
+1521054,- Ca2 Cu P3 Zn2 -,- Ca2 Cu P3 Zn2 -,has coordinates,P 63/m m c,1999,sukses
+1521055,- Ca4 Cu3 P5 Zn2 -,- Ca4 Cu3 P5 Zn2 -,has coordinates,P 63/m m c,1999,sukses
+1521110,- Ca3 I3 P -,- Ca3 I3 P -,has coordinates,I 41 3 2,1974,sukses
+1521426,- Ca3 O8 P2 -,- Ca3 O7.998 P2 -,has coordinates,P 63/m m c,1999,sukses
+1521820,- Ca3.55 Ce1.3 F1.41 H0.63 La0.6 Na2 Nd0.25 O24.63 P5.8 Si0.2 Sr2.3 -,- Ca3.548 Ce1.299 F1.41 La0.6 Na1.999 Nd0.25 O24.63 P5.799 Si0.201 Sr2.301 -,has coordinates,P 3,1996,sukses
+1522048,- Ca6 F2 Na2 O24 P6 Sm2 -,- Ca6 F2 Na2 O24 P6 Sm2 -,has coordinates,P 63/m,2000,sukses
+1524339,- Al0.13 Be4 Ca2 Fe0.42 H16 Mn4.12 O34 P6 -,- Al0.13 Be4 Ca2 Fe0.42 Mn4.12 O34 P6 -,has coordinates,C -1,1977,sukses
+1524419,- C0.46 H1.88 Al4 Ca6 Cl0.04 Na1.76 O27.82 P0.25 Si6.25 -,- C0.46 Al4 Ca6 Cl0.04 Na1.76 O27.82 P0.25 Si6.25 -,has coordinates,I 4/m,1977,sukses
+1524661,- Al3 Ca H6 O14 P S -,- Al3 Ca O14 P S -,has coordinates,R -3 m :H,1977,sukses
+1524950,- Al Ca Fe4.1 H2 K Mn9.9 Na4 O50 P12 -,- Al Ca Fe4.06 K Mn9.94 Na4 O50 P12 -,has coordinates,A 1 2/a 1,1981,sukses
+1524951,- Al Ca F2 Fe10 K Mn3 Na5 O48 P12 -,- Al Ca F2 Fe10.01 K Mn2.99 Na5 O48 P12 -,has coordinates,A 1 2/a 1,1981,sukses
+1524952,- Al Ca F Fe8.5 H K Mn4.5 Na5 O49 P12 -,- Al Ca F Fe8.502 K Mn4.498 Na5 O49 P12 -,has coordinates,A 1 2/a 1,1981,sukses
+1525495,- Ca3.678 H4.63 O11.74 P2.298 -,- Ca3.678 O11.738 P2.298 -,has coordinates,P 63/m,1980,sukses
+1525496,- Ca3.192 Cl0.356 H15.36 O16.424 P2.292 -,- Ca3.192 Cl0.356 O16.424 P2.292 -,has coordinates,P 63/m,1980,sukses
+1525497,- Ca3.29 H17.978 O18.474 P2.478 -,- Ca3.29 O18.474 P2.478 -,has coordinates,P 63/m,1980,sukses
+1525498,- Ca4.4 H17.212 O18.496 P2.196 -,- Ca4.4 O18.496 P2.196 -,has coordinates,P 63/m,1980,sukses
+1525499,- Ca4.372 Cl0.316 H16.822 O18.13 P2.202 -,- Ca4.372 Cl0.316 O18.13 P2.202 -,has coordinates,P 63/m,1980,sukses
+1525757,- Ca4.9 D O13 P2.82 -,- Ca4.9 D O13 P2.82 -,has coordinates,P 63/m,2001,sukses
+1525961,- C2.4 H2 Ca8.4 Na0.8 O23.6 P3.6 -,- C2.4 Ca8.4 Na0.798 O23.6 P3.6 -,has coordinates,P 63/m,2000,sukses
+1526053,- Ca9.95 Li1.05 O28 P7 -,- Ca9.95 Li1.05 O28 P7 -,has coordinates,R 3 c :H,2000,sukses
+1526055,- Ca10 Na O28 P7 -,- Ca10 Na O28 P7 -,has coordinates,R 3 c :H,2000,sukses
+1526131,- Ba Ca0.2 Cu2.8 O7.8 P0.2 Sr Y0.8 -,- Ba Ca0.2 Cu2.8 O7.8 P0.2 Sr Y0.8 -,has coordinates,P 4/m m m,2001,sukses
+1526133,- Ba Ca0.25 Cu2.8 O7.8 P0.2 Sr Y0.75 -,- Ba Ca0.25 Cu2.8 O7.8 P0.2 Sr Y0.75 -,has coordinates,P 4/m m m,2001,sukses
+1526135,- Ba Ca0.4 Cu2.8 O7.8 P0.2 Sr Y0.6 -,- Ba Ca0.4 Cu2.8 O7.8 P0.2 Sr Y0.6 -,has coordinates,P 4/m m m,2001,sukses
+1526155,- B0.16 Ca4.79 Ce2.185 F1.77 H0.23 La1.134 Nd0.583 O24.23 P0.25 Pr0.218 Si5.57 Th0.72 U0.12 Y0.25 -,- B0.1602 Ca4.792 Ce2.184 F1.77 La1.134 Nd0.582 O24.23 P0.2502 Pr0.216 Si5.568 Th0.72 U0.12 Y0.252 -,has coordinates,P 63,2001,sukses
+1526156,- Ca2.01 Ce3.378 F1.47 H0.53 La2.959 Na0.98 Nd0.429 O24.53 P0.75 Pr0.204 Si5.07 -,- Ca2.01 Ce3.378 F1.47 La2.958 Na0.98 Nd0.43 O24.53 P0.75 Pr0.202 Si5.07 -,has coordinates,P 63,2001,sukses
+1526459,- C1.08 H4.41 Ca9.3 N0.09 O25.89 P4.95 -,- C1.08 Ca9.302 N0.09 O25.898 P4.944 -,has coordinates,P 63/m,2001,sukses
+1526715,- C1.637 Ca9.55 O26.991 P5.52 -,- C1.56 Ca9.55 O26.99 P5.52 -,has coordinates,P -6,2000,sukses
+1527079,- Ca3 Cu3 O16 P4 -,- Ca3 Cu3 O16 P4 -,has coordinates,P 1 21/a 1,1981,sukses
+1527232,- Ca3 N P -,- Ca3 N P -,has coordinates,P m -3 m,1992,sukses
+1527362,- Al4 Ca4 H28 Mg O40 P6 -,- Al4 Ca4 Mg O40 P6 -,has coordinates,C 1 2/c 1,1976,sukses
+1529464,- Ca0.5 O4 P Sr1.05 -,- Ca0.500143 O4 P Sr1.05343 -,"has coordinates,has Fobs",R 3 c :H,2015,sukses
+1529465,- Ca O4 P Sr0.43 -,- Ca1.00029 O4 P Sr0.426 -,"has coordinates,has Fobs",R 3 c :H,2015,sukses
+1529466,- Ca11 O28 P7 -,- Ca11 O28 P7 -,"has coordinates,has Fobs",R 3 c :H,2015,sukses
+1529559,- Ca4.01 Cl0.89 Co0.99 O12 P3 -,- Ca4.01 Cl0.89 Co0.99 O12 P3 -,has coordinates,P 63/m,1987,sukses
+1529584,- Be2 Ca O8 P2 -,- Be2 Ca O8 P2 -,has coordinates,P 1 21/a 1,1960,sukses
+1530046,- Ca1.85 Cl1.15 P0.85 -,- Ca1.85 Cl1.15 P0.85 -,has coordinates,F m -3 m,1986,sukses
+1530047,- Ca3 Cl3 P -,- Ca3 Cl3 P -,has coordinates,P m -3 m,1986,sukses
+1530108,- Ca5 Cl0.1 F0.94 O12 P3 -,- Ca5 Cl0.1 F0.95 O12 P3 -,has coordinates,P 63/m,1989,sukses
+1530216,- Al0.5 Ba0.0835 Ca0.75 F1.16 Fe4.42 K0.125 Li0.25 Mg0.25 Mn1.42 Na1.13 O23.82 P6 Pb0.0835 Sr0.0835 Zn0.42 -,- Al0.5 Ba0.0835 Ca0.75 F1.16 Fe4.42 K0.125 Li0.25 Mg0.25 Mn1.42 Na1.125 O23.82 P6 Pb0.0835 Sr0.0835 Zn0.42 -,has coordinates,B 1 1 2/b,1979,sukses
+1530333,- Ca H12 O18 P2 U2 -,- Ca O18 P2 U2 -,has coordinates,P 4/n m m :2,1960,sukses
+1530849,- Ca10 O24 P6 S0.95 -,- Ca10 O24 P6 S0.95 -,has coordinates,P 63,1986,sukses
+1530850,- Ca9.65 Eu0.35 O24 P6 S -,- Ca9.64 Eu0.36 O24 P6 S0.98 -,has coordinates,P 63,1986,sukses
+1530851,- Ca9.1 Eu0.9 O24 P6 S1.41 -,- Ca9.1 Eu0.9 O24 P6 S1.42 -,has coordinates,P 63,1986,sukses
+1530852,- Ca8.63 Eu1.37 O24 P6 S1.55 -,- Ca8.62 Eu1.38 O24 P6 S1.56 -,has coordinates,P 63,1986,sukses
+1531049,- Ca0.25 Mn0.25 O12 P3 Ti2 -,- Ca0.25 Mn0.25 O12 P3 Ti2 -,has coordinates,R -3 :H,2002,sukses
+1531116,- Ca9 Li Mn O28 P7 -,- Ca9 Li Mn O28 P7 -,has coordinates,R 3 c :H,2001,sukses
+1531117,- Ca9 Mn Na O28 P7 -,- Ca9 Mn Na O28 P7 -,has coordinates,R 3 c :H,2001,sukses
+1531118,- Ca9 K Mn O28 P7 -,- Ca9 K Mn O28 P7 -,has coordinates,R 3 c :H,2001,sukses
+1531393,- Ca2 Co12 P7 -,- Ca2 Co12 P7 -,has coordinates,P -6,2001,sukses
+1531847,- Ca Ir2 P2 -,- Ca Ir2 P2 -,has coordinates,P 32 2 1,2002,sukses
+1532231,- Ca H4 O10 P2 Zn2 -,- Ca O10 P2 Zn2 -,has coordinates,P b c n,1971,sukses
+1532377,- Ca2 Ni7 P4 -,- Ca2 Ni7 P4 -,has coordinates,P m n 21,2001,sukses
+1532700,- Al0.004 As0.016 Ba0.018 Ca0.007 Cu0.034 Fe0.965 H1.494 O9 P0.003 Pb1.924 Si0.085 V1.836 Zn0.009 -,- Al0.004 As0.016 Ba0.018 Ca0.007 Cu0.034 Fe0.965 O9 P0.003 Pb1.924 Si0.085 V1.836 Zn0.009 -,has coordinates,P 1 21/m 1,2003,sukses
+1532970,- Ca2 Na2 O24 P6 Pb6 -,- Ca2 Na2.002 O24 P6 Pb5.998 -,has coordinates,P 63/m,2003,sukses
+1533064,- Ca5 F0.4 O12.1 P3 -,- Ca5 F0.8 O12.2 P3 -,has coordinates,P 63/m,2003,sukses
+1533075,- Ca H5 O6 P -,- Ca H5 O6 P -,has coordinates,C 1 c 1,2004,sukses
+1533168,- C0.75 H0.5 Ca10 O26.75 P6 -,- C0.75 Ca10 O26.75 P6 -,has coordinates,P -3,2003,sukses
+1533169,- C0.5 H Ca10 O26.5 P6 -,- C0.5 Ca10 O26.5 P6 -,has coordinates,P -3,2003,sukses
+1533357,- Ca Na2 O9 P2 V -,- Ca Na2 O9 P2 V -,has coordinates,P n m a,2004,sukses
+1534215,- Al0.28 Be4 Ca2 Fe2.35 H16 Mg0.19 Mn1.14 O34 P6 Zn0.72 -,- Al0.28 Be4 Ca2 Fe2.36 H8 Mg0.2 Mn1.12 O34 P6 Zn0.72 -,has coordinates,C 1 2/c 1,2004,sukses
+1534327,- Ca8 H12 O29 P6 -,- Ca8 O29 P6 -,has coordinates,P -1,1962,sukses
+1534465,- Ca9 Fe O28 P7 -,- Ca9 Fe O28.002 P7 -,has coordinates,R -3 c :H,2004,sukses
+1534646,- Ca2 H8 O16 P4 -,- Ca2 O16 P4 -,has coordinates,P 1 21/n 1,1983,sukses
+1534676,- Ca4 Ir8 P7 -,- Ca4 Ir8 P7 -,has coordinates,P 1 21/m 1,2004,sukses
+1534694,- Ba3 Ca2 F O12 P3 -,- Ba3 Ca2 F O12 P3 -,has coordinates,P 63/m,1991,sukses
+1534835,- Ca H16 N3 O12 P3 -,- Ca H16 N3 O12 P3 -,has coordinates,P 1 21/n 1,1993,sukses
+1534853,- Ca Cr O7 P2 -,- Ca Cr O7 P2 -,has coordinates,P -1,2001,sukses
+1534863,- Ca3 Cr3 O16 P4 -,- Ca3 Cr3 O16 P4 -,has coordinates,P -1,2002,sukses
+1534871,- Ca2 Cr4 O16 P4 -,- Ca2 Cr4 O16 P4 -,has coordinates,C 1 2/c 1,2002,sukses
+1534894,- Ca H3 O4 P -,- Ca H3 O4 P -,has coordinates,P 1 21/c 1,2001,sukses
+1535144,- Ca6 Eu2 F2 Na2 O24 P6 -,- Ca5.998 Eu2.002 F2 Na2 O24 P6 -,has coordinates,P 63/m,1983,sukses
+1535268,- Ca Fe4 Na4 O24 P6 -,- Ca Fe4 Na4 O24 P6 -,has coordinates,C 1 2/c 1,2004,sukses
+1536182,- Ca2 P2 Se6 -,- Ca2 P2 Se6 -,has coordinates,P 1 21/n 1,2003,sukses
+1536645,- Ca14 Mn P11 -,- Ca14 Mn P11 -,has coordinates,I 41/a c d :2,2005,sukses
+1536712,- Ca2 Ir12 P7 -,- Ca2 Ir12 P7 -,has coordinates,P 63/m,2002,sukses
+1536715,- Ca5 P12 Rh19 -,- Ca5 P12 Rh19 -,has coordinates,P -6 2 m,2002,sukses
+1536718,- Ca5 Ir19 P12 -,- Ca5 Ir19 P12 -,has coordinates,P -6 2 m,2002,sukses
+1536721,- Ca6 P19 Rh30 -,- Ca6 P19 Rh30 -,has coordinates,P 63/m,2002,sukses
+1537178,- Ca Ni O7 P2 -,- Ca Ni O7 P2 -,has coordinates,P -1,2004,sukses
+1537304,- Ca0.3 Ce0.15 La0.12 O4 P Th0.4 -,- Ca0.3 Ce0.15 La0.12 O4 P Th0.4 -,has coordinates,P 1 21/n 1,1967,sukses
+1538036,- Ca2 I P -,- Ca2 I P -,has coordinates,R -3 m :H,1988,sukses
+1538516,- Al0.1 Be4 Ca2 Fe2.5 H15.4 Mg2.2 Mn0.2 O34 P6 -,- Al0.1 Be4 Ca2 Fe2.5 H8 Mg2.2 Mn0.2 O34 P6 -,has coordinates,P -1,2004,sukses
+1539971,- Ca1.28 H4 Mg O10 P2 Sr0.72 -,- Ca1.28 Mg O10 P2 Sr0.72 -,has coordinates,P -1,2003,sukses
+1540005,- Ca0.167 Ce0.7 O4 P -,- Ca0.167 Ce0.7 O4 P -,has coordinates,P 1 21/n 1,2003,sukses
+1541827,- Ca H8 Na2 O11 P2 -,- Ca H8 Na2 O11 P2 -,has coordinates,C 1 c 1,1979,sukses
+1541957,- Ca4.33 F0.5 H0.5 La0.16 O12.5 P3 Sr0.51 -,- Ca4.3301 F0.5 La0.1599 O12.5 P3 Sr0.51 -,has coordinates,P 63/m,1963,sukses
+1542176,- Ca Na O4 P -,- Ca Na O4 P -,has coordinates,P -3 m 1,1942,sukses
+1545917,- Ca O10 P2 V2 -,- Ca O10 P2 V2 -,has coordinates,F d d 2,1992,sukses
+1546352,- Be24 Ca5.5 Li8 O96 P24 -,- Be24 Ca5.184 Li18.48 O96 P24 -,has coordinates,I 2 3,1991,sukses
+1546410,- C6 H22 Ca O13 P2 -,- C6 H22 Ca O13 P2 -,has coordinates,P 1 21/n 1,2017,sukses
+1548656,- C192 H133 Ca2 O29 P4 -,- C192 H133 Ca2 O29 P4 -,has coordinates,P 21 21 21,2018,sukses
+1549763,- Ca4.83 F Mn0.15 O12 P3 Sr0.02 -,- Ca4.841 F Mn0.144 O12 P3 Sr0.015 -,has coordinates,P 63/m,2018,sukses
+1551210,- C56 H120 B2 Ca2 N22 O6 P6 -,- C56 H120 B2 Ca2 N22 O6 P6 -,"has coordinates,has disorder",P 1 21/c 1,2019,sukses
+1551214,- C44 H86 B2 Ca N16 O4 P4 -,- C44 H86 B2 Ca N16 O4 P4 -,"has coordinates,has disorder",P 1 21/c 1,2019,sukses
+1552363,- C H4 Ca3 O14 P2 Zn2 -,- C H4 Ca3 O14 P2 Zn2 -,has coordinates,C 1 c 1,2019,sukses
+1552364,- C H4 Ca3 O14 P2 Zn2 -,- C H4 Ca3 O14 P2 Zn2 -,has coordinates,C 1 2/c 1,2019,sukses
+1556481,- C56 H88 Ca2 I2 O12 P2 -,- C56 H88 Ca2 I2 O12 P2 -,"has coordinates,has disorder",P 1 21/n 1,2016,sukses
+1557964,- Ca0.02 Fe0.12 H7.84 Mg0.07 Mn0.99 O12 P2 Zn1.82 -,- Al0.008 Ca0.004 Fe0.114 H8 Mg0.063 Mn0.973 O12 P2 Zn1.796 -,has coordinates,P n m a,2013,sukses
+1558499,- Ca7.97 Fe0.56 Mg9.47 O48 P12 -,- Ca7.96 Fe0.566 Mg9.458 O48 P12 -,has coordinates,C 1 2/c 1,2020,sukses
+1559799,- C36 H50 Ca N6 O P Si2 -,- C36 H50 Ca N6 O P Si2 -,"has coordinates,has disorder",P -1,2021,sukses
+1559800,- C47 H55 Ca N6 O3 P Si2 -,- C47 H55 Ca N6 O3 P Si2 -,has coordinates,P -1,2021,sukses
+1560431,- Ca2 H3 O17 P4 Zn3.5 -,- Ca2 H3 O17 P4 Zn3.5 -,has coordinates,P -4 21 c,2017,sukses
+1560546,- Al Ca3 Na3 P4 -,- Al Ca3 Na3 P4 -,has coordinates,P 63 m c,2017,sukses
+1560547,- Ca3 Ga Na3 P4 -,- Ca3 Ga Na3 P4 -,has coordinates,P 63 m c,2017,sukses
+1560548,- Ca3 In Na3 P4 -,- Ca3 In Na3 P4 -,has coordinates,P 63 m c,2017,sukses
+1560740,- C12 H12 Ca Co O7 P2 -,- C12 H12 Ca Co O7 P2 -,"has coordinates,has disorder",P 1 21/c 1,2018,sukses
+1560745,- C2 H8 Ca Co O8 P2 -,- C2 H8 Ca Co O8 P2 -,has coordinates,C 1 2/c 1,2018,sukses
+1561381,- C48 H38 Ca3 N5 O20 P3 -,- C48 H38 Ca3 N5 O20 P3 -,has coordinates,P -1,2016,sukses
+1561592,- Ca Mn0.5 O12 P3 Zr1.5 -,- Ca0.232 Mn0.182 O12 P1.5 Zr0.5 -,has coordinates,R 3 2 :H,2016,sukses
+1561593,- Ca0.66 Mn0.33 O8 P2 Zr -,- Ca0.66 Mn0.33 O8 P2 Zr -,has coordinates,P n m a,2016,sukses
+1563128,- Ca Ge O8 P2 -,- Ca Ge O8 P2 -,has coordinates,C 1 2/c 1,2011,sukses
+1564821,- C6 H58 Ca N2 Na8 O44 P6 -,- C6 H58 Ca N2 Na8 O44.002 P6 -,has coordinates,P 1 21/c 1,2017,sukses
+1569469,- Ca2 H14 Mn0.03 O23 P2 U3 -,- Ca2 H14 Mn0.025 O23 P2 U3 -,has coordinates,P b c a,2023,sukses
+1570107,- Al9.82 Ba0.68 Ca0.01 F16.21 H9.79 Mg0.74 Na1.72 O25.79 P3.99 Sr2.02 -,- Al10 Ba0.68 F14 H12 Mg0.57 Na1.65 O28 P4 Sr2.01 -,has coordinates,R -3 m :H,2023,sukses
+1570298,- Ca2 O7 P2 -,- Ca2 O7 P2 -,has coordinates,P -1,2022,sukses
+1572528,- Ca26.83 Fe1.01 Mg3 Na0 Ni0 O84 P21 -,- Ca8.946 Fe0.338 Mg O28 P7 -,has coordinates,R 3 c :H,2024,sukses
+1573853,- C90 H154 Ca2 N4 O4 P4 -,- C90 H154 Ca2 N4 O4 P4 -,"has coordinates,has disorder",P 1 21/c 1,2025,sukses
+1573855,- C131 H211 Ca3 N6 O4 P7 -,- C131 H211 Ca3 N6 O4 P7 -,"has coordinates,has disorder",P -1,2025,sukses
+1575054,- Ca5.25 Co2.87 Cu3.88 O32 P8 -,- Ca5.25 Co2.87 Cu3.88 O32 P8 -,has coordinates,P 1 21/n 1,2025,sukses
+2000062,- C2 H25 Ca N2 O19.5 P4 -,- C4 H36 Ca N4 O33 P8 -,has coordinates,P n m a,1988,sukses
+2000265,- C6 H12 Ca O14 P2 -,- C6 H12 Ca O14 P2 -,has coordinates,P -1,1991,sukses
+2001132,- Ca2 O7 P2 -,- Ca2 O7 P2 -,has coordinates,P 41,1993,sukses
+2002159,- Ca Cu O9 P2 V -,- Ca Cu O9 P2 V -,has coordinates,P n m a,1998,sukses
+2002160,- Ca Cu1.13 O8.88 P2 V0.88 -,- Ca Cu1.12 O8.88 P2 V0.88 -,has coordinates,P n m a,1998,sukses
+2002825,- Ba Ca O9 P2 V -,- Ba Ca O9 P2 V -,has coordinates,P 1 21/c 1,1997,sukses
+2002835,- Ca Ni O9 P2 V -,- Ca Ni O9 P2 V -,has coordinates,P n m a,1997,sukses
+2003097,- Ca15 I O37 P9 -,- Ca15 I1.048 O36.98 P9 -,has coordinates,P 63/m,1999,sukses
+2005212,- C3 H8 Ca N O7 P -,- C3 H8 Ca N O7 P -,has coordinates,P 1 21 1,1996,sukses
+2006516,- C3 H13 Ca O11 P -,- C3 H13 Ca O11 P -,has coordinates,P 1 21 1,1997,sukses
+2007492,- Ca9 F1.5 Nd O24.25 P5 Si -,- Ca9 F1.54 Nd O24.28 P5.1 Si0.9 -,has coordinates,P 63/m,1998,sukses
+2009164,- Ba2 Ca H6 O16 P4 -,- Ba2 Ca H6 O16 P4 -,"has coordinates,has Fobs",P 1 21/c 1,1999,sukses
+2009468,- C4 H12 Ca O14 P2 -,- C4 H12 Ca O14 P2 -,has coordinates,P 1 21/a 1,1994,sukses
+2012996,- C6 H24 Ca N2 O16 P4 -,- C6 H24 Ca N2 O16 P4 -,"has coordinates,has Fobs",C 1 2/c 1,2002,sukses
+2013129,- C4 H8 Ca O10 P2 -,- C4 H8 Ca O10 P2 -,"has coordinates,has Fobs",P 1 2/c 1,2003,sukses
+2013700,- C8 H24 Ca N2 O14 P4 -,- C8 H24 Ca N2 O14 P4 -,"has coordinates,has Fobs",C 1 2/c 1,2003,sukses
+2013840,- Bi0.4 Ca2.59 Na2.39 O24 P6 Pb4.61 -,- Bi0.402 Ca2.592 Na2.388 O24 P6 Pb4.614 -,"has coordinates,has Fobs",P 63/m,2004,sukses
+2014306,- Ca8.42 Na1.16 O28 P7 V -,- Ca8.418 Na1.164 O28 P7 V -,"has coordinates,has Fobs",R 3 c :H,2006,sukses
+2014516,- C25 H52 Ca Mo12 N7 O46 P -,- C25 H52 Ca Mo12 N7 O46 P -,"has coordinates,has disorder,has Fobs",P c a 21,2004,sukses
+2017323,- Ca In2 P2 -,- Ca In2 P2 -,"has coordinates,has Fobs",P 63/m m c,2009,sukses
+2017608,- Ca Cs3 Fe O14 P4 -,- Ca Cs3 Fe O14 P4 -,"has coordinates,has Fobs",P 21 21 21,2010,sukses
+2017672,- C5 H10 Ca N2 O8 P2 -,- C5 H10 Ca N2 O8 P2 -,"has coordinates,has Fobs",P 1 21/c 1,2010,sukses
+2018013,- Ca1.5 Mg12.5 Na8 O48 P12 -,- Ca1.5 Mg12.5 Na8 O48 P12 -,"has coordinates,has Fobs",P 1 21/n 1,2011,sukses
+2018372,- C10 H14 Ca N2 O13 P4 -,- C10 H14 Ca N2 O13 P4 -,"has coordinates,has Fobs",P 1 21/c 1,2012,sukses
+2018578,- B Ca0.42 Co H6 K0.17 O11 P2 -,- B Ca0.418 Co H4 K0.172 O11 P2 -,"has coordinates,has Fobs",P 65 2 2,2012,sukses
+2019651,- Ca2 H2 O8 P2 -,- Ca2 H2 O8 P2 -,"has coordinates,has Fobs",P 1 21/n 1,2014,sukses
+2020364,- Ca O6 P2 -,- Ca O6 P2 -,has coordinates,P 1 21/a 1,1989,sukses
+2020384,- Ca H18 N O11 P -,- Ca H18 N O11 P -,has coordinates,P 1 21 1,1984,sukses
+2020583,- C16 H20 Ca2 N4 O18 P4 -,- C16 H18 Ca2 N4 O18 P4 -,"has coordinates,has Fobs",P 1 21/c 1,2016,sukses
+2021274,- C28 H70 Ca2 Fe2 Mo12 N4 Na O74 P8 -,- C28 H51 Ca2 Fe2 Mo12 N4 Na O74 P8 -,"has coordinates,has Fobs",C 1 2/c 1,2018,sukses
+2022591,- Ca10.974 O27.64 P6.012 -,- Ca10.974 O27.64 P6.012 -,has coordinates,P 1,2022,sukses
+2102200,- Ca2 H8 O11 P2 -,- Ca2 O11 P2 -,"has coordinates,has Fobs",P 1 21/c 1,2000,sukses
+2103948,- Bi3 Ca0.5 O10 P2 -,- Bi3 Ca0.5 O10 P2 -,has coordinates,P -1,2003,sukses
+2104744,- Ca5 F O12 P3 -,- Ca5 F O12 P3 -,has coordinates,P 63/m,2010,sukses
+2104755,- Ca5 F O12 P3 -,- Ca5 F O12 P3 -,has coordinates,P 63/m,2010,sukses
+2104980,- C2 H8 Ca O6 P2 -,- C2 H8 Ca O6 P2 -,"has coordinates,has Fobs",C 1 2/c 1,2011,sukses
+2105261,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,has coordinates,P 63/m,2012,sukses
+2105262,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,has coordinates,P 63/m,2012,sukses
+2105263,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,has coordinates,P 63/m,2012,sukses
+2105264,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,has coordinates,P 63/m,2012,sukses
+2105265,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,has coordinates,P 63/m,2012,sukses
+2105266,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,has coordinates,P 63/m,2012,sukses
+2105267,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,has coordinates,P 63/m,2012,sukses
+2105268,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,has coordinates,P 63/m,2012,sukses
+2105269,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,"has coordinates,has disorder",P 1 21/c 1,2012,sukses
+2105270,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,"has coordinates,has disorder",P 1 21/c 1,2012,sukses
+2105271,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,"has coordinates,has disorder",P 1 21/c 1,2012,sukses
+2105272,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,"has coordinates,has disorder",P 1 21/c 1,2012,sukses
+2105273,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,"has coordinates,has disorder",P 1 21/c 1,2012,sukses
+2105274,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,"has coordinates,has disorder",P 1 21/c 1,2012,sukses
+2105275,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,"has coordinates,has disorder",P 1 21/c 1,2012,sukses
+2105276,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,"has coordinates,has disorder",P 1 21/c 1,2012,sukses
+2105277,- Ca5 Cl0.54 H0.46 O12.46 P3 -,- Ca5 Cl0.544 H0.456 O12.455 P3 -,"has coordinates,has disorder",P 63/m,2012,sukses
+2105278,- Ca5 Cl0.54 H0.46 O12.46 P3 -,- Ca5 Cl0.54 H0.46 O12.46 P3 -,"has coordinates,has disorder",P 63/m,2012,sukses
+2105279,- Ca5 Cl0.44 H0.56 O12.56 P3 -,- Ca5 Cl0.44 H0.561 O12.561 P3 -,"has coordinates,has disorder",P 63/m,2012,sukses
+2105280,- Ca5 Cl0.44 H0.56 O12.56 P3 -,- Ca5 Cl0.44 H0.56 O12.56 P3 -,"has coordinates,has disorder",P 63/m,2012,sukses
+2105281,- Ca5 Cl0.29 H0.71 O12.71 P3 -,- Ca5 Cl0.286 H0.712 O12.716 P3 -,"has coordinates,has disorder",P 63/m,2012,sukses
+2105282,- Ca5 Cl0.28 H0.72 O12.71 P3 -,- Ca5 Cl0.28 H0.72 O12.72 P3 -,"has coordinates,has disorder",P 63/m,2012,sukses
+2105283,- Ca5 Cl0.18 H0.82 O12.82 P3 -,- Ca5 Cl0.18 H0.818 O12.822 P3 -,"has coordinates,has disorder",P 63/m,2012,sukses
+2105284,- Ca5 Cl0.18 H0.82 O12.82 P3 -,- Ca5 Cl0.18 H0.82 O12.83 P3 -,"has coordinates,has disorder",P 63/m,2012,sukses
+2105285,- Ca6 O16 P4 -,- Ca6 O16.001 P4 -,"has coordinates,has disorder",P 1 21/c 1,2012,sukses
+2105871,- C30 H34 Ca N2 O6 P2 -,- C30 H34 Ca N2 O6 P2 -,"has coordinates,has Fobs",P 1 21/c 1,2014,sukses
+2106084,- Ca H O4 P -,- Ca H O4 P -,has coordinates,P -1,1980,sukses
+2106141,- Ca O2 P2 Zn2 -,- Ca O2 P2 Zn2 -,has coordinates,P -3,1972,sukses
+2106184,- Ca H O4 P -,- Ca H O4 P -,has coordinates,P 1,1977,sukses
+2106194,- Ca3 O8 P2 -,- Ca3 O8 P2 -,has coordinates,P 1 21/a 1,1977,sukses
+2106389,- Ca H5 N O7 P2 -,- Ca N O7 P2 -,has coordinates,P 1 21/n 1,1977,sukses
+2106434,- Ca H6 O9 P2 -,- Ca H6 O9 P2 -,has coordinates,P -1,1975,sukses
+2106581,- Ca2 H12 O22 P2 U3 -,- Ca2 O22 P2 U3 -,has coordinates,P b c a,1978,sukses
+2106602,- Ca3 H20 N2 O20 P4 -,- Ca3 H20 N2 O20 P4 -,has coordinates,P 1 21/n 1,1980,sukses
+2106709,- Ca2 H4 O9 P2 -,- Ca2 H4 O9 P2 -,has coordinates,P -1,1975,sukses
+2106757,- Ca10 H O17 P4 -,- Ca10 O17 P4 -,has coordinates,P 1,2003,sukses
+2106856,- Ca H8 Na2 O11 P2 -,- Ca H8 Na2 O11 P2 -,has coordinates,P 1 c 1,1980,sukses
+2106902,- Ca H4 O8 P2 -,- Ca H4 O8 P2 -,has coordinates,P -1,1973,sukses
+2106929,- Ca H25 K O45 P4 U7 -,- Ca K O45 P4 U7 -,has coordinates,C m c m,1991,sukses
+2107097,- Ca H6 Na O6 P3 -,- Ca Na O6 P3 -,has coordinates,P 21 3,1969,sukses
+2107166,- Ca H2 K O5 P -,- Ca H2 K O5 P -,has coordinates,C 1 2/m 1,1988,sukses
+2107188,- Ca2 H15 N O18 P4 -,- Ca2 H11 N O18 P4 -,has coordinates,P -1,1980,sukses
+2107226,- Ca3.93 H O13 P3 Pb1.07 -,- Ca3.9134 O13 P3 Pb1.0866 -,has coordinates,P 63/m,1989,sukses
+2107228,- Ca2.79 H O13 P3 Pb2.21 -,- Ca2.7392 O13 P3 Pb2.2608 -,has coordinates,P 63/m,1989,sukses
+2107230,- Ca0.81 H O13 P3 Pb4.19 -,- Ca0.806 O13 P3 Pb4.194 -,has coordinates,P 63/m,1989,sukses
+2107233,- Ca5.14 F0.97 O12.246 P3 Sb0.092 -,- Ca5.143 F0.9666 O12.246 P3 Sb0.0969 -,has coordinates,P 63/m,1991,sukses
+2107234,- Ca5.17 F1.04 O12.414 P3 Sb0.14 -,- Ca5.171 F1.042 O12.414 P3 Sb0.14 -,has coordinates,P 63/m,1991,sukses
+2107367,- Ca5 Cl O12 P3 -,- Ca5 Cl O12 P3 -,has coordinates,P 1 1 21/b,1972,sukses
+2107413,- Ca F H4 O5 P -,- Ca F H4 O5 P -,has coordinates,P -1,1972,sukses
+2107462,- Ca2 H4 O9 P2 -,- Ca2 H4 O9 P2 -,"has coordinates,has Fobs",P 1 21/n 1,2016,sukses
+2107463,- Ca2 H4 O9 P2 -,- Ca2 H4 O9 P2 -,has coordinates,P 1 21/n 1,2016,sukses
+2108349,- C0.919 Ba2 Ca17.621 F3.462 Na0.379 O39.7 P2.96 Si6 -,- C0.92 Ba2 Ca17.622 F3.456 Na0.378 O39.72 P2.96 Si6 -,"has coordinates,has Fobs",R -3 m :H,2018,sukses
+2108352,- Ca5 Cl0.9 F0.1 O12 P3 -,- Ca5 Cl0.88 F0.12 O12 P3 -,"has coordinates,has Fobs",P 63/m,2016,sukses
+2108489,- Ca Cu6 O18 P4 Rb2 -,- Ca Cu6 O18 P4 Rb2 -,"has coordinates,has Fobs",C 1 2 1,2019,sukses
+2108616,- Ca2 H14 O23 P2 U3 -,- Ca2 H14 O23 P2 U3 -,"has coordinates,has Fobs",P b c a,2020,sukses
+2109071,- Ca4.78 Cl0.78 Na0.22 O12 P3 -,- Ca4.78 Cl0.78 Na0.22 O12 P3 -,"has coordinates,has Fobs",P 63/m,2022,sukses
+2200088,- Ca H6 O7 P2 -,- Ca H6 O7 P2 -,has coordinates,P -1,2001,sukses
+2202940,- Ca K2 O7 P2 -,- Ca K2 O7 P2 -,has coordinates,P 1 21/n 1,2003,sukses
+2203237,- Ca K O9 P3 -,- Ca K O9 P3 -,has coordinates,P -6 c 2,2004,sukses
+2205473,- Ca0.31 Fe2 Mg Na0.38 O12 P3 -,- Ca0.312 Fe2 Mg Na0.376 O12 P3 -,has coordinates,C 1 2/c 1,2005,sukses
+2211651,- Ca10 K O28 P7 -,- Ca10 K O28 P7 -,"has coordinates,has Fobs",R 3 c :H,2006,sukses
+2211655,- Ca Cs O9 P3 -,- Ca Cs O9 P3 -,"has coordinates,has Fobs",P n m a,2006,sukses
+2215686,- Ca9 Cr O28 P7 -,- Ca9 Cr O28 P7 -,"has coordinates,has Fobs",R 3 c :H,2007,sukses
+2217361,- C64 H48 Ca N6 O4 P4 -,- C64 H48 Ca N6 O4 P4 -,"has coordinates,has Fobs",C 1 2/c 1,2008,sukses
+2221554,- C9 H42 Ca3 Cl4 O26 P4 -,- C9 H42 Ca3 Cl4 O26 P4 -,"has coordinates,has Fobs",C 1 2/c 1,2009,sukses
+2222666,- Ca Fe3 O13 P3 -,- Ca Fe3 O13 P3 -,"has coordinates,has Fobs",P 1 21/m 1,2009,sukses
+2223282,- C16 H22 Ca N2 O10 P2 S2 -,- C16 H22 Ca N2 O10 P2 S2 -,"has coordinates,has Fobs",C 1 2/c 1,2009,sukses
+2226013,- Ca9.8 Fe0.2 K0.8 O28 P7 -,- Ca9.8 Fe0.2 K0.8 O28 P7 -,has coordinates,R 3 c :H,2010,sukses
+2227105,- Ca H16 Na2 O8 P2 S6 -,- Ca H16 Na2 O8 P2 S6 -,"has coordinates,has Fobs",C 1 2/c 1,2010,sukses
+2229216,- Ca H20 Na2 Ni2 O24 P4 -,- Ca H20 Na2 Ni2 O24 P4 -,"has coordinates,has Fobs",F d d 2,2011,sukses
+2236693,- Ca2 H6 Mn3 O17 P3 -,- Ca2 Mn3 O17 P3 -,"has coordinates,has Fobs",A 1 a 1,2012,sukses
+2238071,- Ag Ca10 O28 P7 -,- Ag Ca10 O28 P7 -,has coordinates,R 3 c :H,2013,sukses
+2238327,- Ca H12 O12 P6 Sn -,- Ca H12 O12 P6 Sn -,"has coordinates,has Fobs",R -3 :H,2013,sukses
+2238575,- As2.48 Ca0.31 Cu5.7 H12 O21 P0.51 Y0.69 -,- As2.484 Ca0.31 Cu5.7 O20.9998 P0.516 Y0.69 -,"has coordinates,has Fobs",P 63/m,2013,sukses
+2239374,- Al1.07 Ca3.94 Fe2.93 H28 Mg1.01 O40 P6 Sr0.06 -,- Al1.07 Ca3.94 Fe2.93 H20 Mg1.01 O40 P6 Sr0.06 -,"has coordinates,has Fobs",C 1 2/c 1,2014,sukses
+2239769,- C2 H15.667 Ca O13.667 P2 Pd -,- C2 H14.5 Ca O13.6667 P2 Pd -,"has coordinates,has disorder,has Fobs",P 6/m c c,2014,sukses
+2241800,- Ca Fe O12 P3 Zn2 -,- Ca Fe O12 P3 Zn2 -,"has coordinates,has Fobs",P 1 21/c 1,2016,sukses
+2241917,- C30 H62 Ca Cl9 N9 Na O7 P3 -,- C30 H62 Ca Cl9 N9 Na O7 P3 -,"has coordinates,has Fobs",P 1 21/c 1,2016,sukses
+2241949,- Ca Fe Mn Na2 O12 P3 -,- Ca Fe1.0002 Mn0.9998 Na2 O12 P3 -,"has coordinates,has Fobs",C 1 2/c 1,2016,sukses
+2242153,- Ca Fe Ni2 O12 P3 -,- Ca Fe Ni2 O12 P3 -,"has coordinates,has Fobs",I m m a,2017,sukses
+2243867,- C32 H84 Ca2 N12 O20 P4 -,- C32 H84 Ca2 N12 O20 P4 -,"has coordinates,has Fobs",P 1 21/n 1,2021,sukses
+2300273,- Ca5 H O13 P3 -,- Ca3.66667 O13 P3 -,has coordinates,P 63/m,2010,sukses
+2310394,- Ca2 Cl O4 P -,- Ca2 Cl O4 P -,has coordinates,P b c m,1967,sukses
+2310526,- Ca H5 O6 P -,- Ca H4 O6 P -,has coordinates,I 1 2/a 1,1958,sukses
+2310630,- Ca H6 O9 P2 -,- Ca O9 P2 -,has coordinates,P -1,1956,sukses
+2312143,- C0.1 H1.92 Al2.14 Ca2.48 K0.49 Mg0.04 Na0.21 O15.62 P0.2 S0.7 Si2.86 Sr0.06 -,- Al2 Ca2.693 K0.281 Na0.247 O15.616 S0.897 Si3 Sr0.06 -,"has coordinates,has Fobs",P 1 21 1,2023,sukses
+2312144,- C0.14 H4.04 Al4.2 Ca4.94 K0.9 Mg0.08 Na0.45 O31.4 P0.33 S1.53 Si5.8 Sr0.09 -,- Al4 Ca5.384 K0.454 Na0.526 O31.404 S1.858 Si6 Sr0.09 -,"has coordinates,has Fobs",P 1 21/a 1,2023,sukses
+2312737,- Ca0.31 Mn0.14 Na5 O12 P3 Zn1.55 -,- Ca0.31 Mn0.14 Na5.005 O12 P3 Zn1.545 -,"has coordinates,has Fobs",P n a 21,2025,sukses
+3000164,- Ca4 Mg21 Na4 O72 P18 -,,,R -3 :H,,sukses
+3000445,- Ca8 Cu Dy O28 P7 -,,,R -3 c :H,,gagal
+3000446,- Ca8 Cu Er O28 P7 -,,,R -3 c :H,,gagal
+3000447,- Ca8 Cu Eu O28 P7 -,,,R -3 c :H,,gagal
+3000448,- Ca8 Cu Ho O28 P7 -,,,R -3 c :H,,gagal
+3000449,- Ca8 Cu O28 P7 Tb -,,,R -3 c :H,,gagal
+3000591,- Ca H O4 P -,- Ca H O4 P -,has coordinates,P -1,2025,sukses
+4000621,- Ca O6 P2 -,- Ca O6 P2 -,has coordinates,C 1 c 1,2005,sukses
+4001394,- Ca O6 P2 -,- Ca O6 P2 -,has coordinates,C 1 c 1,2007,sukses
+4002454,- Ca9 D Fe O28 P7 -,- Ca9 D0.999 Fe O28 P7 -,has coordinates,R 3 c :H,2003,sukses
+4002455,- Ca9.333 Fe1.167 O28 P7 -,- Ca9.333 Fe1.167 O28 P7 -,has coordinates,R 3 c :H,2003,sukses
+4030720,- Ca Fe3 H2 O13 P3 -,- Ca Fe3 H2 O13 P3 -,has coordinates,P b c a,1995,sukses
+4030862,- Ca Mn O7 P2 -,- Ca Mn O7 P2 -,has coordinates,P -1,1997,sukses
+4063235,- C53 H69 Ca N3 O P2 Si2 -,- C53 H69 Ca N3 O P2 Si2 -,"has coordinates,has disorder",P 1 21/c 1,2006,sukses
+4070546,- C29 H54 Ca N P Si2 -,- C29 H54 Ca N P Si2 -,has coordinates,P 1 21/n 1,2008,sukses
+4070917,- C55 H80 Ca N4 O P -,- C55 H80 Ca N4 O P -,"has coordinates,has disorder",P 1 21/c 1,2008,sukses
+4071660,- C48 H66 Ca N2 O2 P2 Si4 -,- C48 H66 Ca N2 O2 P2 Si4 -,has coordinates,P 1 21/c 1,2008,sukses
+4071672,- C52 H62 Ca N2 O4 P2 Se2 -,- C52.0056 H62.0112 Ca N2 O4 P2 Se2 -,"has coordinates,has disorder",C 1 2/c 1,2008,sukses
+4072773,- C36 H51 Ca O4.5 P -,- C36 H51 Ca O4.5 P -,has coordinates,P -1,2007,sukses
+4073037,- C57 H70 Ca N2 O2 P2 -,- C57 H70 Ca N2 O2 P2 -,"has coordinates,has disorder",P 1 21/n 1,2007,sukses
+4073038,- C80 H88 Ca N2 O2 P2 -,- C80 H88 Ca N2 O2 P2 -,has coordinates,P 1 21/c 1,2007,sukses
+4073039,- C130 H160 Ca2 N8 O5 P4 -,- C130 H160 Ca2 N8 O5 P4 -,has coordinates,C 1 c 1,2007,sukses
+4073260,- C45 H59 Ca N2 O P -,- C45 H59 Ca N2 O P -,"has coordinates,has disorder",P 1 21 1,2007,sukses
+4073789,- C37 H69 Ca N10 O3 P3 -,- C37 H69 Ca N10 O3 P3 -,"has coordinates,has disorder",P 1 21/n 1,2007,sukses
+4077531,- C84 H156 Ca4 O12 P4 Si8 -,- C68 H124 Ca4 O8 P4 Si8 -,"has coordinates,has disorder",I -4,2000,sukses
+4084512,- C30 H54 Ca1.5 N6 P3 -,- C30 H54 Ca1.5 N6 P3 -,"has coordinates,has disorder",P 1 21/c 1,2014,sukses
+4084513,- C40 H74 Ca N8 P4 -,- C40 H74 Ca N8 P4 -,"has coordinates,has disorder",C 1 2/c 1,2014,sukses
+4085571,- C36 H76 B2 Ca2 O2 P2 Si4 -,- C36 H76 B2 Ca2 O2 P2 Si4 -,has coordinates,P 1 21/n 1,2015,sukses
+4111064,- C65 H81 Ca N4 P4 Si4 -,- C65 H81 Ca N4 P4 Si4 -,has coordinates,P -1,2006,sukses
+4111065,- C31 H38 Ca N2 P2 Si2 -,- C31 H38 Ca N2 P2 Si2 -,has coordinates,C 1 2/c 1,2006,sukses
+4111066,- C90 H112 Ca2 N6 P4 Si4 -,- C90 H112 Ca2 N6 P4 Si4 -,"has coordinates,has disorder",C 1 2/c 1,2006,sukses
+4111067,- C81 H92 Ca2 N4 O P4 Si4 -,- C81 H92 Ca2 N4 O P4 Si4 -,has coordinates,P -1,2006,sukses
+4111068,- C47 H58 Ca N3 O P2 Si2 -,- C47 H58 Ca N3 O P2 Si2 -,has coordinates,P 1 21/n 1,2006,sukses
+4114603,- C22 H29 Ca N2 O11 P -,- C22 H20 Ca N2 O11 P -,has coordinates,P 1 21/n 1,2002,sukses
+4114604,- C208 H278 Ca8 N32 O87 P8 -,- C201.412 H224.628 Ca8 N29.804 O84.804 P8 -,has coordinates,P 4/n :2,2002,sukses
+4115722,- C12 H17 Ca Na O21 P2 -,- C12 H17 Ca Na O21 P2 -,has coordinates,C 1 2/c 1,2001,sukses
+4116611,- Ca H100 N13 O134 P5 W30 -,- Ca O147 P5 W30 -,has coordinates,P 1 21/m 1,1999,sukses
+4116612,- Ca H94 K5 O153 P5 W30 -,- Ca K5 O153 P5 W30 -,has coordinates,P 1 21/m 1,1999,sukses
+4121587,- C24 H31 Ca2 O28 P3 -,- C24 H31 Ca2 O28 P3 -,has coordinates,P c a 21,2014,sukses
+4121588,- C24 Ca2 O23 P3 -,- C24 Ca2 O23 P3 -,has coordinates,P 1 a 1,2014,sukses
+4124575,- C50 H80 Ca Co2 O8 P2 -,- C50 H80 Ca Co2 O8 P2 -,has coordinates,P -1,2015,sukses
+4124586,- C40 H93 Ca Fe2 N16 O13 P5 -,- C40 H93 Ca Fe2 N16 O13 P5 -,has coordinates,P 1 21/c 1,2015,sukses
+4124587,- C26 H62 Ca Fe N9 O8 P3 -,- C26 H62 Ca Fe N9 O8 P3 -,has coordinates,P 1 n 1,2015,sukses
+4124588,- C58 H58 Ca Co2 O10 P2 -,- C58 H58 Ca Co2 O10 P2 -,has coordinates,P 1 21/c 1,2015,sukses
+4305340,- C48 H54 Ca N4 O9 P2 -,- C48 H54 Ca N4 O9 P2 -,has coordinates,P 1 21/n 1,2008,sukses
+4307976,- C34 H86 B2 Ca O4 P2 Si4 -,- C34 H86 B2 Ca O4 P2 Si4 -,"has coordinates,has disorder",P 1 21/c 1,2007,sukses
+4310262,- C14 Ca O10 P2 -,- C14 Ca O10 P2 -,has coordinates,C 1 2/c 1,2005,sukses
+4312249,- C38 H72 Ca O4 P2 Si4 -,- C38 H72 Ca O4 P2 Si4 -,"has coordinates,has disorder",P 1 21/n 1,2004,sukses
+4316932,- Bi Ca3 O12 P3 -,- Bi Ca3 O12 P3 -,"has coordinates,has disorder",I -4 3 d,2010,sukses
+4317043,- Ca10 H2 O26 P6 -,- Ca10 O26 P6 -,has coordinates,P 63/m,2010,sukses
+4317044,- Ca9.6 H1.6 O26 P6 Tm0.4 -,- Ca9.6 O26 P6 Tm0.4 -,has coordinates,P 63/m,2010,sukses
+4317045,- Ca9.8 H1.8 O26 P6 Tm0.2 -,- Ca9.7992 O26 P6 Tm0.2008 -,has coordinates,P 63/m,2010,sukses
+4318255,- C32 H62 Ca N2 P2 Si4 -,- C32 H62 Ca N2 P2 Si4 -,has coordinates,P 1 21/c 1,2002,sukses
+4318805,- C166 H170 Ca N19 O25 P3 -,- C166 H155.97 Ca N19 O25 P3 -,has coordinates,P -3,2002,sukses
+4318806,- C48 H49 Ca N2 O11 P -,- C48 H41 Ca N2 O11 P -,has coordinates,P n m a,2002,sukses
+4321713,- C52 H70 Ca I O6 P -,- C52 H70 Ca I O6 P -,"has coordinates,has disorder",P 1 21/n 1,2000,sukses
+4322095,- C74 H104 Ca O4 P2 Si4 -,- C74 H104 Ca O4 P2 Si4 -,has coordinates,C 1 2/c 1,1999,sukses
+4322546,- Ca2 Fe H4 O13 P3 -,- Ca2 Fe H4 O13 P3 -,has coordinates,C 1 2/c 1,1999,sukses
+4322547,- Ca2 Fe0.5 H4 In0.5 O13 P3 -,- Ca2 Fe0.537 H4 In0.463 O13 P3 -,has coordinates,C 1 2/c 1,1999,sukses
+4323312,- C34 H62 Ca N2 O2 P2 Si4 -,- C34 H62 Ca N2 O2 P2 Si4 -,"has coordinates,has disorder",P 1 21/c 1,1997,sukses
+4323452,- C40 H64 Ca N4 O P2 Si4 -,- C40 H64 Ca N4 O P2 Si4 -,"has coordinates,has disorder",P -1,1997,sukses
+4326001,- Ca2 Cd P2 -,- Ca2 Cd P2 -,has coordinates,C m c 21,2011,sukses
+4328058,- C26 H62 Ca N2 O2 P2 Si2 -,- C26 H62 Ca N2 O2 P2 Si2 -,has coordinates,P 1 21/c 1,2012,sukses
+4328298,- C25 H33 Ca Cl3 Cu N11 O13 P -,- C25 H33 Ca Cl3 Cu N11 O13 P -,has coordinates,P -1,2012,sukses
+4328299,- C48 H68 Ca2 Cu2 N22 O26 P2 -,- C48 H68 Ca2 Cu2 N22 O26 P2 -,has coordinates,P -1,2012,sukses
+4329758,- C36 H44 Ca O5 P2 S2 -,- C36 H44 Ca O5 P2 S2 -,has coordinates,P 1 21/n 1,2012,sukses
+4329759,- C40 H52 Ca O6 P2 -,- C40 H52 Ca O6 P2 -,has coordinates,P 1 21/c 1,2012,sukses
+4329760,- C28 H32 Ca O6 P2 S2 -,- C28 H32 Ca O6 P2 S2 -,"has coordinates,has disorder",P -1,2012,sukses
+4329761,- C36 H42 Ca O3 P2 S4 -,- C36 H42 Ca O3 P2 S4 -,"has coordinates,has disorder",P 1 21/c 1,2012,sukses
+4329762,- C32 H36 Ca O2 P2 Se4 -,- C32 H36 Ca O2 P2 Se4 -,has coordinates,P 1 21 1,2012,sukses
+4330829,- C3 H19 Ca N O13.5 P3 -,- C3 H20 Ca N O14 P3 -,has coordinates,P 1 21/n 1,2012,sukses
+4331564,- Ca F22 P2 Xe5 -,- Ca F22 P2 Xe5 -,has coordinates,P n a 21,2006,sukses
+4335580,- C12 Ca N2 O13 P4 -,- C12 Ca N2 O13 P4 -,has coordinates,P m n b,2013,sukses
+4338265,- Ca32.24 Eu2.11 O168 P42 Sr28.67 -,- Ca32.238 Eu2.0976 O168 P42 Sr28.668 -,has coordinates,R 3 c :H,2014,sukses
+4339402,- C40 H52 Ca O4 P2 -,- C40 H52 Ca O4 P2 -,has coordinates,P 1 21/n 1,2007,sukses
+4339405,- C36 H44 Ca O6 P2 -,- C36 H44 Ca O6 P2 -,has coordinates,P b c a,2007,sukses
+4341174,- Ca1.25 O4 P Sr0.25 -,- Ca1.25029 O4 P Sr0.249714 -,has coordinates,R 3 c :H,2014,sukses
+4341175,- Ca1.45 O4 P Sr0.05 -,- Ca1.45006 O4 P Sr0.0499429 -,has coordinates,R 3 c :H,2014,sukses
+4341176,- Ca62.13 O168 P42 Sr6.27 -,- Ca62.1072 O168 P42 Sr6.2928 -,has coordinates,R 3 c :H,2014,sukses
+4342765,- C4 H14 Ca0.5 N O7 P2 -,- C4 H14 Ca0.5 N O7 P2 -,has coordinates,P 1 21/n 1,2015,sukses
+4343517,- C8 H82 Ca10 Cu2 Mo36 N8 O175 P12 -,- C8 H82 Ca10 Cu2 Mo36 N8 O175 P12 -,has coordinates,C 1 2/c 1,2015,sukses
+4343518,- C10 H30 Ca Fe Mo18 N6 O78 P6 -,- C10 H30 Ca Fe Mo18 N6 O78 P6 -,has coordinates,P n m a,2015,sukses
+4343519,- C36 H68 Ca Cu Mo18 N12 O77 P6 -,- C36 H68 Ca Cu Mo18 N12 O77 P6 -,has coordinates,P 1 21 1,2015,sukses
+4343520,- C30 H60 Ca Fe Mo18 N12 O79 P6 -,- C30 H60 Ca Fe Mo18 N12 O79 P6 -,has coordinates,P 1 21/c 1,2015,sukses
+4344241,- Ca H6 O8 P2 Zn -,- Ca H5 O8 P2 Zn -,has coordinates,P 1 21/n 1,1990,sukses
+4344555,- Ca2 N O3 P -,- Ca2 N O3 P -,has coordinates,P n m a,2016,sukses
+4345038,- Ca2 H4 O13 P3 V -,- Ca2 H4 O13 P3 V -,has coordinates,C 1 2/c 1,1992,sukses
+4345039,- Ca2 O11 P3 V -,- Ca2 O11 P3 V -,has coordinates,P 1 21/c 1,1992,sukses
+4346528,- C12 H18 Ca2 O11 P3 -,- C12 H18 Ca2 O11 P3 -,has coordinates,P -1,2015,sukses
+4346529,- C8 H16 Ca O9 P2 -,- C8 H16 Ca O9 P2 -,has coordinates,C 1 2/c 1,2015,sukses
+4500529,- C2 Ca O9 P -,- C2 Ca O9 P -,has coordinates,P 21 n b,2011,sukses
+4500530,- C8 Ca5 O30 P4 -,- C8 Ca5 O30 P4 -,has coordinates,I 1 2/a 1,2011,sukses
+4500531,- C2 Ca Li O6 P -,- C2 Ca Li O6 P -,has coordinates,P 1 21/a 1,2011,sukses
+4500532,- C8 H10 Ca4 Na2 O27 P4 -,- C8 H10 Ca4 Na2 O27 P4 -,has coordinates,P -1,2011,sukses
+4501741,- C48 H104 Ca3 O52 P6 -,- C48 H104 Ca3 O52 P6 -,has coordinates,P -1,2010,sukses
+4501742,- C48 H99 Ca4 O50.5 P6 -,- C48 H98 Ca4 O50.5 P6 -,has coordinates,P -1,2010,sukses
+4504781,- C7 H17 Ca O13 P -,- C7 H17 Ca O13 P -,has coordinates,P 1 21/n 1,2006,sukses
+4509071,- C6 H24 Ca N2 O15 P4 -,- C6 H24 Ca N2 O15 P4 -,has coordinates,C 1 2/c 1,2009,sukses
+4509594,- C29 H36 Ca O20 P4 -,- C29 H22 Ca O20 P4 -,"has coordinates,has disorder",P 4/n c c :2,2009,sukses
+4509595,- C56 H90 Ca5 O54 P8 -,- C56 H90 Ca5 O54 P8 -,"has coordinates,has disorder",P 1 21/n 1,2009,sukses
+4509867,- C2 Ca O10.5 P2 -,- C2 Ca O10.5 P2 -,has coordinates,P -1,2014,sukses
+4509868,- C2 Ca K O9 P2 -,- C2 Ca K O9 P2 -,has coordinates,P 1 21/c 1,2014,sukses
+4510948,- C4 H32 Ca3 O26 P2 -,- C4 H32 Ca3 O26 P2 -,has coordinates,P -1,2010,sukses
+4511022,- C3 H9 Ca O7 P -,- C3 H9 Ca O7 P -,has coordinates,P 1 21/c 1,2009,sukses
+4511885,- C4 H11 Ca N O9 P2 -,- C4 H11 Ca N O9 P2 -,has coordinates,P -1,2014,sukses
+6000036,- Ca10 H2 O26 P6 -,,,P 63/m,2000,gagal
+6000037,- Ca10 F2 O24 P6 -,,,P 63/m,2000,sukses
+6000038,- Ca10 Cl2 O24 P6 -,,,P 63/m,2000,gagal
+6000039,- Br2 Ca10 O24 P6 -,,,P 63/m,2000,gagal
+6000077,- Ca H2 O7 P2 -,- Ca H2 O7 P2 -,has coordinates,C 1 2/c 1,2000,sukses
+6000711,- Ca10 H2 O25 P6 -,,,P 63/m,1999,sukses
+7001047,- C62 H66 Ca O3 P4 -,- C62 H66 Ca O3 P4 -,has coordinates,P 1 21/c 1,2009,sukses
+7001050,- C54 H62 B4 Ca O P4 -,- C54 H62 B4 Ca O P4 -,has coordinates,P 1 21/c 1,2009,sukses
+7001066,- C73 H83 B4 Ca2 O2 P4 -,- C73 H83 B4 Ca2 O2 P4 -,"has coordinates,has disorder",P 1 21/c 1,2009,sukses
+7001067,- C83 H93 B4 Ca2 N O P4 -,- C83 H93 B4 Ca2 N O P4 -,has coordinates,P 1 21/c 1,2009,sukses
+7001068,- C54 H62 B4 Ca O P4 -,- C54 H62 B4 Ca O P4 -,has coordinates,P 1 21/c 1,2009,sukses
+7001703,- C90 H74 Ca Cl6 F12 Fe2 N2 O16 P4 Pd2 S4 -,- C90 H74 Ca Cl6 F12 Fe2 N2 O16 P4 Pd2 S4 -,has coordinates,P c c n,2009,sukses
+7001706,- C88 H76 Ca Cl6 F12 Fe2 N2 O19 P4 Pd2 S4 -,- C88 H70 Ca Cl6 F12 Fe2 N2 O19 P4 Pd2 S4 -,"has coordinates,has disorder",P 1 21/n 1,2009,sukses
+7001905,- Ca10 Cu0.2 H1.28 O25.84 P6 -,- Ca10 Cu0.2 H1.28 O25.84 P6 -,has coordinates,P 63/m,2009,sukses
+7001906,- Ca10 Cu0.6 H0.8 O26 P6 -,- Ca10 Cu0.6 H0.8 O26 P6 -,has coordinates,P 63/m,2009,sukses
+7001907,- Ca10 Cu0.72 H0.56 O26 P6 -,- Ca10 Cu0.72 H0.56 O26 P6 -,has coordinates,P 63/m,2009,sukses
+7003780,- C45 H55 Ca N3 O2 P2 -,- C45 H55 Ca N3 O2 P2 -,"has coordinates,has disorder",P 1 21/c 1,2008,sukses
+7011200,- Ca Na4 O18 P6 -,- Ca Na4 O18 P6 -,has coordinates,C 1 2/c 1,2002,sukses
+7011536,- C10 H32 Ca2 Cl4 O18 P4 -,- C10 H32 Ca2 Cl4 O18 P4 -,has coordinates,C m c a,2002,sukses
+7013241,- C4 H24 Ca Cl4 N4 O6 P2 -,- C4 H24 Ca Cl4 N4 O6 P2 -,has coordinates,P 1 21/n 1,2003,sukses
+7017671,- C38 H38 Ca O2 P2 -,- C38 H38 Ca O2 P2 -,has coordinates,P b c n,2012,sukses
+7017672,- C50 H62 Ca O3.5 P2 Pt -,- C50 H62 Ca O3.5 P2 Pt -,"has coordinates,has disorder",P -1,2012,sukses
+7018474,- C22 H25 Ca O11 P -,- C22 H21 Ca O11 P -,"has coordinates,has disorder",I 21 3,2012,sukses
+7018475,- C22 H24 Ca O10.5 P -,- C22 H21 Ca O10.5 P -,has coordinates,I 21 3,2012,sukses
+7018767,- Ba Ca O7 P2 -,- Ba Ca O7 P2 -,has coordinates,P 1 21/c 1,2012,sukses
+7020828,- C34 H28 Ca N2 O8 P2 -,- C34 H28 Ca N2 O8 P2 -,has coordinates,C 1 2 1,2013,sukses
+7022526,- C39 H59 B Ca N2 O2 P2 Si2 -,- C39 H59 B Ca N2 O2 P2 Si2 -,has coordinates,P -1,2013,sukses
+7023128,- Ca1.81 O21 P4 U2.19 -,- Ca1.81 O21 P4 U2.19 -,has coordinates,C 1 2 1,2013,sukses
+7023819,- C66 H70 Ca N2 O4 P2 Se2 -,- C66 H70 Ca N2 O4 P2 Se2 -,has coordinates,P -1,2013,sukses
+7027048,- C50 H86 Ca F14 N3 O P Ti4 -,- C100 H172 Ca2 F28 N6 O2 P2 Ti8 -,has coordinates,P 1 21/c 1,1998,sukses
+7028298,- C16 H20 Ca O12 P2 -,- C16 H20 Ca O12 P2 -,has coordinates,P -1,2014,sukses
+7030389,- C38 H48 Ca N2 O3 P2 Se2 -,- C38 H48 Ca N2 O3 P2 Se2 -,has coordinates,P -1,2014,sukses
+7032052,- Ca1.08 Cs1.08 Gd1.92 O12 P3 -,- Ca1.0785 Cs1.0785 Gd1.9215 O12 P3 -,has coordinates,P 62 2 2,2014,sukses
+7032208,- Ca9.84 Cl1.67 O24 P1.2 S2.4 Si2.4 -,- Ca9.8356 Cl1.672 O24 P1.212 S2.394 Si2.394 -,has coordinates,P 63/m,2014,sukses
+7032209,- Ca9.84 Cl1.68 O24 P1.94 S2.03 Si2.03 -,- Ca9.8326 Cl1.68 O24 P1.938 S2.028 Si2.028 -,has coordinates,P 63/m,2014,sukses
+7032210,- Ca10 Cl2 O24 P4.67 S0.66 Si0.66 -,- Ca10 Cl2 O24 P4.668 S0.666 Si0.666 -,has coordinates,P 63/m,2014,sukses
+7032211,- Ca10 Cl2 O24 P5.46 S0.27 Si0.27 -,- Ca10 Cl2 O24 P5.454 S0.27 Si0.27 -,has coordinates,P 63/m,2014,sukses
+7032212,- Ca10 Cl2 O24 P6 -,- Ca10 Cl2 O24 P6 -,has coordinates,P 63/m,2014,sukses
+7033134,- Ba2 Ca Na3 O12 P3 -,- Ba2 Ca Na3 O12 P3 -,has coordinates,P 3 1 c,2015,sukses
+7033135,- Ba Ca Na2 O8 P2 -,- Ba Ca Na2 O8 P2 -,has coordinates,P -3 m 1,2015,sukses
+7038852,- Ca4.47 La5.53 O26 P2.47 Si3.53 -,- Ca4.466 La5.534 O26 P2.472 Si3.528 -,"has coordinates,has Fobs",P 63/m,2016,sukses
+7038853,- Ca6.52 La3.48 O26 P4.52 Si1.48 -,- Ca6.5252 La3.4748 O26 P4.524 Si1.476 -,"has coordinates,has Fobs",P 63/m,2016,sukses
+7038854,- Ca8.28 La1.72 O26 P6 -,- Ca8.281 La1.719 O26 P6 -,"has coordinates,has Fobs",P 63/m,2016,sukses
+7045220,- Bi Ca Cs3 O14 P4 -,- Bi Ca Cs3 O14 P4 -,has coordinates,P 21 21 21,2018,sukses
+7047667,- C52 H64 Ca2 Mo24 N8 Na4 O132 P16 -,- C52 H64 Ca2 Mo24 N8 Na4 O136 P16 -,"has coordinates,has disorder",I 41/a c d,2018,sukses
+7048174,- Ca4 Na3 O15 P3 Te -,- Ca4 Na3 O15 P3 Te -,has coordinates,P 63,2018,sukses
+7049454,- Ca4.755 O13 P3 Tb0.245 -,- Ca4.7549 O13 P3 Tb0.2448 -,has coordinates,P 63/m,2019,sukses
+7052251,- C60 H48 Ca N2 O10 P4 -,- C60 H48 Ca N2 O10 P4 -,has coordinates,P 1 2/n 1,2006,sukses
+7052252,- C50 H44 Ca N2 O10 P4 -,- C50 H44 Ca N2 O10 P4 -,has coordinates,P c a 21,2006,sukses
+7054949,- C10 H15 Ca N O9 P2 -,- C10 H15 Ca N O9 P2 -,has coordinates,P -1,2015,sukses
+7055704,- C45 H105 Ca I2 O5 P5 -,- C45 H105 Ca I2 O5 P5 -,has coordinates,P 21 21 21,2016,sukses
+7056682,- C76 H70 Ca Cl14 Mo6 N2 O6 P4 -,- C76 H70 Ca Cl14 Mo6 N2 O6 P4 -,has coordinates,C 1 2/c 1,2017,sukses
+7056683,- C72 H60 Ca Cl14 O4 P4 W6 -,- C72 H60 Ca Cl14 O4 P4 W6 -,has coordinates,C 1 2/c 1,2017,sukses
+7056684,- C76 H70 Ca Cl14 N2 O6 P4 W6 -,- C76 H70 Ca Cl14 N2 O6 P4 W6 -,has coordinates,C 1 2/c 1,2017,sukses
+7058369,- Ca F K2 O4 P -,- Ca F K2 O4 P -,has coordinates,P n m a,2019,sukses
+7058370,- Ca F O4 P Rb2 -,- Ca F O4 P Rb2 -,has coordinates,P n m a,2019,sukses
+7103787,- C53 H69 Ca N3 O P2 Si2 -,- C53 H69 Ca N3 O P2 Si2 -,"has coordinates,has disorder",P 1 21/c 1,2003,sukses
+7104360,- Ca6 H80 N10 Na2 O88 P8 W12 -,- Ca6 N10 Na2 O88 P8 W12 -,"has coordinates,has disorder",P 1 21/n 1,2009,sukses
+7104361,- Ca6 H100 Mo12 N4 Na8 O110 P8 -,- Ca6 Mo12 N4 Na8 O110 P8 -,has coordinates,P -1,2009,sukses
+7105371,- C62 H80 Ca O2 P2 Si4 -,- C62 H80 Ca O2 P2 Si4 -,has coordinates,C 1 2/c 1,2010,sukses
+7105372,- C89 H110 Ca2 N4 O2 P2 -,- C82 H102 Ca2 N4 O2 P2 -,"has coordinates,has disorder",P -1,2010,sukses
+7106989,- C48 H37 Ca3 N2 O15 P2 -,- C48 H37 Ca3 N2 O15 P2 -,has coordinates,P c c a,2011,sukses
+7107442,- C3 H7 Ca N O9 P2 -,- C3 H9 Ca N O9 P2 -,has coordinates,P n a 21,2012,sukses
+7107443,- C5 H6 Ca N2 O8 P2 -,- C5 H6 Ca N2 O8 P2 -,has coordinates,P n a 21,2012,sukses
+7115939,- C86 H74 Ca O15 P2 -,- C86 H73 Ca O15 P2 -,"has coordinates,has disorder",P 1 21 1,2014,sukses
+7120079,- C8 H12 Ca F8 N4 O2 P2 -,- C8 H12 Ca F8 N4 O2 P2 -,has coordinates,C m c 21,2017,sukses
+7120080,- C52 H98 Ca4 F36 N6 O20 P6 -,- C52 H98 Ca4 F36 N6 O20 P6 -,has coordinates,P -1,2017,sukses
+7120081,- C12 H22 Ca F8 O8 P2 -,- C12 H22 Ca F8 O8 P2 -,has coordinates,P c a 21,2017,sukses
+7120082,- C38 H72 Ca4 F28 N4 O15 P4 -,- C38 H72 Ca4 F28 N4 O15 P4 -,"has coordinates,has disorder",P -1,2017,sukses
+7126280,- C12 H37 Ca N2 O17 P4 -,- C12 H37 Ca N2 O17 P4 -,"has coordinates,has disorder",C 1 2/c 1,2020,sukses
+7134464,- C30 H60 Ca N P2 Si2 -,- C30 H60 Ca N P2 Si2 -,has coordinates,P 1 21/c 1,2025,sukses
+7134465,- C36 H62 Ca O4 P4 -,- C36 H62 Ca O4 P4 -,has coordinates,P n a 21,2025,sukses
+7134466,- C44 H78 Ca O4 P4 -,- C44 H78 Ca O4 P4 -,has coordinates,C 1 2/c 1,2025,sukses
+7134468,- C28 H57 Ca N O2 P2 Si2 -,- C28 H57 Ca N O2 P2 Si2 -,has coordinates,P b c a,2025,sukses
+7208382,- C3 H19 Ca N O13.5 P3 -,- C3 H16 Ca N O13.5 P3 -,has coordinates,P 1 21/n 1,2012,sukses
+7208383,- C2 H10 Ca O9 P2 -,- C2 H6 Ca O9 P2 -,has coordinates,P -1,2012,sukses
+7208384,- C5 H10 Ca N O8 P -,- C5 H10 Ca N O8 P -,has coordinates,P 1 21/n 1,2012,sukses
+7209300,- Ag Ca P -,- Ag Ca P -,has coordinates,P -6 2 m,1979,sukses
+7211347,- C4 H13 Ca N O8 P2 -,- C4 H11 Ca N O8 P2 -,has coordinates,P 21 21 21,2013,sukses
+7212676,- C80 H92 Ca Cl2 F12 O32 P8 -,- C80 H80 Ca Cl2 F12 O32 P8 -,has coordinates,P -1,2010,sukses
+7212905,- Ca9.8 Cd0.2 O26 P6 -,- Ca9.802 Cd0.198 O26 P6 -,has coordinates,P 63/m,2010,sukses
+7212906,- Ca8.77 Cd1.23 O26 P6 -,- Ca8.778 Cd1.222 O26 P6 -,has coordinates,P 63/m,2010,sukses
+7215684,- Ca9.921 O26 P6 Sr0.079 -,- Ca9.918 O26 P6 Sr0.082 -,has coordinates,P 63/m,2009,sukses
+7215685,- Ca9.569 O26 P6 Sr0.431 -,- Ca9.566 O26 P6 Sr0.434 -,has coordinates,P 63/m,2009,sukses
+7215686,- Ca8.542 O26 P6 Sr1.458 -,- Ca8.546 O26 P6 Sr1.454 -,has coordinates,P 63/m,2009,sukses
+7215687,- Ca9.045 O26 P6 Sr0.955 -,- Ca9.048 O26 P6 Sr0.952 -,has coordinates,P 63/m,2009,sukses
+7216240,- C18 H56 Ca2 N6 O32 P2 -,- C18 H24 Ca2 N6 O32 P2 -,has coordinates,P 1 21 1,2014,sukses
+7217892,- Ca5 H O13 P3 -,- Ca20 O52 P12 -,has coordinates,P 1 1 21/b,2010,sukses
+7217893,- Ca8 H12 O29 P6 -,- Ca16 H24 O58 P12 -,has coordinates,P -1,2010,sukses
+7217894,- Ca10.084 H3.39 O27.15 P5.94 -,- Ca10.084 H2.556 O27.148 P5.94 -,has coordinates,P 63/m,2010,sukses
+7220146,- C48 H54 Ca N2 O2 P2 Se2 -,- C48 H54 Ca N2 O2 P2 Se2 -,has coordinates,P 1 21 1,2015,sukses
+7220147,- C48 H54 Ca N2 O2 P2 Se2 -,- C48 H54 Ca N2 O2 P2 Se2 -,has coordinates,P 1 21 1,2015,sukses
+7221156,- Ca Cu1.75 P2 -,- Ca Cu1.75 P2 -,has coordinates,I 4/m m m,1980,sukses
+7221157,- Ca Fe2 P2 -,- Ca Fe2 P2 -,has coordinates,I 4/m m m,1980,sukses
+7221217,- Ca P2 Zn2 -,- Ca P2 Zn2 -,has coordinates,P -3 m 1,1977,sukses
+7221218,- Ca Cd2 P2 -,- Ca Cd2 P2 -,has coordinates,P -3 m 1,1977,sukses
+7222708,- Ca3 Ge2 P4 -,- Ca3 Ge2 P4 -,has coordinates,P 1 21/c 1,1982,sukses
+7222994,- Ca Li O4 P -,- Ca Li O4 P -,has coordinates,P 3 1 c,1991,sukses
+7223693,- Ca Cu3.8 P2 -,- Ca Cu3.8 P2 -,has coordinates,R -3 m :H,1980,sukses
+7224690,- Ca8.88 F2 La1.12 O24 P5 Si -,- Ca8.884 F2 La1.116 O24 P5 Si -,"has coordinates,has Fobs",P 63/m,2016,sukses
+7224691,- Ca8.98 Dy0.11 F2 La0.92 O24 P5 Si -,- Ca8.9758 Dy0.10242 F2 La0.9212 O24 P5 Si -,"has coordinates,has Fobs",P 63/m,2016,sukses
+7231885,- C6 H35 Ca0 Cu Mo5 N6 O28.5 P2 -,- C6 H24 Cu Mo5 N6 O28.5 P2 -,has coordinates,C 1 c 1,2019,sukses
+7233142,- Ca28.85 Mn2.66 O84 P21 -,- Ca28.845 Mn2.655 O84 P21 -,has coordinates,R 3 c :H,2013,sukses
+7233777,- Ba Ca6 O17 P4 -,- Ba Ca6 O17 P4 -,has coordinates,C 1 2/m 1,2014,sukses
+7235036,- Ca O12 P2 Si Sr4 -,- Ca0.022 O4.21467 P0.881 Si0.119 Sr1.64467 -,has coordinates,P 63/m,2016,sukses
+7236242,- C41 H58 Ca N3 O P Se Si2 -,- C41 H58 Ca N3 O P Se Si2 -,has coordinates,P -1,2016,sukses
+7236243,- C62 H64 Ca N4 P2 S2 -,- C62 H64 Ca N4 P2 S2 -,has coordinates,C 1 2/c 1,2016,sukses
+7239301,- C16 H22 Ca O13 P2 -,- C16 H22 Ca O13 P2 -,has coordinates,P 1 2/c 1,2013,sukses
+7239302,- C16 H20 Ca O12 P2 -,- C16 H20 Ca O12 P2 -,has coordinates,P -1,2013,sukses
+7239303,- C26 H32 Ca N2 O14 P2 -,- C26 H32 Ca N2 O14 P2 -,has coordinates,P -1,2013,sukses
+7241712,- Ca0.3 Ce0.7 Cs0.3 P S4 -,- Ca0.3 Ce0.7 Cs0.300167 P S4 -,has coordinates,R -3 m :H,2021,sukses
+7241713,- Ca0.5 Cs0.5 P Pr0.5 S4 -,- Ca0.5 Cs0.5 P Pr0.5 S4 -,has coordinates,C 1 2/c 1,2021,sukses
+7241714,- Ca0.3 Cs0.3 P S4 Sm0.7 -,- Ca0.3 Cs0.300167 P S4 Sm0.7 -,has coordinates,R -3 m :H,2021,sukses
+7241715,- Ca0.3 Cs0.3 P Pr0.7 S4 -,- Ca0.3 Cs0.300167 P Pr0.7 S4 -,has coordinates,R -3 m :H,2021,sukses
+7241716,- Ca0.3 Cs0.3 Gd0.7 P S4 -,- Ca0.3 Cs0.3 Gd0.7 P S4 -,has coordinates,R -3 m :H,2021,sukses
+7241717,- Ca0.5 Cs0.5 Gd0.5 P S4 -,- Ca0.5 Cs0.5 Gd0.5 P S4 -,has coordinates,C 1 2/c 1,2021,sukses
+7241718,- Ca0.5 Cs0.5 Nd0.5 P S4 -,- Ca0.5 Cs0.5 Nd0.5 P S4 -,has coordinates,C 1 2/c 1,2021,sukses
+7241719,- Ca0.5 Cs0.5 Dy0.5 P S4 -,- Ca0.5 Cs0.5 Dy0.5 P S4 -,has coordinates,C 1 2/c 1,2021,sukses
+7241720,- Ca0.5 Cs0.5 P S4 Tb0.5 -,- Ca0.5 Cs0.5 P S4 Tb0.5 -,has coordinates,C 1 2/c 1,2021,sukses
+7241721,- Ca0.3 Cs0.3 Dy0.7 P S4 -,- Ca0.3 Cs0.300167 Dy0.7 P S4 -,has coordinates,R -3 m :H,2021,sukses
+7241722,- Ca0.3 Cs0.3 P S4 Tb0.7 -,- Ca0.3 Cs0.3 P S4 Tb0.7 -,has coordinates,R -3 m :H,2021,sukses
+7241723,- Ca0.5 Cs0.5 P S4 Sm0.5 -,- Ca0.5 Cs0.5 P S4 Sm0.5 -,has coordinates,C 1 2/c 1,2021,sukses
+7241724,- Ca0.3 Cs0.3 Nd0.7 P S4 -,- Ca0.3 Cs0.300333 Nd0.7 P S4 -,has coordinates,R -3 m :H,2021,sukses
+7244777,- Ca3 K5 Mo6 Na O49 P4 -,- Ca3 K5 Mo6 Na O49 P4 -,has coordinates,P -1,2022,sukses
+7245326,- Ca H8 O14 P2 V2 -,- Ca H8 O14 P2 V2 -,has coordinates,P 1,2022,sukses
+7247109,- Ca O3 P -,- Ca O3 P -,has coordinates,P 43 21 2,2023,sukses
+7248685,- Ca3.78 F0.87 K1.13 O24 P6 Pb5.09 -,- Ca3.776 F0.866 K1.134 O24 P6 Pb5.0884 -,has coordinates,P 63/m,2024,sukses
+7251248,- Ca8.61 Cd0.69 La0.82 O28 P7 -,- Ca8.614 Cd0.692 La0.822 O28 P7 -,has coordinates,R 3 c :H,2026,sukses
+7700038,- Ca Li O9 P3 -,- Ca Li O9 P3 -,has coordinates,P -1,2019,sukses
+7700330,- C67.5 H80.5 Ca Cl2 F6 Mo N O11 P4 S2 -,- C67.5 H80.5 Ca Cl2 F6 Mo N O11 P4 S2 -,"has coordinates,has disorder",C 1 2/c 1,2019,sukses
+7703281,- C30 H54 Ca0.5 Gd N5 O15 P -,- C30 H48 Ca0.5 Gd N5 O15 P -,"has coordinates,has disorder",P 1 2/c 1,2020,sukses
+7703283,- C30 H52 Ca0.5 Ho N5 O14 P -,- C30 H47 Ca0.5 Ho N5 O14 P -,"has coordinates,has disorder",P 1 2/c 1,2020,sukses
+7704902,- C65 H71 Ca N2 O P Sn -,- C65 H71 Ca N2 O P Sn -,"has coordinates,has disorder",P 1 21/c 1,2020,sukses
+7705606,- C66 H62 B2 Ca F15 N2 P -,- C66 H62 B2 Ca F15 N2 P -,has coordinates,P -1,2020,sukses
+7706214,- C42 H92 B4 Ca O4 P2 Si4 -,- C42 H92 B4 Ca O4 P2 Si4 -,"has coordinates,has disorder",P b c a,2021,sukses
+7706549,- C58 H54 Ca N2 O2 P2 -,- C58 H54 Ca N2 O2 P2 -,has coordinates,P 21 21 21,2021,sukses
+7707066,- C18 Ca O8 P2 -,- C18 Ca O8 P2 -,has coordinates,P 1 n 1,2021,sukses
+7708977,- Ca48.6 Eu5.999 Ge1.198 O168 P40.799 Zn6 -,- Ca48.6006 Eu5.9994 Ge1.2006 O168 P40.7994 Zn6 -,has coordinates,R 3 c :H,2021,sukses
+7708978,- Ca49.799 Eu6.001 Ge3.6 O168 P38.4 Zn6 -,- Ca49.7994 Eu6.0012 Ge3.6 O168 P38.4 Zn6 -,has coordinates,R 3 c :H,2021,sukses
+7708979,- Ca49.2 Eu5.997 Ge2.399 O168 P39.598 Zn6 -,- Ca49.2006 Eu5.99994 Ge2.3994 O168 P39.6006 Zn6 -,has coordinates,R 3 c :H,2021,sukses
+7711827,- Al Ca2 P3 Pt7 -,- Al Ca2 P3 Pt7 -,has coordinates,I 4/m m m,2022,sukses
+7711828,- Ca2 P3.24 Pt7 Ti -,- Ca2 P3.24 Pt7 Ti -,has coordinates,I 4/m m m,2022,sukses
+7711829,- Ca2 P2.78 Pt7 Zn -,- Ca2 P2.78 Pt7 Zn -,has coordinates,I 4/m m m,2022,sukses
+7712164,- C28 H44 Ca N2 O8 P2 -,- C28 H44 Ca N2 O8 P2 -,"has coordinates,has disorder",I 1 2/a 1,2023,sukses
+7712166,- C28 H44 Ca N2 O8 P2 -,- C28 H44 Ca N2 O8 P2 -,"has coordinates,has disorder",I 1 2/a 1,2023,sukses
+7712167,- C28 H44 Ca N2 O8 P2 -,- C28 H44 Ca N2 O8 P2 -,"has coordinates,has disorder",I 1 2/a 1,2023,sukses
+7712659,- Ca3.6 In3.6 O24 P6 -,- Ca3.6 In3.6 O24 P6 -,has coordinates,P -1,2023,sukses
+7713521,- Ca2 H4 O12 P4 Zn2 -,- Ca2 H4 O12 P4 Zn2 -,has coordinates,P 1 21/c 1,2023,sukses
+7715492,- C62 H82 B2 Ca N3 O P -,- C62 H82 B2 Ca N3 O P -,"has coordinates,has disorder",P 1 21 1,2024,sukses
+7716499,- Ca Mg O12 P4 -,- Ca Mg O12 P4 -,has coordinates,C 1 2/c 1,2024,sukses
+7720346,- Ca0.87 Cu6.13 K2 O18 P4 -,- Ca0.876 Cu6.124 K2 O18 P4 -,has coordinates,P 1 2/c 1,2026,sukses
+7720592,- C40 H79 Ca9 N8 O75.5 P16 -,- C40 H58 Ca9 N8 O65 P16 -,"has coordinates,has disorder",P 1 21/n 1,2026,sukses
+7721102,- B Ca0.5 H6 Mn O11 P2 -,- B Ca0.5 H6 Mn O11 P2 -,has coordinates,P 31 2 1,2026,sukses
+7721103,- B1.5 Ca0.75 H9 O16.5 P3 Zn1.5 -,- B1.5 Ca0.75 H9 O16.5 P3 Zn1.5 -,has coordinates,P 31 2 1,2026,sukses
+7721104,- B1.5 Ca0.75 Co1.5 H9 O16.5 P3 -,- B1.5 Ca0.75 Co1.5 H9 O16.5 P3 -,has coordinates,P 31 2 1,2026,sukses
+7721105,- B Ca0.5 Cd H6 O11 P2 -,- B Ca0.5 Cd H6 O11 P2 -,has coordinates,P 31 2 1,2026,sukses
+7721106,- B1.5 Ca0.75 H9 Mg1.5 O16.5 P3 -,- B1.5 Ca0.75 H9 Mg1.5 O16.5 P3 -,has coordinates,P 32 2 1,2026,sukses
+8102959,- B Ca H3 Ni O10 P2 -,- B Ca H3 Ni O10 P2 -,has coordinates,C 1 2/c 1,2006,sukses
+8102984,- B Ca0.5 Fe H6 O11 P2 -,- B Ca0.5 Fe H4 O11 P2 -,has coordinates,P 65 2 2,2008,sukses
+8102998,- B Ca Fe H3 O10 P2 -,- B Ca Fe H2 O10 P2 -,has coordinates,C 1 2/c 1,2008,sukses
+8103059,- Ca0.5 O12 P3 Sn2 -,- Ca0.5 O12 P3 Sn2 -,has coordinates,R -3 :H,2010,sukses
+8103587,- Ca14.92 O32 P2.35 Si5.65 -,- Ca14.84 O32 P2.35 Si5.65 -,has coordinates,P n m 21,1981,sukses
+8103837,- Al Ca2 Na5 O16 P4 -,- Al Ca2 Na5 O16 P4 -,has coordinates,C 1 c 1,1994,sukses
+8103839,- Al5 Ca3 Na27 O84 P24 -,- Al5 Ca3 Na27 O84 P24 -,has coordinates,R -3 :H,1995,sukses
+8103880,- Ca9.97 Cl1.94 O24 P6 -,- Ca9.954 Cl1.94 O24 P6 -,has coordinates,P 1 1 21,1993,sukses
+8103972,- Ca H4 O10 P2 Zn2 -,- Ca O10 P2 Zn2 -,has coordinates,I 1 2/c 1,1997,sukses
+8104400,- Ca2 O17 P6 -,- Ca2 O17 P6 -,has coordinates,P 1 21/c 1,1992,sukses
+9000033,- Al3 Ca H6 O14 P S -,- Al3 Ca H6 O14 P S -,has coordinates,R -3 m :R,1947,sukses
+9000148,- Ca0.32 Ce0.15 La0.14 O4 P0.96 Pb0.01 Si0.04 Th0.33 U0.05 -,- Ca0.32 Ce0.15 La0.14 O4 P0.96 Pb0.01 Si0.04 Th0.33 U0.05 -,has coordinates,P 1 21/n 1,1967,sukses
+9000165,- Ca Fe1.38 Mn0.62 O8 P2 -,- Ca Fe1.38 Mn0.62 O8 P2 -,has coordinates,P 1 21/c 1,1968,sukses
+9000192,- Ca Fe6 H8 O24 P4 -,- Ca Fe6 H8 O24 P4 -,has coordinates,C 1 2/c 1,1970,sukses
+9000257,- Ca0.125 Fe1.976 Li0.025 Mg0.049 Mn1.125 Na0.625 O12 P3 -,- Ca0.125 Fe1.976 Li0.025 Mg0.049 Mn1.125 Na0.625 O12 P3 -,has coordinates,C 1 2/c 1,1971,sukses
+9000383,- Al3 Ca1.002 O14 P2 -,- Al3 Ca1.002 O14 P2 -,has coordinates,R -3 m :H,1974,sukses
+9000388,- Al1.5 Ca0.5 Fe4 Mg0.5 Mn0.5 Na2.31 O24 P6 -,- Al1.5 Ca0.5 Fe4 Mg0.5 Mn0.5 Na2.31 O24 P6 -,has coordinates,P 1 21/n 1,1974,sukses
+9000401,- Al2 Ca2 H14 Mg0.5 O20 P3 -,- Al2 Ca2 H14 Mg0.5 O20 P3 -,has coordinates,C 1 2/c 1,1974,sukses
+9000403,- Be Ca H O5 P -,- Be Ca H O5 P -,has coordinates,P 1 21/a 1,1974,sukses
+9000404,- Ca Fe2 H18 Mg2 Mn O26 P4 -,- Ca Fe2 H18 Mg2 Mn O26 P4 -,has coordinates,P 1 2/a 1,1974,sukses
+9000420,- Be2 Ca O8 P2 -,- Be2 Ca O8 P2 -,has coordinates,P 1 21/a 1,1974,sukses
+9000434,- Ca9.095 Fe0.413 Mg0.587 O28 P7 -,- Ca9.095 Fe0.413 Mg0.587 O28 P7 -,has coordinates,R 3 c :H,1975,sukses
+9000462,- Al2 Ca2 H5.8 O15 P2 -,- Al2 Ca2 H10 O15 P2 -,has coordinates,A 21 2 2,1975,sukses
+9000465,- Ca H4 O10 P2 Zn2 -,- Ca H4 O10 P2 Zn2 -,has coordinates,P b c 21,1975,sukses
+9000475,- Al2 Ca2 H18 Mg0.5 O20 P3 -,- Al2 Ca2 H14 Mg0.5 O20 P3 -,has coordinates,C 1 2/c 1,1976,sukses
+9000544,- Ca Fe2 H O9 P2 -,- Ca Fe2 H O9 P2 -,has coordinates,P b a m,1977,sukses
+9000550,- Al2 Ba0.42 Ca8.92 Fe0.82 H2 Mn1.8 Na1.02 O42 P10 -,- Al2 Ba0.42 Ca8.92 Fe0.82 H2 Mn1.8 Na1.02 O42 P10 -,has coordinates,C 1 2/m 1,1977,sukses
+9000571,- Al Ca H9 Mg O13 P2 -,- Al Ca H9 Mg O13 P2 -,has coordinates,P b c a,1977,sukses
+9000572,- Ca Fe H9 Mg O13 P2 -,- Ca Fe H9 Mg O13 P2 -,has coordinates,P b c a,1977,sukses
+9000653,- Ca H4 O6 P0.5 S0.5 -,- Ca H4 O6 P0.5 S0.5 -,has coordinates,C 1 c 1,1978,sukses
+9000825,- Ca4.66 Fe8.02 Mn35.6 Na11.72 O144 P36 -,- Ca4.66 Fe8.02 Mn35.6 Na11.72 O144 P36 -,has coordinates,R -3 :H,1981,sukses
+9000829,- Al Ca F2 Fe14 K Na4 O48 P12 -,- Al Ca F2 Fe14 K Na4 O48 P12 -,has coordinates,A 1 2/a 1,1981,sukses
+9000830,- Al Ca F2 Fe14 K Na4 O48 P12 -,- Al Ca F2 Fe14 K Na4 O48 P12 -,has coordinates,A 1 2/a 1,1981,sukses
+9000831,- Al Ca F2 Fe14 K Na4 O48 P12 -,- Al Ca F2 Fe14 K Na4 O48 P12 -,has coordinates,A 1 2/a 1,1981,sukses
+9000841,- Ca0.95 Fe0.58 H2 Mg2.18 Mn0.29 O10 P2 -,- Ca0.95 Fe0.58 H2 Mg2.18 Mn0.29 O10 P2 -,has coordinates,C 2 2 21,1982,sukses
+9000942,- Al Ca0.592 F2 H Mn0.401 Na O5 P -,- Al Ca0.592 F2 H Mn0.401 Na O5 P -,has coordinates,P 1 21/m 1,1984,sukses
+9001089,- Be3 Ca0.36 H7.26 K Li1.44 Na0.84 O15.01 P3 -,- Be3 Ca0.36 H3.01 K Li1.44 Na0.84 O15.01 P3 -,has coordinates,P 63,1987,sukses
+9001115,- Ca H4 Na2 O11 P2 -,- Ca H4 Na2 O11 P2 -,has coordinates,P 1 c 1,1988,sukses
+9001232,- Ca5 F O12 P3 -,- Ca5 F O12 P3 -,has coordinates,P 63/m,1989,sukses
+9001233,- Ca5 H O13 P3 -,- Ca5 H O13 P3 -,has coordinates,P 63/m,1989,sukses
+9001234,- Ca5 Cl0.88 F0.12 O12 P3 -,- Ca5 Cl0.88 F0.12 O12 P3 -,has coordinates,P 63/m,1989,sukses
+9001252,- Be6 Ca1.374 H34 K0.3 Li2.9 Na0.048 O33.5 P6 -,- Be6 Ca1.374 H19 K0.3 Li2.9 Na0.048 O33.5 P6 -,has coordinates,I 2 3,1989,sukses
+9001262,- Ca5 Cl0.33 F0.39 H2 O12.28 P3 -,- Ca5 Cl0.33 F0.39 H0.28 O12.28 P3 -,has coordinates,P 63/m,1990,sukses
+9001263,- Ca5 Cl0.47 F0.29 H O12.24 P3 -,- Ca5 Cl0.47 F0.29 H0.24 O12.24 P3 -,has coordinates,P 1 1 21/b,1990,sukses
+9001342,- Ca3.895 Ce0.631 F Na0.474 O12 P2.841 Si0.159 -,- Ca3.895 Ce0.631 F Na0.474 O12 P2.841 Si0.159 -,has coordinates,P 63/m,1991,sukses
+9001343,- Ca4.557 Ce0.423 F0.335 H2 Na0.02 O12.664 P2.595 Si0.405 -,- Ca4.557 Ce0.423 F0.335 H0.664 Na0.02 O12.664 P2.595 Si0.405 -,has coordinates,P 63/m,1991,sukses
+9001344,- Ca4.641 Ce0.309 F Na0.05 O12 P2.781 Si0.219 -,- Ca4.641 Ce0.309 F Na0.05 O12 P2.781 Si0.219 -,has coordinates,P 63/m,1991,sukses
+9001345,- Ca4.825 Ce0.165 F0.74 H2 Na0.01 O12.26 P2.841 Si0.159 -,- Ca4.825 Ce0.165 F0.74 H0.26 Na0.01 O12.26 P2.841 Si0.159 -,has coordinates,P 63/m,1991,sukses
+9001387,- Ca4.686 F O12 P3 Sr0.314 -,- Ca4.686 F O12 P3 Sr0.314 -,has coordinates,P 63/m,1991,sukses
+9001388,- Ca4.852 F0.89 O12 P3 Sr0.148 -,- Ca4.852 F0.89 O12 P3 Sr0.148 -,has coordinates,P 63/m,1991,sukses
+9001389,- Ca4.395 F0.74 Mn0.605 O12 P3 -,- Ca4.395 F0.74 Mn0.605 O12 P3 -,has coordinates,P 63/m,1991,sukses
+9001390,- Ca4.791 F0.93 Mn0.211 O12 P3 -,- Ca4.791 F0.93 Mn0.211 O12 P3 -,has coordinates,P 63/m,1991,sukses
+9001493,- Be2 Ca3 H10 O20 P4 -,- Be2 Ca3 H10 O20 P4 -,has coordinates,P 1 21/a 1,1992,sukses
+9001494,- Be2 Ca3 H10 O20 P4 -,- Be2 Ca3 H10 O20 P4 -,has coordinates,P -1,1992,sukses
+9001504,- Al4 Ca H5 Mn O20 P3 Si -,- Al4 Ca H5 Mn O20 P3 Si -,has coordinates,C 1 2/m 1,1992,sukses
+9001671,- Ca4.497 F La0.325 Na0.178 O12 P2.856 Si0.144 -,- Ca4.497 F La0.325 Na0.178 O12 P2.856 Si0.144 -,has coordinates,P 63/m,1995,sukses
+9001672,- Ca4.331 F Na0.257 Nd0.409 O12 P2.841 Si0.159 -,- Ca4.331 F Na0.257 Nd0.409 O12 P2.841 Si0.159 -,has coordinates,P 63/m,1995,sukses
+9001673,- Ca4.52 F Gd0.307 Na0.173 O12 P2.859 Si0.141 -,- Ca4.52 F Gd0.307 Na0.173 O12 P2.859 Si0.141 -,has coordinates,P 63/m,1995,sukses
+9001674,- Ca4.584 Dy0.258 F Na0.158 O12 P2.874 Si0.12 -,- Ca4.584 Dy0.258 F Na0.158 O12 P2.874 Si0.12 -,has coordinates,P 63/m,1995,sukses
+9001878,- Ca5 F O12 P3 -,- Ca5 F O12 P3 -,has coordinates,P 63/m,1997,sukses
+9001879,- Ca5 F O12 P3 -,- Ca5 F O12 P3 -,has coordinates,P 63/m,1997,sukses
+9001880,- Ca5 F O12 P3 -,- Ca5 F O12 P3 -,has coordinates,P 63/m,1997,sukses
+9001881,- Ca5 F O12 P3 -,- Ca5 F O12 P3 -,has coordinates,P 63/m,1997,sukses
+9002213,- Ca5 H O13 P3 -,- Ca5 H O13 P3 -,has coordinates,P 63/m,1999,sukses
+9002214,- Ca5 H2 O13 P3 -,- Ca5 H2 O13 P3 -,has coordinates,P 63/m,1999,sukses
+9002215,- Ca5 H2 O13 P3 -,- Ca5 H2 O13 P3 -,has coordinates,P 63/m,1999,sukses
+9002216,- Ca5 H2 O13 P3 -,- Ca5 H2 O13 P3 -,has coordinates,P 63/m,1999,sukses
+9002217,- Ca4.73 H1.16 Mg0.05 Na0.1 O11.88 P2.76 -,- Ca4.73 H1.16 Mg0.05 Na0.1 O11.88 P2.76 -,has coordinates,P 63/m,1999,sukses
+9002218,- Ca4.73 H2 Mg0.05 Na0.1 O11.99 P2.79 -,- Ca4.73 H2 Mg0.05 Na0.1 O11.99 P2.79 -,has coordinates,P 63/m,1999,sukses
+9002219,- Ca4.7 H0.46 Mg0.05 Na0.1 O12.51 P2.61 -,- Ca4.7 H0.46 Mg0.05 Na0.1 O12.51 P2.61 -,has coordinates,P 63/m,1999,sukses
+9002220,- Ca4.73 H1.76 Mg0.02 Na0.1 O11.81 P2.79 -,- Ca4.73 H1.76 Mg0.02 Na0.1 O11.81 P2.79 -,has coordinates,P 63/m,1999,sukses
+9002221,- Ca4.73 H1.58 Mg0.02 Na0.1 O11.73 P2.79 -,- Ca4.73 H1.58 Mg0.02 Na0.1 O11.73 P2.79 -,has coordinates,P 63/m,1999,sukses
+9002222,- Ca4.7 H1.24 Mg0.02 Na0.1 O12.2 P2.73 -,- Ca4.7 H1.24 Mg0.02 Na0.1 O12.2 P2.73 -,has coordinates,P 63/m,1999,sukses
+9002223,- Ca4.76 H1.78 Mg0.02 Na0.1 O12.04 P2.85 -,- Ca4.76 H1.78 Mg0.02 Na0.1 O12.04 P2.85 -,has coordinates,P 63/m,1999,sukses
+9002224,- Ca4.76 H1.62 Mg0.02 Na0.1 O12.25 P2.82 -,- Ca4.76 H1.62 Mg0.02 Na0.1 O12.25 P2.82 -,has coordinates,P 63/m,1999,sukses
+9002225,- Ca4.76 H2 Mg0.05 Na0.1 O12.27 P2.85 -,- Ca4.76 H2 Mg0.05 Na0.1 O12.27 P2.85 -,has coordinates,P 63/m,1999,sukses
+9002226,- Ca4.73 H1.46 Mg0.02 Na0.1 O12.85 P2.76 -,- Ca4.73 H1.46 Mg0.02 Na0.1 O12.85 P2.76 -,has coordinates,P 63/m,1999,sukses
+9002227,- Ca4.73 H1.1 Mg0.02 Na0.1 O12.36 P2.85 -,- Ca4.73 H1.1 Mg0.02 Na0.1 O12.36 P2.85 -,has coordinates,P 63/m,1999,sukses
+9002228,- Ca4.7 H2 Mg0.02 Na0.1 O12.09 P2.76 -,- Ca4.7 H2 Mg0.02 Na0.1 O12.09 P2.76 -,has coordinates,P 63/m,1999,sukses
+9002249,- Al0.09 Ca1.03 Fe0.94 H2 Mg0.44 Mn1.89 Na0.1 O13 P3 Zn0.02 -,- Al0.09 Ca1.03 Fe0.94 H2 Mg0.44 Mn1.89 Na0.1 O13 P3 Zn0.02 -,has coordinates,P c a b,1999,sukses
+9002428,- Ca2 H6 Mn3 O17 P3 -,- Ca2 H6 Mn3 O17 P3 -,has coordinates,P 1 21/c 1,2000,sukses
+9002431,- Ca4.899 Cl2 La0.052 Na0.05 O12 P3 -,- Ca4.899 Cl2 La0.0519 Na0.05 O12 P3 -,has coordinates,P 63/m,2000,sukses
+9002432,- Ca4.822 Cl2 Na0.087 Nd0.092 O12 P3 -,- Ca4.822 Cl2 Na0.087 Nd0.0917 O12 P3 -,has coordinates,P 63/m,2000,sukses
+9002433,- Ca4.857 Cl2 Dy0.069 Na0.072 O12 P3 -,- Ca4.857 Cl2 Dy0.069 Na0.072 O12 P3 -,has coordinates,P 63/m,2000,sukses
+9002434,- Ca4.899 Cl La0.052 Na0.05 O12 P3 -,- Ca4.899 Cl La0.0519 Na0.05 O12 P3 -,has coordinates,P 1 1 21/b,2000,sukses
+9002504,- Ca2.01 F2 Na1.99 O7 P2 -,- Ca2.01 F2 Na1.99 O7 P2 -,has coordinates,P 1 21/n 1,2000,sukses
+9002505,- Ca1.005 F Na0.995 O3.5 P -,- Ca1.005 F Na0.995 O3.5 P -,has coordinates,P 1 21/n 1,1999,sukses
+9002580,- B0.09 Ca2.45 Ce1.05 F0.88 H0.12 La0.55 Nd0.3 O12.12 P0.12 Pr0.1 Si2.79 Sm0.05 Th0.35 U0.05 Y0.1 -,- B0.09 Ca2.45 Ce1.05 F0.88 H0.12 La0.55 Nd0.3 O12.12 P0.12 Pr0.1 Si2.79 Sm0.05 Th0.35 U0.05 Y0.1 -,has coordinates,P 63,2001,sukses
+9002581,- Ca1.03 Ce1.67 F0.88 H0.12 La1.47 Na0.5 Nd0.23 O12.12 P0.39 Pr0.1 Si2.55 -,- Ca1.03 Ce1.67 F0.88 H0.12 La1.47 Na0.5 Nd0.23 O12.12 P0.39 Pr0.1 Si2.55 -,has coordinates,P 63,2001,sukses
+9002794,- Al0.177 As1.19 B4 Ca8.01 Ce2.328 F8.749 Fe0.823 H La2.214 Na0.583 O38.461 P0.227 Si6 Th2.448 -,- Al0.177 As1.19 B4 Ca8.01 Ce2.328 F8.749 Fe0.823 H0.42 La2.214 Na0.583 O38.461 P0.227 Si6 Th2.448 -,has coordinates,R 3 m :H,2002,sukses
+9002888,- Ca0.86 H22 O23 P2 U2 -,- Ca0.86 H22 O23 P2 U2 -,has coordinates,P n m a,2003,sukses
+9003438,- Ca4.32 F Mn0.68 O12 P3 -,- Ca4.32 F Mn0.68 O12 P3 -,has coordinates,P 63/m,2004,sukses
+9003548,- Ca5 H1.44 O13.012 P2.928 -,- Ca5 H1.44 O13.012 P2.928 -,has coordinates,P 63/m,2004,sukses
+9003549,- C0.01 H1.3 Ca5 O13.072 P3 -,- C0.01 H1.3 Ca5 O13.072 P3 -,has coordinates,P 63/m,2004,sukses
+9003550,- C0.26 Ca5 O13.686 P2.829 -,- C0.26 Ca5 O13.686 P2.829 -,has coordinates,P 63/m,2004,sukses
+9003551,- C0.22 Ca5 O13.514 P2.823 -,- C0.22 Ca5 O13.514 P2.823 -,has coordinates,P 63/m,2004,sukses
+9003558,- B3 Ca2.64 Ce4.41 F10 Fe0.77 H4 Na O38 P0.6 Si6.4 Th0.39 Ti0.23 Y7.56 -,- B3 Ca2.64 Ce4.41 F10 Fe0.77 H4 Na O38 P0.6 Si6.4 Th0.39 Ti0.23 Y7.56 -,has coordinates,R 3 m :H,2004,sukses
+9003871,- Al1.836 Ca1.195 Ce0.262 Cr0.148 Er0.001 Fe0.404 Ga0.001 Gd0.001 H La0.315 Mg0.622 Mn0.009 Na0.002 Nd0.038 Ni0.01 O13 P0.009 Pr0.019 Sc0.002 Si2.97 Sm0.002 Sr0.01 Th0.09 Ti0.03 U0.003 V0.008 Zn0.015 -,- Al1.836 Ca1.195 Ce0.262 Cr0.148 Er0.001 Fe0.404 Ga0.001 Gd0.001 H La0.315 Mg0.622 Mn0.009 Na0.002 Nd0.038 Ni0.01 O13 P0.009 Pr0.019 Sc0.002 Si2.97 Sm0.002 Sr0.01 Th0.09 Ti0.03 U0.003 V0.008 Zn0.015 -,has coordinates,P 1 21/m 1,2006,sukses
+9003872,- Al1.836 Ca1.195 Ce0.262 Cr0.148 Er0.001 Fe0.404 Ga0.001 Gd0.001 H La0.315 Mg0.622 Mn0.009 Na0.002 Nd0.038 Ni0.01 O13 P0.009 Pr0.019 Sc0.002 Si2.97 Sm0.002 Sr0.01 Th0.09 Ti0.03 U0.003 V0.008 Zn0.015 -,- Al1.836 Ca1.195 Ce0.262 Cr0.148 Er0.001 Fe0.404 Ga0.001 Gd0.001 H La0.315 Mg0.622 Mn0.009 Na0.002 Nd0.038 Ni0.01 O13 P0.009 Pr0.019 Sc0.002 Si2.97 Sm0.002 Sr0.01 Th0.09 Ti0.03 U0.003 V0.008 Zn0.015 -,has coordinates,P 1 21/m 1,2006,sukses
+9003873,- Al1.836 Ca1.195 Ce0.262 Cr0.148 Er0.001 Fe0.404 Ga0.001 Gd0.001 H La0.315 Mg0.622 Mn0.009 Na0.002 Nd0.038 Ni0.01 O13 P0.009 Pr0.019 Sc0.002 Si2.97 Sm0.002 Sr0.01 Th0.09 Ti0.03 U0.003 V0.008 Zn0.015 -,- Al1.836 Ca1.195 Ce0.262 Cr0.148 Er0.001 Fe0.404 Ga0.001 Gd0.001 H La0.315 Mg0.622 Mn0.009 Na0.002 Nd0.038 Ni0.01 O13 P0.009 Pr0.019 Sc0.002 Si2.97 Sm0.002 Sr0.01 Th0.09 Ti0.03 U0.003 V0.008 Zn0.015 -,has coordinates,P 1 21/m 1,2006,sukses
+9004121,- Ca0.01 Fe0.9 Mg0.03 Mn0.06 Na O4 P -,- Ca0.01 Fe0.9 Mg0.03 Mn0.06 Na O4 P -,has coordinates,P m n b,1977,sukses
+9004145,- Al2 Ca2 F4 H5 Na O11 P2 -,- Al2 Ca2 F4 H5 Na O11 P2 -,has coordinates,P 1 21/m 1,1979,sukses
+9004187,- Al1.38 Ca0.19 Fe0.84 Mg0.09 Mn4.28 Na2 O24 P6 Zn0.05 -,- Al1.38 Ca0.19 Fe0.84 Mg0.09 Mn4.28 Na2 O24 P6 Zn0.05 -,has coordinates,P 1 21/n 1,1986,sukses
+9004193,- Be Ca2 H9 O16 P3 Zn -,- Be Ca2 H9 O16 P3 Zn -,has coordinates,P -1,1987,sukses
+9004214,- Ca1.18 Fe0.9 Mn0.92 O8 P2 -,- Ca1.18 Fe0.9 Mn0.92 O8 P2 -,has coordinates,P 1 21/c 1,1990,sukses
+9004230,- Ca2 O23 P2 U3 -,- Ca2 O23 P2 U3 -,has coordinates,P b c a,1991,sukses
+9004267,- Ca Fe5.28 Mg0.72 O16 P2 Si2 -,- Ca Fe5.28 Mg0.72 O16 P2 Si2 -,has coordinates,R -3 m :H,1993,sukses
+9004408,- Ca1.98 Ce0.49 La0.32 Mn0.16 Na12.72 Nd0.07 O28 P4 Pr0.02 Si4 Th0.09 -,- Ca1.98 Ce0.49 La0.32 Mn0.16 Na12.72 Nd0.07 O28 P4 Pr0.02 Si4 Th0.09 -,has coordinates,P 2 21 21,1996,sukses
+9004432,- Al0.5 Ba0.38 Ca0.94 Fe6.02 K0.06 Mg4.36 Na2.63 O50 P12 Pb0.03 Sr0.25 -,- Al0.5 Ba0.38 Ca0.94 Fe6.02 K0.06 Mg4.36 Na2.63 O50 P12 Pb0.03 Sr0.25 -,has coordinates,C 1 2/c 1,1996,sukses
+9004455,- Al0.18 Ca2 Fe4.24 H4 Mg0.96 Mn0.6 Na O26 P6 -,- Al0.18 Ca2 Fe4.24 H4 Mg0.96 Mn0.6 Na O26 P6 -,has coordinates,P c a b,1997,sukses
+9004518,- Ca Cu2 H20 Na2 O24 P4 -,- Ca Cu2 H20 Na2 O24 P4 -,has coordinates,F d d 2,1999,sukses
+9004519,- Ca5 F5 Na10 O20 P5 -,- Ca4.99995 F5 Na10 O20 P5 -,has coordinates,R 3 m :H,1999,sukses
+9004596,- Ca4.417 F O12 P3 Sr0.583 -,- Ca4.4169 F O12 P3 Sr0.5831 -,has coordinates,P 63/m,2000,sukses
+9004645,- Ca1.96 F2 Na4.04 O8 P2 -,- Ca1.96 F2 Na4.04 O8 P2 -,has coordinates,P -1,2001,sukses
+9004646,- Ca1.44 F2 Fe0.1 Mg0.5 Mn0.85 Na13.59 Nb0.44 O34 P4 Si4 Sr0.06 Ti2.55 Zr0.47 -,- Ca1.44 F2 Fe0.1 Mg0.5 Mn0.85 Na13.59 Nb0.44 O34 P4 Si4 Sr0.06 Ti2.55 Zr0.47 -,has coordinates,P 1,2001,sukses
+9004679,- As1.98 Ca0.02 Co0.59 Cu0.02 Fe2 H10 Mg0.27 Mn0.08 Ni0.02 O14 P0.01 S0.01 -,- As1.98 Ca0.02 Co0.59 Cu0.02 Fe2 H10 Mg0.27 Mn0.08 Ni0.02 O14 P0.01 S0.01 -,has coordinates,P 1 21/c 1,2002,sukses
+9004735,- Ba3.694 Ca2.306 H32 O64 P6 U9 -,- Ba3.694 Ca2.306 H32 O64 P6 U9 -,has coordinates,P 1 21/c 1,2003,sukses
+9004786,- Ca2 H4 Mg0.377 O10 P2 Zn0.623 -,- Ca2 H4 Mg0.377 O10 P2 Zn0.623 -,has coordinates,P -1,2003,sukses
+9004839,- Al0.94 Ca0.11 Fe2.16 Mg0.58 Mn3.21 Na2 O24 P6 -,- Al0.94 Ca0.11 Fe2.16 Mg0.58 Mn3.21 Na2 O24 P6 -,has coordinates,P 1 21/n 1,2004,sukses
+9004844,- Al3 Ca0.32 Cd1.68 Cu0.7 F2.4 H12 O27.6 P4 -,- Al3 Ca0.32 Cd1.68 Cu0.7 F2.4 H23.2 O27.6 P4 -,has coordinates,P -1,2004,sukses
+9004916,- Ca2.45 Ce0.22 F0.958 H0.042 La0.134 Na0.585 Nd0.02 O12.042 P3 Sr1.591 -,- Ca2.45 Ce0.22 F0.958 H0.042 La0.134 Na0.585 Nd0.02 O12.042 P3 Sr1.591 -,has coordinates,P 63,2005,sukses
+9004917,- Ca3.295 Ce0.185 F0.749 H0.251 La0.175 Na0.195 Nd0.066 O12.251 P3 Pr0.04 Sr1.044 -,- Ca3.295 Ce0.185 F0.749 H0.251 La0.175 Na0.195 Nd0.066 O12.251 P3 Pr0.04 Sr1.044 -,has coordinates,P 63,2005,sukses
+9004965,- Ba0.76 Ca0.04 Ce0.02 K0.04 La0.1 Mn0.03 Na2.12 O8 P2 Sr0.88 -,- Ba0.76 Ca0.04 Ce0.02 K0.04 La0.1 Mn0.03 Na2.12 O8 P2 Sr0.88 -,has coordinates,P -3 m 1,2005,sukses
+9004966,- Ba0.88 Ca0.04 Ce0.06 La0.04 Na2.2 O8 P2 Sr0.78 -,- Ba0.88 Ca0.04 Ce0.06 La0.04 Na2.2 O8 P2 Sr0.78 -,has coordinates,P -3 m 1,2005,sukses
+9004967,- Ca1.4 F2 Fe0.065 Mg0.3 Mn0.68 Na8.74 Nb0.19 O21 P3 Si2 Sr0.03 Ti1.41 Zr0.185 -,- Ca1.4 F2 Fe0.065 Mg0.3 Mn0.68 Na8.74 Nb0.19 O21 P3 Si2 Sr0.03 Ti1.41 Zr0.185 -,has coordinates,P -1,2005,sukses
+9004968,- Ca1.63 F3 Fe0.1 Mg0.41 Mn1.02 Na13.62 Nb0.51 O33 P4 Si4 Sr0.03 Ti2.42 Zr0.09 -,- Ca1.63 F3 Fe0.1 Mg0.41 Mn1.02 Na13.62 Nb0.51 O33 P4 Si4 Sr0.03 Ti2.42 Zr0.09 -,has coordinates,P 1 c 1,2005,sukses
+9005067,- Ca H26.34 O46 P4 U7 -,- Ca H28 O46 P4 U7 -,has coordinates,B m m b,1991,sukses
+9005118,- Be3 Ca H12 O14 P2 -,- Be3 Ca H10 O14 P2 -,has coordinates,C 1 c 1,1992,sukses
+9005233,- Be4 Ca2 H13 O20 P3 -,- Be4 Ca2 H13 O20 P3 -,has coordinates,P 1 21/n 1,1994,sukses
+9005237,- Ca0.98 Cd0.946 Mg2 Na1.074 O12 P3 -,- Ca0.98 Cd0.946 Mg2 Na1.074 O12 P3 -,has coordinates,C 1 2/c 1,1995,sukses
+9005283,- Ca O8 P2 U -,- Ca O8 P2 U -,has coordinates,P n m a,1996,sukses
+9005636,- As0.71 Ca0.01 Ce0.77 La0.1 Nd0.1 O4 P0.29 Pr0.02 -,- As0.71 Ca0.01 Ce0.77 La0.1 Nd0.1 O4 P0.29 Pr0.02 -,has coordinates,P 1 21/n 1,2004,sukses
+9005744,- Ca0.17 Fe2 Mn Na1.83 O12 P3 -,- Ca0.17 Fe2 Mn Na1.83 O12 P3 -,has coordinates,C 1 2/c 1,2005,sukses
+9005745,- Ca0.17 Fe2 Mn Na1.83 O12 P3 -,- Ca0.17 Fe2 Mn Na1.83 O12 P3 -,has coordinates,C 1 2/c 1,2005,sukses
+9005746,- Al0.52 Ca0.32 Fe2.48 Na0.84 O12 P3 -,- Al0.52 Ca0.32 Fe2.48 Na0.84 O12 P3 -,has coordinates,C 1 2/c 1,2005,sukses
+9005865,- Ca3 O8 P2 -,- Ca3 O8 P2 -,has coordinates,R -3 m :H,1987,sukses
+9006952,- Ca5 F O12 P3 -,- Ca5 F O12 P3 -,has coordinates,P 63/m,2001,sukses
+9006953,- Ca5 F O12 P3 -,- Ca5 F O12 P3 -,has coordinates,P 63/m,2001,sukses
+9006954,- Ca5 F O12 P3 -,- Ca5 F O12 P3 -,has coordinates,P 63/m,2001,sukses
+9007287,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007288,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007289,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007290,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007291,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007292,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007293,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007294,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007295,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007296,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007297,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007298,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007299,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007300,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007301,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007302,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007303,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007304,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007305,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007306,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007307,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007308,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007309,- Ca D5 O6 P -,- Ca D5 O6 P -,has coordinates,I 1 a 1,2004,sukses
+9007512,- Ca2 H4 Mn O10 P2 -,- Ca2 H4 Mn O10 P2 -,has coordinates,P -1,1970,sukses
+9007616,- Ca0.017 Fe0.614 Li0.301 Mg0.036 Mn0.333 Na0.014 O4 P0.965 -,- Ca0.017 Fe0.614 Li0.301 Mg0.036 Mn0.333 Na0.0135 O4 P0.965 -,has coordinates,P m n b,1976,sukses
+9007619,- Ca4 H4 O16 P4 -,- Ca4 H4 O16 P4 -,has coordinates,P -1,1977,sukses
+9007779,- Ca H16 Li O13 P3 -,- Ca H16 Li O13 P3 -,has coordinates,P -1,1990,sukses
+9007835,- Ca H16 N2 O12 P3 -,- Ca H16 N2 O12 P3 -,has coordinates,P 21 21 21,1990,sukses
+9007962,- Ca K O9 P3 -,- Ca K O9 P3 -,has coordinates,P -6 c 2,2004,sukses
+9007983,- Ca0.312 Fe2 Mg Na0.376 O12 P3 -,- Ca0.312 Fe2 Mg Na0.376 O12 P3 -,has coordinates,C 1 2/c 1,2005,sukses
+9008178,- Ca0.1 F Fe0.25 Mg0.7 Mn0.95 O4 P -,- Ca0.1 F Fe0.25 Mg0.7 Mn0.95 O4 P -,has coordinates,I 1 2/a 1,1969,sukses
+9008245,- Ca N O9 P3 -,- Ca N O9 P3 -,has coordinates,P 1 1 21/n,1975,sukses
+9009277,- Ca0.5 H2 O5 P Zn -,- Ca0.5 H2 O5 P Zn -,has coordinates,P b c n,1973,sukses
+9009326,- C H Ca Mg5 O16 P3 -,- C H Ca Mg5 O16 P3 -,has coordinates,P -1,1986,sukses
+9009361,- Al3 Ca0.04 Ce0.54 H6 La0.27 Nd0.11 O14 P2 Sm0.04 -,- Al3 Ca0.04 Ce0.54 H6 La0.27 Nd0.11 O14 P2 Sm0.04 -,has coordinates,R -3 m :H,1990,sukses
+9009376,- As1.5 Ca4.2 F0.345 H0.02 O12.654 P1.5 Sr0.8 -,- As1.5 Ca4.2 F0.345 H0.654 O12.654 P1.5 Sr0.8 -,has coordinates,P 1 1 21/m,1991,sukses
+9009485,- As2.892 Ca1.91 Mg0.56 Mn1.77 Na1.376 O12 P0.09 Pb0.384 V0.018 -,- As2.892 Ca1.91 Mg0.56 Mn1.77 Na1.376 O12 P0.09 Pb0.384 V0.018 -,has coordinates,I 1 2/a 1,1993,sukses
+9009521,- Ca Cu H8 O14 P2 U -,- Ca Cu H8 O14 P2 U -,has coordinates,P 1 21/c 1,2001,sukses
+9009552,- Ba Ca7 F3 Na5 O24 P6 -,- Ba Ca7.00002 F3 Na4.99998 O24 P6 -,has coordinates,R -3 m :R,1984,sukses
+9009585,- Al0.67 Be2 Ca Fe0.6 H7 Mg1.4 O17 P3 -,- Al0.67 Be2 Ca Fe0.6 H7 Mg1.4 O17 P3 -,has coordinates,C 1 2/c 1,1975,sukses
+9009590,- Al0.13 Be4 Ca2.04 Fe0.42 H14.8 Mg0.04 Mn4.04 O34 P6 -,- Al0.13 Be4 Ca2.04 Fe0.42 H16 Mg0.04 Mn4.04 O34 P6 -,has coordinates,C -1,1977,sukses
+9009610,- As4 Ca6 H33 O35 P -,- As4 Ca6 H33 O35 P -,has coordinates,R 3 c :H,1982,sukses
+9009615,- Ca0.52 Ce3.9 Fe2 H10 La2.1 Mn2 Na13.48 O68.2 P5.44 Si13.38 Zr -,- Ca0.52 Ce3.9 Fe2 H6.38 La2.1 Mn2 Na13.48 O67.47 P5.44 Si13.38 Zr -,has coordinates,R -3 m :H,1983,sukses
+9009705,- Al2.05 Ca1.42 F1.6 Fe1.08 H1.12 Li0.54 Mg0.06 Mn3.54 Na1.02 O24.4 P5.82 -,- Al2.05 Ca1.42 F1.6 Fe1.08 H1.12 Li0.54 Mg0.06 Mn3.54 Na1.02 O24.4 P5.82 -,has coordinates,P a -3,1978,sukses
+9009706,- Ca2 Fe H8 O12 P2 -,- Ca2 Fe H8 O12 P2 -,has coordinates,P -1,1979,sukses
+9009927,- Ca2 H4 Mg O10 P2 -,- Ca2 H4 Mg O10 P2 -,has coordinates,P -1,1974,sukses
+9009978,- Ca2.019 F0.165 O8.832 P1.182 -,- Ca2.019 F0.165 O8.832 P1.182 -,has coordinates,P 63/m,1991,sukses
+9009979,- Ca2.07 F0.163 O8.922 P1.239 -,- Ca2.07 F0.163 O8.922 P1.239 -,has coordinates,P 63/m,1991,sukses
+9009980,- Ca2.108 F0.171 O8.817 P1.362 -,- Ca2.108 F0.171 O8.817 P1.362 -,has coordinates,P 63/m,1991,sukses
+9009981,- Ca2.176 F0.169 O8.973 P1.488 -,- Ca2.176 F0.169 O8.973 P1.488 -,has coordinates,P 63/m,1991,sukses
+9009998,- Al0.2 Be2 Ca Fe1.6 H6.71 Mg0.2 Mn0.35 O17 P3 -,- Al0.2 Be2 Ca Fe1.6 H11.65 Mg0.2 Mn0.35 O17 P3 -,has coordinates,C 1 2/c 1,2002,sukses
+9010069,- Al Ca0.91 F0.03 Fe9.18 H2.97 K0.83 Mg2.8 Mn1.02 Na5.01 O50 P12 Sr0.01 -,- Al Ca0.91 F0.03 Fe9.18 H2.97 K0.83 Mg2.8 Mn1.02 Na5.01 O49.97 P12 Sr0.01 -,has coordinates,C 1 c 1,2006,sukses
+9010070,- Al Ba0.2 Ca0.59 F0.9 Fe6.61 H2.1 K0.03 Mg3.6 Mn3.39 Na2.94 O49.1 P12 Pb0.03 Sr0.93 -,- Al Ba0.2 Ca0.59 F0.9 Fe6.61 H2.1 K0.03 Mg3.6 Mn3.39 Na2.94 O49.1 P12 Pb0.03 Sr0.93 -,has coordinates,C 1 c 1,2006,sukses
+9010071,- Al Ba0.01 Ca0.51 F0.03 Fe3.8 H1.97 K0.5 Li0.3 Mn9.7 Na4.92 O50 P12 Pb0.01 Sr0.05 -,- Al Ba0.01 Ca0.51 F0.03 Fe3.8 H1.97 K0.5 Li0.3 Mn9.7 Na4.92 O49.97 P12 Pb0.01 Sr0.05 -,has coordinates,C 1 c 1,2006,sukses
+9010104,- Ca5.107 Fe11.19 Mg31.81 Na9.282 O144 P36 Y0.677 Yb0.06 -,- Ca5.107 Fe11.19 Mg31.81 Na9.282 O144 P36 Y0.677 Yb0.06 -,has coordinates,R -3 :H,2006,sukses
+9010117,- Ca9 Fe0.2 Mg0.8 Na0.23 O28 P6.24 -,- Ca9 Fe0.2 Mg0.8 Na0.23 O28 P6.24 -,has coordinates,R 3 c :H,2006,sukses
+9010134,- As0.279 Ca1.838 Cl O12 P2.721 Pb3.162 -,- As0.279 Ca1.838 Cl O12 P2.721 Pb3.162 -,has coordinates,P 63/m,2006,sukses
+9010136,- Ca5 Cl0.07 F0.09 H0.82 O12.82 P0.66 S1.08 Si1.26 -,- Ca5 Cl0.07 F0.09 O12.82 P0.66 S1.08 Si1.26 -,has coordinates,P 63/m,2006,sukses
+9010368,- Be4 Ca2 Fe0.52 H16 Li0.17 Mg0.05 Mn4.14 O34 P6 -,- Be4 Ca2 Fe0.52 H16 Li0.17 Mg0.05 Mn4.14 O34 P6 -,has coordinates,P -1,2008,sukses
+9010382,- Ca5 Cl0.4 F0.5 H0.1 O12.1 P3 -,- Ca5 Cl0.4 F0.5 H0.1 O12.1 P3 -,has coordinates,P 63/m,2008,sukses
+9010435,- Al0.09 Ca0.87 Fe1.91 H15.72 Na1.13 O29 P4 U1.888 -,- Al0.09 Ca0.87 Fe1.91 H16 Na1.13 O29 P4 U1.888 -,has coordinates,C 1 c 1,2008,sukses
+9010489,- Ca9.181 Fe0.429 H0.693 Mg0.571 O28 P7 -,- Ca9.181 Fe0.429 Mg0.571 O28 P7 -,has coordinates,R 3 c :H,2008,sukses
+9010490,- Ca9.061 Fe0.014 H0.89 Mg0.986 O28 P7 -,- Ca9.061 Fe0.014 Mg0.986 O28 P7 -,has coordinates,R 3 c :H,2008,sukses
+9010491,- Ca9.06 Fe0.079 H0.87 Mg0.921 O28 P7 -,- Ca9.06 Fe0.079 Mg0.921 O28 P7 -,has coordinates,R 3 c :H,2008,sukses
+9010492,- Ca9.036 Fe0.084 H0.831 Mg0.916 O27.28 P7 -,- Ca9.036 Fe0.084 Mg0.916 O27.28 P7 -,has coordinates,R 3 c :H,2008,sukses
+9010493,- Ca9.443 Fe0.065 Mg0.935 O28 P6.964 -,- Ca9.443 Fe0.065 Mg0.935 O28 P6.964 -,has coordinates,R 3 c :H,2008,sukses
+9010504,- C0.042 Ca5 F0.921 O12.321 P2.883 -,- C0.042 Ca5 F0.921 O12.321 P2.883 -,has coordinates,P 63/m,2008,sukses
+9010505,- C0.078 Ca5 F0.842 O12.402 P2.895 -,- C0.078 Ca5 F0.842 O12.402 P2.895 -,has coordinates,P 63/m,2008,sukses
+9010506,- C0.066 Ca5 F0.864 O12.381 P2.883 -,- C0.066 Ca5 F0.864 O12.381 P2.883 -,has coordinates,P 63/m,2008,sukses
+9010597,- Ca2 Fe0.06 H4 Mg0.92 Mn0.01 O10 P2 -,- Ca2 Fe0.06 H4 Mg0.92 Mn0.01 O10 P2 -,has coordinates,P -1,2006,sukses
+9010598,- Ca2 Fe0.23 H4 Mg0.01 Mn0.73 O10 P2 -,- Ca2 Fe0.23 H4 Mg0.01 Mn0.73 O10 P2 -,has coordinates,P -1,2006,sukses
+9010616,- Ca2 Fe3.314 H4 Mg2.686 Na0.463 O26 P6 -,- Ca2 Fe3.314 H4 Mg2.686 Na0.463 O26 P6 -,has coordinates,P b c a,2007,sukses
+9010617,- Ca2 Fe3.254 H4 Mg2.746 Na0.478 O26 P6 -,- Ca2 Fe3.254 H4 Mg2.746 Na0.478 O26 P6 -,has coordinates,P b c a,2007,sukses
+9010769,- Al0.785 Ca0.096 Fe1.182 Mg0.083 Mn1.113 Na0.511 O12 P3 -,- Al0.785 Ca0.096 Fe1.182 Mg0.083 Mn1.1135 Na0.511 O12 P3 -,has coordinates,P 1 21/n 1,2006,sukses
+9010782,- Ca Cl Cu5 H10 Na O21 P4 -,- Ca Cl Cu5 H10 Na O21 P4 -,has coordinates,P 1 21/n 1,2007,sukses
+9010783,- Ca Cl Cu5 H10 Na O20.56 P4 -,- Ca Cl Cu5 H9.12 Na O20.56 P4 -,has coordinates,P 1 21/c 1,2007,sukses
+9010784,- Ca3.006 Ce0.931 F La0.542 Nd0.261 O12 P1.05 Pr0.079 Si1.95 Y0.179 -,- Ca3.006 Ce0.931 F La0.542 Nd0.261 O12 P1.05 Pr0.079 Si1.95 Y0.179 -,has coordinates,P 63/m,2007,sukses
+9010845,- C H4 Ca3 O14 P2 Zn2 -,- C H4 Ca3 O14 P2 Zn2 -,has coordinates,C 1 2/c 1,2008,sukses
+9011091,- Ca5 H O13 P3 -,- Ca5 H O13 P3 -,has coordinates,P 63/m,1969,sukses
+9011092,- Ca5 H O13 P3 -,- Ca5 H O13 P3 -,has coordinates,P 63/m,1969,sukses
+9011093,- Ca5 H O13 P3 -,- Ca5 H O13 P3 -,has coordinates,P 63/m,1969,sukses
+9011094,- Ca5 H O13 P3 -,- Ca5 H O13 P3 -,has coordinates,P 63/m,1969,sukses
+9011144,- Ca4 O9 P2 -,- Ca4 O9 P2 -,has coordinates,P 1 21 1,1973,sukses
+9011161,- Ca9 H Mn O28 P7 -,- Ca9 H Mn O28 P7 -,has coordinates,R 3 c :H,1976,sukses
+9011219,- Br1.012 Ca4.922 O11.965 P2.896 -,- Br1.0122 Ca4.9224 O11.9646 P2.8962 -,has coordinates,P 63/m,1981,sukses
+9011347,- Ca Na O4 P -,- Ca Na O4 P -,has coordinates,P n 21 a,1983,sukses
+9011386,- Ca4.5 F0.77 Nd0.5 O12.14 P2.55 Si0.45 -,- Ca4.5 F0.77 Nd0.5 O12.14 P2.55 Si0.45 -,has coordinates,P 63/m,1998,sukses
+9011391,- Ca8.424 Na1.16 O28 P7 V -,- Ca8.424 Na1.16 O28 P7 V -,has coordinates,R 3 c :H,2006,sukses
+9011393,- Ca F0.8 H0.2 Mg O4.2 P -,- Ca F0.8 H0.2 Mg O4.2 P -,has coordinates,C 1 2/c 1,2007,sukses
+9011514,- Ca Mg Na2 O8 P2 -,- Ca Mg Na2 O8 P2 -,has coordinates,P 1 21/c 1,1998,sukses
+9011515,- Ca Mg Na2 O8 P2 -,- Ca Mg Na2 O8 P2 -,has coordinates,P -3 m 1,1998,sukses
+9011516,- Ca13 Mg5 Na18 O72 P18 -,- Ca13 Mg5 Na18 O72 P18 -,has coordinates,R -3 m :H,1998,sukses
+9011531,- Ca2 Fe0.89 H4 Mg0.11 O10 P2 -,- Ca2 Fe0.89 H4 Mg0.11 O10 P2 -,has coordinates,P -1,2003,sukses
+9011585,- Ca9.267 Fe0.2 Mg0.8 O28 P7 -,- Ca9.267 Fe0.2 Mg0.8 O28 P7 -,has coordinates,R 3 c :H,1972,sukses
+9011586,- Ca9.083 Fe0.2 Mg0.8 O28 P7 -,- Ca9.083 Fe0.2 Mg0.8 O28 P7 -,has coordinates,R 3 c :H,1972,sukses
+9011738,- Al3 Ca H6 O14 P S -,- Al3 Ca H6 O14 P S -,has coordinates,R -3 m :H,1971,sukses
+9011749,- As1.47 Ca4.2 F0.345 H1.31 O13.31 P1.44 Sr0.8 -,- As1.47 Ca4.2 F0.345 H1.31 O13.31 P1.44 Sr0.8 -,has coordinates,P 1 1 21/m,1991,sukses
+9011762,- Ca2.301 Mg1.85 Mn0.15 Na0.699 O12 P0.18 V2.82 -,- Ca2.301 Mg1.85 Mn0.15 Na0.699 O12 P0.18 V2.82 -,has coordinates,I a -3 d,1999,sukses
+9011794,- Ca2 Fe3 H6 O17 P3 -,- Ca2 Fe3 H6 O17 P3 -,has coordinates,A 1 a 1,1977,sukses
+9011829,- Al7.7 Ca2.7 H12.68 O45.862 P4 Si3 Sr0.3 -,- Al7.7 Ca2.7 H10 O39.862 P4 Si3 Sr0.3 -,has coordinates,P -3 m 1,2006,sukses
+9011837,- Be Ca F O4 P -,- Be Ca F O4 P -,has coordinates,P 1 21/a 1,1959,sukses
+9011841,- Ca2 Fe H8 O12 P2 -,- Ca2 Fe H8 O12 P2 -,has coordinates,P -1,1961,sukses
+9011877,- Ca2 Na6 O14 P2 Si2 -,- Ca2 Na6 O14 P2 Si2 -,has coordinates,P 1 2/c 1,1980,sukses
+9011902,- Ba0.03 Ca0.03 H18 Na O13.001 P Sr0.94 -,- Ba0.03 Ca0.03 H18 Na O13.001 P Sr0.94 -,has coordinates,P 21 3,1981,sukses
+9011912,- Ba0.12 Ca0.06 Ce0.4 F La0.599 Na0.981 O12 P3 Sr2.754 -,- Ba0.12 Ca0.06 Ce0.4 F La0.599 Na0.981 O12 P3 Sr2.754 -,has coordinates,P -3,1997,sukses
+9011915,- Ca0.5 H8 O9 P U -,- Ca0.5 H6 O9 P U -,has coordinates,P 4/n m m :2,1960,sukses
+9011928,- Ca4 F Na5 O16 P4 -,- Ca4 F Na5 O16 P4 -,has coordinates,I -4,1984,sukses
+9011935,- C H12 Ca2 Mg3 Na O21 P3 -,- C H12 Ca2 Mg3 Na O21 P3 -,has coordinates,P 1 21/c 1,1990,sukses
+9011950,- Ca5 O12 P2 Si -,- Ca5 O12 P2 Si -,has coordinates,P n m a,1971,sukses
+9011951,- Ca8.02 Mg9.98 O48 P12 -,- Ca8.02 Mg9.98 O48 P12 -,has coordinates,C 1 2/c 1,1971,sukses
+9011959,- Ca5 F0.97 H1.26 O9.26 P0.04 Si1.96 -,- Ca5 F0.97 H1.26 O9.26 P0.04 Si1.96 -,has coordinates,P 1 21/a 1,1983,sukses
+9012136,- Ca10.115 Mg0.385 O28 P7 -,- Ca10.115 Mg0.385 O28 P7 -,has coordinates,R 3 c :H,1977,sukses
+9012137,- Ca9.5 Mg O28 P7 -,- Ca9.5 Mg O28 P7 -,has coordinates,R 3 c :H,1977,sukses
+9012199,- Be Ca H O5 P -,- Be Ca H O5 P -,has coordinates,P 1 21/a 1,1992,sukses
+9012400,- Ba Ca0.3 Fe3.7 H3 O15 P3 -,- Ba Ca0.3 Fe3.7 H3 O15 P3 -,has coordinates,P 1 21/m 1,2000,sukses
+9012415,- Ca9 H Mg O28 P7 -,- Ca9 Mg O28 P7 -,has coordinates,R 3 c :H,1974,sukses
+9012505,- Ca2 Fe3 H6 O17 P3 -,- Ca2 Fe3 H6 O17 P3 -,has coordinates,A 1 a 1,1977,sukses
+9012519,- Ca H8 O14 P2 V2 -,- Ca H8 O14 P2 V2 -,has coordinates,P 1,1992,sukses
+9012529,- Ca2 H4 In O13 P3 -,- Ca2 H4 In O13 P3 -,has coordinates,C 1 2/c 1,1999,sukses
+9012721,- Al0.828 Ca0.156 Fe0.772 Mg2.254 Mn3.1 Na2.624 O24 P6 -,- Al0.828 Ca0.156 Fe0.772 Mg2.254 Mn3.1 Na2.624 O24 P6 -,has coordinates,P 1 21/n 1,1983,sukses
+9012752,- Al0.2 Be2 Ca Fe1.6 H9 Mg0.2 Mn0.35 O17 P3 -,- Al0.2 Be2 Ca Fe1.6 H7.65 Mg0.2 Mn0.35 O17 P3 -,has coordinates,C 1 2/c 1,2002,sukses
+9012772,- Ca H8 O14 P2 V2 -,- Ca H8 O14 P2 V2 -,has coordinates,P 1,1997,sukses
+9012775,- Ba0.94 Ca0.04 Ce0.18 K0.06 Na2.12 O8 P2 Sr0.66 -,- Ba0.94 Ca0.04 Ce0.18 K0.06 Na2.12 O8 P2 Sr0.66 -,has coordinates,P 3,2004,sukses
+9012798,- As0.931 Ca H Mg O5 P0.069 -,- As0.9312 Ca H Mg O5 P0.0688 -,has coordinates,P 21 21 21,2002,sukses
+9012867,- Al Ca2 H O9 P2 -,- Al Ca2 H O9 P2 -,has coordinates,P 1 21/m 1,1993,sukses
+9013157,- Ca Cu H10.88 O14 P2 U -,- Ca Cu H8 O14 P2 U -,has coordinates,C 1 2/m 1,1988,sukses
+9013172,- Be Ca F0.776 H0.224 O4.224 P -,- Be Ca F0.776 O4.224 P -,has coordinates,P 1 21/a 1,2008,sukses
+9013173,- Be Ca F0.515 H0.485 O4.485 P -,- Be Ca F0.515 O4.485 P -,has coordinates,P 1 21/a 1,2008,sukses
+9013174,- Be Ca F0.48 H0.52 O4.52 P -,- Be Ca F0.48 O4.52 P -,has coordinates,P 1 21/a 1,2008,sukses
+9013447,- Ca2.24 F O12 P3 Pb2.76 -,- Ca2.24 F O12 P3 Pb2.76 -,has coordinates,P 63/m,1986,sukses
+9013448,- Ca1.04 Cl O12 P3 Pb3.96 -,- Ca1.04 Cl O12 P3 Pb3.96 -,has coordinates,P 63/m,1986,sukses
+9013449,- Ca1.31 H O13 P3 Pb3.69 -,- Ca1.31 H O13 P3 Pb3.69 -,has coordinates,P 63/m,1986,sukses
+9013548,- Ca4.958 F O12 P3 U0.042 -,- Ca4.956 F O12 P3 U0.042 -,has coordinates,P 63/m,2009,sukses
+9013549,- Ca4.967 Cl2 O12 P3 U0.033 -,- Ca4.967 Cl2 O12 P3 U0.033 -,has coordinates,P 63/m,2009,sukses
+9013550,- Ca4.961 F O12 P3 Th0.039 -,- Ca4.959 F O12 P3 Th0.039 -,has coordinates,P 63/m,2009,sukses
+9013551,- Ca4.891 Cl2 O12 P3 Th0.109 -,- Ca4.891 Cl2 O12 P3 Th0.109 -,has coordinates,P 63/m,2009,sukses
+9013627,- Ca5 H O13 P3 -,- Ca5 H O13 P3 -,has coordinates,P 63/m,2009,sukses
+9013628,- As0.33 Ca5 H O13 P2.67 -,- As0.3303 Ca5 O13 P2.6697 -,has coordinates,P 63/m,2009,sukses
+9013629,- As0.727 Ca5 H O13 P2.273 -,- As0.7269 Ca5 O13 P2.2731 -,has coordinates,P 63/m,2009,sukses
+9013630,- As1.298 Ca5 H O13 P1.702 -,- As1.2975 Ca5 O13 P1.7025 -,has coordinates,P 63/m,2009,sukses
+9013631,- As1.972 Ca5 H O13 P1.028 -,- As1.9719 Ca5 O13 P1.0281 -,has coordinates,P 63/m,2009,sukses
+9013632,- As2.405 Ca5 H O13 P0.595 -,- As2.4045 Ca5 O13 P0.5955 -,has coordinates,P 63/m,2009,sukses
+9013735,- Al2 Ca4 F8 H10 O13 P2 -,- Al2 Ca4 F8 H10 O13 P2 -,has coordinates,P -1,2010,sukses
+9013785,- Al0.01 Ca0.04 Fe0.43 H5 Mn0.6 Na0.89 O7 P -,- Al0.01 Ca0.04 Fe0.43 H5 Mn0.6 Na0.89 O7 P -,has coordinates,C m c e,2009,sukses
+9013797,- Ca H2 Mn2 Na O12 P3 -,- Ca H2 Mn2 Na O12 P3 -,has coordinates,C 1 2/c 1,2009,sukses
+9013950,- Al0.04 As2.98 Ca0.02 Cd2.89 Cu0.44 H8.68 Mn0.52 O20 P1.02 Pb0.04 Zn1.05 -,- Al0.04 As2.98 Ca0.02 Cd2.89 Cu0.44 H10 Mn0.52 O20 P1.02 Pb0.04 Zn1.05 -,has coordinates,C 1 2/c 1,2009,sukses
+9013956,- Ca3.548 Ce1.299 F1.41 H0.63 La0.6 Na1.999 Nd0.25 O24.63 P5.799 Si0.201 Sr2.301 -,- Ca3.548 Ce1.299 F1.41 H0.63 La0.6 Na1.999 Nd0.25 O24.63 P5.799 Si0.201 Sr2.301 -,has coordinates,P -3,1996,sukses
+9013981,- Ca3.3 Ce0.3 F0.667 H0.333 Na0.3 O12.333 P3 Sr1.1 -,- Ca3.3 Ce0.3 F0.66667 H0.33333 Na0.3 O12.3333 P3 Sr1.1 -,has coordinates,P 63,1996,sukses
+9013985,- Al0.26 Be2 Ca Fe0.97 H8.5 Mg1.61 Mn0.18 O17 P3 -,- Al0.26 Be2 Ca Fe0.97 H7.5 Mg1.61 Mn0.18 O17 P3 -,has coordinates,C 1 2/c 1,2009,sukses
+9013986,- Ca10.381 O28 P7 Th0.119 -,- Ca10.381 O28 P7 Th0.119 -,has coordinates,R 3 c :H,2009,sukses
+9013991,- Ca2 F O12 P3 Sr3 -,- Ca1.99999 F O12 P3 Sr3.00001 -,has coordinates,P 63,1964,sukses
+9014066,- Ba0.06 Ca4.2 Ce0.82 F1.88 Gd0.04 La0.1 Na2.36 Nd1.14 O24 P5.88 Pr0.2 Si0.12 Sm0.22 Sr0.9 -,- Ba0.06 Ca4.2 Ce0.82 F1.88 Gd0.04 La0.1 Na2.36 Nd1.14 O24 P5.88 Pr0.2 Si0.12 Sm0.22 Sr0.9 -,has coordinates,P -3,2012,sukses
+9014271,- Al2 Ca0.07 F2 Fe0.04 H10 Mg0.01 Mn0.87 O13 P2 Zn0.01 -,- Al2 Ca0.07 F2 Fe0.04 H10 Mg0.01 Mn0.87 O13 P2 Zn0.01 -,has coordinates,P -1,2011,sukses
+9014333,- Al3 Bi0.49 Ca0.23 H6 O14 P1.8 Si0.2 Sr0.28 -,- Al3 Bi0.49 Ca0.23 H6 O14 P1.8 Si0.2 Sr0.28 -,has coordinates,R -3 m :H,2010,sukses
+9014460,- Ca2.354 F O12 P3 Pb2.646 -,- Ca2.354 F O12 P3 Pb2.646 -,has coordinates,P 63/m,2011,sukses
+9014584,- Al0.06 Ba0.97 Ca0.04 Fe2.7 H3 Mg0.04 Mn1.14 Na0.02 O15 P3 Sr0.03 -,- Al0.06 Ba0.97 Ca0.04 Fe2.7 H3 Mg0.04 Mn1.14 Na0.02 O15 P3 Sr0.03 -,has coordinates,P 1 21/m 1,2011,sukses
+9014600,- Al1.76 Ca Fe1.95 H18 Mg0.29 Mn O26 P4 -,- Al1.76 Ca1.18 Fe1.95 H18 Mg0.29 Mn O26 P4 -,has coordinates,P 1 2/a 1,2010,sukses
+9014685,- Al7 Ca2 H33 O39 P4 -,- Al7 Ca2 H33 O39 P4 -,has coordinates,P 3 2 1,2011,sukses
+9014777,- Ca0.2 F O12 P3 Sr4.8 -,- Ca0.2 F O12 P3 Sr4.8 -,has coordinates,P 63/m,2010,sukses
+9014798,- Al0.04 Ca9 F0.84 H0.16 Mg0.96 O27.16 P6.97 -,- Al0.04 Ca9 F0.84 H0.16 Mg0.96 O27.16 P6.97 -,has coordinates,R 3 c :H,2011,sukses
+9014911,- Ca0.055 Fe0.08 Mg0.055 Mn0.215 Na4.75 Nb0.255 O13 P Si2 Ta0.005 Ti1.415 Zr0.055 -,- Ca0.055 Fe0.08 Mg0.055 Mn0.215 Na4.75 Nb0.255 O13 P Si2 Ta0.005 Ti1.415 Zr0.055 -,has coordinates,P -1,2008,sukses
+9014939,- Al Ca0.984 Fe10.54 K0.902 Mg2.46 Na4.858 O50 P12 -,- Al Ca0.984 Fe10.54 K0.902 Mg2.46 Na4.858 O50 P12 -,has coordinates,C 1 c 1,2002,sukses
+9015039,- Al6.56 Ca2.44 Fe12 Mg0.44 Mn12.2 Na15.13 O120 P30 -,- Al6.56 Ca2.44 Fe12 Mg0.44 Mn12.2 Na15.13 O120 P30 -,has coordinates,P 1 c 1,2011,sukses
+9015077,- Al0.02 Ba3.92 Ca0.1 Fe0.17 Mg0.15 Mn0.38 Na2.16 Nb0.02 O26 P0.8 S1.02 Si4 Sr0.08 Ti2.96 -,- Al0.02 Ba3.92 Ca0.1 Fe0.17 Mg0.15 Mn0.38 Na2.16 Nb0.02 O26 P0.8 S1.02 Si4 Sr0.08 Ti2.96 -,has coordinates,P 1 2/c 1,2011,sukses
+9015086,- Al0.78 Ca1.5 H54.64 O45.32 P3 V5.22 -,- Al0.78 Ca1.5 H54.64 O45.32 P3 V5.22 -,has coordinates,I -4 3 m,2013,sukses
+9015099,- Ca10 O24 P6 Se -,- Ca10 O24 P6 Se -,has coordinates,P -3,2000,sukses
+9015151,- Al Ba0.06 Ca0.23 Fe11.69 K0.68 Mg1.85 Na4.459 O50 P12 Sr0.23 -,- Al Ba0.06 Ca0.23 Fe11.69 K0.68 Mg1.85 Na4.459 O50 P12 Sr0.23 -,has coordinates,C 1 c 1,2002,sukses
+9015248,- Al0.02 Ca9 Fe0.35 H Mg0.62 Mn0.02 O28 P7 -,- Al0.02 Ca9 Fe0.35 H Mg0.62 Mn0.02 O28 P7 -,has coordinates,R 3 c :H,2011,sukses
+9015452,- Al0.02 Ba3.92 Ca0.1 Fe0.18 Mg0.14 Mn0.38 Na2.16 Nb0.02 O26 P0.82 S1.02 Si4 Sr0.08 Ti2.96 -,- Al0.02 Ba3.92 Ca0.1 Fe0.18 Mg0.14 Mn0.38 Na2.16 Nb0.02 O26 P0.82 S1.02 Si4 Sr0.08 Ti2.96 -,has coordinates,P -1,2011,sukses
+9015466,- Al Ca1.168 F2 Fe12.26 K0.908 Mg2.52 Na3.152 O48 P11.916 -,- Al Ca1.168 F2 Fe12.26 K0.908 Mg2.52 Na3.152 O48 P11.916 -,has coordinates,C 1 2/c 1,2002,sukses
+9015509,- B9.002 Ba4.98 Ca9.01 Ce2.51 Dy0.28 F2 Fe0.42 Gd0.27 H44.1 La1.12 Nb5.28 Nd0.84 O122.69 P3.12 Pr0.27 Si4.66 Sm3.18 Sr0.96 Ti11.92 Y3.5 -,- B9.002 Ba4.98 Ca9.01 Ce2.51 Dy0.28 F2 Fe0.42 Gd0.27 H44.1 La1.12 Nb5.28 Nd0.84 O122.69 P3.12 Pr0.27 Si4.66 Sm3.18 Sr0.96 Ti11.92 Y3.5 -,has coordinates,R 3 :H,2010,sukses
+9015578,- Ca0.33 Fe2 H7 Na0.67 O12 P2 -,- Ca0.33 Fe2 H7 Na0.67 O12 P2 -,has coordinates,P -1,2010,sukses
+9015690,- Ca4.974 Cl0.06 F0.76 H0.18 Na0.026 O12.18 P2.844 S0.066 Si0.09 -,- Ca4.974 Cl0.06 F0.76 H0.18 Na0.026 O12.18 P2.844 S0.066 Si0.09 -,has coordinates,P 63/m,2012,sukses
+9015722,- Al Ca0.84 F2 Fe10.52 K0.83 Mg3.48 Na3.106 O48 P11.74 Pb0.17 Sr0.16 -,- Al Ca0.84 F2 Fe10.52 K0.83 Mg3.48 Na3.106 O48 P11.74 Pb0.17 Sr0.16 -,has coordinates,C 1 2/c 1,2002,sukses
+9015753,- Al Ca Fe9.38 H2 K0.75 Li0.12 Mg0.5 Mn4 Na4.11 O50 P12 -,- Al Ca Fe9.38 H2 K0.75 Li0.12 Mg0.5 Mn4 Na4.11 O50 P12 -,has coordinates,C 1 2/c 1,1981,sukses
+9015830,- Al1.84 Ca0.93 Fe0.16 H18 Mg0.04 Mn2.96 O26 P4 Zn0.07 -,- Al1.84 Ca0.93 Fe0.16 H18 Mg0.04 Mn2.96 O26 P4 Zn0.07 -,has coordinates,P 1 2/a 1,2012,sukses
+9015940,- Al0.66 As0.48 B3 Ca3.15 F11.16 Fe0.27 Mn0.03 Na0.27 O39.64 P0.05 Si6.69 Sm7.71 Y4.38 -,- Al0.66 As0.48 B3 Ca3.15 F11.16 Fe0.27 Mn0.03 Na0.27 O36.64 P0.05 Si6.69 Sm7.71 Y4.38 -,has coordinates,R 3 m :H,2007,sukses
+9016046,- Al9.84 Ca0.84 H12 Mg2.6 Mn6.72 O56 P0.5 Si11.5 -,- Al9.84 Ca0.84 H12 Mg2.6 Mn6.72 O56 P0.5 Si11.5 -,has coordinates,P n m m :2,2013,sukses
+9016167,- Ca Fe2 H16 Mg0.464 Mn O25 P4 Zn2.036 -,- Ca Fe2 H16 Mg0.464 Mn O25 P4 Zn2.036 -,has coordinates,P 1 21/c 1,2012,sukses
+9016283,- Ca5 O12 P3 S0.5 -,- Ca5 O12 P3 S0.5 -,has coordinates,P -3,2000,sukses
+9016294,- As0.04 B3 Ca2.53 F14 Fe0.83 Mn0.93 Na1.17 Nd7.53 O34 P0.7 Pb0.03 Si6.26 Th0.09 Ti0.02 Y3.72 -,- As0.04 B3 Ca2.53 F14 Fe0.83 Mn0.93 Na1.17 Nd7.53 O34 P0.7 Pb0.03 Si6.26 Th0.09 Ti0.02 Y3.72 -,has coordinates,R 3 m :H,2008,sukses
+9016317,- Ca4.974 Cl0.06 F0.76 H0.18 Na0.026 O12.18 P2.844 S0.066 Si0.09 -,- Ca4.974 Cl0.06 F0.76 H0.18 Na0.026 O12.18 Pb2.844 Sb0.066 Si0.09 -,has coordinates,P 63/m,2012,sukses
+9016383,- Al4 Ca0.87 H4 Li3.72 Na0.41 O20 P4 -,- Al4 Ca0.87 H4 Li3.72 Na0.41 O20 P4 -,has coordinates,I m c b,2011,sukses
+9016441,- Al Ba0.25 Ca F3.32 Fe12 H1.32 K0.25 Mn2 Na2.25 O46.68 P12 Sr0.25 -,- Al Ba0.25 Ca F3.32 Fe12 H1.32 K0.25 Mn2 Na2.25 O46.68 P12 Sr0.25 -,has coordinates,B 1 1 2/b,1979,sukses
+9016502,- Al2 Ca0.95 Fe0.9 H18 Mg2 Na0.11 O26 P4 -,- Al2.048 Ca0.95 Fe0.9 H18.334 Mg2.01 Na0.11 O26.164 P4 -,has coordinates,P 1 2/a 1,2011,sukses
+9016573,- Ca2 K O23 P5 -,- Ca2 K O23 P5 -,has coordinates,P n a 21,1996,sukses
+9016606,- As0.5 Ca Cu H O5 P0.5 -,- As0.5 Ca Cu H O5 P0.5 -,has coordinates,P 21 21 21,2011,sukses
+9016659,- Al0.11 Ca8.76 F Fe0.17 Mg0.72 Na0.24 O27 P7 -,- Al0.11 Ca8.76 F Fe0.17 Mg0.72 Na0.24 O27 P7 -,has coordinates,R 3 c :H,2011,sukses
+9016663,- Ca9.45 Fe0.22 Mg0.78 O28 P7 -,- Ca9.45 Fe0.22 Mg0.78 O28 P7 -,has coordinates,R 3 c :H,1977,sukses
+9016713,- Al6.78 Ca1.84 Fe12.22 Mn12.91 Na13.5 O120 P30 -,- Al6.78 Ca1.84 Fe12.22 Mn12.91 Na13.5 O120 P30 -,has coordinates,P 1 c 1,2011,sukses
+9016947,- Ca0.01 Cl0.956 O12 P2.913 Pb4.695 -,- Ca0.01 Cl0.956 O12 P2.913 Pb4.695 -,has coordinates,P 63/m,2013,sukses
+9016948,- Ca0.01 Cl0.956 O12 P2.913 Pb4.695 -,- Ca0.01 Cl0.956 O12 P2.913 Pb4.695 -,has coordinates,P 63/m,2013,sukses
+9016953,- As2.79 Ca5 H O13 P0.21 -,- As2.79 Ca5 H O13 P0.21 -,has coordinates,P 63/m,2013,sukses
+9016954,- Ca3 O8 P2 -,- Ca3 O8 P2 -,has coordinates,R -3 m :H,2013,sukses
+9017040,- Ca5 Cl0.332 F0.773 O12 P3 -,- Ca5 Cl0.332 F0.773 O12 P3 -,has coordinates,P 63/m,2014,sukses
+9017041,- Ca5 Cl0.343 F0.766 O12 P3 -,- Ca5 Cl0.343 F0.766 O12 P3 -,has coordinates,P 63/m,2014,sukses
+9017042,- Ca5 Cl0.336 F0.764 O12 P3 -,- Ca5 Cl0.336 F0.764 O12 P3 -,has coordinates,P 63/m,2014,sukses
+9017043,- Ca5 Cl0.332 F0.763 O12 P3 -,- Ca5 Cl0.332 F0.763 O12 P3 -,has coordinates,P 63/m,2014,sukses
+9017044,- Ba0.01 Be2 Ca0.05 O8 P2 Sr0.87 -,- Ba0.01 Be2 Ca0.05 O8 P2 Sr0.87 -,has coordinates,P 1 21/c 1,2014,sukses
+9017048,- Al2.97 As0.03 Ca0.13 F1.68 Fe0.03 H6.32 Na0.87 O12.32 P1.97 -,- Al2.97 As0.03 Ca0.13 F1.68 Fe0.03 H6.32 Na0.87 O12.32 P1.97 -,has coordinates,P 41 21 2,2014,sukses
+9017100,- Ca1.39 Cl0.72 Fe0.26 H0.28 Mn3.41 O12.28 P3 -,- Ca1.39 Cl0.72 Fe0.26001 H0.28 Mn3.40999 O12.28 P3 -,has coordinates,P 63/m,2015,sukses
+9017143,- Ca9 Fe0.048 Mg0.952 Na0.98 O28 P7 -,- Ca9 Fe0.048 Mg0.952 Na0.98 O28 P7 -,has coordinates,R 3 c :H,2015,sukses
+9017160,- Al0.08 Ca7.53 Fe0.25 H1.45 Mg0.11 Mn0.56 Na1.67 O28 P7 -,- Al0.08 Ca7.53 Fe0.25 H1.45 Mg0.11 Mn0.56 Na1.67 O28 P7 -,has coordinates,R 3 c :H,2013,sukses
+9017173,- Ca0.26 Fe1.4 Mg0.02 Mn1.31 O8 P2 Zn0.01 -,- Ca0.26 Fe1.4 Mg0.02 Mn1.31 O8 P2 Zn0.01 -,has coordinates,P 1 21/c 1,2013,sukses
+9017174,- Ca0.36 Fe0.67 Mg0.21 Mn1.75 O8 P2 Zn0.01 -,- Ca0.36 Fe0.67 Mg0.21 Mn1.75 O8 P2 Zn0.01 -,has coordinates,P 1 21/c 1,2013,sukses
+9017175,- Ca0.36 Fe0.67 Mg0.21 Mn1.75 O8 P2 Zn0.01 -,- Ca0.36 Fe0.67 Mg0.21 Mn1.75 O8 P2 Zn0.01 -,has coordinates,P 1 21/c 1,2013,sukses
+9017176,- Ca0.2 Fe1.22 Mg0.24 Mn1.33 O8 P2 Zn0.01 -,- Ca0.2 Fe1.22 Mg0.24 Mn1.33 O8 P2 Zn0.01 -,has coordinates,P 1 21/c 1,2013,sukses
+9017177,- Ca0.58 Fe1.65 Mg0.15 Mn0.61 O8 P2 Zn0.01 -,- Ca0.58 Fe1.65 Mg0.15 Mn0.61 O8 P2 Zn0.01 -,has coordinates,P 1 21/c 1,2013,sukses
+9017178,- Ca0.57 Fe1.59 Mg0.02 Mn0.81 O8 P2 Zn0.01 -,- Ca0.57 Fe1.59 Mg0.02 Mn0.81 O8 P2 Zn0.01 -,has coordinates,P 1 21/c 1,2013,sukses
+9017179,- Ca0.37 Fe1.51 Mg0.11 Mn1.01 O8 P2 -,- Ca0.37 Fe1.51 Mg0.11 Mn1.01 O8 P2 -,has coordinates,P 1 21/c 1,2013,sukses
+9017203,- Al0.164 Ca0.277 Fe2.454 H18 Mg1.545 Mn0.961 Na0.569 O26 P4 -,- Al0.164 Ca0.277 Fe2.454 H18 Mg1.545 Mn0.961 Na0.569 O26 P4 -,has coordinates,P 1 2/a 1,2018,sukses
+9017204,- Al1.82 Ca0.39 H16 K0.01 Mg2.08 Mn1.66 Na0.03 O26 P4 -,- Al1.82 Ca0.39 H16 K0.01 Mg2.08 Mn1.66 Na0.03 O26 P4 -,has coordinates,P 1 2/a 1,2019,sukses
+9017205,- Ca0.25 Fe4 H18 Mn1.4 Na0.05 O26 P4 -,- Ca0.25 Fe4 H18 Mn1.4 Na0.05 O26 P4 -,has coordinates,P 1 2/a 1,2019,sukses
+9017206,- Al0.36 Ca0.25 Fe1.85 H22 Mg1.26 Mn2.02 Na0.2 O26 P4 -,- Al0.36 Ca0.25 Fe1.85 H22 Mg1.26 Mn2.02 Na0.2 O26 P4 -,has coordinates,P 1 2/a 1,2019,sukses
+9017243,- Al0.3 Ca0.35 Fe1.45 Mg1.15 Na0.15 O12 P0.09 Ti0.15 V2.91 -,- Al0.3 Ca0.35 Fe1.45 Mg1.15 Na0.15 O12 P0.09 Ti0.15 V2.91 -,has coordinates,P -1,2014,sukses
+9017244,- Al2.2 Ca0.2 Cu1.99 Fe1.6 Mg0.64 O24 P0.06 Ti0.2 V5.94 -,- Al2.2 Ca0.2 Cu1.99 Fe1.6 Mg0.64 O24 P0.06 Ti0.2 V5.94 -,has coordinates,P -1,2014,sukses
+9017251,- Al2 Ca0.03 H14 Mn0.97 O16 P2 -,- Al2 Ca0.03 H14 Mn0.97 O16 P2 -,has coordinates,P -1,2016,sukses
+9017254,- Al0.01 Ca0.7 Fe3.23 H18 Mg1.33 Mn0.59 Na0.17 O26 P4 -,- Al0.01 Ca0.7 Fe3.23 H18 Mg1.33 Mn0.59 Na0.17 O26 P4 -,has coordinates,P 1 2/a 1,2016,sukses
+9017256,- As2.86 Ca0.708 Fe3 Mn0.652 O19.928 P1.684 -,- As2.86 Ca0.708 Fe3 Mn0.652 O19.928 P1.684 -,has coordinates,I m m a,2019,sukses
+9017260,- Al0.02 Ba0.38 Ca0.04 Fe2.08 H3 Mn1.86 Na0.02 O15 P3 Sr0.6 -,- Al0.02 Ba0.38 Ca0.04 Fe2.08 H3 Mn1.86 Na0.02 O15 P3 Sr0.6 -,has coordinates,P 1 21/m 1,2019,sukses
+9017262,- Al1.96 Ca2 Fe0.1 H10 Mg0.06 Mn0.38 O20 P3 -,- Al1.96 Ca2 Fe0.1 H10 Mg0.06 Mn0.38 O20 P3 -,has coordinates,C 1 2/c 1,2019,sukses
+9017263,- Al4 Ca3.091 Fe0.568 Mg0.14 Mn1.178 O40 P6 -,- Al4.002 Ca3.091 Fe0.568 Mg0.14 Mn1.178 O40 P6 -,has coordinates,P -1,2019,sukses
+9017336,- C2.3 Ba3 Ca26.433 F10.375 Na0.567 O68.375 P7.4 Si13 -,- C1.38 Ba3 Ca26.433 F5.184 Na0.567 O59.58 P4.44 Si9 -,has coordinates,R -3 m :H,2018,sukses
+9017350,- As2.484 Ca0.43 Cu6 Dy0.01 Er0.02 H12.002 Ho0.01 O21.001 P0.516 Y0.52 Yb0.01 -,- As2.484 Ca0.43 Cu6 Dy0.01 Er0.02 H12.002 Ho0.01 O21.001 P0.516 Y0.52 Yb0.01 -,has coordinates,P 63/m,2013,sukses
+9017351,- Al0.534 Ca1.97 Fe1.465 H14 Mg0.5 O20 P3 Sr0.03 -,- Al0.534 Ca1.97 Fe1.465 H14 Mg0.5 O20 P3 Sr0.03 -,has coordinates,C 1 2/c 1,2014,sukses
+9017420,- Al0.14 Be2 Ca Fe1.176 H8 Mg0.096 Mn0.57 O17 P3 Zn0.36 -,- Al0.14 Be2 Ca Fe1.176 H8 Mg0.096 Mn0.57 O17 P3 Zn0.36 -,has coordinates,C 1 2/c 1,2004,sukses
+9017459,- Al0.1 Be4 Ca2 Fe2.5 H16 Mg2.2 Mn0.2 O34 P6 -,- Al0.1 Be4 Ca2 Fe2.5 H16 Mg2.2 Mn0.2 O34 P6 -,has coordinates,P -1,2004,sukses
+9017664,- Be0.98 Ca F0.165 H0.835 Li0.01 Na0.01 O4.835 P0.98 Si0.03 -,- Be0.98 Ca F0.165 H0.835 Li0.01 Na0.01 O4.835 P0.98 Si0.03 -,has coordinates,P 1 21/a 1,2014,sukses
+9017674,- Al0.23 As5.94 Ca0.28 Cu0.48 Fe2.48 K0.22 Mg0.7 Mn0.01 Na6.55 O24 P0.02 Ti0.01 V0.01 Zn0.14 -,- Al0.23 As5.94 Ca0.28 Cu0.48 Fe2.48 K0.2198 Mg0.7 Mn0.01 Na6.5499 O24 P0.0198 Ti0.01 V0.0102 Zn0.14 -,has coordinates,R -3 c :H,2014,sukses
+9017711,- Ca2 Fe2.52 H4 Mg1.56 Mn1.92 Na0.9 O26 P6 -,- Ca2 Fe2.52 H4 Mg1.56 Mn1.92 Na0.9 O26 P6 -,has coordinates,P c a b,2017,sukses
+9017712,- Ca0.98 Fe1.39 Mg0.05 Mn0.58 O8 P2 -,- Ca0.98 Fe1.39 Mg0.05 Mn0.58 O8 P2 -,has coordinates,P 1 21/c 1,2018,sukses
+9017713,- Ca0.3 Fe1.34 Mg0.06 Mn1.3 O8 P2 -,- Ca0.3 Fe1.34 Mg0.06 Mn1.3 O8 P2 -,has coordinates,P 1 21/c 1,2018,sukses
+9017714,- Ca0.94 Fe0.92 Mn1.14 O8 P2 -,- Ca0.94 Fe0.92 Mn1.14 O8 P2 -,has coordinates,P 1 21/c 1,2018,sukses
+9017718,- As3.44 Ca0.68 Fe3.066 H8.352 O19.356 P0.48 W0.448 -,- As3.44 Ca0.68 Fe3.066 H8.352 O19.356 P0.48 W0.448 -,has coordinates,I m m a,2020,sukses
+9017734,- Al Ca0.12 Fe9.1 K0.874 Mg1.1 Mn3.68 Na4.752 O50 P12 -,- Al Ca0.12 Fe9.1 K0.874 Mg1.1 Mn3.68 Na4.752 O50 P12 -,has coordinates,C 1 c 1,2020,sukses
+9017740,- Al0.05 As2.85 Ca0.7 Cu0.02 Fe0.25 K0.01 Mg2.65 Mn0.05 Na1.24 O12 P0.15 -,- Al0.05 As2.85 Ca0.7 Cu0.02 Fe0.25 K0.01 Mg2.65 Mn0.05 Na1.24 O12 P0.15 -,has coordinates,C 1 2/c 1,2021,sukses
+9017762,- Ca2.33 Cl0.48 F0.11 H0.41 Mg0.03 Mn2.63 Na0.01 O12.41 P3 -,- Ca2.33 Cl0.48 F0.11 H0.41 Mg0.03 Mn2.63 Na0.01 O12.41 P3 -,has coordinates,P 63/m,2018,sukses
+9017783,- Al1.282 Ca0.095 Fe0.018 Ga1.339 Ge0.36 H6 O14 P1.863 Pb0.905 S0.137 -,- Al1.2816 Ca0.095 Fe0.018 Ga1.3392 Ge0.36 H6 O14 P1.8634 Pb0.905 S0.1366 -,has coordinates,R -3 m :H,2014,sukses
+9017795,- Ca4.9 Cl0.15 F0.75 Fe0.099 H0.1 O12.1 P3 -,- Ca4.8997 Cl0.15 F0.75 Fe0.099 H0.1 O12.1 P3 -,has coordinates,P 1 1 21/m,1993,sukses
+9017813,- C H12 Ca2 Mg3 Na O21 P3 -,- C H12 Ca2 Mg3 Na O21 P3 -,has coordinates,P 1 21/c 1,2015,sukses
+9017872,- Al1.62 Ca0.22 Fe2.72 Mg3.36 Mn6.3 Na5.6 O48 P12 -,- Al1.62 Ca0.22 Fe2.72 Mg3.36 Mn6.3 Na5.6 O48 P12 -,has coordinates,P 1 21/n 1,2021,sukses
+9017873,- Ca0.42 Ce0.18 Cu6 Dy0.01 Gd0.03 H12 La0.12 Nd0.09 O21 P2.85 Pr0.02 Si0.15 Sm0.01 Y0.16 -,- Ca0.42 Ce0.18 Cu6 Dy0.01 Gd0.03 H12 La0.12 Nd0.09 O21 P2.85 Pr0.02 Si0.15 Sm0.01 Y0.16 -,has coordinates,P 63/m,2016,sukses
+9017874,- Ba0.946 Be4 Ca0.954 H11.684 O21.559 P4 -,- Ba0.946 Be4 Ca0.954 H11.684 O21.559 P4 -,has coordinates,P 1 21/c 1,2020,sukses
+9017879,- Al2.46 Ba0.8 Ca0.28 Fe8.58 Mg0.88 Mn1.8 Na2.64 O48 P12 -,- Al2.46 Ba0.8 Ca0.28 Fe8.58 Mg0.88 Mn1.8 Na2.64 O48 P12 -,has coordinates,P 1 21/n 1,2021,sukses

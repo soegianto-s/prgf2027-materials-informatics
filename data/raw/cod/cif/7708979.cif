@@ -1,0 +1,610 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-12-01 02:01:55 +0200 (Wed, 01 Dec 2021) $
+#$Revision: 270951 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/7/70/89/7708979.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7708979
+loop_
+_publ_author_name
+'Deyneko, Dina V.'
+'Nikiforov, Ivan V.'
+'Lazoryak, Bogdan I.'
+'Aksenov, Sergey'
+_publ_section_title
+;
+ The role of anionic heterovalent [PO4]3-- \\rightarrow [GeO4]4--
+ substitution on the luminescent properties in inorganic phosphors with
+ the \b-Ca3(PO4)2 type structure: New data based on accurate crystal
+ structure refinement
+;
+_journal_name_full               'Dalton Transactions'
+_journal_paper_doi               10.1039/D1DT03534G
+_journal_year                    2021
+_chemical_formula_sum            'Ca49.2 Eu5.997 Ge2.399 O168 P39.598 Zn6'
+_chemical_formula_weight         7364
+_space_group_IT_number           161
+_space_group_name_Hall           'R 3 -2"c'
+_space_group_name_H-M_alt        'R 3 c :H'
+_symmetry_cell_setting           trigonal
+_symmetry_Int_Tables_number      161
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_audit_update_record
+;
+2021-11-18 deposited with the CCDC.	2021-11-26 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   10.388380(10)
+_cell_length_b                   10.388380(10)
+_cell_length_c                   37.223810(56)
+_cell_measurement_temperature    300
+_cell_volume                     3478.941(7)
+_diffrn_ambient_temperature      300
+_diffrn_measurement_device       'Rigaku Smartlab SE '
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.540598
+_exptl_absorpt_coefficient_mu    42.476
+_exptl_crystal_density_diffrn    3.5149
+_pd_meas_2theta_range_inc        0.02
+_pd_meas_2theta_range_max        80.000
+_pd_meas_2theta_range_min        5.000
+_pd_meas_number_of_points        5251
+_pd_proc_ls_background_function  '31 Legendre polynoms'
+_pd_proc_ls_profile_function     Pseudo-Voigt
+_pd_proc_ls_prof_R_factor        0.070
+_pd_proc_ls_prof_wR_expected     0.0250
+_pd_proc_ls_prof_wR_factor       0.082
+_refine_ls_goodness_of_fit_all   2.54
+_refine_ls_number_parameters     79
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            d1dt03534g2.cif
+_cod_data_source_block           I_CCDC2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_diffrn_radiation_probe' value 'X-ray' was changed to
+'x-ray' in accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 7556 2019-12-06 15:28:31Z antanas 
+;
+_cod_original_cell_volume        3478.954(9)
+_cod_original_sg_symbol_Hall     'R 3;-2"c'
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_database_code               7708979
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -y,x-y,z
+3 -x+y,-x,z
+4 -y,-x,z+1/2
+5 -x+y,y,z+1/2
+6 x,x-y,z+1/2
+7 x+2/3,y+1/3,z+1/3
+8 -y+2/3,x-y+1/3,z+1/3
+9 -x+y+2/3,-x+1/3,z+1/3
+10 -y+2/3,-x+1/3,z+5/6
+11 -x+y+2/3,y+1/3,z+5/6
+12 x+2/3,x-y+1/3,z+5/6
+13 x+1/3,y+2/3,z+2/3
+14 -y+1/3,x-y+2/3,z+2/3
+15 -x+y+1/3,-x+2/3,z+2/3
+16 -y+1/3,-x+2/3,z+1/6
+17 -x+y+1/3,y+2/3,z+1/6
+18 x+1/3,x-y+2/3,z+1/6
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Ca1 Ca 0.72404(9) 0.8640(3) 0.17149(4) Uiso 0.0113(6) 18 0.8447(14) d . . .
+Eu1 Eu 0.71538(16) 0.8307(3) 0.17236(8) Uiso 0.0113(6) 18 0.15533(6) d . . .
+Ca2 Ca 0.62220(9) 0.8242(3) -0.02948(4) Uiso 0.0113(6) 18 0.8877(12) d . . .
+Eu2 Eu 0.6217(3) 0.8110(10) -0.02784(10) Uiso 0.0113(6) 18 0.112300(17) d . . .
+Ca3 Ca 0.72151(9) 0.8570(3) 0.06535(3) Uiso 0.0113(6) 18 0.9343(12) d . . .
+Eu3 Eu 0.7016(4) 0.8026(4) 0.0679(2) Uiso 0.0113(6) 18 0.0657 d . . .
+Ca4 Ca 0 0 -0.0644(10) Uiso 0.0113(6) 6 0.2 d . . .
+Zn1 Zn 0 0 0.73686(6) Uiso 0.0113(6) 6 1 d . . .
+P1 P 0 0 0.00605(5) Uiso 0.016(3) 6 1 d . . .
+P2 P 0.68766(9) 0.8578(2) 0.87094(4) Uiso 0.016(3) 18 1 d . . .
+P3 P 0.66085(10) 0.84954(18) 0.77124(5) Uiso 0.016(3) 18 0.8667 d . . .
+Ge1 Ge 0.6292(6) 0.9569(5) 0.7634(2) Uiso 0.016(3) 18 0.1333 d . . .
+O1 O 0.72802(15) 0.8959(3) 0.90793(5) Uiso 0.011(3) 18 1 d . . .
+O2 O 0.74903(19) 0.7619(3) 0.85852(8) Uiso 0.011(3) 18 1 d . . .
+O3 O 0.74397(18) 1.0027(3) 0.85073(9) Uiso 0.011(3) 18 1 d . . .
+O4 O 0.52963(19) 0.7706(7) 0.86655(6) Uiso 0.011(3) 18 1 d . . .
+O5 O 0.6102(2) 0.9718(3) 0.79184(14) Uiso 0.011(3) 18 1 d . . .
+O6 O 0.59041(19) 0.6856(3) 0.78522(7) Uiso 0.011(3) 18 1 d . . .
+O7 O 0.81432(19) 0.9131(4) 0.78009(7) Uiso 0.011(3) 18 1 d . . .
+O8 O 0.62848(17) 0.8277(4) 0.72779(7) Uiso 0.011(3) 18 1 d . . .
+O9 O 0.0120(2) 0.87277(14) -0.02029(10) Uiso 0.011(3) 18 1 d . . .
+O10 O 0 0 0.05484(9) Uiso 0.011(3) 6 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+? ? ? ? ? ? ? ?
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ca 0.2262 0.3064 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Eu -0.1578 3.6682 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Ge 0.1547 1.8001 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0106 0.0060 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+P 0.1023 0.0942 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Zn 0.2839 1.4301 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_exptl_crystal_face_index_h
+_exptl_crystal_face_index_k
+_exptl_crystal_face_index_l
+_exptl_crystal_face_perp_dist
+? ? ? ?
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+? ? ? ? ? ? ? ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ca1 Ca1 . 2_765 4.300(4) ?
+Ca1 Ca1 . 3_675 4.300(3) ?
+Ca1 Eu1 . . 0.312(4) ?
+Ca1 Eu1 . 2_765 4.522(4) ?
+Ca1 Eu1 . 3_675 4.226(3) ?
+Ca1 Ca2 . 8_665 5.485(3) ?
+Ca1 Ca2 . 16_665 3.784(4) ?
+Ca1 Ca2 . 17_545 3.591(4) ?
+Ca1 Eu2 . 8_665 5.589(6) ?
+Ca1 Eu2 . 9_565 5.606(6) ?
+Ca1 Eu2 . 16_665 3.653(9) ?
+Ca1 Eu2 . 17_545 3.683(9) ?
+Ca1 Ca3 . . 3.952(2) ?
+Ca1 Ca3 . 16_665 3.819(4) ?
+Ca1 Ca3 . 17_545 3.902(3) ?
+Ca1 Eu3 . . 3.896(8) ?
+Ca1 Eu3 . 16_665 3.572(7) ?
+Ca1 Eu3 . 17_545 4.364(5) ?
+Ca1 Ca4 . 16_555 4.36(2) ?
+Ca1 Zn1 . 4_664 3.476(2) ?
+Ca1 P1 . 16_555 3.5154(8) ?
+Ca1 P2 . 8_664 3.032(4) ?
+Ca1 P2 . 9_564 3.265(4) ?
+Ca1 P3 . 8_664 3.581(3) ?
+Ca1 P3 . 9_564 3.839(3) ?
+Ca1 P3 . 6_564 3.762(2) ?
+Ca1 Ge1 . 8_664 3.186(9) ?
+Ca1 Ge1 . 6_564 3.831(9) ?
+Ca1 O2 . 9_564 2.808(4) ?
+Ca1 O3 . 8_664 2.601(5) ?
+Ca1 O4 . 8_664 2.387(6) ?
+Ca1 O4 . 9_564 2.518(7) ?
+Ca1 O5 . 8_664 2.158(5) ?
+Ca1 O6 . 9_564 2.472(4) ?
+Ca1 O8 . 6_564 2.271(3) ?
+Ca1 O9 . 16_655 2.673(2) ?
+Eu1 Eu1 . 2_765 4.462(4) ?
+Eu1 Eu1 . 3_675 4.462(2) ?
+Eu1 Ca2 . 8_665 5.597(3) ?
+Eu1 Ca2 . 9_565 5.479(3) ?
+Eu1 Ca2 . 16_665 3.999(4) ?
+Eu1 Ca2 . 17_545 3.327(3) ?
+Eu1 Eu2 . 8_665 5.704(6) ?
+Eu1 Eu2 . 9_565 5.480(6) ?
+Eu1 Eu2 . 16_665 3.872(9) ?
+Eu1 Eu2 . 17_545 3.417(9) ?
+Eu1 Eu2 . 18_555 5.511(10) ?
+Eu1 Ca3 . . 3.991(3) ?
+Eu1 Ca3 . 16_665 3.933(4) ?
+Eu1 Ca3 . 17_545 3.674(3) ?
+Eu1 Eu3 . . 3.896(8) ?
+Eu1 Eu3 . 16_665 3.697(7) ?
+Eu1 Eu3 . 17_545 4.126(6) ?
+Eu1 Eu3 . 18_555 5.754(7) ?
+Eu1 Ca4 . 16_555 4.32(2) ?
+Eu1 Zn1 . 4_664 3.521(3) ?
+Eu1 P1 . 16_555 3.4486(15) ?
+Eu1 P2 . 8_664 3.306(4) ?
+Eu1 P2 . 9_564 3.020(4) ?
+Eu1 P3 . 8_664 3.830(3) ?
+Eu1 P3 . 9_564 3.684(3) ?
+Eu1 P3 . 6_564 3.714(3) ?
+Eu1 Ge1 . 8_664 3.367(9) ?
+Eu1 Ge1 . 6_564 3.677(9) ?
+Eu1 O2 . 9_564 2.503(4) ?
+Eu1 O3 . 8_664 2.872(5) ?
+Eu1 O4 . 8_664 2.619(6) ?
+Eu1 O4 . 9_564 2.383(7) ?
+Eu1 O5 . 8_664 2.364(5) ?
+Eu1 O6 . 9_564 2.348(4) ?
+Eu1 O8 . 6_564 2.211(4) ?
+Eu1 O9 . 16_655 2.539(2) ?
+Ca2 Ca2 . 2_665 4.508(3) ?
+Ca2 Ca2 . 3_565 4.508(2) ?
+Ca2 Eu2 . . 0.148(10) ?
+Ca2 Eu2 . 2_665 4.432(12) ?
+Ca2 Eu2 . 3_565 4.567(5) ?
+Ca2 Ca3 . . 3.6454(19) ?
+Ca2 Ca3 . 10_664 4.484(3) ?
+Ca2 Ca3 . 11_554 4.243(3) ?
+Ca2 Eu3 . . 3.749(7) ?
+Ca2 Eu3 . 10_664 4.689(6) ?
+Ca2 Eu3 . 11_554 3.811(6) ?
+Ca2 Ca4 . 1_665 3.642(13) ?
+Ca2 Zn1 . 16_554 3.604(2) ?
+Ca2 P1 . 1_665 3.6497(12) ?
+Ca2 P2 . 1_554 3.753(2) ?
+Ca2 P2 . 16_664 3.686(3) ?
+Ca2 P2 . 17_544 3.690(3) ?
+Ca2 P3 . 16_664 3.133(3) ?
+Ca2 P3 . 17_544 3.077(3) ?
+Ca2 Ge1 . 16_664 4.399(7) ?
+Ca2 Ge1 . 17_544 2.760(8) ?
+Ca2 O1 . 1_554 2.524(2) ?
+Ca2 O2 . 16_664 2.423(3) ?
+Ca2 O3 . 17_544 2.286(4) ?
+Ca2 O5 . 17_544 2.440(4) ?
+Ca2 O6 . 16_664 2.591(3) ?
+Ca2 O7 . 16_664 2.425(5) ?
+Ca2 O7 . 17_544 2.474(4) ?
+Ca2 O9 . 3_565 2.222(2) ?
+Eu2 Eu2 . 2_665 4.494(13) ?
+Eu2 Eu2 . 3_565 4.494(8) ?
+Eu2 Ca3 . . 3.583(4) ?
+Eu2 Ca3 . 10_664 4.428(8) ?
+Eu2 Ca3 . 11_554 4.375(8) ?
+Eu2 Eu3 . . 3.670(8) ?
+Eu2 Eu3 . 10_664 4.633(10) ?
+Eu2 Eu3 . 11_554 3.942(9) ?
+Eu2 Ca4 . 1_665 3.665(14) ?
+Eu2 Ca4 . 16_555 5.49(3) ?
+Eu2 Zn1 . 16_554 3.641(3) ?
+Eu2 P1 . 1_665 3.629(3) ?
+Eu2 P2 . 1_554 3.817(4) ?
+Eu2 P2 . 16_664 3.733(8) ?
+Eu2 P2 . 17_544 3.556(7) ?
+Eu2 P3 . 16_664 3.268(9) ?
+Eu2 P3 . 17_544 2.984(9) ?
+Eu2 Ge1 . 16_664 4.525(11) ?
+Eu2 Ge1 . 17_544 2.684(12) ?
+Eu2 O1 . 1_554 2.596(4) ?
+Eu2 O2 . 16_664 2.445(7) ?
+Eu2 O3 . 17_544 2.155(8) ?
+Eu2 O5 . 17_544 2.326(10) ?
+Eu2 O6 . 16_664 2.737(10) ?
+Eu2 O7 . 16_664 2.522(8) ?
+Eu2 O7 . 17_544 2.411(7) ?
+Eu2 O9 . 3_565 2.249(4) ?
+Ca3 Ca3 . 2_765 4.340(4) ?
+Ca3 Ca3 . 3_675 4.340(2) ?
+Ca3 Eu3 . . 0.505(5) ?
+Ca3 Eu3 . 2_765 4.742(5) ?
+Ca3 Eu3 . 3_675 4.301(4) ?
+Ca3 Ca4 . 1_665 5.44(3) ?
+Ca3 Ca4 . 16_555 3.753(13) ?
+Ca3 P1 . 1_665 3.3393(16) ?
+Ca3 P2 . 16_664 3.527(3) ?
+Ca3 P2 . 17_544 3.211(3) ?
+Ca3 P3 . 8_664 3.013(3) ?
+Ca3 P3 . 9_564 3.226(3) ?
+Ca3 Ge1 . 8_664 1.988(9) ?
+Ca3 Ge1 . 9_564 4.053(9) ?
+Ca3 O1 . 17_544 2.777(3) ?
+Ca3 O2 . 16_664 2.458(4) ?
+Ca3 O3 . 17_544 2.485(3) ?
+Ca3 O5 . 8_664 2.605(5) ?
+Ca3 O6 . 9_564 2.449(4) ?
+Ca3 O8 . 8_664 2.507(5) ?
+Ca3 O8 . 9_564 2.673(5) ?
+Ca3 O10 . 1_665 2.5361(10) ?
+Eu3 Eu3 . 2_765 4.730(6) ?
+Eu3 Eu3 . 3_675 4.730(5) ?
+Eu3 Ca4 . 1_665 5.63(3) ?
+Eu3 Ca4 . 16_555 3.586(14) ?
+Eu3 Zn1 . 7_554 4.704(5) ?
+Eu3 P1 . 1_665 3.572(6) ?
+Eu3 P2 . 16_664 3.801(6) ?
+Eu3 P2 . 17_544 2.813(5) ?
+Eu3 P3 . 8_664 3.416(5) ?
+Eu3 P3 . 9_564 2.898(6) ?
+Eu3 Ge1 . 8_664 2.330(10) ?
+Eu3 Ge1 . 9_564 3.815(10) ?
+Eu3 O1 . 17_544 2.329(4) ?
+Eu3 O2 . 16_664 2.721(7) ?
+Eu3 O3 . 17_544 2.274(7) ?
+Eu3 O5 . 8_664 2.786(8) ?
+Eu3 O6 . 9_564 2.172(8) ?
+Eu3 O8 . 8_664 3.008(6) ?
+Eu3 O8 . 9_564 2.396(7) ?
+Eu3 O10 . 1_665 2.774(4) ?
+Ca4 P1 . . 2.62(4) ?
+Ca4 P2 . 1_444 3.70(2) ?
+Ca4 P2 . 2_654 3.70(2) ?
+Ca4 P2 . 3_564 3.70(2) ?
+Ca4 Ge1 . 16_654 3.737(6) ?
+Ca4 Ge1 . 17_434 3.737(5) ?
+Ca4 Ge1 . 18_454 3.737(9) ?
+Ca4 O1 . 1_444 2.675(14) ?
+Ca4 O1 . 2_654 2.675(14) ?
+Ca4 O1 . 3_564 2.675(14) ?
+Ca4 O9 . 1_545 2.15(3) ?
+Ca4 O9 . 2_665 2.15(3) ?
+Ca4 O9 . 3_455 2.15(3) ?
+Zn1 P2 . 10_554 3.4139(12) ?
+Zn1 P2 . 11_444 3.414(3) ?
+Zn1 P2 . 12_454 3.4139(12) ?
+Zn1 P3 . 1_445 3.3146(14) ?
+Zn1 P3 . 2_655 3.315(3) ?
+Zn1 P3 . 3_565 3.3146(14) ?
+Zn1 O4 . 10_554 2.240(2) ?
+Zn1 O4 . 11_444 2.240(7) ?
+Zn1 O4 . 12_454 2.240(2) ?
+Zn1 O7 . 1_445 2.320(3) ?
+Zn1 O7 . 2_655 2.320(5) ?
+Zn1 O7 . 3_565 2.320(3) ?
+P1 O9 . 1_545 1.700(3) ?
+P1 O9 . 2_665 1.700(3) ?
+P1 O9 . 3_455 1.700(3) ?
+P1 O10 . . 1.816(4) ?
+P2 Ge1 . 17_545 3.188(8) ?
+P2 O1 . . 1.436(2) ?
+P2 O2 . . 1.499(4) ?
+P2 O3 . . 1.514(3) ?
+P2 O4 . . 1.4336(19) ?
+P3 Ge1 . . 1.343(7) ?
+P3 O5 . . 1.774(4) ?
+P3 O6 . . 1.569(3) ?
+P3 O7 . . 1.426(2) ?
+P3 O8 . . 1.644(3) ?
+Ge1 O5 . . 1.102(10) ?
+Ge1 O7 . . 2.273(8) ?
+Ge1 O8 . . 1.883(8) ?
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_D
+_geom_hbond_site_symmetry_H
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_publ_flag
+? ? ? ? ? ? ? ? ? ? ?
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+? ? ? ? ? ? ? ? ? ?
+loop_
+_refln_index_h
+_refln_index_k
+_refln_index_l
+_refln_F_squared_calc
+_refln_F_squared_meas
+_refln_F_squared_sigma
+_refln_observed_status
+? ? ? ? ? ? ?
+loop_
+_restr_angle_atom_site_label_1
+_restr_angle_site_symmetry_1
+_restr_angle_atom_site_label_2
+_restr_angle_site_symmetry_2
+_restr_angle_atom_site_label_3
+_restr_angle_site_symmetry_3
+_restr_angle_target
+_restr_angle_target_weight_param
+? ? ? ? ? ? ? ?
+loop_
+_restr_distance_atom_site_label_1
+_restr_distance_site_symmetry_1
+_restr_distance_atom_site_label_2
+_restr_distance_site_symmetry_2
+_restr_distance_target
+_restr_distance_target_weight_param
+? ? ? ? ? ?
+loop_
+_restr_equal_angle_atom_site_label_1
+_restr_equal_angle_site_symmetry_1
+_restr_equal_angle_atom_site_label_2
+_restr_equal_angle_site_symmetry_2
+_restr_equal_angle_atom_site_label_3
+_restr_equal_angle_site_symmetry_3
+_restr_equal_angle_class_class_id
+_restr_equal_angle_class_target_weight_param
+? ? ? ? ? ? ? ?
+loop_
+_restr_equal_distance_atom_site_label_1
+_restr_equal_distance_site_symmetry_1
+_restr_equal_distance_atom_site_label_2
+_restr_equal_distance_site_symmetry_2
+_restr_equal_distance_class_class_id
+_restr_equal_distance_class_target_weight_param
+? ? ? ? ? ?
+loop_
+_restr_equal_torsion_atom_site_label_1
+_restr_equal_torsion_site_symmetry_1
+_restr_equal_torsion_atom_site_label_2
+_restr_equal_torsion_site_symmetry_2
+_restr_equal_torsion_atom_site_label_3
+_restr_equal_torsion_site_symmetry_3
+_restr_equal_torsion_atom_site_label_4
+_restr_equal_torsion_site_symmetry_4
+_restr_equal_torsion_class_class_id
+_restr_equal_torsion_class_target_weight_param
+? ? ? ? ? ? ? ? ? ?
+loop_
+_restr_torsion_atom_site_label_1
+_restr_torsion_site_symmetry_1
+_restr_torsion_atom_site_label_2
+_restr_torsion_site_symmetry_2
+_restr_torsion_atom_site_label_3
+_restr_torsion_site_symmetry_3
+_restr_torsion_atom_site_label_4
+_restr_torsion_site_symmetry_4
+_restr_torsion_angle_target
+_restr_torsion_weight_param
+? ? ? ? ? ? ? ? ? ?
+loop_
+_twin_individual_id
+_twin_individual_mass_fraction_refined
+_twin_individual_twin_matrix_11
+_twin_individual_twin_matrix_12
+_twin_individual_twin_matrix_13
+_twin_individual_twin_matrix_21
+_twin_individual_twin_matrix_22
+_twin_individual_twin_matrix_23
+_twin_individual_twin_matrix_31
+_twin_individual_twin_matrix_32
+_twin_individual_twin_matrix_33
+? ? ? ? ? ? ? ? ? ? ?
+loop_
+_twin_refln_datum_id
+_twin_refln_individual_id
+_twin_refln_index_h
+_twin_refln_index_k
+_twin_refln_index_l
+_twin_refln_F_squared_calc
+_twin_refln_F_squared_meas
+_twin_refln_F_squared_sigma
+_twin_refln_include_status
+? ? ? ? ? ? ? ? ?
+loop_
+_jana_atom_site_adp_c_label
+_jana_atom_site_adp_c_type_symbol
+_jana_atom_site_adp_c_111
+_jana_atom_site_adp_c_112
+_jana_atom_site_adp_c_113
+_jana_atom_site_adp_c_122
+_jana_atom_site_adp_c_123
+_jana_atom_site_adp_c_133
+_jana_atom_site_adp_c_222
+_jana_atom_site_adp_c_223
+_jana_atom_site_adp_c_233
+_jana_atom_site_adp_c_333
+? ? ? ? ? ? ? ? ? ? ? ?
+loop_
+_jana_atom_site_adp_d_label
+_jana_atom_site_adp_d_type_symbol
+_jana_atom_site_adp_d_1111
+_jana_atom_site_adp_d_1112
+_jana_atom_site_adp_d_1113
+_jana_atom_site_adp_d_1122
+_jana_atom_site_adp_d_1123
+_jana_atom_site_adp_d_1133
+_jana_atom_site_adp_d_1222
+_jana_atom_site_adp_d_1223
+_jana_atom_site_adp_d_1233
+_jana_atom_site_adp_d_1333
+_jana_atom_site_adp_d_2222
+_jana_atom_site_adp_d_2223
+_jana_atom_site_adp_d_2233
+_jana_atom_site_adp_d_2333
+_jana_atom_site_adp_d_3333
+? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+loop_
+_jana_atom_site_adp_e_label
+_jana_atom_site_adp_e_type_symbol
+_jana_atom_site_adp_e_11111
+_jana_atom_site_adp_e_11112
+_jana_atom_site_adp_e_11113
+_jana_atom_site_adp_e_11122
+_jana_atom_site_adp_e_11123
+_jana_atom_site_adp_e_11133
+_jana_atom_site_adp_e_11222
+_jana_atom_site_adp_e_11223
+_jana_atom_site_adp_e_11233
+_jana_atom_site_adp_e_11333
+_jana_atom_site_adp_e_12222
+_jana_atom_site_adp_e_12223
+_jana_atom_site_adp_e_12233
+_jana_atom_site_adp_e_12333
+_jana_atom_site_adp_e_13333
+_jana_atom_site_adp_e_22222
+_jana_atom_site_adp_e_22223
+_jana_atom_site_adp_e_22233
+_jana_atom_site_adp_e_22333
+_jana_atom_site_adp_e_23333
+_jana_atom_site_adp_e_33333
+? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+loop_
+_jana_atom_site_adp_f_label
+_jana_atom_site_adp_f_type_symbol
+_jana_atom_site_adp_f_111111
+_jana_atom_site_adp_f_111112
+_jana_atom_site_adp_f_111113
+_jana_atom_site_adp_f_111122
+_jana_atom_site_adp_f_111123
+_jana_atom_site_adp_f_111133
+_jana_atom_site_adp_f_111222
+_jana_atom_site_adp_f_111223
+_jana_atom_site_adp_f_111233
+_jana_atom_site_adp_f_111333
+_jana_atom_site_adp_f_112222
+_jana_atom_site_adp_f_112223
+_jana_atom_site_adp_f_112233
+_jana_atom_site_adp_f_112333
+_jana_atom_site_adp_f_113333
+_jana_atom_site_adp_f_122222
+_jana_atom_site_adp_f_122223
+_jana_atom_site_adp_f_122233
+_jana_atom_site_adp_f_122333
+_jana_atom_site_adp_f_123333
+_jana_atom_site_adp_f_133333
+_jana_atom_site_adp_f_222222
+_jana_atom_site_adp_f_222223
+_jana_atom_site_adp_f_222233
+_jana_atom_site_adp_f_222333
+_jana_atom_site_adp_f_223333
+_jana_atom_site_adp_f_233333
+_jana_atom_site_adp_f_333333
+? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?

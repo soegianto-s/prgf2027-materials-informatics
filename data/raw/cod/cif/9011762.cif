@@ -1,0 +1,182 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-05-16 09:36:09 +0300 (Thu, 16 May 2024) $
+#$Revision: 291877 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/17/9011762.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011762
+loop_
+_publ_author_name
+'Krause, W.'
+'Blass, G.'
+'Effenberger, H.'
+_publ_section_title
+;
+ Schaferite, a new vanadium garnet from the Bellberg volcano, Eifel, Germany
+;
+_journal_name_full               'Neues Jahrbuch fur Mineralogie, Monatshefte'
+_journal_page_first              123
+_journal_page_last               124
+_journal_volume                  1999
+_journal_year                    1999
+_chemical_compound_source        'Bellberg volcano, Eifel, Germany'
+_chemical_formula_sum
+'Ca2.301 Mg1.85 Mn0.15 Na0.699 O12 P0.18 V2.82'
+_chemical_name_mineral           Schaferite
+_space_group_IT_number           230
+_symmetry_space_group_name_Hall  '-I 4bd 2c 3'
+_symmetry_space_group_name_H-M   'I a -3 d'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_length_a                   12.422
+_cell_length_b                   12.422
+_cell_length_c                   12.422
+_cell_formula_units_Z            8
+_cell_volume                     1916.790
+_database_code_amcsd             0014899
+_exptl_crystal_density_diffrn    3.484
+_cod_original_formula_sum
+'(Na.699 Ca2.301) (Mg1.85 Mn.15) (V2.82 P.18) O12'
+_cod_database_code               9011762
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,1/2+z
+z,1/2-x,1/2+y
+1/2+z,-x,+y
+-y,1/2+z,1/2-x
+1/2-y,+z,-x
+x,1/2-y,1/2+z
+1/2+x,-y,+z
+-z,1/2+x,1/2-y
+1/2-z,+x,-y
+y,1/2-z,1/2+x
+1/2+y,-z,+x
+-x,1/2+y,1/2-z
+1/2-x,+y,-z
+3/4+x,1/4-z,3/4-y
+1/4+x,3/4-z,1/4-y
+3/4-z,1/4+y,3/4+x
+1/4-z,3/4+y,1/4+x
+3/4+y,1/4-x,3/4-z
+1/4+y,3/4-x,1/4-z
+3/4-x,1/4+z,3/4+y
+1/4-x,3/4+z,1/4+y
+3/4+z,1/4-y,3/4-x
+1/4+z,3/4-y,1/4-x
+3/4-y,1/4+x,3/4+z
+1/4-y,3/4+x,1/4+z
+1/4+x,1/4+z,1/4+y
+3/4+x,3/4+z,3/4+y
+1/4-z,1/4-y,1/4-x
+3/4-z,3/4-y,3/4-x
+1/4+y,1/4+x,1/4+z
+3/4+y,3/4+x,3/4+z
+1/4-x,1/4-z,1/4-y
+3/4-x,3/4-z,3/4-y
+1/4+z,1/4+y,1/4+x
+3/4+z,3/4+y,3/4+x
+1/4-y,1/4-x,1/4-z
+3/4-y,3/4-x,3/4-z
+1/2+z,x,1/2-y
++z,1/2+x,-y
+1/2-y,-z,1/2+x
+-y,1/2-z,+x
+1/2+x,y,1/2-z
++x,1/2+y,-z
+1/2-z,-x,1/2+y
+-z,1/2-x,+y
+1/2+y,z,1/2-x
++y,1/2+z,-x
+1/2-x,-y,1/2+z
+-x,1/2-y,+z
+1/2-z,1/2+x,y
+-z,+x,1/2+y
+1/2+y,1/2-z,-x
++y,-z,1/2-x
+1/2-x,1/2+y,z
+-x,+y,1/2+z
+1/2+z,1/2-x,-y
++z,-x,1/2-y
+1/2-y,1/2+z,x
+-y,+z,1/2+x
+1/2+x,1/2-y,-z
++x,-y,1/2-z
+3/4-x,3/4+z,1/4-y
+1/4-x,1/4+z,3/4-y
+3/4+z,3/4-y,1/4+x
+1/4+z,1/4-y,3/4+x
+3/4-y,3/4+x,1/4-z
+1/4-y,1/4+x,3/4-z
+3/4+x,3/4-z,1/4+y
+1/4+x,1/4-z,3/4+y
+3/4-z,3/4+y,1/4-x
+1/4-z,1/4+y,3/4-x
+3/4+y,3/4-x,1/4+z
+1/4+y,1/4-x,3/4+z
+1/4-x,3/4-z,3/4+y
+3/4-x,1/4-z,1/4+y
+1/4+z,3/4+y,3/4-x
+3/4+z,1/4+y,1/4-x
+1/4-y,3/4-x,3/4+z
+3/4-y,1/4-x,1/4+z
+1/4+x,3/4+z,3/4-y
+3/4+x,1/4+z,1/4-y
+1/4-z,3/4-y,3/4+x
+3/4-z,1/4-y,1/4+x
+1/4+y,3/4+x,3/4-z
+3/4+y,1/4+x,1/4-z
+-z,-x,-y
+1/2-z,1/2-x,1/2-y
+y,z,x
+1/2+y,1/2+z,1/2+x
+-x,-y,-z
+1/2-x,1/2-y,1/2-z
+z,x,y
+1/2+z,1/2+x,1/2+y
+-y,-z,-x
+1/2-y,1/2-z,1/2-x
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Na 0.01180 0.01560 0.01560 0.00000 0.00000 0.00170
+Ca 0.01180 0.01560 0.01560 0.00000 0.00000 0.00170
+Mg 0.01270 0.01270 0.01270 -0.00070 -0.00070 -0.00070
+Mn 0.01270 0.01270 0.01270 -0.00070 -0.00070 -0.00070
+V 0.00850 0.00930 0.00930 0.00000 0.00000 0.00000
+P 0.00850 0.00930 0.00930 0.00000 0.00000 0.00000
+O 0.01200 0.01270 0.01060 -0.00060 -0.00030 0.00040
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Na 0.12500 0.00000 0.25000 0.23300 0.01440
+Ca 0.12500 0.00000 0.25000 0.76700 0.01440
+Mg 0.00000 0.00000 0.00000 0.92500 0.01270
+Mn 0.00000 0.00000 0.00000 0.07500 0.01270
+V 0.37500 0.00000 0.25000 0.94000 0.00910
+P 0.37500 0.00000 0.25000 0.06000 0.00910
+O 0.03837 0.05130 0.65515 1.00000 0.01180
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014899

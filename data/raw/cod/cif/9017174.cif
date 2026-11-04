@@ -1,0 +1,87 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-05-29 17:00:33 +0300 (Wed, 29 May 2024) $
+#$Revision: 292100 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/71/9017174.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017174
+loop_
+_publ_author_name
+'Tait, K. T.'
+'Hawthorne, F. C.'
+'Wise, M. A.'
+_publ_section_title
+;
+ The crystal chemistry of the graftonite-beusite minerals
+ Notes: Sample B2
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              653
+_journal_page_last               662
+_journal_volume                  51
+_journal_year                    2013
+_chemical_compound_source        'Rice mine, North Groton, New Hampshire, USA'
+_chemical_formula_sum            'Ca0.36 Fe0.67 Mg0.21 Mn1.75 O8 P2 Zn0.01'
+_chemical_name_mineral           Beusite
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2ybc'
+_space_group_name_H-M_alt        'P 1 21/c 1'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 99.199
+_cell_angle_gamma                90
+_cell_length_a                   8.7900
+_cell_length_b                   11.5382
+_cell_length_c                   6.1654
+_cell_volume                     617.258
+_cell_formula_units_Z            4
+_database_code_amcsd             0020200
+_exptl_crystal_density_diffrn    3.698
+_cod_data_source_file            inputs/fixed/downloads/07/07386.cif
+_cod_data_source_block           07386
+_cod_original_formula_sum        'Mn1.75 Ca.36 Fe.67 Mg.21 Zn.01 P2 O8'
+_cod_database_code               9017174
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Mn(1) 0.94364 0.11988 0.83899 0.64000 0.01620
+Ca(1) 0.94364 0.11988 0.83899 0.36000 0.01620
+Fe(2) 0.71692 0.07660 0.32915 0.67000 0.01790
+Mn(2) 0.71692 0.07660 0.32915 0.11000 0.01790
+Mg(2) 0.71692 0.07660 0.32915 0.21000 0.01790
+Zn(2) 0.71692 0.07660 0.32915 0.01000 0.01790
+Mn(3) 0.36044 0.19111 0.12860 1.00000 0.01200
+P(1) 0.09038 0.13580 0.39342 1.00000 0.00930
+P(2) 0.60285 0.08864 0.80689 1.00000 0.00910
+O(1) 0.07704 0.06880 0.17690 1.00000 0.01510
+O(2) 0.47560 0.17680 0.83070 1.00000 0.01380
+O(3) 0.93720 0.19540 0.41580 1.00000 0.02100
+O(4) 0.69270 0.12750 0.62570 1.00000 0.01370
+O(5) 0.21240 0.23020 0.37890 1.00000 0.01790
+O(6) 0.72560 0.08730 0.01470 1.00000 0.01310
+O(7) 0.13670 0.06150 0.59670 1.00000 0.01990
+O(8) 0.53280 -0.03350 0.76020 1.00000 0.01250
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0020200

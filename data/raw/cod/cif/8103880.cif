@@ -1,0 +1,101 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 14:50:18 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176428 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/8/10/38/8103880.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8103880
+loop_
+_publ_author_name
+'Bauer, M.'
+'Klee, W.E.'
+_publ_section_title
+;
+ Induced ferrielectricity in chlorapatite
+;
+_journal_name_full
+'Zeitschrift fuer Kristallographie (149,1979-)'
+_journal_page_first              15
+_journal_page_last               24
+_journal_volume                  206
+_journal_year                    1993
+_chemical_formula_sum            'Ca9.97 Cl1.94 O24 P6'
+_chemical_name_systematic        'Ca9.97 (P O4)6 Cl1.94'
+_space_group_IT_number           4
+_symmetry_space_group_name_Hall  'P 2c'
+_symmetry_space_group_name_H-M   'P 1 1 21'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                119.94
+_cell_formula_units_Z            2
+_cell_length_a                   9.632
+_cell_length_b                   19.226
+_cell_length_c                   6.765
+_cell_volume                     1085.591
+_citation_journal_id_ASTM        ZEKRDZ
+_cod_data_source_file            Bauer_ZEKRDZ_1993_829.cif
+_cod_data_source_block           Ca9.97Cl1.94O24P6
+_cod_original_sg_symbol_Hall     'P 2yb (z,x,y)'
+_cod_database_code               8103880
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+O14 O-2 0.5079 0.4265 0.2454 1 0.0
+O24 O-2 0.9103 0.3181 0.0606 1 0.0
+O10 O-2 0.3626 0.1361 0.4389 1 0.0
+O19 O-2 0.6572 0.3698 0.9251 1 0.0
+O4 O-2 0.5933 0.2329 0.243 1 0.0
+O11 O-2 0.7323 0.0453 0.4344 1 0.0
+O7 O-2 0.3437 0.1317 0.0763 1 0.0
+Ca3 Ca+2 0.2595 0.0022 0.246 1 0.0
+Ca1 Ca+2 0.3304 0.3312 0.0048 0.992 0.0
+P3 P+5 0.0329 0.2042 0.7511 1 0.0
+P6 P+5 0.9681 0.2963 0.2488 1 0.0
+O6 O-2 0.1255 0.2947 0.7365 1 0.0
+O12 O-2 0.0876 0.1813 0.9407 1 0.0
+O17 O-2 0.4651 0.4359 0.7533 1 0.0
+Cl1 Cl-1 0.0005 0.999 0.4438 0.88 0.0
+Cl4 Cl-1 0.9972 0.4994 0.4341 0.15 0.0
+Cl2 Cl-1 0.0055 0.9965 0.5219 0.11 0.0
+O5 O-2 0.535 0.0631 0.245 1 0.0
+P1 P+5 0.4079 0.1878 0.2532 1 0.0
+O22 O-2 0.6387 0.3644 0.5601 1 0.0
+Ca9 Ca+2 0.9947 0.1271 0.2477 1 0.0
+O3 O-2 0.1484 0.3283 0.2505 1 0.0
+O15 O-2 0.8496 0.1718 0.7538 1 0.0
+P4 P+5 0.5926 0.3126 0.7479 1 0.0
+O1 O-2 0.344 0.2464 0.2533 1 0.0
+O2 O-2 0.4921 0.0739 0.7546 1 0.0
+Ca8 Ca+2 0.7409 0.4977 0.75 1 0.0
+P2 P+5 0.6242 0.0163 0.252 1 0.0
+Ca7 Ca+2 0.6608 0.165 0.5029 0.985 0.0
+O8 O-2 0.7375 0.0425 0.0691 1 0.0
+O9 O-2 0.0847 0.1735 0.5754 1 0.0
+Ca10 Ca+2 0.7451 0.3705 0.2472 1 0.0
+O16 O-2 0.4077 0.2667 0.7605 1 0.0
+O18 O-2 0.872 0.2025 0.2589 1 0.0
+O13 O-2 0.656 0.2532 0.7434 1 0.0
+Ca6 Ca+2 0.6729 0.1682 0.9977 0.985 0.0
+Ca5 Ca+2 0.2552 0.1299 0.7494 1 0.0
+Ca4 Ca+2 0.0047 0.3726 0.7445 1 0.0
+O21 O-2 0.919 0.3309 0.4244 1 0.0
+Ca2 Ca+2 0.336 0.3353 0.4958 0.992 0.0
+O23 O-2 0.2695 0.4555 0.5621 1 0.0
+Cl3 Cl-1 0.9989 0.5 0.5587 0.8 0.0
+O20 O-2 0.266 0.4579 0.9262 1 0.0
+P5 P+5 0.3754 0.4836 0.7483 1 0.0

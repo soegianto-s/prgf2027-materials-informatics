@@ -1,0 +1,103 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-10-09 11:36:41 +0300 (Fri, 09 Oct 2015) $
+#$Revision: 161321 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/8/10/38/8103839.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8103839
+loop_
+_publ_author_name
+'Alkemper, J.'
+'Fuess, H.'
+'Paulus, H.'
+_publ_section_title
+;
+ Crystal structure of aluminium calcium sodium diphosphate, Na27 Ca3 Al5
+ (P2 O7)12
+;
+_journal_name_full
+'Zeitschrift fuer Kristallographie (149,1979-)'
+_journal_page_first              298
+_journal_page_last               299
+_journal_volume                  210
+_journal_year                    1995
+_chemical_formula_sum            'Al5 Ca3 Na27 O84 P24'
+_chemical_name_systematic        'Na27 Ca3 Al5 (P2 O7)12'
+_space_group_IT_number           148
+_symmetry_space_group_name_Hall  '-R 3'
+_symmetry_space_group_name_H-M   'R -3 :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   25.438
+_cell_length_b                   25.438
+_cell_length_c                   9.271
+_cell_volume                     5195.450
+_citation_journal_id_ASTM        ZEKRDZ
+_cod_data_source_file            Alkemper_ZEKRDZ_1995_1689.cif
+_cod_data_source_block           Al5Ca3Na27O84P24
+_cod_original_cell_volume        5195.45
+_cod_database_code               8103839
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+-x+y,-x,z
+-x,-y,-z
+y,-x+y,-z
+x-y,x,-z
+x+2/3,y+1/3,z+1/3
+-y+2/3,x-y+1/3,z+1/3
+-x+y+2/3,-x+1/3,z+1/3
+-x+2/3,-y+1/3,-z+1/3
+y+2/3,-x+y+1/3,-z+1/3
+x-y+2/3,x+1/3,-z+1/3
+x+1/3,y+2/3,z+2/3
+-y+1/3,x-y+2/3,z+2/3
+-x+y+1/3,-x+2/3,z+2/3
+-x+1/3,-y+2/3,-z+2/3
+y+1/3,-x+y+2/3,-z+2/3
+x-y+1/3,x+2/3,-z+2/3
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Na5 Na+1 0.1063 0.1673 0.8439 1 0.0
+Ca2 Ca+2 0.28901 -0.00068 0.1722 0.25 0.0
+O7 O-2 0.2736 0.1808 0.749 1 0.0
+Al2 Al+3 0.3333 0.1667 0.6667 1 0.0
+Na4 Na+1 0.3198 0.1849 0.0321 1 0.0
+P1 P+5 0.1024 0.0392 0.7582 1 0.0
+P2 P+5 0.21793 0.1476 0.8453 1 0.0
+Na1 Na+1 0.2227 0.01911 0.849 0.75 0.0
+P4 P+5 0.24706 0.04688 0.4931 1 0.0
+P3 P+5 0.22868 -0.07254 0.6042 1 0.0
+O6 O-2 0.2039 0.1939 0.9083 1 0.0
+O4 O-2 0.1214 -0.0075 0.7759 1 0.0
+O13 O-2 0.1975 0.0547 0.4277 1 0.0
+O2 O-2 0.0714 0.0326 0.6134 1 0.0
+O3 O-2 0.0694 0.0477 0.8839 1 0.0
+Na2 Na+1 0.28901 -0.00068 0.1722 0.75 0.0
+O11 O-2 0.296 -0.0475 0.5842 1 0.0
+O9 O-2 0.1893 -0.1287 0.5159 1 0.0
+O10 O-2 0.2106 -0.0845 0.7613 1 0.0
+Al3 Al+3 0 0 0 1 0.0
+Na3 Na+1 0.15303 0.11151 0.4772 1 0.0
+O1 O-2 0.1626 0.1051 0.7367 1 0.0
+O5 O-2 0.2228 0.1065 0.9539 1 0.0
+Al1 Al+3 0 0 0.5 1 0.0
+O12 O-2 0.2744 0.0832 0.6309 1 0.0
+O8 O-2 0.2111 -0.0229 0.5528 1 0.0
+O14 O-2 0.2949 0.0517 0.3887 1 0.0
+Ca1 Ca+2 0.2227 0.01911 0.849 0.25 0.0

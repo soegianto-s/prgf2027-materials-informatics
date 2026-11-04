@@ -1,0 +1,122 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-28 16:36:49 +0300 (Sun, 28 May 2023) $
+#$Revision: 284046 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/04/9010489.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9010489
+loop_
+_publ_author_name
+'Hughes, J. M.'
+'Jolliff, B. L.'
+'Rakovan, J.'
+_publ_section_title
+;The crystal chemistry of whitlockite and merrillite and the dehydrogenation
+ of whitlockite to merrillite Locality: Palermo Mine, North Groton, Grafton
+ County, New Hampshire
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1300
+_journal_page_last               1305
+_journal_paper_doi               10.2138/am.2008.2683
+_journal_volume                  93
+_journal_year                    2008
+_chemical_compound_source
+'Palermo Mine, North Groton, Grafton County, New Hampshire'
+_chemical_formula_sum            'Ca9.181 Fe0.429 H0.693 Mg0.571 O28 P7'
+_chemical_name_mineral           Whitlockite
+_space_group_IT_number           161
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   10.3612
+_cell_length_b                   10.3612
+_cell_length_c                   37.096
+_cell_volume                     3448.878
+_database_code_amcsd             0004622
+_exptl_crystal_density_diffrn    3.095
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_original_formula_sum        '(Mg.571 Fe.429) Ca9.181 P7 O28 H.693'
+_cod_database_code               9010489
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,1/2+z
+2/3+x,1/3+x-y,5/6+z
+1/3+x,2/3+x-y,1/6+z
+-y,-x,1/2+z
+2/3-y,1/3-x,5/6+z
+1/3-y,2/3-x,1/6+z
+-x+y,y,1/2+z
+2/3-x+y,1/3+y,5/6+z
+1/3-x+y,2/3+y,1/6+z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mg 0.00000 0.00000 0.00000 0.57100 0.00890 Mg 0
+Fe 0.00000 0.00000 0.00000 0.42900 0.00890 Fe 0
+CaB1 0.27895 0.14521 0.56616 1.00000 0.01015 Ca 0
+CaB2 0.38756 0.17949 0.76821 1.00000 0.01128 Ca 0
+CaB 0.28589 0.15301 0.67340 1.00000 0.02297 Ca 0
+PB1 0.31608 0.14232 0.86487 1.00000 0.00908 P 0
+PB2 0.34973 0.15633 0.96794 1.00000 0.00909 P 0
+OIB1 0.27190 0.09130 0.82566 1.00000 0.01990 O 0
+OIIB1 0.24554 0.23150 0.87850 1.00000 0.01540 O 0
+OIIB3 0.27315 0.00089 0.88698 1.00000 0.01180 O 0
+OIIB5 0.48750 0.24141 0.86869 1.00000 0.01390 O 0
+OIIB2 0.39897 0.04698 0.95475 1.00000 0.01380 O 0
+OIIB4 0.41720 0.30286 0.94715 1.00000 0.01700 O 0
+OIIB6 0.17844 0.07904 0.96333 1.00000 0.01210 O 0
+OIB2 0.39890 0.19368 0.00765 1.00000 0.01740 O 0
+O-HIA 0.00000 0.00000 0.79740 0.69300 0.03400 O 0
+PA 0.00000 0.00000 0.75472 0.72500 0.01280 P 0
+OIIA -0.02300 0.12900 0.74090 0.57000 0.01110 O 0
+CaIIA 0.00000 0.00000 0.81110 0.18100 0.03800 Ca 0
+PA* 0.00000 0.00000 0.73290 0.27500 0.00480 P 0
+OIA* 0.00000 0.00000 0.69230 0.30700 0.01100 O 0
+OIIA* -0.00680 0.13590 0.74840 0.43000 0.01150 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:20:16+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0004622

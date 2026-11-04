@@ -1,0 +1,108 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-06-10 13:45:45 +0300 (Sun, 10 Jun 2018) $
+#$Revision: 208247 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/4/31/02/4310262.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4310262
+loop_
+_publ_author_name
+'Jan Svoboda'
+'V\'it\<ezslav Zima'
+'Ludv\'ik Bene\<s'
+'Kl\'ara Mel\'anov\'a'
+'Milan Vl\<cek'
+_publ_section_title
+;
+Synthesis and Characterization of New Calcium Phenylphosphonates and
+4-Carboxyphenylphosphonates
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              9968
+_journal_page_last               9976
+_journal_paper_doi               10.1021/ic051606x
+_journal_volume                  44
+_journal_year                    2005
+_chemical_formula_structural     Ca(HOOCC6H4PO3H)2
+_chemical_formula_sum            'C14 Ca O10 P2'
+_chemical_formula_weight         1720.694
+_chemical_formula_weight_meas    442.270
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           15
+_space_group_name_Hall           '-C 2yc'
+_space_group_name_H-M_alt        'C 1 2/c 1'
+_audit_creation_date             05-09-19
+_audit_creation_method           'Created with Diamond v2.0'
+_audit_update_record             05-09-19
+_cell_angle_alpha                90.000
+_cell_angle_beta                 128.119(3)
+_cell_angle_gamma                90.000
+_cell_formula_units_Z            4
+_cell_length_a                   49.218(3)
+_cell_length_b                   7.7609(4)
+_cell_length_c                   5.4452(3)
+_cell_volume                     1636.35(17)
+_cod_data_source_file            ic051606xsi20050919_080732.cif
+_cod_data_source_block           JS88_C2c_0F2
+_cod_depositor_comments
+;
+ Updating space group information.
+
+ Antanas Vaitkus,
+ 2018-06-11
+;
+_cod_original_cell_volume        1636.3(2)
+_cod_original_formula_sum        'C14 P2 O10 Ca'
+_cod_database_code               4310262
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,y,-z+1/2
+3 -x,-y,-z
+4 x,-y,z+1/2
+5 x+1/2,y+1/2,z
+6 -x+1/2,y+1/2,-z+1/2
+7 -x+1/2,-y+1/2,-z
+8 x+1/2,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+C1 C 0.8804(0) 0.688(4) 1.133(3) 1.000 8 f ? d Uiso 0.00000
+C2 C 0.8449(1) 0.707(5) 0.891(3) 1.000 8 f ? d Uiso 0.00000
+C3 C 0.8309(0) 0.7610(9) 0.5834(4) 1.000 8 f ? d Uiso 0.00000
+C4 C 0.8568(1) 0.818(5) 0.5593(20) 1.000 8 f ? d Uiso 0.00000
+C5 C 0.8921(1) 0.823(5) 0.815(3) 1.000 8 f ? d Uiso 0.00000
+C6 C 0.9064(0) 0.755(2) 1.1178(14) 1.000 8 f ? d Uiso 0.00000
+C9 C 0.7936(0) 0.7587(9) 0.2976(4) 1.000 8 f ? d Uiso 0.00000
+P12 P 0.9534(0) 0.7569(0) 1.4379(0) 1.000 8 f ? d Uiso 0.00000
+O13 O 0.7803(4) 0.690(3) 0.426(4) 1.000 8 f ? d Uiso 0.00000
+O14 O 0.7874(5) 0.817(3) 0.061(3) 1.000 8 f ? d Uiso 0.00000
+O15 O 0.9662(5) 0.6084(19) 1.327(5) 1.000 8 f ? d Uiso 0.00000
+O16 O 0.9680(5) 0.9244(17) 1.408(5) 1.000 8 f ? d Uiso 0.00000
+O17 O 0.9607(5) 0.712(3) 1.761(2) 1.000 8 f ? d Uiso 0.00000
+Ca Ca 0.0000 0.8250(16) 0.2500 1.000 4 e ? d Uiso 0.00000
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+_atom_type_radius_bond
+C ? 1.200
+P ? 1.200
+O ? 1.200
+Ca ? 1.200

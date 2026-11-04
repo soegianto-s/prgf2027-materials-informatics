@@ -1,0 +1,123 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 11:35:25 +0300 (Tue, 23 May 2023) $
+#$Revision: 283960 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/15/9011586.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011586
+loop_
+_publ_author_name
+'Gopal, R.'
+'Calvo, C.'
+_publ_section_title
+;
+ Structural relationship of whitlockite and beta-Ca3(PO4)2
+ Sample: Unheated, T = 293 K, hexagonal cell
+ Note: CaIIB1(z) changed
+;
+_journal_name_full               'Nature Physical Science'
+_journal_page_first              30
+_journal_page_last               32
+_journal_paper_doi               10.1038/physci237030a0
+_journal_volume                  237
+_journal_year                    1972
+_chemical_compound_source        'Palermo Quarry'
+_chemical_formula_sum            'Ca9.083 Fe0.2 Mg0.8 O28 P7'
+_chemical_name_mineral           Whitlockite
+_space_group_IT_number           161
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   10.330
+_cell_length_b                   10.330
+_cell_length_c                   37.103
+_cell_volume                     3428.785
+_database_code_amcsd             0014686
+_diffrn_ambient_temperature      293
+_exptl_crystal_density_diffrn    3.078
+_exptl_crystal_thermal_history   'Unheated, T = 293 K'
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_original_formula_sum        'Ca9.083 (Mg.8 Fe.2) P7 O28'
+_cod_database_code               9011586
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,1/2+z
+2/3+x,1/3+x-y,5/6+z
+1/3+x,2/3+x-y,1/6+z
+-y,-x,1/2+z
+2/3-y,1/3-x,5/6+z
+1/3-y,2/3-x,1/6+z
+-x+y,y,1/2+z
+2/3-x+y,1/3+y,5/6+z
+1/3-x+y,2/3+y,1/6+z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+CaIB 0.28840 0.15410 0.67330 1.00000 0.02490 Ca 0
+CaIIB1 0.25930 0.14550 0.56593 1.00000 0.00740 Ca 0
+CaIIB2 0.38710 0.17940 0.76822 1.00000 0.00810 Ca 0
+CaIIA 0.00000 0.00000 0.81190 0.08300 0.02600 Ca 0
+Mg 0.00000 0.00000 0.00000 0.80000 0.01250 Mg 0
+Fe 0.00000 0.00000 0.00000 0.20000 0.01250 Fe 0
+PA1 0.00000 0.00000 0.73280 0.16700 0.00300 P 0
+PA2 0.00000 0.00000 0.75420 0.83300 0.01020 P 0
+PB1 0.31620 0.14230 0.86472 1.00000 0.00750 P 0
+PB2 0.34970 0.15670 0.96786 1.00000 0.00650 P 0
+OIB1 0.27220 0.09050 0.82560 1.00000 0.01500 O 0
+OIIB1 0.24560 0.23160 0.87840 1.00000 0.01400 O 0
+OIIB3 0.27340 0.00150 0.88690 1.00000 0.01000 O 0
+OIIB5 0.48850 0.24190 0.86950 1.00000 0.00800 O 0
+OIB2 0.40120 0.19520 0.00730 1.00000 0.01400 O 0
+OIIB2 0.39930 0.04780 0.95440 1.00000 0.01200 O 0
+OIIB4 0.41600 0.30360 0.94690 1.00000 0.01200 O 0
+OIIB6 0.17800 0.07810 0.96390 1.00000 0.00800 O 0
+OIA1 0.00000 0.00000 0.69140 0.17000 0.03000 O 0
+OIA2 0.00000 0.00000 0.79760 0.83000 0.00900 O 0
+OIIA1 -0.01690 0.13490 0.74320 0.17000 0.01300 O 0
+OIIA2 -0.01740 0.13190 0.74280 0.83000 0.02500 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:25:11+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014686

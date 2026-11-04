@@ -1,0 +1,158 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-08-03 13:19:43 +0300 (Sat, 03 Aug 2024) $
+#$Revision: 293658 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/39/9013950.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9013950
+loop_
+_publ_author_name
+'Elliott, P.'
+'Turner, P.'
+'Jensen, P.'
+'Kolitsch, U.'
+'Pring, A.'
+_publ_section_title
+;Description and crystal structure of nyholmite, a new mineral related to
+ hureaulite, from Broken Hill,New South Wales, Australia Locality: Broken
+ Hill, New South Wales, Australia
+;
+_journal_name_full               'Mineralogical Magazine'
+_journal_page_first              723
+_journal_page_last               735
+_journal_paper_doi               10.1180/minmag.2009.073.5.723
+_journal_volume                  73
+_journal_year                    2009
+_chemical_compound_source        'Broken Hill, New South Wales, Australia'
+_chemical_formula_sum
+'Al0.04 As2.98 Ca0.02 Cd2.89 Cu0.44 H8.68 Mn0.52 O20 P1.02 Pb0.04 Zn1.05'
+_chemical_name_mineral           Nyholmite
+_space_group_IT_number           15
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 96.17
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   18.062
+_cell_length_b                   9.341
+_cell_length_c                   9.844
+_cell_volume                     1651.231
+_database_code_amcsd             0014593
+_exptl_crystal_density_diffrn    4.199
+_cod_original_formula_sum
+'Cd2.89 Zn1.05 Cu.44 Mn.52 Al.04 Ca.02 Pb.04 (As2.98 P1.02) O20 H8.68'
+_cod_database_code               9013950
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+-x,y,1/2-z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+CdM1 0.01640 0.01070 0.01940 0.00000 0.00060 0.00000
+ZnM1 0.01640 0.01070 0.01940 0.00000 0.00060 0.00000
+ZnM2 0.02150 0.01090 0.02190 -0.00040 0.00080 0.00340
+CuM2 0.02150 0.01090 0.02190 -0.00040 0.00080 0.00340
+CdM2 0.02150 0.01090 0.02190 -0.00040 0.00080 0.00340
+MnM2 0.02150 0.01090 0.02190 -0.00040 0.00080 0.00340
+AlM2 0.02150 0.01090 0.02190 -0.00040 0.00080 0.00340
+CdM3 0.01800 0.01250 0.02150 -0.00115 0.00223 -0.00237
+ZnM3 0.01800 0.01250 0.02150 -0.00115 0.00223 -0.00237
+CaM3 0.01800 0.01250 0.02150 -0.00115 0.00223 -0.00237
+PbM3 0.01800 0.01250 0.02150 -0.00115 0.00223 -0.00237
+AsT1 0.01460 0.00940 0.01480 0.00150 0.00060 -0.00090
+PT1 0.01460 0.00940 0.01480 0.00150 0.00060 -0.00090
+AsT2 0.01490 0.00700 0.01720 0.00044 -0.00120 -0.00037
+PT2 0.01490 0.00700 0.01720 0.00044 -0.00120 -0.00037
+O1 0.02400 0.02600 0.02700 -0.00440 0.00060 -0.00250
+O-H2 0.03500 0.02900 0.02800 0.00800 -0.00150 -0.00860
+O3 0.02500 0.02200 0.03400 -0.00360 0.00090 0.00810
+O4 0.02400 0.02900 0.02400 0.01020 0.00190 -0.00450
+O5 0.02900 0.01840 0.02100 0.00140 -0.00230 -0.00390
+O6 0.02050 0.01740 0.03300 0.00000 -0.00070 -0.00200
+O7 0.01930 0.01590 0.03100 -0.00190 0.00840 -0.00250
+O8 0.02400 0.01430 0.03600 0.00170 0.00510 0.00760
+Wat9 0.03300 0.03100 0.04500 -0.00800 0.00300 0.01500
+Wat10 0.02600 0.02200 0.02500 0.00210 0.00770 0.00460
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+CdM1 0.00000 -0.10841 0.25000 0.73000 0.01560 Cd 0
+ZnM1 0.00000 -0.10841 0.25000 0.27000 0.01560 Zn 0
+ZnM2 0.31675 0.08527 0.68608 0.31000 0.01820 Zn 0
+CuM2 0.31675 0.08527 0.68608 0.22000 0.01820 Cu 0
+CdM2 0.31675 0.08527 0.68608 0.19000 0.01820 Cd 0
+MnM2 0.31675 0.08527 0.68608 0.26000 0.01820 Mn 0
+AlM2 0.31675 0.08527 0.68608 0.02000 0.01820 Al 0
+CdM3 0.17497 0.02916 0.36559 0.89000 0.01732 Cd 0
+ZnM3 0.17497 0.02916 0.36559 0.08000 0.01732 Zn 0
+CaM3 0.17497 0.02916 0.36559 0.01000 0.01732 Ca 0
+PbM3 0.17497 0.02916 0.36559 0.02000 0.01732 Pb 0
+AsT1 0.08304 0.18435 0.08981 0.66000 0.01300 As 0
+PT1 0.08304 0.18435 0.08981 0.34000 0.01300 P 0
+AsT2 0.16130 0.26692 0.62387 0.83000 0.01330 As 0
+PT2 0.16130 0.26692 0.62387 0.17000 0.01330 P 0
+O1 0.15890 0.27390 0.13560 1.00000 0.02570 O 0
+O-H2 0.01090 0.29640 0.07910 1.00000 0.03100 O 1
+O3 0.07550 0.06630 0.20900 1.00000 0.02700 O 0
+O4 0.08400 0.11110 -0.06150 1.00000 0.02600 O 0
+O5 0.16560 0.24900 0.45410 1.00000 0.02320 O 0
+O6 0.07250 0.27490 0.65570 1.00000 0.02410 O 0
+O7 0.20540 0.41600 0.67790 1.00000 0.02160 O 0
+O8 0.20480 0.12810 0.70230 1.00000 0.02470 O 0
+Wat9 0.41760 -0.00330 0.66130 1.00000 0.03640 O 2
+Wat10 0.26040 -0.08410 0.53230 1.00000 0.02400 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:42:39+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+2
+;cod-tools version 3.10.1
+Id: cif_fix_AMCSD_aniso_labels 10200 2024-08-01 14:09:44Z saulius
+;
+2024-08-02T12:21:53+03:00
+;Changed the following '_atom_site_aniso_label' values:
+'OH2' -> 'O-H2'
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014593

@@ -1,0 +1,100 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/04/9000462.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000462
+loop_
+_publ_author_name
+'Moore, P. B.'
+'Kampf, A. R.'
+'Araki, T.'
+_publ_section_title
+;
+ Foggite, Ca(H2O)2[CaAl2(OH)4(PO4)2]: Its atomic arrangement and
+ relationship to calcium Tschermak's pyroxene
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              965
+_journal_page_last               971
+_journal_volume                  60
+_journal_year                    1975
+_chemical_formula_sum            'Al2 Ca2 H5.8 O15 P2'
+_chemical_name_mineral           Foggite
+_space_group_IT_number           20
+_symmetry_space_group_name_Hall  'A 2a 2a'
+_symmetry_space_group_name_H-M   'A 21 2 2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   9.270
+_cell_length_b                   21.324
+_cell_length_c                   5.190
+_cell_volume                     1025.925
+_database_code_amcsd             0000473
+_exptl_crystal_density_diffrn    2.861
+_cod_original_formula_sum        'Ca2 Al2 P2 O15 H5.8'
+_cod_database_code               9000462
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2+y,1/2+z
+1/2-x,-y,z
+1/2-x,1/2-y,1/2+z
+-x,y,-z
+-x,1/2+y,1/2-z
+1/2+x,-y,-z
+1/2+x,1/2-y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.00000 0.36140 0.00000 1.00000 0.00836 Ca 0
+Ca2 0.25000 0.50000 0.08700 1.00000 0.01710 Ca 0
+Al1 0.00000 0.19450 0.00000 1.00000 0.00659 Al 0
+Al2 0.00000 0.26220 0.50000 1.00000 0.00621 Al 0
+P 0.21430 0.38330 0.57020 1.00000 0.00608 P 0
+O1 0.37560 0.36800 0.62430 1.00000 0.00899 O 0
+O2 0.12550 0.32330 0.63390 1.00000 0.00861 O 0
+O3 0.16530 0.43240 0.76590 1.00000 0.00963 O 0
+O4 0.18810 0.40400 0.29220 1.00000 0.01102 O 0
+O-H1 0.10670 0.20150 0.68440 1.00000 0.00785 O 1
+O-H2 -0.09950 0.26080 0.82050 1.00000 0.00722 O 1
+Wat1 0.50000 0.45120 0.00000 1.00000 0.04230 O 2
+Wat2 0.47800 0.47410 0.21650 0.50000 0.01596 O 2
+Wat3 0.46170 0.47930 0.35130 0.50000 0.01178 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:36:19+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000473

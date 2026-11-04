@@ -1,0 +1,146 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-08-03 13:19:43 +0300 (Sat, 03 Aug 2024) $
+#$Revision: 293658 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/11/9011161.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011161
+loop_
+_publ_author_name
+'Kostiner, E.'
+'Rea, J. R.'
+_publ_section_title
+;
+ The crystal structure of manganese-whitlockite, Ca18Mn2H2(PO4)14
+;
+_journal_name_full               'Acta Crystallographica, Section B'
+_journal_page_first              250
+_journal_page_last               253
+_journal_paper_doi               10.1107/S0567740876002690
+_journal_volume                  32
+_journal_year                    1976
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'Ca9 H Mn O28 P7'
+_chemical_name_mineral           Whitlockite
+_space_group_IT_number           161
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   10.438
+_cell_length_b                   10.438
+_cell_length_c                   37.150
+_cell_volume                     3505.291
+_database_code_amcsd             0009550
+_exptl_crystal_density_diffrn    3.074
+_cod_original_cell_volume        3505.290
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_original_formula_sum        'Mn Ca9 P7 O28 H'
+_cod_database_code               9011161
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,1/2+z
+2/3+x,1/3+x-y,5/6+z
+1/3+x,2/3+x-y,1/6+z
+-y,-x,1/2+z
+2/3-y,1/3-x,5/6+z
+1/3-y,2/3-x,1/6+z
+-x+y,y,1/2+z
+2/3-x+y,1/3+y,5/6+z
+1/3-x+y,2/3+y,1/6+z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Mn 0.00861 0.00861 0.00909 0.00431 0.00000 0.00000
+Ca1 0.03606 0.01884 0.01748 0.02086 -0.01225 -0.00851
+Ca2 0.00948 0.00960 0.00979 0.00505 -0.00034 -0.00068
+Ca3 0.01151 0.00873 0.00979 0.00530 -0.00221 -0.00085
+P1 0.01089 0.01089 0.02657 0.00542 0.00000 0.00000
+P2 0.00861 0.00770 0.00979 0.00480 0.00017 0.00034
+P3 0.00745 0.00861 0.00839 0.00339 0.00034 0.00068
+O1 0.02049 0.01834 0.01119 0.01151 0.00153 0.00170
+O2 0.01772 0.01710 0.01678 0.01304 0.00238 0.00051
+O3 0.01188 0.00861 0.00979 0.00455 0.00238 0.00340
+O4 0.00923 0.00720 0.01888 0.00327 0.00272 0.00034
+O5 0.02037 0.01329 0.00979 0.00873 -0.00544 -0.00136
+O6 0.01441 0.01631 0.01259 0.01064 -0.00085 -0.00034
+O7 0.01668 0.01126 0.01049 0.00352 0.00289 0.00340
+O8 0.00807 0.01047 0.01468 0.00377 -0.00051 -0.00187
+O-H9 0.03568 0.03568 0.02307 0.01784 0.00000 0.00000
+O10 0.01697 0.01022 0.02797 0.00936 0.00783 0.00493
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mn 0.00000 0.00000 0.00000 Mn 0
+Ca1 0.29540 0.15850 0.67216 Ca 0
+Ca2 0.28130 0.14640 0.56572 Ca 0
+Ca3 0.38740 0.17980 0.76784 Ca 0
+P1 0.00000 0.00000 0.75426 P 0
+P2 0.31660 0.14310 0.86498 P 0
+P3 0.35240 0.15900 0.96737 P 0
+O1 0.27980 0.09550 0.82590 O 0
+O2 0.24490 0.23180 0.87830 O 0
+O3 0.27080 0.00060 0.88680 O 0
+O4 0.48680 0.24150 0.87110 O 0
+O5 0.40170 0.19530 0.00750 O 0
+O6 0.40200 0.05120 0.95420 O 0
+O7 0.41740 0.30630 0.94730 O 0
+O8 0.18170 0.08020 0.96290 O 0
+O-H9 0.00000 0.00000 0.79720 O 1
+O10 -0.01820 0.13030 0.74250 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:53:00+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+2
+;cod-tools version 3.10.1
+Id: cif_fix_AMCSD_aniso_labels 10200 2024-08-01 14:09:44Z saulius
+;
+2024-08-02T12:21:38+03:00
+;Changed the following '_atom_site_aniso_label' values:
+'OH9' -> 'O-H9'
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009550

@@ -1,0 +1,121 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/04/9000465.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000465
+loop_
+_publ_author_name
+'Taxer, K. J.'
+_publ_section_title
+;
+ Structural investigations on scholzite
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1019
+_journal_page_last               1022
+_journal_volume                  60
+_journal_year                    1975
+_chemical_formula_sum            'Ca H4 O10 P2 Zn2'
+_chemical_name_mineral           Scholzite
+_symmetry_space_group_name_H-M   'P b c 21'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            12
+_cell_length_a                   17.149
+_cell_length_b                   22.236
+_cell_length_c                   6.667
+_cell_volume                     2542.295
+_database_code_amcsd             0000476
+_exptl_crystal_density_diffrn    3.110
+_cod_original_formula_sum        'Ca Zn2 P2 O10 H4'
+_cod_database_code               9000465
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2-x,1/2+y,z
+x,2/3-y,1/2+z
+1/2-x,1/6-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.01570 0.12650 0.25400 0.00874 Ca 0
+Ca2 -0.00670 0.20650 0.74800 0.01317 Ca 0
+Ca3 -0.00750 0.87300 0.75800 0.02850 Ca 0
+Zn1 0.21110 0.00300 0.19550 0.00583 Zn 0
+Zn2 -0.22990 -0.00290 0.32110 0.00443 Zn 0
+Zn3 0.28220 0.16860 0.19410 0.01026 Zn 0
+Zn4 -0.27560 0.16610 0.31950 0.00912 Zn 0
+Zn5 0.26740 0.82840 0.18530 0.00861 Zn 0
+Zn6 -0.21080 0.33020 -0.18840 0.00899 Zn 0
+P1 0.15250 0.11080 0.93000 0.00431 P 0
+P2 0.85230 0.10340 -0.44400 0.00203 P 0
+P3 0.15710 0.22840 0.44200 0.00215 P 0
+P4 0.85670 0.22540 0.07000 0.00165 P 0
+P5 0.14210 0.89390 0.43500 0.00849 P 0
+P6 -0.15770 0.89160 0.05600 0.00165 P 0
+O1 0.15510 0.07840 0.13800 0.00253 O 0
+O2 0.15680 0.06530 0.75700 0.01305 O 0
+O3 0.22790 0.15190 0.95200 0.01343 O 0
+O4 0.07820 0.14830 0.94200 0.00266 O 0
+O5 -0.15460 0.06440 -0.24600 0.02913 O 0
+O6 -0.15840 0.05860 0.38100 0.01292 O 0
+O7 0.77870 0.14910 -0.41400 0.00583 O 0
+O8 0.92970 0.13560 -0.43700 0.01203 O 0
+O9 0.16420 0.26610 0.63100 0.00608 O 0
+O10 0.15860 0.26440 0.25700 0.00963 O 0
+O11 0.22830 0.18540 0.46800 0.00177 O 0
+O12 0.08140 0.19180 0.47500 0.00177 O 0
+O13 -0.15320 0.26000 0.25700 0.01735 O 0
+O14 -0.14620 0.26490 -0.11800 0.00621 O 0
+O15 -0.21690 0.18110 0.07600 0.00215 O 0
+O16 -0.06500 0.19250 0.07200 0.01305 O 0
+O17 0.15320 0.92370 0.63700 0.00621 O 0
+O18 0.14470 0.93510 0.26000 0.00241 O 0
+O19 0.21090 0.84890 0.43800 0.00747 O 0
+O20 0.06840 0.85580 0.45400 0.00443 O 0
+O21 -0.15810 0.93610 -0.11500 0.02140 O 0
+O22 -0.16580 0.92530 0.26200 0.00177 O 0
+O23 -0.08410 0.85430 -0.92400 0.01722 O 0
+O24 -0.23410 0.84850 -0.92500 0.00177 O 0
+Wat25 0.04970 0.04590 0.47100 0.01710 O 2
+Wat26 0.94530 0.05330 0.09200 0.01203 O 2
+Wat27 0.05800 0.28570 0.96400 0.03002 O 2
+Wat28 0.95930 0.29060 -0.45600 0.02508 O 2
+Wat29 0.03550 0.95240 0.96500 0.02102 O 2
+Wat30 -0.05500 0.95080 -0.42400 0.01292 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:46:20+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000476

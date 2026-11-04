@@ -1,0 +1,87 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-04-25 17:59:02 +0300 (Thu, 25 Apr 2024) $
+#$Revision: 291351 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/52/9005237.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9005237
+loop_
+_publ_author_name
+'Antenucci, D.'
+'Fransolet, A. M.'
+'Miehe, G.'
+'Tarte, P.'
+_publ_section_title
+;
+ Synthese et cristallochimie de NaCaCdMg2(PO4)3,
+ Phosphate nouveau a structure alluaudite sans cation trivalent
+ Note: P2 y-coordinate changed to reproduce bond lengths
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              175
+_journal_page_last               181
+_journal_volume                  7
+_journal_year                    1995
+_chemical_formula_sum            'Ca0.98 Cd0.946 Mg2 Na1.074 O12 P3'
+_chemical_name_mineral           Alluaudite
+_space_group_IT_number           15
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 114.55
+_cell_angle_gamma                90
+_cell_length_a                   12.005
+_cell_length_b                   12.675
+_cell_length_c                   6.546
+_cell_formula_units_Z            4
+_cell_volume                     906.017
+_database_code_amcsd             0006583
+_exptl_crystal_density_diffrn    3.694
+_cod_original_formula_sum        'Na1.074 Cd.946 Ca.98 Mg2 P3 O12'
+_cod_database_code               9005237
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+-x,y,1/2-z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+NaX1 0.50000 0.00000 0.00000 0.47400 0.03546
+CdX1 0.50000 0.00000 0.00000 0.52600 0.03546
+NaX2 0.00000 -0.03050 0.25000 0.60000 0.02660
+CaX2 0.00000 -0.03050 0.25000 0.40000 0.02660
+CdM1 0.00000 0.26490 0.25000 0.42000 0.02153
+CaM1 0.00000 0.26490 0.25000 0.58000 0.02153
+MgM2 0.27640 0.65800 0.36300 1.00000 0.01646
+P1 0.00000 -0.28060 0.25000 1.00000 0.02913
+P2 0.23350 -0.10360 0.12960 1.00000 0.01267
+O1 0.45260 0.71000 0.54200 1.00000 0.02406
+O2 0.09500 0.64540 0.22500 1.00000 0.02406
+O3 0.32900 0.66190 0.09800 1.00000 0.02406
+O4 0.12700 0.41230 0.32100 1.00000 0.02406
+O5 0.22900 0.83000 0.31700 1.00000 0.02406
+O6 0.33300 0.49900 0.39100 1.00000 0.02406
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0006583

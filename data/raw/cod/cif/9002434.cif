@@ -1,0 +1,100 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-08-03 10:56:24 +0300 (Sat, 03 Aug 2024) $
+#$Revision: 293656 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/24/9002434.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_9002434
+loop_
+_publ_author_name
+'Fleet M E'
+'Liu X'
+'Pan Y'
+_publ_section_title
+;
+ Rare-earth elements in chlorapatite [Ca10(PO4)6(Cl)2]:
+ Uptake, site preference, and degradation of monoclinic structure
+ Sample: La-ClAp
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1437
+_journal_page_last               1446
+_journal_volume                  85
+_journal_year                    2000
+_chemical_formula_sum            'Ca4.899 Cl La0.052 Na0.05 O12 P3'
+_chemical_name_mineral           Chlorapatite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2bc'
+_symmetry_space_group_name_H-M   'P 1 1 21/b'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120.
+_cell_length_a                   9.6501
+_cell_length_b                   19.3002
+_cell_length_c                   6.7724
+_cell_formula_units_Z            4
+_cell_volume                     1092.363
+_cod_original_formula_sum        'Ca4.899 Na.05 La.052 P3 O12 Cl'
+_cod_database_code               9002434
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,1/2+y,1/2-z
+-x,1/2-y,1/2+z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Ca1 0.32270 0.58037 0.00370 0.96300 0.00532
+Na1 0.32270 0.58037 0.00370 0.02500 0.00532
+La1 0.32270 0.58037 0.00370 0.01260 0.00532
+Ca1p 0.34490 0.58650 0.49680 0.96300 0.02128
+Na1p 0.34490 0.58650 0.49680 0.02500 0.02128
+La1p 0.34490 0.58650 0.49680 0.01260 0.02128
+Ca2a 0.25884 0.25185 0.24840 0.99100 0.01406
+La2a 0.25884 0.25185 0.24840 0.00890 0.01406
+Ca2b 0.00426 0.62268 0.74810 0.99100 0.01558
+La2b 0.00426 0.62268 0.74810 0.00890 0.01558
+Ca2c 0.25546 0.37953 0.75010 0.99100 0.01468
+La2c 0.25546 0.37953 0.75010 0.00890 0.01468
+P(a) 0.40750 0.43754 0.25550 1.00000 0.01191
+P(b) 0.62463 0.26654 0.25310 1.00000 0.01229
+P(c) 0.03239 0.45376 0.75350 1.00000 0.01241
+O1a 0.34360 0.49575 0.24800 1.00000 0.01735
+O1b 0.49200 0.32379 0.75600 1.00000 0.01684
+O1c 0.14810 0.57837 0.25700 1.00000 0.01773
+O2a 0.59210 0.48276 0.23540 1.00000 0.01482
+O2b 0.53410 0.31366 0.24100 1.00000 0.01494
+O2c 0.12680 0.54621 0.73320 1.00000 0.01456
+O3a 0.33630 0.37960 0.07960 1.00000 0.01583
+O3b 0.73990 0.29010 0.07550 1.00000 0.01722
+O3c 0.07920 0.41800 0.57840 1.00000 0.01722
+O3ap 0.36960 0.38760 0.44420 1.00000 0.01343
+O3bp 0.72600 0.29680 0.44070 1.00000 0.01241
+O3cp 0.09250 0.43500 0.94290 1.00000 0.01254
+Cl 0.00170 0.24930 0.44510 1.00000 0.02001
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0002519
+2 AMCSD 0002523
+loop_
+_[local]_alternative_name_id
+_[local]_alternative_name_type
+_[local]_alternative_name_source
+_[local]_alternative_name_source_id
+_[local]_alternative_name_value
+1 mineral AMCSD 0002519 "Chlorapatite"
+2 mineral AMCSD 0002523 "Apatite-(CaCl)"
+_database_code_amcsd 0002519

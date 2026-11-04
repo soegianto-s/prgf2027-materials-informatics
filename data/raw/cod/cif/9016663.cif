@@ -1,0 +1,100 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-05-29 17:00:33 +0300 (Wed, 29 May 2024) $
+#$Revision: 292100 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/66/9016663.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9016663
+loop_
+_publ_author_name
+'Dowty, E.'
+_publ_section_title
+;
+ Phosphate in Angra Dos Reis: Structure and composition of the Ca3(PO4)2 minerals
+;
+_journal_name_full               'Earth and Planetary Science Letters'
+_journal_page_first              347
+_journal_page_last               351
+_journal_paper_doi               10.1016/0012-821X(77)90136-4
+_journal_volume                  35
+_journal_year                    1977
+_chemical_compound_source        'Angra Dos Reis meteorite'
+_chemical_formula_sum            'Ca9.45 Fe0.22 Mg0.78 O28 P7'
+_chemical_name_mineral           Merrillite
+_space_group_IT_number           161
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_length_a                   10.362
+_cell_length_b                   10.362
+_cell_length_c                   37.106
+_cell_formula_units_Z            6
+_cell_volume                     3450.340
+_database_code_amcsd             0018313
+_exptl_crystal_density_diffrn    3.104
+_cod_original_cell_volume        3450.341
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_original_formula_sum        '(Mg.78 Fe.22) Ca9.45 P7 O28'
+_cod_database_code               9016663
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,1/2+z
+2/3+x,1/3+x-y,5/6+z
+1/3+x,2/3+x-y,1/6+z
+-y,-x,1/2+z
+2/3-y,1/3-x,5/6+z
+1/3-y,2/3-x,1/6+z
+-x+y,y,1/2+z
+2/3-x+y,1/3+y,5/6+z
+1/3-x+y,2/3+y,1/6+z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Mg 0.00000 0.00000 0.00000 0.78000 0.00621
+Fe 0.00000 0.00000 0.00000 0.22000 0.00621
+Ca(IB) 0.27000 0.12410 0.17530 1.00000 0.01520
+Ca(IIA) 0.00000 0.00000 0.31410 0.45000 0.01900
+Ca(IIB1) 0.27250 0.13080 0.06810 1.00000 0.00760
+Ca(IIB2) 0.12610 0.28300 0.43590 1.00000 0.00823
+P(A) 0.00000 0.00000 0.23480 1.00000 0.00975
+P(B1) 0.31250 0.17440 0.36580 1.00000 0.00836
+P(B2) 0.18210 0.32220 0.13580 1.00000 0.00671
+O(IA) 0.00000 0.00000 0.19350 1.00000 0.02153
+O(IB1) 0.26120 0.17880 0.32680 1.00000 0.02204
+O(IB2) 0.15170 0.28860 0.17640 1.00000 0.01406
+O(IIA) 0.14220 0.13810 0.24840 1.00000 0.02166
+O(IIB1) 0.24170 0.01450 0.37980 1.00000 0.01925
+O(IIB2) 0.28870 0.26860 0.12370 1.00000 0.01267
+O(IIB3) 0.27640 0.27720 0.38850 1.00000 0.01203
+O(IIB4) 0.03220 0.24530 0.11610 1.00000 0.01634
+O(IIB5) 0.09200 0.17980 0.03530 1.00000 0.01406
+O(IIB6) 0.17610 0.09940 0.46220 1.00000 0.00975
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0018313

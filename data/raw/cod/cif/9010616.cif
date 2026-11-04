@@ -1,0 +1,152 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 10:14:51 +0300 (Thu, 18 May 2023) $
+#$Revision: 283850 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/06/9010616.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9010616
+loop_
+_publ_author_name
+'Grew, E. S.'
+'Armbruster, T.'
+'Medenbach, O.'
+'Yates, M. G.'
+'Carson, C. J.'
+_publ_section_title
+;
+ Tassieite, (Na,_)Ca2(Mg,Fe2+,Fe3+)2(Fe3+,Mg)2(Fe2+,Mg)2(PO4)6*2H2O, a new
+ hydrothermal wicksite-group mineral in fluorapatite nodules from granulite-
+ facies paragneiss in the Larsemann Hills, Prydz Bay, East Antarctica
+ Sample: 2
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              293
+_journal_page_last               305
+_journal_paper_doi               10.2113/gscanmin.45.2.293
+_journal_volume                  45
+_journal_year                    2007
+_chemical_compound_source        'Larsemann Hills, Prydz Bay, East Antarctica'
+_chemical_formula_sum            'Ca2 Fe3.314 H4 Mg2.686 Na0.463 O26 P6'
+_chemical_name_mineral           Tassieite
+_space_group_IT_number           61
+_symmetry_space_group_name_Hall  '-P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P b c a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   12.4595
+_cell_length_b                   11.5955
+_cell_length_c                   12.7504
+_cell_volume                     1842.103
+_database_code_amcsd             0006137
+_exptl_crystal_density_diffrn    3.415
+_cod_original_formula_sum        'Na.463 Ca2 Fe3.314 Mg2.686 P6 O26 H4'
+_cod_database_code               9010616
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+1/2-x,1/2+y,z
+1/2+x,1/2-y,-z
+1/2+x,y,1/2-z
+1/2-x,-y,1/2+z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Na 0.04100 0.06500 0.04700 -0.01800 0.00000 0.03300
+Ca 0.01760 0.01580 0.01100 -0.00090 0.00190 -0.00180
+Fe2+1 0.01240 0.01660 0.00750 -0.00040 0.00080 -0.00170
+Fe3+1 0.01240 0.01660 0.00750 -0.00040 0.00080 -0.00170
+Mg1 0.01240 0.01660 0.00750 -0.00040 0.00080 -0.00170
+Fe3+2 0.00940 0.01100 0.00610 -0.00010 -0.00040 0.00020
+Mg2 0.00940 0.01100 0.00610 -0.00010 -0.00040 0.00020
+Fe2+3 0.03740 0.01490 0.04120 0.00550 -0.02710 -0.00450
+Mg3 0.03740 0.01490 0.04120 0.00550 -0.02710 -0.00450
+P1 0.01170 0.01210 0.00820 0.00040 -0.00050 -0.00100
+P2 0.01180 0.01370 0.00790 -0.00160 0.00160 0.00000
+P3 0.01420 0.01210 0.00840 0.00070 -0.00120 0.00040
+O1 0.01200 0.01800 0.01100 0.00300 -0.00100 -0.00200
+O2 0.01700 0.01400 0.01300 -0.00100 -0.00200 0.00400
+O3 0.01200 0.02000 0.00700 0.00300 0.00000 -0.00100
+O4 0.01300 0.01600 0.00600 0.00100 0.00000 -0.00200
+O5 0.01400 0.01400 0.00700 0.00000 0.00300 0.00000
+O6 0.01300 0.01600 0.00800 0.00100 0.00100 0.00300
+O7 0.01900 0.01400 0.01600 -0.00100 0.00400 -0.00200
+O8 0.01300 0.01700 0.01000 0.00300 0.00000 0.00100
+O9 0.01800 0.01500 0.01200 0.00000 0.00300 -0.00100
+O10 0.01800 0.01600 0.01000 -0.00200 0.00400 0.00400
+O11 0.01500 0.01400 0.00800 0.00000 -0.00200 0.00000
+O12 0.02100 0.01300 0.01200 0.00000 -0.00500 -0.00100
+Ow 0.02400 0.01700 0.02600 0.00600 0.00500 -0.00100
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.00000 -0.50000 0.50000 0.46300 0.05066 Na 0
+Ca 0.23841 0.00148 0.37498 1.00000 0.01482 Ca 0
+Fe2+1 0.15147 -0.23132 0.20756 0.23200 0.01216 Fe 0
+Fe3+1 0.15147 -0.23132 0.20756 0.08400 0.01216 Fe 0
+Mg1 0.15147 -0.23132 0.20756 0.68400 0.01216 Mg 0
+Fe3+2 0.16801 0.22717 0.54175 0.68400 0.00887 Fe 0
+Mg2 0.16801 0.22717 0.54175 0.31600 0.00887 Mg 0
+Fe2+3 0.01814 -0.46041 0.27722 0.65700 0.03116 Fe 0
+Mg3 0.01814 -0.46041 0.27722 0.34300 0.03116 Mg 0
+P1 0.10935 0.22866 0.79975 1.00000 0.01064 P 0
+P2 0.40130 0.24099 0.44377 1.00000 0.01115 P 0
+P3 0.26527 -0.02302 0.62460 1.00000 0.01153 P 0
+O1 0.00300 0.28720 0.77250 1.00000 0.01355 O 0
+O2 0.09080 0.10500 0.83530 1.00000 0.01469 O 0
+O3 0.18120 0.22500 0.70160 1.00000 0.01305 O 0
+O4 0.16550 0.30000 0.88480 1.00000 0.01165 O 0
+O5 0.33560 0.24210 0.54560 1.00000 0.01140 O 0
+O6 0.15250 -0.18320 0.36130 1.00000 0.01241 O 0
+O7 0.40870 0.11580 0.40600 1.00000 0.01608 O 0
+O8 0.01220 0.20620 0.53330 1.00000 0.01355 O 0
+O9 0.19060 -0.41740 0.20380 1.00000 0.01494 O 0
+O10 0.14910 -0.04150 0.18910 1.00000 0.01469 O 0
+O11 0.19840 0.05570 0.55230 1.00000 0.01229 O 0
+O12 0.17450 0.39600 0.54940 1.00000 0.01545 O 0
+Ow 0.02680 0.00910 0.37880 1.00000 0.02242 O 0
+H1 0.00700 0.05600 0.41400 1.00000 0.01773 H 0
+H2 -0.00100 -0.06400 0.39400 1.00000 0.15705 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T08:43:27+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0006137

@@ -1,0 +1,89 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/8/10/38/8103837.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8103837
+loop_
+_publ_author_name
+'Alkemper, J.'
+'Paulus, H.'
+'Fuess, H.'
+_publ_section_title
+;
+ Crystal structure of aluminium dicalcium pentasodium tetrakis(phosphate),
+ Na5 Ca2 Al (P O4)4
+;
+_journal_name_full
+'Zeitschrift fuer Kristallographie (149,1979-)'
+_journal_page_first              76
+_journal_page_last               76
+_journal_volume                  209
+_journal_year                    1994
+_chemical_formula_sum            'Al Ca2 Na5 O16 P4'
+_chemical_name_systematic        'Na5 Ca2 Al (P O4)4'
+_space_group_IT_number           9
+_symmetry_space_group_name_Hall  'C -2yc'
+_symmetry_space_group_name_H-M   'C 1 c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 119.34
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   11.071
+_cell_length_b                   13.951
+_cell_length_c                   10.511
+_cell_volume                     1415.197
+_citation_journal_id_ASTM        ZEKRDZ
+_cod_data_source_file            Alkemper_ZEKRDZ_1994_1609.cif
+_cod_data_source_block           Al1Ca2Na5O16P4
+_cod_original_formula_sum        'Al1 Ca2 Na5 O16 P4'
+_cod_database_code               8103837
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,z+1/2
+x+1/2,y+1/2,z
+x+1/2,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+O13 O-2 0.43957 0.35948 0.73685 1 0.0
+P4 P+5 0.40121 0.46972 0.71574 1 0.0
+Ca2 Ca+2 0.55659 0.10981 0.52888 1 0.0
+Na2 Na+1 0.05049 0.37013 0.55782 1 0.0
+Na3 Na+1 0.22547 0.49384 0.37143 1 0.0
+O12 O-2 0.21822 0.31706 0.24272 1 0.0
+O4 O-2 0.24588 0.02421 0.61561 1 0.0
+P1 P+5 0.40106 0.04457 0.70951 1 0.0
+O11 O-2 0.25058 0.14396 0.31888 1 0.0
+O5 O-2 0.21449 0.2512 0.73104 1 0.0
+O16 O-2 0.24559 0.47962 0.6173 1 0.0
+O1 O-2 0.42678 0.15462 0.70318 1 0.0
+O9 O-2 0.22095 0.26802 0.47708 1 0.0
+O10 O-2 0.43735 0.26279 0.45932 1 0.0
+Na4 Na+1 0.43518 0.32164 0.22375 1 0.0
+O2 O-2 0.48579 -0.00221 0.64875 1 0.0
+O8 O-2 0.17363 0.16647 0.91562 1 0.0
+P3 P+5 0.27911 0.24743 0.36948 1 0.0
+O6 O-2 0.3976 0.25729 0.99761 1 0.0
+Al1 Al+3 0.33333 0.25918 0.66666 1 0.0
+O14 O-2 0.48544 0.51311 0.65086 1 0.0
+Na1 Na+1 0.05685 0.12977 0.51397 1 0.0
+O3 O-2 0.45335 0.01849 0.868 1 0.0
+O7 O-2 0.17242 0.34657 0.90609 1 0.0
+O15 O-2 0.44744 0.51159 0.86605 1 0.0
+Na5 Na+1 0.24147 0.01521 0.88185 1 0.0
+Ca1 Ca+2 0.09333 0.10794 0.07272 1 0.0
+P2 P+5 0.24174 0.25565 0.89447 1 0.0

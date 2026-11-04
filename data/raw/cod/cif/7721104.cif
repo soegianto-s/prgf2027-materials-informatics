@@ -1,0 +1,893 @@
+#------------------------------------------------------------------------------
+#$Date: 2026-06-05 02:36:20 +0300 (Fri, 05 Jun 2026) $
+#$Revision: 306224 $
+#$URL: file:///srv/svn/cod/cif/7/72/11/7721104.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7721104
+loop_
+_publ_author_name
+'Wessels, Vivien'
+'Mikuta, Martina'
+'H\"oppe, Henning A.'
+_publ_section_title
+;
+ Weakly Coordinating Borophosphates -- Ca0.5M(H2O)2[B(PO4)2]&#x2022;H2O (M
+ = Mg, Mn, Co, Zn, Cd)
+;
+_journal_name_full               'Dalton Transactions'
+_journal_paper_doi               10.1039/D6DT00484A
+_journal_year                    2026
+_chemical_formula_sum            'B1.5 Ca0.75 Co1.5 H9 O16.5 P3'
+_chemical_formula_weight         500.65
+_space_group_crystal_system      trigonal
+_space_group_IT_number           152
+_space_group_name_Hall           'P 31 2"'
+_space_group_name_H-M_alt        'P 31 2 1'
+_atom_sites_solution_hydrogens   difmap
+_audit_creation_method           SHELXL-2018/3
+_audit_update_record
+;
+2026-05-08 deposited with the CCDC.	2026-05-28 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            4
+_cell_length_a                   9.4547(6)
+_cell_length_b                   9.4547(6)
+_cell_length_c                   15.7077(10)
+_cell_measurement_reflns_used    37016
+_cell_measurement_temperature    300(2)
+_cell_measurement_theta_max      29.997
+_cell_measurement_theta_min      2.488
+_cell_volume                     1216.01(13)
+_computing_structure_refinement  'SHELXL-2018/3 (Sheldrick, 2018)'
+_computing_structure_solution    'SHELXT 2018/2 (Sheldrick, 2018)'
+_diffrn_ambient_temperature      300(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'D8 Venture Bruker'
+_diffrn_measurement_method       'generic phi and omega scans'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.1185
+_diffrn_reflns_av_unetI/netI     0.0380
+_diffrn_reflns_Laue_measured_fraction_full 1.000
+_diffrn_reflns_Laue_measured_fraction_max 1.000
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       20
+_diffrn_reflns_limit_l_min       -20
+_diffrn_reflns_number            31145
+_diffrn_reflns_point_group_measured_fraction_full 1.000
+_diffrn_reflns_point_group_measured_fraction_max 1.000
+_diffrn_reflns_theta_full        25.242
+_diffrn_reflns_theta_max         27.493
+_diffrn_reflns_theta_min         2.487
+_exptl_absorpt_coefficient_mu    2.883
+_exptl_absorpt_correction_T_max  0.7464
+_exptl_absorpt_correction_T_min  0.7034
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;
+ SADABS 2016/2: Krause, L., Herbst-Irmer, R., Sheldrick G.M. & Stalke D.,
+ J. Appl. Cryst. 48 (2015) 3-10
+;
+_exptl_crystal_colour            violet
+_exptl_crystal_density_diffrn    2.735
+_exptl_crystal_description       block
+_exptl_crystal_F_000             996
+_exptl_crystal_size_max          0.139
+_exptl_crystal_size_mid          0.067
+_exptl_crystal_size_min          0.066
+_exptl_transmission_factor_max   0.7464
+_exptl_transmission_factor_min   0.7034
+_refine_diff_density_max         0.463
+_refine_diff_density_min         -0.496
+_refine_diff_density_rms         0.083
+_refine_ls_abs_structure_details
+;
+ Refined as an inversion twin.
+;
+_refine_ls_abs_structure_Flack   0.02(2)
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.014
+_refine_ls_hydrogen_treatment    refxyz
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     169
+_refine_ls_number_reflns         1880
+_refine_ls_number_restraints     12
+_refine_ls_restrained_S_all      1.012
+_refine_ls_R_factor_all          0.0261
+_refine_ls_R_factor_gt           0.0213
+_refine_ls_shift/su_max          0.078
+_refine_ls_shift/su_mean         0.005
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0322P)^2^] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0542
+_refine_ls_wR_factor_ref         0.0547
+_reflns_Friedel_coverage         0.704
+_reflns_Friedel_fraction_full    1.000
+_reflns_Friedel_fraction_max     1.000
+_reflns_number_gt                1644
+_reflns_number_total             1880
+_reflns_threshold_expression     'I > 2\s(I)'
+_cod_data_source_file            d6dt00484a2.cif
+_cod_data_source_block           mo_MM15_RT_1_0m_a
+_cod_original_cell_volume        1216.01(17)
+_cod_original_formula_sum        'B1.50 H9 Ca0.75 Co1.50 O16.50 P3'
+_cod_database_code               7721104
+_shelx_shelxl_version_number     2018/3
+_shelx_space_group_comment
+;
+The symmetry employed for this shelxl refinement is uniquely defined
+by the following loop, which should always be used as a source of
+symmetry information in preference to the above space-group names.
+They are only intended as comments.
+;
+_shelx_res_file
+;
+TITL mo_MM15_RT_1_0m_a.res in C211
+    mo_MM15_RT_1_0m_a.res
+    created by SHELXL-2018/3 at 11:57:24 on 08-May-2026
+CELL  0.71073    9.4547  9.4547  15.7077   90.000   90.0   120.000
+ZERR    4   0.0006   0.0006   0.0010    0.000    0.000    0.000
+LATT  -1
+SYMM             - Y ,          X - Y ,    0.33333 + Z
+SYMM         - X + Y ,            - X ,    0.66667 + Z
+SYMM               Y ,              X ,            - Z
+SYMM             - X ,        - X + Y ,    0.33333 - Z
+SYMM           X - Y ,            - Y ,    0.66667 - Z
+SFAC B H O P CA CO
+UNIT 6 36 66 12 3 6
+LIST 4
+TEMP 26.850
+L.S. 10
+BOND $H
+HTAB
+DFIX 0.99 0.01 O1 H11
+DFIX 0.99 0.01 O1 H12
+DFIX 1.565 0.01 H11 H12
+DFIX 0.99 0.01 O2 H21
+DFIX 0.99 0.01 O2 H22
+DFIX 1.565 0.01 H21 H22
+DFIX 0.99 0.01 O3 H31
+DFIX 0.99 0.01 O3 H32
+DFIX 1.565 0.01 H31 H32
+DFIX 0.99 0.01 O4 H41
+DFIX 0.99 0.01 O4 H42
+DFIX 1.565 0.01 H41 H42
+
+REM Instructions for hydrogen bonds
+EQIV $1 -y+1, x-y+1, z+1/3
+HTAB O2 O11_$1
+HTAB O2 O12_$1
+HTAB O2 O13
+EQIV $2 x-y+1, -y+1, -z+2/3
+HTAB O3 O1_$2
+HTAB O3 O13
+HTAB O3 O4
+HTAB O4 O3
+EQIV $3 -y, x-y, z+1/3
+HTAB O4 O22_$3
+EQIV $4 -x, -x+y, -z+1/3
+HTAB O4 O24_$4
+REM Instructions for hydrogen bonds ENDE
+OMIT 0 55
+FMAP 2
+PLAN 10
+ACTA
+EADP CA1A CA1B
+EADP O21 O22
+REM TWIN -1 0 0 0 -1 0 0 0 1 2
+REM WGHT    0.025200
+REM BASF   0.49998
+REM EXTI    0.000515
+TWIN
+WGHT    0.032200
+BASF   0.01664
+FVAR       0.33454   0.50003
+CO1   6    0.101455    0.550771    0.416717    11.00000    0.01087    0.01259 =
+         0.01183   -0.00409    0.00008    0.00546
+CA1A  5    0.112719    0.753403    0.256266    20.50000    0.02902    0.03040 =
+         0.01342   -0.00106   -0.00156    0.01640
+CA1B  5    0.246148    0.886598    0.243637   -20.50000    0.02902    0.03040 =
+         0.01342   -0.00106   -0.00156    0.01640
+P1    4    0.169329    0.388751    0.253028    11.00000    0.00804    0.00859 =
+         0.00675   -0.00105    0.00147    0.00276
+P2    4    0.219238    0.388745   -0.086287    11.00000    0.01086    0.00896 =
+         0.00652    0.00123    0.00260    0.00552
+O1    3    0.290694    0.808723    0.382008    11.00000    0.01565    0.02485 =
+         0.02339   -0.00753   -0.00069    0.00896
+H11   2    0.407659    0.840743    0.379412    11.00000   -1.20000
+H12   2    0.264197    0.820949    0.321767    11.00000   -1.20000
+O2    3    0.291195    0.482404    0.451650    11.00000    0.01832    0.02343 =
+         0.02232   -0.01003   -0.00130    0.00866
+H21   2    0.390057    0.575360    0.476789    11.00000   -1.20000
+H22   2    0.328750    0.455217    0.399255    11.00000   -1.20000
+O11   3    0.182997    0.420266    0.155009    11.00000    0.01224    0.00899 =
+         0.00636    0.00067    0.00209    0.00410
+O12   3    0.141298    0.519044    0.291116    11.00000    0.02230    0.01501 =
+         0.01182   -0.00203    0.00408    0.01025
+O13   3    0.315034    0.382848    0.287181    11.00000    0.00883    0.01861 =
+         0.01165   -0.00159   -0.00117    0.00508
+O14   3    0.019851    0.215425    0.267772    11.00000    0.00713    0.01076 =
+         0.01037    0.00257   -0.00102    0.00412
+O21   3    0.236565    0.419511    0.011909    11.00000    0.01193    0.00915 =
+         0.00854    0.00120    0.00188    0.00510
+O22   3    0.215718    0.196144    0.100640    11.00000    0.01193    0.00915 =
+         0.00854    0.00120    0.00188    0.00510
+O23   3    0.377850    0.518831   -0.124731    11.00000    0.01574    0.01098 =
+         0.01256    0.00170    0.00642    0.00190
+O24   3    0.067746    0.382921   -0.120397    11.00000    0.01868    0.02168 =
+         0.00927    0.00201    0.00122    0.01584
+B1    1    0.153363    0.305722    0.083421    11.00000    0.01128    0.01151 =
+         0.00577   -0.00047    0.00118    0.00663
+O3    3    0.143052    0.000000    0.333333    10.50000    0.04511    0.04419 =
+         0.14295    0.01094    0.00547    0.02209
+H31   2    0.218973    0.043865    0.284120    10.50000   -1.20000
+H32   2    0.165208    0.099640    0.365569    10.50000   -1.20000
+O4    3    0.142451    0.142451    0.500000    10.50000    0.04338    0.04338 =
+         0.15827    0.00093   -0.00093    0.02506
+H41   2    0.123886    0.094407    0.441557    10.50000   -1.20000
+H42   2    0.085448    0.207303    0.498079    10.50000   -1.20000
+
+REM <hkl>
+REM mo_MM15_RT_1_0m_a.hkl
+REM </hkl>
+HKLF 4 1 -0.5 -0.5 0 -0.5 0.5 0 0 0 -1
+
+
+
+
+REM  mo_MM15_RT_1_0m_a.res in C211
+REM wR2 = 0.0547, GooF = S = 1.014, Restrained GooF = 1.012 for all data
+REM R1 = 0.0213 for 1644 Fo > 4sig(Fo) and 0.0261 for all 1880 data
+REM 169 parameters refined using 12 restraints
+
+END
+
+WGHT      0.0309      0.0000
+
+REM Instructions for potential hydrogen bonds
+HTAB O2 O11_$1
+HTAB O2 O12_$1
+HTAB O2 O13
+HTAB O3 O1_$2
+HTAB O3 O13
+HTAB O3 O4
+HTAB O4 O3
+HTAB O4 O24_$4
+
+REM Highest difference peak  0.463,  deepest hole -0.496,  1-sigma level  0.083
+Q1    1   0.1922  0.7884  0.2480  11.00000  0.05    0.46
+Q2    1   0.1752  0.4271  0.0160  11.00000  0.05    0.34
+Q3    1   0.0712  0.3043  0.2607  11.00000  0.05    0.31
+Q4    1   0.1023  0.4056  0.1434  11.00000  0.05    0.28
+Q5    1   0.3235  0.8634  0.4296  11.00000  0.05    0.28
+Q6    1   0.3057  0.4153  0.0236  11.00000  0.05    0.26
+Q7    1   0.2415  0.3792  0.0314  11.00000  0.05    0.26
+Q8    1   0.3132  0.4632 -0.1115  11.00000  0.05    0.26
+Q9    1   0.1018  0.3378 -0.1358  11.00000  0.05    0.26
+Q10   1   0.2444  0.3271  0.2590  11.00000  0.05    0.26
+;
+_shelx_res_checksum              74944
+loop_
+_space_group_symop_operation_xyz
+'x, y, z'
+'-y, x-y, z+1/3'
+'-x+y, -x, z+2/3'
+'y, x, -z'
+'-x, -x+y, -z+1/3'
+'x-y, -y, -z+2/3'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_site_symmetry_order
+_atom_site_calc_flag
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+_atom_site_refinement_flags_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Co1 Co 0.10145(6) 0.55077(7) 0.41672(4) 0.01194(14) Uani 1 1 d . . . . .
+Ca1A Ca 0.1127(5) 0.7534(5) 0.2563(2) 0.0236(5) Uani 0.250(2) 1 d . . P . .
+Ca1B Ca 0.2461(5) 0.8866(5) 0.2436(2) 0.0236(5) Uani 0.250(2) 1 d . . P . .
+P1 P 0.16933(13) 0.38875(12) 0.25303(6) 0.0084(2) Uani 1 1 d . . . . .
+P2 P 0.21924(14) 0.38874(12) -0.08629(6) 0.0085(3) Uani 1 1 d . . . . .
+O1 O 0.2907(4) 0.8087(4) 0.38201(19) 0.0218(7) Uani 1 1 d D . . . .
+H11 H 0.408(2) 0.841(5) 0.379(2) 0.026 Uiso 1 1 d D U . . .
+H12 H 0.264(4) 0.821(6) 0.3218(12) 0.026 Uiso 1 1 d D U . . .
+O2 O 0.2912(4) 0.4824(4) 0.45165(19) 0.0221(7) Uani 1 1 d D . . . .
+H21 H 0.390(3) 0.575(4) 0.477(2) 0.027 Uiso 1 1 d D U . . .
+H22 H 0.329(4) 0.455(5) 0.3993(17) 0.027 Uiso 1 1 d D U . . .
+O11 O 0.1830(3) 0.4203(3) 0.15501(15) 0.0097(6) Uani 1 1 d . . . . .
+O12 O 0.1413(4) 0.5190(4) 0.29112(16) 0.0160(6) Uani 1 1 d . . . . .
+O13 O 0.3150(3) 0.3828(4) 0.28718(17) 0.0138(6) Uani 1 1 d . . . . .
+O14 O 0.0199(3) 0.2154(3) 0.26777(16) 0.0096(6) Uani 1 1 d . . . . .
+O21 O 0.2366(3) 0.4195(3) 0.01191(15) 0.0100(4) Uani 1 1 d . . . . .
+O22 O 0.2157(3) 0.1961(3) 0.10064(16) 0.0100(4) Uani 1 1 d . . . . .
+O23 O 0.3778(3) 0.5188(3) -0.12473(16) 0.0152(6) Uani 1 1 d . . . . .
+O24 O 0.0677(3) 0.3829(4) -0.12040(17) 0.0140(6) Uani 1 1 d . . . . .
+B1 B 0.1534(6) 0.3057(5) 0.0834(3) 0.0091(8) Uani 1 1 d . . . . .
+O3 O 0.1431(8) 0.000000 0.333333 0.078(2) Uani 1 2 d DS T P . .
+H31 H 0.219(14) 0.044(13) 0.284(6) 0.093 Uiso 0.5 1 d D U P . .
+H32 H 0.165(15) 0.100(8) 0.366(7) 0.093 Uiso 0.5 1 d D U P . .
+O4 O 0.1425(8) 0.1425(8) 0.500000 0.080(2) Uani 1 2 d DS T P . .
+H41 H 0.124(18) 0.094(16) 0.442(4) 0.096 Uiso 0.5 1 d D U P . .
+H42 H 0.085(14) 0.207(14) 0.498(9) 0.096 Uiso 0.5 1 d D U P . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Co1 0.0109(3) 0.0126(3) 0.0118(2) -0.0041(2) 0.0001(2) 0.0055(3)
+Ca1A 0.0290(16) 0.0304(17) 0.0134(11) -0.0011(12) -0.0016(11) 0.0164(11)
+Ca1B 0.0290(16) 0.0304(17) 0.0134(11) -0.0011(12) -0.0016(11) 0.0164(11)
+P1 0.0080(5) 0.0086(5) 0.0068(5) -0.0010(4) 0.0015(4) 0.0028(4)
+P2 0.0109(6) 0.0090(5) 0.0065(5) 0.0012(4) 0.0026(4) 0.0055(4)
+O1 0.0157(16) 0.0249(17) 0.0234(17) -0.0075(15) -0.0007(13) 0.0090(15)
+O2 0.0183(16) 0.0234(18) 0.0223(17) -0.0100(14) -0.0013(13) 0.0087(14)
+O11 0.0122(14) 0.0090(13) 0.0064(12) 0.0007(10) 0.0021(10) 0.0041(12)
+O12 0.0223(17) 0.0150(16) 0.0118(14) -0.0020(12) 0.0041(13) 0.0103(13)
+O13 0.0088(14) 0.0186(16) 0.0117(14) -0.0016(12) -0.0012(11) 0.0051(12)
+O14 0.0071(13) 0.0108(14) 0.0104(13) 0.0026(11) -0.0010(11) 0.0041(11)
+O21 0.0119(10) 0.0092(10) 0.0085(9) 0.0012(8) 0.0019(8) 0.0051(9)
+O22 0.0119(10) 0.0092(10) 0.0085(9) 0.0012(8) 0.0019(8) 0.0051(9)
+O23 0.0157(15) 0.0110(15) 0.0126(14) 0.0017(12) 0.0064(12) 0.0019(12)
+O24 0.0187(16) 0.0217(16) 0.0093(14) 0.0020(12) 0.0012(12) 0.0158(13)
+B1 0.011(2) 0.0115(19) 0.0058(19) -0.0005(16) 0.0012(18) 0.007(2)
+O3 0.045(3) 0.044(4) 0.143(8) 0.011(5) 0.005(2) 0.022(2)
+O4 0.043(3) 0.043(3) 0.158(8) 0.001(2) -0.001(2) 0.025(4)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+B B 0.0013 0.0007 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+P P 0.1023 0.0942 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ca Ca 0.2262 0.3064 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Co Co 0.3494 0.9721 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O23 Co1 O12 161.81(11) 3_565 . ?
+O23 Co1 O24 90.02(11) 3_565 5 ?
+O12 Co1 O24 102.20(11) . 5 ?
+O23 Co1 O13 102.24(11) 3_565 6_565 ?
+O12 Co1 O13 89.94(11) . 6_565 ?
+O24 Co1 O13 96.12(11) 5 6_565 ?
+O23 Co1 O1 87.74(11) 3_565 . ?
+O12 Co1 O1 79.73(11) . . ?
+O24 Co1 O1 177.52(11) 5 . ?
+O13 Co1 O1 85.38(12) 6_565 . ?
+O23 Co1 O2 79.69(11) 3_565 . ?
+O12 Co1 O2 87.81(11) . . ?
+O24 Co1 O2 85.47(12) 5 . ?
+O13 Co1 O2 177.48(11) 6_565 . ?
+O1 Co1 O2 93.10(11) . . ?
+O23 Co1 Ca1A 128.65(11) 3_565 . ?
+O12 Co1 Ca1A 50.64(11) . . ?
+O24 Co1 Ca1A 130.87(11) 5 . ?
+O13 Co1 Ca1A 51.97(11) 6_565 . ?
+O1 Co1 Ca1A 51.57(11) . . ?
+O2 Co1 Ca1A 125.54(11) . . ?
+O23 Co1 Ca1B 50.71(11) 3_565 2_665 ?
+O12 Co1 Ca1B 128.59(11) . 2_665 ?
+O24 Co1 Ca1B 52.10(11) 5 2_665 ?
+O13 Co1 Ca1B 131.06(11) 6_565 2_665 ?
+O1 Co1 Ca1B 125.47(11) . 2_665 ?
+O2 Co1 Ca1B 51.44(11) . 2_665 ?
+Ca1A Co1 Ca1B 176.52(9) . 2_665 ?
+Ca1B Ca1A O4 85.5(3) . 3_564 ?
+Ca1B Ca1A O2 78.0(3) . 3_564 ?
+O4 Ca1A O2 76.65(16) 3_564 3_564 ?
+Ca1B Ca1A O12 115.5(4) . . ?
+O4 Ca1A O12 146.0(3) 3_564 . ?
+O2 Ca1A O12 81.81(17) 3_564 . ?
+Ca1B Ca1A O13 136.0(3) . 6_565 ?
+O4 Ca1A O13 111.11(19) 3_564 6_565 ?
+O2 Ca1A O13 144.1(2) 3_564 6_565 ?
+O12 Ca1A O13 73.18(14) . 6_565 ?
+Ca1B Ca1A O1 71.5(3) . . ?
+O4 Ca1A O1 145.2(3) 3_564 . ?
+O2 Ca1A O1 121.4(2) 3_564 . ?
+O12 Ca1A O1 68.80(14) . . ?
+O13 Ca1A O1 72.84(13) 6_565 . ?
+Ca1B Ca1A O3 64.0(3) . 1_565 ?
+O4 Ca1A O3 75.9(2) 3_564 1_565 ?
+O2 Ca1A O3 134.2(2) 3_564 1_565 ?
+O12 Ca1A O3 136.54(18) . 1_565 ?
+O13 Ca1A O3 80.51(15) 6_565 1_565 ?
+O1 Ca1A O3 70.69(18) . 1_565 ?
+Ca1B Ca1A O2 154.1(3) . 6_565 ?
+O4 Ca1A O2 70.80(17) 3_564 6_565 ?
+O2 Ca1A O2 86.15(17) 3_564 6_565 ?
+O12 Ca1A O2 81.84(17) . 6_565 ?
+O13 Ca1A O2 65.42(15) 6_565 6_565 ?
+O1 Ca1A O2 134.33(19) . 6_565 ?
+O3 Ca1A O2 117.6(2) 1_565 6_565 ?
+Ca1B Ca1A Co1 116.3(3) . . ?
+O4 Ca1A Co1 152.26(18) 3_564 . ?
+O2 Ca1A Co1 122.58(18) 3_564 . ?
+O12 Ca1A Co1 41.02(8) . . ?
+O13 Ca1A Co1 41.33(9) 6_565 . ?
+O1 Ca1A Co1 45.53(10) . . ?
+O3 Ca1A Co1 97.64(11) 1_565 . ?
+O2 Ca1A Co1 89.50(14) 6_565 . ?
+Ca1B Ca1A Ca1A 109.8(3) . 5 ?
+O4 Ca1A Ca1A 42.04(18) 3_564 5 ?
+O2 Ca1A Ca1A 52.45(12) 3_564 5 ?
+O12 Ca1A Ca1A 103.99(11) . 5 ?
+O13 Ca1A Ca1A 109.1(2) 6_565 5 ?
+O1 Ca1A Ca1A 171.97(15) . 5 ?
+O3 Ca1A Ca1A 117.20(16) 1_565 5 ?
+O2 Ca1A Ca1A 44.89(12) 6_565 5 ?
+Co1 Ca1A Ca1A 131.00(15) . 5 ?
+Ca1B Ca1A Ca1B 116.8(3) . 5 ?
+O4 Ca1A Ca1B 35.53(16) 3_564 5 ?
+O2 Ca1A Ca1B 69.88(12) 3_564 5 ?
+O12 Ca1A Ca1B 111.86(16) . 5 ?
+O13 Ca1A Ca1B 95.79(16) 6_565 5 ?
+O1 Ca1A Ca1B 168.11(18) . 5 ?
+O3 Ca1A Ca1B 104.6(2) 1_565 5 ?
+O2 Ca1A Ca1B 37.47(10) 6_565 5 ?
+Co1 Ca1A Ca1B 126.86(15) . 5 ?
+Ca1A Ca1A Ca1B 17.53(9) 5 5 ?
+Ca1B Ca1A Ca1B 52.6(2) . 6_675 ?
+O4 Ca1A Ca1B 103.8(2) 3_564 6_675 ?
+O2 Ca1A Ca1B 130.01(19) 3_564 6_675 ?
+O12 Ca1A Ca1B 110.25(15) . 6_675 ?
+O13 Ca1A Ca1B 83.55(13) 6_565 6_675 ?
+O1 Ca1A Ca1B 41.47(11) . 6_675 ?
+O3 Ca1A Ca1B 31.39(18) 1_565 6_675 ?
+O2 Ca1A Ca1B 142.27(18) 6_565 6_675 ?
+Co1 Ca1A Ca1B 79.65(9) . 6_675 ?
+Ca1A Ca1A Ca1B 145.69(10) 5 6_675 ?
+Ca1B Ca1A Ca1B 135.69(17) 5 6_675 ?
+Ca1B Ca1A H12 57.6(13) . . ?
+O4 Ca1A H12 137.8(16) 3_564 . ?
+O2 Ca1A H12 110.8(13) 3_564 . ?
+O12 Ca1A H12 74.7(16) . . ?
+O13 Ca1A H12 87.2(11) 6_565 . ?
+O1 Ca1A H12 14.6(12) . . ?
+O3 Ca1A H12 70.0(16) 1_565 . ?
+O2 Ca1A H12 148.3(13) 6_565 . ?
+Co1 Ca1A H12 58.8(13) . . ?
+Ca1A Ca1A H12 162.7(12) 5 . ?
+Ca1B Ca1A H12 173.4(16) 5 . ?
+Ca1B Ca1A H12 38.7(16) 6_675 . ?
+Ca1B Ca1A H22 172.1(9) . 6_565 ?
+O4 Ca1A H22 86.6(8) 3_564 6_565 ?
+O2 Ca1A H22 100.9(8) 3_564 6_565 ?
+O12 Ca1A H22 71.8(9) . 6_565 ?
+O13 Ca1A H22 47.1(7) 6_565 6_565 ?
+O1 Ca1A H22 115.0(7) . 6_565 ?
+O3 Ca1A H22 113.2(10) 1_565 6_565 ?
+O2 Ca1A H22 19.4(6) 6_565 6_565 ?
+Co1 Ca1A H22 70.9(7) . 6_565 ?
+Ca1A Ca1A H22 64.3(6) 5 6_565 ?
+Ca1B Ca1A H22 56.0(7) 5 6_565 ?
+Ca1B Ca1A H22 129.1(8) 6_675 6_565 ?
+H12 Ca1A H22 129.3(14) . 6_565 ?
+Ca1B Ca1A H31 43.2(19) . 1_565 ?
+O4 Ca1A H31 69(3) 3_564 1_565 ?
+O2 Ca1A H31 111.7(8) 3_564 1_565 ?
+O12 Ca1A H31 145(4) . 1_565 ?
+O13 Ca1A H31 103.5(5) 6_565 1_565 ?
+O1 Ca1A H31 76(3) . 1_565 ?
+O3 Ca1A H31 23.1(5) 1_565 1_565 ?
+O2 Ca1A H31 130(3) 6_565 1_565 ?
+Co1 Ca1A H31 114(3) . 1_565 ?
+Ca1A Ca1A H31 110(3) 5 1_565 ?
+Ca1B Ca1A H31 104(4) 5 1_565 ?
+Ca1B Ca1A H31 36(3) 6_675 1_565 ?
+H12 Ca1A H31 70(4) . 1_565 ?
+H22 Ca1A H31 132(2) 6_565 1_565 ?
+Ca1B Ca1A H32 79(3) . 6_565 ?
+O4 Ca1A H32 64(3) 3_564 6_565 ?
+O2 Ca1A H32 135(4) 3_564 6_565 ?
+O12 Ca1A H32 143(4) . 6_565 ?
+O13 Ca1A H32 74(4) 6_565 6_565 ?
+O1 Ca1A H32 86(3) . 6_565 ?
+O3 Ca1A H32 19(3) 1_565 6_565 ?
+O2 Ca1A H32 99(3) 6_565 6_565 ?
+Co1 Ca1A H32 102(4) . 6_565 ?
+Ca1A Ca1A H32 102(3) 5 6_565 ?
+Ca1B Ca1A H32 88(3) 5 6_565 ?
+Ca1B Ca1A H32 50(2) 6_675 6_565 ?
+H12 Ca1A H32 88(3) . 6_565 ?
+H22 Ca1A H32 97(3) 6_565 6_565 ?
+H31 Ca1A H32 35(4) 1_565 6_565 ?
+Ca1B Ca1A H41 79(4) . 6_565 ?
+O4 Ca1A H41 26.2(4) 3_564 6_565 ?
+O2 Ca1A H41 99.9(18) 3_564 6_565 ?
+O12 Ca1A H41 166(4) . 6_565 ?
+O13 Ca1A H41 98(3) 6_565 6_565 ?
+O1 Ca1A H41 120.7(12) . 6_565 ?
+O3 Ca1A H41 50.1(9) 1_565 6_565 ?
+O2 Ca1A H41 84(3) 6_565 6_565 ?
+Co1 Ca1A H41 137(3) . 6_565 ?
+Ca1A Ca1A H41 67.1(10) 5 6_565 ?
+Ca1B Ca1A H41 56(2) 5 6_565 ?
+Ca1B Ca1A H41 79.7(16) 6_675 6_565 ?
+H12 Ca1A H41 117(3) . 6_565 ?
+H22 Ca1A H41 94(4) 6_565 6_565 ?
+H31 Ca1A H41 48(4) 1_565 6_565 ?
+H32 Ca1A H41 38(3) 6_565 6_565 ?
+Ca1B Ca1A H42 60.5(14) . 3_564 ?
+O4 Ca1A H42 26.1(4) 3_564 3_564 ?
+O2 Ca1A H42 66(4) 3_564 3_564 ?
+O12 Ca1A H42 148(4) . 3_564 ?
+O13 Ca1A H42 134(2) 6_565 3_564 ?
+O1 Ca1A H42 129(3) . 3_564 ?
+O3 Ca1A H42 73(4) 1_565 3_564 ?
+O2 Ca1A H42 94.4(18) 6_565 3_564 ?
+Co1 Ca1A H42 171(4) . 3_564 ?
+Ca1A Ca1A H42 56(3) 5 3_564 ?
+Ca1B Ca1A H42 57(2) 5 3_564 ?
+Ca1B Ca1A H42 92(4) 6_675 3_564 ?
+H12 Ca1A H42 117(3) . 3_564 ?
+H22 Ca1A H42 111.9(15) 6_565 3_564 ?
+H31 Ca1A H42 57(5) 1_565 3_564 ?
+H32 Ca1A H42 69(6) 6_565 3_564 ?
+H41 Ca1A H42 36(3) 6_565 3_564 ?
+Ca1A Ca1B O3 85.6(3) . 1_565 ?
+Ca1A Ca1B O1 78.2(3) . . ?
+O3 Ca1B O1 76.40(16) 1_565 . ?
+Ca1A Ca1B O23 115.8(4) . 2_665 ?
+O3 Ca1B O23 145.7(3) 1_565 2_665 ?
+O1 Ca1B O23 82.05(17) . 2_665 ?
+Ca1A Ca1B O24 136.1(3) . 4_565 ?
+O3 Ca1B O24 110.99(19) 1_565 4_565 ?
+O1 Ca1B O24 144.0(2) . 4_565 ?
+O23 Ca1B O24 73.00(14) 2_665 4_565 ?
+Ca1A Ca1B O2 71.6(3) . 3_564 ?
+O3 Ca1B O2 145.5(3) 1_565 3_564 ?
+O1 Ca1B O2 121.5(2) . 3_564 ?
+O23 Ca1B O2 68.79(15) 2_665 3_564 ?
+O24 Ca1B O2 72.97(14) 4_565 3_564 ?
+Ca1A Ca1B O4 64.0(3) . 3_564 ?
+O3 Ca1B O4 75.9(2) 1_565 3_564 ?
+O1 Ca1B O4 134.2(2) . 3_564 ?
+O23 Ca1B O4 136.63(18) 2_665 3_564 ?
+O24 Ca1B O4 80.47(15) 4_565 3_564 ?
+O2 Ca1B O4 70.97(18) 3_564 3_564 ?
+Ca1A Ca1B O1 154.0(3) . 6_675 ?
+O3 Ca1B O1 70.56(17) 1_565 6_675 ?
+O1 Ca1B O1 86.16(17) . 6_675 ?
+O23 Ca1B O1 81.74(17) 2_665 6_675 ?
+O24 Ca1B O1 65.22(15) 4_565 6_675 ?
+O2 Ca1B O1 134.3(2) 3_564 6_675 ?
+O4 Ca1B O1 117.3(2) 3_564 6_675 ?
+Ca1A Ca1B Co1 116.5(3) . 3_564 ?
+O3 Ca1B Co1 152.09(18) 1_565 3_564 ?
+O1 Ca1B Co1 122.71(18) . 3_564 ?
+O23 Ca1B Co1 40.89(8) 2_665 3_564 ?
+O24 Ca1B Co1 41.31(8) 4_565 3_564 ?
+O2 Ca1B Co1 45.63(10) 3_564 3_564 ?
+O4 Ca1B Co1 97.76(12) 3_564 3_564 ?
+O1 Ca1B Co1 89.36(14) 6_675 3_564 ?
+Ca1A Ca1B Ca1B 109.9(3) . 6_675 ?
+O3 Ca1B Ca1B 41.84(19) 1_565 6_675 ?
+O1 Ca1B Ca1B 52.39(12) . 6_675 ?
+O23 Ca1B Ca1B 103.92(11) 2_665 6_675 ?
+O24 Ca1B Ca1B 108.8(2) 4_565 6_675 ?
+O2 Ca1B Ca1B 171.92(15) 3_564 6_675 ?
+O4 Ca1B Ca1B 116.99(16) 3_564 6_675 ?
+O1 Ca1B Ca1B 44.84(12) 6_675 6_675 ?
+Co1 Ca1B Ca1B 130.80(15) 3_564 6_675 ?
+Ca1A Ca1B Ca1A 52.6(2) . 5 ?
+O3 Ca1B Ca1A 104.0(2) 1_565 5 ?
+O1 Ca1B Ca1A 130.16(19) . 5 ?
+O23 Ca1B Ca1A 110.29(15) 2_665 5 ?
+O24 Ca1B Ca1A 83.58(14) 4_565 5 ?
+O2 Ca1B Ca1A 41.53(11) 3_564 5 ?
+O4 Ca1B Ca1A 31.61(18) 3_564 5 ?
+O1 Ca1B Ca1A 142.08(18) 6_675 5 ?
+Co1 Ca1B Ca1A 79.71(9) 3_564 5 ?
+Ca1B Ca1B Ca1A 145.73(9) 6_675 5 ?
+Ca1A Ca1B Ca1A 116.8(3) . 6_675 ?
+O3 Ca1B Ca1A 35.30(16) 1_565 6_675 ?
+O1 Ca1B Ca1A 69.75(12) . 6_675 ?
+O23 Ca1B Ca1A 111.77(16) 2_665 6_675 ?
+O24 Ca1B Ca1A 95.65(16) 4_565 6_675 ?
+O2 Ca1B Ca1A 168.12(18) 3_564 6_675 ?
+O4 Ca1B Ca1A 104.3(2) 3_564 6_675 ?
+O1 Ca1B Ca1A 37.46(10) 6_675 6_675 ?
+Co1 Ca1B Ca1A 126.72(15) 3_564 6_675 ?
+Ca1B Ca1B Ca1A 17.48(9) 6_675 6_675 ?
+Ca1A Ca1B Ca1A 135.66(17) 5 6_675 ?
+Ca1A Ca1B H11 94.4(8) . . ?
+O3 Ca1B H11 89.8(8) 1_565 . ?
+O1 Ca1B H11 20.4(5) . . ?
+O23 Ca1B H11 63.5(6) 2_665 . ?
+O24 Ca1B H11 124.7(6) 4_565 . ?
+O2 Ca1B H11 116.8(9) 3_564 . ?
+O4 Ca1B H11 154.5(5) 3_564 . ?
+O1 Ca1B H11 76.0(9) 6_675 . ?
+Co1 Ca1B H11 104.3(6) 3_564 . ?
+Ca1B Ca1B H11 55.5(9) 6_675 . ?
+Ca1A Ca1B H11 141.9(9) 5 . ?
+Ca1A Ca1B H11 72.3(9) 6_675 . ?
+Ca1A Ca1B H12 73.2(16) . . ?
+O3 Ca1B H12 81.0(17) 1_565 . ?
+O1 Ca1B H12 6.9(18) . . ?
+O23 Ca1B H12 80.4(15) 2_665 . ?
+O24 Ca1B H12 147.2(15) 4_565 . ?
+O2 Ca1B H12 114.9(18) 3_564 . ?
+O4 Ca1B H12 132.3(15) 3_564 . ?
+O1 Ca1B H12 92.5(17) 6_675 . ?
+Co1 Ca1B H12 120.2(16) 3_564 . ?
+Ca1B Ca1B H12 59.2(18) 6_675 . ?
+Ca1A Ca1B H12 124.4(17) 5 . ?
+Ca1A Ca1B H12 76.5(18) 6_675 . ?
+H11 Ca1B H12 22.4(17) . . ?
+Ca1A Ca1B H31 107(3) . 1_565 ?
+O3 Ca1B H31 24.6(14) 1_565 1_565 ?
+O1 Ca1B H31 93(4) . 1_565 ?
+O23 Ca1B H31 135(4) 2_665 1_565 ?
+O24 Ca1B H31 86.8(17) 4_565 1_565 ?
+O2 Ca1B H31 143(5) 3_564 1_565 ?
+O4 Ca1B H31 75(5) 3_564 1_565 ?
+O1 Ca1B H31 53(4) 6_675 1_565 ?
+Co1 Ca1B H31 127.5(14) 3_564 1_565 ?
+Ca1B Ca1B H31 45(5) 6_675 1_565 ?
+Ca1A Ca1B H31 107(5) 5 1_565 ?
+Ca1A Ca1B H31 29(5) 6_675 1_565 ?
+H11 Ca1B H31 100(5) . 1_565 ?
+H12 Ca1B H31 99(4) . 1_565 ?
+Ca1A Ca1B H32 62.4(17) . 6_565 ?
+O3 Ca1B H32 26.0(5) 1_565 6_565 ?
+O1 Ca1B H32 84(3) . 6_565 ?
+O23 Ca1B H32 166(3) 2_665 6_565 ?
+O24 Ca1B H32 118(3) 4_565 6_565 ?
+O2 Ca1B H32 120.7(9) 3_564 6_565 ?
+O4 Ca1B H32 56(2) 3_564 6_565 ?
+O1 Ca1B H32 95.7(10) 6_675 6_565 ?
+Co1 Ca1B H32 153(3) 3_564 6_565 ?
+Ca1B Ca1B H32 65.8(11) 6_675 6_565 ?
+Ca1A Ca1B H32 80.1(13) 5 6_565 ?
+Ca1A Ca1B H32 61.3(5) 6_675 6_565 ?
+H11 Ca1B H32 103(3) . 6_565 ?
+H12 Ca1B H32 86(4) . 6_565 ?
+H31 Ca1B H32 44(2) 1_565 6_565 ?
+Ca1A Ca1B H41 66(4) . 6_565 ?
+O3 Ca1B H41 52.8(8) 1_565 6_565 ?
+O1 Ca1B H41 118(2) . 6_565 ?
+O23 Ca1B H41 159.1(14) 2_665 6_565 ?
+O24 Ca1B H41 91(3) 4_565 6_565 ?
+O2 Ca1B H41 93.7(11) 3_564 6_565 ?
+O4 Ca1B H41 23.2(7) 3_564 6_565 ?
+O1 Ca1B H41 105(3) 6_675 6_565 ?
+Co1 Ca1B H41 118.5(19) 3_564 6_565 ?
+Ca1B Ca1B H41 94.2(10) 6_675 6_565 ?
+Ca1A Ca1B H41 52.8(15) 5 6_565 ?
+Ca1A Ca1B H41 83.0(17) 6_675 6_565 ?
+H11 Ca1B H41 137(2) . 6_565 ?
+H12 Ca1B H41 118(3) . 6_565 ?
+H31 Ca1B H41 55(5) 1_565 6_565 ?
+H32 Ca1B H41 35(3) 6_565 6_565 ?
+Ca1A Ca1B H42 82(3) . 3_564 ?
+O3 Ca1B H42 84(4) 1_565 3_564 ?
+O1 Ca1B H42 153(3) . 3_564 ?
+O23 Ca1B H42 124(4) 2_665 3_564 ?
+O24 Ca1B H42 61(2) 4_565 3_564 ?
+O2 Ca1B H42 68(5) 3_564 3_564 ?
+O4 Ca1B H42 19(2) 3_564 3_564 ?
+O1 Ca1B H42 105(4) 6_675 3_564 ?
+Co1 Ca1B H42 83(4) 3_564 3_564 ?
+Ca1B Ca1B H42 120(5) 6_675 3_564 ?
+Ca1A Ca1B H42 38(4) 5 3_564 ?
+Ca1A Ca1B H42 104(5) 6_675 3_564 ?
+H11 Ca1B H42 173(4) . 3_564 ?
+H12 Ca1B H42 152(3) . 3_564 ?
+H31 Ca1B H42 75(7) 1_565 3_564 ?
+H32 Ca1B H42 70(5) 6_565 3_564 ?
+H41 Ca1B H42 36(3) 6_565 3_564 ?
+O13 P1 O12 115.28(17) . . ?
+O13 P1 O14 105.91(17) . . ?
+O12 P1 O14 111.31(17) . . ?
+O13 P1 O11 111.63(15) . . ?
+O12 P1 O11 105.49(15) . . ?
+O14 P1 O11 107.02(14) . . ?
+O24 P2 O23 115.27(17) . . ?
+O24 P2 O22 106.24(17) . 4 ?
+O23 P2 O22 111.02(16) . 4 ?
+O24 P2 O21 111.57(15) . . ?
+O23 P2 O21 105.90(15) . . ?
+O22 P2 O21 106.58(14) 4 . ?
+Co1 O1 Ca1B 112.64(17) . . ?
+Co1 O1 Ca1A 82.90(15) . . ?
+Ca1B O1 Ca1A 30.30(13) . . ?
+Co1 O1 Ca1B 137.34(16) . 6_675 ?
+Ca1B O1 Ca1B 82.77(17) . 6_675 ?
+Ca1A O1 Ca1B 101.07(16) . 6_675 ?
+Co1 O1 H11 120(3) . . ?
+Ca1B O1 H11 102(2) . . ?
+Ca1A O1 H11 125(2) . . ?
+Ca1B O1 H11 93(3) 6_675 . ?
+Co1 O1 H12 104(3) . . ?
+Ca1B O1 H12 10(3) . . ?
+Ca1A O1 H12 24(2) . . ?
+Ca1B O1 H12 92(3) 6_675 . ?
+H11 O1 H12 103.4(17) . . ?
+Co1 O2 Ca1A 112.77(17) . 2_665 ?
+Co1 O2 Ca1B 82.93(15) . 2_665 ?
+Ca1A O2 Ca1B 30.36(13) 2_665 2_665 ?
+Co1 O2 Ca1A 137.08(16) . 6_665 ?
+Ca1A O2 Ca1A 82.66(16) 2_665 6_665 ?
+Ca1B O2 Ca1A 101.00(16) 2_665 6_665 ?
+Co1 O2 H21 112(3) . . ?
+Ca1A O2 H21 86(2) 2_665 . ?
+Ca1B O2 H21 103(2) 2_665 . ?
+Ca1A O2 H21 109(2) 6_665 . ?
+Co1 O2 H22 108(3) . . ?
+Ca1A O2 H22 129(3) 2_665 . ?
+Ca1B O2 H22 143(3) 2_665 . ?
+Ca1A O2 H22 47(3) 6_665 . ?
+H21 O2 H22 105.2(18) . . ?
+B1 O11 P1 129.7(2) . . ?
+P1 O12 Co1 128.26(17) . . ?
+P1 O12 Ca1A 143.37(17) . . ?
+Co1 O12 Ca1A 88.34(13) . . ?
+P1 O13 Co1 138.84(17) . 6_665 ?
+P1 O13 Ca1A 133.99(19) . 6_665 ?
+Co1 O13 Ca1A 86.69(14) 6_665 6_665 ?
+B1 O14 P1 130.0(3) 5 . ?
+B1 O21 P2 130.2(2) . . ?
+B1 O22 P2 130.3(3) . 4 ?
+P2 O23 Co1 128.49(17) . 2_664 ?
+P2 O23 Ca1B 143.10(18) . 3_564 ?
+Co1 O23 Ca1B 88.40(13) 2_664 3_564 ?
+P2 O24 Co1 138.94(17) . 5 ?
+P2 O24 Ca1B 133.99(19) . 4_455 ?
+Co1 O24 Ca1B 86.58(14) 5 4_455 ?
+O22 B1 O14 103.7(3) . 5 ?
+O22 B1 O21 113.7(4) . . ?
+O14 B1 O21 111.8(3) 5 . ?
+O22 B1 O11 112.5(3) . . ?
+O14 B1 O11 113.6(4) 5 . ?
+O21 B1 O11 101.9(3) . . ?
+Ca1B O3 Ca1B 96.3(4) 1_545 6_665 ?
+Ca1B O3 Ca1A 30.41(13) 1_545 1_545 ?
+Ca1B O3 Ca1A 113.3(3) 6_665 1_545 ?
+Ca1B O3 Ca1A 113.3(3) 1_545 6_665 ?
+Ca1B O3 Ca1A 30.41(13) 6_665 6_665 ?
+Ca1A O3 Ca1A 139.1(4) 1_545 6_665 ?
+Ca1B O3 H31 47(7) 1_545 . ?
+Ca1B O3 H31 90(8) 6_665 . ?
+Ca1A O3 H31 75(7) 1_545 . ?
+Ca1A O3 H31 85(7) 6_665 . ?
+Ca1B O3 H32 146(7) 1_545 . ?
+Ca1B O3 H32 61(8) 6_665 . ?
+Ca1A O3 H32 175(8) 1_545 . ?
+Ca1A O3 H32 36(8) 6_665 . ?
+H31 O3 H32 104(2) . . ?
+Ca1A O4 Ca1A 95.9(4) 2_665 6_665 ?
+Ca1A O4 Ca1B 30.41(13) 2_665 2_665 ?
+Ca1A O4 Ca1B 112.9(3) 6_665 2_665 ?
+Ca1A O4 Ca1B 112.9(3) 2_665 6_665 ?
+Ca1A O4 Ca1B 30.41(13) 6_665 6_665 ?
+Ca1B O4 Ca1B 138.6(4) 2_665 6_665 ?
+Ca1A O4 H41 152(9) 2_665 . ?
+Ca1A O4 H41 63(9) 6_665 . ?
+Ca1B O4 H41 138(8) 2_665 . ?
+Ca1B O4 H41 58(8) 6_665 . ?
+Ca1A O4 H42 66(7) 2_665 . ?
+Ca1A O4 H42 111(9) 6_665 . ?
+Ca1B O4 H42 37(7) 2_665 . ?
+Ca1B O4 H42 141(9) 6_665 . ?
+H41 O4 H42 103.0(19) . . ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Co1 O23 2.052(3) 3_565 ?
+Co1 O12 2.058(3) . ?
+Co1 O24 2.073(3) 5 ?
+Co1 O13 2.074(3) 6_565 ?
+Co1 O1 2.255(3) . ?
+Co1 O2 2.258(3) . ?
+Co1 Ca1A 3.135(4) . ?
+Co1 Ca1B 3.134(4) 2_665 ?
+Ca1A Ca1B 1.276(5) . ?
+Ca1A O4 2.266(7) 3_564 ?
+Ca1A O2 2.395(5) 3_564 ?
+Ca1A O12 2.425(5) . ?
+Ca1A O13 2.474(5) 6_565 ?
+Ca1A O1 2.475(5) . ?
+Ca1A O3 2.513(5) 1_565 ?
+Ca1A O2 2.691(5) 6_565 ?
+Ca1A Ca1A 3.366(7) 5 ?
+Ca1A Ca1B 3.984(6) 5 ?
+Ca1A Ca1B 3.994(6) 6_675 ?
+Ca1A H12 1.61(2) . ?
+Ca1A H22 2.14(5) 6_565 ?
+Ca1A H31 2.45(11) 1_565 ?
+Ca1A H32 1.80(11) 6_565 ?
+Ca1A H41 2.02(15) 6_565 ?
+Ca1A H42 2.06(12) 3_564 ?
+Ca1B O3 2.265(7) 1_565 ?
+Ca1B O1 2.399(5) . ?
+Ca1B O23 2.426(5) 2_665 ?
+Ca1B O24 2.478(5) 4_565 ?
+Ca1B O2 2.469(5) 3_564 ?
+Ca1B O4 2.513(5) 3_564 ?
+Ca1B O1 2.695(5) 6_675 ?
+Ca1B Ca1B 3.375(8) 6_675 ?
+Ca1B H11 2.78(3) . ?
+Ca1B H12 1.424(19) . ?
+Ca1B H31 1.75(11) 1_565 ?
+Ca1B H32 1.99(14) 6_565 ?
+Ca1B H41 2.16(14) 6_565 ?
+Ca1B H42 1.82(11) 3_564 ?
+P1 O13 1.505(3) . ?
+P1 O12 1.507(3) . ?
+P1 O14 1.556(3) . ?
+P1 O11 1.561(2) . ?
+P2 O24 1.504(3) . ?
+P2 O23 1.511(3) . ?
+P2 O22 1.555(3) 4 ?
+P2 O21 1.563(2) . ?
+O1 H11 0.991(13) . ?
+O1 H12 1.000(13) . ?
+O2 H21 0.990(14) . ?
+O2 H22 0.980(13) . ?
+O11 B1 1.487(5) . ?
+O14 B1 1.463(5) 5 ?
+O21 B1 1.480(5) . ?
+O22 B1 1.451(5) . ?
+O3 H31 0.994(14) . ?
+O3 H32 0.995(14) . ?
+O4 H41 1.000(14) . ?
+O4 H42 0.999(14) . ?
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_site_symmetry_A
+_geom_hbond_publ_flag
+O2 H21 O11 0.990(14) 1.792(19) 2.751(4) 162(3) 2_665 yes
+O2 H21 O12 0.990(14) 2.44(3) 3.156(4) 129(3) 2_665 yes
+O2 H22 O13 0.980(13) 1.870(18) 2.797(4) 157(3) . yes
+O3 H31 O1 0.994(14) 2.16(11) 2.886(7) 129(11) 6_665 yes
+O3 H32 O13 0.995(14) 2.63(10) 3.223(3) 119(8) . yes
+O3 H32 O4 0.995(14) 2.18(9) 2.945(2) 132(9) . yes
+O4 H41 O3 1.000(14) 1.97(4) 2.945(2) 164(12) . yes
+O4 H42 O22 0.999(14) 2.55(12) 2.992(6) 106(8) 2 yes
+O4 H42 O24 0.999(14) 2.26(4) 3.223(3) 162(11) 5 yes

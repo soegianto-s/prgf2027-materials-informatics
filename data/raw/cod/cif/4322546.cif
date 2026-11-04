@@ -1,0 +1,404 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/4/32/25/4322546.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4322546
+loop_
+_publ_author_name
+'X. Tang'
+'A. Jones'
+'A. Lachgar'
+'B. J. Gross'
+'J. L. Yarger'
+_publ_contact_author_address
+;     Department of Chemistry
+      Wake Forest University
+      Winston-Salem, N.C. 27109-7505
+      U.S.A.
+;
+_publ_contact_author_email       lachgar@wfu.edu
+_publ_contact_author_fax         '336 758 4656'
+_publ_contact_author_name
+;
+     `Abdessadek Lachgar'
+;
+_publ_contact_author_phone       '336 758 4676'
+_publ_section_title
+;
+ Synthesis, Crystal Structure, NMR Studies, and Thermal Stability of Mixed
+ Iron-Indium Phosphates with Quasi-One-Dimensional Frameworks
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              6032
+_journal_page_last               6038
+_journal_paper_doi               10.1021/ic9905906
+_journal_volume                  38
+_journal_year                    1999
+_chemical_formula_sum            'Ca2 Fe H4 O13 P3'
+_chemical_formula_weight         440.95
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           'Siemens SHELXTL '
+_cell_angle_alpha                90.00
+_cell_angle_beta                 113.60(2)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   7.503(2)
+_cell_length_b                   15.477(2)
+_cell_length_c                   9.142(1)
+_cell_measurement_reflns_used    54
+_cell_measurement_temperature    298(2)
+_cell_measurement_theta_max      20.04
+_cell_measurement_theta_min      3.29
+_cell_volume                     972.8(3)
+_computing_cell_refinement       'Siemens XSCANS'
+_computing_data_collection       'Siemens XSCANS'
+_computing_data_reduction        'Siemens SHELXTL'
+_computing_publication_material  'Siemens SHELXTL'
+_computing_structure_refinement  'Siemens SHELXTL'
+_computing_structure_solution    'Siemens SHELXTL'
+_diffrn_ambient_temperature      298(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'Siemens P4 diffractometer'
+_diffrn_measurement_method       '2\q/\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'normal-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0590
+_diffrn_reflns_av_sigmaI/netI    0.0382
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       21
+_diffrn_reflns_limit_k_min       -21
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -12
+_diffrn_reflns_number            5653
+_diffrn_reflns_theta_full        29.98
+_diffrn_reflns_theta_max         29.98
+_diffrn_reflns_theta_min         2.63
+_diffrn_standards_decay_%        5.53
+_diffrn_standards_interval_count 247
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    3.176
+_exptl_absorpt_correction_T_max  0.517
+_exptl_absorpt_correction_T_min  0.322
+_exptl_absorpt_correction_type   psi-scan
+_exptl_crystal_colour            Colorless
+_exptl_crystal_density_diffrn    3.011
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       Needle
+_exptl_crystal_F_000             876
+_exptl_crystal_size_max          0.35
+_exptl_crystal_size_mid          0.15
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         0.587
+_refine_diff_density_min         -0.784
+_refine_diff_density_rms         0.152
+_refine_ls_extinction_coef       0.0049(6)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXTL
+_refine_ls_goodness_of_fit_ref   1.087
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     95
+_refine_ls_number_reflns         1423
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.087
+_refine_ls_R_factor_all          0.0375
+_refine_ls_R_factor_gt           0.0268
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0352P)^2^+0.5093P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0653
+_refine_ls_wR_factor_ref         0.0700
+_reflns_number_gt                1215
+_reflns_number_total             1423
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic9905906_1.cif
+_cod_data_source_block           aj007
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_original_formula_sum        'H4 Ca2 Fe O13 P3'
+_cod_database_code               4322546
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y, z-1/2'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, -y+1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Fe Fe 0.2500 0.2500 0.5000 0.00656(12) Uani 1 2 d S . .
+Ca Ca 0.27135(7) 0.49081(3) 0.56269(5) 0.01140(13) Uani 1 1 d . . .
+P1 P 0.0000 0.39767(5) 0.2500 0.00619(16) Uani 1 2 d S . .
+P2 P 0.17026(8) 0.15162(4) 0.15241(7) 0.00734(14) Uani 1 1 d . . .
+O1 O 0.0377(3) 0.45319(11) 0.1298(2) 0.0148(3) Uani 1 1 d . . .
+O2 O 0.1850(2) 0.34452(10) 0.3435(2) 0.0115(3) Uani 1 1 d . . .
+O3 O 0.0864(2) 0.06106(10) 0.1206(2) 0.0137(3) Uani 1 1 d . . .
+O4 O 0.2541(3) 0.16615(11) 0.3325(2) 0.0134(3) Uani 1 1 d . . .
+O5 O 0.0330(2) 0.22253(11) 0.0560(2) 0.0118(3) Uani 1 1 d . . .
+O6 O 0.3365(3) 0.14532(12) 0.0895(2) 0.0178(4) Uani 1 1 d . . .
+H1 H 0.3664 0.1940 0.0720 0.053(14) Uiso 1 1 calc R . .
+O7 O 0.5000 0.60086(17) 0.7500 0.0175(5) Uani 1 2 d S . .
+H2 H 0.578(8) 0.629(3) 0.719(7) 0.066(16) Uiso 1 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Fe 0.0060(2) 0.0080(2) 0.0051(2) 0.00023(14) 0.00160(16) 0.00043(14)
+Ca 0.0072(2) 0.0162(2) 0.0105(2) -0.00055(16) 0.00319(17) 0.00064(15)
+P1 0.0060(3) 0.0079(3) 0.0036(3) 0.000 0.0009(3) 0.000
+P2 0.0061(3) 0.0098(3) 0.0057(2) -0.00061(18) 0.0020(2) 0.00038(17)
+O1 0.0131(8) 0.0198(8) 0.0126(8) 0.0099(6) 0.0064(7) 0.0017(6)
+O2 0.0087(7) 0.0142(7) 0.0096(7) 0.0046(6) 0.0016(6) 0.0021(6)
+O3 0.0137(8) 0.0116(7) 0.0163(8) -0.0037(6) 0.0064(7) -0.0026(6)
+O4 0.0181(9) 0.0137(7) 0.0059(7) -0.0022(6) 0.0022(6) 0.0036(6)
+O5 0.0094(7) 0.0132(7) 0.0105(7) 0.0009(6) 0.0017(6) 0.0023(6)
+O6 0.0124(8) 0.0246(9) 0.0205(9) 0.0049(7) 0.0111(7) 0.0037(6)
+O7 0.0181(13) 0.0195(12) 0.0136(12) 0.000 0.0050(10) 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+P P 0.1023 0.0942 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ca Ca 0.2262 0.3064 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Fe Fe 0.3463 0.8444 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O2 Fe O2 180.00(6) . 7_556 ?
+O2 Fe O4 89.93(7) . 7_556 ?
+O2 Fe O4 90.07(7) 7_556 7_556 ?
+O2 Fe O4 90.07(7) . . ?
+O2 Fe O4 89.93(7) 7_556 . ?
+O4 Fe O4 180.0 7_556 . ?
+O2 Fe O5 87.55(7) . 8_556 ?
+O2 Fe O5 92.45(7) 7_556 8_556 ?
+O4 Fe O5 90.34(7) 7_556 8_556 ?
+O4 Fe O5 89.66(7) . 8_556 ?
+O2 Fe O5 92.45(7) . 2 ?
+O2 Fe O5 87.55(7) 7_556 2 ?
+O4 Fe O5 89.66(7) 7_556 2 ?
+O4 Fe O5 90.34(7) . 2 ?
+O5 Fe O5 180.00(14) 8_556 2 ?
+O1 Ca O3 153.43(6) 6_566 8_556 ?
+O1 Ca O1 69.97(7) 6_566 2 ?
+O3 Ca O1 133.27(6) 8_556 2 ?
+O1 Ca O7 86.98(5) 6_566 . ?
+O3 Ca O7 74.29(5) 8_556 . ?
+O1 Ca O7 150.31(6) 2 . ?
+O1 Ca O3 126.09(6) 6_566 4 ?
+O3 Ca O3 69.34(7) 8_556 4 ?
+O1 Ca O3 99.18(6) 2 4 ?
+O7 Ca O3 79.06(5) . 4 ?
+O1 Ca O4 94.48(6) 6_566 7_556 ?
+O3 Ca O4 79.42(6) 8_556 7_556 ?
+O1 Ca O4 81.45(6) 2 7_556 ?
+O7 Ca O4 119.98(6) . 7_556 ?
+O3 Ca O4 137.38(6) 4 7_556 ?
+O1 Ca O6 72.31(6) 6_566 4 ?
+O3 Ca O6 118.84(6) 8_556 4 ?
+O1 Ca O6 80.38(6) 2 4 ?
+O7 Ca O6 74.77(6) . 4 ?
+O3 Ca O6 53.78(5) 4 4 ?
+O4 Ca O6 160.37(6) 7_556 4 ?
+O1 Ca O3 80.97(6) 6_566 7_556 ?
+O3 Ca O3 74.55(7) 8_556 7_556 ?
+O1 Ca O3 124.11(6) 2 7_556 ?
+O7 Ca O3 67.40(5) . 7_556 ?
+O3 Ca O3 135.96(7) 4 7_556 ?
+O4 Ca O3 53.82(5) 7_556 7_556 ?
+O6 Ca O3 134.37(5) 4 7_556 ?
+O1 Ca O2 120.19(6) 6_566 . ?
+O3 Ca O2 79.42(6) 8_556 . ?
+O1 Ca O2 54.10(5) 2 . ?
+O7 Ca O2 152.77(5) . . ?
+O3 Ca O2 85.20(5) 4 . ?
+O4 Ca O2 60.53(5) 7_556 . ?
+O6 Ca O2 113.07(5) 4 . ?
+O3 Ca O2 112.27(5) 7_556 . ?
+O1 Ca P1 97.70(5) 6_566 . ?
+O3 Ca P1 106.11(5) 8_556 . ?
+O1 Ca P1 27.74(4) 2 . ?
+O7 Ca P1 161.15(4) . . ?
+O3 Ca P1 83.49(4) 4 . ?
+O4 Ca P1 78.02(4) 7_556 . ?
+O6 Ca P1 89.21(5) 4 . ?
+O3 Ca P1 131.30(4) 7_556 . ?
+O2 Ca P1 29.39(3) . . ?
+O1 Ca P2 85.07(5) 6_566 7_556 ?
+O3 Ca P2 77.89(4) 8_556 7_556 ?
+O1 Ca P2 101.78(5) 2 7_556 ?
+O7 Ca P2 94.33(4) . 7_556 ?
+O3 Ca P2 147.17(4) 4 7_556 ?
+O4 Ca P2 26.92(4) 7_556 7_556 ?
+O6 Ca P2 155.15(4) 4 7_556 ?
+O3 Ca P2 27.12(3) 7_556 7_556 ?
+O2 Ca P2 86.93(4) . 7_556 ?
+P1 Ca P2 104.24(2) . 7_556 ?
+O1 Ca P2 100.09(5) 6_566 4 ?
+O3 Ca P2 91.74(4) 8_556 4 ?
+O1 Ca P2 93.84(5) 2 4 ?
+O7 Ca P2 71.41(4) . 4 ?
+O3 Ca P2 26.20(4) 4 4 ?
+O4 Ca P2 162.14(4) 7_556 4 ?
+O6 Ca P2 28.13(4) 4 4 ?
+O3 Ca P2 138.69(4) 7_556 4 ?
+O2 Ca P2 102.79(4) . 4 ?
+P1 Ca P2 89.78(2) . 4 ?
+P2 Ca P2 164.37(2) 7_556 4 ?
+O1 P1 O1 110.54(15) 2 . ?
+O1 P1 O2 108.53(9) 2 2 ?
+O1 P1 O2 106.81(9) . 2 ?
+O1 P1 O2 106.81(9) 2 . ?
+O1 P1 O2 108.53(9) . . ?
+O2 P1 O2 115.62(13) 2 . ?
+O1 P1 Ca 46.62(7) 2 . ?
+O1 P1 Ca 99.23(7) . . ?
+O2 P1 Ca 149.97(6) 2 . ?
+O2 P1 Ca 68.07(7) . . ?
+O1 P1 Ca 99.23(7) 2 2 ?
+O1 P1 Ca 46.62(7) . 2 ?
+O2 P1 Ca 68.07(7) 2 2 ?
+O2 P1 Ca 149.97(6) . 2 ?
+Ca P1 Ca 124.96(3) . 2 ?
+O3 P2 O5 115.03(10) . . ?
+O3 P2 O4 107.65(10) . . ?
+O5 P2 O4 114.19(10) . . ?
+O3 P2 O6 101.64(10) . . ?
+O5 P2 O6 106.56(10) . . ?
+O4 P2 O6 111.07(11) . . ?
+O3 P2 Ca 56.51(7) . 7_556 ?
+O5 P2 Ca 141.54(7) . 7_556 ?
+O4 P2 Ca 51.72(7) . 7_556 ?
+O6 P2 Ca 111.89(7) . 7_556 ?
+O3 P2 Ca 48.24(7) . 4_545 ?
+O5 P2 Ca 114.72(7) . 4_545 ?
+O4 P2 Ca 131.07(7) . 4_545 ?
+O6 P2 Ca 54.73(7) . 4_545 ?
+Ca P2 Ca 87.670(17) 7_556 4_545 ?
+O3 P2 Ca 29.79(7) . 8_455 ?
+O5 P2 Ca 90.08(7) . 8_455 ?
+O4 P2 Ca 106.67(8) . 8_455 ?
+O6 P2 Ca 126.72(8) . 8_455 ?
+Ca P2 Ca 66.43(2) 7_556 8_455 ?
+Ca P2 Ca 72.21(2) 4_545 8_455 ?
+P1 O1 Ca 144.30(10) . 6_565 ?
+P1 O1 Ca 105.64(9) . 2 ?
+Ca O1 Ca 110.03(7) 6_565 2 ?
+P1 O2 Fe 134.87(10) . . ?
+P1 O2 Ca 82.54(7) . . ?
+Fe O2 Ca 98.95(7) . . ?
+P2 O3 Ca 131.49(10) . 8_455 ?
+P2 O3 Ca 105.56(9) . 4_545 ?
+Ca O3 Ca 110.66(6) 8_455 4_545 ?
+P2 O3 Ca 96.36(8) . 7_556 ?
+Ca O3 Ca 93.93(6) 8_455 7_556 ?
+Ca O3 Ca 118.24(6) 4_545 7_556 ?
+P2 O4 Fe 142.11(11) . . ?
+P2 O4 Ca 101.37(8) . 7_556 ?
+Fe O4 Ca 106.90(7) . 7_556 ?
+P2 O5 Fe 134.24(11) . 2 ?
+P2 O6 Ca 97.14(9) . 4_545 ?
+P2 O6 H1 109.5 . . ?
+Ca O6 H1 139.1 4_545 . ?
+Ca O7 Ca 95.56(9) . 2_656 ?
+Ca O7 H2 119(4) . . ?
+Ca O7 H2 101(4) 2_656 . ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Fe O2 1.9660(16) . ?
+Fe O2 1.9660(16) 7_556 ?
+Fe O4 2.0167(17) 7_556 ?
+Fe O4 2.0167(17) . ?
+Fe O5 2.0199(17) 8_556 ?
+Fe O5 2.0199(17) 2 ?
+Ca O1 2.2498(18) 6_566 ?
+Ca O3 2.3474(18) 8_556 ?
+Ca O1 2.3549(19) 2 ?
+Ca O7 2.5346(19) . ?
+Ca O3 2.5614(18) 4 ?
+Ca O4 2.6461(18) 7_556 ?
+Ca O6 2.722(2) 4 ?
+Ca O3 2.7734(18) 7_556 ?
+Ca O2 2.9190(18) . ?
+Ca P1 3.1201(8) . ?
+Ca P2 3.3048(8) 7_556 ?
+Ca P2 3.3080(8) 4 ?
+P1 O1 1.5083(17) 2 ?
+P1 O1 1.5083(17) . ?
+P1 O2 1.5441(17) 2 ?
+P1 O2 1.5441(17) . ?
+P1 Ca 3.1201(8) 2 ?
+P2 O3 1.5160(17) . ?
+P2 O5 1.5218(17) . ?
+P2 O4 1.5259(18) . ?
+P2 O6 1.5719(19) . ?
+P2 Ca 3.3048(8) 7_556 ?
+P2 Ca 3.3080(8) 4_545 ?
+P2 Ca 3.5389(9) 8_455 ?
+O1 Ca 2.2498(18) 6_565 ?
+O1 Ca 2.3549(19) 2 ?
+O3 Ca 2.3474(18) 8_455 ?
+O3 Ca 2.5614(18) 4_545 ?
+O3 Ca 2.7734(18) 7_556 ?
+O4 Ca 2.6461(18) 7_556 ?
+O5 Fe 2.0199(17) 2 ?
+O6 Ca 2.722(2) 4_545 ?
+O6 H1 0.8200 . ?
+O7 Ca 2.5346(19) 2_656 ?
+O7 H2 0.87(5) . ?

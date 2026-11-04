@@ -1,0 +1,87 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-05-29 17:00:33 +0300 (Wed, 29 May 2024) $
+#$Revision: 292100 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/71/9017179.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017179
+loop_
+_publ_author_name
+'Tait, K. T.'
+'Hawthorne, F. C.'
+'Wise, M. A.'
+_publ_section_title
+;
+ The crystal chemistry of the graftonite-beusite minerals
+ Notes: Sample B7
+ Note: O7 y-coordinate edited by author
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              653
+_journal_page_last               662
+_journal_volume                  51
+_journal_year                    2013
+_chemical_compound_source        'East Alstead, New Hampshire, USA'
+_chemical_formula_sum            'Ca0.37 Fe1.51 Mg0.11 Mn1.01 O8 P2'
+_chemical_name_mineral           Graftonite
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2ybc'
+_space_group_name_H-M_alt        'P 1 21/c 1'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 99.243
+_cell_angle_gamma                90
+_cell_length_a                   8.8072
+_cell_length_b                   11.5131
+_cell_length_c                   6.1372
+_cell_formula_units_Z            4
+_cell_volume                     614.221
+_database_code_amcsd             0020205
+_exptl_crystal_density_diffrn    3.755
+_cod_data_source_file            inputs/fixed/downloads/07/07391.cif
+_cod_data_source_block           07391
+_cod_original_formula_sum        'Mn1.01 Ca.37 Fe1.51 Mg.11 P2 O8'
+_cod_database_code               9017179
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Mn(1) 0.94550 0.11950 0.83860 0.63000 0.01720
+Ca(1) 0.94550 0.11950 0.83860 0.37000 0.01720
+Fe(1) 0.71680 0.07885 0.32810 0.89000 0.01990
+Mg(1) 0.71680 0.07885 0.32810 0.11000 0.01990
+Fe(2) 0.36221 0.19137 0.12840 0.62000 0.01160
+Mn(2) 0.36221 0.19137 0.12840 0.38000 0.01160
+P(1) 0.09320 0.13510 0.39550 1.00000 0.00980
+P(2) 0.60310 0.08860 0.80660 1.00000 0.00910
+O(1) 0.07840 0.06810 0.17690 1.00000 0.01560
+O(2) 0.47620 0.17650 0.82940 1.00000 0.01340
+O(3) 0.94150 0.19650 0.41850 1.00000 0.02240
+O(4) 0.69270 0.12710 0.62370 1.00000 0.01380
+O(5) 0.21720 0.22810 0.38160 1.00000 0.01840
+O(6) 0.72650 0.08870 0.01530 1.00000 0.01270
+O(7) 0.13830 0.05980 0.60030 1.00000 0.02020
+O(8) 0.53380 -0.03440 0.76250 1.00000 0.01120
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0020205

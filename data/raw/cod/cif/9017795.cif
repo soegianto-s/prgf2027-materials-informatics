@@ -1,0 +1,110 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 21:02:58 +0300 (Thu, 18 May 2023) $
+#$Revision: 283869 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/77/9017795.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017795
+loop_
+_publ_author_name
+'Hughes, J. M.'
+'Fransolet, A. M.'
+'Schreyer, W.'
+_publ_section_title
+;
+ The atomic arrangement of iron-bearing apatite
+;
+_journal_name_full               'Neues Jahrbuch fur Mineralogie, Monatshefte'
+_journal_page_first              504
+_journal_page_last               510
+_journal_volume                  1993
+_journal_year                    1993
+_chemical_compound_source        'Northampton Block, Western Australia'
+_chemical_formula_sum            'Ca4.9 Cl0.15 F0.75 Fe0.099 H0.1 O12.1 P3'
+_chemical_name_mineral           Fluorapatite
+_space_group_IT_number           11
+_space_group_name_Hall           '-P 2c'
+_space_group_name_H-M_alt        'P 1 1 21/m'
+_symmetry_space_group_name_H-M   'P 1 1 21/m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                119.9508
+_cell_formula_units_Z            2
+_cell_length_a                   9.3916
+_cell_length_b                   9.3962
+_cell_length_c                   6.8458
+_cell_volume                     523.434
+_database_code_amcsd             0020482
+_exptl_crystal_density_diffrn    3.224
+_cod_data_source_file            inputs/fixed/downloads/19/19076.cif
+_cod_data_source_block           19076
+_cod_original_formula_sum        'Ca4.9 Fe.099 P3 O12.1 F.75 Cl.15 H.1'
+_cod_database_code               9017795
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,1/2+z
+x,y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.66667 0.33333 0.00130 0.99800 0.01108 Ca 0
+Ca2 0.24703 0.00683 0.25000 0.84270 0.00899 Ca 0
+Ca3 0.27150 -0.00050 0.25000 0.12700 0.01026 Ca 0
+Fe1 0.27150 -0.00050 0.25000 0.03300 0.01026 Fe 0
+Ca4 0.75977 0.75267 0.25000 0.84000 0.00912 Ca 0
+Ca5 0.72860 0.73120 0.25000 0.12700 0.00988 Ca 0
+Fe2 0.72860 0.73120 0.25000 0.03300 0.00988 Fe 0
+Ca6 -0.00695 0.24006 0.25000 0.84000 0.00899 Ca 0
+Ca7 0.00140 0.25220 0.25000 0.12700 0.00925 Ca 0
+Fe3 0.00140 0.25220 0.25000 0.03300 0.00925 Fe 0
+P1 0.02969 -0.36932 0.25000 1.00000 0.00785 P 0
+P2 -0.39905 -0.02963 0.25000 1.00000 0.00798 P 0
+P3 0.36933 0.39900 0.25000 1.00000 0.00785 P 0
+O1 0.48560 0.32860 0.25000 1.00000 0.01267 O 0
+O2 -0.15690 -0.48530 0.25000 1.00000 0.01241 O 0
+O3 -0.32850 0.15710 0.25000 1.00000 0.01203 O 0
+O4 0.46650 0.58820 0.25000 1.00000 0.01507 O 0
+O5 0.12140 -0.46660 0.25000 1.00000 0.01431 O 0
+O6 0.41190 -0.12160 0.25000 1.00000 0.01469 O 0
+O7 0.25820 0.34280 0.07030 1.00000 0.01735 O 0
+O8 0.08460 -0.25840 0.07000 1.00000 0.01760 O 0
+O9 -0.34260 -0.08460 0.07030 1.00000 0.01735 O 0
+F1 -0.00040 -0.00020 0.25000 0.75000 0.01900 F 0
+Cl1 -0.00040 -0.00020 0.25000 0.15000 0.01900 Cl 0
+O-H10 0.00100 0.00100 0.32800 0.05000 0.01646 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:43:25+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0020482

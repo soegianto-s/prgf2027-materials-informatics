@@ -1,0 +1,144 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/72/9017251.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017251
+loop_
+_publ_author_name
+'Mills, S. J.'
+'Grey, I. E.'
+'Kampf, A. R.'
+'Birch, W. D.'
+'Macrae, C. M.'
+'Smith, J. B.'
+'Keck, E.'
+_publ_section_title
+;
+ Kayrobertsonite, MnAl2(PO4)2(OH)2*6H2O, a new phosphate mineral related to nordgauite
+ Note: T = 100 K
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              649
+_journal_page_last               654
+_journal_volume                  28
+_journal_year                    2016
+_chemical_compound_source
+'Foote Lithium Company mine, Kings Mountain district, North Carolina, USA'
+_chemical_formula_sum            'Al2 Ca0.03 H14 Mn0.97 O16 P2'
+_chemical_name_mineral           Kayrobertsonite
+_space_group_IT_number           2
+_space_group_name_Hall           '-P 1'
+_space_group_name_H-M_alt        'P -1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                91.79
+_cell_angle_beta                 99.70
+_cell_angle_gamma                98.02
+_cell_formula_units_Z            2
+_cell_length_a                   10.049
+_cell_length_b                   10.205
+_cell_length_c                   6.083
+_cell_volume                     607.921
+_database_code_amcsd             0020871
+_diffrn_ambient_temperature      100
+_exptl_crystal_density_diffrn    2.406
+_cod_data_source_file            inputs/fixed/downloads/08/08620.cif
+_cod_data_source_block           08620
+_cod_original_formula_sum        '(Mn.97 Ca.03) Al2 P2 O16 H14'
+_cod_database_code               9017251
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Mn 0.01380 0.01710 0.01220 0.00290 0.00290 0.00430
+Ca 0.01380 0.01710 0.01220 0.00290 0.00290 0.00430
+Al1 0.00980 0.01370 0.01060 0.00210 0.00220 0.00250
+Al2 0.01470 0.01570 0.01350 0.00190 0.00100 0.00150
+Al3 0.01240 0.01290 0.01000 0.00180 0.00110 0.00280
+P1 0.01280 0.01260 0.01020 0.00190 0.00090 0.00240
+P2 0.01110 0.01440 0.01180 0.00300 0.00110 0.00090
+O1 0.01600 0.01600 0.01130 0.00270 0.00380 0.00150
+O2 0.01500 0.01900 0.00740 0.00290 -0.00280 0.00050
+O3 0.01600 0.01300 0.01480 0.00120 -0.00180 0.00000
+O4 0.01400 0.01600 0.01390 0.00420 0.00250 0.00320
+O5 0.01000 0.01800 0.01410 -0.00030 0.00150 0.00210
+O6 0.01200 0.02000 0.01440 0.00760 0.00110 0.00230
+O7 0.01400 0.01400 0.01650 0.00150 -0.00170 0.00180
+O8 0.01300 0.01400 0.01310 0.00100 0.00200 0.00060
+O-H1 0.01700 0.01400 0.00980 0.00110 0.00220 -0.00120
+O-H2 0.01000 0.01600 0.01270 -0.00080 0.00010 0.00240
+Wat1 0.01800 0.02600 0.01900 0.00400 0.00190 0.00590
+Wat2 0.01100 0.01900 0.01800 0.00200 -0.00060 0.00290
+Wat3 0.02600 0.01700 0.02100 0.00310 0.00900 0.00720
+Wat4 0.02200 0.03000 0.01500 -0.00030 0.00160 0.00600
+Wat5 0.02400 0.02000 0.02300 0.00030 -0.00040 0.00480
+Wat6 0.02100 0.02100 0.03200 0.00070 -0.00100 0.00330
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mn 0.58986 0.42095 0.35167 0.97000 0.01400 Mn 0
+Ca 0.58986 0.42095 0.35167 0.03000 0.01400 Ca 0
+Al1 0.00000 0.50000 0.00000 1.00000 0.01120 Al 0
+Al2 0.00000 0.00000 0.50000 1.00000 0.01480 Al 0
+Al3 0.80300 0.71886 0.18610 1.00000 0.01170 Al 0
+P1 0.89520 0.73003 0.70870 1.00000 0.01190 P 0
+P2 0.66781 0.44768 0.92400 1.00000 0.01260 P 0
+O1 0.80240 0.69140 0.48460 1.00000 0.01410 O 0
+O2 0.80370 0.74580 0.88150 1.00000 0.01440 O 0
+O3 0.99000 0.86150 0.69820 1.00000 0.01530 O 0
+O4 0.98800 0.62410 0.77210 1.00000 0.01430 O 0
+O5 0.81150 0.42340 0.89440 1.00000 0.01410 O 0
+O6 0.59310 0.32680 0.02060 1.00000 0.01570 O 0
+O7 0.58760 0.47840 0.69700 1.00000 0.01530 O 0
+O8 0.67630 0.56080 0.10760 1.00000 0.01360 O 0
+O-H1 0.90880 0.88700 0.25600 1.00000 0.01380 O 1
+O-H2 0.95010 0.61970 0.20100 1.00000 0.01330 O 1
+Wat1 0.82600 0.03550 0.55980 1.00000 0.02110 O 2
+Wat2 0.63660 0.79860 0.17740 1.00000 0.01620 O 2
+Wat3 0.44910 0.23380 0.37930 1.00000 0.02010 O 2
+Wat4 0.77940 0.34860 0.45040 1.00000 0.02230 O 2
+Wat5 0.80030 0.14610 0.95190 1.00000 0.02260 O 2
+Wat6 0.61920 0.05910 0.22460 1.00000 0.02530 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:58:00+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0020871

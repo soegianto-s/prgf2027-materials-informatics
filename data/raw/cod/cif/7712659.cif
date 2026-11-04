@@ -1,0 +1,258 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-03-23 01:59:02 +0200 (Thu, 23 Mar 2023) $
+#$Revision: 281989 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/7/71/26/7712659.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7712659
+loop_
+_publ_author_name
+'Wang, Rongrong'
+'Zhang, Jing'
+'Liu, Yijia'
+'Li, Guihua'
+'Cai, Gemei'
+_publ_section_title
+;
+ Anti-thermal Quenching Phosphors Based on the New Phosphate Host
+ Ca3.6In3.6(PO4)6
+;
+_journal_name_full               'Dalton Transactions'
+_journal_paper_doi               10.1039/D2DT03642H
+_journal_year                    2023
+_chemical_formula_structural     'In3.6 Ca3.6 (P O4)6'
+_chemical_formula_sum            'Ca3.6 In3.6 O24 P6'
+_chemical_formula_weight         1127.46
+_chemical_name_common            'Calcium Indium Oxide Phosphate'
+_space_group_IT_number           2
+_space_group_name_Hall           '-P 1'
+_space_group_name_H-M_alt        'P -1'
+_symmetry_cell_setting           triclinic
+_symmetry_Int_Tables_number      2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_audit_update_record
+;
+2023-02-11 deposited with the CCDC.	2023-03-22 downloaded from the CCDC.
+;
+_cell_angle_alpha                110.9441(7)
+_cell_angle_beta                 101.3650(8)
+_cell_angle_gamma                108.2350(8)
+_cell_formula_units_Z            1
+_cell_length_a                   6.49535(8)
+_cell_length_b                   9.21284(13)
+_cell_length_c                   9.26081(12)
+_cell_measurement_temperature    298
+_cell_volume                     460.795(12)
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      298
+_diffrn_detector                 'scintillation counter'
+_diffrn_measurement_device_type  'PANalytical X'Pert Pro'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.5418
+_diffrn_source                   'rotating-anode x-ray tube'
+_diffrn_source_target            Cu
+_exptl_crystal_density_diffrn    4.063
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             530.4
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.016711
+_pd_meas_2theta_range_max        129.99190
+_pd_meas_2theta_range_min        5.00836
+_pd_meas_number_of_points        7480
+_pd_meas_scan_method             step
+_pd_prep_temperature             1148
+_pd_proc_2theta_range_inc        0.016711
+_pd_proc_2theta_range_max        130.0262
+_pd_proc_2theta_range_min        5.0426
+_pd_proc_ls_pref_orient_corr     ' ?'
+_pd_proc_ls_prof_R_factor        2.6080
+_pd_proc_ls_prof_wR_expected     1.6000
+_pd_proc_ls_prof_wR_factor       3.5875
+_pd_proc_wavelength              1.540560
+_pd_spec_mounting                ' ?'
+_refine_ls_number_parameters     166
+_refine_ls_number_reflns         3253
+_refine_ls_number_restraints     17
+_refine_ls_R_I_factor            4.3100
+_cod_data_source_file            d2dt03642h2.cif
+_cod_data_source_block           CIP335
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_geom_angle_publ_flag' value 'YES' was changed to 'yes' in
+accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26 (18 times).
+
+data item '_geom_bond_publ_flag' value 'YES' was changed to 'yes' in
+accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26 (39 times).
+
+data item '_symmetry_cell_setting' value 'Triclinic' was changed to
+'triclinic' in accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 7556 2019-12-06 15:28:31Z antanas 
+;
+_cod_original_cell_volume        460.794(11)
+_cod_original_formula_sum        'In3.6 Ca3.6 P6 O24'
+_cod_database_code               7712659
+_pd_proc_ls_prof_cr_factor       11.6961
+_pd_proc_ls_prof_cwr_factor      11.3040
+_pd_proc_ls_prof_cwr_expected    5.0415
+_pd_proc_ls_prof_chi2            5.0275
+_pd_proc_ls_prof_echi2           5.3392
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+O1 0.1393(16) 0.7098(15) 0.0460(14) 0.00000 1.00000 Uiso O
+O2 0.4029(20) 0.1862(15) 0.3989(10) 0.01349 1.00000 Uiso O
+O3 1.1045(16) 0.7680(12) -0.4455(11) 0.00770 1.00000 Uiso O
+O4 0.0429(17) 0.0105(14) 0.2108(15) 0.02097 1.00000 Uiso O
+O5 0.991(2) 0.5041(14) -0.6824(14) 0.00367 1.00000 Uiso O
+O6 0.877(3) 0.7341(16) -0.6817(16) 0.02782 1.00000 Uiso O
+O7 0.426(3) 0.8298(16) 0.3106(11) 0.08883 1.00000 Uiso O
+O8 0.376(2) 0.0555(15) 0.0961(13) 0.00413 1.00000 Uiso O
+O9 0.221(2) 0.2876(7) 0.1867(5) 0.02841 1.00000 Uiso O
+O10 0.5371(17) 0.7674(16) 0.0708(14) 0.00913 1.00000 Uiso O
+O11 0.6857(12) 0.5366(17) -0.5682(13) 0.04602 1.00000 Uiso O
+O12 0.636(2) 0.4480(12) -0.1407(9) 0.01617 1.00000 Uiso O
+P1 0.2633(9) 0.1331(7) 0.2193(6) 0.00367 1.00000 Uiso P
+P2 0.9057(9) 0.6276(6) -0.5953(6) 0.00763 1.00000 Uiso P
+P3 0.3523(9) 0.7072(7) 0.1344(6) 0.00962 1.00000 Uiso P
+Ca1 0.2284(8) 0.8262(6) 0.8447(6) 0.02103 1.00000 Uiso Ca
+Ca2 0.2583(20) 0.9916(19) 0.4851(18) 0.20709 0.80000 Uiso Ca
+In1 0.8285(3) 0.7258(2) 0.0659(2) 0.02375 1.00000 Uiso In
+In2 0.6469(3) 0.4406(3) -0.3819(2) 0.00840 0.80000 Uiso In
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+o 3.04850 13.27710 2.28680 5.70110 1.54630 0.32390 0.86700 32.90890 0.25080
+0.04700 0.03200
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+p 6.43450 1.90670 4.17910 27.15700 1.78000 0.52600 1.49080 68.16450 1.11490
+0.28300 0.43400
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+ca 8.62660 10.44210 7.38730 0.65990 1.58990 85.74840 1.02110 178.43700 1.37510
+0.34100 1.28600
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+in 19.16240 0.54760 18.55960 6.37760 4.29480 25.84990 2.03960 92.80290 4.93910
+-0.12600 5.04500
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O4 P1 O2 1_555 1_555 1_555 96.852(754) yes
+O4 P1 O8 1_555 1_555 1_555 115.694(791) yes
+O4 P1 O9 1_555 1_555 1_555 109.597(702) yes
+O2 P1 O8 1_555 1_555 1_555 112.154(598) yes
+O2 P1 O9 1_555 1_555 1_555 114.847(577) yes
+O8 P1 O9 1_555 1_555 1_555 107.639(671) yes
+O5 P2 O3 1_555 1_555 1_555 107.165(682) yes
+O5 P2 O6 1_555 1_555 1_555 111.096(911) yes
+O5 P2 O11 1_555 1_555 1_555 110.708(745) yes
+O3 P2 O6 1_555 1_555 1_555 97.776(727) yes
+O3 P2 O11 1_555 1_555 1_555 116.955(700) yes
+O6 P2 O11 1_555 1_555 1_555 113.317(894) yes
+O1 P3 O12 1_555 1_555 2_665 123.382(790) yes
+O1 P3 O10 1_555 1_555 1_555 109.648(769) yes
+O1 P3 O7 1_555 1_555 1_555 107.198(707) yes
+O12 P3 O10 2_665 1_555 1_555 104.033(821) yes
+O12 P3 O7 2_665 1_555 1_555 103.607(734) yes
+O10 P3 O7 1_555 1_555 1_555 108.123(740) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+P1 O4 1_555 1_555 1.4871 yes
+P1 O2 1_555 1_555 1.5408 yes
+P1 O8 1_555 1_555 1.5564 yes
+P1 O9 1_555 1_555 1.6468 yes
+P2 O5 1_555 1_555 1.4720 yes
+P2 O3 1_555 1_555 1.4936 yes
+P2 O6 1_555 1_555 1.5015 yes
+P2 O11 1_555 1_555 1.5329 yes
+P3 O1 1_555 1_555 1.4742 yes
+P3 O12 1_555 2_665 1.4763 yes
+P3 O10 1_555 1_555 1.4802 yes
+P3 O7 1_555 1_555 1.4845 yes
+In1 O10 1_555 1_555 2.0511 yes
+In1 O1 1_555 1_655 2.1082 yes
+In1 O9 1_555 2_665 2.2501 yes
+In1 O4 1_555 1_665 2.2541 yes
+In1 O6 1_555 1_556 2.2662 yes
+In1 O12 1_555 1_555 2.3082 yes
+In2 O5 1_555 2_764 2.1511 yes
+In2 O11 1_555 2_664 2.2101 yes
+In2 O11 1_555 1_555 2.2238 yes
+In2 O12 1_555 1_555 2.2261 yes
+In2 O9 1_555 2_665 2.2544 yes
+In2 O2 1_555 1_554 2.2653 yes
+Ca1 O8 1_555 1_566 2.2669 yes
+Ca1 O8 1_555 2_666 2.3143 yes
+Ca1 O3 1_555 1_456 2.4505 yes
+Ca1 O1 1_555 1_556 2.5350 yes
+Ca1 O5 1_555 2_665 2.5927 yes
+Ca1 O9 1_555 2_566 2.6901 yes
+Ca1 O4 1_555 2_566 2.7364 yes
+Ca1 O10 1_555 1_556 2.9213 yes
+Ca2 O7 1_555 2_676 2.1507 yes
+Ca2 O2 1_555 1_565 2.2357 yes
+Ca2 O3 1_555 1_456 2.3593 yes
+Ca2 O7 1_555 1_555 2.4511 yes
+Ca2 O6 1_555 1_456 2.5186 yes
+Ca2 O4 1_555 1_565 2.7402 yes
+Ca2 O6 1_555 2_675 3.0339 yes
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_1
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+? ? ? ? ? ?

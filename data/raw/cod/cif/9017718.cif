@@ -1,0 +1,146 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/77/9017718.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017718
+loop_
+_publ_author_name
+'Grey, I. E.'
+'Hochleitner, R.'
+'Rewitzer, C.'
+'Riboldi-Tunnicliffe A'
+'Kampf, A. R.'
+'MacRae, C. M.'
+'Mumme, W. G.'
+'Kaliwoda, M.'
+'Friis, H.'
+'Martin, C. U.'
+_publ_section_title
+;
+ The walentaite group and the description of a new member, alcantarillaite,
+ from the Alcantarilla mine, Belalcazar, Cordoba, Andalusia, Spain
+;
+_journal_name_full               'Mineralogical Magazine'
+_journal_page_first              412
+_journal_page_last               419
+_journal_volume                  84
+_journal_year                    2020
+_chemical_compound_source        'Alcantarilla mine, Cordoba, Andalusia, Spain'
+_chemical_formula_sum
+'As3.44 Ca0.68 Fe3.066 H8.352 O19.356 P0.48 W0.448'
+_chemical_name_mineral           Alcantarillaite
+_space_group_IT_number           74
+_space_group_name_Hall           '-I 2b 2'
+_space_group_name_H-M_alt        'I m m a'
+_symmetry_space_group_name_H-M   'I m m a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   24.038
+_cell_length_b                   7.444
+_cell_length_c                   10.387
+_cell_volume                     1858.638
+_database_code_amcsd             0020949
+_exptl_crystal_density_diffrn    3.115
+_cod_data_source_file            inputs/fixed/downloads/18/18625.cif
+_cod_data_source_block           18625
+_cod_original_formula_sum
+'Fe3.066 W.448 As3.44 P.48 O19.356 Ca.68 H8.352'
+_cod_database_code               9017718
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,1/2+z
+x,1/2-y,z
+1/2+x,-y,1/2+z
+-x,1/2+y,-z
+1/2-x,+y,1/2-z
+-x,y,z
+1/2-x,1/2+y,1/2+z
+x,-y,-z
+1/2+x,1/2-y,1/2-z
+x,1/2+y,-z
+1/2+x,+y,1/2-z
+-x,1/2-y,z
+1/2-x,-y,1/2+z
+-x,-y,-z
+1/2-x,1/2-y,1/2-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Fe1 0.08900 0.03600 0.05300 0.00000 0.00410 0.00000
+Fe2 0.08800 0.03500 0.05700 0.00000 0.00000 -0.00170
+W2 0.08800 0.03500 0.05700 0.00000 0.00000 -0.00170
+As1 0.09100 0.04130 0.05500 0.00000 0.00260 0.00000
+P1 0.09100 0.04130 0.05500 0.00000 0.00260 0.00000
+O1 0.09200 0.09100 0.10100 0.00000 0.03000 0.00000
+O2 0.07700 0.06600 0.06700 0.00000 0.00100 0.00000
+O3 0.12100 0.04300 0.05500 -0.00400 0.00200 -0.00200
+O5 0.06200 0.04400 0.08200 0.00000 0.00400 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Fe1 0.25000 0.25000 0.25000 1.00000 0.05930 Fe 0
+Fe2 0.33390 0.50000 0.50000 0.77500 0.06000 Fe 0
+W2 0.31550 0.51900 0.49500 0.11200 0.06000 W 0
+As1 0.38593 0.25000 0.28000 0.76000 0.06260 As 0
+P1 0.38593 0.25000 0.28000 0.24000 0.06260 P 0
+O1 0.44190 0.25000 0.18720 1.00000 0.09500 O 0
+O2 0.32790 0.25000 0.19390 1.00000 0.07000 O 0
+O3 0.38560 0.43150 0.37270 1.00000 0.07300 O 0
+O4a 0.27620 0.55900 0.62170 0.50000 0.05200 O 0
+O4b 0.25560 0.56200 0.61860 0.50000 0.05200 O 0
+O5 0.32740 0.25000 0.57190 1.00000 0.06300 O 0
+As2 0.21230 0.02610 0.51310 0.26400 0.05900 As 0
+As3 0.27160 0.30760 0.69200 0.21600 0.06700 As 0
+Ca 0.17590 0.00000 0.50000 0.34000 0.08400 Ca 0
+Fe3 0.50000 0.36080 0.10820 0.25800 0.06300 Fe 0
+O6 0.20560 0.25000 0.60630 0.59000 0.06110 O 0
+Wat1 0.50000 0.55400 0.26100 0.25800 0.06300 O 2
+Wat2 0.55810 0.50000 0.00000 0.52000 0.06300 O 2
+Wat3 0.08600 0.25000 0.69700 0.36000 0.13900 O 2
+Wat4 0.05900 0.25000 0.89100 0.36000 0.13900 O 2
+Wat5 0.00000 0.08800 0.01400 0.15000 0.13900 O 2
+Wat6 0.06055 0.25000 0.75991 0.44000 0.13900 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:58:39+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0020949

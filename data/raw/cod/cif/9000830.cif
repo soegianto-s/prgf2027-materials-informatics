@@ -1,0 +1,123 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-04-18 18:56:43 +0300 (Thu, 18 Apr 2024) $
+#$Revision: 291269 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/08/9000830.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000830
+loop_
+_publ_author_name
+'Moore, P. B.'
+'Araki, T.'
+'Merlino, S.'
+'Mellini, M.'
+'Zanazzi, P. F.'
+_publ_section_title
+;
+ The arrojadite-dickinsonite series, KNa4Ca(Fe,Mn)14Al(OH)2(PO4)12:
+ Crystal structure and crystal chemistry
+ sample NP
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1034
+_journal_page_last               1049
+_journal_volume                  66
+_journal_year                    1981
+_chemical_compound_source
+'Nickel Plate mine, Keystone, South Dakota, USA'
+_chemical_formula_sum            'Al Ca F2 Fe14 K Na4 O48 P12'
+_chemical_name_mineral           Arrojadite-(KFe)
+_space_group_IT_number           15
+_symmetry_space_group_name_Hall  '-A 2ya'
+_symmetry_space_group_name_H-M   'A 1 2/a 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 105.78
+_cell_angle_gamma                90
+_cell_length_a                   24.730
+_cell_length_b                   10.057
+_cell_length_c                   16.526
+_cell_formula_units_Z            4
+_cell_volume                     3955.275
+_database_code_amcsd             0000847
+_exptl_crystal_density_diffrn    3.623
+_cod_original_cell_volume        3955.274
+_cod_original_formula_sum        'Al Fe14 Ca Na4 K P12 O48 F2'
+_cod_database_code               9000830
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2+y,1/2+z
+1/2+x,-y,z
+1/2+x,1/2-y,1/2+z
+1/2-x,y,-z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+-x,1/2-y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Al1 0.00000 0.50000 0.00000 1.00000
+Fe1 0.47380 0.89570 0.22020 1.00000
+Fe2 0.26740 0.00780 0.21230 1.00000
+Fe3 0.13940 0.01420 0.10660 1.00000
+Fe4 0.40360 0.24960 0.02220 1.00000
+Fe5 0.40040 0.74340 0.03340 1.00000
+Fe6 0.35170 0.69920 0.20440 1.00000
+Fe7 0.34320 0.29450 0.21930 1.00000
+Ca1 0.48480 0.22230 0.23220 0.50000
+Na1 0.12020 0.51500 0.12890 1.00000
+Na2 0.00000 0.00000 0.00000 0.50000
+Na3 0.25000 0.14600 0.00000 0.50000
+Na4 0.45670 0.94170 0.20770 0.50000
+K 0.25000 0.50430 0.00000 1.00000
+P1 0.36620 0.00850 0.11300 0.50000
+P2 0.33540 0.99480 0.07990 0.50000
+P3 0.42460 0.46700 0.13030 1.00000
+P4 0.03850 0.25180 0.12590 1.00000
+P5 0.04740 0.76730 0.10230 1.00000
+P6 0.21150 0.72410 0.13040 1.00000
+P7 0.20450 0.29720 0.14250 1.00000
+O1 0.36750 0.06140 0.02500 1.00000
+O2 0.36350 -0.14160 0.11200 1.00000
+O3 0.32200 0.07700 0.14260 0.50000
+O4 0.42220 0.04620 0.18070 0.50000
+O5 0.27200 0.96780 0.02340 0.50000
+O6 0.42220 0.04620 0.18070 0.50000
+O7 0.44500 0.44480 0.05010 1.00000
+O8 0.39240 0.58790 0.12130 1.00000
+O9 0.38710 0.34450 0.13010 1.00000
+O10 0.47330 0.46370 0.21030 1.00000
+O11 0.07510 0.16640 0.08420 1.00000
+O12 0.03600 0.39510 0.09410 1.00000
+O13 -0.02060 0.18910 0.10780 1.00000
+O14 0.06230 0.25330 0.22240 1.00000
+O15 0.04820 0.64280 0.04670 1.00000
+O16 0.07940 0.87190 0.06520 1.00000
+O17 -0.01260 -0.81390 0.09610 1.00000
+O18 0.07700 0.73570 0.19390 1.00000
+O19 0.17030 0.67850 0.04840 1.00000
+O20 0.27030 0.67810 0.13150 1.00000
+O21 0.20880 0.87730 0.13950 1.00000
+O22 0.19380 0.66040 0.20440 1.00000
+O23 0.16530 0.34020 0.05830 1.00000
+O24 0.26320 0.35090 0.15160 1.00000
+O25 0.20520 0.14470 0.14890 1.00000
+O26 0.18240 0.35410 0.21560 1.00000
+F 0.13830 0.00130 0.23150 1.00000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000847

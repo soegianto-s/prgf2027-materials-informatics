@@ -1,0 +1,138 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-05-29 17:00:33 +0300 (Wed, 29 May 2024) $
+#$Revision: 292100 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/76/9017674.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017674
+loop_
+_publ_author_name
+'Pekov, I. V.'
+'Zubkova, N. V.'
+'Yapaskurt, V. O.'
+'Belakovskiy, D. I.'
+'Lykova, I. S.'
+'Vigasina, M. F.'
+'Sidorov, E. G.'
+'Pushcharovsky, D. Y.'
+_publ_section_title
+;
+ New arsenate minerals from the Arsenatnaya fumarole, Tolbachik volcano,
+ Kamchatka, Russia. I. Yurmarinite, Na7(Fe3+,Mg,Cu)4(AsO4)6
+;
+_journal_name_full               'Mineralogical Magazine'
+_journal_page_first              905
+_journal_page_last               917
+_journal_volume                  78
+_journal_year                    2014
+_chemical_compound_source
+'Arsenatnaya fumarole, Tolbachik volcano, Kamchatka, Russia'
+_chemical_formula_sum
+'Al0.23 As5.94 Ca0.28 Cu0.48 Fe2.48 K0.22 Mg0.7 Mn0.01 Na6.55 O24 P0.02 Ti0.01 V0.01 Zn0.14'
+_chemical_name_mineral           Yurmarinite
+_space_group_IT_number           167
+_space_group_name_Hall           '-R 3 2"c'
+_space_group_name_H-M_alt        'R -3 c :H'
+_symmetry_space_group_name_H-M   'R -3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_length_a                   13.7444
+_cell_length_b                   13.7444
+_cell_length_c                   18.3077
+_cell_formula_units_Z            6
+_cell_volume                     2995.132
+_database_code_amcsd             0020582
+_exptl_crystal_density_diffrn    4.002
+_cod_data_source_file            inputs/fixed/downloads/18/18581.cif
+_cod_data_source_block           18581
+_cod_original_sg_symbol_H-M      'R -3 c'
+_cod_original_formula_sum
+'Na6.55 Ca.28 K.22 Fe2.48 Mg.7 Cu.48 Al.23 Zn.14 Ti.01 Mn.01 As5.94 P.02 V.01 O24'
+_cod_database_code               9017674
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,1/2+z
+2/3+x,1/3+x-y,5/6+z
+1/3+x,2/3+x-y,1/6+z
+y,x,1/2-z
+2/3+y,1/3+x,5/6-z
+1/3+y,2/3+x,1/6-z
+-x+y,y,1/2+z
+2/3-x+y,1/3+y,5/6+z
+1/3-x+y,2/3+y,1/6+z
+-x,-x+y,1/2-z
+2/3-x,1/3-x+y,5/6-z
+1/3-x,2/3-x+y,1/6-z
+-y,-x,1/2+z
+2/3-y,1/3-x,5/6+z
+1/3-y,2/3-x,1/6+z
+x-y,-y,1/2-z
+2/3+x-y,1/3-y,5/6-z
+1/3+x-y,2/3-y,1/6-z
+y,-x+y,-z
+2/3+y,1/3-x+y,1/3-z
+1/3+y,2/3-x+y,2/3-z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+-x,-y,-z
+2/3-x,1/3-y,1/3-z
+1/3-x,2/3-y,2/3-z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+x-y,x,-z
+2/3+x-y,1/3+x,1/3-z
+1/3+x-y,2/3+x,2/3-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Na1 0.00000 0.00000 0.00000 0.93570 0.00770
+Ca1 0.00000 0.00000 0.00000 0.04000 0.00770
+K1 0.00000 0.00000 0.00000 0.03140 0.00770
+Na2 0.78711 0.01548 0.05276 0.93570 0.02630
+Ca2 0.78711 0.01548 0.05276 0.04000 0.02630
+K2 0.78711 0.01548 0.05276 0.03140 0.02630
+Fe1 0.00000 0.00000 0.25000 0.62000 0.00800
+Mg1 0.00000 0.00000 0.25000 0.17500 0.00800
+Cu1 0.00000 0.00000 0.25000 0.12000 0.00800
+Al1 0.00000 0.00000 0.25000 0.05750 0.00800
+Zn1 0.00000 0.00000 0.25000 0.03500 0.00800
+Ti1 0.00000 0.00000 0.25000 0.00250 0.00800
+Mn1 0.00000 0.00000 0.25000 0.00250 0.00800
+Fe2 0.77801 0.00000 0.25000 0.62000 0.00892
+Mg2 0.77801 0.00000 0.25000 0.17500 0.00892
+Cu2 0.77801 0.00000 0.25000 0.12000 0.00892
+Al2 0.77801 0.00000 0.25000 0.05750 0.00892
+Zn2 0.77801 0.00000 0.25000 0.03500 0.00892
+Ti2 0.77801 0.00000 0.25000 0.00250 0.00892
+Mn2 0.77801 0.00000 0.25000 0.00250 0.00892
+As 0.18108 -0.01128 0.14596 0.99000 0.00890
+P 0.18108 -0.01128 0.14596 0.00330 0.00890
+V 0.18108 -0.01128 0.14596 0.00170 0.00890
+O1 0.52485 0.06215 0.15330 1.00000 0.01640
+O2 0.71532 0.06116 0.17686 1.00000 0.01580
+O3 0.59857 0.19631 0.02568 1.00000 0.01220
+O4 0.01471 0.15464 0.06052 1.00000 0.02060
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0020582

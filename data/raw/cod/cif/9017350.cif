@@ -1,0 +1,135 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/73/9017350.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017350
+loop_
+_publ_author_name
+'Morrison, S. M.'
+'Domanik, K. J.'
+'Origlieri, M. J.'
+'Downs, R. T.'
+_publ_section_title
+;
+ Agardite-(Y), Cu2+6Y(AsO4)3(OH)6*3H2O
+;
+_journal_name_full               'Acta Crystallographica, Section E'
+_journal_page_first              i61
+_journal_page_last               i62
+_journal_volume                  69
+_journal_year                    2013
+_chemical_compound_source
+'Jote West mine, Pampa Larga Mining District, Copiapo, Chile'
+_chemical_formula_sum
+'As2.484 Ca0.43 Cu6 Dy0.01 Er0.02 H12.002 Ho0.01 O21.001 P0.516 Y0.52 Yb0.01'
+_chemical_name_mineral           Agardite-(Y)
+_space_group_IT_number           176
+_space_group_name_Hall           '-P 6c'
+_space_group_name_H-M_alt        'P 63/m'
+_symmetry_space_group_name_H-M   'P 63/m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   13.5059
+_cell_length_b                   13.5059
+_cell_length_c                   5.8903
+_cell_volume                     930.497
+_database_code_amcsd             0019941
+_exptl_crystal_density_diffrn    3.581
+_cod_data_source_file            inputs/fixed/downloads/12/12207.cif
+_cod_data_source_block           12207
+_cod_original_formula_sum
+'Cu6 (Y.52 Er.02 Dy.01 Yb.01 Ho.01 Ca.43) (As2.484 P.516) O21.001 H12.002'
+_cod_database_code               9017350
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x+y,-x,1/2-z
+x-y,x,1/2+z
+y,-x+y,-z
+-y,x-y,z
+x,y,1/2-z
+-x,-y,1/2+z
+x-y,x,-z
+-x+y,-x,z
+-y,x-y,1/2-z
+y,-x+y,1/2+z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Cu 0.01830 0.01532 0.00424 0.01134 0.00056 0.00033
+Y 0.01012 0.01012 0.00475 0.00506 0.00000 0.00000
+Er 0.01012 0.01012 0.00475 0.00506 0.00000 0.00000
+Dy 0.01012 0.01012 0.00475 0.00506 0.00000 0.00000
+Yb 0.01012 0.01012 0.00475 0.00506 0.00000 0.00000
+Ho 0.01012 0.01012 0.00475 0.00506 0.00000 0.00000
+Ca 0.01012 0.01012 0.00475 0.00506 0.00000 0.00000
+As 0.01157 0.00857 0.00544 0.00478 0.00000 0.00000
+P 0.01157 0.00857 0.00544 0.00478 0.00000 0.00000
+O1 0.01849 0.02148 0.01102 0.01185 0.00389 0.00233
+O2 0.02911 0.02520 0.00878 0.02021 0.00000 0.00000
+O3 0.02480 0.01971 0.01249 0.01318 0.00000 0.00000
+O-H4 0.02666 0.02297 0.00889 0.01697 0.00000 0.00000
+O-H5 0.04174 0.02568 0.01082 0.02290 0.00000 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Cu 0.41303 0.31598 0.50234 1.00000 0.01132 Cu 0
+Y 0.66667 0.33333 0.25000 0.52000 0.00830 Y 0
+Er 0.66667 0.33333 0.25000 0.02000 0.00830 Er 0
+Dy 0.66667 0.33333 0.25000 0.01000 0.00830 Dy 0
+Yb 0.66667 0.33333 0.25000 0.01000 0.00830 Yb 0
+Ho 0.66667 0.33333 0.25000 0.01000 0.00830 Ho 0
+Ca 0.66667 0.33333 0.25000 0.43000 0.00833 Ca 0
+As 0.49505 0.15100 0.75000 0.82800 0.00864 As 0
+P 0.49505 0.15100 0.75000 0.17200 0.00864 P 0
+O1 0.57388 0.18198 0.51825 1.00000 0.01617 O 0
+O2 0.39187 0.40074 0.25000 1.00000 0.01808 O 0
+O3 0.41239 0.21229 0.75000 1.00000 0.01809 O 0
+O-H4 0.36879 0.37679 0.75000 1.00000 0.01748 O 1
+O-H5 0.44213 0.24557 0.25000 1.00000 0.02340 O 1
+Wat1 0.13381 0.17032 0.25000 0.76800 0.22229 O 2
+Wat2 0.00000 0.00000 0.50000 0.69700 1.35578 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:58:08+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0019941

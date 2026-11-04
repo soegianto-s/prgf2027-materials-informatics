@@ -1,0 +1,103 @@
+#------------------------------------------------------------------------------
+#$Date: 2025-11-01 14:29:51 +0200 (Sat, 01 Nov 2025) $
+#$Revision: 303136 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/05/9000572.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000572
+loop_
+_publ_author_name
+'Moore, P. B.'
+'Araki, T.'
+_publ_section_title
+;
+ Overite, segelerite, and jahnsite: a study in combinatorial polymorphism
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              692
+_journal_page_last               702
+_journal_volume                  62
+_journal_year                    1977
+_chemical_formula_sum            'Ca Fe H9 Mg O13 P2'
+_chemical_name_mineral           Segelerite
+_space_group_IT_number           61
+_symmetry_space_group_name_Hall  '-P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P b c a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   14.826
+_cell_length_b                   18.751
+_cell_length_c                   7.307
+_cell_volume                     2031.363
+_database_code_amcsd             0000583
+_exptl_crystal_density_diffrn    2.608
+_cod_original_formula_sum        'Ca Mg Fe P2 O13 H9'
+_cod_database_code               9000572
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+1/2-x,1/2+y,z
+1/2+x,1/2-y,-z
+1/2+x,y,1/2-z
+1/2-x,-y,1/2+z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.00860 0.24690 0.24420 0.01684 Ca 0
+Mg 0.12640 0.50090 0.75220 0.01444 Mg 0
+Fe 0.25930 0.24860 0.24210 0.00811 Fe 0
+P1 0.39670 0.34970 0.49140 0.01001 P 0
+P2 0.12250 0.35150 0.50750 0.00887 P 0
+O1 0.34970 0.32120 0.66580 0.01583 O 0
+O2 0.36680 0.30760 0.32170 0.00963 O 0
+O3 0.49920 0.33260 0.50370 0.01621 O 0
+O4 0.38210 0.42810 0.48690 0.01545 O 0
+O5 0.15360 0.30890 0.68240 0.01406 O 0
+O6 0.17030 0.32550 0.33660 0.02064 O 0
+O7 0.02030 0.33000 0.49050 0.01672 O 0
+O8 0.14000 0.43140 0.54310 0.00773 O 0
+O-H 0.25770 0.29670 0.00510 0.01621 O 1
+Wat1 0.26810 0.50860 0.75510 0.01456 O 2
+Wat2 -0.01140 0.49130 0.74050 0.02318 O 2
+Wat3 0.13250 0.42180 0.95670 0.01153 O 2
+Wat4 0.11910 0.58100 0.55040 0.02026 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:46:27+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000583
+2 ROD 1000096
+3 ROD 1000272

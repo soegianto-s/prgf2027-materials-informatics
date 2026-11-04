@@ -1,0 +1,383 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-06-20 12:08:03 +0300 (Mon, 20 Jun 2016) $
+#$Revision: 183806 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/4/11/57/4115722.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4115722
+loop_
+_publ_author_name
+'Konstantinos D. Demadis'
+'John D. Sallis'
+'Raphael G. Raptis'
+'Peter Baran'
+_publ_section_title
+;
+ A Crystallographically Characterized Nine-Coordinate
+ Calcium-Phosphocitrate Complex as Calcification Inhibitor in Vivo
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              10129
+_journal_page_last               10130
+_journal_paper_doi               10.1021/ja016384q
+_journal_volume                  123
+_journal_year                    2001
+_chemical_formula_moiety         {NaCa(phosphocitrate)2(H2O)}n
+_chemical_formula_sum            'C12 H17 Ca Na O21 P2'
+_chemical_formula_weight         622.26
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 107.877(2)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   22.331(3)
+_cell_length_b                   7.9655(10)
+_cell_length_c                   13.2329(16)
+_cell_measurement_temperature    301(2)
+_cell_volume                     2240.2(5)
+_computing_cell_refinement       'BRUKER SMART-NT V5.0'
+_computing_data_collection       'BRUKER SMART-NT V5.0'
+_computing_data_reduction        'BRUKER SAINT-NT V5/6.0'
+_computing_molecular_graphics    'BRUKER SHELXTL-NT V5.1'
+_computing_publication_material  'BRUKER SHELXTL-NT V5.1'
+_computing_structure_refinement  'BRUKER SHELXTL-NT V5.1'
+_computing_structure_solution    'BRUKER SHELXTL-NT V5.1'
+_diffrn_ambient_temperature      301(2)
+_diffrn_measured_fraction_theta_full 0.997
+_diffrn_measured_fraction_theta_max 0.997
+_diffrn_measurement_device_type  'Bruker AXS SMART CCD area detector'
+_diffrn_measurement_method       'phi and omega scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0222
+_diffrn_reflns_av_sigmaI/netI    0.0177
+_diffrn_reflns_limit_h_max       24
+_diffrn_reflns_limit_h_min       -20
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -14
+_diffrn_reflns_number            4751
+_diffrn_reflns_theta_full        23.27
+_diffrn_reflns_theta_max         23.27
+_diffrn_reflns_theta_min         2.73
+_exptl_absorpt_coefficient_mu    0.546
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.845
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             1272
+_exptl_crystal_size_max          0.18
+_exptl_crystal_size_mid          0.18
+_exptl_crystal_size_min          0.16
+_refine_diff_density_max         0.254
+_refine_diff_density_min         -0.365
+_refine_diff_density_rms         0.053
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.072
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     173
+_refine_ls_number_reflns         1612
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.072
+_refine_ls_R_factor_all          0.0303
+_refine_ls_R_factor_gt           0.0277
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0471P)^2^+2.3511P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0753
+_refine_ls_wR_factor_ref         0.0770
+_reflns_number_gt                1478
+_reflns_number_total             1612
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ja016384q_s2.cif
+_cod_data_source_block           rgr018
+_cod_original_formula_sum        'C6 H8.50 Ca0.50 Na0.50 O10.50 P'
+_cod_database_code               4115722
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y, z-1/2'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, -y+1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Ca1 Ca 0.5000 0.13634(7) 0.7500 0.02180(19) Uani 1 2 d S
+Na1 Na 0.5000 0.5000 0.5000 0.0377(3) Uani 1 2 d S
+P1 P 0.58714(2) 0.17130(7) 0.59306(4) 0.01857(18) Uani 1 1 d .
+O1 O 0.57993(8) 0.6442(2) 0.63920(16) 0.0451(5) Uani 1 1 d .
+O2 O 0.67432(8) 0.7671(2) 0.68887(18) 0.0517(5) Uani 1 1 d .
+H2O H 0.6543 0.8487 0.6587 0.078 Uiso 1 1 calc R
+O3 O 0.60159(7) 0.0605(2) 0.87648(13) 0.0399(4) Uani 1 1 d .
+O4 O 0.70027(7) 0.0298(2) 0.97835(13) 0.0398(4) Uani 1 1 d .
+H4O H 0.6837 -0.0178 1.0178 0.060 Uiso 1 1 calc R
+O5 O 0.55247(7) 0.3998(2) 0.85437(12) 0.0295(4) Uani 1 1 d .
+O6 O 0.63600(8) 0.5713(2) 0.89903(14) 0.0394(4) Uani 1 1 d .
+H6O H 0.6169 0.6171 0.9354 0.059 Uiso 1 1 calc R
+O7 O 0.58595(6) 0.27298(17) 0.69855(10) 0.0204(3) Uani 1 1 d .
+O8 O 0.52952(7) 0.06103(19) 0.58597(11) 0.0279(4) Uani 1 1 d .
+H8O H 0.5000 0.0000 0.5000 0.033 Uiso 1 2 d SR
+O9 O 0.64812(7) 0.07804(18) 0.61588(11) 0.0271(4) Uani 1 1 d .
+O10 O 0.57416(7) 0.2951(2) 0.50379(11) 0.0302(4) Uani 1 1 d .
+O11 O 0.5000 -0.1635(3) 0.7500 0.0465(7) Uani 1 2 d S
+H1W H 0.5016 -0.2359 0.6995 0.056 Uiso 1 1 d R
+C1 C 0.63617(11) 0.6377(3) 0.67949(18) 0.0279(5) Uani 1 1 d .
+C2 C 0.67222(10) 0.4817(3) 0.72727(17) 0.0239(5) Uani 1 1 d .
+H2A H 0.7103 0.5155 0.7819 0.029 Uiso 1 1 calc R
+H2B H 0.6847 0.4239 0.6725 0.029 Uiso 1 1 calc R
+C3 C 0.63635(10) 0.3577(2) 0.77611(16) 0.0202(5) Uani 1 1 d .
+C4 C 0.68364(10) 0.2308(3) 0.84384(16) 0.0231(5) Uani 1 1 d .
+H4A H 0.7041 0.1741 0.7984 0.028 Uiso 1 1 calc R
+H4B H 0.7158 0.2922 0.8970 0.028 Uiso 1 1 calc R
+C5 C 0.65666(10) 0.0997(3) 0.89933(17) 0.0252(5) Uani 1 1 d .
+C6 C 0.60285(10) 0.4474(3) 0.84719(16) 0.0229(5) Uani 1 1 d .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ca1 0.0173(3) 0.0264(4) 0.0219(3) 0.000 0.0064(3) 0.000
+Na1 0.0307(7) 0.0339(7) 0.0451(8) -0.0021(6) 0.0063(6) 0.0085(6)
+P1 0.0213(3) 0.0183(3) 0.0167(3) 0.0003(2) 0.0067(2) 0.0012(2)
+O1 0.0291(10) 0.0317(10) 0.0646(12) 0.0000(9) -0.0003(9) 0.0030(7)
+O2 0.0320(10) 0.0276(9) 0.0945(16) 0.0231(10) 0.0176(10) 0.0016(8)
+O3 0.0217(9) 0.0446(10) 0.0474(10) 0.0197(8) 0.0019(7) -0.0061(8)
+O4 0.0243(9) 0.0533(11) 0.0373(10) 0.0209(8) 0.0028(7) -0.0051(8)
+O5 0.0245(9) 0.0354(9) 0.0324(8) -0.0111(7) 0.0144(7) -0.0065(7)
+O6 0.0347(10) 0.0411(10) 0.0492(11) -0.0285(8) 0.0230(8) -0.0159(8)
+O7 0.0168(7) 0.0234(7) 0.0210(7) -0.0066(6) 0.0060(6) -0.0023(6)
+O8 0.0283(8) 0.0335(9) 0.0224(8) -0.0065(7) 0.0086(6) -0.0107(7)
+O9 0.0278(9) 0.0267(8) 0.0265(8) -0.0026(6) 0.0080(7) 0.0063(7)
+O10 0.0355(9) 0.0311(8) 0.0278(8) 0.0104(7) 0.0155(7) 0.0079(7)
+O11 0.0671(18) 0.0298(13) 0.0479(15) 0.000 0.0254(14) 0.000
+C1 0.0295(14) 0.0254(12) 0.0311(12) -0.0013(10) 0.0125(10) -0.0013(10)
+C2 0.0213(11) 0.0225(11) 0.0290(11) -0.0005(9) 0.0094(9) -0.0014(9)
+C3 0.0167(10) 0.0210(10) 0.0221(10) -0.0046(8) 0.0048(8) -0.0036(8)
+C4 0.0177(11) 0.0258(11) 0.0251(11) 0.0003(9) 0.0054(9) -0.0035(9)
+C5 0.0224(12) 0.0258(11) 0.0257(11) -0.0003(9) 0.0050(10) -0.0004(9)
+C6 0.0208(12) 0.0237(11) 0.0230(11) -0.0029(9) 0.0051(9) -0.0013(9)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Na Na 0.0362 0.0249 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+P P 0.1023 0.0942 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ca Ca 0.2262 0.3064 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O11 Ca1 O3 75.71(4) . 2_656
+O11 Ca1 O3 75.71(4) . .
+O3 Ca1 O3 151.41(8) 2_656 .
+O11 Ca1 O7 116.07(3) . .
+O3 Ca1 O7 123.69(5) 2_656 .
+O3 Ca1 O7 70.26(5) . .
+O11 Ca1 O7 116.07(3) . 2_656
+O3 Ca1 O7 70.26(5) 2_656 2_656
+O3 Ca1 O7 123.69(5) . 2_656
+O7 Ca1 O7 127.86(7) . 2_656
+O11 Ca1 O8 76.27(4) . 2_656
+O3 Ca1 O8 95.59(6) 2_656 2_656
+O3 Ca1 O8 77.60(5) . 2_656
+O7 Ca1 O8 140.26(5) . 2_656
+O7 Ca1 O8 55.92(4) 2_656 2_656
+O11 Ca1 O8 76.27(4) . .
+O3 Ca1 O8 77.60(5) 2_656 .
+O3 Ca1 O8 95.59(6) . .
+O7 Ca1 O8 55.92(4) . .
+O7 Ca1 O8 140.26(5) 2_656 .
+O8 Ca1 O8 152.53(7) 2_656 .
+O11 Ca1 O5 144.22(4) . .
+O3 Ca1 O5 137.62(6) 2_656 .
+O3 Ca1 O5 70.24(6) . .
+O7 Ca1 O5 61.84(5) . .
+O7 Ca1 O5 76.05(5) 2_656 .
+O8 Ca1 O5 85.91(5) 2_656 .
+O8 Ca1 O5 117.16(5) . .
+O11 Ca1 O5 144.22(4) . 2_656
+O3 Ca1 O5 70.24(6) 2_656 2_656
+O3 Ca1 O5 137.62(6) . 2_656
+O7 Ca1 O5 76.05(5) . 2_656
+O7 Ca1 O5 61.84(5) 2_656 2_656
+O8 Ca1 O5 117.16(5) 2_656 2_656
+O8 Ca1 O5 85.91(5) . 2_656
+O5 Ca1 O5 71.56(7) . 2_656
+O11 Ca1 P1 94.893(14) . 2_656
+O3 Ca1 P1 81.23(4) 2_656 2_656
+O3 Ca1 P1 101.22(4) . 2_656
+O7 Ca1 P1 143.22(4) . 2_656
+O7 Ca1 P1 28.85(3) 2_656 2_656
+O8 Ca1 P1 27.15(3) 2_656 2_656
+O8 Ca1 P1 158.49(3) . 2_656
+O5 Ca1 P1 81.48(4) . 2_656
+O5 Ca1 P1 90.56(4) 2_656 2_656
+O11 Ca1 P1 94.893(14) . .
+O3 Ca1 P1 101.22(4) 2_656 .
+O3 Ca1 P1 81.23(4) . .
+O7 Ca1 P1 28.85(3) . .
+O7 Ca1 P1 143.22(4) 2_656 .
+O8 Ca1 P1 158.49(3) 2_656 .
+O8 Ca1 P1 27.15(3) . .
+O5 Ca1 P1 90.56(4) . .
+O5 Ca1 P1 81.48(4) 2_656 .
+P1 Ca1 P1 170.21(3) 2_656 .
+O10 Na1 O10 180.00(7) . 5_666
+O10 Na1 O1 87.86(6) . .
+O10 Na1 O1 92.14(6) 5_666 .
+O10 Na1 O1 92.14(6) . 5_666
+O10 Na1 O1 87.86(6) 5_666 5_666
+O1 Na1 O1 180.0 . 5_666
+O10 Na1 O5 104.09(5) . 2_656
+O10 Na1 O5 75.91(5) 5_666 2_656
+O1 Na1 O5 88.69(6) . 2_656
+O1 Na1 O5 91.31(6) 5_666 2_656
+O10 Na1 O5 75.91(5) . 6_565
+O10 Na1 O5 104.09(5) 5_666 6_565
+O1 Na1 O5 91.31(6) . 6_565
+O1 Na1 O5 88.69(6) 5_666 6_565
+O5 Na1 O5 180.0 2_656 6_565
+O10 Na1 P1 155.79(4) . 5_666
+O10 Na1 P1 24.21(4) 5_666 5_666
+O1 Na1 P1 96.95(4) . 5_666
+O1 Na1 P1 83.05(4) 5_666 5_666
+O5 Na1 P1 99.74(3) 2_656 5_666
+O5 Na1 P1 80.26(3) 6_565 5_666
+O10 Na1 P1 24.21(4) . .
+O10 Na1 P1 155.79(4) 5_666 .
+O1 Na1 P1 83.05(4) . .
+O1 Na1 P1 96.95(4) 5_666 .
+O5 Na1 P1 80.26(3) 2_656 .
+O5 Na1 P1 99.74(3) 6_565 .
+P1 Na1 P1 180.0 5_666 .
+O10 P1 O9 115.43(9) . .
+O10 P1 O8 111.88(9) . .
+O9 P1 O8 114.90(9) . .
+O10 P1 O7 107.45(8) . .
+O9 P1 O7 109.17(8) . .
+O8 P1 O7 95.93(8) . .
+O10 P1 Ca1 123.31(6) . .
+O9 P1 Ca1 120.79(6) . .
+O8 P1 Ca1 48.60(5) . .
+O7 P1 Ca1 47.50(5) . .
+O10 P1 Na1 39.34(6) . .
+O9 P1 Na1 150.70(6) . .
+O8 P1 Na1 92.54(6) . .
+O7 P1 Na1 76.05(5) . .
+Ca1 P1 Na1 84.595(16) . .
+C1 O1 Na1 137.68(16) . .
+C5 O3 Ca1 139.73(15) . .
+C6 O5 Ca1 119.26(13) . .
+C6 O5 Na1 125.75(13) . 2_656
+Ca1 O5 Na1 113.66(5) . 2_656
+C3 O7 P1 129.28(13) . .
+C3 O7 Ca1 120.87(11) . .
+P1 O7 Ca1 103.65(6) . .
+P1 O8 Ca1 104.25(7) . .
+P1 O10 Na1 116.45(8) . .
+O1 C1 O2 124.3(2) . .
+O1 C1 C2 124.8(2) . .
+O2 C1 C2 110.96(19) . .
+C1 C2 C3 115.22(18) . .
+O7 C3 C2 113.41(17) . .
+O7 C3 C4 110.79(16) . .
+C2 C3 C4 108.39(17) . .
+O7 C3 C6 103.44(16) . .
+C2 C3 C6 111.83(16) . .
+C4 C3 C6 108.89(17) . .
+C5 C4 C3 115.77(17) . .
+O3 C5 O4 122.4(2) . .
+O3 C5 C4 125.7(2) . .
+O4 C5 C4 111.86(18) . .
+O5 C6 O6 125.9(2) . .
+O5 C6 C3 122.34(18) . .
+O6 C6 C3 111.68(18) . .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ca1 O11 2.388(2) .
+Ca1 O3 2.4456(16) 2_656
+Ca1 O3 2.4456(16) .
+Ca1 O7 2.4768(14) .
+Ca1 O7 2.4768(14) 2_656
+Ca1 O8 2.5266(15) 2_656
+Ca1 O8 2.5266(15) .
+Ca1 O5 2.5864(16) .
+Ca1 O5 2.5864(15) 2_656
+Ca1 P1 3.2648(6) 2_656
+Ca1 P1 3.2648(6) .
+Na1 O10 2.3146(15) .
+Na1 O10 2.3146(15) 5_666
+Na1 O1 2.4250(17) .
+Na1 O1 2.4250(17) 5_666
+Na1 O5 2.6665(15) 2_656
+Na1 O5 2.6665(15) 6_565
+Na1 P1 3.2692(6) 5_666
+Na1 P1 3.2692(6) .
+P1 O10 1.4974(15) .
+P1 O9 1.4982(15) .
+P1 O8 1.5370(15) .
+P1 O7 1.6212(14) .
+O1 C1 1.205(3) .
+O2 C1 1.319(3) .
+O3 C5 1.214(3) .
+O4 C5 1.314(3) .
+O5 C6 1.218(3) .
+O5 Na1 2.6665(15) 2_656
+O6 C6 1.297(3) .
+O7 C3 1.437(2) .
+C1 C2 1.509(3) .
+C2 C3 1.534(3) .
+C3 C4 1.536(3) .
+C3 C6 1.545(3) .
+C4 C5 1.504(3) .

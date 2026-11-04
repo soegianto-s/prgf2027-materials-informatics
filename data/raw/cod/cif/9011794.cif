@@ -1,0 +1,156 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/17/9011794.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011794
+loop_
+_publ_author_name
+'Moore, P. B.'
+'Araki, T.'
+_publ_section_title
+;
+ Mitridatite - a remarkable octahedral sheet structure
+ Loclaity: White Elephant pegmatite, Custer, South Dakota, USA
+;
+_journal_name_full               'Mineralogical Magazine'
+_journal_page_first              527
+_journal_page_last               528
+_journal_paper_doi               10.1180/minmag.1977.041.320.16
+_journal_volume                  41
+_journal_year                    1977
+_chemical_formula_sum            'Ca2 Fe3 H6 O17 P3'
+_chemical_name_mineral           Mitridatite
+_space_group_IT_number           9
+_symmetry_space_group_name_Hall  'A -2ya'
+_symmetry_space_group_name_H-M   'A 1 a 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 95.92
+_cell_angle_gamma                90
+_cell_formula_units_Z            12
+_cell_length_a                   17.53
+_cell_length_b                   19.35
+_cell_length_c                   11.25
+_cell_volume                     3795.710
+_database_code_amcsd             0014469
+_exptl_crystal_density_diffrn    3.248
+_cod_original_cell_volume        3795.711
+_cod_original_formula_sum        'Ca2 Fe3 P3 O17 H6'
+_cod_database_code               9011794
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2+y,1/2+z
+1/2+x,-y,z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.08400 0.46600 0.29900 Ca 0
+Ca2 0.08400 0.31200 0.84200 Ca 0
+Ca3 0.08000 0.13800 0.34300 Ca 0
+Ca4 0.41900 0.28800 0.20800 Ca 0
+Ca5 0.41800 0.49600 0.66400 Ca 0
+Ca6 0.41500 0.15600 0.67900 Ca 0
+Fe1 0.25300 0.46000 0.48900 Fe 0
+Fe2 0.24700 0.03700 0.24600 Fe 0
+Fe3 0.24800 0.05500 0.74500 Fe 0
+Fe4 0.25000 0.20000 0.26800 Fe 0
+Fe5 0.24900 0.22100 0.76800 Fe 0
+Fe6 0.25100 0.37300 0.25000 Fe 0
+Fe7 0.25500 0.38200 0.75400 Fe 0
+Fe8 0.25400 0.29500 0.02100 Fe 0
+Fe9 0.24400 0.13100 0.52300 Fe 0
+P1 0.10800 0.28300 0.16000 P 0
+P2 0.10600 0.45800 0.63400 P 0
+P3 0.10400 0.14400 0.66700 P 0
+P4 0.39600 0.46200 0.33700 P 0
+P5 0.39100 0.12100 0.38200 P 0
+P6 0.39600 0.30300 0.88000 P 0
+P7 0.21400 0.45700 0.99900 P 0
+P8 0.28900 0.12600 0.01700 P 0
+P9 0.29000 0.29200 0.51900 P 0
+O1 0.02400 0.28200 0.14000 O 0
+O2 0.13600 0.23200 0.22900 O 0
+O3 0.13700 0.34700 0.23500 O 0
+O4 0.13600 0.28500 0.04700 O 0
+O5 0.02000 0.45500 0.62700 O 0
+O6 0.14100 0.46700 0.50600 O 0
+O7 0.13700 0.39500 0.69300 O 0
+O8 0.14000 0.03000 0.19800 O 0
+O9 0.01300 0.14000 0.64000 O 0
+O10 0.13600 0.20500 0.73300 O 0
+O11 0.13300 0.08000 0.73000 O 0
+O12 0.13100 0.14900 0.54500 O 0
+O13 0.48600 0.47200 0.35100 O 0
+O14 0.36400 0.39300 0.26000 O 0
+O15 0.35900 0.45800 0.47700 O 0
+O16 0.35800 0.03500 0.76700 O 0
+O17 0.48600 0.12800 0.40100 O 0
+O18 0.35400 0.05800 0.30100 O 0
+O19 0.35500 0.11800 0.49600 O 0
+O20 0.36400 0.18100 0.31000 O 0
+O21 0.48400 0.30200 0.90000 O 0
+O22 0.36600 0.37300 0.81000 O 0
+O23 0.36300 0.23600 0.79400 O 0
+O24 0.36700 0.30100 0.02200 O 0
+O25 0.37800 0.11600 0.04600 O 0
+O26 0.25000 0.06800 0.94600 O 0
+O27 0.26200 0.19400 0.95300 O 0
+O28 0.25300 0.12300 0.14700 O 0
+O29 0.37900 0.28700 0.54300 O 0
+O30 0.26200 0.36000 0.43800 O 0
+O31 0.25400 0.23200 0.44400 O 0
+O32 0.25600 0.29600 0.63000 O 0
+O33 0.13100 0.44800 0.97500 O 0
+O34 0.25000 0.46200 0.87600 O 0
+O35 0.23800 0.03200 0.56300 O 0
+O36 0.26200 0.39800 0.07400 O 0
+O37 0.21700 0.11800 0.36000 O 0
+O38 0.27600 0.14300 0.68600 O 0
+O39 0.28200 0.28300 0.18400 O 0
+O40 0.22100 0.31400 0.86000 O 0
+O41 0.22200 0.46800 0.31100 O 0
+O42 0.28000 0.45900 0.66600 O 0
+Wat43 0.49300 0.26100 0.40500 O 2
+Wat44 0.49300 0.38800 0.65600 O 2
+Wat45 0.49700 0.06400 0.64300 O 2
+Wat46 0.49700 0.19400 0.18200 O 2
+Wat47 0.50600 0.47400 0.86800 O 2
+Wat48 0.48600 0.12700 0.89400 O 2
+Wat49 0.42600 0.45500 0.05500 O 2
+Wat50 0.57400 0.37300 0.48300 O 2
+Wat51 0.57200 0.21700 0.01800 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:53:26+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014469

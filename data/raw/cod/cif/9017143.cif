@@ -1,0 +1,130 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-05-29 17:00:33 +0300 (Wed, 29 May 2024) $
+#$Revision: 292100 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/71/9017143.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017143
+loop_
+_publ_author_name
+'Xie, X.'
+'Yang, H.'
+'Gu, X.'
+'Downs, R. T.'
+_publ_section_title
+;
+ Chemical composition and crystal structure of merrillite from the Suizhou meteorite
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              2753
+_journal_page_last               2756
+_journal_volume                  100
+_journal_year                    2015
+_chemical_compound_source        'Suizhou meteorite'
+_chemical_formula_sum            'Ca9 Fe0.048 Mg0.952 Na0.98 O28 P7'
+_chemical_name_mineral           Merrillite
+_space_group_IT_number           161
+_space_group_name_Hall           'R 3 -2"c'
+_space_group_name_H-M_alt        'R 3 c :H'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_length_a                   10.3444
+_cell_length_b                   10.3444
+_cell_length_c                   37.0182
+_cell_formula_units_Z            6
+_cell_volume                     3430.493
+_database_code_amcsd             0020386
+_exptl_crystal_density_diffrn    3.119
+_cod_data_source_file            inputs/fixed/downloads/05/05864.cif
+_cod_data_source_block           05864
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_original_formula_sum        'Ca9 Na.98 (Mg.952 Fe.048) P7 O28'
+_cod_database_code               9017143
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,1/2+z
+2/3+x,1/3+x-y,5/6+z
+1/3+x,2/3+x-y,1/6+z
+-y,-x,1/2+z
+2/3-y,1/3-x,5/6+z
+1/3-y,2/3-x,1/6+z
+-x+y,y,1/2+z
+2/3-x+y,1/3+y,5/6+z
+1/3-x+y,2/3+y,1/6+z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca1 0.01570 0.01370 0.01300 0.00820 -0.00120 -0.00260
+Ca2 0.01270 0.01330 0.01070 0.00690 -0.00020 -0.00090
+Ca3 0.01310 0.01260 0.01030 0.00590 -0.00130 -0.00020
+Na 0.02670 0.02670 0.03000 0.01340 0.00000 0.00000
+Mg 0.01130 0.01130 0.01000 0.00560 0.00000 0.00000
+Fe 0.01130 0.01130 0.01000 0.00560 0.00000 0.00000
+P1 0.01100 0.01100 0.01200 0.00548 0.00000 0.00000
+P2 0.01070 0.01150 0.01030 0.00550 0.00000 0.00070
+P3 0.01040 0.01100 0.00960 0.00510 0.00020 0.00060
+O1 0.01480 0.01480 0.01200 0.00740 0.00000 0.00000
+O2 0.01650 0.01370 0.02230 0.00950 0.00450 -0.00170
+O3 0.01650 0.01710 0.01110 0.00670 0.00050 -0.00060
+O4 0.01860 0.02020 0.01420 0.01250 0.00380 0.00280
+O5 0.01320 0.01190 0.01110 0.00520 0.00090 0.00170
+O6 0.01170 0.01180 0.01260 0.00510 0.00080 0.00080
+O7 0.01230 0.01570 0.00920 0.00630 -0.00220 -0.00070
+O8 0.01620 0.01820 0.01340 0.01020 -0.00050 -0.00260
+O9 0.01750 0.01430 0.01330 0.00470 0.00030 0.00260
+O10 0.01010 0.01420 0.01040 0.00530 -0.00160 -0.00060
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ca1 0.26876 0.14531 0.67512 1.00000
+Ca2 0.27190 0.14172 0.56756 1.00000
+Ca3 0.38354 0.17613 0.76894 1.00000
+Na 0.00000 0.00000 0.81343 0.98000
+Mg 0.00000 0.00000 -0.00066 0.95200
+Fe 0.00000 0.00000 -0.00066 0.04800
+P1 0.00000 0.00000 0.73382 1.00000
+P2 0.31245 0.13793 0.86509 1.00000
+P3 0.34393 0.15077 0.96893 1.00000
+O1 0.00000 0.00000 0.69277 1.00000
+O2 -0.00400 0.13840 0.74754 1.00000
+O3 0.25760 0.08030 0.82653 1.00000
+O4 0.24210 0.22730 0.87922 1.00000
+O5 0.27670 -0.00080 0.88802 1.00000
+O6 0.48500 0.23920 0.86724 1.00000
+O7 0.37840 0.18090 0.00923 1.00000
+O8 0.39690 0.04270 0.95653 1.00000
+O9 0.42080 0.29970 0.94880 1.00000
+O10 0.17410 0.07670 0.96191 1.00000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0020386
