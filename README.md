@@ -71,15 +71,24 @@ atau per skrip (urutan wajib):
 | 15 | `xai.py` | 7 — SHAP + permutation importance (4 DOF komposisi) |
 | 16 | `laporan_final.py` | 7–8 — Laporan final + Top 15 dedup (rank ordinal) |
 | 17 | `versi_dataset.py` | — Snapshot dataset final + checksum |
+| 18 | `acquire_cod_cif.py` | Q1 — Unduh 928 CIF COD unik (resumable, QC koordinat) |
+| 19 | `screening_mace_cod.py` | Q1 — Ef MACE-MP-0 single-point struktur COD (checkpoint/cod_id) |
+| 20 | `kalibrasi_hull_mace.py` | Q1 — Kalibrasi offset MACE→MP GGA + E_hull COD in-system |
+| 21 | `ekstrak_fitur_struktur.py` | Q1 — Q^n fosfat, CN Ca, SOAP |
+| 22 | `modeling_struktur.py` | Q1 — Model structure-informed (screening, PCA dalam fold) |
+| 23 | `perluasan_kandidat_mp.py` | Q1 — Kandidat substitusi Sr/Mg/Zn/Si (MP, 2 tier) |
+| 24 | `konversi_ksp.py` | Q1 — Kelarutan stoikiometrik S (mol/L) dari pKsp |
+| 25 | `mcdm_q1.py` | Q1 — MCDM C1 = −E_hull (phase-level, Monte Carlo) |
 
 Skrip penunjang (tidak berurutan): `tcp_alpha_beta.py` (validasi pemisahan α/β-TCP),
 `tuning_eform.py` (tuning SVR Eform), `validasi_independen.py` (benchmark eksperimen),
 `validasi_mlff.py` (pra-validasi MACE-MP-0 Top 5), `magpie_baseline.py` (baseline
 deskriptor Magpie), `mace_baseline.py` (baseline pretrained MACE-MP-0, resumable),
-`mcdm_resorb.py` (sensitivitas MCDM+pKsp), `konversi_elsarticle.py` (konversi ke
+`mcdm_resorb.py` (sensitivitas MCDM+pKsp), `jalankan_dft.py` (driver QE via WSL:
+vc-relax top-5 + elastisitas regangan ±1%), `konversi_elsarticle.py` (konversi ke
 format jurnal), `patch_manuskrip_ronde3*.py`, `patch_manuskrip_ronde4.py`,
-`patch_manuskrip_ronde5.py`, `patch_manuskrip_ronde6.py` (patch angka hasil review,
-ber-assertion — tidak ada kegagalan diam-diam).
+`patch_manuskrip_ronde5.py`, `patch_manuskrip_ronde6.py`, `patch_manuskrip_ronde7.py`
+(patch angka hasil review, ber-assertion — tidak ada kegagalan diam-diam).
 
 ## Sumber Data & Lisensi
 

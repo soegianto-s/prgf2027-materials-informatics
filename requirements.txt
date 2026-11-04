@@ -15,5 +15,6 @@ ase
 mace-torch
 # penguatan Q1 ronde 7 (disetujui pengguna 2026-11-04)
 pymatgen==2025.10.7
-mp-api==0.45.13
 dscribe==2.1.2
+# CATATAN: mp-api 0.45.13 butuh Python >= 3.11 (typing.NotRequired) — TIDAK dipasang;
+# akses MP memakai REST langsung (acquire_mp.paginate / kalibrasi_hull_mace._semua_chemsys)

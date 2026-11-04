@@ -31,10 +31,9 @@ HASIL = ROOT / "data" / "validasi_dft"
 HASIL.mkdir(exist_ok=True, parents=True)
 
 
-def wsl(cmd, cwd=None, timeout=3600):
+def wsl(cmd, timeout=3600):
     """Jalankan perintah bash di WSL Ubuntu; kembalikan (rc, stdout)."""
-    c = f"cd {cwd} && {cmd}" if cwd else cmd
-    r = subprocess.run(["wsl", "-d", "Ubuntu", "--", "bash", "-lc", c],
+    r = subprocess.run(["wsl", "-d", "Ubuntu", "--", "bash", "-lc", cmd],
                        capture_output=True, text=True, timeout=timeout)
     return r.returncode, r.stdout + r.stderr
 
@@ -59,16 +58,28 @@ def sudah_selesai(path):
 
 
 def vc_relax(tag, np_proc):
+    """vc-relax di filesystem NATIVE WSL (/root/dft/...) lalu salin relax.out kembali.
+
+    I/O /mnt/d (9p) terlalu lambat untuk wavefunction -> semua I/O QE di /root/dft.
+    """
     d = DFT / tag
     siapkan_pseudo(tag)
     out = d / "relax.out"
     if sudah_selesai(out):
         print(f"{tag}: vc-relax sudah selesai, lewati")
         return True
-    print(f"{tag}: memulai vc-relax ({np_proc} proses)...", flush=True)
+    print(f"{tag}: memulai vc-relax ({np_proc} MPI x 6 OMP)...", flush=True)
     t0 = time.time()
-    rc, log = wsl(f"mkdir -p out && mpirun --allow-run-as-root -np {np_proc} pw.x -in relax.in > relax.out 2>&1",
-                  cwd=f"/mnt/d/latex/prgf2026/data/dft/{tag}", timeout=6 * 3600)
+    # quote wajib: tag memuat tanda kurung, mis. top26_Ca3(PO4)2
+    mnt = f"'/mnt/d/latex/prgf2026/data/dft/{tag}'"
+    nat = f"'/root/dft/{tag}'"
+    rc, log = wsl(
+        f"rm -rf {nat} && mkdir -p {nat}/out {nat}/pseudo && "
+        f"cp {mnt}/relax.in {mnt}/POSCAR {nat}/ && cp {mnt}/pseudo/* {nat}/pseudo/ && "
+        f"cd {nat} && "
+        f"OMP_NUM_THREADS=12 pw.x -in relax.in > relax.out 2>&1; "
+        f"cp relax.out {mnt}/relax.out",
+        timeout=8 * 3600)
     print(f"{tag}: rc={rc} waktu={time.time()-t0:.0f}s", flush=True)
     if rc != 0:
         print(log[-500:])
@@ -108,8 +119,12 @@ def parse_stress(tag, nama_in, np_proc):
     d = DFT / tag
     out = d / f"{nama_in}.out"
     if "total   stress" not in (out.read_text(encoding="utf-8", errors="replace") if out.exists() else ""):
-        rc, log = wsl(f"mpirun --allow-run-as-root -np {np_proc} pw.x -in {nama_in} > {nama_in}.out 2>&1",
-                      cwd=f"/mnt/d/latex/prgf2026/data/dft/{tag}", timeout=3600)
+        mnt = f"'/mnt/d/latex/prgf2026/data/dft/{tag}'"
+        nat = f"'/root/dft/{tag}'"
+        rc, log = wsl(
+            f"cd {nat} && OMP_NUM_THREADS=12 pw.x -in {nama_in} > {nama_in}.out 2>&1; "
+            f"cp {nama_in}.out {mnt}/{nama_in}.out",
+            timeout=3600)
     t = out.read_text(encoding="utf-8", errors="replace")
     if "total   stress" not in t:
         return None

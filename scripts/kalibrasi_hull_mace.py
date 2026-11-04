@@ -26,28 +26,60 @@ from common import PROC, RAW, REPORTS, ROOT, mp_key
 
 CACHE_HULL = RAW / "mp" / "hull_entries_mp.json"
 ELEM = ["Ca", "P", "O", "H", "F", "C"]
+FIELDS_HULL = "material_id,formula_pretty,nsites,formation_energy_per_atom,energy_above_hull,is_stable"
+
+
+def _semua_chemsys():
+    """Semua sub-sistem non-kosong dari ELEM (63) + 6 unsur murni."""
+    from itertools import combinations
+    daftar = []
+    for r in range(1, len(ELEM) + 1):
+        for combo in combinations(sorted(ELEM), r):
+            daftar.append("-".join(combo))
+    return daftar
 
 
 def ambil_entri_mp():
-    """Semua entri MP di ruang Ca-P-O-H-F-C (termasuk sub-sistem & unsur)."""
+    """Semua entri MP di ruang Ca-P-O-H-F-C (REST materials/summary per chemsys)."""
     if CACHE_HULL.exists():
         j = json.loads(CACHE_HULL.read_text(encoding="utf-8"))
         print(f"cache entri MP: {len(j['entri'])} entri")
         return j
-    from mp_api.client import MPRester
-    with MPRester(mp_key()) as m:
-        entri = m.get_entries_in_chemsys(ELEM, additional_criteria=["nsites <= 200"])
+    import requests
+    from common import mp_key
+    hdr = {"x-api-key": mp_key()}
     data = []
-    for e in entri:
-        data.append({
-            "entry_id": e.entry_id, "formula": e.composition.reduced_formula,
-            "comp": e.composition.as_dict(), "natom_formula": e.composition.num_atoms,
-            "energy_per_atom": float(e.energy_per_atom), "energy": float(e.energy),
-            "struktur": e.structure.as_dict() if hasattr(e, "structure") else None,
-        })
-    j = {"entri": data, "tanggal": time.strftime("%Y-%m-%d %H:%M:%S")}
+    for sys_ in _semua_chemsys():
+        skip, halaman = 0, 0
+        while True:
+            r = requests.get("https://api.materialsproject.org/materials/summary/",
+                             params={"chemsys": sys_, "_fields": FIELDS_HULL,
+                                     "_skip": skip, "_limit": 1000},
+                             headers=hdr, timeout=120)
+            if r.status_code != 200:
+                print(f"  HTTP {r.status_code} pada {sys_} skip={skip}")
+                break
+            d = r.json()
+            data.extend(d.get("data", []))
+            n = len(d.get("data", []))
+            total = d.get("meta", {}).get("total_doc") or 0
+            halaman += 1
+            if n == 0 or skip + n >= total:
+                break
+            skip += n
+            time.sleep(0.3)
+    # dedupe material_id
+    unik = {}
+    for x in data:
+        unik[x["material_id"]] = x
+    entri = [{
+        "entry_id": x["material_id"], "formula": x.get("formula_pretty", ""),
+        "nsites": x.get("nsites"), "energy_per_atom": x.get("formation_energy_per_atom"),
+        "energy_above_hull": x.get("energy_above_hull"), "is_stable": x.get("is_stable"),
+    } for x in unik.values() if x.get("formation_energy_per_atom") is not None]
+    j = {"entri": entri, "tanggal": time.strftime("%Y-%m-%d %H:%M:%S")}
     CACHE_HULL.write_text(json.dumps(j), encoding="utf-8")
-    print(f"entri MP diunduh: {len(data)} entri")
+    print(f"entri MP diunduh: {len(entri)} entri")
     return j
 
 
@@ -69,21 +101,30 @@ def kalibrasi():
                      .read_text(encoding="utf-8"))["ref"]
 
     j = ambil_entri_mp()
-    entri = j["entri"]
-    # MACE single-point per struktur MP (dedupe: satu per entry_id)
+    entri = [e for e in j["entri"] if e.get("nsites") and e["nsites"] <= 200]
+    # MACE single-point per struktur MP (struktur diambil live + cache; satu per entry_id)
     from pymatgen.core import Structure
     from pymatgen.io.ase import AseAtomsAdaptor
+    from siapkan_dft import ambil_struktur_mp
+    cache_struktur = RAW / "struktur" / "mp"
+    cache_struktur.mkdir(parents=True, exist_ok=True)
     baris = []
     for i, e in enumerate(entri, 1):
-        if not e.get("struktur"):
-            continue
         try:
-            st = Structure.from_dict(e["struktur"])
+            cache = cache_struktur / f"{e['entry_id']}.json"
+            if cache.exists():
+                st = Structure.from_dict(json.loads(cache.read_text(encoding="utf-8")))
+            else:
+                d = ambil_struktur_mp(e["entry_id"])
+                if not d or not d.get("structure"):
+                    continue
+                cache.write_text(json.dumps(d["structure"], ensure_ascii=False), encoding="utf-8")
+                st = Structure.from_dict(d["structure"])
             atoms = AseAtomsAdaptor.get_atoms(st)
-            if len(atoms) > 200:
-                continue
             atoms.calc = calc
             em = eform_mace_struktur(atoms, calc, ref)
+            if abs(em) > 10.0:
+                continue  # energi tak-fisis (struktur rusak)
             baris.append({"entry_id": e["entry_id"], "formula": e["formula"],
                           "Eform_MP": e["energy_per_atom"], "Eform_MACE_raw": em,
                           "selisih": e["energy_per_atom"] - em})
@@ -130,10 +171,12 @@ def hull_cod(ringkas_kal):
     j = ambil_entri_mp()
     entries = []
     for e in j["entri"]:
-        if e.get("struktur") is None:
+        try:
+            comp = Composition(e["formula"])
+            entries.append(ComputedEntry(comp, e["energy_per_atom"] * comp.num_atoms,
+                                         entry_id=e["entry_id"]))
+        except Exception:
             continue
-        entries.append(ComputedEntry(Composition(e["comp"]), e["energy_per_atom"] * e["natom_formula"],
-                                     entry_id=e["entry_id"]))
     pd_ = PhaseDiagram(entries)
     print(f"hull MP: {len(entries)} entri, {len(pd_.stable_entries)} stabil")
 
@@ -154,6 +197,11 @@ def hull_cod(ringkas_kal):
     # E_hull COD in-system
     ckpt = pd.read_csv(PROC / "mace_screening_cod.csv")
     ok = ckpt[(ckpt["status"] == "ok") & (ckpt["in_system"])].copy()
+    # filter fisika: energi tak-fisis (parse fallback ASE -> geometri sampah, MACE meledak)
+    # batas lebar +-10 eV/atom untuk Eform MACE mentah; sisanya ditandai & dikeluarkan
+    ok["fisika_valid"] = ok["eform_mace_raw_eV_atom"].abs() <= 10.0
+    n_absurd = int((~ok["fisika_valid"]).sum())
+    ok = ok[ok["fisika_valid"]].copy()
     offset = ringkas_kal["offset_median_eV_atom"]
     rows = []
     for _, r in ok.iterrows():
@@ -174,6 +222,7 @@ def hull_cod(ringkas_kal):
     ringkas = {
         "n_cod_in_system": int(len(ok)), "n_hull_terdefinisi": n_hull,
         "n_hull_undefined": int(len(ok)) - n_hull,
+        "n_energi_tak_fisis_dibuang": n_absurd,
         "mae_hull_vs_api_eV_atom": mae_hull,
         "min_E_hull": float(dfh["E_hull"].min()) if n_hull else None,
         "max_E_hull": float(dfh["E_hull"].max()) if n_hull else None,

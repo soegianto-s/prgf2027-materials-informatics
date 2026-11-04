@@ -1,0 +1,56 @@
+{
+  "n_kalibrasi": 489,
+  "offset_median_eV_atom": 0.0861,
+  "offset_CI95": [
+    0.4116,
+    0.585
+  ],
+  "mae_offset_eV_atom": 0.6723,
+  "rmse_offset_eV_atom": 1.0363,
+  "mae_eksternal_6fase_eV_atom": 0.3103,
+  "validasi_eksternal": [
+    {
+      "fase": "Ca5P3HO13",
+      "Eform_MACE_raw": -2.9119698065493154,
+      "Eform_cal": -2.825837373634412,
+      "Eform_exp": -3.159,
+      "selisih_cal": 0.333162626365588
+    },
+    {
+      "fase": "Ca3(PO4)2",
+      "Eform_MACE_raw": -2.9321089666568163,
+      "Eform_cal": -2.8459765337419127,
+      "Eform_exp": -3.285,
+      "selisih_cal": 0.4390234662580874
+    },
+    {
+      "fase": "Ca3(PO4)2",
+      "Eform_MACE_raw": -2.9991226178164787,
+      "Eform_cal": -2.912990184901575,
+      "Eform_exp": -3.289,
+      "selisih_cal": 0.376009815098425
+    },
+    {
+      "fase": "Ca4P2O9",
+      "Eform_MACE_raw": -3.003781740095919,
+      "Eform_cal": -2.9176493071810152,
+      "Eform_exp": -3.297,
+      "selisih_cal": 0.3793506928189849
+    },
+    {
+      "fase": "CaPHO4",
+      "Eform_MACE_raw": -2.51586000954238,
+      "Eform_cal": -2.4297275766274766,
+      "Eform_exp": -2.686,
+      "selisih_cal": 0.2562724233725233
+    },
+    {
+      "fase": "CaPH5O6",
+      "Eform_MACE_raw": -1.881122601146636,
+      "Eform_cal": -1.7949901682317324,
+      "Eform_exp": -1.717,
+      "selisih_cal": -0.07799016823173233
+    }
+  ],
+  "tanggal": "2026-11-04 13:19:12"
+}

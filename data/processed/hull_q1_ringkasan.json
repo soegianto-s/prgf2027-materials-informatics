@@ -1,0 +1,11 @@
+{
+  "n_cod_in_system": 180,
+  "n_hull_terdefinisi": 180,
+  "n_hull_undefined": 0,
+  "n_energi_tak_fisis_dibuang": 24,
+  "mae_hull_vs_api_eV_atom": 0.0026310019440000617,
+  "min_E_hull": -0.6161209324040318,
+  "max_E_hull": 6.8127914588463945,
+  "n_stabil_hull0": 12,
+  "tanggal": "2026-11-04 13:19:13"
+}

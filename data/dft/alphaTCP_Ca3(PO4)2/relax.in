@@ -17,13 +17,16 @@
   smearing = 'gaussian'
   degauss = 0.01
 /
-&CELL
-  press = 0.0
-  cell_dofree = 'all'
-/
 &ELECTRONS
   conv_thr = 1.0d-6
   mixing_beta = 0.7
+/
+&IONS
+  ion_dynamics = 'bfgs'
+/
+&CELL
+  cell_dynamics = 'bfgs'
+  press = 0.0
 /
 ATOMIC_SPECIES
  Ca  40.078  Ca.pbe-spn-kjpaw_psl.1.0.0.UPF
