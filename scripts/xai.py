@@ -23,7 +23,8 @@ plt.rcParams.update({
     "axes.spines.top": False, "axes.spines.right": False,
 })
 
-FEATURES = ["ca_p_ratio", "EN_avg", "berat_molekul", "volume_A3", "densitas_final_gcm3",
+# KOREKSI (2026-11-04): fitur komposisi murni (konsisten dengan model discovery yang jujur)
+FEATURES = ["ca_p_ratio", "EN_avg", "berat_molekul",
             "frac_Ca", "frac_P", "frac_O", "frac_H", "frac_F"]
 
 

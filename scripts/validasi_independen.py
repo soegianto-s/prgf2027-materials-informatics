@@ -18,7 +18,10 @@ from sklearn.svm import SVR
 
 from common import PROC, REPORTS
 
-FEATURES = ["ca_p_ratio", "EN_avg", "berat_molekul", "volume_A3", "densitas_final_gcm3",
+# KOREKSI (2026-11-04): fitur KOMPOSISI MURNI untuk kedua model.
+# Versi lama memakai volume+densitas sebagai fitur (untuk model densitas, target masuk fitur =
+# kebocoran total -> MAE 0.007 yang lama TIDAK VALID).
+FEATURES = ["ca_p_ratio", "EN_avg", "berat_molekul",
             "frac_Ca", "frac_P", "frac_O", "frac_H", "frac_F"]
 
 ELEM = {"H": (2.20, 1.008, 1), "O": (3.44, 15.999, 6), "F": (3.98, 18.998, 7),
@@ -54,6 +57,8 @@ def main():
     for el in ["Ca", "P", "O", "H", "F"]:
         tr[f"frac_{el}"] = tr[el].fillna(0) / tot
     tr = tr.dropna(subset=FEATURES + ["Eform_eV_atom", "densitas_final_gcm3"])
+    # grouping formula tereduksi utk konsistensi anti-bocor (walaupun benchmark ini
+    # hanya evaluasi titik tetap, bukan CV)
 
     # model final (sama dengan manuskrip)
     sc_e = StandardScaler().fit(tr[FEATURES])

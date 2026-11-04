@@ -1,59 +1,27 @@
-# Laporan Pemodelan Machine Learning
-**Tanggal:** 2026-11-04 06:58:16
-**Tahapan:** Bagian 7 panduan utama | Subset pemodelan: MP+AFLOW (komputasional)
+# Laporan Pemodelan ML v2 (anti-leakage, metrik jujur)
+**Tanggal:** 2026-11-04 07:09:02
+**Grouping:** formula tereduksi (gcd) | **CV:** GroupKFold(10) | **SVR:** nested CV (inner 5-fold pilih hiperparameter)
 
-## Regresi: Eform_eV_atom (n=291, GroupKFold berbasis komposisi)
-| target        | model            |     R2 |   R2_std |   RMSE |   MAE |
-|:--------------|:-----------------|-------:|---------:|-------:|------:|
-| Eform_eV_atom | RandomForest     |  0.809 |    0.156 |  0.473 | 0.263 |
-| Eform_eV_atom | XGBoost          | -0.221 |    2.756 |  0.848 | 0.434 |
-| Eform_eV_atom | GradientBoosting |  0.715 |    0.343 |  0.541 | 0.288 |
-| Eform_eV_atom | SVR              |  0.843 |    0.178 |  0.435 | 0.236 |
-## Regresi: densitas_final_gcm3 (n=571, GroupKFold berbasis komposisi)
-| target              | model            |     R2 |   R2_std |   RMSE |   MAE |
-|:--------------------|:-----------------|-------:|---------:|-------:|------:|
-| densitas_final_gcm3 | RandomForest     |  0.909 |    0.18  |  0.096 | 0.027 |
-| densitas_final_gcm3 | XGBoost          | -0.548 |    4.473 |  0.204 | 0.094 |
-| densitas_final_gcm3 | GradientBoosting |  0.758 |    0.667 |  0.1   | 0.031 |
-| densitas_final_gcm3 | SVR              |  0.868 |    0.134 |  0.162 | 0.077 |
-## Regresi: bandgap_eV (n=123, GroupKFold berbasis komposisi)
-| target     | model            |        R2 |   R2_std |   RMSE |   MAE |
-|:-----------|:-----------------|----------:|---------:|-------:|------:|
-| bandgap_eV | RandomForest     | -3091.89  | 9275.25  |  1.884 | 1.539 |
-| bandgap_eV | XGBoost          |   -78.128 |  234.225 |  1.785 | 1.441 |
-| bandgap_eV | GradientBoosting |    -4.983 |   14.883 |  1.786 | 1.433 |
-| bandgap_eV | SVR              | -1217.02  | 3651.16  |  1.671 | 1.248 |
-## Uji Eksternal: model Eform (MP+AFLOW) diprediksi pada OQMD (n=280)
-- R2 = 0.951, RMSE = 0.248 eV/atom -> transfer lintas basis data KUAT
-- Catatan: skala Eform AFLOW berbeda sistematis dari MP/OQMD (hingga 0.8 eV untuk fosfida); MP~OQMD (selisih < 0.02 eV pada komposisi tumpang tindih) -> OQMD valid sebagai uji eksternal.
-## Seleksi Fitur (RF importance + RFE pada Eform)
-|                     |     0 |
-|:--------------------|------:|
-| frac_O              | 0.713 |
-| densitas_final_gcm3 | 0.171 |
-| volume_A3           | 0.043 |
-| frac_Ca             | 0.018 |
-| ca_p_ratio          | 0.017 |
-| EN_avg              | 0.014 |
-| berat_molekul       | 0.012 |
-| frac_P              | 0.011 |
-| frac_H              | 0.001 |
-| frac_F              | 0     |
-- Fitur terpilih RFE (8): ['ca_p_ratio', 'EN_avg', 'berat_molekul', 'volume_A3', 'densitas_final_gcm3', 'frac_Ca', 'frac_P', 'frac_O']
-## Klasifikasi Kelayakan Scaffold (n=571, kelas 1 = 116)
-- Definisi layak: Eform <= -2.5 eV/atom & Ca/P 1.2-2.1 & densitas 0.5-4.5 g/cm3
-- Akurasi: 0.961 +/- 0.047 | F1: 0.777 +/- 0.389
-- Confusion matrix (prediksi vs aktual):
-```
-[[449   6]
- [ 12 104]]
-```
-- Classification report:
-              precision    recall  f1-score   support
-
-           0       0.97      0.99      0.98       455
-           1       0.95      0.90      0.92       116
-
-    accuracy                           0.97       571
-   macro avg       0.96      0.94      0.95       571
-weighted avg       0.97      0.97      0.97       571
+## Eform (eV/atom) — fitur KOMPOSISI MURNI, semua sumber n=571
+| model      |    R2 |   RMSE |   MAE |
+|:-----------|------:|-------:|------:|
+| RF         | 0.2   |  0.533 | 0.344 |
+| GBR        | 0.28  |  0.507 | 0.329 |
+| XGB        | 0.424 |  0.55  | 0.353 |
+| SVR-nested | 0.483 |  0.465 | 0.265 |
+- Hiperparameter terpilih (outer): [{'C': 50, 'epsilon': 0.1, 'gamma': 0.05}, {'C': 10, 'epsilon': 0.1, 'gamma': 0.01}, {'C': 1, 'epsilon': 0.05, 'gamma': 0.01}] ...
+## Eform — skenario SCREENING (fitur termasuk volume+densitas, MP+AFLOW n=291)
+- SVR nested: R2 = 0.489, RMSE = 0.448, MAE = 0.242 (catatan: TIDAK berlaku untuk material baru — densitas/volume tak diketahui)
+## Eform DALAM KELUARGA FOSFAT (ada O, n=215) — SVR C=50
+- R2 = 0.580, RMSE = 0.284, MAE = 0.176
+- Catatan: rentang fosfida vs fosfat bimodal TIDAK lagi mengatrol R2 di sini.
+## Densitas — [berat molekul + volume] = IDENTITAS KRISTALOGRAFI (bukan klaim prediktif)
+- R2 = -1.052 (konsistensi data; rho = MZ/(NA V))
+## Densitas — fitur KOMPOSISI MURNI (prediksi nyata, n=571)
+- R2 = 0.174, RMSE = 0.400, MAE = 0.264
+## Uji eksternal — OQMD PENUH (komposisi bisa tumpang tindih dgn latih) (n=280)
+- R2 = 0.883, RMSE = 0.385, MAE = 0.254
+- OQMD BEBAS TUMPANG TINDIH (strict): kosong
+## Classifier suitability — CEK KONSISTENSI LABEL (bukan klaim prediktif)
+- Label adalah fungsi semi-deterministik dari fitur (pita Ca/P & densitas ada di fitur; hanya Eform yang perlu dipelajari) -> akurasi tinggi DIHARAPKAN dan tidak informatif.
+- Keputusan: skor ini TIDAK dipakai sebagai kriteria MCDM (double counting dengan C1-C3).

@@ -15,13 +15,14 @@ import pandas as pd
 
 from common import PROC, REPORTS
 
-KRITERIA = ["C_stabilitas", "C_densitas", "C_cap", "C_modulus", "C_bandgap", "C_layak"]
-BENEFIT = np.array([True, True, True, True, True, True])  # semua sudah diarahkan "makin besar makin baik"
+# KOREKSI (2026-11-04): C6 (skor classifier) DIHAPUS — double counting dengan C1-C3.
+KRITERIA = ["C_stabilitas", "C_densitas", "C_cap", "C_modulus", "C_bandgap"]
+BENEFIT = np.array([True, True, True, True, True])  # semua sudah diarahkan "makin besar makin baik"
 
 WEIGHTS = {
-    "W1_berimbang": np.array([0.30, 0.20, 0.15, 0.15, 0.10, 0.10]),
-    "W2_stabilitas": np.array([0.45, 0.15, 0.15, 0.10, 0.05, 0.10]),
-    "W3_mekanik": np.array([0.20, 0.25, 0.10, 0.30, 0.05, 0.10]),
+    "W1_berimbang": np.array([0.35, 0.25, 0.15, 0.15, 0.10]),
+    "W2_stabilitas": np.array([0.50, 0.15, 0.15, 0.10, 0.10]),
+    "W3_mekanik": np.array([0.25, 0.20, 0.10, 0.35, 0.10]),
 }
 
 
@@ -65,7 +66,6 @@ def main():
     k["C_cap"] = -np.abs(k["ca_p_ratio"] - 1.67)
     k["C_modulus"] = -np.abs(k["young_E_deriv_GPa"] - 15)
     k["C_bandgap"] = np.clip(k["bandgap_eV"].fillna(-1), 0, 5) / 5.0
-    k["C_layak"] = k["layak"].astype(float)
 
     # imputasi median untuk kriteria dengan missing (tercatat)
     med = k[KRITERIA].median()

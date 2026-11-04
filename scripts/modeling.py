@@ -1,28 +1,48 @@
-"""Pemodelan ML: regresi Eform/densitas/bandgap + klasifikasi kelayakan scaffold.
+"""Pemodelan ML v2 — metodologi anti-kebocoran & metrik jujur.
 
-- Fitur: ca_p_ratio, EN_avg, fraksi atom (Ca,P,O,H,F), berat molekul, volume sel, densitas.
-- Validasi: GroupKFold berbasis kelompok komposisi (polimorf satu fold) — sesuai Bagian 5.4+7.3 panduan.
-- Seleksi fitur: RF importance + RFE (target 10-15 deskriptor, disesuaikan ketersediaan).
-- Output: data/processed/prediksi_bandgap.csv + data/reports/laporan_pemodelan.md
+Koreksi (2026-11-04, kritik reviewer):
+1. Grouping = formula TEREDUKSI (gcd) -> polimorf & kelipatan formula satu fold.
+2. Feature set discovery = komposisi MURNI (tanpa volume/densitas — tak diketahui utk material baru).
+   Densitas model dengan [volume+MW] dilaporkan hanya sebagai "identitas kristalografi" (bukan klaim).
+3. Nested CV utk SVR (inner: pilih hiperparameter; outer: laporan) -> estimasi tidak optimistis.
+4. Performa Eform DILAPORKAN dalam keluarga fosfat (tanpa fosfida bimodal).
+5. Uji eksternal OQMD: (a) bebas-tumpang-tindih komposisi (strict), (b) penuh dengan catatan.
+6. Classifier suitability = cek konsistensi label (fungsi semi-deterministik fitur) — BUKAN klaim prediktif;
+   TIDAK lagi dipakai sebagai kriteria MCDM (double counting dengan C1-C3).
 """
+import math
 import time
 
 import numpy as np
 import pandas as pd
-from sklearn.ensemble import (GradientBoostingRegressor, RandomForestClassifier,
-                              RandomForestRegressor)
-from sklearn.feature_selection import RFE
-from sklearn.metrics import (accuracy_score, classification_report, confusion_matrix,
-                             f1_score, mean_absolute_error, mean_squared_error, r2_score)
-from sklearn.model_selection import GroupKFold, StratifiedGroupKFold, cross_val_predict
+from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor
+from sklearn.metrics import (accuracy_score, f1_score, mean_absolute_error,
+                             mean_squared_error, r2_score)
+from sklearn.model_selection import GroupKFold, ParameterGrid
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVR
 from xgboost import XGBRegressor
 
 from common import PROC, REPORTS
 
-FEATURES = ["ca_p_ratio", "EN_avg", "berat_molekul", "volume_A3", "densitas_final_gcm3",
-            "frac_Ca", "frac_P", "frac_O", "frac_H", "frac_F"]
+FS_KOMPOSISI = ["ca_p_ratio", "EN_avg", "berat_molekul", "frac_Ca", "frac_P",
+                "frac_O", "frac_H", "frac_F"]
+FS_IDENTITAS_DENSITAS = ["berat_molekul", "volume_A3"]  # rho = MZ/(NA V) -> hampir identitas
+FS_FULL = ["ca_p_ratio", "EN_avg", "berat_molekul", "volume_A3",
+           "densitas_final_gcm3", "frac_Ca", "frac_P", "frac_O", "frac_H", "frac_F"]
+
+GRID_SVR = {"C": [1, 10, 50], "gamma": [0.01, 0.05, 0.1], "epsilon": [0.05, 0.1]}
+
+
+def kunci_reduksi(row):
+    v = [int(round(float(row.get(k)))) if pd.notna(row.get(k)) else 0
+         for k in ["Ca", "P", "O", "H", "F"]]
+    if sum(v) == 0:
+        return "0-0-0-0-0"
+    g = 0
+    for x in v:
+        g = math.gcd(g, x)
+    return "-".join(str(x // g) for x in v)
 
 
 def siapkan_data():
@@ -31,132 +51,144 @@ def siapkan_data():
     tot = sub[["Ca", "P", "O", "H", "F"]].fillna(0).sum(axis=1)
     for el in ["Ca", "P", "O", "H", "F"]:
         sub[f"frac_{el}"] = sub[el].fillna(0) / tot
-    kunci = sub[["Ca", "P", "O", "H", "F"]].fillna(0).round(1).astype(str).agg("-".join, axis=1)
-    sub["komposisi_key"] = kunci
-    sub = sub.reset_index(drop=True)
-    return sub
+    sub["komposisi_reduksi"] = sub.apply(kunci_reduksi, axis=1)
+    sub["ada_O"] = sub["O"].fillna(0) > 0
+    return sub.reset_index(drop=True)
 
 
-def cv_evaluasi(sub, target, nama):
-    d = sub.dropna(subset=FEATURES + [target]).reset_index(drop=True)
-    X = d[FEATURES].values
-    y = d[target].values
-    groups = d["komposisi_key"].values
-    n_groups = len(set(groups))
-    gkf = GroupKFold(n_splits=min(10, n_groups))
-    hasil = {}
-    baris = []
-    models = {
-        "RandomForest": RandomForestRegressor(n_estimators=400, random_state=0, n_jobs=-1),
-        "XGBoost": XGBRegressor(n_estimators=400, learning_rate=0.05, max_depth=5,
-                                subsample=0.8, random_state=0, verbosity=0),
-        "GradientBoosting": GradientBoostingRegressor(random_state=0),
-        "SVR": SVR(C=10, gamma="scale"),
-    }
-    Xs = StandardScaler().fit_transform(X)
-    for nm, mdl in models.items():
-        Xm = Xs if nm == "SVR" else X
-        r2s, rmses, maes = [], [], []
-        for tr, te in gkf.split(Xm, y, groups):
-            mdl.fit(Xm[tr], y[tr])
-            pred = mdl.predict(Xm[te])
-            r2s.append(r2_score(y[te], pred))
-            rmses.append(np.sqrt(mean_squared_error(y[te], pred)))
-            maes.append(mean_absolute_error(y[te], pred))
-        hasil[nm] = {"R2": float(np.mean(r2s)), "R2_std": float(np.std(r2s)),
-                     "RMSE": float(np.mean(rmses)), "MAE": float(np.mean(maes))}
-        baris.append({"target": nama, "model": nm, **hasil[nm]})
-    return pd.DataFrame(baris), d, hasil
+def cv_group(X, y, groups, model, scaler=False):
+    gkf = GroupKFold(n_splits=10)
+    r2s, rmses, maes = [], [], []
+    for tr, te in gkf.split(X, y, groups):
+        Xtr, Xte = X[tr], X[te]
+        if scaler:
+            sc = StandardScaler().fit(Xtr)
+            Xtr, Xte = sc.transform(Xtr), sc.transform(Xte)
+        model.fit(Xtr, y[tr])
+        pred = model.predict(Xte)
+        r2s.append(r2_score(y[te], pred))
+        rmses.append(np.sqrt(mean_squared_error(y[te], pred)))
+        maes.append(mean_absolute_error(y[te], pred))
+    return float(np.mean(r2s)), float(np.mean(rmses)), float(np.mean(maes))
+
+
+def nested_cv_svr(X, y, groups, grid):
+    """Nested CV: outer 10-fold pelaporan; inner 5-fold (GroupKFold) pilih hiperparameter."""
+    outer = GroupKFold(n_splits=10)
+    r2s, rmses, maes = [], [], []
+    terpilih = []
+    for tr, te in outer.split(X, y, groups):
+        Xtr, Xte = X[tr], X[te]
+        inner = GroupKFold(n_splits=5)
+        best = None
+        for p in ParameterGrid(grid):
+            skor = []
+            for tr2, va in inner.split(Xtr, y[tr], groups[tr]):
+                sc = StandardScaler().fit(Xtr[tr2])
+                m = SVR(**p).fit(sc.transform(Xtr[tr2]), y[tr][tr2])
+                skor.append(r2_score(y[tr][va], m.predict(sc.transform(Xtr[va]))))
+            r2_in = float(np.mean(skor))
+            if best is None or r2_in > best[0]:
+                best = (r2_in, p)
+        terpilih.append(best[1])
+        sc = StandardScaler().fit(Xtr)
+        m = SVR(**best[1]).fit(sc.transform(Xtr), y[tr])
+        pred = m.predict(sc.transform(Xte))
+        r2s.append(r2_score(y[te], pred))
+        rmses.append(np.sqrt(mean_squared_error(y[te], pred)))
+        maes.append(mean_absolute_error(y[te], pred))
+    return (float(np.mean(r2s)), float(np.mean(rmses)), float(np.mean(maes)), terpilih)
 
 
 def main():
     sub = siapkan_data()
-    laporan = [f"# Laporan Pemodelan Machine Learning\n**Tanggal:** {time.strftime('%Y-%m-%d %H:%M:%S')}\n"
-               f"**Tahapan:** Bagian 7 panduan utama | Subset pemodelan: MP+AFLOW (komputasional)\n"]
+    laporan = [f"# Laporan Pemodelan ML v2 (anti-leakage, metrik jujur)\n"
+               f"**Tanggal:** {time.strftime('%Y-%m-%d %H:%M:%S')}\n"
+               f"**Grouping:** formula tereduksi (gcd) | **CV:** GroupKFold(10) | "
+               f"**SVR:** nested CV (inner 5-fold pilih hiperparameter)\n"]
 
+    # ===== Eform: fitur komposisi murni (skenario discovery) =====
+    d = sub.dropna(subset=FS_KOMPOSISI + ["Eform_eV_atom"]).reset_index(drop=True)
+    X, y = d[FS_KOMPOSISI].values, d["Eform_eV_atom"].values
+    g = d["komposisi_reduksi"].values
+    laporan.append(f"## Eform (eV/atom) — fitur KOMPOSISI MURNI, semua sumber n={len(d)}")
     tabel = []
-    datasets = {}
+    for nm, mdl in [("RF", RandomForestRegressor(n_estimators=400, random_state=0, n_jobs=-1)),
+                    ("GBR", GradientBoostingRegressor(random_state=0)),
+                    ("XGB", XGBRegressor(n_estimators=400, learning_rate=0.05, max_depth=5,
+                                         random_state=0, verbosity=0))]:
+        r2, rmse, mae = cv_group(X, y, g, mdl)
+        tabel.append({"model": nm, "R2": round(r2, 3), "RMSE": round(rmse, 3), "MAE": round(mae, 3)})
+    r2, rmse, mae, terpilih = nested_cv_svr(X, y, g, GRID_SVR)
+    tabel.append({"model": "SVR-nested", "R2": round(r2, 3), "RMSE": round(rmse, 3), "MAE": round(mae, 3)})
+    t = pd.DataFrame(tabel)
+    t.to_csv(PROC / "hasil_cv_eform_komposisi.csv", index=False)
+    laporan.append(t.to_markdown(index=False))
+    laporan.append(f"- Hiperparameter terpilih (outer): {terpilih[:3]} ...")
 
-    for target in ["Eform_eV_atom", "densitas_final_gcm3", "bandgap_eV"]:
-        # Eform: skala label antar sumber TIDAK konsisten (AFLOW offset sistematis vs MP/OQMD)
-        # -> latih pada MP+AFLOW (sesuai keputusan awal), OQMD dipakai sebagai UJI EKSTERNAL.
-        sub_target = sub[sub["sumber"].isin(["MaterialsProject", "AFLOW"])] if target == "Eform_eV_atom" else sub
-        tdf, d, hasil = cv_evaluasi(sub_target, target, target)
-        tabel.append(tdf)
-        datasets[target] = d
-        laporan.append(f"## Regresi: {target} (n={len(d)}, GroupKFold berbasis komposisi)\n{tdf.round(3).to_markdown(index=False)}")
+    # ===== Eform skenario SCREENING basis data: fitur struktur-informed (volume+densitas tersedia di basis data) =====
+    # Ini BUKAN skenario discovery; sah bila framework dipakai menyaring entri basis data.
+    d2 = sub[sub["sumber"].isin(["MaterialsProject", "AFLOW"])].dropna(
+        subset=FS_FULL + ["Eform_eV_atom"]).reset_index(drop=True)
+    r2u, rmseu, maeu, _ = nested_cv_svr(d2[FS_FULL].values, d2["Eform_eV_atom"].values,
+                                        d2["komposisi_reduksi"].values, GRID_SVR)
+    laporan.append(f"## Eform — skenario SCREENING (fitur termasuk volume+densitas, MP+AFLOW n={len(d2)})")
+    laporan.append(f"- SVR nested: R2 = {r2u:.3f}, RMSE = {rmseu:.3f}, MAE = {maeu:.3f} "
+                   f"(catatan: TIDAK berlaku untuk material baru — densitas/volume tak diketahui)")
 
-    # ===== uji eksternal: model Eform (MP+AFLOW) diprediksi pada OQMD =====
-    dtr = datasets["Eform_eV_atom"]
-    oq = sub[sub["sumber"] == "OQMD"].dropna(subset=FEATURES + ["Eform_eV_atom"])
-    if len(oq) > 10:
-        sc = StandardScaler().fit(dtr[FEATURES])
-        mdl = SVR(C=50, gamma=0.05, epsilon=0.05).fit(sc.transform(dtr[FEATURES]), dtr["Eform_eV_atom"])
-        pred = mdl.predict(sc.transform(oq[FEATURES]))
-        r2x = r2_score(oq["Eform_eV_atom"], pred)
-        rmsex = float(np.sqrt(mean_squared_error(oq["Eform_eV_atom"], pred)))
-        laporan.append(f"## Uji Eksternal: model Eform (MP+AFLOW) diprediksi pada OQMD (n={len(oq)})")
-        laporan.append(f"- R2 = {r2x:.3f}, RMSE = {rmsex:.3f} eV/atom -> transfer lintas basis data { 'KUAT' if r2x > 0.85 else 'sedang' }")
-        laporan.append("- Catatan: skala Eform AFLOW berbeda sistematis dari MP/OQMD (hingga 0.8 eV untuk fosfida); "
-                       "MP~OQMD (selisih < 0.02 eV pada komposisi tumpang tindih) -> OQMD valid sebagai uji eksternal.")
+    # ===== Eform dalam keluarga fosfat (tanpa fosfida) =====
+    dp = d[d["ada_O"]].reset_index(drop=True)
+    Xp, yp, gp = dp[FS_KOMPOSISI].values, dp["Eform_eV_atom"].values, dp["komposisi_reduksi"].values
+    r2p, rmsep, maep = cv_group(Xp, yp, gp, SVR(C=50, gamma=0.05, epsilon=0.05), scaler=True)
+    laporan.append(f"## Eform DALAM KELUARGA FOSFAT (ada O, n={len(dp)}) — SVR C=50")
+    laporan.append(f"- R2 = {r2p:.3f}, RMSE = {rmsep:.3f}, MAE = {maep:.3f}")
+    laporan.append("- Catatan: rentang fosfida vs fosfat bimodal TIDAK lagi mengatrol R2 di sini.")
 
-    gabung = pd.concat(tabel, ignore_index=True)
-    gabung.to_csv(PROC / "hasil_cv_regresi.csv", index=False)
+    # ===== Densitas: (a) identitas kristalografi [MW+volume] — bukan klaim; (b) komposisi murni =====
+    dd = sub.dropna(subset=FS_IDENTITAS_DENSITAS + ["densitas_final_gcm3"]).reset_index(drop=True)
+    r2i, rmsei, maei = cv_group(dd[FS_IDENTITAS_DENSITAS].values, dd["densitas_final_gcm3"].values,
+                                dd["komposisi_reduksi"].values,
+                                RandomForestRegressor(n_estimators=400, random_state=0, n_jobs=-1))
+    laporan.append(f"## Densitas — [berat molekul + volume] = IDENTITAS KRISTALOGRAFI (bukan klaim prediktif)")
+    laporan.append(f"- R2 = {r2i:.3f} (konsistensi data; rho = MZ/(NA V))")
+    dc = dd.dropna(subset=FS_KOMPOSISI).reset_index(drop=True)
+    r2c, rmsec, maec = cv_group(dc[FS_KOMPOSISI].values, dc["densitas_final_gcm3"].values,
+                                dc["komposisi_reduksi"].values,
+                                RandomForestRegressor(n_estimators=400, random_state=0, n_jobs=-1))
+    laporan.append(f"## Densitas — fitur KOMPOSISI MURNI (prediksi nyata, n={len(dc)})")
+    laporan.append(f"- R2 = {r2c:.3f}, RMSE = {rmsec:.3f}, MAE = {maec:.3f}")
 
-    # ===== seleksi fitur (RF importance + RFE) pada target Eform =====
-    d = datasets["Eform_eV_atom"]
-    X, y = d[FEATURES].values, d["Eform_eV_atom"].values
-    rf = RandomForestRegressor(n_estimators=400, random_state=0, n_jobs=-1).fit(X, y)
-    imp = pd.Series(rf.feature_importances_, index=FEATURES).sort_values(ascending=False)
-    rfe = RFE(RandomForestRegressor(n_estimators=200, random_state=0, n_jobs=-1),
-              n_features_to_select=8).fit(X, y)
-    terpilih = [f for f, s in zip(FEATURES, rfe.support_) if s]
-    laporan.append("## Seleksi Fitur (RF importance + RFE pada Eform)")
-    laporan.append(imp.round(3).to_markdown())
-    laporan.append(f"- Fitur terpilih RFE (8): {terpilih}")
+    # ===== Uji eksternal OQMD bebas-tumpang-tindih =====
+    tr = d[d["sumber"] != "OQMD"]
+    te = d[d["sumber"] == "OQMD"]
+    kunci_latih = set(tr["komposisi_reduksi"])
+    te_bebas = te[~te["komposisi_reduksi"].isin(kunci_latih)]
+    sc = StandardScaler().fit(tr[FS_KOMPOSISI])
+    mdl = SVR(C=50, gamma=0.05, epsilon=0.05).fit(sc.transform(tr[FS_KOMPOSISI]), tr["Eform_eV_atom"])
+    for nama, txx in [("OQMD PENUH (komposisi bisa tumpang tindih dgn latih)", te),
+                      ("OQMD BEBAS TUMPANG TINDIH (strict)", te_bebas)]:
+        if len(txx) == 0:
+            laporan.append(f"- {nama}: kosong")
+            continue
+        pred = mdl.predict(sc.transform(txx[FS_KOMPOSISI]))
+        laporan.append(f"## Uji eksternal — {nama} (n={len(txx)})")
+        laporan.append(f"- R2 = {r2_score(txx['Eform_eV_atom'], pred):.3f}, "
+                       f"RMSE = {np.sqrt(mean_squared_error(txx['Eform_eV_atom'], pred)):.3f}, "
+                       f"MAE = {mean_absolute_error(txx['Eform_eV_atom'], pred):.3f}")
 
-    # ===== prediksi bandgap untuk entri AFLOW tanpa Egap =====
-    db = datasets["bandgap_eV"]
-    rf_bg = RandomForestRegressor(n_estimators=400, random_state=0, n_jobs=-1).fit(
-        db[FEATURES].values, db["bandgap_eV"].values)
-    pred = sub[FEATURES].fillna(sub[FEATURES].median())
-    sub["bandgap_prediksi_eV"] = rf_bg.predict(pred.values)
-    sub[["id", "sumber", "formula", "bandgap_eV", "bandgap_prediksi_eV"]].to_csv(
-        PROC / "prediksi_bandgap.csv", index=False)
-
-    # ===== klasifikasi kelayakan scaffold =====
-    # keputusan (2026-11-04, koreksi sirkularitas): pita Ca/P [1.0, 2.1] mencakup
-    # komponen semen kalsium fosfat klinis (TTCP 2.0 + DCPA 1.0)
+    # ===== Classifier = cek konsistensi label (bukan klaim) =====
     sub["layak"] = ((sub["Eform_eV_atom"] <= -2.5) &
                     (sub["ca_p_ratio"].between(1.0, 2.1)) &
                     (sub["densitas_final_gcm3"].between(0.5, 4.5))).astype(int)
-    dk = sub.dropna(subset=FEATURES + ["layak"])
-    Xk, yk = dk[FEATURES].values, dk["layak"].values
-    gk = dk["komposisi_key"].values
-    laporan.append(f"## Klasifikasi Kelayakan Scaffold (n={len(dk)}, kelas 1 = {yk.sum()})")
-    laporan.append("- Definisi layak: Eform <= -2.5 eV/atom & Ca/P 1.2-2.1 & densitas 0.5-4.5 g/cm3")
-    if yk.sum() >= 5 and (len(yk) - yk.sum()) >= 5:
-        sgkf = StratifiedGroupKFold(n_splits=min(5, len(set(gk))), shuffle=True, random_state=0)
-        accs, f1s = [], []
-        ypred = np.zeros_like(yk)
-        for tr, te in sgkf.split(Xk, yk, gk):
-            clf = RandomForestClassifier(n_estimators=400, random_state=0, n_jobs=-1)
-            clf.fit(Xk[tr], yk[tr])
-            p = clf.predict(Xk[te])
-            ypred[te] = p
-            accs.append(accuracy_score(yk[te], p))
-            f1s.append(f1_score(yk[te], p))
-        laporan.append(f"- Akurasi: {np.mean(accs):.3f} +/- {np.std(accs):.3f} | F1: {np.mean(f1s):.3f} +/- {np.std(f1s):.3f}")
-        laporan.append(f"- Confusion matrix (prediksi vs aktual):\n```\n{confusion_matrix(yk, ypred)}\n```")
-        laporan.append(f"- Classification report:\n{classification_report(yk, ypred, output_dict=False)}")
-    else:
-        laporan.append("- Kelas tidak seimbang untuk CV terstratifikasi -> catat ketimpangan kelas (risiko bias model).")
-    # simpan label kelayakan untuk MCDM
-    sub[["id", "sumber", "formula", "layak", "ca_p_ratio", "Eform_eV_atom",
-         "densitas_final_gcm3", "bandgap_eV", "bandgap_prediksi_eV",
-         "bulk_K_GPa", "shear_G_GPa", "young_E_GPa", "kelompok", "komposisi_key"]].to_csv(
-        PROC / "kandidat_scaffold.csv", index=False)
+    laporan.append("## Classifier suitability — CEK KONSISTENSI LABEL (bukan klaim prediktif)")
+    laporan.append("- Label adalah fungsi semi-deterministik dari fitur (pita Ca/P & densitas ada di fitur; "
+                   "hanya Eform yang perlu dipelajari) -> akurasi tinggi DIHARAPKAN dan tidak informatif.")
+    laporan.append("- Keputusan: skor ini TIDAK dipakai sebagai kriteria MCDM (double counting dengan C1-C3).")
 
+    sub[["id", "sumber", "formula", "layak", "ca_p_ratio", "Eform_eV_atom",
+         "densitas_final_gcm3", "bandgap_eV", "bulk_K_GPa", "shear_G_GPa", "young_E_GPa",
+         "kelompok", "komposisi_reduksi", "ada_O"]].to_csv(
+        PROC / "kandidat_scaffold.csv", index=False)
     (REPORTS / "laporan_pemodelan.md").write_text("\n".join(laporan), encoding="utf-8")
     print("\n".join(laporan).encode("ascii", "replace").decode("ascii"))
 

@@ -7,7 +7,7 @@ from scipy.stats import spearmanr
 
 from common import PROC, REPORTS
 
-KRITERIA = ["C_stabilitas", "C_densitas", "C_cap", "C_modulus", "C_bandgap", "C_layak"]
+KRITERIA = ["C_stabilitas", "C_densitas", "C_cap", "C_modulus", "C_bandgap"]
 
 
 def topsis(A, w):
@@ -56,13 +56,12 @@ def main():
     k["C_cap"] = -np.abs(k["ca_p_ratio"] - 1.67)
     k["C_modulus"] = -np.abs(k["young_E_deriv_GPa"] - 15)
     k["C_bandgap"] = np.clip(k["bandgap_eV"].fillna(-1), 0, 5) / 5.0
-    k["C_layak"] = k["layak"].astype(float)
     med = k[KRITERIA].median()
     A = k[KRITERIA].fillna(med).values
     An = A / np.sqrt((A ** 2).sum(0))
 
     # entropi HANYA pada kriteria lengkap tanpa imputasi (C_modulus & C_bandgap diimputasi)
-    KR_ENT = ["C_stabilitas", "C_densitas", "C_cap", "C_layak"]
+    KR_ENT = ["C_stabilitas", "C_densitas", "C_cap"]
     idx_ent = [KRITERIA.index(x) for x in KR_ENT]
     Aent = An[:, idx_ent]
     w_ent_4, e = bobot_entropi(Aent)

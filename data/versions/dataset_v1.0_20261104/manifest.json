@@ -1,20 +1,20 @@
 {
   "nama": "dataset_v1.0_20261104",
-  "tanggal": "2026-11-04 07:02:40",
+  "tanggal": "2026-11-04 07:12:54",
   "sumber": "data/processed + data/reports",
   "file": {
     "inventory_dataset.csv": "8951c1b963e177b27e0654e8c804ee867f2fafe7c6b2b510b6039451246e548b",
     "dataset_deskriptor.csv": "a0b6077379cfcfd3003d5eafabd0b7185ef79078ba4826c63bfe022695925381",
-    "kandidat_ranking.csv": "f18275ef204ef9c868f77d3abf370eb4d1cc63831946b8cb5fb74af985e553b9",
-    "kandidat_top15_dedup.csv": "02e9ee82cd1b07dc04f385ecd69fe06c852f29295b5bd393457273d29745fa99",
+    "kandidat_ranking.csv": "b948da5fe301edd77a83c8f7b5dc9e7bc4c6d08b37266f8446550a7c6b425d00",
+    "kandidat_top15_dedup.csv": "2a6c66620b165f8d4f4276feb53fec72735b9c33dc721a81414fd2c6691e7281",
     "hasil_cv_regresi.csv": "8b98f4b91ec194c9f73665d04533181e2983cf59fff75181255b51b23b0b21e8",
-    "reports/LAPORAN_FINAL.md": "4500affbb39699659ab7bc0e0c0c96d2a3be598ce6bdbb7cdc4acfa59fd42c56",
+    "reports/LAPORAN_FINAL.md": "3257b171240e315c5e2767c241779978281608664c85771aa9d49e59e4c386f9",
     "reports/laporan_akuisisi.md": "16e29df3f0bfc7fa88bdc2a39476e74455bbed40564daec00b3dece78705f026",
     "reports/laporan_prapemrosesan.md": "834e687b15d2fd795a7246a94c1102b86dd7c5576119463326dac5aa68a00a3f",
     "reports/laporan_eda.md": "e3abfb78982ce8ee8f9385f10de5d82a2136f6fd2b6a7dcdcbb755120795abac",
-    "reports/laporan_pemodelan.md": "b0a03efbfa131fbda92f44ab112d5a891ca807c1e69d65d966c0bece98e284ad",
-    "reports/laporan_mcdm.md": "c7ef91118a3b472d55d828e6062be8406170fa69831c02236f0c845b6b5e99b9",
-    "reports/laporan_xai.md": "fa2d0ae9a02e91e5f5ece1d6da41a95e4a56a14f2c12f145c73b0a23a3ea6c0f",
+    "reports/laporan_pemodelan.md": "3bf48000cc134d9c440466e614b27cc864a25f4424376c3232cac34ed2b7b730",
+    "reports/laporan_mcdm.md": "f59bb55d2b843fe2460154c9f5303aba0aa12cf0e58536404f5a40da1869d380",
+    "reports/laporan_xai.md": "047772ab828489acb42ed071d28b6d91f278fb1a7d130640cce2b5753e0b9803",
     "reports/figures/": "disalin utuh"
   }
 }

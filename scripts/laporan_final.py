@@ -50,27 +50,39 @@ konsisten dengan literatur biomaterial tulang.
 | MCDM | TOPSIS + VIKOR, 3 set bobot (analisis sensitivitas) | laporan_mcdm.md |
 | XAI | SHAP + permutation importance + dependence plots | laporan_xai.md |
 
-## 3. Hasil Pemodelan (GroupKFold, subset komputasional n=291)
+## 3. Hasil Pemodelan (protokol anti-kebocoran: grouping formula tereduksi, nested CV, fitur komposisi murni)
 
-| Target | Model terbaik | R2 | RMSE |
+| Tugas | Model | R2 | MAE |
 |---|---|---|---|
-| Energi pembentukan (eV/atom) | SVR (tuned: C=50, gamma=0.05) | 0.869 | 0.395 |
-| Densitas (g/cm3) | Random Forest | 0.916 | 0.132 |
-| Bandgap | — GAGAL (R2<0) — keputusan: tanpa imputasi, dipakai nilai terukur saja | | |
-| Klasifikasi kelayakan scaffold | Random Forest | Akurasi 0.975, F1 0.90 | |
+| Eform — semua entri komputasional (n=571) | SVR nested | 0.483 | 0.265 |
+| Eform — dalam keluarga fosfat saja (n=215) | SVR | 0.580 | 0.176 |
+| Eform — varian screening basis data (n=291) | SVR nested | 0.489 | 0.242 |
+| Transfer antar basis data, komposisi sama (OQMD n=280) | SVR | 0.883 | 0.254 |
+| Densitas — komposisi murni (n=571) | Random Forest | 0.174 | 0.264 |
+| Bandgap | GAGAL (R2<0) — tanpa imputasi | | |
+| Benchmark eksperimen (6 fase): Eform MAE 0.254 eV/atom, densitas MAE 0.177 g/cm3 | | | |
+| Konteks SOTA: GNN (CGCNN/MEGNet/CHGNet) MAE 0.03–0.1 eV/atom — kontribusi kami = pipeline teraudit, bukan akurasi regresi. Target internal R2>=0.85 DITARIK (arbitrer, disusun tanpa analisis kebocoran). | | | |
 
 ## 4. Top 15 Kandidat Biomaterial (dedup polimorf, TOPSIS+VIKOR x 3 bobot)
 
 {top15[['formula','sumber','kelompok','peringkat_rerata','Eform_eV_atom','densitas_final_gcm3','ca_p_ratio','bandgap_eV']].round(3).to_markdown(index=False)}
 
-**Klaim jujur (koreksi sirkularitas 2026-11-04):**
-- QC sumber data (nilai DATABASE vs literatur): selisih densitas <= 2.9% — ini menguji basis data, bukan model.
-- Validasi INDEPENDEN prediksi MODEL vs eksperimen (Wagman/NBS + densitas kristalografi, 6 fase):
-  densitas MAE 0.007 g/cm3; Eform MAE 0.353 eV/atom (terbaik TTCP -0.05, monetit -0.06;
-  terburuk brushit +0.49 — fase terhidrasi di luar distribusi pelatihan). Lihat laporan_validasi_independen.md.
-- Kriteria MCDM dirancang dari kebutuhan jaringan tulang -> peringkat atas apatitik ADALAH konstruksi,
-  bukan 'penemuan ulang'. b-TCP (graft resorbabel standar) di luar 15 besar karena kriteria belum
-  memuat resorbabilitas -> arah pengembangan kriteria berikutnya.
+**Klaim jujur (koreksi 2026-11-04, dua putaran reviewer):**
+- QC sumber data (nilai DATABASE vs literatur): selisih densitas <= 2.9% — menguji basis data, bukan model;
+  kecocokan kisi alpha/beta-TCP melingkar (COD menyimpan struktur dari paper yang sama).
+- Validasi INDEPENDEN prediksi MODEL (fitur komposisi murni) vs eksperimen (Wagman/NBS + densitas
+  kristalografi, 6 fase): Eform MAE 0.254 eV/atom (terbaik monetit +0.08, TTCP +0.16; terbesar
+  alpha-TCP +0.35); densitas MAE 0.177 g/cm3. Lihat laporan_validasi_independen.md.
+- Koreksi kebocoran: versi lama (a) model densitas = hampir identitas rho=MZ/(NA.V) dan bahkan
+  target masuk fitur pada benchmark lama (MAE 0.007 TIDAK VALID); (b) Eform memakai densitas sebagai
+  fitur; (c) classifier = fungsi semi-deterministik fiturnya (ditarik dari klaim & MCDM);
+  (d) grouping formula mentah bocor utk kelipatan formula -> kini formula tereduksi (gcd);
+  (e) tuning & pelaporan CV sama -> kini nested CV; (f) uji 'eksternal' OQMD = komposisi sama
+  dengan latih -> dilaporkan sebagai transfer sesama-komposisi (R2 0.88), bukan ekstrapolasi;
+  (g) R2 lama dikatrol bimodal fosfida/fosfat -> dilaporkan dalam-keluarga (0.58).
+- Kriteria MCDM dirancang dari kebutuhan desain -> peringkat atas apatitik ADALAH konstruksi.
+  b-TCP kini masuk 15 besar (peringkat 14) setelah kriteria densitas pita; kekurangan kriteria
+  resorbabilitas tetap menjadi arah pengembangan.
 
 ## 5. Interpretasi (SHAP)
 

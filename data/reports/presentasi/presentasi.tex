@@ -82,21 +82,15 @@ OQMD & oqmdapi & cite Kirklin et al. & 280 \\
 \end{columns}
 \end{frame}
 
-\begin{frame}{Predictive models (GroupKFold by composition)}
-\begin{table}
-\centering
-\begin{tabular}{llccc}
-\toprule
-Target & Model & $R^2$ & RMSE & MAE \\
-\midrule
-Formation energy (eV/at) & \textbf{SVR tuned} & \textbf{0.869} & 0.395 & 0.221 \\
-External test (OQMD, $n$=280) & SVR & \textbf{0.951} & 0.248 & -- \\
-Density (g/cm$^3$) & \textbf{Random forest} & \textbf{0.909} & 0.096 & 0.027 \\
-Suitability classification & Random forest & Acc 0.975 & F1 0.90 & \\
-\bottomrule
-\end{tabular}
-\caption{Leakage-free: polymorphs always in the same fold. Band gap not predictable from composition (documented).}
-\end{table}
+\begin{frame}{Predictive models (leakage-resistant protocol)}
+\begin{itemize}\small
+\item Reduced-formula grouping + nested CV + composition-only features (discovery setting)
+\item Formation energy (nested SVR, all 571): $R^2$=0.48, MAE 0.27 eV/at; \textbf{within phosphates: $R^2$=0.58}
+\item Cross-database at matching compositions (OQMD, 280): $R^2$=0.88
+\item Density, composition-only: $R^2$=0.17 (packing property -- expected)
+\item Earlier higher scores were leakage artifacts; withdrawn (suitability classifier semi-deterministic, dropped from MCDM)
+\item Honest context: GNN SOTA (CGCNN/MEGNet/CHGNet) MAE 0.03--0.1 eV/at -- our contribution is the auditable pipeline
+\end{itemize}
 \end{frame}
 
 \begin{frame}{Multi-objective ranking (TOPSIS + VIKOR)}
@@ -158,10 +152,10 @@ Carbonated apatite & $\rho$ (g/cm$^3$) & 3.053 & 3.0 & $+1.8$\% \\
 
 \begin{frame}{Independent validation: ML predictions vs experiment}
 \begin{itemize}\small
-\item Models trained ONLY on database entries; tested on experimental thermochemistry (Wagman/NBS) \& crystallographic densities of 6 CaP phases
-\item \textbf{Density: MAE = 0.007 g/cm$^3$} -- excellent
-\item \textbf{Formation energy: MAE = 0.353 eV/atom} -- comparable to the DFT databases themselves; best: TTCP $-0.05$, monetite $-0.06$ eV/atom; worst: brushite $+0.49$ (hydrated phase, outside training distribution)
-\item Cross-database: trained MP+AFLOW, tested on 280 OQMD entries $\Rightarrow R^2 = 0.951$
+\item Composition-only models, trained ONLY on database entries; tested on experimental thermochemistry (Wagman/NBS) \& crystallographic densities of 6 CaP phases
+\item \textbf{Formation energy: MAE = 0.254 eV/atom} (best: monetite $+0.08$, TTCP $+0.16$; largest: $\alpha$-TCP $+0.35$)
+\item \textbf{Density: MAE = 0.177 g/cm$^3$} (weaker -- packing property from stoichiometry)
+\item Cross-database at matching compositions: $R^2 = 0.88$ (not composition extrapolation -- stated explicitly)
 \end{itemize}
 \end{frame}
 
@@ -171,9 +165,8 @@ Carbonated apatite & $\rho$ (g/cm$^3$) & 3.053 & 3.0 & $+1.8$\% \\
 \includegraphics[width=\textwidth]{fig_shap_bar_eform.png}
 \column{0.5\textwidth}
 \begin{itemize}\small
-\item Formation energy driven by O fraction and density
-\item Density driven by cell volume and average electronegativity
-\item Ca/P--density SHAP correlation $+0.57$
+\item Formation energy (composition-only): O fraction \& molecular weight dominate -- partly phosphide/phosphate family separation (stated)
+\item Density: electronegativity \& O fraction dominate; Ca/P--density SHAP correlation $+0.47$
 \item Redundant descriptors removed ($|r|>0.85$, VIF $>$ 10)
 \end{itemize}
 \end{columns}
