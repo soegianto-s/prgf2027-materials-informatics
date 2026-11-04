@@ -27,6 +27,9 @@ LAPORAN_KUNCI = [
     "laporan_eda.md",
     "laporan_pemodelan.md",
     "laporan_mcdm.md",
+    "laporan_sensitivitas.md",
+    "laporan_montecarlo.md",
+    "laporan_validasi_komputasional.md",
     "laporan_xai.md",
 ]
 

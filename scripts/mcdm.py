@@ -1,12 +1,23 @@
 """Analisis multiobjektif: TOPSIS + VIKOR, 3 set bobot (sensitivitas), pemeringkatan kandidat.
 
-Kriteria (Bagian 8.1 panduan utama):
+Kriteria (revisi ronde 4 — panduan utama Bagian 8.1):
   C1 stabilitas termodinamika (Eform makin negatif makin baik)
-  C2 densitas mendekati 2.0 g/cm3 (tulang)
-  C3 Ca/P mendekati 1.67 (hidroksiapatit)
-  C4 modulus Young turunan (9KG/(3K+G)) mendekati 15 GPa; missing -> imputasi median (tercatat)
-  C5 bandgap: makin besar makin baik (cap 5 eV), metal (0) dihukum; missing -> imputasi median
-  C6 skor kelayakan model ML (0/1)
+  C2 densitas dalam pita klinis [1.0, 3.2] g/cm3 (nol penalti di dalam pita)
+  C3 Ca/P mendekati 1.67 (mineral tulang)
+
+Keputusan revisi (reviewer ronde 4, tercatat):
+  - C4 modulus Young DITARIK: hanya n=9 punya K&G -> imputasi median untuk 98% entri
+    menjadikan kriteria praktis konstanta/noise. Modulus adalah sifat LEVEL SCAFFOLD
+    (arsitektur + porositas, Gibson-Ashby) dan ditangani di tahap desain hilir
+    (Bagian validasi komputasional), bukan kriteria material.
+  - C5 bandgap DITARIK: tidak ada fungsi elektronik pada scaffold tulang; entri
+    metalik sudah terseleksi oleh kriteria komposisi dan kerapatan.
+  - C6 skor kelayakan ML (classifier) DIHAPUS sejak 2026-11-04 — double counting C1-C3.
+  - FILTER KENETRALAN MUATAN (baru): pemeriksaan stoikiometri — formula dengan muatan
+    formal != 0 (oksidasi standar Ca+2, P+5, O-2, H+1, F-1, C+4) dikeluarkan dari
+    kolam kandidat (contoh: Ca5P3O13, Ca5(PO4)3).
+  - Propagasi ketidakpastian ML ke peringkat: lihat mcdm_montecarlo.py
+    (bobot Dirichlet + noise Gaussian sebesar MAE CV model).
 """
 import time
 
@@ -14,16 +25,31 @@ import numpy as np
 import pandas as pd
 
 from common import PROC, REPORTS
+from consolidate import parse_formula
 
-# KOREKSI (2026-11-04): C6 (skor classifier) DIHAPUS — double counting dengan C1-C3.
-KRITERIA = ["C_stabilitas", "C_densitas", "C_cap", "C_modulus", "C_bandgap"]
-BENEFIT = np.array([True, True, True, True, True])  # semua sudah diarahkan "makin besar makin baik"
+KRITERIA = ["C_stabilitas", "C_densitas", "C_cap"]
+BENEFIT = np.array([True, True, True])  # semua sudah diarahkan "makin besar makin baik"
 
 WEIGHTS = {
-    "W1_berimbang": np.array([0.35, 0.25, 0.15, 0.15, 0.10]),
-    "W2_stabilitas": np.array([0.50, 0.15, 0.15, 0.10, 0.10]),
-    "W3_mekanik": np.array([0.25, 0.20, 0.10, 0.35, 0.10]),
+    "W1_berimbang": np.array([0.40, 0.30, 0.30]),
+    "W2_stabilitas": np.array([0.60, 0.20, 0.20]),
+    "W3_komposisi": np.array([0.30, 0.30, 0.40]),
 }
+
+# Oksidasi standar untuk pemeriksaan kenetralan muatan (sistem Ca-P-O-H-F-C)
+OXID = {"Ca": 2.0, "P": 5.0, "O": -2.0, "H": 1.0, "F": -1.0, "C": 4.0}
+
+
+def muatan_formula(f):
+    """Muatan formal bersih formula (None bila ada unsur di luar sistem).
+
+    Bilangan oksidasi P bergantung konteks: +5 bila ada O (fosfat), -3 tanpa O (fosfida).
+    """
+    cnt = parse_formula(f)
+    if set(cnt) - set(OXID):
+        return None
+    p_ox = 5.0 if "O" in cnt else -3.0
+    return sum(n * (p_ox if e == "P" else OXID[e]) for e, n in cnt.items())
 
 
 def topsis(A, w):
@@ -47,13 +73,22 @@ def vikor(A, w, v=0.5):
 
 def main():
     k = pd.read_csv(PROC / "kandidat_scaffold.csv")
-    for c in ["bulk_K_GPa", "shear_G_GPa", "young_E_GPa", "bandgap_eV", "Eform_eV_atom",
-              "densitas_final_gcm3", "ca_p_ratio"]:
+    for c in ["Eform_eV_atom", "densitas_final_gcm3", "ca_p_ratio"]:
         k[c] = pd.to_numeric(k[c], errors="coerce")
-    k["young_E_deriv_GPa"] = np.where(
-        k["bulk_K_GPa"].notna() & k["shear_G_GPa"].notna(),
-        9 * k["bulk_K_GPa"] * k["shear_G_GPa"] / (3 * k["bulk_K_GPa"] + k["shear_G_GPa"]),
-        np.nan)
+
+    # Filter kenetralan muatan (pemeriksaan stoikiometri, reviewer ronde 4)
+    # + syarat mengandung O: kolam kandidat = kalsium FOSFAT (fosfida seperti Ca3P2
+    # netral secara muatan tetapi di luar kelas material scaffold & reaktif thd air).
+    q = k["formula"].map(muatan_formula)
+    tak_dikenal = q.isna()
+    tak_netral = q.notna() & (q.abs() > 1e-6)
+    tanpa_o = ~k["ada_O"].fillna(False).astype(bool)
+    n_unsur = int(tak_dikenal.sum())
+    n_muatan = int(tak_netral.sum())
+    n_fosfida = int(tanpa_o.sum())
+    contoh_muatan = k.loc[tak_netral, "formula"].head(8).tolist()
+    k = k[~(tak_dikenal | tak_netral | tanpa_o)].copy()
+
     # C_stabilitas: Eform ABSOLUT (makna fisika). Catatan: skala AFLOW offset vs MP/OQMD
     # (hingga 0.8 eV) -> entri AFLOW sedikit dirugikan; dicatat sebagai keterbatasan.
     k["C_stabilitas"] = -k["Eform_eV_atom"]
@@ -64,12 +99,8 @@ def main():
     k["C_densitas"] = np.where(rho.between(1.0, 3.2), 0.0,
                                -np.minimum((rho - 3.2).abs(), (rho - 1.0).abs()))
     k["C_cap"] = -np.abs(k["ca_p_ratio"] - 1.67)
-    k["C_modulus"] = -np.abs(k["young_E_deriv_GPa"] - 15)
-    k["C_bandgap"] = np.clip(k["bandgap_eV"].fillna(-1), 0, 5) / 5.0
 
-    # imputasi median untuk kriteria dengan missing (tercatat)
-    med = k[KRITERIA].median()
-    A = k[KRITERIA].fillna(med).values
+    A = k[KRITERIA].values
     # normalisasi vektor
     An = A / np.sqrt((A ** 2).sum(0))
 
@@ -91,10 +122,16 @@ def main():
         return m[["formula", "peringkat_rerata"]].head(3).to_markdown(index=False) if len(m) else "- tidak ada"
 
     laporan = [f"# Laporan Analisis Multiobjektif (MCDM)\n**Tanggal:** {time.strftime('%Y-%m-%d %H:%M:%S')}\n"
-               f"**Tahapan:** Bagian 8 panduan utama\n",
-               f"## Kriteria & Arah\n- C1 stabilitas (max), C2 densitas->2.0 (max), C3 Ca/P->1.67 (max), "
-               f"C4 modulus->15 GPa (max), C5 bandgap (max) — C6 (skor kelayakan ML) DITARIK: double counting dengan C1-C3",
-               f"- Imputasi median untuk C4/C5 yang hilang (keputusan tercatat).",
+               f"**Tahapan:** Bagian 8 panduan utama (revisi ronde 4)\n",
+               f"## Kriteria & Arah\n- C1 stabilitas (max), C2 densitas pita [1.0, 3.2] g/cm3 (max), "
+               f"C3 Ca/P->1.67 (max)",
+               f"- C4 modulus & C5 bandgap DITARIK (reviewer ronde 4): C4 imputasi median utk 98% entri "
+               f"(n=9) = praktis konstanta + salah level (sifat scaffold, bukan material); C5 tanpa "
+               f"fungsi elektronik pada scaffold tulang. C6 (kelayakan ML) sudah ditarik sebelumnya.",
+               f"- Filter kenetralan muatan (stoikiometri): {n_muatan} entri muatan != 0 dibuang "
+               f"(contoh: {', '.join(contoh_muatan) if contoh_muatan else '-'}); {n_unsur} entri "
+               f"berunsur di luar sistem dan {n_fosfida} fosfida (tanpa O, di luar kelas material "
+               f"kalsium fosfat) dibuang. Kolam akhir: {len(k)} entri.",
                f"- Bobot: {WEIGHTS}",
                f"## Posisi Material Rujukan (peringkat rerata dari 6 skenario)\n- HAp: {cek('Ca5P3HO13|Ca10H2O26P6')}",
                f"- TCP: {cek('Ca3O8P2|Ca3P2O8')}",
@@ -103,8 +140,7 @@ def main():
     top = k.head(15)
     laporan.append(top[[
         "formula", "sumber", "kelompok", "peringkat_rerata", "kali_top10",
-        "Eform_eV_atom", "densitas_final_gcm3", "ca_p_ratio", "young_E_deriv_GPa",
-        "bandgap_eV", "layak"]].round(3).to_markdown(index=False))
+        "Eform_eV_atom", "densitas_final_gcm3", "ca_p_ratio", "layak"]].round(3).to_markdown(index=False))
 
     top.to_csv(PROC / "kandidat_top15.csv", index=False)
     k.to_csv(PROC / "kandidat_ranking.csv", index=False)

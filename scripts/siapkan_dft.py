@@ -28,9 +28,12 @@ PSEUDO = {
 
 
 def reduksi(baris):
-    """Kunci komposisi ternormalisasi (gcd) dari komposisi_key 'Ca-P-O-H-F'."""
+    """Kunci komposisi ternormalisasi (gcd) dari komposisi_key/komposisi_reduksi 'Ca-P-O-H-F'."""
+    key = baris.get("komposisi_key", "")
+    if not key or str(key) == "nan":
+        key = baris.get("komposisi_reduksi", "")
     try:
-        vals = [int(round(float(x))) for x in str(baris.get("komposisi_key", "")).split("-")]
+        vals = [int(round(float(x))) for x in str(key).split("-")]
     except Exception:
         return "0-0-0-0-0"
     if len(vals) < 5 or sum(vals) == 0:
@@ -202,6 +205,17 @@ def main():
         struktur = None
         if r["sumber"] == "MaterialsProject":
             struktur = ambil_struktur_mp(r["id"])
+            # prefer struktur MP terkecil dengan komposisi sama (hemat komputasi MLFF/DFT;
+            # sel kecil/primitif setara secara fisika untuk validasi elastik)
+            mp_sama = rank[(rank["sumber"] == "MaterialsProject")
+                           & (rank["kunci_reduksi"] == r["kunci_reduksi"])]
+            n_min = len(struktur["structure"]["sites"]) if struktur else None
+            for _, m in mp_sama.iterrows():
+                if m["id"] == r["id"]:
+                    continue
+                alt = ambil_struktur_mp(m["id"])
+                if alt is not None and (n_min is None or len(alt["structure"]["sites"]) < n_min):
+                    struktur, n_min = alt, len(alt["structure"]["sites"])
         if struktur is None:
             # cari struktur MP dengan komposisi ternormalisasi sama
             mp_sama = rank[(rank["sumber"] == "MaterialsProject")

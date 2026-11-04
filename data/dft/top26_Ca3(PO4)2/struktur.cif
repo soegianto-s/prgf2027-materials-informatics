@@ -1,0 +1,28 @@
+data_top26_Ca3(PO4)2
+_chemical_formula_structural  'Ca3(PO4)2'
+_cell_length_a  5.27191
+_cell_length_b  5.27191
+_cell_length_c  7.23381
+_cell_angle_alpha  89.7134
+_cell_angle_beta  89.7134
+_cell_angle_gamma  115.5594
+_symmetry_space_group_name_H-M  'P 1'
+_symmetry_Int_Tables_number  1
+loop_
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+  Ca  0.311719  0.688281  0.000000
+  Ca  0.986641  0.002978  0.272981
+  Ca  0.997022  0.013359  0.727019
+  P  0.348517  0.651483  0.500000
+  P  0.652679  0.347321  0.000000
+  O  0.674505  0.777936  0.505946
+  O  0.222064  0.325495  0.494054
+  O  0.264086  0.759534  0.319425
+  O  0.240466  0.735914  0.680575
+  O  0.731124  0.229818  0.828500
+  O  0.770182  0.268876  0.171499
+  O  0.769711  0.680663  0.991557
+  O  0.319337  0.230289  0.008443

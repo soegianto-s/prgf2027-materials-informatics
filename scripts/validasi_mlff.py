@@ -21,11 +21,11 @@ HASIL = ROOT / "data" / "validasi_mlff"
 HASIL.mkdir(exist_ok=True, parents=True)
 
 KANDIDAT = [
-    ("top1_Ca10P6CO27", "karbonat apatit", True),
-    ("top2_Ca5P3O12F", "fluorapatit", True),
-    ("top3_Ca8P6H12O29", "oktakalsium fosfat", False),
-    ("top6_Ca10P6O25", "apatit Ca10P6O25", True),
-    ("top12_Ca16O36P8", "tetrakalsium fosfat", True),
+    ("top1_Ca5P3O12F", "fluorapatit", True),
+    ("top2_Ca10P6O25", "oksiapatit", True),
+    ("top5_Ca10P6CO27", "karbonat apatit", True),
+    ("top6_Ca5P3HO13", "hidroksiapatit", True),
+    ("top26_Ca3(PO4)2", "beta-TCP", True),
 ]
 
 

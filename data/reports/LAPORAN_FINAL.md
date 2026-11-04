@@ -1,7 +1,7 @@
 # LAPORAN FINAL
 # Pengembangan Kerangka Materials Informatics Berbasis AI untuk Penemuan Biomaterial Kalsium Fosfat sebagai Kandidat Scaffold Rekayasa Jaringan Tulang
 
-**Tanggal:** 2026-11-04 07:45:47
+**Tanggal:** 2026-11-04 08:16:40
 **Research Group:** AMREC, Universitas Airlangga | Skema PRGF Discovery Research 2027
 
 ---
@@ -17,9 +17,13 @@ dengan R2 = 0,113 (n=337 MP+OQMD, skala konsisten; AFLOW dikecualikan) dan densi
 Varian screening berstruktur (volume+densitas) mencapai R2 = 0,401; transfer antar basis data
 sesama-komposisi (latih MP n=57 -> uji OQMD n=280) R2 = 0,833. Dalam keluarga fosfat saja,
 komposisi murni TIDAK punya daya prediksi (R2 = -0,516) — temuan struktural ronde 3.
-Pemeringkatan multiobjektif menghasilkan **15 kandidat unik** yang didominasi keluarga apatit
-(hidroksiapatit, fluorapatit, karbonat apatit), oktakalsium fosfat, dan tetrakalsium fosfat —
-konsisten dengan literatur biomaterial tulang.
+Pemeringkatan multiobjektif (TOPSIS+VIKOR, 3 kriteria level material: stabilitas, pita densitas
+[1.0, 3.2], Ca/P->1.67; filter kenetralan muatan; kolam 165 kalsium fosfat netral) menghasilkan
+**15 kandidat unik** yang dipuncaki fluorapatit, oksiapatit, karbonat apatit, hidroksiapatit,
+dan b-TCP. Monte Carlo 3.000 run (bobot Dirichlet + noise MAE model) menegaskan stabilitas top-4
+(masuk top-5 pada 56–86% run); slot ke-5 diperebutkan karbonat apatit vs TTCP (17% masing-masing).
+Overlay resorbabilitas literatur (pKsp) membuat trade-off stabilitas–resorbabilitas eksplisit;
+klaim 'accelerated discovery' dicabut — kerangka = penyaringan sistematis ruang komposisi dikenal.
 
 ## 2. Alur Kerangka (Workflow)
 
@@ -32,7 +36,7 @@ konsisten dengan literatur biomaterial tulang.
 | Deskriptor | Ca/P, EN rata-rata/selisih, VEC, berat molekul, densitas teoritis; pemodelan discovery: 4 DOF komposisi (Ca/P, P, H, F) | dataset_deskriptor.csv |
 | EDA | Korelasi Pearson+Spearman, VIF, PCA, t-SNE, K-Means (k=5, silhouette 0.50, ARI 0.88) | laporan_eda.md + figures |
 | Pemodelan | RF/XGBoost/GBR/SVR, GroupKFold berbasis komposisi | laporan_pemodelan.md |
-| MCDM | TOPSIS + VIKOR, 3 set bobot (analisis sensitivitas) | laporan_mcdm.md |
+| MCDM | TOPSIS + VIKOR, 3 kriteria + filter muatan + entropi + Monte Carlo | laporan_mcdm.md + laporan_montecarlo.md |
 | XAI | SHAP + permutation importance + dependence plots | laporan_xai.md |
 
 ## 3. Hasil Pemodelan (protokol anti-kebocoran: grouping formula tereduksi, nested CV, 4 DOF komposisi murni)
@@ -48,27 +52,27 @@ konsisten dengan literatur biomaterial tulang.
 | Benchmark eksperimen (6 fase): Eform MAE 0.094 eV/atom, densitas MAE 0.114 g/cm3 | | | |
 | Konteks SOTA: GNN (CGCNN/MEGNet/CHGNet) MAE 0.03–0.1 eV/atom — kontribusi kami = pipeline teraudit, bukan akurasi regresi. Target internal R2>=0.85 DITARIK (arbitrer, disusun tanpa analisis kebocoran). | | | |
 
-## 4. Top 15 Kandidat Biomaterial (dedup polimorf, TOPSIS+VIKOR x 3 bobot)
+## 4. Top 15 Kandidat Biomaterial (komposisi unik tereduksi; 3 kriteria + filter muatan; TOPSIS+VIKOR x 3 bobot)
 
 | formula     | sumber           | kelompok            |   peringkat |   peringkat_rerata |   Eform_eV_atom |   densitas_final_gcm3 |   ca_p_ratio |   bandgap_eV |
 |:------------|:-----------------|:--------------------|------------:|-------------------:|----------------:|----------------------:|-------------:|-------------:|
-| Ca5P3O12F   | MaterialsProject | apatit_hidroksi     |           1 |              1.333 |          -3.42  |                 3.104 |        1.667 |        5.512 |
-| Ca10P6CO27  | MaterialsProject | apatit_hidroksi     |           2 |              4.333 |          -3.253 |                 3.053 |        1.667 |        5.137 |
-| Ca3(PO4)2   | MaterialsProject | trikalsium_fosfat   |           3 |              4.833 |          -3.322 |                 2.979 |        1.5   |        4.98  |
-| Ca5P3HO13   | MaterialsProject | apatit_hidroksi     |           4 |              5.5   |          -3.223 |                 3.178 |        1.667 |        5.198 |
-| Ca10F2O24P6 | AFLOW            | apatit_hidroksi     |           5 |              9.667 |          -3.032 |                 3.096 |        1.667 |        5.518 |
-| Ca4P2O9     | MaterialsProject | tetrakalsium_fosfat |           6 |             19     |          -3.326 |                 3.08  |        2     |        4.484 |
-| Ca2P2O7     | MaterialsProject | dikalsium_fosfat    |           7 |             28.5   |          -3.213 |                 2.95  |        1     |        5.514 |
-| Ca10H2O26P6 | AFLOW            | apatit_hidroksi     |           8 |             29.833 |          -2.84  |                 3.051 |        1.667 |        5.204 |
-| Ca16O36P8   | AFLOW            | tetrakalsium_fosfat |           9 |             36.167 |          -2.937 |                 2.976 |        2     |        4.48  |
-| Ca10P6O25   | MaterialsProject | apatit_hidroksi     |          10 |             36.833 |          -3.319 |                 2.978 |        1.667 |        3.148 |
-| Ca4P6O19    | MaterialsProject | fosfat_lain         |          11 |             39     |          -3.068 |                 2.898 |        0.667 |        5.362 |
-| CaPHO4      | MaterialsProject | dikalsium_fosfat    |          12 |             40.333 |          -2.8   |                 2.947 |        1     |        5.439 |
-| Ca3O8P2     | AFLOW            | trikalsium_fosfat   |          13 |             41.667 |          -2.887 |                 3.364 |        1.5   |        5.469 |
-| Ca16O56P16  | AFLOW            | dikalsium_fosfat    |          14 |             41.833 |          -2.8   |                 3.01  |        1     |        5.423 |
-| Ca8P6H12O29 | MaterialsProject | oktakalsium_fosfat  |          15 |             44.5   |          -2.621 |                 2.591 |        1.333 |        4.909 |
+| Ca5P3O12F   | MaterialsProject | apatit_hidroksi     |           1 |              1     |          -3.42  |                 3.104 |        1.667 |        5.512 |
+| Ca10P6O25   | MaterialsProject | apatit_hidroksi     |           2 |              2.667 |          -3.319 |                 2.978 |        1.667 |        3.148 |
+| Ca10P6CO27  | MaterialsProject | apatit_hidroksi     |           3 |              5.5   |          -3.253 |                 3.053 |        1.667 |        5.137 |
+| Ca5P3HO13   | MaterialsProject | apatit_hidroksi     |           4 |              6.667 |          -3.223 |                 3.178 |        1.667 |        5.198 |
+| Ca3(PO4)2   | MaterialsProject | trikalsium_fosfat   |           5 |             29.333 |          -3.326 |                 2.781 |        1.5   |        4.912 |
+| Ca4P2O9     | MaterialsProject | tetrakalsium_fosfat |           6 |             50.333 |          -3.326 |                 3.08  |        2     |        4.484 |
+| Ca2P2O7     | MaterialsProject | dikalsium_fosfat    |           7 |             67.333 |          -3.213 |                 2.95  |        1     |        5.514 |
+| Ca8P6H12O29 | MaterialsProject | oktakalsium_fosfat  |           8 |             72.667 |          -2.621 |                 2.591 |        1.333 |        4.909 |
+| CaPHO4      | MaterialsProject | dikalsium_fosfat    |           9 |             89.167 |          -2.8   |                 2.947 |        1     |        5.439 |
+| Ca2P2H4O9   | MaterialsProject | dikalsium_fosfat    |          10 |            101.333 |          -2.523 |                 2.478 |        1     |        5.069 |
+| Ca4P6O19    | MaterialsProject | fosfat_lain         |          11 |            108.333 |          -3.068 |                 2.898 |        0.667 |        5.362 |
+| Ca2P2H8O11  | MaterialsProject | dikalsium_fosfat    |          12 |            114.167 |          -2.189 |                 2.189 |        1     |        4.854 |
+| Ca(PO3)2    | MaterialsProject | monokalsium_fosfat  |          13 |            115.333 |          -2.971 |                 2.873 |        0.5   |        5.497 |
+| CaPH5O6     | MaterialsProject | dikalsium_fosfat    |          14 |            118.167 |          -2.083 |                 2.282 |        1     |        5.402 |
+| CaP2H2O7    | MaterialsProject | monokalsium_fosfat  |          15 |            124.333 |          -2.582 |                 2.419 |        0.5   |        5.706 |
 
-**Klaim jujur (koreksi 2026-11-04, dua putaran reviewer):**
+**Klaim jujur (koreksi 2026-11-04, tiga putaran reviewer):**
 - QC sumber data (nilai DATABASE vs literatur): selisih densitas <= 2.9% — menguji basis data, bukan model;
   kecocokan kisi alpha/beta-TCP melingkar (COD menyimpan struktur dari paper yang sama).
 - Validasi INDEPENDEN prediksi MODEL (4 DOF komposisi murni) vs eksperimen (Wagman/NBS + densitas
@@ -86,9 +90,19 @@ konsisten dengan literatur biomaterial tulang.
   fungsi linear eksak fraksi unsur, VIF tak hingga) -> kini 4 DOF komposisi (Ca/P, P, H, F);
   R2 dalam-keluarga NEGATIF (-0.516): komposisi murni tidak punya daya prediksi dalam-keluarga,
   Eform hanya melatih MP+OQMD (n=337, AFLOW dikecualikan karena beda skala energi).
-- Kriteria MCDM dirancang dari kebutuhan desain -> peringkat atas apatitik ADALAH konstruksi.
-  b-TCP kini masuk 15 besar (peringkat 3) setelah kriteria densitas pita; kekurangan kriteria
-  resorbabilitas tetap menjadi arah pengembangan.
+- Kriteria MCDM (ronde 4): hanya 3 kriteria level material dengan cakupan data penuh (stabilitas,
+  pita densitas [1.0, 3.2], Ca/P->1.67). C4 modulus & C5 bandgap DITARIK: C4 cuma n=9 -> imputasi
+  median = praktis konstanta + mencampur level scaffold vs material (kekakuan scaffold ditangani
+  hilir via porositas Gibson-Ashby); C5 tanpa fungsi elektronik pada scaffold tulang. Filter
+  stoikiometri membuang 398 entri muatan != 0 (contoh Ca5P3O13) + 356 fosfida -> kolam 165.
+  b-TCP kini peringkat 5. Resorbabilitas dinilai POST-HOC dari literatur (pKsp), bukan kriteria
+  (data hanya ada untuk fase dikenal) — trade-off stabilitas vs resorbabilitas eksplisit.
+- Ketidakpastian (ronde 4): Monte Carlo 3.000 run (bobot Dirichlet + noise MAE Eform 0.297 /
+  densitas 0.307) — top-4 stabil (top-5 56-86%), slot ke-5 diperebutkan (karbonat apatit & TTCP
+  17% masing-masing); entropi Shannon (Spearman 0.93) dinyatakan sebagai cek konsistensi INTERNAL,
+  bukan validasi independen.
+- Klaim 'accelerated discovery' DICABUT dari judul & abstrak (kandidat teratas = fase yang sudah
+  dikenal); kerangka = penyaringan & pemeringkatan sistematis ruang komposisi yang dikenal.
 
 ## 5. Interpretasi (SHAP, fitur komposisi 4-DOF: Ca/P, fraksi P, H, F)
 
@@ -101,17 +115,36 @@ konsisten dengan literatur biomaterial tulang.
   deskriptor; EN_avg & berat molekul disisihkan pada tahap pemodelan (fungsi linear eksak fraksi
   unsur, VIF tak hingga).
 
-## 5b. Validasi Komputasional (MACE-MP-0, pra-DFT)
+## 5b. Validasi Komputasional (MACE-MP-0, pra-DFT, Top-5 ronde 4)
 
-- Kelima kandidat top stabil di bawah relaksasi MLFF: dV <= 0,41% (karbonat apatit +0,36%, FAp +0,27%, OCP -0,16%, apatit +0,41%; TTCP +3,03% -> prioritas verifikasi DFT).
-- Konstanta elastik kristal tunggal: E = 206-220 GPa, K = 127-139 GPa, nu ~ 0,23 (khas keramik apatit; MLFF dikenal overestimate -> DFT definitif menyusul).
+- Top-5 baru (FAp, oksiapatit, karbonat apatit, HA, b-TCP) direlaksasi MACE-MP-0: FAp +0,27%, oksiapatit +0,41%, karbonat apatit +0,36%, b-TCP -0,39% (|dV| <= 0,41% -> stabil); HA +4,34% -> prioritas verifikasi DFT.
+- Konstanta elastik kristal tunggal: E = 204-220 GPa, K = 131-139 GPa, nu ~ 0,23-0,24 (khas keramik apatit; MLFF dikenal overestimate -> DFT definitif menyusul).
 - Gibson-Ashby: porositas 70-78% diperlukan agar scaffold mencapai modulus tulang kortikal 10-20 GPa -> spesifikasi desain fabrikasi.
 - Detail: `data/reports/laporan_validasi_komputasional.md`; struktur terelaksasi: `data/validasi_mlff/*_relaxed.cif`.
+
+## 5c. Overlay Resorbabilitas (pKsp literatur, 25 C) — bukan kriteria MCDM
+
+| Fase | pKsp | Kelas degradasi | Peran scaffold |
+|---|---|---|---|
+| Brushite (DCPD) | 6,59 | cepat | prekursor semen resorbabel |
+| Monetite (DCPA) | 6,90 | cepat | prekursor semen resorbabel |
+| OCP | 96,6 | cepat in vivo | prekursor HA, resorbabel |
+| a-TCP | 25,5 | resorbabel | komponen setting semen |
+| b-TCP | 28,9 | resorbabel | scaffold resorbabel (standar klinis) |
+| TTCP | ~38 | lambat | komponen setting semen |
+| Hidroksiapatit | 116,8 | praktis tidak larut | permanen/low-turnover |
+| Fluorapatit | ~121 | praktis tidak larut | dental, low-turnover |
+| Oksiapatit | ~HA | praktis tidak larut | apatit suhu tinggi |
+
+Memaksimalkan C1 (Eform terendah) memihak fase paling tidak larut — berlawanan dengan
+resorbabilitas scaffold. Trade-off ini dinyatakan eksplisit; scaffold resorbabel menyarankan
+b-TCP atau bifasik HA/b-TCP. Data kelarutan hanya ada untuk fase dikenal, sehingga tidak bisa
+menjadi kriteria atas seluruh kolam (165 entri) — ini alasan jujur overlay post-hoc.
 
 ## 6. Risiko, Keputusan, Keterbatasan
 
 - **Bias sumber:** fraksi tetangga sesumber (k=5) = 0.88 -> klaster sebagian dibentuk oleh sumber data (COD eksperimental vs MP/AFLOW komputasional). Mitigasi: pemodelan hanya pada subset komputasional; split berbasis kelompok komposisi.
-- **Modulus elastik:** hanya 9 entri punya K & G -> kriteria MCDM C4 memakai imputasi median (keputusan tercatat). Validasi DFT/MD pada top kandidat WAJIB (Bagian 9.2 panduan).
+- **Modulus elastik:** hanya 9 entri punya K & G -> kriteria C4 DITARIK dari MCDM (imputasi median = praktis konstanta + mencampur level material/scaffold); kekakuan scaffold ditangani hilir via porositas Gibson-Ashby (70-78%). Validasi DFT definitif pada top kandidat WAJIB (input QE siap).
 - **Bandgap:** tidak dapat diprediksi dari deskriptor komposisi (R2 < 0) -> imputasi dibatalkan, nilai terukur dipakai.
 - **OQMD:** server tidak stabil; akuisisi berjalan dengan retry panjang; datanya melengkapi (icsd_id, energi) bila selesai.
 - **Ketimpangan kelas:** klasifikasi 44/247 (15%) -> recall kelas layak 0.82.
@@ -119,7 +152,7 @@ konsisten dengan literatur biomaterial tulang.
 ## 7. Langkah Selanjutnya
 
 1. [SELESAI] Integrasi OQMD (280 entri; uji transfer sesama-komposisi R2=0,833).
-2. [SEBAGIAN] Validasi komputasional: pra-validasi MLFF selesai (stabil, E 206-220 GPa, porositas 70-78%); DFT definitif di klaster dengan input QE siap.
-3. [SELESAI] Analisis sensitivitas bobot: 3 skenario manual + entropi (Spearman 0,974).
+2. [SEBAGIAN] Validasi komputasional: pra-validasi MLFF Top-5 baru selesai (4 stabil |dV|<=0,41%, HA +4,3% -> prioritas, E 204-220 GPa, porositas 70-78%); DFT definitif di klaster dengan input QE siap.
+3. [SELESAI] Analisis sensitivitas bobot: 3 skenario manual + entropi (Spearman 0,93, cek internal) + Monte Carlo 3.000 run (propagasi ketidakpastian bobot & prediksi).
 4. Penyusunan artikel — draft manuskrip IMRaD + PDF siap (data/reports/manuscript/).
 5. Platform AI-Assisted Biomaterial Discovery (roadmap AMREC).

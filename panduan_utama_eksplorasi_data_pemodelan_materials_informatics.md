@@ -291,11 +291,15 @@ Menggabungkan berbagai kriteria sifat material yang saling bertolak belakang (*c
 
 ### 8.1 Formulasi Kriteria Target Scaffold Tulang *(Eksplorasi Tahap 9 — bagian kriteria)*
 
-* Modulus Elastisitas ($E$): Mendekati tulang kortikal (10–20 GPa) atau tulang trabekular (0.1–2 GPa).
-* Stabilitas Termodinamika: $E_{\text{hull}} \to 0\text{ eV/atom}$ (menandakan fase stabil).
-* Rasio $\text{Ca/P}$: Berada pada rentang ideal biokompatibilitas ($1.5 - 2.0$).
-* Telusuri apakah kriteria yang dipilih saling bertentangan (*trade-off*) dengan memeriksa sebaran dan hubungan antar kriteria.
-* Susun **rentang bobot awal** untuk kriteria sebagai bahan analisis sensitivitas.
+*(FINAL, revisi ronde 4 — 2026-11-04)* Tiga kriteria level MATERIAL dengan cakupan data penuh (tanpa imputasi):
+* C1 Stabilitas Termodinamika: $E_f$ makin negatif makin baik (skala absolut; offset AFLOW dicatat sebagai artefak sumber).
+* C2 Densitas pita klinis $[1.0, 3.2]$ g/cm$^3$: nol penalti di dalam pita (scaffold meraih modulus tulang via POROSITAS — Gibson-Ashby — bukan dengan menyamakan densitas tulang).
+* C3 Rasio $\text{Ca/P}$ mendekati 1.67 (mineral tulang).
+
+Kriteria yang DITARIK (tercatat): Modulus Young — hanya n=9 punya K&G sehingga imputasi median = konstanta/noise, dan modulus 10–20 GPa adalah sifat SCAFFOLD (arsitektur+porositas), bukan material (ditangani di Bagian 9.2); Bandgap — tanpa fungsi elektronik pada scaffold tulang; skor kelayakan classifier — semi-deterministik (double counting C1–C3).
+Filter stoikiometri: muatan formal ≠ 0 (oksidasi standar; P = +5 dalam fosfat, −3 tanpa O) dibuang; fosfida (tanpa O) di luar kelas material kalsium fosfat. Kolam akhir: 165 entri netral.
+* Telusuri *trade-off* antar kriteria: stabilitas vs resorbabilitas — resorbabilitas dinilai POST-HOC dari literatur (pKsp) karena data hanya ada untuk fase dikenal, bukan kriteria atas seluruh kolam.
+* Sensitivitas: 3 skenario bobot manual + entropi Shannon (cek konsistensi internal) + Monte Carlo (bobot Dirichlet + noise MAE prediksi, lihat `mcdm_montecarlo.py`).
 
 **Keluaran:** keputusan target prediksi, daftar kriteria penilaian, dan rentang bobot awal.
 

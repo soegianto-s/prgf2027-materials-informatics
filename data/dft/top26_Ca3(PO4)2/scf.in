@@ -1,0 +1,45 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'top26_Ca3(PO4)2'
+  pseudo_dir = './pseudo/'
+  outdir = './out/'
+  verbosity = 'high'
+/
+&SYSTEM
+  ibrav = 0
+  nat = 13
+  ntyp = 3
+  ecutwfc = 60.0
+  ecutrho = 480.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.01
+/
+&ELECTRONS
+  conv_thr = 1.0d-8
+  mixing_beta = 0.7
+/
+ATOMIC_SPECIES
+ Ca  40.078  Ca.pbe-spn-kjpaw_psl.1.0.0.UPF
+ O  15.999  O.pbe-n-rrkjus_psl.1.0.0.UPF
+ P  30.974  P.pbe-n-rrkjus_psl.1.0.0.UPF
+CELL_PARAMETERS angstrom
+  4.46005900  2.81085500  0.00000000
+  -4.46005900  2.81085500  0.00000000
+  0.00000000  0.06787200  7.23349500
+ATOMIC_POSITIONS crystal
+ Ca  0.31171900  0.68828100  0.00000000
+ Ca  0.98664100  0.00297800  0.27298100
+ Ca  0.99702200  0.01335900  0.72701900
+ P  0.34851700  0.65148300  0.50000000
+ P  0.65267900  0.34732100  0.00000000
+ O  0.67450500  0.77793600  0.50594600
+ O  0.22206400  0.32549500  0.49405400
+ O  0.26408600  0.75953400  0.31942500
+ O  0.24046600  0.73591400  0.68057500
+ O  0.73112400  0.22981800  0.82850000
+ O  0.77018200  0.26887600  0.17149900
+ O  0.76971100  0.68066300  0.99155700
+ O  0.31933700  0.23028900  0.00844300
+K_POINTS automatic
+2 2 2 0 0 0
