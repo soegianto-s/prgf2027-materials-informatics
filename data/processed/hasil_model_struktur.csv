@@ -1,0 +1,7 @@
+fitur,target,R2,RMSE,MAE
+F0 komposisi (4-DOF),Eform,0.493,0.483,0.265
+F1 + volume + densitas (screening lama),Eform,0.401,0.502,0.304
+F2 + Q^n + CN Ca (n=242),Eform,0.35,0.5,0.316
+F3 + SOAP-PCA(30) (n=242),Eform,-0.658,0.799,0.588
+F0 komposisi (n=291),Densitas,0.226,0.384,0.252
+F2 + Q^n + CN Ca (n=242),Densitas,0.293,0.305,0.222

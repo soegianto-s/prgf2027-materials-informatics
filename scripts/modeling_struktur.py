@@ -48,6 +48,9 @@ def muat_gabungan():
 
 def nested_cv_svr_pca(X, y, groups, grid, n_pca):
     """Seperti modeling.nested_cv_svr + PCA di dalam setiap fold latih (tidak bocor)."""
+    if n_pca <= 0:
+        from modeling import nested_cv_svr
+        return nested_cv_svr(X, y, groups, grid)[:3]
     outer = GroupKFold(n_splits=10)
     r2s, rmses, maes = [], [], []
     for tr, te in outer.split(X, y, groups):

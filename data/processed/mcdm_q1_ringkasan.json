@@ -1,0 +1,140 @@
+{
+  "n_komposisi_phase": 21,
+  "n_top15": 15,
+  "n_stabil_hull0": 13,
+  "sigma_hull": 0.6723,
+  "sigma_rho": 0.307,
+  "n_mc": 1000,
+  "top5_mc": {
+    "Ca5P3O12F": 0.253,
+    "Ca5P3HO13": 0.226,
+    "Ca10P6CO27": 0.249,
+    "Ca10P6O25": 0.113,
+    "Ca4P2O9": 0.107
+  },
+  "spearman_vs_lama": 0.7464285714285712,
+  "top15": [
+    {
+      "formula": "Ca5P3O12F",
+      "E_hull": 0.0,
+      "densitas": 3.1807113334036368,
+      "ca_p_ratio": 1.667,
+      "peringkat": 1,
+      "sumber_bukti": "AFLOW/MP (DFT GGA);COD (MACE terkalibrasi);MP (DFT GGA);OQMD/MP (DFT GGA)"
+    },
+    {
+      "formula": "Ca5P3HO13",
+      "E_hull": 0.0,
+      "densitas": 3.152986035349213,
+      "ca_p_ratio": 1.667,
+      "peringkat": 2,
+      "sumber_bukti": "AFLOW/MP (DFT GGA);COD (MACE terkalibrasi);MP (DFT GGA);OQMD/MP (DFT GGA)"
+    },
+    {
+      "formula": "Ca10P6CO27",
+      "E_hull": 0.0,
+      "densitas": 3.050599579729144,
+      "ca_p_ratio": 1.6985000000000001,
+      "peringkat": 3,
+      "sumber_bukti": "COD (MACE terkalibrasi);MP (DFT GGA);OQMD/MP (DFT GGA)"
+    },
+    {
+      "formula": "Ca10P6O25",
+      "E_hull": 0.0069787252032522,
+      "densitas": 3.1253823379042607,
+      "ca_p_ratio": 1.667,
+      "peringkat": 4,
+      "sumber_bukti": "AFLOW/MP (DFT GGA);MP (DFT GGA);OQMD/MP (DFT GGA)"
+    },
+    {
+      "formula": "Ca4P2O9",
+      "E_hull": 0.0,
+      "densitas": 3.051103060902588,
+      "ca_p_ratio": 2.0,
+      "peringkat": 5,
+      "sumber_bukti": "AFLOW/MP (DFT GGA);COD (MACE terkalibrasi);MP (DFT GGA);OQMD/MP (DFT GGA)"
+    },
+    {
+      "formula": "Ca8P6H12O29",
+      "E_hull": 0.0158652390454632,
+      "densitas": 2.68986518503432,
+      "ca_p_ratio": 1.333,
+      "peringkat": 6,
+      "sumber_bukti": "COD (MACE terkalibrasi);MP (DFT GGA)"
+    },
+    {
+      "formula": "CaPHO4",
+      "E_hull": 0.0,
+      "densitas": 2.922011801108656,
+      "ca_p_ratio": 1.0,
+      "peringkat": 7,
+      "sumber_bukti": "AFLOW/MP (DFT GGA);COD (MACE terkalibrasi);MP (DFT GGA);OQMD/MP (DFT GGA)"
+    },
+    {
+      "formula": "Ca2P2O7",
+      "E_hull": 0.0,
+      "densitas": 3.01818303871284,
+      "ca_p_ratio": 1.0,
+      "peringkat": 8,
+      "sumber_bukti": "AFLOW/MP (DFT GGA);COD (MACE terkalibrasi);MP (DFT GGA);OQMD/MP (DFT GGA)"
+    },
+    {
+      "formula": "Ca2P2H4O9",
+      "E_hull": 0.0088295845588133,
+      "densitas": 2.5365480787921206,
+      "ca_p_ratio": 1.0,
+      "peringkat": 9,
+      "sumber_bukti": "AFLOW/MP (DFT GGA);COD (MACE terkalibrasi);MP (DFT GGA);OQMD/MP (DFT GGA)"
+    },
+    {
+      "formula": "CaPH5O6",
+      "E_hull": 0.0158212955769085,
+      "densitas": 2.2964240096685398,
+      "ca_p_ratio": 1.0,
+      "peringkat": 10,
+      "sumber_bukti": "AFLOW/MP (DFT GGA);COD (MACE terkalibrasi);MP (DFT GGA);OQMD/MP (DFT GGA)"
+    },
+    {
+      "formula": "Ca2P2H8O11",
+      "E_hull": 0.0162367067391233,
+      "densitas": 2.188551840772934,
+      "ca_p_ratio": 1.0,
+      "peringkat": 11,
+      "sumber_bukti": "MP (DFT GGA)"
+    },
+    {
+      "formula": "Ca4P6O19",
+      "E_hull": 0.0,
+      "densitas": 2.898006988116224,
+      "ca_p_ratio": 0.667,
+      "peringkat": 12,
+      "sumber_bukti": "AFLOW/MP (DFT GGA);MP (DFT GGA);OQMD/MP (DFT GGA)"
+    },
+    {
+      "formula": "CaP2H2O7",
+      "E_hull": 0.0,
+      "densitas": 2.515890607631576,
+      "ca_p_ratio": 0.5,
+      "peringkat": 13,
+      "sumber_bukti": "AFLOW/MP (DFT GGA);COD (MACE terkalibrasi);MP (DFT GGA);OQMD/MP (DFT GGA)"
+    },
+    {
+      "formula": "Ca(PO3)2",
+      "E_hull": 0.0,
+      "densitas": 2.8738354476557544,
+      "ca_p_ratio": 0.5,
+      "peringkat": 14,
+      "sumber_bukti": "AFLOW/MP (DFT GGA);COD (MACE terkalibrasi);MP (DFT GGA);OQMD/MP (DFT GGA)"
+    },
+    {
+      "formula": "CaP2(H2O3)3",
+      "E_hull": 0.0012995180555499,
+      "densitas": 2.2011629399543944,
+      "ca_p_ratio": 0.5,
+      "peringkat": 15,
+      "sumber_bukti": "AFLOW/MP (DFT GGA);COD (MACE terkalibrasi);MP (DFT GGA);OQMD/MP (DFT GGA)"
+    }
+  ],
+  "catatan": "fase stabil hull E_hull=0 tie di C1; C2/C3 memutuskan; ranking phase-level (polimorf digabung)",
+  "tanggal": "2026-11-04 13:48:01"
+}

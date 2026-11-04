@@ -1,0 +1,29 @@
+{
+  "n_total": 2595,
+  "n_ok": 376,
+  "n_skip": 837,
+  "soap_dimensi": [
+    2880
+  ],
+  "soap_param": {
+    "species": [
+      "Ca",
+      "P",
+      "O",
+      "H",
+      "F",
+      "C"
+    ],
+    "r_cut": 5.0,
+    "n_max": 4,
+    "l_max": 4
+  },
+  "catatan": "fitur struktural membutuhkan struktur dikenal -> varian screening, bukan discovery",
+  "tanggal": "2026-11-04 13:48:58",
+  "alasan_skip": {
+    "fitur_gagal_ValueError": 814,
+    "cif_tidak_ada": 10,
+    "aflow_parse_gagal": 8,
+    "parse_gagal_ValueError": 5
+  }
+}

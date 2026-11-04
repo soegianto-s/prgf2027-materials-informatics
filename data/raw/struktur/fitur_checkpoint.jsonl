@@ -1,57 +1,1213 @@
-{"sumber": "MaterialsProject", "id": "mp-aaacfrip", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaabqst", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaaabzt", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaaanmw", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaaaikm", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaabfxxg", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacqfta", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaabsaq", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacrvyz", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacqiip", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaaaffv", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaabani", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaabrduv", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaaafed", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaabefse", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaabnavf", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaabqwyx", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacqdgz", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaaahyy", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaaahul", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaabfvsr", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacpgpo", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacqaxb", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacqlau", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacrvln", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacqoar", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacptnz", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaabtvr", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaabfwjx", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaabpiyn", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacrbvx", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacrccd", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaabofag", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaabfnuk", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaacjjc", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaabpbmu", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacryhe", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaabkaaw", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacblae", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaabkrih", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaboeuo", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaabjsc", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaabkaz", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaabofgj", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaabplll", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaabkqni", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaabkem", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacrbyr", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaabnsaz", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaabjtq", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaabkcb", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaabkcc", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacpzjv", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacqbau", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacrbyh", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaaaajoz", "status": "skip", "alasan": "fitur_gagal_TypeError"}
-{"sumber": "MaterialsProject", "id": "mp-aaacrvgo", "status": "skip", "alasan": "fitur_gagal_TypeError"}
+{"sumber": "MaterialsProject", "id": "mp-aaacfrip", "status": "ok", "formula": "Ca3P2", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaabqst", "status": "ok", "formula": "Ca5P8", "natom": 13, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaaabzt", "status": "ok", "formula": "CaP", "natom": 12, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaaanmw", "status": "ok", "formula": "CaP3", "natom": 8, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaaaikm", "status": "ok", "formula": "Ca(PO3)2", "natom": 72, "q0_frac": 0.0, "q1_frac": 0.0, "q2_frac": 1.0, "q3_frac": 0.0, "q_mean": 2.0, "cn_Ca_mean": 7.5, "cn_Ca_std": 0.5, "cn6_frac": 0.0, "cn7_frac": 0.5, "cn8_frac": 0.5, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaabfxxg", "status": "ok", "formula": "Ca(PO3)2", "natom": 72, "q0_frac": 0.0, "q1_frac": 0.0, "q2_frac": 1.0, "q3_frac": 0.0, "q_mean": 2.0, "cn_Ca_mean": 6.5, "cn_Ca_std": 0.5, "cn6_frac": 0.5, "cn7_frac": 0.5, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacqfta", "status": "ok", "formula": "Ca(PO4)2", "natom": 44, "q0_frac": 0.0, "q1_frac": 0.0, "q2_frac": 1.0, "q3_frac": 0.0, "q_mean": 2.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaabsaq", "status": "ok", "formula": "Ca10P6O25", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.5, "cn_Ca_std": 1.284523257866513, "cn6_frac": 0.3, "cn7_frac": 0.3, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacrvyz", "status": "ok", "formula": "Ca10P6O25", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.5, "cn_Ca_std": 1.284523257866513, "cn6_frac": 0.3, "cn7_frac": 0.3, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacqiip", "status": "ok", "formula": "Ca2P2O11", "natom": 60, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaaaffv", "status": "ok", "formula": "Ca2P2O7", "natom": 88, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 1.0, "cn6_frac": 0.0, "cn7_frac": 0.5, "cn8_frac": 0.0, "cn9_frac": 0.5, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaabani", "status": "ok", "formula": "Ca2P2O7", "natom": 44, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaabrduv", "status": "ok", "formula": "Ca2P6O17", "natom": 50, "q0_frac": 0.0, "q1_frac": 0.0, "q2_frac": 0.6666666666666666, "q3_frac": 0.3333333333333333, "q_mean": 2.3333333333333335, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaaafed", "status": "ok", "formula": "Ca3(PO4)2", "natom": 13, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.666666666666666, "cn_Ca_std": 1.8856180831641267, "cn6_frac": 0.3333333333333333, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaabefse", "status": "ok", "formula": "Ca3(PO4)2", "natom": 91, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.571428571428571, "cn_Ca_std": 1.2936264483053452, "cn6_frac": 0.09523809523809523, "cn7_frac": 0.14285714285714285, "cn8_frac": 0.5714285714285714, "cn9_frac": 0.14285714285714285, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaabnavf", "status": "ok", "formula": "Ca3(PO4)2", "natom": 91, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.428571428571429, "cn_Ca_std": 1.761261143705422, "cn6_frac": 0.14285714285714285, "cn7_frac": 0.14285714285714285, "cn8_frac": 0.42857142857142855, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaabqwyx", "status": "ok", "formula": "Ca3(PO4)2", "natom": 13, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 5.333333333333333, "cn_Ca_std": 0.9428090415820634, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacqdgz", "status": "ok", "formula": "Ca3(PO4)2", "natom": 312, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.666666666666667, "cn_Ca_std": 0.9428090415820634, "cn6_frac": 0.2777777777777778, "cn7_frac": 0.5, "cn8_frac": 0.05555555555555555, "cn9_frac": 0.05555555555555555, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaaahyy", "status": "ok", "formula": "Ca4P2O", "natom": 7, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 1.5, "cn_Ca_std": 0.5, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaaahul", "status": "ok", "formula": "Ca4P2O9", "natom": 60, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.625, "cn_Ca_std": 0.9921567416492215, "cn6_frac": 0.0, "cn7_frac": 0.875, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaabfvsr", "status": "ok", "formula": "Ca4P6O19", "natom": 58, "q0_frac": 0.0, "q1_frac": 0.3333333333333333, "q2_frac": 0.6666666666666666, "q3_frac": 0.0, "q_mean": 1.6666666666666667, "cn_Ca_mean": 6.75, "cn_Ca_std": 0.4330127018922193, "cn6_frac": 0.25, "cn7_frac": 0.75, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacpgpo", "status": "ok", "formula": "Ca5(PO4)3", "natom": 40, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacqaxb", "status": "ok", "formula": "Ca5P3O13", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.8, "cn_Ca_std": 0.9797958971132713, "cn6_frac": 0.0, "cn7_frac": 0.6, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacqlau", "status": "ok", "formula": "Ca5P3O13", "natom": 84, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.8, "cn_Ca_std": 0.9797958971132713, "cn6_frac": 0.0, "cn7_frac": 0.6, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacrvln", "status": "ok", "formula": "Ca5P3O13", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.8, "cn_Ca_std": 0.9797958971132713, "cn6_frac": 0.0, "cn7_frac": 0.6, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacqoar", "status": "ok", "formula": "Ca8P6O29", "natom": 86, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.75, "cn_Ca_std": 0.82915619758885, "cn6_frac": 0.0, "cn7_frac": 0.5, "cn8_frac": 0.25, "cn9_frac": 0.25, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacptnz", "status": "ok", "formula": "CaP2O9", "natom": 24, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaabtvr", "status": "ok", "formula": "CaP4O11", "natom": 64, "q0_frac": 0.0, "q1_frac": 0.0, "q2_frac": 0.5, "q3_frac": 0.5, "q_mean": 2.5, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaabfwjx", "status": "ok", "formula": "CaP4O11", "natom": 64, "q0_frac": 0.0, "q1_frac": 0.0, "q2_frac": 0.5, "q3_frac": 0.5, "q_mean": 2.5, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaabpiyn", "status": "ok", "formula": "CaPO4", "natom": 24, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.5, "cn_Ca_std": 0.5, "cn6_frac": 0.0, "cn7_frac": 0.5, "cn8_frac": 0.5, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacrbvx", "status": "ok", "formula": "CaPO4", "natom": 24, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 9.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 1.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacrccd", "status": "ok", "formula": "CaPO6", "natom": 16, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaabofag", "status": "ok", "formula": "Ca2P2H4O9", "natom": 34, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaabfnuk", "status": "ok", "formula": "Ca2P2H8O11", "natom": 92, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 6.5, "cn_Ca_std": 0.5, "cn6_frac": 0.5, "cn7_frac": 0.5, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaacjjc", "status": "ok", "formula": "Ca5P3HO13", "natom": 44, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.8, "cn_Ca_std": 0.9797958971132713, "cn6_frac": 0.0, "cn7_frac": 0.6, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaabpbmu", "status": "ok", "formula": "Ca5P3HO13", "natom": 88, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.8, "cn_Ca_std": 0.9797958971132713, "cn6_frac": 0.0, "cn7_frac": 0.6, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacryhe", "status": "ok", "formula": "Ca8P6H12O29", "natom": 110, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.75, "cn_Ca_std": 0.82915619758885, "cn6_frac": 0.0, "cn7_frac": 0.5, "cn8_frac": 0.25, "cn9_frac": 0.25, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaabkaaw", "status": "ok", "formula": "CaP(H2O3)2", "natom": 24, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacblae", "status": "ok", "formula": "CaP(H2O3)2", "natom": 24, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaabkrih", "status": "ok", "formula": "CaP(HO3)2", "natom": 20, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaboeuo", "status": "ok", "formula": "CaP2(H2O3)3", "natom": 36, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaabjsc", "status": "ok", "formula": "CaP2(HO)4", "natom": 22, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaabkaz", "status": "ok", "formula": "CaP2(HO2)4", "natom": 30, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaabofgj", "status": "ok", "formula": "CaP2(HO2)4", "natom": 30, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaabplll", "status": "ok", "formula": "CaP2(HO2)4", "natom": 30, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaabkqni", "status": "ok", "formula": "CaP2H2O7", "natom": 24, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaabkem", "status": "ok", "formula": "CaP2H6O7", "natom": 32, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacrbyr", "status": "ok", "formula": "CaP2HO8", "natom": 24, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaabnsaz", "status": "ok", "formula": "CaP4(HO6)2", "natom": 38, "q0_frac": 0.0, "q1_frac": 0.0, "q2_frac": 1.0, "q3_frac": 0.0, "q_mean": 2.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaabjtq", "status": "ok", "formula": "CaPH3O4", "natom": 36, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaabkcb", "status": "ok", "formula": "CaPH5O6", "natom": 26, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaabkcc", "status": "ok", "formula": "CaPHO4", "natom": 28, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.25, "cn_Ca_std": 0.82915619758885, "cn6_frac": 0.25, "cn7_frac": 0.25, "cn8_frac": 0.5, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacpzjv", "status": "ok", "formula": "CaPHO4", "natom": 56, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacqbau", "status": "ok", "formula": "Ca10P6CO27", "natom": 44, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.5, "cn_Ca_std": 1.118033988749895, "cn6_frac": 0.2, "cn7_frac": 0.4, "cn8_frac": 0.1, "cn9_frac": 0.3, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacrbyh", "status": "ok", "formula": "Ca5P3CO12", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaaaajoz", "status": "ok", "formula": "Ca5P3O12F", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "MaterialsProject", "id": "mp-aaacrvgo", "status": "ok", "formula": "Ca5P3O12F", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:027b5ad49e8ff607", "status": "ok", "formula": "Ca3P2", "natom": 4, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:0730ead022519d12", "status": "ok", "formula": "Ca4P2", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:07676a5ee470c977", "status": "ok", "formula": "Ca2P4", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:08c625c2e1f3bd3a", "status": "ok", "formula": "Ca2P1", "natom": 2, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:08e3b0a7cd1a1d23", "status": "ok", "formula": "Ca1P3", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:089b658648b3f01c", "status": "ok", "formula": "Ca2P4", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:0a5396b92233dc3a", "status": "ok", "formula": "Ca2P4", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:0cb5406567629aad", "status": "ok", "formula": "Ca6P2", "natom": 7, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:0d12a7601064d8c4", "status": "ok", "formula": "Ca3P1", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:0f7252977d53cdc2", "status": "ok", "formula": "Ca3P1", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:10cd38b8cc1523a5", "status": "ok", "formula": "Ca1P5", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:109639ccf6a20c4c", "status": "ok", "formula": "Ca12P4", "natom": 15, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:11cc5331e5750c55", "status": "ok", "formula": "Ca8P4", "natom": 11, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:13147fb7d23c7b5e", "status": "ok", "formula": "Ca4P2", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:1300698598b1b1b0", "status": "ok", "formula": "Ca1P4", "natom": 4, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:1890fa6442753987", "status": "ok", "formula": "Ca12P12", "natom": 23, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:18d08f6b0232cfbe", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:18c70fcc2b3da9d9", "status": "ok", "formula": "Ca1P2", "natom": 2, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:182f9a382b968e36", "status": "skip", "alasan": "aflow_parse_gagal"}
+{"sumber": "AFLOW", "id": "aflow:1924c74d361d7b60", "status": "ok", "formula": "Ca2P6", "natom": 7, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:19b3f41fc1ad054f", "status": "skip", "alasan": "aflow_parse_gagal"}
+{"sumber": "AFLOW", "id": "aflow:1c748467d09de341", "status": "ok", "formula": "Ca5P1", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:1d51f97e1ad190d6", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:1dfd59c5e9461ab4", "status": "ok", "formula": "Ca4P5", "natom": 8, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:1eda727c25f89361", "status": "ok", "formula": "Ca1P3", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:1e69c523ffc908e9", "status": "ok", "formula": "Ca2P6", "natom": 7, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:221dc042cb40061f", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:2378d417633bb48d", "status": "skip", "alasan": "aflow_parse_gagal"}
+{"sumber": "AFLOW", "id": "aflow:24b5c3fc0f170501", "status": "ok", "formula": "Ca6P2", "natom": 7, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:2512e0fedc20d4e4", "status": "ok", "formula": "Ca8P16", "natom": 23, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:261f38ac9083f4d1", "status": "ok", "formula": "Ca3P1", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:288629bcaaf78223", "status": "ok", "formula": "Ca2P6", "natom": 7, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:29572f45f21ee240", "status": "ok", "formula": "Ca5P3", "natom": 7, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:296545cec9648363", "status": "ok", "formula": "Ca1P3", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:2d968b73084a5803", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:2e9eff12309d44b3", "status": "ok", "formula": "Ca7P1", "natom": 7, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:2fc7d5bd40180860", "status": "ok", "formula": "Ca6P6", "natom": 11, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:3014c4f1d53721a3", "status": "ok", "formula": "Ca1P3", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:32357c91675c7dd6", "status": "ok", "formula": "Ca3P1", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:3474ce22c9d24dc2", "status": "ok", "formula": "Ca3P1", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:36628726f1dc3c6e", "status": "ok", "formula": "Ca2P4", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:36cc78f76957ec52", "status": "ok", "formula": "Ca4P2", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:37fbb4a31f382ea2", "status": "ok", "formula": "Ca2P1", "natom": 2, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:389da1f8a65597a2", "status": "ok", "formula": "Ca5P1", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:38894d9253e51c32", "status": "ok", "formula": "Ca5P8", "natom": 12, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:3927b2aba2a0a50d", "status": "ok", "formula": "Ca1P5", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:39823d989218c6ea", "status": "ok", "formula": "Ca1P3", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:3bc5394679647870", "status": "ok", "formula": "Ca1P5", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:3b65682456f9980a", "status": "ok", "formula": "Ca1P3", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:3c989a39d7167578", "status": "ok", "formula": "Ca1P3", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:3d0db28be0e0ebba", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:3e5075ac0efe16eb", "status": "ok", "formula": "Ca3P6", "natom": 8, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:42ab31619b082d77", "status": "ok", "formula": "Ca1P3", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:4524aebd671b992d", "status": "ok", "formula": "Ca1P2", "natom": 2, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:4acfcd18cbc0f4a1", "status": "ok", "formula": "Ca4P2", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:4a3d38a5abcb6dc3", "status": "ok", "formula": "Ca4P16", "natom": 19, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:4bda5296a6329495", "status": "ok", "formula": "Ca3P1", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:4b1686855d4de4a5", "status": "ok", "formula": "Ca1P2", "natom": 2, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:4e90b9745cffe2e2", "status": "ok", "formula": "Ca1P1", "natom": 1, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:52eafe6b55482039", "status": "ok", "formula": "Ca2P1", "natom": 2, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:538d6302c303e4ab", "status": "ok", "formula": "Ca3P1", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:54c824fcfdd1b93a", "status": "ok", "formula": "Ca2P3", "natom": 4, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:561d8cedbf43ff98", "status": "ok", "formula": "Ca6P6", "natom": 11, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:59b6449827b9acd9", "status": "ok", "formula": "Ca2P1", "natom": 2, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:5bece6820b53036c", "status": "ok", "formula": "Ca3P1", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:5f66a30fa2d4b138", "status": "ok", "formula": "Ca2P1", "natom": 2, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:621e28237bb6e168", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:62f11364ffa1f84a", "status": "skip", "alasan": "aflow_parse_gagal"}
+{"sumber": "AFLOW", "id": "aflow:651f6488d509c80c", "status": "ok", "formula": "Ca3P1", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:67b9d126b6fc817c", "status": "ok", "formula": "Ca3P1", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:6bcd7711bec50bc5", "status": "ok", "formula": "Ca1P5", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:6b0f6c61ea69dde0", "status": "skip", "alasan": "aflow_parse_gagal"}
+{"sumber": "AFLOW", "id": "aflow:6c6bb8c2334841fa", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:6d4d33bc630a4663", "status": "ok", "formula": "Ca2P4", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:6d29967ff95c48ad", "status": "ok", "formula": "Ca1P2", "natom": 2, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:6d3194ab5a0196ab", "status": "ok", "formula": "Ca2P4", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:6e88b7c0443e50e5", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:70f522c1588e0c7a", "status": "skip", "alasan": "aflow_parse_gagal"}
+{"sumber": "AFLOW", "id": "aflow:70da4a81012a6d2d", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:706ac0ca7f5c703b", "status": "ok", "formula": "Ca2P4", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:74e33777bc233ffc", "status": "ok", "formula": "Ca8P16", "natom": 23, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:74f0f65435762104", "status": "ok", "formula": "Ca4P4", "natom": 7, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:758b63e436b45089", "status": "ok", "formula": "Ca1P1", "natom": 1, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:77002fa1992a6eda", "status": "ok", "formula": "Ca1P3", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:7c6831412329cf71", "status": "ok", "formula": "Ca4P2", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:7d23379d463f4f88", "status": "ok", "formula": "Ca8P1", "natom": 8, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:7d17d81ac7d8733f", "status": "ok", "formula": "Ca1P1", "natom": 1, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:7d1690894ce8c734", "status": "ok", "formula": "Ca1P1", "natom": 1, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:7ff5a3c1db155fc5", "status": "ok", "formula": "Ca1P3", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:7f7d9eeaab68034f", "status": "ok", "formula": "Ca2P6", "natom": 7, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:824cf346c9fb3ac2", "status": "ok", "formula": "Ca4P4", "natom": 7, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:832625058544d27a", "status": "ok", "formula": "Ca6P18", "natom": 23, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:832662246c7cde1e", "status": "ok", "formula": "Ca1P2", "natom": 2, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:843e6fa27f1be3d4", "status": "ok", "formula": "Ca5P4", "natom": 8, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:85cac184271037d9", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:8706c2992ad277ba", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:880aaff051c9aa02", "status": "ok", "formula": "Ca3P1", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:88e3608efdcc1366", "status": "ok", "formula": "Ca1P2", "natom": 2, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:89a0a94b87b9dfba", "status": "ok", "formula": "Ca1P3", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:8a2b64998f47bee0", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:8afdd4d6d3184896", "status": "ok", "formula": "Ca1P3", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:8ca8e7a7e218a921", "status": "ok", "formula": "Ca2P1", "natom": 2, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:8d58521a130abc07", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:8e443255077d240a", "status": "ok", "formula": "Ca1P2", "natom": 2, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:8f6091ac5ccc8363", "status": "ok", "formula": "Ca4P8", "natom": 11, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:8f7e75224c8e7ca2", "status": "ok", "formula": "Ca6P18", "natom": 23, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:90739e8b88ef253a", "status": "ok", "formula": "Ca4P8", "natom": 11, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:909da80534ec5a8c", "status": "ok", "formula": "Ca1P8", "natom": 8, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:92a599d5ce78ed5b", "status": "ok", "formula": "Ca6P6", "natom": 11, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:93d12583a68e77a1", "status": "ok", "formula": "Ca1P3", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:947a3f3e1afa555f", "status": "ok", "formula": "Ca2P6", "natom": 7, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:942015cbb3cbfb6b", "status": "ok", "formula": "Ca3P5", "natom": 7, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:94defca686cae4f8", "status": "ok", "formula": "Ca4P8", "natom": 11, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:969ebe133d815a41", "status": "ok", "formula": "Ca4P2", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:97f1fb3fc906247f", "status": "ok", "formula": "Ca1P7", "natom": 7, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:98047c42f872df22", "status": "ok", "formula": "Ca1P1", "natom": 1, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:98a9e366afb905b8", "status": "ok", "formula": "Ca2P4", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:9b3d4290e6f2c4ae", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:9fb83ab4413403bb", "status": "ok", "formula": "Ca2P4", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:9ff47467bfc405e4", "status": "ok", "formula": "Ca10P8", "natom": 17, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:a07a7f431ec60a8c", "status": "ok", "formula": "Ca2P4", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:a05f79992c75c8c0", "status": "ok", "formula": "Ca3P1", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:a12ac3c541c81b12", "status": "skip", "alasan": "aflow_parse_gagal"}
+{"sumber": "AFLOW", "id": "aflow:a2f519ee71e8f203", "status": "ok", "formula": "Ca6P6", "natom": 11, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:a3f408a48ab00dd8", "status": "ok", "formula": "Ca1P3", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:a65734a49b12bbed", "status": "ok", "formula": "Ca4P12", "natom": 15, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:a7629434faa23758", "status": "ok", "formula": "Ca5P1", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:ab5cb39f3f3ea571", "status": "ok", "formula": "Ca2P3", "natom": 4, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:ac6261955fdf0b27", "status": "ok", "formula": "Ca2P4", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:ae8b8b7d7818d8ac", "status": "ok", "formula": "Ca2P4", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:b4388ae1e0f370d7", "status": "ok", "formula": "Ca3P3", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:b43af6e7f92190c3", "status": "ok", "formula": "Ca6P6", "natom": 11, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:b646b53383afe1d7", "status": "ok", "formula": "Ca3P1", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:b702abe5accb38a4", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:bc9578c4f5978f78", "status": "skip", "alasan": "aflow_parse_gagal"}
+{"sumber": "AFLOW", "id": "aflow:bf2f94e5339528bf", "status": "ok", "formula": "Ca1P3", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:c3b5a2327275ec2b", "status": "ok", "formula": "Ca4P3", "natom": 6, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:c387befb76c2aa19", "status": "ok", "formula": "Ca12P4", "natom": 15, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:c92b3201132e74dd", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:cff1d3ae6b3f4da2", "status": "ok", "formula": "Ca5P8", "natom": 12, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:d2871352efd8fd34", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:d3af53b65b997128", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:d7e01dd8e2c03038", "status": "ok", "formula": "Ca16P4", "natom": 19, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:d8fff733c049ef0a", "status": "ok", "formula": "Ca3P1", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:d89c7401b0060c36", "status": "ok", "formula": "Ca2P4", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:da6a55a6d75473d6", "status": "ok", "formula": "Ca3P3", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:dce9558fff6f21c9", "status": "ok", "formula": "Ca6P2", "natom": 7, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:df98975890fda4b4", "status": "ok", "formula": "Ca1P3", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:e130c64cb429f722", "status": "ok", "formula": "Ca2P1", "natom": 2, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:e18a2864b54d42a0", "status": "ok", "formula": "Ca17P12", "natom": 28, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:e2c424cbd71c5a3c", "status": "ok", "formula": "Ca4P6", "natom": 9, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:e2b1aa60915c5421", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:e361d7d7207f9b32", "status": "ok", "formula": "Ca3P1", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:e57525b0f2818b35", "status": "ok", "formula": "Ca2P4", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:e6cc42f451a8289b", "status": "ok", "formula": "Ca1P5", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:e67d7390bace4dcb", "status": "ok", "formula": "Ca4P2", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:e661758a8aa1fd0d", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:ebf9ebc38c6d0778", "status": "ok", "formula": "Ca1P4", "natom": 4, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:ebb261d02789834f", "status": "ok", "formula": "Ca3P1", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:ebb2ce239b12299e", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:ecb4236c835d0374", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:ed1b2e290e992fb8", "status": "ok", "formula": "Ca2P6", "natom": 7, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:ef30b73f7c1059a4", "status": "ok", "formula": "Ca6P6", "natom": 11, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:ef56fd2dc88288d6", "status": "ok", "formula": "Ca5P1", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:f1152c5e91ca62ea", "status": "ok", "formula": "Ca1P1", "natom": 1, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:f64e811e9a9ef4af", "status": "ok", "formula": "Ca24P5", "natom": 28, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:f847026dae331cdf", "status": "ok", "formula": "Ca2P4", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:f8b2eba59e8269ee", "status": "ok", "formula": "Ca6P7", "natom": 12, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:fb60cb3f88ddccc2", "status": "ok", "formula": "Ca2P2", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:fb73397f7ba940a5", "status": "ok", "formula": "Ca1P3", "natom": 3, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:fe0e7f713c606b86", "status": "ok", "formula": "Ca3P3", "natom": 5, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:fea15cfca87d465d", "status": "ok", "formula": "Ca4P1", "natom": 4, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:225ec2c31a3fdf3f", "status": "ok", "formula": "Ca10O25P6", "natom": 40, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.333333333333333, "cn_Ca_std": 1.247219128924647, "cn6_frac": 0.3333333333333333, "cn7_frac": 0.3333333333333333, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:548f677648a2d038", "status": "ok", "formula": "Ca3O8P2", "natom": 12, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 10.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:590ec2c99df45c44", "status": "ok", "formula": "Ca16O36P8", "natom": 59, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.6, "cn_Ca_std": 1.019803902718557, "cn6_frac": 0.0, "cn7_frac": 0.8666666666666667, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:74ab8602c44f7a26", "status": "ok", "formula": "Ca3O8P2", "natom": 12, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 10.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:7c086ad9ea58f2fd", "status": "ok", "formula": "Ca4O1P2", "natom": 6, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 1.3333333333333333, "cn_Ca_std": 0.4714045207910317, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:7f3b49a62e771d6d", "status": "ok", "formula": "Ca8O48P16", "natom": 71, "q0_frac": 0.0, "q1_frac": 0.0, "q2_frac": 1.0, "q3_frac": 0.0, "q_mean": 2.0, "cn_Ca_mean": 6.571428571428571, "cn_Ca_std": 0.7284313590846835, "cn6_frac": 0.5714285714285714, "cn7_frac": 0.2857142857142857, "cn8_frac": 0.14285714285714285, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:8cab7e774835ad95", "status": "ok", "formula": "Ca4O1P2", "natom": 6, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 1.3333333333333333, "cn_Ca_std": 0.4714045207910317, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:8f52a1a9373e7cd2", "status": "ok", "formula": "Ca8O38P12", "natom": 57, "q0_frac": 0.0, "q1_frac": 0.3333333333333333, "q2_frac": 0.6666666666666666, "q3_frac": 0.0, "q_mean": 1.6666666666666667, "cn_Ca_mean": 6.714285714285714, "cn_Ca_std": 0.4517539514526256, "cn6_frac": 0.2857142857142857, "cn7_frac": 0.7142857142857143, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:96d16bea720fe34c", "status": "ok", "formula": "Ca1O3P1", "natom": 4, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:99cb023873408889", "status": "ok", "formula": "Ca8O48P16", "natom": 71, "q0_frac": 0.0, "q1_frac": 0.0, "q2_frac": 1.0, "q3_frac": 0.0, "q_mean": 2.0, "cn_Ca_mean": 7.428571428571429, "cn_Ca_std": 0.4948716593053935, "cn6_frac": 0.0, "cn7_frac": 0.5714285714285714, "cn8_frac": 0.42857142857142855, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:aa3d517877e7e5ae", "status": "ok", "formula": "Ca4O44P16", "natom": 63, "q0_frac": 0.0, "q1_frac": 0.0, "q2_frac": 0.5, "q3_frac": 0.5, "q_mean": 2.5, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:b5b0d0b209bcd16e", "status": "ok", "formula": "Ca3O8P2", "natom": 12, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 10.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:d844cbeffc11bfe4", "status": "ok", "formula": "Ca16O56P16", "natom": 87, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 8.066666666666666, "cn_Ca_std": 0.997775303139718, "cn6_frac": 0.0, "cn7_frac": 0.4666666666666667, "cn8_frac": 0.0, "cn9_frac": 0.5333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:dc278882e48f0f43", "status": "ok", "formula": "Ca1O3P1", "natom": 4, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": NaN, "cn_Ca_std": NaN, "cn6_frac": NaN, "cn7_frac": NaN, "cn8_frac": NaN, "cn9_frac": NaN, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:150cf9243e1c2a34", "status": "ok", "formula": "Ca10H2O26P6", "natom": 43, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.4142135623730951, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:1f09ac96166b6739", "status": "ok", "formula": "Ca10H2O26P6", "natom": 43, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.666666666666667, "cn_Ca_std": 0.9428090415820634, "cn6_frac": 0.0, "cn7_frac": 0.6666666666666666, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:2f3b04c2af880597", "status": "ok", "formula": "Ca2H4O24P8", "natom": 37, "q0_frac": 0.0, "q1_frac": 0.0, "q2_frac": 1.0, "q3_frac": 0.0, "q_mean": 2.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:64d06a79805016d5", "status": "ok", "formula": "Ca2H8O8P4", "natom": 21, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:7fe31d53637ea1e7", "status": "ok", "formula": "Ca4H4O16P4", "natom": 27, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.666666666666667, "cn_Ca_std": 0.4714045207910317, "cn6_frac": 0.0, "cn7_frac": 0.3333333333333333, "cn8_frac": 0.6666666666666666, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:9209108efb12f6a4", "status": "ok", "formula": "Ca2H12O18P4", "natom": 35, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:9a44ad0c8bcd2e8b", "status": "ok", "formula": "Ca10H2O26P6", "natom": 43, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.666666666666667, "cn_Ca_std": 0.9428090415820634, "cn6_frac": 0.0, "cn7_frac": 0.6666666666666666, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:a7da581f290372e4", "status": "ok", "formula": "Ca4H12O16P4", "natom": 35, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:a91912519ccc1614", "status": "ok", "formula": "Ca2H8O16P4", "natom": 29, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:b8925843f89ee7fa", "status": "ok", "formula": "Ca2H10O12P2", "natom": 25, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:b8fa4dd866ebfd55", "status": "ok", "formula": "Ca2H10O12P2", "natom": 25, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:c61c4232801a374f", "status": "ok", "formula": "Ca4H4O16P4", "natom": 27, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.333333333333333, "cn_Ca_std": 0.9428090415820634, "cn6_frac": 0.3333333333333333, "cn7_frac": 0.0, "cn8_frac": 0.6666666666666666, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:db6ab14788a3c497", "status": "ok", "formula": "Ca4H8O18P4", "natom": 33, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:ddc81fbf86af6f39", "status": "ok", "formula": "Ca2H4O14P4", "natom": 23, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:f40c85a85608e3c6", "status": "ok", "formula": "Ca2H12O14P4", "natom": 31, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:05f13a4dbebead15", "status": "ok", "formula": "Ca10F2O24P6", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.4142135623730951, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:0ca91028260ae9aa", "status": "ok", "formula": "Ca10F2O24P6", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.4142135623730951, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:0e9c7c9fb0f53f6d", "status": "ok", "formula": "Ca10F2O24P6", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.4142135623730951, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:10c1f89544ac76f1", "status": "ok", "formula": "Ca10F2O24P6", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.333333333333333, "cn_Ca_std": 1.4907119849998598, "cn6_frac": 0.5555555555555556, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4444444444444444, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:14bf564382b1c0a1", "status": "ok", "formula": "Ca10F2O24P6", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.4142135623730951, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:16fe3e1e84c1514f", "status": "ok", "formula": "Ca10F2O24P6", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.4142135623730951, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:1c972e58b45ca1bc", "status": "ok", "formula": "Ca10F2O24P6", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.4142135623730951, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:41a89f871c82261f", "status": "ok", "formula": "Ca10F2O24P6", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.4142135623730951, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:5ae64d644f590fae", "status": "ok", "formula": "Ca10F2O24P6", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.4142135623730951, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:5e27b61b21bb358e", "status": "ok", "formula": "Ca10F2O24P6", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.4142135623730951, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:6680adf745b1af28", "status": "ok", "formula": "Ca10F2O24P6", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.4142135623730951, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:70545f27716237a5", "status": "ok", "formula": "Ca10F2O24P6", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.4142135623730951, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:7bfd8ecf318a1090", "status": "ok", "formula": "Ca10F2O24P6", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.4142135623730951, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:7c28b37db0464a39", "status": "ok", "formula": "Ca10F2O24P6", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.4142135623730951, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:7fcd6fc0b909ed37", "status": "ok", "formula": "Ca10F2O24P6", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.4142135623730951, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:ceed2bae7f975e49", "status": "ok", "formula": "Ca10F2O24P6", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.4142135623730951, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "AFLOW", "id": "aflow:d3de170059ffb603", "status": "ok", "formula": "Ca10F2O24P6", "natom": 41, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.4142135623730951, "cn6_frac": 0.6666666666666666, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.3333333333333333, "alasan": null}
+{"sumber": "COD", "id": "1000140", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1000440", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1001374", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1001428", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1001556", "status": "ok", "formula": "Ca2 O7 P2", "natom": 88, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 1.0, "cn6_frac": 0.0, "cn7_frac": 0.5, "cn8_frac": 0.0, "cn9_frac": 0.5, "alasan": null}
+{"sumber": "COD", "id": "1001656", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1001859", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1007032", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1007057", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1007109", "status": "skip", "alasan": "parse_gagal_ValueError"}
+{"sumber": "COD", "id": "1007178", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1007179", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1007192", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1007219", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1007233", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1008337", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1008454", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1008729", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1008730", "status": "ok", "formula": "Ca H2 O12 P4", "natom": 38, "q0_frac": 0.0, "q1_frac": 0.0, "q2_frac": 1.0, "q3_frac": 0.0, "q_mean": 2.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "1008827", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1010647", "status": "ok", "formula": "Ca5 F O12 P3", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "COD", "id": "1010717", "status": "skip", "alasan": "cif_tidak_ada"}
+{"sumber": "COD", "id": "1010774", "status": "skip", "alasan": "cif_tidak_ada"}
+{"sumber": "COD", "id": "1010916", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1010996", "status": "ok", "formula": "Ca5 F O12 P3", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "COD", "id": "1011044", "status": "ok", "formula": "Ca5 F O12 P3", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "COD", "id": "1011242", "status": "ok", "formula": "Ca5 H O13 P3", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.8, "cn_Ca_std": 0.9797958971132713, "cn6_frac": 0.0, "cn7_frac": 0.6, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "COD", "id": "1011270", "status": "skip", "alasan": "parse_gagal_ValueError"}
+{"sumber": "COD", "id": "1510061", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1511335", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1511466", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1514414", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1514583", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1517238", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1519005", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1519021", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1519936", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1520814", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1520816", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1520817", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1521029", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1521031", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1521032", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1521033", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1521034", "status": "ok", "formula": "Ca9.574 Dy0.212 H2 Na0.212 O26 P6", "natom": 88, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.8, "cn_Ca_std": 0.9797958971132713, "cn6_frac": 0.0, "cn7_frac": 0.6, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": "parser_ase"}
+{"sumber": "COD", "id": "1521036", "status": "ok", "formula": "Ca9.674 H2 La0.286 Na0.04 O26 P5.784 Si0.216", "natom": 48, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.4, "cn_Ca_std": 0.4898979485566356, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.6, "cn9_frac": 0.4, "alasan": "parser_ase"}
+{"sumber": "COD", "id": "1521037", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1521038", "status": "ok", "formula": "Ca9.692 H2 Na0.04 O26 P5.778 Si0.222 Sm0.2708", "natom": 48, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.4, "cn_Ca_std": 0.4898979485566356, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.6, "cn9_frac": 0.4, "alasan": "parser_ase"}
+{"sumber": "COD", "id": "1521049", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1521054", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1521055", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1521110", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1521426", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1521820", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1522048", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1524339", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1524419", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1524661", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1524950", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1524951", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1524952", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1525495", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1525496", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1525497", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1525498", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1525499", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1525757", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1525961", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1526053", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1526055", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1526131", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1526133", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1526135", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1526155", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1526156", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1526459", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1526715", "status": "ok", "formula": "C1.56 Ca9.55 O26.99 P5.52", "natom": 56, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.4, "cn_Ca_std": 0.4898979485566356, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.6, "cn9_frac": 0.4, "alasan": "parser_ase"}
+{"sumber": "COD", "id": "1527079", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1527232", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1527362", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1529464", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1529465", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1529466", "status": "ok", "formula": "Ca11 O28 P7", "natom": 276, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.909090909090909, "cn_Ca_std": 0.668042657122685, "cn6_frac": 0.09090909090909091, "cn7_frac": 0.0, "cn8_frac": 0.8181818181818182, "cn9_frac": 0.09090909090909091, "alasan": null}
+{"sumber": "COD", "id": "1529559", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1529584", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1530046", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1530047", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1530108", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1530216", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1530333", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1530849", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1530850", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1530851", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1530852", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1531049", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1531116", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1531117", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1531118", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1531393", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1531847", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1532231", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1532377", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1532700", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1532970", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1533064", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1533075", "status": "ok", "formula": "Ca H5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "1533168", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1533169", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1533357", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1534215", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1534327", "status": "ok", "formula": "Ca8 O29 P6", "natom": 86, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.5, "cn_Ca_std": 1.0, "cn6_frac": 0.125, "cn7_frac": 0.5, "cn8_frac": 0.125, "cn9_frac": 0.25, "alasan": null}
+{"sumber": "COD", "id": "1534465", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1534646", "status": "ok", "formula": "Ca2 O16 P4", "natom": 44, "q0_frac": 0.0, "q1_frac": 0.0, "q2_frac": 1.0, "q3_frac": 0.0, "q_mean": 2.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "1534676", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1534694", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1534835", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1534853", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1534863", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1534871", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1534894", "status": "ok", "formula": "Ca H3 O4 P", "natom": 36, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "1535144", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1535268", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1536182", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1536645", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1536712", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1536715", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1536718", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1536721", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1537178", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1537304", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1538036", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1538516", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1539971", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1540005", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1541827", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1541957", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1542176", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1545917", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1546352", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1546410", "status": "ok", "formula": "C6 H22 Ca O13 P2", "natom": 176, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "1548656", "status": "ok", "formula": "C192 H133 Ca2 O29 P4", "natom": 1440, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "1549763", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1551210", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1551214", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1552363", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1552364", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1556481", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1557964", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1558499", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1559799", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1559800", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1560431", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1560546", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1560547", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1560548", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1560740", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1560745", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1561381", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1561592", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1561593", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1563128", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1564821", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1569469", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1570107", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1570298", "status": "ok", "formula": "Ca2 O7 P2", "natom": 22, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.0, "cn6_frac": 0.5, "cn7_frac": 0.0, "cn8_frac": 0.5, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "1572528", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1573853", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1573855", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "1575054", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2000062", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2000265", "status": "ok", "formula": "C6 H12 Ca O14 P2", "natom": 35, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2001132", "status": "ok", "formula": "Ca2 O7 P2", "natom": 88, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 1.0, "cn6_frac": 0.0, "cn7_frac": 0.5, "cn8_frac": 0.0, "cn9_frac": 0.5, "alasan": null}
+{"sumber": "COD", "id": "2002159", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2002160", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2002825", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2002835", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2003097", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2005212", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2006516", "status": "ok", "formula": "C3 H13 Ca O11 P", "natom": 58, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2007492", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2009164", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2009468", "status": "ok", "formula": "C4 H12 Ca O14 P2", "natom": 132, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2012996", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2013129", "status": "ok", "formula": "C4 H8 Ca O10 P2", "natom": 50, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2013700", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2013840", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2014306", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2014516", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2017323", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2017608", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2017672", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2018013", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2018372", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2018578", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2019651", "status": "ok", "formula": "Ca2 H2 O8 P2", "natom": 56, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 6.5, "cn_Ca_std": 0.5, "cn6_frac": 0.5, "cn7_frac": 0.5, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2020364", "status": "ok", "formula": "Ca O6 P2", "natom": 72, "q0_frac": 0.0, "q1_frac": 0.0, "q2_frac": 1.0, "q3_frac": 0.0, "q_mean": 2.0, "cn_Ca_mean": 7.5, "cn_Ca_std": 0.5, "cn6_frac": 0.0, "cn7_frac": 0.5, "cn8_frac": 0.5, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2020384", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2020583", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2021274", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2022591", "status": "ok", "formula": "Ca10.974 O27.64 P6.012", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.8, "cn_Ca_std": 0.9797958971132713, "cn6_frac": 0.0, "cn7_frac": 0.6, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": "parser_ase"}
+{"sumber": "COD", "id": "2102200", "status": "ok", "formula": "Ca2 O11 P2", "natom": 60, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2103948", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2104744", "status": "ok", "formula": "Ca5 F O12 P3", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "COD", "id": "2104755", "status": "ok", "formula": "Ca5 F O12 P3", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "COD", "id": "2104980", "status": "ok", "formula": "C2 H8 Ca O6 P2", "natom": 76, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2105261", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105262", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105263", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105264", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105265", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105266", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105267", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105268", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105269", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105270", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105271", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105272", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105273", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105274", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105275", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105276", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105277", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105278", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105279", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105280", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105281", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105282", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105283", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105284", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105285", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2105871", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2106084", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2106141", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2106184", "status": "ok", "formula": "Ca H O4 P", "natom": 28, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.5, "cn_Ca_std": 0.5, "cn6_frac": 0.0, "cn7_frac": 0.5, "cn8_frac": 0.5, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2106194", "status": "ok", "formula": "Ca3 O8 P2", "natom": 312, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.722222222222222, "cn_Ca_std": 0.9891385452647142, "cn6_frac": 0.2777777777777778, "cn7_frac": 0.4444444444444444, "cn8_frac": 0.1111111111111111, "cn9_frac": 0.05555555555555555, "alasan": null}
+{"sumber": "COD", "id": "2106389", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2106434", "status": "ok", "formula": "Ca H6 O9 P2", "natom": 36, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2106581", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2106602", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2106709", "status": "ok", "formula": "Ca2 H4 O9 P2", "natom": 34, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2106757", "status": "ok", "formula": "Ca10 O17 P4", "natom": 30, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 5.333333333333333, "cn_Ca_std": 1.4907119849998598, "cn6_frac": 0.3333333333333333, "cn7_frac": 0.2222222222222222, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": "parser_ase"}
+{"sumber": "COD", "id": "2106856", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2106902", "status": "ok", "formula": "Ca H4 O8 P2", "natom": 30, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2106929", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2107097", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2107166", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2107188", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2107226", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2107228", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2107230", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2107233", "status": "ok", "formula": "Ca5.143 F0.9666 O12.246 P3 Sb0.0969", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": "parser_ase"}
+{"sumber": "COD", "id": "2107234", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2107367", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2107413", "status": "ok", "formula": "Ca F H4 O5 P", "natom": 24, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2107462", "status": "ok", "formula": "Ca2 H4 O9 P2", "natom": 68, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 6.5, "cn_Ca_std": 0.5, "cn6_frac": 0.5, "cn7_frac": 0.5, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2107463", "status": "ok", "formula": "Ca2 H4 O9 P2", "natom": 68, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 6.5, "cn_Ca_std": 0.5, "cn6_frac": 0.5, "cn7_frac": 0.5, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2108349", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2108352", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2108489", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2108616", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2109071", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2200088", "status": "ok", "formula": "Ca H6 O7 P2", "natom": 32, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2202940", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2203237", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2205473", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2211651", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2211655", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2215686", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2217361", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2221554", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2222666", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2223282", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2226013", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2227105", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2229216", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2236693", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2238071", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2238327", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2238575", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2239374", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2239769", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2241800", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2241917", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2241949", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2242153", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2243867", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2300273", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2310394", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2310526", "status": "ok", "formula": "Ca H4 O6 P", "natom": 48, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2310630", "status": "ok", "formula": "Ca O9 P2", "natom": 24, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "2312143", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2312144", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "2312737", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "3000164", "status": "skip", "alasan": "parse_gagal_ValueError"}
+{"sumber": "COD", "id": "3000445", "status": "skip", "alasan": "cif_tidak_ada"}
+{"sumber": "COD", "id": "3000446", "status": "skip", "alasan": "cif_tidak_ada"}
+{"sumber": "COD", "id": "3000447", "status": "skip", "alasan": "cif_tidak_ada"}
+{"sumber": "COD", "id": "3000448", "status": "skip", "alasan": "cif_tidak_ada"}
+{"sumber": "COD", "id": "3000449", "status": "skip", "alasan": "cif_tidak_ada"}
+{"sumber": "COD", "id": "3000591", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4000621", "status": "ok", "formula": "Ca O6 P2", "natom": 72, "q0_frac": 0.0, "q1_frac": 0.0, "q2_frac": 1.0, "q3_frac": 0.0, "q_mean": 2.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "4001394", "status": "ok", "formula": "Ca O6 P2", "natom": 144, "q0_frac": 0.0, "q1_frac": 0.0, "q2_frac": 1.0, "q3_frac": 0.0, "q_mean": 2.0, "cn_Ca_mean": 6.75, "cn_Ca_std": 0.82915619758885, "cn6_frac": 0.5, "cn7_frac": 0.25, "cn8_frac": 0.25, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "4002454", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4002455", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4030720", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4030862", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4063235", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4070546", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4070917", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4071660", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4071672", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4072773", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4073037", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4073038", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4073039", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4073260", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4073789", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4077531", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4084512", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4084513", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4085571", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4111064", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4111065", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4111066", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4111067", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4111068", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4114603", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4114604", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4115722", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4116611", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4116612", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4121587", "status": "ok", "formula": "C24 H31 Ca2 O28 P3", "natom": 352, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "4121588", "status": "ok", "formula": "C24 Ca2 O23 P3", "natom": 208, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "4124575", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4124586", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4124587", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4124588", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4305340", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4307976", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4310262", "status": "ok", "formula": "C14 Ca O10 P2", "natom": 108, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": "parser_ase"}
+{"sumber": "COD", "id": "4312249", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4316932", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4317043", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4317044", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4317045", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4318255", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4318805", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4318806", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4321713", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4322095", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4322546", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4322547", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4323312", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4323452", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4326001", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4328058", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4328298", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4328299", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4329758", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4329759", "status": "ok", "formula": "C40 H52 Ca O6 P2", "natom": 202, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "4329760", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4329761", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4329762", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4330829", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4331564", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4335580", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4338265", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4339402", "status": "ok", "formula": "C40 H52 Ca O4 P2", "natom": 198, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 4.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "4339405", "status": "ok", "formula": "C36 H44 Ca O6 P2", "natom": 356, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "4341174", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4341175", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4341176", "status": "ok", "formula": "Ca62.1072 O168 P42 Sr6.2928", "natom": 276, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.636363636363637, "cn_Ca_std": 1.6663911618021237, "cn6_frac": 0.09090909090909091, "cn7_frac": 0.0, "cn8_frac": 0.5454545454545454, "cn9_frac": 0.2727272727272727, "alasan": "parser_ase"}
+{"sumber": "COD", "id": "4342765", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4343517", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4343518", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4343519", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4343520", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4344241", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4344555", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4345038", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4345039", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4346528", "status": "ok", "formula": "C12 H18 Ca2 O11 P3", "natom": 92, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.5, "cn_Ca_std": 0.5, "cn6_frac": 0.5, "cn7_frac": 0.5, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "4346529", "status": "ok", "formula": "C8 H16 Ca O9 P2", "natom": 144, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "4500529", "status": "ok", "formula": "C2 Ca O9 P", "natom": 104, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 1.0, "cn6_frac": 0.5, "cn7_frac": 0.0, "cn8_frac": 0.5, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "4500530", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4500531", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4500532", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4501741", "status": "ok", "formula": "C48 H104 Ca3 O52 P6", "natom": 426, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "4501742", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4504781", "status": "ok", "formula": "C7 H17 Ca O13 P", "natom": 156, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "4509071", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4509594", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4509595", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4509867", "status": "ok", "formula": "C2 Ca O10.5 P2", "natom": 31, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "4509868", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "4510948", "status": "ok", "formula": "C4 H32 Ca3 O26 P2", "natom": 67, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.333333333333333, "cn_Ca_std": 0.9428090415820634, "cn6_frac": 0.3333333333333333, "cn7_frac": 0.0, "cn8_frac": 0.6666666666666666, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "4511022", "status": "ok", "formula": "C3 H9 Ca O7 P", "natom": 84, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "4511885", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "6000036", "status": "skip", "alasan": "cif_tidak_ada"}
+{"sumber": "COD", "id": "6000037", "status": "skip", "alasan": "parse_gagal_ValueError"}
+{"sumber": "COD", "id": "6000038", "status": "skip", "alasan": "cif_tidak_ada"}
+{"sumber": "COD", "id": "6000039", "status": "skip", "alasan": "cif_tidak_ada"}
+{"sumber": "COD", "id": "6000077", "status": "ok", "formula": "Ca H2 O7 P2", "natom": 48, "q0_frac": 0.0, "q1_frac": 1.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 1.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "6000711", "status": "skip", "alasan": "parse_gagal_ValueError"}
+{"sumber": "COD", "id": "7001047", "status": "ok", "formula": "C62 H66 Ca O3 P4", "natom": 544, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 3.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "7001050", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7001066", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7001067", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7001068", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7001703", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7001706", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7001905", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7001906", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7001907", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7003780", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7011200", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7011536", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7013241", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7017671", "status": "ok", "formula": "C38 H38 Ca O2 P2", "natom": 324, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 2.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "7017672", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7018474", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7018475", "status": "ok", "formula": "C22 H21 Ca O10.5 P", "natom": 444, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "7018767", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7020828", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7022526", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7023128", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7023819", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7027048", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7028298", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7030389", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7032052", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7032208", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7032209", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7032210", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7032211", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7032212", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7033134", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7033135", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7038852", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7038853", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7038854", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7045220", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7047667", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7048174", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7049454", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7052251", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7052252", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7054949", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7055704", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7056682", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7056683", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7056684", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7058369", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7058370", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7103787", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7104360", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7104361", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7105371", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7105372", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7106989", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7107442", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7107443", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7115939", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7120079", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7120080", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7120081", "status": "ok", "formula": "C12 H22 Ca F8 O8 P2", "natom": 424, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "7120082", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7126280", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7134464", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7134465", "status": "ok", "formula": "C36 H62 Ca O4 P4", "natom": 428, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "7134466", "status": "ok", "formula": "C44 H78 Ca O4 P4", "natom": 524, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 0.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "7134468", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7208382", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7208383", "status": "ok", "formula": "C2 H6 Ca O9 P2", "natom": 40, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "7208384", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7209300", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7211347", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7212676", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7212905", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7212906", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7215684", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7215685", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7215686", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7215687", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7216240", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7217892", "status": "ok", "formula": "Ca20 O52 P12", "natom": 84, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.8, "cn_Ca_std": 0.9797958971132713, "cn6_frac": 0.0, "cn7_frac": 0.6, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "COD", "id": "7217893", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7217894", "status": "ok", "formula": "Ca10.084 H2.556 O27.148 P5.94", "natom": 48, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.4, "cn_Ca_std": 0.4898979485566356, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 0.6, "cn9_frac": 0.4, "alasan": "parser_ase"}
+{"sumber": "COD", "id": "7220146", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7220147", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7221156", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7221157", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7221217", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7221218", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7222708", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7222994", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7223693", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7224690", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7224691", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7231885", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7233142", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7233777", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7235036", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7236242", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7236243", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7239301", "status": "ok", "formula": "C16 H22 Ca O13 P2", "natom": 108, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "7239302", "status": "ok", "formula": "C16 H20 Ca O12 P2", "natom": 51, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "7239303", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7241712", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7241713", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7241714", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7241715", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7241716", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7241717", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7241718", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7241719", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7241720", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7241721", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7241722", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7241723", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7241724", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7244777", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7245326", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7247109", "status": "ok", "formula": "Ca O3 P", "natom": 40, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 1.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "7248685", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7251248", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7700038", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7700330", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7703281", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7703283", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7704902", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7705606", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7706214", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7706549", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7707066", "status": "ok", "formula": "C18 Ca O8 P2", "natom": 58, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.0, "cn_Ca_std": 0.0, "cn6_frac": 1.0, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "7708977", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7708978", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7708979", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7711827", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7711828", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7711829", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7712164", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7712166", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7712167", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7712659", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7713521", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7715492", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7716499", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7720346", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7720592", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7721102", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7721103", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7721104", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7721105", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "7721106", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "8102959", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "8102984", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "8102998", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "8103059", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "8103587", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "8103837", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "8103839", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "8103880", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "8103972", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "8104400", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000033", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000148", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000165", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000192", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000257", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000383", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000388", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000401", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000403", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000404", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000420", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000434", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000462", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000465", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000475", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000544", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000550", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000571", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000572", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000653", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000825", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000829", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000830", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000831", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000841", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9000942", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001089", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001115", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001232", "status": "ok", "formula": "Ca5 F O12 P3", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "COD", "id": "9001233", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001234", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001252", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001262", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001263", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001342", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001343", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001344", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001345", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001387", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001388", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001389", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001390", "status": "ok", "formula": "Ca4.791 F0.93 Mn0.211 O12 P3", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": "parser_ase"}
+{"sumber": "COD", "id": "9001493", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001494", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001504", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001671", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001672", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001673", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001674", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9001878", "status": "ok", "formula": "Ca5 F O12 P3", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "COD", "id": "9001879", "status": "ok", "formula": "Ca5 F O12 P3", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "COD", "id": "9001880", "status": "ok", "formula": "Ca5 F O12 P3", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "COD", "id": "9001881", "status": "ok", "formula": "Ca5 F O12 P3", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "COD", "id": "9002213", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002214", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002215", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002216", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002217", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002218", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002219", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002220", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002221", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002222", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002223", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002224", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002225", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002226", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002227", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002228", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002249", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002428", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002431", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002432", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002433", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002434", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002504", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002505", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002580", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002581", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002794", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9002888", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9003438", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9003548", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9003549", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9003550", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9003551", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9003558", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9003871", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9003872", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9003873", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004121", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004145", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004187", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004193", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004214", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004230", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004267", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004408", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004432", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004455", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004518", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004519", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004596", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004645", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004646", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004679", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004735", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004786", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004839", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004844", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004916", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004917", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004965", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004966", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004967", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9004968", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9005067", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9005118", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9005233", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9005237", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9005283", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9005636", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9005744", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9005745", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9005746", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9005865", "status": "ok", "formula": "Ca3 O8 P2", "natom": 39, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.666666666666666, "cn_Ca_std": 1.8856180831641267, "cn6_frac": 0.3333333333333333, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9006952", "status": "ok", "formula": "Ca5 F O12 P3", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "COD", "id": "9006953", "status": "ok", "formula": "Ca5 F O12 P3", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "COD", "id": "9006954", "status": "ok", "formula": "Ca5 F O12 P3", "natom": 42, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 7.2, "cn_Ca_std": 1.469693845669907, "cn6_frac": 0.6, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.4, "alasan": null}
+{"sumber": "COD", "id": "9007287", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007288", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007289", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007290", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007291", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007292", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007293", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007294", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007295", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007296", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007297", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007298", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007299", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007300", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007301", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007302", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007303", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007304", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007305", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007306", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007307", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007308", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007309", "status": "ok", "formula": "Ca D5 O6 P", "natom": 52, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.0, "cn_Ca_std": 0.0, "cn6_frac": 0.0, "cn7_frac": 0.0, "cn8_frac": 1.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9007512", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9007616", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9007619", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9007779", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9007835", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9007962", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9007983", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9008178", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9008245", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009277", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009326", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009361", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009376", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009485", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009521", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009552", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009585", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009590", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009610", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009615", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009705", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009706", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009927", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009978", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009979", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009980", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009981", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9009998", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010069", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010070", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010071", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010104", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010117", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010134", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010136", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010368", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010382", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010435", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010489", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010490", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010491", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010492", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010493", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010504", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010505", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010506", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010597", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010598", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010616", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010617", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010769", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010782", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010783", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010784", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9010845", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011091", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011092", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011093", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011094", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011144", "status": "ok", "formula": "Ca4 O9 P2", "natom": 60, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 6.5, "cn_Ca_std": 1.0, "cn6_frac": 0.125, "cn7_frac": 0.75, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9011161", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011219", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011347", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011386", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011391", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011393", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011514", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011515", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011516", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011531", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011585", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011586", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011738", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011749", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011762", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011794", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011829", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011837", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011841", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011877", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011902", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011912", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011915", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011928", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011935", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011950", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011951", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9011959", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9012136", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9012137", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9012199", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9012400", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9012415", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9012505", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9012519", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9012529", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9012721", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9012752", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9012772", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9012775", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9012798", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9012867", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013157", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013172", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013173", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013174", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013447", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013448", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013449", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013548", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013549", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013550", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013551", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013627", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013628", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013629", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013630", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013631", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013632", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013735", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013785", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013797", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013950", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013956", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013981", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013985", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013986", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9013991", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9014066", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9014271", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9014333", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9014460", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9014584", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9014600", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9014685", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9014777", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9014798", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9014911", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9014939", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9015039", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9015077", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9015086", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9015099", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9015151", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9015248", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9015452", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9015466", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9015509", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9015578", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9015690", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9015722", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9015753", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9015830", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9015940", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9016046", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9016167", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9016283", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9016294", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9016317", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9016383", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9016441", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9016502", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9016573", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9016606", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9016659", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9016663", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9016713", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9016947", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9016948", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9016953", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9016954", "status": "ok", "formula": "Ca3 O8 P2", "natom": 39, "q0_frac": 1.0, "q1_frac": 0.0, "q2_frac": 0.0, "q3_frac": 0.0, "q_mean": 0.0, "cn_Ca_mean": 8.666666666666666, "cn_Ca_std": 1.8856180831641267, "cn6_frac": 0.3333333333333333, "cn7_frac": 0.0, "cn8_frac": 0.0, "cn9_frac": 0.0, "alasan": null}
+{"sumber": "COD", "id": "9017040", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017041", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017042", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017043", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017044", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017048", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017100", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017143", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017160", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017173", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017174", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017175", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017176", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017177", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017178", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017179", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017203", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017204", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017205", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017206", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017243", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017244", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017251", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017254", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017256", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017260", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017262", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017263", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017336", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017350", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017351", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017420", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017459", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017664", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017674", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017711", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017712", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017713", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017714", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017718", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017734", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017740", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017762", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017783", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017795", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017813", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017872", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017873", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017874", "status": "skip", "alasan": "fitur_gagal_ValueError"}
+{"sumber": "COD", "id": "9017879", "status": "skip", "alasan": "fitur_gagal_ValueError"}

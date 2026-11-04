@@ -36,14 +36,23 @@ def muat_phase():
     k = pd.read_csv(PROC / "kandidat_ranking.csv")
     k["komposisi_reduksi"] = k.apply(kunci_reduksi, axis=1)
     pool = df[df["id"].isin(k["id"].astype(str))].copy()
-    # COD in-system dengan E_hull terdefinisi
+    # peta E_hull per komposisi dari MP (DFT GGA) -> dipakai untuk AFLOW/OQMD yang
+    # komposisinya tumpang-tindih dengan MP (kolom E_hull mereka kosong)
+    mp_map = pool[pool["sumber"] == "MaterialsProject"].groupby("komposisi_reduksi")[
+        "E_hull_eV_atom"].min()
+    pool["E_hull_eV_atom"] = pool.apply(
+        lambda r: r["E_hull_eV_atom"] if pd.notna(r["E_hull_eV_atom"])
+        else mp_map.get(r["komposisi_reduksi"]), axis=1)
+    # COD in-system dengan E_hull terdefinisi (id format: nomor file COD, mis. 1000140)
     hull_cod = pd.read_csv(PROC / "stabilitas_hull_q1.csv")
     cod = df[df["sumber"] == "COD"].copy()
     cod["id_str"] = cod["id"].astype(str)
-    hull_cod["cod_id"] = hull_cod["cod_id"].astype(str)
+    hull_cod["cod_id"] = (pd.to_numeric(hull_cod["cod_id"], errors="coerce")
+                          .fillna(hull_cod["cod_id"]).astype(str).str.replace(r"\.0$", "", regex=True))
     cod = cod.merge(hull_cod[["cod_id", "Eform_cal", "E_hull"]].dropna(subset=["E_hull"]),
                     left_on="id_str", right_on="cod_id", how="inner")
     cod["sumber_bukti"] = "COD (MACE terkalibrasi)"
+    cod["E_hull_eV_atom"] = cod["E_hull"]
     pool["sumber_bukti"] = pool["sumber"].replace(
         {"MaterialsProject": "MP (DFT GGA)", "AFLOW": "AFLOW/MP (DFT GGA)", "OQMD": "OQMD/MP (DFT GGA)"})
     pool["Eform_cal"] = pool["Eform_eV_atom"]
@@ -109,7 +118,6 @@ def main():
 
     # banding ranking lama (kandidat_top15_dedup.csv peringkat ordinal) vs baru
     lama = pd.read_csv(PROC / "kandidat_top15_dedup.csv")
-    lama["komposisi_reduksi"] = lama.apply(kunci_reduksi, axis=1)
     gab_rank = phase.merge(lama[["komposisi_reduksi", "peringkat_rerata"]].rename(
         columns={"peringkat_rerata": "rank_lama"}), on="komposisi_reduksi", how="left")
     bersama = gab_rank.dropna(subset=["rank_lama"])

@@ -37,23 +37,31 @@ def ke_struktur_pmg(atoms):
     return AseAtomsAdaptor.get_structure(atoms)
 
 
+def simbol(s):
+    """Simbol unsur dominan situs — aman untuk situs disorder (pymatgen 2025: .specie hilang)."""
+    try:
+        return s.specie.symbol
+    except AttributeError:
+        return max(s.species.items(), key=lambda kv: kv[1])[0].symbol
+
+
 def hitung_q(struktur):
     """Fraksi Q^0..Q^3 + q_mean dari struktur pymatgen (P-O <= 1.85 A)."""
     from pymatgen.core import Structure
-    p_idx = [i for i, s in enumerate(struktur) if s.specie.symbol == "P"]
+    p_idx = [i for i, s in enumerate(struktur) if simbol(s) == "P"]
     if not p_idx:
         return {"q0_frac": np.nan, "q1_frac": np.nan, "q2_frac": np.nan, "q3_frac": np.nan, "q_mean": np.nan}
     all_nbrs = struktur.get_all_neighbors(1.85, include_index=True)
     # o_bridge: O yang bertetangga dengan >=2 P
     o_bridge = set()
     for i, nbrs in enumerate(all_nbrs):
-        if struktur[i].specie.symbol == "O":
-            p_ikut = sum(1 for n in nbrs if n.specie.symbol == "P")
+        if simbol(struktur[i]) == "O":
+            p_ikut = sum(1 for n in nbrs if simbol(n) == "P")
             if p_ikut >= 2:
                 o_bridge.add(i)
     q = []
     for i in p_idx:
-        o_terikat = [n for n in all_nbrs[i] if n.specie.symbol == "O"]
+        o_terikat = [n for n in all_nbrs[i] if simbol(n) == "O"]
         jembatan = sum(1 for n in o_terikat if n.index in o_bridge)
         q.append(min(jembatan, 3))
     q = np.array(q)
@@ -64,7 +72,7 @@ def hitung_q(struktur):
 
 def hitung_cn_ca(struktur):
     """CN Ca via CrystalNN (hanya tetangga O); fallback cutoff 3.2 A."""
-    ca_idx = [i for i, s in enumerate(struktur) if s.specie.symbol == "Ca"]
+    ca_idx = [i for i, s in enumerate(struktur) if simbol(s) == "Ca"]
     if not ca_idx:
         return {"cn_Ca_mean": np.nan, "cn_Ca_std": np.nan,
                 "cn6_frac": np.nan, "cn7_frac": np.nan, "cn8_frac": np.nan, "cn9_frac": np.nan}
@@ -75,7 +83,7 @@ def hitung_cn_ca(struktur):
         for i in ca_idx:
             try:
                 cn.append(sum(1 for n in cnn.get_nn_info(struktur, i)
-                              if n["site"].specie.symbol == "O"))
+                              if simbol(n["site"]) == "O"))
             except Exception:
                 cn.append(np.nan)
         cn = np.array([c for c in cn if c == c], dtype=float)
@@ -83,17 +91,24 @@ def hitung_cn_ca(struktur):
         cn = np.array([])
     if len(cn) < 3:  # CrystalNN gagal -> fallback cutoff
         all_nbrs = struktur.get_all_neighbors(3.2, include_index=False)
-        cn = np.array([sum(1 for n in all_nbrs[i] if n.specie.symbol == "O") for i in ca_idx])
+        cn = np.array([sum(1 for n in all_nbrs[i] if simbol(n) == "O") for i in ca_idx])
     return {"cn_Ca_mean": float(cn.mean()), "cn_Ca_std": float(cn.std()),
             "cn6_frac": float((cn == 6).mean()), "cn7_frac": float((cn == 7).mean()),
             "cn8_frac": float((cn == 8).mean()), "cn9_frac": float((cn == 9).mean())}
 
 
 def hitung_soap(struktur):
-    """Vektor SOAP (n_species^2 * nmax^2 * (lmax+1) = 36*16*5 = 2880)."""
+    """Vektor SOAP (n_species^2 * nmax^2 * (lmax+1) = 36*16*5 = 2880).
+
+    dscribe 2.x membutuhkan ASE Atoms — pymatgen Structure dikonversi dulu.
+    """
     from dscribe.descriptors import SOAP
+    from pymatgen.io.ase import AseAtomsAdaptor
+    if not set(struktur.symbol_set) <= set(SPESIES_SOAP):
+        raise ValueError(f"unsur di luar set SOAP {SPESIES_SOAP}: {struktur.symbol_set}")
+    atoms = AseAtomsAdaptor.get_atoms(struktur)
     soap = SOAP(species=SPESIES_SOAP, periodic=True, r_cut=RCUT, n_max=NMAX, l_max=LMAX, sparse=False)
-    v = soap.create(struktur)
+    v = soap.create(atoms)
     return np.asarray(v, dtype=np.float64)
 
 
@@ -136,10 +151,35 @@ def ambil_struktur(sumber, rid, meta):
                 return None, "aflow_unduh_gagal"
             cache.parent.mkdir(parents=True, exist_ok=True)
             cache.write_text(poscar, encoding="utf-8")
-        from ase.io import read
-        from io import StringIO
-        return ke_struktur_pmg(read(StringIO(poscar), format="vasp")), None
+        st = parse_aflow_concar(poscar)
+        if st is None:
+            return None, "aflow_parse_gagal"
+        return st, None
     return None, f"sumber_tak_dikenal_{sumber}"
+
+
+def parse_aflow_concar(teks):
+    """Parser CONTCAR.relax.vasp AFLOW: simbol unsur di ujung baris koordinat.
+
+    Format AFLOW: baris 2 = skala; 3-5 = vektor kisi; 6 = jumlah per jenis;
+    7 = 'Direct(5) [A3B2]'; lalu baris atom 'x y z Simbol'. Tidak kompatibel ASE.
+    """
+    from pymatgen.core import Structure, Lattice
+    garis = [g for g in teks.splitlines() if g.strip()]
+    if len(garis) < 9:
+        return None
+    try:
+        skala = float(garis[1].split()[0])
+        lat = np.array([[float(x) for x in garis[i].split()[:3]] for i in range(2, 5)]) * skala
+        jumlah = [int(x) for x in garis[5].split()]
+        atom = []
+        for g in garis[8:8 + sum(jumlah)]:
+            p = g.split()
+            atom.append((p[-1], float(p[0]), float(p[1]), float(p[2])))
+        species, coords = [a[0] for a in atom], [[a[1], a[2], a[3]] for a in atom]
+        return Structure(Lattice(lat), species, coords, coords_are_cartesian=False)
+    except Exception:
+        return None
 
 
 def main():

@@ -33,6 +33,18 @@ tidak terlampaui; keunggulan MLFF = generalitas untuk fase di luar distribusi la
 (c) re-ranking sensitivitas pKsp — β-TCP/TTCP/monetit naik ke 3 besar, FAp/oksiapatit/HA turun
 (trade-off terkuantifikasi).
 
+**Ronde 7 (penguatan Q1, 2026-11-04):** (a) layar MACE-MP-0 single-point untuk 938 struktur COD
+unik (781 ok, 204 in-system, 180 energi fisis setelah filter ±10 eV/atom); kalibrasi offset ke
+skala MP GGA pada 489 struktur MP (median +0,086 eV/atom; hull PhaseDiagram cross-check vs API
+MAE 0,0026 eV/atom) -> E_hull untuk **21 komposisi phase-level** (13 stabil di hull; ranking Q1
+korelasi Spearman 0,75 dengan ranking ronde 4; C1 kini ber-cakupan penuh); (b) fitur struktural
+(Q^n, CN Ca, SOAP-PCA30, PCA di dalam fold): **null-result** — Eform F2 R2=0,35 vs F0 0,49,
+SOAP -0,66; densitas naik 0,23->0,29 — peran ML nyata = kalibrasi label + ranking;
+(c) kelarutan stoikiometrik S (mol/L) dari pKsp: brushit 5,1e-4 s.d. FAp 1,0e-14 (10 orde);
+(d) substitusi Ca-P-O-X (Sr/Mg/Zn/Si, MP): 134 mentah -> 20 kandidat (Si/Mg partial + endpoint;
+seluruh Sr tersaring densitas >3,2 g/cm3); (e) koreksi audit: PubChem 10, COD 938 file unik
+(dari 2.304 query hits), 165 record = 20 komposisi tereduksi.
+
 ## 2. Alur Kerangka (Workflow)
 
 `Data Mining -> Preprocessing -> Feature Engineering -> EDA/Clustering -> ML Modeling -> MCDM -> XAI`
