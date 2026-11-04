@@ -4,8 +4,8 @@ Idempotent: setiap kali manuscript.tex diperbarui, jalankan skrip ini lalu kompi
 """
 from pathlib import Path
 
-SRC = Path(r"D:\latex\prgf2027\data\reports\manuscript\manuscript.tex")
-DST = Path(r"D:\latex\prgf2027\data\reports\manuscript\manuscript_elsarticle.tex")
+SRC = Path(r"D:\latex\prgf2026\data\reports\manuscript\manuscript.tex")
+DST = Path(r"D:\latex\prgf2026\data\reports\manuscript\manuscript_elsarticle.tex")
 
 HEADER = r"""\documentclass[review,11pt,a4paper]{elsarticle}
 \usepackage[margin=2.4cm]{geometry}

@@ -1,5 +1,5 @@
 """Patch manuskrip: perbaikan inkonsistensi internal reviewer ronde 3 (satu pass)."""
-p = r"D:\latex\prgf2027\data\reports\manuscript\manuscript.tex"
+p = r"D:\latex\prgf2026\data\reports\manuscript\manuscript.tex"
 s = open(p, encoding="utf-8", newline="").read()
 n0 = len(s)
 

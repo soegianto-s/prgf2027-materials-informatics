@@ -5,7 +5,7 @@ Setiap replace memakai assertion (harus ketemu tepat 1x) — tidak ada kegagalan
 """
 from pathlib import Path
 
-MS = Path(r"D:\latex\prgf2027\data\reports\manuscript")
+MS = Path(r"D:\latex\prgf2026\data\reports\manuscript")
 
 
 def baca(nama):

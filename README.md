@@ -12,11 +12,12 @@ Pipeline end-to-end untuk penemuan biomaterial kalsium fosfat:
 - Dataset terpadu: **2.885 entri / 950 komposisi unik** (target proposal: ≥500)
 - Model (protokol anti-kebocoran v2: grouping formula tereduksi + nested CV + 4 DOF komposisi murni — Ca/P, fraksi P, H, F): SVR Eform R² = 0,11 discovery (n=337 MP+OQMD) / −0,52 dalam-fosfat / 0,40 varian screening (benchmark eksperimen MAE 0,094 eV/atom); densitas komposisi-murni R² = 0,02 (benchmark MAE 0,114 g/cm³); transfer antar basis data sesama-komposisi R² = 0,83
 - **Top kandidat (MCDM ronde 4):** fluorapatit, oksiapatit, karbonat apatit, hidroksiapatit, β-TCP, TTCP, pirofosfat, OCP, monetit — 3 kriteria level material (stabilitas, pita densitas [1.0, 3.2], Ca/P→1.67) + filter kenetralan muatan (165 entri netral) + Monte Carlo 3.000 run (top-4 stabil, top-5 56–86%); overlay resorbabilitas pKsp literatur; klaim 'accelerated discovery' dicabut dari judul
+- **Baseline ronde 6 (atas permintaan reviewer):** (a) 40 fitur Magpie — Eform tetap ≈0 (R² −0,055 vs 0,113) tetapi densitas naik ke R² 0,273–0,309 (vs 0,018): statistik kontras unsur menangkap info kemasan, bukan energi; (b) pretrained MACE-MP-0 (float64, model L1) — Eform 6 fase Wagman MAE **0,253** eV/atom vs 0,094 model komposisi: pada benchmark sempit sesama-keluarga ini surrogate terlatih-basis-data tidak terlampaui (keunggulan MLFF = generalitas, bukan akurasi di sini); (c) re-ranking sensitivitas pKsp (8 komposisi shortlist) — β-TCP/TTCP/monetit naik ke 3 besar, FAp/oksiapatit/HA turun (trade-off terkuantifikasi). Deskripsi model MACE dikoreksi 'medium'→'float64'
 
 ## Struktur Folder
 
 ```
-prgf2027/
+prgf2026/
 ├── scripts/            # skrip pipeline (urutan wajib di bawah) + skrip penunjang
 ├── data/
 │   ├── raw/            # data mentah per sumber (JSON/CSV + _metadata.json)
@@ -73,9 +74,12 @@ atau per skrip (urutan wajib):
 
 Skrip penunjang (tidak berurutan): `tcp_alpha_beta.py` (validasi pemisahan α/β-TCP),
 `tuning_eform.py` (tuning SVR Eform), `validasi_independen.py` (benchmark eksperimen),
-`validasi_mlff.py` (pra-validasi MACE-MP-0 Top 5), `konversi_elsarticle.py` (konversi ke
-format jurnal), `patch_manuskrip_ronde3*.py` & `patch_manuskrip_ronde4.py` (patch angka
-hasil review, ber-assertion — tidak ada kegagalan diam-diam).
+`validasi_mlff.py` (pra-validasi MACE-MP-0 Top 5), `magpie_baseline.py` (baseline
+deskriptor Magpie), `mace_baseline.py` (baseline pretrained MACE-MP-0, resumable),
+`mcdm_resorb.py` (sensitivitas MCDM+pKsp), `konversi_elsarticle.py` (konversi ke
+format jurnal), `patch_manuskrip_ronde3*.py`, `patch_manuskrip_ronde4.py`,
+`patch_manuskrip_ronde5.py`, `patch_manuskrip_ronde6.py` (patch angka hasil review,
+ber-assertion — tidak ada kegagalan diam-diam).
 
 ## Sumber Data & Lisensi
 
@@ -94,6 +98,7 @@ hasil review, ber-assertion — tidak ada kegagalan diam-diam).
 3. **Modulus elastik:** hanya 9 entri punya K&G — kriteria C4 DITARIK dari MCDM (ronde 4): imputasi median = praktis konstanta + modulus 10–20 GPa adalah sifat SCAFFOLD (arsitektur+porositas), bukan material; ditangani hilir via Gibson-Ashby (porositas 70–78% dari MLFF). Validasi DFT definitif top kandidat adalah langkah wajib berikutnya.
 4. **MCDM (ronde 4):** 3 kriteria + filter kenetralan muatan (398 muatan≠0 + 356 fosfida dibuang → 165 entri) + Monte Carlo 3.000 run (top-4 stabil 56–86%, slot ke-5 diperebutkan); resorbabilitas = overlay pKsp literatur, bukan kriteria; judul tanpa "accelerated discovery".
 4. **Pencilan:** dipertahankan bila fisika-valid, keputusan tercatat per kasus.
+5. **Baseline pembanding (ronde 6):** Magpie — Eform tak tertolong (R² −0,055), densitas naik ke R² 0,273–0,309 (statistik unsur menangkap info kemasan); MACE-MP-0 float64 (model L1, bukan 'medium' — bobot float64 mace-torch = L1) MAE 0,253 eV/atom pada 6 fase Wagman, tidak mengalahkan model komposisi (0,094) pada benchmark sempit ini — dilaporkan jujur; re-ranking pKsp shortlist membuktikan trade-off stabilitas-resorbabilitas secara kuantitatif. Koreksi jalur: seluruh skrip menunjuk `D:\latex\prgf2026` (folder proyek direname dari prgf2027).
 
 ## Kontak
 

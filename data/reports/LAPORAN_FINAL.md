@@ -25,6 +25,14 @@ dan b-TCP. Monte Carlo 3.000 run (bobot Dirichlet + noise MAE model) menegaskan 
 Overlay resorbabilitas literatur (pKsp) membuat trade-off stabilitas–resorbabilitas eksplisit;
 klaim 'accelerated discovery' dicabut — kerangka = penyaringan sistematis ruang komposisi dikenal.
 
+**Ronde 6 (baseline pembanding atas permintaan reviewer, 2026-11-04):** (a) 40 fitur Magpie — Eform
+tetap ≈ nol (R2 = −0,055) tetapi densitas naik ke R2 0,273–0,309 (statistik kontras unsur menangkap
+info kemasan); (b) pretrained MACE-MP-0 (float64, model L1) — Eform 6 fase benchmark Wagman/NBS
+MAE 0,253 eV/atom (vs 0,094 model komposisi: pada benchmark sempit ini surrogate terlatih-basis-data
+tidak terlampaui; keunggulan MLFF = generalitas untuk fase di luar distribusi latih);
+(c) re-ranking sensitivitas pKsp — β-TCP/TTCP/monetit naik ke 3 besar, FAp/oksiapatit/HA turun
+(trade-off terkuantifikasi).
+
 ## 2. Alur Kerangka (Workflow)
 
 `Data Mining -> Preprocessing -> Feature Engineering -> EDA/Clustering -> ML Modeling -> MCDM -> XAI`
@@ -50,6 +58,9 @@ klaim 'accelerated discovery' dicabut — kerangka = penyaringan sistematis ruan
 | Densitas — komposisi murni (n=571) | Random Forest | 0.018 | 0.307 |
 | Bandgap | GAGAL (R2<0) — tanpa imputasi | | |
 | Benchmark eksperimen (6 fase): Eform MAE 0.094 eV/atom, densitas MAE 0.114 g/cm3 | | | |
+| Baseline Magpie (40 fitur statistik unsur, protokol identik): Eform R2=-0.055; densitas R2=0.273 (SVR)/0.309 (RF) — kontras properti unsur menangkap info kemasan (densitas), bukan energi | | | |
+| Baseline pretrained MACE-MP-0 (float64, model L1): Eform 6 fase Wagman/NBS MAE 0.253 eV/atom (vs 0.094 model komposisi) — pada benchmark sempit ini MLFF tidak mengungguli surrogate terlatih-basis-data | | | |
+| Sensitivitas MCDM+pKsp (shortlist 8 komposisi, 3 skenario bobot): b-TCP/TTCP/monetit naik ke 3 besar; FAp/oksiapatit/HA turun — trade-off stabilitas-resorbabilitas kuantitatif | | | |
 | Konteks SOTA: GNN (CGCNN/MEGNet/CHGNet) MAE 0.03–0.1 eV/atom — kontribusi kami = pipeline teraudit, bukan akurasi regresi. Target internal R2>=0.85 DITARIK (arbitrer, disusun tanpa analisis kebocoran). | | | |
 
 ## 4. Top 15 Kandidat Biomaterial (komposisi unik tereduksi; 3 kriteria + filter muatan; TOPSIS+VIKOR x 3 bobot)
@@ -121,6 +132,12 @@ klaim 'accelerated discovery' dicabut — kerangka = penyaringan sistematis ruan
 - Konstanta elastik kristal tunggal: E = 204-220 GPa, K = 131-139 GPa, nu ~ 0,23-0,24 (khas keramik apatit; MLFF dikenal overestimate -> DFT definitif menyusul).
 - Gibson-Ashby: porositas 70-78% diperlukan agar scaffold mencapai modulus tulang kortikal 10-20 GPa -> spesifikasi desain fabrikasi.
 - Detail: `data/reports/laporan_validasi_komputasional.md`; struktur terelaksasi: `data/validasi_mlff/*_relaxed.cif`.
+- Baseline pretrained MACE-MP-0 (float64, model L1) untuk Eform 6 fase benchmark (Wagman/NBS):
+  MAE 0,253 eV/atom vs 0,094 model komposisi (ronde 6). Pada benchmark sempit sesama-keluarga ini
+  MLFF tidak mengungguli surrogate terlatih-basis-data (skala energi GGA yang sama); nilai MLFF =
+  generalitas untuk fase arbitrer. Struktur terelaksasi: `data/validasi_mace/*_relaxed.cif`;
+  detail: `laporan_baseline_mace.md`. (Catatan: deskripsi model dikoreksi 'medium' -> 'float64'
+  karena bobot float64 mace-torch = model L1.)
 
 ## 5c. Overlay Resorbabilitas (pKsp literatur, 25 C) — bukan kriteria MCDM
 
@@ -141,6 +158,11 @@ resorbabilitas scaffold. Trade-off ini dinyatakan eksplisit; scaffold resorbabel
 b-TCP atau bifasik HA/b-TCP. Data kelarutan hanya ada untuk fase dikenal, sehingga tidak bisa
 menjadi kriteria atas seluruh kolam (165 entri) — ini alasan jujur overlay post-hoc.
 
+- **Sensitivitas re-ranking (ronde 6, `mcdm_resorb.py`):** 8 komposisi shortlist ber-pKsp diranking
+  ulang (stabilitas + Ca/P→1.67 + resorbabilitas = −pKsp; 3 skenario bobot). β-TCP, TTCP, monetit
+  naik ke 3 besar; fluorapatit (1→6), oksiapatit (2→4), HA (4→7) turun — trade-off terkuantifikasi.
+  Tetap sensitivitas, bukan kriteria kolam penuh. Lihat `laporan_mcdm_resorb.md`.
+
 ## 6. Risiko, Keputusan, Keterbatasan
 
 - **Bias sumber:** fraksi tetangga sesumber (k=5) = 0.88 -> klaster sebagian dibentuk oleh sumber data (COD eksperimental vs MP/AFLOW komputasional). Mitigasi: pemodelan hanya pada subset komputasional; split berbasis kelompok komposisi.
@@ -156,3 +178,4 @@ menjadi kriteria atas seluruh kolam (165 entri) — ini alasan jujur overlay pos
 3. [SELESAI] Analisis sensitivitas bobot: 3 skenario manual + entropi (Spearman 0,93, cek internal) + Monte Carlo 3.000 run (propagasi ketidakpastian bobot & prediksi).
 4. Penyusunan artikel — draft manuskrip IMRaD + PDF siap (data/reports/manuscript/).
 5. Platform AI-Assisted Biomaterial Discovery (roadmap AMREC).
+6. [SELESAI] Baseline pembanding ronde 6 (Magpie, MACE-MP-0, re-ranking pKsp) — terintegrasi ke manuskrip (`patch_manuskrip_ronde6.py`), laporan, dan dokumen panduan.

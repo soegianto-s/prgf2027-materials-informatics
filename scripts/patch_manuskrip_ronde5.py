@@ -5,7 +5,7 @@ Diterapkan pada manuscript.tex DAN manuscript_elsarticle.tex (isi identik).
 """
 from pathlib import Path
 
-MS = Path(r"D:\latex\prgf2027\data\reports\manuscript")
+MS = Path(r"D:\latex\prgf2026\data\reports\manuscript")
 
 
 def baca(nama):

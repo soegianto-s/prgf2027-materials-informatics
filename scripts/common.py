@@ -6,7 +6,7 @@ import sys
 import time
 from pathlib import Path
 
-ROOT = Path(r"D:\latex\prgf2027")
+ROOT = Path(r"D:\latex\prgf2026")
 RAW = ROOT / "data" / "raw"
 PROC = ROOT / "data" / "processed"
 REPORTS = ROOT / "data" / "reports"

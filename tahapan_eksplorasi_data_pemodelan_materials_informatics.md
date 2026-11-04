@@ -102,6 +102,7 @@ Menggabungkan berbagai kriteria sifat material yang saling bertolak belakang (*c
 * DITARIK (tercatat): Modulus Young (n=9 -> imputasi = noise; sifat scaffold bukan material), Bandgap (tanpa fungsi elektronik), skor kelayakan classifier (double counting).
 * Filter stoikiometri: muatan formal ≠ 0 dibuang; fosfida di luar kelas kalsium fosfat -> kolam 165 entri netral.
 * Resorbabilitas: overlay post-hoc pKsp literatur (bukan kriteria — data hanya ada utk fase dikenal).
+* *(Tambahan ronde 6)* Sensitivitas kelarutan (`mcdm_resorb.py`): 8 komposisi shortlist ber-pKsp diranking ulang (stabilitas + Ca/P→1.67 + resorbabilitas = −pKsp, 3 skenario bobot) — β-TCP/TTCP/monetit naik ke 3 besar; FAp/oksiapatit/HA turun paling dalam. Trade-off terkuantifikasi; tetap sensitivitas, bukan kriteria kolam penuh.
 
 ### 6.2 Metode Decision Making
 * **TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution):** Menghitung jarak relatif kandidat material terhadap solusi ideal positif dan ideal negatif.

@@ -301,6 +301,8 @@ Filter stoikiometri: muatan formal ≠ 0 (oksidasi standar; P = +5 dalam fosfat,
 * Telusuri *trade-off* antar kriteria: stabilitas vs resorbabilitas — resorbabilitas dinilai POST-HOC dari literatur (pKsp) karena data hanya ada untuk fase dikenal, bukan kriteria atas seluruh kolam.
 * Sensitivitas: 3 skenario bobot manual + entropi Shannon (cek konsistensi internal) + Monte Carlo (bobot Dirichlet + noise MAE prediksi, lihat `mcdm_montecarlo.py`).
 
+*(Tambahan ronde 6 — 2026-11-04)* Sensitivitas kelarutan kuantitatif (`mcdm_resorb.py`): 8 komposisi shortlist ber-pKsp literatur diranking ulang dengan kriteria stabilitas + Ca/P→1.67 + resorbabilitas (C4 = −pKsp; makin larut makin baik untuk scaffold resorbabel; pita densitas non-diskriminatif di shortlist sehingga dikeluarkan) × 3 skenario bobot (berimbang/stabilitas/resorbabel). Hasil: β-TCP, TTCP, dan monetit naik ke 3 besar; fluorapatit, oksiapatit, dan HA turun paling dalam — trade-off stabilitas–resorbabilitas menjadi kuantitatif. Tetap sensitivitas, bukan kriteria atas seluruh kolam (pKsp hanya ada untuk fase dikenal).
+
 **Keluaran:** keputusan target prediksi, daftar kriteria penilaian, dan rentang bobot awal.
 
 ### 8.2 Metode Decision Making
