@@ -13,6 +13,7 @@ Pemakaian:
 """
 import argparse
 import json
+import re
 import subprocess
 import time
 from pathlib import Path
@@ -139,6 +140,12 @@ def strain_input(tag, pola, tanda, nama):
     teks = teks.replace("calculation = 'vc-relax'", "calculation = 'scf'")
     teks = teks.replace("conv_thr = 1.0d-6", "conv_thr = 1.0d-8")
     teks = teks.replace("  prefix =", "  tstress = .true.\n  prefix =")
+    # prefix & outdir unik per regangan: save hasil relax di ./out/ tidak tertimpa
+    m = re.search(r"prefix\s*=\s*'([^']+)'", teks)
+    if m:
+        suf = Path(nama).stem.removeprefix("scf_elastik_")
+        teks = teks.replace(f"prefix = '{m.group(1)}'", f"prefix = '{m.group(1)}_{suf}'")
+    teks = teks.replace("outdir = './out/'", "outdir = './strain_out/'")
     (d / nama).write_text(teks, encoding="utf-8")
     return nama
 
@@ -150,7 +157,7 @@ def parse_stress(tag, nama_in, np_proc):
         mnt = f"'/mnt/d/latex/prgf2026/data/dft/{tag}'"
         nat = f"'/root/dft/{tag}'"
         rc, log = wsl(
-            f"mkdir -p {nat}/out {nat}/pseudo && "
+            f"mkdir -p {nat}/out {nat}/strain_out {nat}/pseudo && "
             f"cp {mnt}/{nama_in} {mnt}/relax.in {nat}/ && cp {mnt}/pseudo/* {nat}/pseudo/ && "
             f"cd {nat} && OMP_NUM_THREADS=12 pw.x -in {nama_in} > {nama_in}.out 2>&1; "
             f"cp {nama_in}.out {mnt}/{nama_in}.out",
