@@ -22,3 +22,6 @@
   `data/dft/vps_hasil/` (di-gitignore). Status rinci: `/root/prgf_dft/PRGF_DFT_STATUS.md`.
 - `scripts/jalankan_dft.py` (driver WSL lokal) juga dipatch prefix/outdir unik per strain —
   tetap kanonik bila dipakai ulang lokal.
+- Rencana kelanjutan setelah produksi VPS selesai (tarik hasil → konstanta elastik →
+  banding MLFF → patch manuskrip ronde 8 → arsip): **RENCANA_INTEGRASI.md** di folder ini;
+  skrip pendukungnya `scripts/hitung_elastik_vps.py`.
