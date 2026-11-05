@@ -1,0 +1,3 @@
+# Skrip shell/py tetap LF (diunggah ke VPS Linux via scp — CRLF merusak bash)
+*.sh text eol=lf
+*.py text eol=lf
