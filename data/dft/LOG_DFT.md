@@ -25,3 +25,72 @@
 - Rencana kelanjutan setelah produksi VPS selesai (tarik hasil → konstanta elastik →
   banding MLFF → patch manuskrip ronde 8 → arsip): **RENCANA_INTEGRASI.md** di folder ini;
   skrip pendukungnya `scripts/hitung_elastik_vps.py`.
+
+**Tanggal:** 2026-11-09 — cek kesehatan pasca insiden tmux 8 Nov
+- VPS TIDAK mati/restart: uptime 2 minggu 2 hari (terus menyala sejak ±26 Okt). Yang
+  terputus hanya sesi tmux/SSH (SIGABRT 8 Nov 02:40, tekanan memori pm2) — job sempat
+  mati ±5 menit, di-restart 02:45 via nohup+setsid; sejak itu run.log kontinu tanpa gap
+  (22:41 → 23:33 → 00:22 → 02:09).
+- Status produksi elastik: top1 13/13 SCF SELESAI PENUH; top2 7/13 (strain 4- berjalan);
+  top5/top6 relax belum pernah selesai (relax.out lama/terpotong) — dibiarkan dulu,
+  jangan ganggu sistem yang sedang berjalan; dievaluasi lagi setelah top2 tuntas.
+- Info lokal di-refresh: `python scripts/sinkron_dft_vps.py tarik` (read-only di VPS) —
+  log + PRGF_DFT_STATUS.md masuk `vps_hasil/` (snapshot 9 Nov 02:37).
+
+**Tanggal:** 2026-11-10 — evaluasi pasca top2 tuntas + snapshot lokal baru
+- Evaluasi yang ditunggu (lihat entri 9 Nov): top2 SELESAI PENUH 12/12 strain + referensi
+  (9 Nov 11:48 WIB). **TIDAK perlu restart manual** — pipeline v3 otomatis lanjut:
+  top5_Ca10P6CO27 re-relax produksi (k=3 3 3 0 0 0, ecut=80/640) mulai 9 Nov 11:48 WIB.
+- Status VPS (read-only check 10 Nov): pw.x top5 aktif (iterasi vc-relax #8, energi sudah
+  stabil ~1e-9 Ry antar-iterasi), RAM aman (3,8 GB available), disk 39%, load ~7,6.
+  Tidak ada intervensi — biarkan berjalan (nohup+setsid).
+- Antrean tersisa: top5 (strain 12+1, belum mulai) → top6_Ca5P3HO13 (terakhir).
+  Proyeksi kasar: top5 selesai ±12–13 Nov, top6 ±15 Nov.
+- Snapshot lokal diperbarui via `sinkron_dft_vps.py tarik` (10 Nov): `vps_hasil/`
+  terverifikasi — top1 13/13 & top2 13/13 lengkap di strain_out, top5 strain_out kosong.
+
+**Tanggal:** 2026-11-12 — 3/4 material tuntas, top6 berjalan (cek `ssh cek-dft`)
+- top5_Ca10P6CO27 SELESAI PENUH 12 Nov 00:37 WIB (12/12 strain + referensi OK; strain
+  6- terakhir tuntas 11 Nov 21:56) — pipeline otomatis lanjut ke top6 tanpa intervensi.
+- top6_Ca5P3HO13 mulai 12 Nov 00:37 — vc-relax berjalan (cek 02:49: bfgs-3, SCF iter-7,
+  pw.x 627% CPU, RAM 1,6 GB). Proyeksi selesai ±13–14 Nov (13 run × ±2,5 jam).
+- VPS sehat: uptime 2 minggu 5 hari, disk 47% (89G/192G), load aman. Tidak ada insiden
+  sejak restart 8 Nov — nohup+setsid terbukti stabil.
+- Alias lokal `ssh cek-dft` (jalan otomatis /root/prgf_dft/cek.sh) — cara termudah pantau.
+- `PRGF_DFT_STATUS.md` (di folder ini) diperbarui dengan status 12 Nov.
+**Tanggal:** 2026-11-14 — cek-dft sore + snapshot lokal "sampai saat ini"
+- `ssh cek-dft` 18:49 WIB: pw.x aktif di top6 strain 6+ (jalan 55:55, CPU 718%,
+  RAM 2,1 GB, input scf_elastik_6+.in). VPS uptime 2 hari 3 jam (reboot terakhir
+  ±12 Nov 15:22 — pipeline resume otomatis, tanpa insiden).
+- top1/top2/top5 tetap 13/13 SELESAI PENUH. top6: relax SELESAI + SCF regangan 10/13
+  (1±..5± tuntas; 6+ mulai 17:53) — tersisa 6+, 6-, referensi → proyeksi top6 tuntas
+  ±15 Nov dini hari (sesuai perkiraan 13–14 Nov, mundur sedikit karena reboot).
+- Snapshot lokal diperbarui via `sinkron_dft_vps.py tarik` (14 Nov 18:48): run.log
+  (s/d 17:53), output material, vps_snapshot.tar.gz → `vps_hasil/`. Output cek-dft
+  disimpan di `vps_hasil/cek_dft_2026-11-14_1849.txt`.
+- Catatan: PRGF_DFT_STATUS.md di VPS masih versi 8 Nov (belum di-update di sana);
+  isi status terkini tercatat di log ini + file cek di atas.
+
+**Tanggal:** 2026-11-15 — ✅ PRODUKSI DFT TUNTAS + integrasi ronde 8 SELESAI
+- `ssh cek-dft` 02:54 WIB: **SEMUA SELESAI (gagal total: 0)** — top6 tuntas
+  15 Nov 01:36 (12/12 strain + referensi OK); 4 material 13/13. Output cek disimpan
+  di `vps_hasil/cek_dft_2026-11-15_0254.txt`.
+- Snapshot lokal diperbarui via `sinkron_dft_vps.py tarik` → 4×13 file strain_out
+  terverifikasi lengkap.
+- `hitung_elastik_vps.py` (QA lolos: σ referensi < 0,5 GPa, C_ij simetris positif):
+  top1 FAp K=140,8 G=95,4 E=233,5 ν=0,224; top2 oksiapatit K=136,3 G=92,2 E=225,8 ν=0,224;
+  top5 karbonat K=143,7 G=96,1 E=235,8 ν=0,226; top6 HA K=141,9 G=96,2 E=235,4 ν=0,223
+  (+ top26 β-TCP K=134,7 G=87,9 E=216,6 ν=0,232 dari ronde sebelumnya) →
+  `data/validasi_dft/hasil_dft.json` + 4 file `<tag>_elastik.json` baru.
+- Temuan penting untuk manuskrip (ronde 8): (1) MACE-MP-0 *underestimate* modulus
+  PBE-DFT secara konsisten — E −5,9..−6,9%, G −6,6..−7,7%, K −2,6..−3,5% (koreksi
+  klaim lama "MLFF systematically high"); (2) volume HA +4,3% dari MLFF TERKONFIRMASI
+  DFT vc-relax (547,60 vs 547,70 Å³, beda 0,02%) — relaksasi nyata struktur input
+  teridealisasi, bukan artefak MLFF; (3) urutan 5 kandidat per E sama di DFT & MLFF;
+  (4) target porositas Gibson–Ashby bergeser 70–78% → 70–79% (pita E padat 216,6–235,8).
+- `patch_manuskrip_ronde8_dft.py` → kedua .tex (paragraf metode DFT + tabel
+  tab:dft_elastik + koreksi klaim + abstrak/diskusi/kesimpulan + bibitem giannozzi2009);
+  rebuild 2 PDF (manuscript 17 hal, elsarticle 24 hal) tanpa undefined reference;
+  PDF submit root diperbarui.
+- PRGF_DFT_STATUS.md (mirror lokal di vps_hasil/) diperbarui dengan status final;
+  file asli di VPS belum di-update (biarkan — produksi selesai).
