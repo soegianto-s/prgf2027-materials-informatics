@@ -104,3 +104,25 @@
   di pita angka (math mode tak seimbang) — diperbaiki di .tex + skrip.
 - Rebuild 2 PDF (17+24 hal) tanpa undefined reference; PDF submit root diperbarui;
   verifikasi ekstraksi teks: keywords/pita/tabel terkonfirmasi di kedua PDF.
+
+**Tanggal:** 2026-11-15 — ronde 9: revisi menyeluruh atas umpan balik reviewer
+- `patch_manuskrip_ronde9.py`: (1) abstrak ditulis ulang 210 kata (dari 658; batas
+  Elsevier 250) fokus klaim utama; (2) jejak riwayat revisi dihapus — "withdrawn on
+  reviewer scrutiny", "earlier headline scores", "R² 0,87→0,11", "phrase has been
+  removed", "withdrawn as arbitrary", "recorded decision" semua hilang; (3) seksi
+  substitusi + Tabel 9 DIPOTONG (keputusan user; Mg₃(PO₄)₂ issue ikut hilang);
+  (4) sitasi diri soelistiono2026 + bibitem dorozhkin (buku) dihapus; (5) sitasi
+  yang tadinya tak dikutip kini dikutip: jain2013/curtarolo2012/kirklin2015/
+  grazulis2009/mathew1977/lundberg2017; (6) perbaikan kesalahan: density "0,493→0,293"
+  → "0,226→0,293" (0,493 itu R² Eform, bukan density), "Rank (tab:top)" literal →
+  Tab.~\ref (ter-render "Tab. 5"), tab:val dipindah sebelum tab:bench (urutan 9<10<11<12
+  sesuai urutan pembahasan), duplikat "950 unique compositions" dihapus, klaim clustering
+  diukur ulang (43% noise HDBSCAN dinyatakan jujur), data availability kini URL GitHub
+  publik (akses saat review, bukan "upon acceptance").
+- `regenerasi_figur_eda.py`: Fig 1 (PCA) & Fig 3 (t-SNE) digambar ulang pada dataset
+  PENUH — lama disampling 1500 (legend 34/125/1183/158 ≠ Tabel 1). Kini n=2.829
+  (2.885 − entri tanpa 5 deskriptor lengkap; PubChem 0), fraksi tetangga sesumber
+  91,4% (bukan 88%), PCA 59,3% tetap; n dicetak di judul figur + caption dijelaskan.
+- Rebuild 2 PDF (16+22 hal — menyusut karena substitusi dipotong), tanpa undefined
+  reference/citation; abstrak PDF terukur 206 kata; urutan tabel terverifikasi di PDF;
+  PDF submit root diperbarui.
