@@ -94,3 +94,13 @@
   PDF submit root diperbarui.
 - PRGF_DFT_STATUS.md (mirror lokal di vps_hasil/) diperbarui dengan status final;
   file asli di VPS belum di-update (biarkan — produksi selesai).
+
+**Tanggal:** 2026-11-15 — ronde 8b: sinkronisasi menyeluruh isi makalah dengan data DFT
+- `patch_manuskrip_ronde8b_sinkron.py`: keywords + "density functional theory; elastic
+  constants"; kontribusi (v) intro; wording metode ("subsequent" → definitif); pita
+  modulus DFT eksplisit di paragraf hasil (E 216,6–235,8 / K 134,7–143,7 GPa); dataset
+  n=9 disilang ke tab:dft_elastik; data availability menyebut input/output DFT.
+  Judul TIDAK diubah (tetap akurat). BUG tertangkap sebelum build: delimiter `$` hilang
+  di pita angka (math mode tak seimbang) — diperbaiki di .tex + skrip.
+- Rebuild 2 PDF (17+24 hal) tanpa undefined reference; PDF submit root diperbarui;
+  verifikasi ekstraksi teks: keywords/pita/tabel terkonfirmasi di kedua PDF.
