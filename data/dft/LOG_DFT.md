@@ -126,3 +126,26 @@
 - Rebuild 2 PDF (16+22 hal — menyusut karena substitusi dipotong), tanpa undefined
   reference/citation; abstrak PDF terukur 206 kata; urutan tabel terverifikasi di PDF;
   PDF submit root diperbarui.
+
+**Tanggal:** 2026-11-15 — ronde 10: konsistensi internal (umpan balik reviewer lanjutan)
+- Zenodo DIHAPUS; seksi "Data and code availability" ganda di elsarticle digabung
+  jadi satu Data availability (tautan GitHub saja).
+- Ranking disatukan: tab:top DIBANGUN ULANG dari Monte Carlo (laporan_montecarlo.md +
+  kandidat_ranking.csv -> ranking_mc_ringkasan.json; tabel lama bertentangan — karbonat
+  rank 3 padahal top-5 cuma 16,6%). Kolom: Order + Median rank [p5--p95] + E_f/rho/Ca-P
+  rekaman terbaik. Narasi disesuaikan: TTCP (order 5), monetite (8), OCP (12); kontes
+  slot-5 kini TTCP 17% / karbonat 17% / pirofosfat 16%; beta-TCP di luar top-10 phase-level
+  diakui jujur. tab:top_q1 diramping (kolom rho/Ca-P dihapus — sumber ketidakkonsistenan
+  3.13 vs 2.98, 1.70 vs 1.67).
+- Resorbabilitas kini pakai S stoikiometrik (bukan -pKsp lintas stoikiometri):
+  mcdm_resorb_S.py (C_resorb = log10 S; kelarutan_ksp.csv -> resorb_S_ringkasan.json).
+  Hasil: b-TCP & TTCP tetap 2 besar; monetite 4, oksiapatit 3, OCP 5, brushite 6, HAp/FAp
+  bawah. tab:resorb_rank + tab:resorb pakai kolom S + footnote oksiapatit (~HA tanpa
+  literatur). Narasi trade-off diperbarui.
+- Densitas HAp: klaim "+4,3% input tegang" DIKOREKSI -> overexpansion sistematis yang
+  dibagi MACE & PBE (relax 547,6 Å³ -> rho 3,05 vs 3,16 eksperimen; input sendiri 3,18
+  konsisten eksperimen) — bukan artefak MLFF.
+- Rujukan seksi jadi label+ref (sec:ranking/kelarutan/validasi/diskusi); tab:kalibrasi
+  dipindah ke Methods (urutan tabel 1-12 kini persis urutan pembahasan); bibliografi
+  diurut per kemunculan pertama (konvensi Elsevier; terverifikasi 1..31 monoton di PDF).
+- Rebuild 2 PDF (16+22 hal) tanpa undefined ref/citation; PDF submit root diperbarui.

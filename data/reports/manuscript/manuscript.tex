@@ -97,8 +97,24 @@ Non-physical values (negative density, non-positive cell volume) were nulled (4 
 \subsection{Machine learning}
 The modeling subset comprised entries from computational sources (Materials Project, AFLOW, OQMD). Regression targets were formation energy (eV/atom) and density (g/cm$^3$); models included random forest (RF), XGBoost, gradient boosting, and support vector regression (SVR). All four model families were evaluated under identical grouped cross-validation; only the SVR received hyperparameter tuning (nested CV), while the tree-based models served as untuned reference baselines. Two further reference baselines were evaluated against established materials-informatics practice: (i) Magpie descriptor statistics~\cite{ward2016} (40 elemental-property features---mean, average deviation, range, and extrema of atomic properties such as electronegativity and ionic radius---computed over the elements present, under the identical grouped-CV protocol), and (ii) the pretrained universal machine-learned force field MACE-MP-0~\cite{batatia2022} (float64), used to compute formation energies of the six benchmark phases from relaxed structures with element references relaxed in the same model, against the same Wagman/NBS standard values. Beyond the benchmark, the same model was used as a single-point energy screen for all parsed experimental COD structures (no relaxation), and the systematic offset between MACE and the Materials Project GGA scale was calibrated on 489 Materials Project structures (median offset +0.086 eV/atom; Table~\ref{tab:kalibrasi}). Calibrated energies were placed on the Materials Project GGA convex hull (pymatgen~\cite{ong2013} PhaseDiagram) to obtain energies above hull ($E_\mathrm{hull}$) for the in-system COD structures. Structural descriptors (phosphate $Q^n$ speciation, Ca coordination numbers via CrystalNN, and SOAP fingerprints~\cite{himanen2020}) were extracted for the modeling subset (Materials Project + AFLOW) and evaluated strictly as a screening variant: they require a known structure and are not available for a new composition. Three methodological safeguards against data leakage were applied. \emph{(i) Grouping by reduced formula:} cross-validation groups were defined by the greatest-common-divisor-reduced composition (e.g., Ca$_5$P$_3$O$_{12}$F and Ca$_{10}$F$_2$O$_{24}$P$_6$ share one group), so that polymorphs and integer multiples of a formula never straddle folds. \emph{(ii) Nested cross-validation:} SVR hyperparameters ($C \in \{1,10,50\}$, $\gamma \in \{0.01,0.05,0.1\}$, $\varepsilon \in \{0.05,0.1\}$) were selected in an inner 5-fold grouped CV within each outer fold; reported scores are the outer-loop estimates. \emph{(iii) Discovery-appropriate features:} the headline model uses composition-only descriptors. For this five-element system the composition itself has only four independent degrees of freedom (the five element fractions sum to one, and Ca/P then fixes the Ca fraction), and composition-derived quantities such as average electronegativity and molecular weight are exact linear functions of those four; all redundant descriptors (VIF $= \infty$) were therefore removed, leaving {Ca/P, P, H, F fractions}. Cell volume and density---which are unavailable for unknown materials, and which make the density ``model'' a near-tautology $\rho = MZ/(N_A V)$---are used only in a clearly labeled screening scenario for ranking existing database entries. Because formation-energy scales differ systematically between databases (AFLOW deviates from Materials Project/OQMD by up to 0.8 eV/atom for phosphides, whereas the latter two agree within 0.02 eV/atom on overlapping compositions), the formation-energy models were trained on the scale-consistent Materials Project + OQMD subset ($n=337$) with AFLOW excluded; a structure-informed screening variant trained on Materials Project + AFLOW ($n=291$) is reported separately. The cross-database test trains on Materials Project alone ($n=57$) and predicts OQMD entries ($n=280$), whose compositions, however, all appear in the training sources; the test is therefore a same-composition cross-database transfer test, not a composition-extrapolation test, and is reported as such. A scaffold-suitability label (E$_f \leq -2.5$ eV/atom, Ca/P $\in [1.0, 2.1]$, density $\in [0.5, 4.5]$ g/cm$^3$) is computed for completeness but is a semi-deterministic function of its own input features and is neither reported as a predictive achievement nor used as a ranking criterion.
 
+\begin{table}[ht]
+\centering\small
+\caption{MACE-to-MP-GGA calibration: offset fitted on 489 Materials Project structures (nsites $\leq 200$); validation on the six Wagman/NBS benchmark phases and against the MP API hull.}
+\label{tab:kalibrasi}
+\begin{tabular}{lc}
+\toprule
+Quantity & Value \\
+\midrule
+Calibration set (MP structures) & 489 \\
+Median offset (eV/atom) & +0.086 \\
+Offset MAE (eV/atom) & 0.6723 \\
+Calibrated MAE vs Wagman/NBS (6 phases) & 0.3103 \\
+Hull cross-check vs MP API (MAE, eV/atom) & 0.0026 \\
+\bottomrule
+\end{tabular}
+\end{table}
 \subsection{Multi-criteria decision making (MCDM)}
-Three criteria were defined, deliberately restricted to material-level quantities that are available for the entire pool without imputation: (C1) thermodynamic stability as energy above the Materials Project GGA hull (DFT for Materials Project entries; calibrated MACE for COD structures; the documented AFLOW scale offset is treated as a source artifact; stable phases tie at $E_\mathrm{hull}=0$ and are separated by C2--C3); (C2) density within the clinically processable band $[1.0, 3.2]$ g/cm$^3$ (zero penalty inside; a scaffold reaches bone-like stiffness through porosity---Gibson--Ashby---not by matching bone density); and (C3) Ca/P proximity to 1.67 (bone mineral). Two further candidate criteria were excluded by design: (C4) Young's modulus proximity to 15 GPa, because bulk and shear moduli exist for only $n=9$ of 571 entries, so median imputation would have made the criterion a near-constant noise term, and because 15 GPa is a property of the \emph{scaffold} (architecture and porosity), not of the dense material---scaffold-level stiffness is instead handled downstream (Section 3.4); and (C5) band gap, because bone scaffolds have no electronic function and 448 of 571 entries lack measured values. A classifier-derived suitability score was also \emph{excluded} because it is a semi-deterministic function of the same inputs as C1--C3 (double counting). A stoichiometry filter was added: entries whose formal charge under standard oxidation states is non-zero (e.g., Ca$_5$P$_3$O$_{13}$, Ca$_5$(PO$_4$)$_3$) are removed, as are oxygen-free phosphides, which lie outside the calcium phosphate material class; the candidate pool contains 165 charge-neutral database records spanning 20 reduced compositions; the COD screen adds one further composition, yielding 21 phase-level compositions with pool-wide C1 coverage. Candidates were ranked with TOPSIS and VIKOR ($v=0.5$) under three weighting scenarios (balanced; stability-dominant; composition-dominant). Sensitivity was tested in two ways: Shannon-entropy weighting on the three criteria (an internal consistency check against the manual weights, Spearman 0.93), and a Monte Carlo propagation of uncertainty (1{,}000 runs per scenario: weights drawn from Dirichlet distributions centered on each manual set, and formation energies and densities perturbed by Gaussian noise with the cross-validated MAEs of the composition-only models, 0.297 eV/atom and 0.307 g/cm$^3$, representing the prediction error for a hypothetical new composition; Ca/P is exact stoichiometry). Resorbability is not a ranking criterion because solubility data exist only for known phases; it is assessed post hoc from literature for the shortlist (Section 3.3). As a quantitative sensitivity exercise, the shortlist compositions with literature solubility products ($n=8$ unique formulas) were re-ranked on three criteria---stability, Ca/P proximity, and resorbability ($-\mathrm{p}K_\mathrm{sp}$; more soluble is better for a resorbable scaffold)---under three weighting scenarios (balanced; stability-dominant; resorbability-dominant). This is reported as a sensitivity analysis only, because $\mathrm{p}K_\mathrm{sp}$ values exist for known phases alone and cannot be generalized to the full candidate pool.
+Three criteria were defined, deliberately restricted to material-level quantities that are available for the entire pool without imputation: (C1) thermodynamic stability as energy above the Materials Project GGA hull (DFT for Materials Project entries; calibrated MACE for COD structures; the documented AFLOW scale offset is treated as a source artifact; stable phases tie at $E_\mathrm{hull}=0$ and are separated by C2--C3); (C2) density within the clinically processable band $[1.0, 3.2]$ g/cm$^3$ (zero penalty inside; a scaffold reaches bone-like stiffness through porosity---Gibson--Ashby---not by matching bone density); and (C3) Ca/P proximity to 1.67 (bone mineral). Two further candidate criteria were excluded by design: (C4) Young's modulus proximity to 15 GPa, because bulk and shear moduli exist for only $n=9$ of 571 entries, so median imputation would have made the criterion a near-constant noise term, and because 15 GPa is a property of the \emph{scaffold} (architecture and porosity), not of the dense material---scaffold-level stiffness is instead handled downstream (Section~\ref{sec:validasi}); and (C5) band gap, because bone scaffolds have no electronic function and 448 of 571 entries lack measured values. A classifier-derived suitability score was also \emph{excluded} because it is a semi-deterministic function of the same inputs as C1--C3 (double counting). A stoichiometry filter was added: entries whose formal charge under standard oxidation states is non-zero (e.g., Ca$_5$P$_3$O$_{13}$, Ca$_5$(PO$_4$)$_3$) are removed, as are oxygen-free phosphides, which lie outside the calcium phosphate material class; the candidate pool contains 165 charge-neutral database records spanning 20 reduced compositions; the COD screen adds one further composition, yielding 21 phase-level compositions with pool-wide C1 coverage. Candidates were ranked with TOPSIS and VIKOR ($v=0.5$) under three weighting scenarios (balanced; stability-dominant; composition-dominant). Sensitivity was tested in two ways: Shannon-entropy weighting on the three criteria (an internal consistency check against the manual weights, Spearman 0.93), and a Monte Carlo propagation of uncertainty (1{,}000 runs per scenario: weights drawn from Dirichlet distributions centered on each manual set, and formation energies and densities perturbed by Gaussian noise with the cross-validated MAEs of the composition-only models, 0.297 eV/atom and 0.307 g/cm$^3$, representing the prediction error for a hypothetical new composition; Ca/P is exact stoichiometry). Resorbability is not a ranking criterion because solubility data exist only for known phases; it is assessed post hoc from literature for the shortlist (Section~\ref{sec:kelarutan}). As a quantitative sensitivity exercise, the shortlist compositions with literature solubility products ($n=8$ unique formulas) were re-ranked on three criteria---stability, Ca/P proximity, and resorbability (stoichiometric equilibrium solubility $S$, more soluble is better for a resorbable scaffold)---under three weighting scenarios (balanced; stability-dominant; resorbability-dominant). This is reported as a sensitivity analysis only, because solubility data exist for known phases alone and cannot be generalized to the full candidate pool.
 
 \subsection{Interpretability and validation}
 SHAP (TreeExplainer)~\cite{lundberg2017} values and permutation importance were computed for the E$_f$ and density models. Reference phases (hydroxyapatite, fluorapatite, $\beta$-TCP, $\alpha$-TCP, tetracalcium phosphate, carbonated apatite) were compared against experimental literature values for density, lattice parameters, and standard formation enthalpies. Structures of the top-5 candidates were exported (POSCAR, CIF) and Quantum ESPRESSO input files (scf/relax, PSL 1.0.0 pseudopotentials) were prepared for the definitive DFT elastic validation. The validation was completed for all five top candidates with Quantum ESPRESSO~\cite{giannozzi2009} (v7.5; the $\beta$-TCP reference from an earlier v6.7 run under the identical protocol): PBE exchange--correlation, PSL 1.0.0 pseudopotentials, kinetic-energy cutoffs of 80/640 Ry, and a $3\times3\times3$ $\mathbf{k}$-mesh---a converged setting (total energy changes by 0.008 meV/atom from the $3\times3\times3$ to the $4\times4\times4$ mesh, and by $\approx$9 meV/atom from 60/480 to 80/640 Ry cutoffs). Each cell was tightly relaxed (vc-relax), then strained by $\varepsilon=\pm1\%$ in each of the six Voigt patterns (twelve strained SCF runs) plus one unstrained reference SCF, all with stress tensors printed. Elastic constants follow as $C_{ij}=(\sigma_i(-\varepsilon)-\sigma_i(+\varepsilon))/2\varepsilon$ (Ry/bohr$^3$ converted to GPa), symmetrized, and polycrystalline moduli were obtained by Voigt--Reuss--Hill averaging. Quality gates required the reference-cell residual stress to stay below 0.5 GPa and $C$ to be symmetric with a positive diagonal.
@@ -157,99 +173,86 @@ Density, $Q^n$ + Ca coordination ($n=242$) & Random forest & 0.293 & 0.305 & 0.2
 \end{tabular}
 \end{table}
 
-\subsection{Multi-objective ranking}
-TOPSIS and VIKOR were combined across three weighting scenarios (six rankings in total) to produce a robust average rank. Shannon-entropy weighting yields a Spearman correlation of 0.93 with the manual weighting---an internal consistency check between two weighting philosophies on the same criteria, not an independent validation. A Monte Carlo propagation of uncertainty (1{,}000 runs per scenario, Dirichlet-sampled weights around each manual set, formation energies and densities perturbed by Gaussian noise with the cross-validated model MAEs of 0.297 eV/atom and 0.307 g/cm$^3$) confirms that the top of the ranking is stable: fluorapatite, oxyapatite, hydroxyapatite, and $\beta$-TCP sit in the top five in 86\%, 71\%, 67\%, and 56\% of runs, respectively, while carbonated apatite and tetracalcium phosphate contest the fifth slot (17\% each). A resorbability-weighted sensitivity analysis (Table~\ref{tab:resorb_rank}) re-ranks the eight shortlist compositions with literature $\mathrm{p}K_\mathrm{sp}$ on three criteria (stability, Ca/P proximity, resorbability) under three weighting scenarios: $\beta$-TCP, tetracalcium phosphate, and monetite climb to the top three, while fluorapatite, oxyapatite, and hydroxyapatite drop the most, making the stability--resorbability trade-off quantitatively explicit. The top candidates after composition deduplication (polymorphs and formula multiples merged) are listed in Table~\ref{tab:top}. With the hull-based C1 and phase-level aggregation (Table~\ref{tab:top_q1}), the same apatitic phases lead, and the ranking correlates with the record-level ranking (Spearman 0.75); the COD screen confirms the pool's coverage rather than overturning it.
+\subsection{Multi-objective ranking}\label{sec:ranking}
+TOPSIS and VIKOR were combined across three weighting scenarios (six rankings in total) to produce a robust average rank. Shannon-entropy weighting yields a Spearman correlation of 0.93 with the manual weighting---an internal consistency check between two weighting philosophies on the same criteria, not an independent validation. A Monte Carlo propagation of uncertainty (1{,}000 runs per scenario, Dirichlet-sampled weights around each manual set, formation energies and densities perturbed by Gaussian noise with the cross-validated model MAEs of 0.297 eV/atom and 0.307 g/cm$^3$) confirms that the top of the ranking is stable: fluorapatite, oxyapatite, hydroxyapatite, and $\beta$-TCP sit in the top five in 86\%, 71\%, 67\%, and 56\% of runs, respectively, while tetracalcium phosphate (17\%), carbonated apatite (17\%), and calcium pyrophosphate (16\%) contest the fifth slot. A resorbability-weighted sensitivity analysis (Table~\ref{tab:resorb_rank}) re-ranks the eight shortlist compositions with literature solubility products converted to stoichiometric equilibrium solubilities $S$ on three criteria (stability, Ca/P proximity, resorbability) under three weighting scenarios: $\beta$-TCP and tetracalcium phosphate occupy the top two slots, monetite and oxyapatite follow, while hydroxyapatite and fluorapatite fall to the bottom, making the stability--resorbability trade-off quantitatively explicit. The top candidates after composition deduplication (polymorphs and formula multiples merged) are listed in Table~\ref{tab:top}. With the hull-based C1 and phase-level aggregation (Table~\ref{tab:top_q1}), the four apatitic phases again lead, and the ranking correlates with the deterministic record-level ranking (Spearman 0.75); $\beta$-TCP---order 4 under uncertainty propagation---sits outside the phase-level top 10, a difference the correlation quantifies rather than hides.
 
 \begin{table}[ht]
 \centering\small
-\caption{Q1 phase-level ranking (21 compositions; C1 = $E_\mathrm{hull}$, C2 = density band, C3 = Ca/P proximity; top 10 shown). Spearman vs the record-level ranking: 0.75.}
-\label{tab:top_q1}
-\begin{tabular}{lcccc}
-\toprule
-Formula & $E_\mathrm{hull}$ (eV/at) & $\rho$ (g/cm$^3$) & Ca/P & Rank \\
-\midrule
-Ca5P3O12F & 0.000 & 3.18 & 1.67 & 1 \\
-Ca5P3HO13 & 0.000 & 3.15 & 1.67 & 2 \\
-Ca10P6CO27 & 0.000 & 3.05 & 1.70 & 3 \\
-Ca10P6O25 & 0.007 & 3.13 & 1.67 & 4 \\
-Ca4P2O9 & 0.000 & 3.05 & 2.00 & 5 \\
-Ca8P6H12O29 & 0.016 & 2.69 & 1.33 & 6 \\
-CaPHO4 & 0.000 & 2.92 & 1.00 & 7 \\
-Ca2P2O7 & 0.000 & 3.02 & 1.00 & 8 \\
-Ca2P2H4O9 & 0.009 & 2.54 & 1.00 & 9 \\
-CaPH5O6 & 0.016 & 2.30 & 1.00 & 10 \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-
-
-\begin{table}[ht]
-\centering\small
-\caption{Top 15 candidate biomaterials (unique compositions after reduced-formula deduplication; charge-neutral calcium phosphates; average rank of TOPSIS and VIKOR across three weighting scenarios; lower rank is better).}
+\caption{Top 15 candidate compositions (reduced-formula groups; charge-neutral calcium phosphates) ordered by Monte Carlo median rank (3{,}000 runs; TOPSIS and VIKOR across three weighting scenarios with Dirichlet-sampled weights and ML-prediction noise; lower is better). $E_f$, $\rho$, and Ca/P are the consolidated-dataset record values of each composition's best-ranked record.}
 \label{tab:top}
-\begin{tabular}{lllcccc}
+\begin{tabular}{llclccc}
 \toprule
-Formula & Source & Family & Rank & E$_f$ (eV/at) & $\rho$ (g/cm$^3$) & Ca/P \\
+Formula & Family & Order & Median rank [p5--p95] & $E_f$ (eV/at) & $\rho$ (g/cm$^3$) & Ca/P \\
 \midrule
-Ca$_5$P$_3$O$_{12}$F & MP & fluorapatite & 1 & $-3.42$ & 3.10 & 1.67 \\
-Ca$_{10}$P$_6$O$_{25}$ & MP & oxyapatite & 2 & $-3.32$ & 2.98 & 1.67 \\
-Ca$_{10}$P$_6$CO$_{27}$ & MP & carbonated apatite & 3 & $-3.25$ & 3.05 & 1.67 \\
-Ca$_5$P$_3$HO$_{13}$ & MP & hydroxyapatite & 4 & $-3.22$ & 3.18 & 1.67 \\
-Ca$_3$(PO$_4$)$_2$ & MP & $\beta$-TCP & 5 & $-3.33$ & 2.78 & 1.50 \\
-Ca$_4$P$_2$O$_9$ & MP & TTCP & 6 & $-3.33$ & 3.08 & 2.00 \\
-Ca$_2$P$_2$O$_7$ & MP & Ca-pyrophosphate & 7 & $-3.21$ & 2.95 & 1.00 \\
-Ca$_8$P$_6$H$_{12}$O$_{29}$ & MP & OCP & 8 & $-2.62$ & 2.59 & 1.33 \\
-CaPHO$_4$ & MP & monetite (DCPA) & 9 & $-2.80$ & 2.95 & 1.00 \\
-Ca$_2$P$_2$H$_4$O$_9$ & MP & DCP-related hydrate & 10 & $-2.52$ & 2.48 & 1.00 \\
-Ca$_4$P$_6$O$_{19}$ & MP & calcium polyphosphate & 11 & $-3.07$ & 2.90 & 0.67 \\
-Ca$_2$P$_2$H$_8$O$_{11}$ & MP & DCP-related hydrate & 12 & $-2.19$ & 2.19 & 1.00 \\
-Ca(PO$_3$)$_2$ & MP & calcium metaphosphate & 13 & $-2.97$ & 2.87 & 0.50 \\
-CaPH$_5$O$_6$ & MP & brushite (DCPD) & 14 & $-2.08$ & 2.28 & 1.00 \\
-CaP$_2$H$_2$O$_7$ & MP & calcium dihydrogen pyrophosphate & 15 & $-2.58$ & 2.42 & 0.50 \\
+Ca$_5$P$_3$O$_{12}$F & fluorapatite & 1 & 2 [1--8] & -3.42 & 3.10 & 1.67 \\
+Ca$_{10}$P$_6$O$_{25}$ & oxyapatite & 2 & 3 [1--13] & -3.32 & 2.98 & 1.67 \\
+Ca$_5$P$_3$HO$_{13}$ & hydroxyapatite & 3 & 4 [1--13] & -3.22 & 3.18 & 1.67 \\
+Ca$_3$(PO$_4$)$_2$ & $\beta$-TCP & 4 & 5 [1--17] & -3.33 & 2.78 & 1.50 \\
+Ca$_4$P$_2$O$_9$ & TTCP & 5 & 16 [2--50] & -3.33 & 3.08 & 2.00 \\
+Ca$_2$P$_2$O$_7$ & Ca-pyrophosphate & 6 & 17 [2--76] & -3.21 & 2.95 & 1.00 \\
+Ca$_{10}$P$_6$CO$_{27}$ & carbonated apatite & 7 & 19 [2--72] & -3.25 & 3.05 & 1.67 \\
+CaPHO$_4$ & monetite (DCPA) & 8 & 41 [9--85] & -2.80 & 2.95 & 1.00 \\
+Ca$_2$P$_2$H$_4$O$_9$ & DCP-related hydrate & 9 & 65 [18--106] & -2.52 & 2.48 & 1.00 \\
+Ca$_4$P$_6$O$_{19}$ & calcium polyphosphate & 10 & 73 [17--121] & -3.07 & 2.90 & 0.67 \\
+Ca(PO$_3$)$_2$ & calcium metaphosphate & 11 & 77 [16--126] & -2.97 & 2.87 & 0.50 \\
+Ca$_8$P$_6$H$_{12}$O$_{29}$ & OCP & 12 & 78 [18--142] & -2.62 & 2.59 & 1.33 \\
+CaPH$_5$O$_6$ & brushite (DCPD) & 13 & 91 [30--143] & -2.08 & 2.28 & 1.00 \\
+CaP$_2$H$_2$O$_7$ & calcium dihydrogen pyrophosphate & 14 & 110 [37--136] & -2.58 & 2.42 & 0.50 \\
+CaP$_4$O$_{11}$ & calcium ultraphosphate & 15 & 114 [36--149] & -2.79 & 2.22 & 0.25 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
+
+
+
+
 \begin{table}[ht]
 \centering\small
-\caption{Resorbability-weighted re-ranking of the shortlist: three criteria (stability, Ca/P proximity, resorbability $= -\mathrm{p}K_\mathrm{sp}$) under three weighting scenarios (balanced; stability-dominant; resorbability-dominant). Only compositions with literature solubility products (25\,$^\circ$C) are included; the density-band criterion is non-discriminative on this shortlist and is dropped.}
+\caption{Q1 phase-level ranking (21 compositions; C1 = $E_\mathrm{hull}$; the C2 density-band and C3 Ca/P criteria use the phase-aggregated values; top 10 shown). Spearman vs the deterministic record-level ranking: 0.75.}
+\label{tab:top_q1}
+\begin{tabular}{lcc}
+\toprule
+Formula & $E_\mathrm{hull}$ (eV/at) & Rank \\
+\midrule
+Ca5P3O12F & 0.000 & 1 \\
+Ca5P3HO13 & 0.000 & 2 \\
+Ca10P6CO27 & 0.000 & 3 \\
+Ca10P6O25 & 0.007 & 4 \\
+Ca4P2O9 & 0.000 & 5 \\
+Ca8P6H12O29 & 0.016 & 6 \\
+CaPHO4 & 0.000 & 7 \\
+Ca2P2O7 & 0.000 & 8 \\
+Ca2P2H4O9 & 0.009 & 9 \\
+CaPH5O6 & 0.016 & 10 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}[ht]
+\centering\small
+\caption{Resorbability-weighted re-ranking of the shortlist: three criteria (stability, Ca/P proximity, resorbability = stoichiometric equilibrium solubility $S$; Table~\ref{tab:kelarutan}) under three weighting scenarios (balanced; stability-dominant; resorbability-dominant). Only compositions with literature solubility products (25\,$^\circ$C) are included; the density-band criterion is non-discriminative on this shortlist and is dropped.}
 \label{tab:resorb_rank}
 \begin{tabular}{llcccc}
 \toprule
-Formula & Family & Rank (Tab.~\ref{tab:top}) & Rank (+resorb.) & Ca/P & p$K_\mathrm{sp}$ \\
+Formula & Class & Order (Tab.~\ref{tab:top}) & Order (+resorb.) & Ca/P & $S$ (mol/L) \\
 \midrule
-Ca$_3$(PO$_4$)$_2$ & $\beta$-TCP & 5 & 1 & 1.50 & 28.9 \\
-Ca$_4$P$_2$O$_9$ & TTCP & 6 & 2 & 2.00 & 38.0 \\
-CaPHO$_4$ & monetite (DCPA) & 9 & 3 & 1.00 & 6.9 \\
-Ca$_{10}$P$_6$O$_{25}$ & oxyapatite & 2 & 4 & 1.67 & 116.8 \\
-CaPH$_5$O$_6$ & brushite (DCPD) & 14 & 5 & 1.00 & 6.6 \\
-Ca$_5$P$_3$O$_{12}$F & fluorapatite & 1 & 6 & 1.67 & 121.0 \\
-Ca$_5$P$_3$HO$_{13}$ & hydroxyapatite & 4 & 7 & 1.67 & 116.8 \\
-Ca$_8$P$_6$H$_{12}$O$_{29}$ & OCP & 8 & 8 & 1.33 & 96.6 \\
+Ca$_3$(PO$_4$)$_2$ & resorbable & 4 & 1 & 1.50 & $6.5\times10^{-7}$ \\
+Ca$_4$P$_2$O$_9$ & slowly resorbable & 5 & 2 & 2.00 & $1.4\times10^{-6}$ \\
+Ca$_{10}$P$_6$O$_{25}$ & apatite & 2 & 3 & 1.67 & $1.8\times10^{-8}$ \\
+CaPHO$_4$ & fast & 8 & 4 & 1.00 & $3.5\times10^{-4}$ \\
+Ca$_8$P$_6$H$_{12}$O$_{29}$ & fast in vivo & 12 & 5 & 1.33 & $2.0\times10^{-7}$ \\
+CaPH$_5$O$_6$ & fast & 13 & 6 & 1.00 & $5.1\times10^{-4}$ \\
+Ca$_5$P$_3$HO$_{13}$ & apatite & 3 & 7 & 1.67 & $3.0\times10^{-14}$ \\
+Ca$_5$P$_3$O$_{12}$F & apatite & 1 & 8 & 1.67 & $1.0\times10^{-14}$ \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\begin{table}[ht]
-\centering\small
-\caption{MACE-to-MP-GGA calibration: offset fitted on 489 Materials Project structures (nsites $\leq 200$); validation on the six Wagman/NBS benchmark phases and against the MP API hull.}
-\label{tab:kalibrasi}
-\begin{tabular}{lc}
-\toprule
-Quantity & Value \\
-\midrule
-Calibration set (MP structures) & 489 \\
-Median offset (eV/atom) & +0.086 \\
-Offset MAE (eV/atom) & 0.6723 \\
-Calibrated MAE vs Wagman/NBS (6 phases) & 0.3103 \\
-Hull cross-check vs MP API (MAE, eV/atom) & 0.0026 \\
-\bottomrule
-\end{tabular}
-\end{table}
 
-\subsection{Solubility screening}
-Table~\ref{tab:kelarutan} converts the literature solubility products to stoichiometric equilibrium solubilities, which are directly comparable across phases: brushite and monetite (S $\sim 10^{-4}$--$10^{-3}$ mol/L) are about ten orders of magnitude more soluble than hydroxyapatite and fluorapatite ($S \sim 10^{-14}$ mol/L), with $\alpha$/$\beta$-TCP, TTCP, and OCP in between---the quantitative basis for the stability--resorbability trade-off in Section 4.
+\subsection{Solubility screening}\label{sec:kelarutan}
+Table~\ref{tab:kelarutan} converts the literature solubility products to stoichiometric equilibrium solubilities, which are directly comparable across phases: brushite and monetite (S $\sim 10^{-4}$--$10^{-3}$ mol/L) are about ten orders of magnitude more soluble than hydroxyapatite and fluorapatite ($S \sim 10^{-14}$ mol/L), with $\alpha$/$\beta$-TCP, TTCP, and OCP in between---the quantitative basis for the stability--resorbability trade-off in Section~\ref{sec:diskusi}.
 
 \begin{table}[ht]
 \centering\small
@@ -273,7 +276,7 @@ Fluorapatite & 121.0 & 1.02e-14 & -14.0 \\
 \end{table}
 
 
-\subsection{Interpretability and experimental validation}
+\subsection{Interpretability and experimental validation}\label{sec:validasi}
 SHAP analysis (Fig.~\ref{fig:shap}) on the composition-only models identifies the phosphorus fraction and the Ca/P ratio as the dominant descriptors for both formation energy and density (confirmed by permutation importance, with the hydrogen fraction third); we caution that part of this importance reflects the separation of the phosphide and phosphate families rather than a mechanistic insight, consistent with the within-family results in Table~\ref{tab:ml}. For the density model, the SHAP contribution of Ca/P correlates negatively with Ca/P itself ($-0.43$): higher Ca/P pushes density predictions downward, a direction we do not overinterpret given the near-zero composition-only predictive power.
 
 \begin{figure}[ht]
@@ -330,7 +333,7 @@ MAE & & 0.094 & 0.253 & & & 0.114 \\
 \end{tabular}
 \end{table}
 
-\textbf{MLFF structural validation.} All five top candidates were relaxed with the universal machine-learning force field MACE-MP-0 (float64)~\cite{batatia2022}: four of five are essentially at their energy minimum (cell-volume change $+0.27\%$ fluorapatite, $+0.41\%$ oxyapatite, $+0.36\%$ carbonated apatite, $-0.39\%$ $\beta$-TCP; hydroxyapatite expands by $+4.3\%$---a genuine relaxation of the strained idealized input structure, reproduced almost exactly by DFT vc-relax (final volumes 547.6 vs.\ 547.7 \AA$^3$), not an MLFF artifact), and the single-crystal stiffness falls in a narrow band ($E = 204$--$220$ GPa, $K = 131$--$139$ GPa, $\nu \approx 0.23$--0.24; PBE-DFT: $E = 216.6$--$235.8$ GPa, $K = 134.7$--$143.7$ GPa, Table~\ref{tab:dft_elastik}), consistent with dense apatitic ceramics (MACE-MP-0 underpredicts every modulus consistently---Young's by 5.9--6.9\%, shear by 6.6--7.7\%, bulk by 2.6--3.5\%---while preserving the ordering of the five candidates). Applying Gibson--Ashby scaling, scaffolds fabricated from these candidates require roughly \textbf{70--79\% porosity} to match the 10--20 GPa modulus range of cortical bone---a concrete design specification for additive manufacturing.
+\textbf{MLFF structural validation.} All five top candidates were relaxed with the universal machine-learning force field MACE-MP-0 (float64)~\cite{batatia2022}: four of five are essentially at their energy minimum (cell-volume change $+0.27\%$ fluorapatite, $+0.41\%$ oxyapatite, $+0.36\%$ carbonated apatite, $-0.39\%$ $\beta$-TCP; hydroxyapatite expands by $+4.3\%$---reproduced almost exactly by DFT vc-relax (final volumes 547.6 vs.\ 547.7 \AA$^3$; $\rho = 3.05$ g/cm$^3$ vs.\ 3.16 experimental), a systematic overexpansion shared by both methods rather than an MLFF artifact (the input structure itself is consistent with experiment, $\rho = 3.18$ g/cm$^3$)), and the single-crystal stiffness falls in a narrow band ($E = 204$--$220$ GPa, $K = 131$--$139$ GPa, $\nu \approx 0.23$--0.24; PBE-DFT: $E = 216.6$--$235.8$ GPa, $K = 134.7$--$143.7$ GPa, Table~\ref{tab:dft_elastik}), consistent with dense apatitic ceramics (MACE-MP-0 underpredicts every modulus consistently---Young's by 5.9--6.9\%, shear by 6.6--7.7\%, bulk by 2.6--3.5\%---while preserving the ordering of the five candidates). Applying Gibson--Ashby scaling, scaffolds fabricated from these candidates require roughly \textbf{70--79\% porosity} to match the 10--20 GPa modulus range of cortical bone---a concrete design specification for additive manufacturing.
 
 
 \begin{table}[ht]
@@ -352,34 +355,36 @@ $\beta$-TCP & 216.6 / 203.9 & 5.9 & 134.7 / 131.2 & 87.9 / 82.1 & 0.232 / 0.241 
 
 
 %=============================================================
-\section{Discussion}
+\section{Discussion}\label{sec:diskusi}
 
-The ranking should be read for what it is. The criteria are deliberately limited to material-level quantities with full data coverage---stability, a density band covering all clinically processable calcium phosphate ceramics, and proximity of Ca/P to bone mineral---so the top ranks are apatitic \emph{by construction}, not by surprise. We therefore make no claim of ``rediscovering'' the clinical hierarchy: the framework screens and orders known composition space rather than discovering new phases. What the ranking does deliver is a principled, uncertainty-quantified ordering within that space: fluorapatite, oxyapatite, hydroxyapatite, and $\beta$-TCP occupy the top four with high Monte Carlo stability, and tetracalcium phosphate (rank 6) and monetite (rank 9)---the two setting components of the classic calcium phosphate cements---and octacalcium phosphate (rank 8) sit inside the shortlist; the tail (ranks 10--15) consists of acid and condensed calcium phosphates that rank poorly on stability. Biphasic calcium phosphate (BCP) is a composite of hydroxyapatite and $\beta$-TCP rather than a single phase; both constituents are present in the candidate pool. Fluorapatite is standard in dental restoratives, and TTCP is the setting component of clinical calcium phosphate cements.
+The ranking should be read for what it is. The criteria are deliberately limited to material-level quantities with full data coverage---stability, a density band covering all clinically processable calcium phosphate ceramics, and proximity of Ca/P to bone mineral---so the top ranks are apatitic \emph{by construction}, not by surprise. We therefore make no claim of ``rediscovering'' the clinical hierarchy: the framework screens and orders known composition space rather than discovering new phases. What the ranking does deliver is a principled, uncertainty-quantified ordering within that space: fluorapatite, oxyapatite, hydroxyapatite, and $\beta$-TCP occupy the top four with high Monte Carlo stability, and tetracalcium phosphate (order 5) and monetite (order 8)---the two setting components of the classic calcium phosphate cements---sit inside the shortlist; octacalcium phosphate (order 12) and the tail (orders 9--15) consist of acid and condensed calcium phosphates that rank poorly on stability. Biphasic calcium phosphate (BCP) is a composite of hydroxyapatite and $\beta$-TCP rather than a single phase; both constituents are present in the candidate pool. Fluorapatite is standard in dental restoratives, and TTCP is the setting component of clinical calcium phosphate cements.
 
-\textbf{Stability--resorbability trade-off.} Maximizing C1 (lowest formation energy) favors the least soluble phases, which is at odds with the resorbability a bone scaffold usually needs; the criteria themselves do not resolve this tension. Table~\ref{tab:resorb} overlays literature solubility products (negative decadic logarithm, p$K_\mathrm{sp}$, 25\,$^\circ$C) and degradation class~\cite{elliott1994,dorozhkin2009,wang2008} onto the clinically established shortlist phases. The order is instructive: brushite and monetite are orders of magnitude more soluble than octacalcium phosphate, which in turn degrades faster than the TCPs, while the apatites (hydroxyapatite, fluorapatite, oxyapatite) are essentially insoluble under physiological pH. A resorbable scaffold therefore argues for $\beta$-TCP or biphasic HA/$\beta$-TCP---the clinical standard---whereas fluorapatite and oxyapatite suit permanent or low-turnover applications. We present this trade-off explicitly rather than folding solubility into the MCDM, because a defensible solubility criterion requires values for the \emph{whole} candidate pool, which do not exist. The resorbability-weighted re-ranking (Table~\ref{tab:resorb_rank}) makes the trade-off quantitative: with resorbability as a criterion, $\beta$-TCP, tetracalcium phosphate, and monetite occupy the top three slots while the apatites fall to the bottom---consistent with the clinical role of $\beta$-TCP and monetite/TTCP-based cements as resorbable materials.
+\textbf{Stability--resorbability trade-off.} Maximizing C1 (lowest formation energy) favors the least soluble phases, which is at odds with the resorbability a bone scaffold usually needs; the criteria themselves do not resolve this tension. Table~\ref{tab:resorb} overlays stoichiometric equilibrium solubilities $S$ (mol/L at 25\,$^\circ$C, converted from literature p$K_\mathrm{sp}$; Table~\ref{tab:kelarutan}) and degradation class~\cite{elliott1994,dorozhkin2009,wang2008} onto the clinically established shortlist phases. The order is instructive: brushite and monetite are orders of magnitude more soluble than the TCPs and octacalcium phosphate, while the apatites (hydroxyapatite, fluorapatite, oxyapatite) are essentially insoluble under physiological pH. A resorbable scaffold therefore argues for $\beta$-TCP or biphasic HA/$\beta$-TCP---the clinical standard---whereas fluorapatite and oxyapatite suit permanent or low-turnover applications. We present this trade-off explicitly rather than folding solubility into the MCDM, because a defensible solubility criterion requires values for the \emph{whole} candidate pool, which do not exist. The resorbability-weighted re-ranking (Table~\ref{tab:resorb_rank}) makes the trade-off quantitative: with resorbability as a criterion, $\beta$-TCP and tetracalcium phosphate occupy the top two slots while hydroxyapatite and fluorapatite fall to the bottom---consistent with the clinical role of $\beta$-TCP and monetite/TTCP-based cements as resorbable materials.
+
 
 \begin{table}[ht]
 \centering\small
-\caption{Literature resorbability overlay for the clinically established shortlist phases (25\,$^\circ$C); p$K_\mathrm{sp}$ = negative decadic logarithm of the solubility product; degradation class after \cite{dorozhkin2009}.}
+\caption{Literature resorbability overlay for the clinically established shortlist phases (25\,$^\circ$C); $S$ = stoichiometric equilibrium solubility (mol/L) converted from literature p$K_\mathrm{sp}$ (Table~\ref{tab:kelarutan}); degradation class after \cite{dorozhkin2009}.}
 \label{tab:resorb}
 \begin{tabular}{lccll}
 \toprule
-Phase & p$K_\mathrm{sp}$ & Degradation class & Rank (Tab.~\ref{tab:top}) & Scaffold role \\
+Phase & $S$ (mol/L) & Degradation class & Order (Tab.~\ref{tab:top}) & Scaffold role \\
 \midrule
-Brushite (DCPD) & 6.59 & fast & 14 & resorbable cement precursor \\
-Monetite (DCPA) & 6.90 & fast & 9 & resorbable cement precursor \\
-OCP & 96.6 & fast in vivo & 8 & HA precursor, resorbable \\
-$\alpha$-TCP & 25.5 & resorbable & (same comp. as 5) & cement setting component \\
-$\beta$-TCP & 28.9 & resorbable & 5 & resorbable scaffold (clinical) \\
-TTCP & $\approx$38 & slowly resorbable & 6 & cement setting component \\
-Hydroxyapatite & 116.8 & essentially insoluble & 4 & permanent/low-turnover \\
-Fluorapatite & $\approx$121 & essentially insoluble & 1 & dental, low-turnover \\
-Oxyapatite & $\approx$HA & essentially insoluble & 2 & high-temperature apatite \\
+Brushite (DCPD) & $5.1\times10^{-4}$ & fast & 13 & resorbable cement precursor \\
+Monetite (DCPA) & $3.5\times10^{-4}$ & fast & 8 & resorbable cement precursor \\
+OCP & $2.0\times10^{-7}$ & fast in vivo & 12 & HA precursor, resorbable \\
+$\alpha$-TCP & $3.1\times10^{-6}$ & resorbable & (same comp. as 4) & cement setting component \\
+$\beta$-TCP & $6.5\times10^{-7}$ & resorbable & 4 & resorbable scaffold (clinical) \\
+TTCP & $1.4\times10^{-6}$ & slowly resorbable & 5 & cement setting component \\
+Hydroxyapatite & $3.0\times10^{-14}$ & essentially insoluble & 3 & permanent/low-turnover \\
+Fluorapatite & $1.0\times10^{-14}$ & essentially insoluble & 1 & dental, low-turnover \\
+Oxyapatite$^{a}$ & $1.8\times10^{-8}$ & essentially insoluble & 2 & high-temperature apatite \\
 \bottomrule
 \end{tabular}
+\vspace{2pt}\footnotesize $^{a}$No literature value; p$K_\mathrm{sp}$ assumed equal to hydroxyapatite (lower bound after \cite{elliott1994}).
 \end{table}
 
-Several limitations are worth noting, and we state them plainly because they bound what the framework can currently claim. \emph{Accuracy.} The honest composition-only models reach MAE 0.30 eV/atom (formation energy) and 0.31 g/cm$^3$ (density)---well behind graph-neural-network state of the art (CGCNN, MEGNet, M3GNet/CHGNet report MAE $\approx$ 0.03--0.1 eV/atom on benchmark sets~\cite{xie2018,chen2019,chen2022,deng2023}). Our contribution is therefore the auditable, leakage-resistant \emph{pipeline} rather than regression accuracy; upgrading the surrogate to a GNN or a universal MLFF is a straightforward next step that we leave to future work; our pretrained MACE-MP-0 baseline on the six benchmark phases (MAE 0.253 eV/atom, Table~\ref{tab:bench}) shows that a pretrained universal force field does not beat the database-trained composition surrogate on this narrow same-family benchmark---its advantage is generality across material space. Elaborating the composition features with 40 Magpie descriptor statistics leaves formation energy essentially unchanged ($R^2 \approx 0$) but lifts the density model to $R^2 = 0.27$--$0.31$, indicating that structure-governed properties benefit from descriptor statistics even where energy does not. \emph{Leakage controls.} Reduced-formula grouping, nested CV, and the four-DOF composition feature set are the leakage controls that define the reported scores; a further structural finding is that composition alone has no within-phosphate predictive power ($R^2<0$), which argues strongly for structure-aware surrogates. We report the conservative numbers throughout; our structure-informed attempt ($Q^n$, Ca coordination, SOAP) did not improve energy screening under grouped CV, so the framework's genuine ML contribution is the calibrated label screen and the uncertainty-quantified ranking rather than regression accuracy. \emph{Data.} Computed elastic moduli are scarce ($n=9$), which is why the modulus criterion (C4) is deliberately omitted rather than median-imputed (Methods); an MLFF (MACE-MP-0) pre-validation of the top five confirms candidate stability (four of five with $|dV| \leq 0.41\%$; hydroxyapatite $+4.3\%$, reproduced by DFT vc-relax to within 0.1\% of the MLFF final volume) and yields porosity design targets (70--79\%), while definitive DFT validation now closes that loop: PBE elastic constants place the five candidates' Young's moduli at 216.6--235.8 GPa, reproducing the MACE-MP-0 pre-validation within 5.9--6.9\% (Table~\ref{tab:dft_elastik}). The band gap is not predictable from composition descriptors ($R^2<0$). The dataset is source-biased (91.4\% same-source nearest neighbors); the ``external'' OQMD test is a same-composition cross-database transfer test rather than composition extrapolation, and the ranking uses absolute formation energies, which slightly penalizes AFLOW entries whose scale is offset by up to 0.8 eV/atom (a documented source artifact). The suitability label is a semi-deterministic function of its own features and is therefore neither reported as a predictive claim nor used as an MCDM criterion. \emph{Ranking.} The three manual weighting scenarios are subjective; we mitigate this with entropy weighting (Spearman 0.93, an internal consistency check) and with a 3{,}000-run Monte Carlo over Dirichlet-sampled weights and ML-prediction noise (MAEs 0.297 eV/atom and 0.307 g/cm$^3$): the top four compositions are stable (top-5 membership 56--86\%), the fifth slot is contested (17\% each for carbonated apatite and tetracalcium phosphate), and rank intervals are reported rather than hidden.
+Several limitations are worth noting, and we state them plainly because they bound what the framework can currently claim. \emph{Accuracy.} The honest composition-only models reach MAE 0.30 eV/atom (formation energy) and 0.31 g/cm$^3$ (density)---well behind graph-neural-network state of the art (CGCNN, MEGNet, M3GNet/CHGNet report MAE $\approx$ 0.03--0.1 eV/atom on benchmark sets~\cite{xie2018,chen2019,chen2022,deng2023}). Our contribution is therefore the auditable, leakage-resistant \emph{pipeline} rather than regression accuracy; upgrading the surrogate to a GNN or a universal MLFF is a straightforward next step that we leave to future work; our pretrained MACE-MP-0 baseline on the six benchmark phases (MAE 0.253 eV/atom, Table~\ref{tab:bench}) shows that a pretrained universal force field does not beat the database-trained composition surrogate on this narrow same-family benchmark---its advantage is generality across material space. Elaborating the composition features with 40 Magpie descriptor statistics leaves formation energy essentially unchanged ($R^2 \approx 0$) but lifts the density model to $R^2 = 0.27$--$0.31$, indicating that structure-governed properties benefit from descriptor statistics even where energy does not. \emph{Leakage controls.} Reduced-formula grouping, nested CV, and the four-DOF composition feature set are the leakage controls that define the reported scores; a further structural finding is that composition alone has no within-phosphate predictive power ($R^2<0$), which argues strongly for structure-aware surrogates. We report the conservative numbers throughout; our structure-informed attempt ($Q^n$, Ca coordination, SOAP) did not improve energy screening under grouped CV, so the framework's genuine ML contribution is the calibrated label screen and the uncertainty-quantified ranking rather than regression accuracy. \emph{Data.} Computed elastic moduli are scarce ($n=9$), which is why the modulus criterion (C4) is deliberately omitted rather than median-imputed (Methods); an MLFF (MACE-MP-0) pre-validation of the top five confirms candidate stability (four of five with $|dV| \leq 0.41\%$; hydroxyapatite $+4.3\%$, reproduced by DFT vc-relax---a shared systematic overexpansion of this phase rather than an artifact of either method) and yields porosity design targets (70--79\%), while definitive DFT validation now closes that loop: PBE elastic constants place the five candidates' Young's moduli at 216.6--235.8 GPa, reproducing the MACE-MP-0 pre-validation within 5.9--6.9\% (Table~\ref{tab:dft_elastik}). The band gap is not predictable from composition descriptors ($R^2<0$). The dataset is source-biased (91.4\% same-source nearest neighbors); the ``external'' OQMD test is a same-composition cross-database transfer test rather than composition extrapolation, and the ranking uses absolute formation energies, which slightly penalizes AFLOW entries whose scale is offset by up to 0.8 eV/atom (a documented source artifact). The suitability label is a semi-deterministic function of its own features and is therefore neither reported as a predictive claim nor used as an MCDM criterion. \emph{Ranking.} The three manual weighting scenarios are subjective; we mitigate this with entropy weighting (Spearman 0.93, an internal consistency check) and with a 3{,}000-run Monte Carlo over Dirichlet-sampled weights and ML-prediction noise (MAEs 0.297 eV/atom and 0.307 g/cm$^3$): the top four compositions are stable (top-5 membership 56--86\%), the fifth slot is contested (17\% tetracalcium phosphate, 17\% carbonated apatite, 16\% calcium pyrophosphate), and rank intervals are reported rather than hidden.
 
 From an engineering standpoint, the framework is fully replicable: pinned dependencies (requirements.txt), a single orchestrator (run\_all), a versioned dataset with SHA-256 checksums, and open-source Python tooling. It is readily transferable to other material systems, and points toward an AI-assisted biomaterial screening platform.
 
@@ -390,7 +395,7 @@ We developed an end-to-end, replicable Materials Informatics framework that inte
 
 %=============================================================
 \section*{Data availability}
-The consolidated dataset (2{,}885 entries, 950 unique compositions), the versioned snapshot with SHA-256 checksums, the DFT elastic-validation inputs and outputs (Quantum ESPRESSO input decks, stress tensors, and elastic constants of the five top candidates), and the complete pipeline source code are openly available at \url{https://github.com/soegianto-s/prgf2027-materials-informatics}; a citable Zenodo archive will be deposited upon acceptance (DOI to be inserted at the proof stage). The underlying data originate from the Materials Project (CC-BY 4.0), AFLOW, the Crystallography Open Database (CC0), PubChem (public domain), and OQMD, with access dates and licenses recorded per source.
+The consolidated dataset (2{,}885 entries, 950 unique compositions), the descriptor table, candidate ranking, per-stage reports, the DFT elastic-validation inputs and outputs (Quantum ESPRESSO input decks, stress tensors, and elastic constants of the five top candidates), and the complete pipeline source code are openly available at \url{https://github.com/soegianto-s/prgf2027-materials-informatics} (git-tracked; dataset snapshot with SHA-256 checksums). The underlying data originate from the Materials Project (CC-BY 4.0), AFLOW, the Crystallography Open Database (CC0), PubChem (public domain), and OQMD, with access dates and licenses recorded per source; AFLOW and OQMD require citation of their respective references.
 
 \section*{Acknowledgments}
 This work is supported by the Universitas Airlangga Research Group Grant (PRGF Discovery Research) through the Advanced Materials and Renewable Energy Conversion (AMREC) research group. The authors thank the Materials Project, AFLOW, COD, PubChem, and OQMD communities for open data.
@@ -401,18 +406,17 @@ This work is supported by the Universitas Airlangga Research Group Grant (PRGF D
 \section*{Declaration of competing interest}
 The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
 
-\section*{Data and code availability}
-The consolidated dataset, descriptor table, candidate ranking, per-stage reports, and all scripts are available in the project repository (git-tracked; dataset snapshot with SHA-256 checksums in data/versions/). The Materials Project subset is CC-BY 4.0; COD is CC0; AFLOW and OQMD data require citation of their respective references.
-
 \begin{thebibliography}{26}
 \bibitem{farag2023} Farag MM. Recent trends on biomaterials for tissue regeneration applications: review. \textit{J Mater Sci}. 2023;58:527--558.
-\bibitem{premananth2024} Prem Ananth K, Jayram ND. A comprehensive review of 3D printing techniques for biomaterial-based scaffold fabrication in bone tissue engineering. \textit{Ann 3D Print Med}. 2024;13:100141.
 \bibitem{vaiani2023} Vaiani L, Boccaccio A, Uva AE, et al. Ceramic materials for biomedical applications: an overview on properties and fabrication processes. \textit{J Funct Biomater}. 2023;14:146.
+\bibitem{premananth2024} Prem Ananth K, Jayram ND. A comprehensive review of 3D printing techniques for biomaterial-based scaffold fabrication in bone tissue engineering. \textit{Ann 3D Print Med}. 2024;13:100141.
 \bibitem{omigbodun2024} Omigbodun FT, Osa-Uwagboe N, Udu AG, Oladapo BI. Leveraging machine learning for optimized mechanical properties and 3D printing of PLA/cHAP for bone implant. \textit{Biomimetics}. 2024;9(10):587.
 \bibitem{zhu2025} Zhu S, Sun H, Mu T, Richel A. Research progress in 3D printed biobased and biodegradable polyester/ceramic composite materials. \textit{ACS Appl Mater Interfaces}. 2025;17(2):2791--2813.
 \bibitem{hou2026} Hou B, Yang X, Li Y, Wong RCW. Multiscale biomechanics-driven design pipelines for reconstructive bone scaffolds. \textit{npj Biol Phys Mech}. 2026;3(1).
 \bibitem{vasudev2026} Vasudev H, Mehta A. Advanced manufacturing of biomedical scaffolds: modeling, simulation and process optimization approaches. \textit{Glob Clin Eng J}. 2026;8(2):35--56.
 \bibitem{martelli2025} Martelli A, Bellucci D, Cannillo V. The role of artificial intelligence in biomaterials science: a review. \textit{Polymers (Basel)}. 2025;17(19):2668.
+\bibitem{logeshwaran2024} Logeshwaran A, Elsen R, Nayak S. Artificial intelligence-based 3D printing strategies for bone scaffold fabrication and its application in preclinical and clinical investigations. \textit{ACS Biomater Sci Eng}. 2024;10(2):677--696.
+\bibitem{gokcekuyu2024} Gokcekuyu Y, Ekinci F, Guzel MS, et al. Artificial intelligence in biomaterials: a comprehensive review. \textit{Appl Sci}. 2024;14:6590.
 \bibitem{ward2016} Ward L, Agrawal A, Choudhary A, Wolverton C. A general-purpose machine learning framework for predicting properties of inorganic materials. \textit{npj Comput Mater}. 2016;2:16028.
 \bibitem{ward2018} Ward L, Dunn A, Faghaninia A, et al. Matminer: an open source toolkit for materials data mining. \textit{Comput Mater Sci}. 2018;152:60--69.
 \bibitem{xie2018} Xie T, Grossman JC. Crystal graph convolutional neural networks for an accurate and interpretable prediction of material properties. \textit{Phys Rev Lett}. 2018;120:145301.
@@ -421,21 +425,19 @@ The consolidated dataset, descriptor table, candidate ranking, per-stage reports
 \bibitem{deng2023} Deng B, Zhong P, Jun K, et al. CHGNet as a pretrained universal neural network potential for charge-informed atomistic modelling. \textit{Nat Mach Intell}. 2023;5(9):1031--1041.
 \bibitem{ramprasad2017} Ramprasad R, Batra R, Pilania G, Mannodi-Kanakkithodi A, Kim C. Machine learning in materials informatics: recent applications and prospects. \textit{npj Comput Mater}. 2017;3:54.
 \bibitem{schmidt2019} Schmidt J, Marques MRG, Botti S, Marques MAL. Recent advances and applications of machine learning in solid-state materials science. \textit{npj Comput Mater}. 2019;5:83.
+\bibitem{jain2013} Jain A, Ong SP, Hautier G, et al. Commentary: The Materials Project: a materials genome approach to accelerating materials innovation. \textit{APL Mater}. 2013;1:011002.
+\bibitem{grazulis2009} Gra\v{z}ulis S, Chateigner D, Downs RT, et al. Crystallography Open Database --- an open-access collection of crystal structures. \textit{J Appl Crystallogr}. 2009;42:726--729.
+\bibitem{curtarolo2012} Curtarolo S, Setyawan W, Hart GLW, et al. AFLOW: an automatic framework for high-throughput materials discovery. \textit{Comput Mater Sci}. 2012;58:218--226.
+\bibitem{kirklin2015} Kirklin S, Saal JE, Meredig B, et al. The Open Quantum Materials Database (OQMD): assessing the accuracy of DFT formation energies. \textit{npj Comput Mater}. 2015;1:15010.
 \bibitem{batatia2022} Batatia I, Kovacs DP, Simm G, Ortner C, Cs\'anyi G. MACE: higher order equivariant message passing neural networks for fast and accurate force fields. \textit{Adv Neural Inf Process Syst}. 2022;35:11423--11436.
 \bibitem{ong2013} Ong SP, Richards WD, Jain A, et al. Python Materials Genomics (pymatgen): a robust, open-source Python library for materials analysis. \textit{Comput Mater Sci}. 2013;68:314--319.
 \bibitem{himanen2020} Himanen L, J\"ager MOJ, Morooka EV, et al. DScribe: library of descriptors for machine learning in materials science. \textit{Comput Phys Commun}. 2020;247:106949.
-\bibitem{giannozzi2009} Giannozzi P, Baroni S, Bonini N, et al. QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials. \textit{J Phys Condens Matter}. 2009;21(39):395502.
-\bibitem{logeshwaran2024} Logeshwaran A, Elsen R, Nayak S. Artificial intelligence-based 3D printing strategies for bone scaffold fabrication and its application in preclinical and clinical investigations. \textit{ACS Biomater Sci Eng}. 2024;10(2):677--696.
-\bibitem{gokcekuyu2024} Gokcekuyu Y, Ekinci F, Guzel MS, et al. Artificial intelligence in biomaterials: a comprehensive review. \textit{Appl Sci}. 2024;14:6590.
-\bibitem{jain2013} Jain A, Ong SP, Hautier G, et al. Commentary: The Materials Project: a materials genome approach to accelerating materials innovation. \textit{APL Mater}. 2013;1:011002.
-\bibitem{curtarolo2012} Curtarolo S, Setyawan W, Hart GLW, et al. AFLOW: an automatic framework for high-throughput materials discovery. \textit{Comput Mater Sci}. 2012;58:218--226.
-\bibitem{kirklin2015} Kirklin S, Saal JE, Meredig B, et al. The Open Quantum Materials Database (OQMD): assessing the accuracy of DFT formation energies. \textit{npj Comput Mater}. 2015;1:15010.
-\bibitem{grazulis2009} Gra\v{z}ulis S, Chateigner D, Downs RT, et al. Crystallography Open Database --- an open-access collection of crystal structures. \textit{J Appl Crystallogr}. 2009;42:726--729.
-\bibitem{mathew1977} Mathew M, Schroeder LW, Dickens B, Brown WE. The crystal structure of $\alpha$-Ca$_3$(PO$_4$)$_2$. \textit{Acta Crystallogr B}. 1977;33:1325--1333.
-\bibitem{dorozhkin2009} Dorozhkin SV. Calcium orthophosphates in nature, biology and medicine. \textit{Materials}. 2009;2(2):399--498.
-\bibitem{elliott1994} Elliott JC. Structure and Chemistry of the Apatites and Other Calcium Orthophosphates. Amsterdam: Elsevier; 1994.
-\bibitem{wang2008} Wang L, Nancollas GH. Calcium orthophosphates: crystallization and dissolution. \textit{Chem Rev}. 2008;108(11):4628--4669.
 \bibitem{lundberg2017} Lundberg SM, Lee S-I. A unified approach to interpreting model predictions. \textit{Adv Neural Inf Process Syst}. 2017;30.
+\bibitem{giannozzi2009} Giannozzi P, Baroni S, Bonini N, et al. QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials. \textit{J Phys Condens Matter}. 2009;21(39):395502.
+\bibitem{mathew1977} Mathew M, Schroeder LW, Dickens B, Brown WE. The crystal structure of $\alpha$-Ca$_3$(PO$_4$)$_2$. \textit{Acta Crystallogr B}. 1977;33:1325--1333.
+\bibitem{elliott1994} Elliott JC. Structure and Chemistry of the Apatites and Other Calcium Orthophosphates. Amsterdam: Elsevier; 1994.
+\bibitem{dorozhkin2009} Dorozhkin SV. Calcium orthophosphates in nature, biology and medicine. \textit{Materials}. 2009;2(2):399--498.
+\bibitem{wang2008} Wang L, Nancollas GH. Calcium orthophosphates: crystallization and dissolution. \textit{Chem Rev}. 2008;108(11):4628--4669.
 \end{thebibliography}
 
 \end{document}

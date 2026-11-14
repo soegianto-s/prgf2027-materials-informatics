@@ -1,0 +1,92 @@
+{
+  "rows": [
+    {
+      "formula": "Ca3(PO4)2",
+      "order_mc": 4,
+      "order_resorb_S": 1,
+      "E_f": -3.33,
+      "rho": 2.78,
+      "ca_p": 1.5,
+      "log10_S": -6.187,
+      "S_mol_L": 6.50601782631304e-07,
+      "pKsp": 28.9
+    },
+    {
+      "formula": "Ca4P2O9",
+      "order_mc": 5,
+      "order_resorb_S": 2,
+      "E_f": -3.33,
+      "rho": 3.08,
+      "ca_p": 2.0,
+      "log10_S": -5.859,
+      "S_mol_L": 1.3847957451526891e-06,
+      "pKsp": 38.0
+    },
+    {
+      "formula": "Ca10P6O25",
+      "order_mc": 2,
+      "order_resorb_S": 3,
+      "E_f": -3.32,
+      "rho": 2.98,
+      "ca_p": 1.67,
+      "log10_S": -7.733,
+      "S_mol_L": 1.847289036771592e-08,
+      "pKsp": 116.8
+    },
+    {
+      "formula": "CaPHO4",
+      "order_mc": 8,
+      "order_resorb_S": 4,
+      "E_f": -2.8,
+      "rho": 2.95,
+      "ca_p": 1.0,
+      "log10_S": -3.45,
+      "S_mol_L": 0.0003548133892335,
+      "pKsp": 6.9
+    },
+    {
+      "formula": "Ca8P6H12O29",
+      "order_mc": 12,
+      "order_resorb_S": 5,
+      "E_f": -2.62,
+      "rho": 2.59,
+      "ca_p": 1.33,
+      "log10_S": -6.692,
+      "S_mol_L": 2.030476852965309e-07,
+      "pKsp": 96.6
+    },
+    {
+      "formula": "CaPH5O6",
+      "order_mc": 13,
+      "order_resorb_S": 6,
+      "E_f": -2.08,
+      "rho": 2.28,
+      "ca_p": 1.0,
+      "log10_S": -3.295,
+      "S_mol_L": 0.0005069907082747,
+      "pKsp": 6.59
+    },
+    {
+      "formula": "Ca5P3HO13",
+      "order_mc": 3,
+      "order_resorb_S": 7,
+      "E_f": -3.22,
+      "rho": 3.18,
+      "ca_p": 1.67,
+      "log10_S": -13.525,
+      "S_mol_L": 2.9844556870470954e-14,
+      "pKsp": 116.8
+    },
+    {
+      "formula": "Ca5P3O12F",
+      "order_mc": 1,
+      "order_resorb_S": 8,
+      "E_f": -3.42,
+      "rho": 3.1,
+      "ca_p": 1.67,
+      "log10_S": -13.992,
+      "S_mol_L": 1.019056980521294e-14,
+      "pKsp": 121.0
+    }
+  ]
+}
